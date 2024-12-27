@@ -1,0 +1,64 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Parser from "rss-parser";
+
+const parser = new Parser();
+// You can replace this URL with any RSS feed URL
+const feed = await parser.parseURL(
+  "https://feeds.soundon.fm/podcasts/19c85078-347e-4921-9941-2b41d70bad9c.xml"
+);
+
+const episodes = feed.items.map((item) => ({
+  title: item.title,
+  date: new Date(item.pubDate).toLocaleDateString(),
+  description: item.contentSnippet,
+  link: item.link,
+  mp3: item.enclosure.url,
+  summary: item.itunes.summary,
+  episode: item.itunes.episode,
+  duration: item.itunes.duration,
+  image: item.itunes.image,
+}));
+---
+
+<Layout title="八百屋 Boys">
+  <main class="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold text-gray-900 mb-8 text-center">
+        {feed.title}
+      </h1>
+
+      <div class="space-y-6">
+        {
+          episodes.map((episode) => (
+            <article class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition-shadow">
+              <img
+                src={episode.image}
+                alt={episode.title}
+                class="w-24 rounded-lg mb-4"
+              />
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2">
+                {episode.title}
+              </h2>
+              <audio controls>
+                <source src={episode.mp3} type="audio/mpeg" class="w-full" />
+              </audio>
+              <div class="mt-4 flex items-center">
+                <span class="text-sm text-gray-500 mr-2">
+                  第 {episode.episode || "0"} 集
+                </span>
+              </div>
+              <p class="text-gray-600 line-clamp-3">{episode.description}</p>
+              <a
+                href={`/episodes/${episode.episode || "0"}`}
+                class="mt-4 inline-block text-indigo-600 hover:text-indigo-800 font-medium"
+              >
+                Listen to episode →
+              </a>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </main>
+</Layout>
