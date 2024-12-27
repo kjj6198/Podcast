@@ -4,18 +4,15 @@ import { glob } from "astro/loaders";
 
 const episodes = defineCollection({
   loader: glob({
-    pattern: "**/*.md",
-    base: "src/data/episodes",
+    pattern: "./src/data/episodes/*.md",
   }),
   schema: z.object({
     title: z.string(),
     date: z.string(),
-    description: z.string(),
     link: z.string(),
     mp3: z.string(),
-    summary: z.string(),
-    episode: z.string(),
-    duration: z.string(),
+    episode: z.number(),
+    duration: z.number(),
     image: z.string(),
   }),
 });

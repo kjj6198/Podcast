@@ -3,17 +3,14 @@ import Layout from "../layouts/Layout.astro";
 import Parser from "rss-parser";
 
 const parser = new Parser();
-// You can replace this URL with any RSS feed URL
-const feed = await parser.parseURL(
-  "https://feeds.soundon.fm/podcasts/19c85078-347e-4921-9941-2b41d70bad9c.xml"
-);
+const feed = await parser.parseURL(import.meta.env.RSS_FEED_URL);
 
 const episodes = feed.items.map((item) => ({
   title: item.title,
-  date: new Date(item.pubDate).toLocaleDateString(),
+  date: new Date(item.pubDate!!).toLocaleDateString(),
   description: item.contentSnippet,
   link: item.link,
-  mp3: item.enclosure.url,
+  mp3: item.enclosure?.url,
   summary: item.itunes.summary,
   episode: item.itunes.episode,
   duration: item.itunes.duration,
