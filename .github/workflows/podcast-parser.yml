@@ -1,0 +1,35 @@
+name: Podcast Parser
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Runs every Sunday at midnight UTC
+
+jobs:
+  parse_podcast:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install bun
+        run: |
+          curl -fsSL https://bun.sh/install | sh
+          echo "$HOME/.bun/bin" >> $GITHUB_PATH
+
+      - name: Install dependencies
+        run: |
+          bun install rss-parser
+
+      - name: Parse Podcast RSS Feed
+        id: parse_feed
+        run: |
+          bun run parsePodcast.js  # This script should handle the RSS feed parsing and file generation
+
+      - name: Commit new episodes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Add new podcast episodes" || echo "No changes to commit"
+          git push
