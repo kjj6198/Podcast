@@ -1,20 +1,35 @@
 ---
 interface Props {
   title: string;
+  description?: string;
+  image?: string;
 }
 
-const { title } = Astro.props;
+const { title, description, image } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="RSS Feed Reader" />
+    <meta
+      name="description"
+      content={description ||
+        "這是由兩個在日本的東京、福岡工作的30 代軟體工程師Kalan 與Mooly 所設立的Podcast，與你分享各種日本生活、職涯、科技、人生的大小事。"}
+    />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <meta name="generator" content={Astro.generator} />
+    <meta name="og:title" content={title} />
+    <meta name="og:type" content="website" />
+    <meta
+      name="og:description"
+      content={description ||
+        "這是由兩個在日本的東京、福岡工作的30 代軟體工程師Kalan 與Mooly 所設立的Podcast，與你分享各種日本生活、職涯、科技、人生的大小事。"}
+    />
+    <meta property="og:image" content={image} />
+    <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
     <main class="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
