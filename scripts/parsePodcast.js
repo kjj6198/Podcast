@@ -1,3 +1,6 @@
+/**
+ * This script is used to parse the RSS feed and generate the markdown files for each episode.
+ */
 import fs from "fs";
 import Parser from "rss-parser";
 
