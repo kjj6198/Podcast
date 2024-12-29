@@ -1,8 +1,8 @@
 /**
  * This script is used to parse the RSS feed and generate the markdown files for each episode.
  */
-import fs from "fs";
-import Parser from "rss-parser";
+const fs = require("fs");
+const Parser = require("rss-parser");
 
 const parser = new Parser();
 const RSS_FEED_URL = process.env.RSS_FEED_URL;
