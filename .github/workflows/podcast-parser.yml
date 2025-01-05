@@ -23,12 +23,11 @@ jobs:
       - name: Parse Podcast RSS Feed
         id: parse_feed
         run: |
-          node parsePodcast.js  # This script should handle the RSS feed parsing and file generation
+          node ./scripts/parsePodcast.js  # This script should handle the RSS feed parsing and file generation
 
       - name: Commit new episodes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Add new podcast episodes" || echo "No changes to commit"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit_message: "Update episodes"
+          file_pattern: "src/data/episodes/*.md"

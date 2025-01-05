@@ -1,8 +1,8 @@
 /**
  * This script is used to parse the RSS feed and generate the markdown files for each episode.
  */
-const fs = require("fs");
-const Parser = require("rss-parser");
+import fs from "fs";
+import Parser from "rss-parser";
 
 const parser = new Parser();
 const RSS_FEED_URL = process.env.RSS_FEED_URL;
@@ -45,7 +45,7 @@ async function main() {
   }
 
   for (const episode of episodes) {
-    if (!fs.existsSync(`${OUTPUT_DIR}/${episode.episode}.md`)) {
+    if (!fs.existsSync(`${OUTPUT_DIR}/${episode.episode || "0"}.md`)) {
       generateMarkdown(episode);
     }
   }
