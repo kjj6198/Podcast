@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+env:
+  RSS_FEED_URL: ${{ vars.RSS_FEED_URL }}
 
 jobs:
   parse_podcast:
