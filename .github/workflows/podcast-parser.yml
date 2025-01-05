@@ -7,6 +7,9 @@ on:
 env:
   RSS_FEED_URL: ${{ vars.RSS_FEED_URL }}
 
+permissions:
+  contents: write
+
 jobs:
   parse_podcast:
     runs-on: ubuntu-latest
