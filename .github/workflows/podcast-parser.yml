@@ -1,8 +1,9 @@
 name: Podcast Parser
 
 on:
-  schedule:
-    - cron: "0 0 * * 0" # Runs every Sunday at midnight UTC
+  push:
+    branches:
+      - main
 
 jobs:
   parse_podcast:
