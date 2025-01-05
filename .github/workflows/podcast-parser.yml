@@ -17,12 +17,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          bun install rss-parser
+          npm install rss-parser
 
       - name: Parse Podcast RSS Feed
         id: parse_feed
         run: |
-          bun run parsePodcast.js  # This script should handle the RSS feed parsing and file generation
+          node parsePodcast.js  # This script should handle the RSS feed parsing and file generation
 
       - name: Commit new episodes
         run: |
