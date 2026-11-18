@@ -2,6 +2,7 @@ import argparse
 import ctypes
 import importlib.util
 import json
+import os
 import re
 import subprocess
 import sys
@@ -13,7 +14,8 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ValidationError
+from typing import Literal
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / ".context" / "pipeline"
@@ -62,6 +64,20 @@ class Summary(BaseModel):
     chapters: list[Chapter] = Field(min_length=2, max_length=12)
 
 
+class SummaryReply(Summary):
+    speakers: dict[Literal["A", "B"], Literal["Kalan", "Mooly", "unknown"]]
+    evidence: str = ""
+
+
+class CorrectedLine(BaseModel):
+    id: int
+    text: str
+
+
+class CorrectionReply(BaseModel):
+    lines: list[CorrectedLine]
+
+
 class Transcript(BaseModel):
     episode: int
     speakers: list[str]
@@ -91,8 +107,9 @@ def cached(path: Path, build):
         return json.loads(path.read_text())
     path.parent.mkdir(parents=True, exist_ok=True)
     value = build()
-    path.with_suffix(".tmp").write_text(json.dumps(value, ensure_ascii=False, indent=1))
-    path.with_suffix(".tmp").rename(path)
+    temporary = path.with_suffix(f".{os.getpid()}.tmp")
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=1))
+    temporary.rename(path)
     return value
 
 
@@ -291,13 +308,17 @@ CORRECT_PROMPT = """你是台灣中文 Podcast 逐字稿校對編輯。節目是
 def correct(episode: Episode, lines: list[dict]) -> list[dict]:
     def fix(offset: int, chunk: list[dict]) -> list[str]:
         body = "\n".join(f"{offset + i}\t{line['text']}" for i, line in enumerate(chunk))
-        for _ in range(2):
+        expected = list(range(offset, offset + len(chunk)))
+        for _ in range(3):
             reply = ask_claude(CORRECT_PROMPT.format(title=episode.title, notes=episode.notes[:1200], lines=body))
-            texts = {int(item["id"]): item["text"].strip() for item in reply.get("lines", [])}
-            if all(offset + i in texts for i in range(len(chunk))):
-                return [texts[offset + i] or chunk[i]["text"] for i in range(len(chunk))]
-            print(f"  correction chunk {offset} missing ids, retrying", file=sys.stderr)
-        return [line["text"] for line in chunk]
+            try:
+                corrected = CorrectionReply.model_validate(reply).lines
+            except ValidationError:
+                corrected = []
+            if [line.id for line in corrected] == expected:
+                return [line.text.strip() or original["text"] for line, original in zip(corrected, chunk)]
+            print(f"  correction chunk {offset} returned wrong ids, retrying", file=sys.stderr)
+        raise RuntimeError(f"correction chunk {offset} failed")
 
     size = 60
     chunks = [(offset, lines[offset : offset + size]) for offset in range(0, len(lines), size)]
@@ -325,7 +346,13 @@ SUMMARY_PROMPT = """以下是 Podcast「八百屋 Boys」的逐字稿。主持�
 
 def summarize(episode: Episode, lines: list[dict]) -> dict:
     body = "\n".join(f"[{line['start']:.0f}] {line['speaker']}: {line['text']}" for line in lines)
-    return ask_claude(SUMMARY_PROMPT.format(title=episode.title, notes=episode.notes[:1200], lines=body))
+    for _ in range(3):
+        reply = ask_claude(SUMMARY_PROMPT.format(title=episode.title, notes=episode.notes[:1200], lines=body))
+        try:
+            return SummaryReply.model_validate(reply).model_dump()
+        except ValidationError as error:
+            print(f"  summary invalid, retrying: {error.errors()[:2]}", file=sys.stderr)
+    raise RuntimeError("summary failed validation")
 
 
 def name_speakers(numbers: list[int]) -> dict[int, dict[str, str]]:
@@ -342,9 +369,18 @@ def name_speakers(numbers: list[int]) -> dict[int, dict[str, str]]:
         for label, name in claims.items():
             if name in HOSTS and label in ("A", "B"):
                 votes["AB".index(label) ^ flips[n], HOSTS.index(name)] += 1
-    group_names = HOSTS if votes[0, 0] + votes[1, 1] >= votes[0, 1] + votes[1, 0] else HOSTS[::-1]
+    agree, disagree = votes[0, 0] + votes[1, 1], votes[0, 1] + votes[1, 0]
+    if agree == disagree:
+        raise RuntimeError(f"cannot tell the hosts apart, votes {votes.tolist()}")
+    group_names = HOSTS if agree > disagree else HOSTS[::-1]
     print(f"  speaker votes {votes.tolist()}, voice group 0 is {group_names[0]}", file=sys.stderr)
-    return {n: {"A": group_names[flips[n]], "B": group_names[not flips[n]]} for n in numbers}
+    names = {n: {"A": group_names[flips[n]], "B": group_names[not flips[n]]} for n in numbers}
+    for n in numbers:
+        claims = json.loads((CACHE / "summary" / f"{n}.json").read_text()).get("speakers", {})
+        conflicts = [label for label, name in claims.items() if name in HOSTS and names[n][label] != name]
+        if conflicts:
+            print(f"  EP{n}: summary names {claims} but voices say {names[n]}, check this episode", file=sys.stderr)
+    return names
 
 
 def export(episode: Episode, lines: list[dict], summary: dict, names: dict[str, str]) -> None:
@@ -374,11 +410,37 @@ def gpu_idle() -> bool:
 
 
 def claim(n: int) -> bool:
+    path = CACHE / "claims" / str(n)
+    path.parent.mkdir(parents=True, exist_ok=True)
     try:
-        (CACHE / "claims" / str(n)).mkdir(parents=True)
+        owner = int(path.read_text())
+        os.kill(owner, 0)
+        return owner == os.getpid()
+    except (FileNotFoundError, ValueError, ProcessLookupError):
+        path.unlink(missing_ok=True)
+    try:
+        with open(path, "x") as file:
+            file.write(str(os.getpid()))
         return True
     except FileExistsError:
         return False
+
+
+def process(episode: Episode, device: str) -> None:
+    n = episode.number
+    print(f"EP{n} {episode.title} on {device}", file=sys.stderr)
+    audio = None
+
+    def audio_once():
+        nonlocal audio
+        if audio is None:
+            audio = load_audio(episode)
+        return audio
+
+    asr = cached(CACHE / "asr" / f"{n}.json", lambda: transcribe(audio_once(), device))
+    speakers = cached(CACHE / "speakers" / f"{n}.json", lambda: diarize(audio_once(), asr))
+    corrected = cached(CACHE / "corrected" / f"{n}.json", lambda: correct(episode, speakers["lines"]))
+    cached(CACHE / "summary" / f"{n}.json", lambda: summarize(episode, corrected))
 
 
 def main():
@@ -389,31 +451,19 @@ def main():
 
     episodes = {e.number: e for e in read_feed()}
     for n in args.episodes or sorted(episodes, reverse=True):
-        episode = episodes[n]
-        if not (CACHE / "speakers" / f"{n}.json").exists():
-            while args.device == "cuda" and not (CACHE / "asr" / f"{n}.json").exists() and not gpu_idle():
-                print("  GPU busy, waiting", file=sys.stderr)
-                time.sleep(240)
-            if not claim(n):
-                continue
-        print(f"EP{n} {episode.title} on {args.device}", file=sys.stderr)
-        audio = None
-
-        def audio_once():
-            nonlocal audio
-            if audio is None:
-                audio = load_audio(episode)
-            return audio
-
+        if (CACHE / "summary" / f"{n}.json").exists():
+            continue
+        while args.device == "cuda" and not (CACHE / "asr" / f"{n}.json").exists() and not gpu_idle():
+            print("  GPU busy, waiting", file=sys.stderr)
+            time.sleep(240)
+        if not claim(n):
+            continue
         try:
-            asr = cached(CACHE / "asr" / f"{n}.json", lambda: transcribe(audio_once(), args.device))
-            speakers = cached(CACHE / "speakers" / f"{n}.json", lambda: diarize(audio_once(), asr))
-        except BaseException:
-            if (CACHE / "claims" / str(n)).exists():
-                (CACHE / "claims" / str(n)).rmdir()
-            raise
-        corrected = cached(CACHE / "corrected" / f"{n}.json", lambda: correct(episode, speakers["lines"]))
-        cached(CACHE / "summary" / f"{n}.json", lambda: summarize(episode, corrected))
+            process(episodes[n], args.device)
+        except Exception as error:
+            print(f"EP{n} failed: {error!r}", file=sys.stderr)
+        finally:
+            (CACHE / "claims" / str(n)).unlink(missing_ok=True)
 
     done = sorted(n for n in episodes if (CACHE / "summary" / f"{n}.json").exists())
     names = name_speakers(done)

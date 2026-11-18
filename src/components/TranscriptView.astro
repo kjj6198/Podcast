@@ -33,7 +33,7 @@ const { transcript } = Astro.props;
           </div>
           <p class="mt-1.5 leading-loose">
             {turn.lines.map((line) => (
-              <span data-line data-start={line.start} data-speaker={line.speaker} data-tone={speakerTone(transcript, line.speaker)} class="transcript-line">{line.text}</span>
+              <a href={`#t=${Math.floor(line.start)}`} data-line data-start={line.start} data-speaker={line.speaker} data-tone={speakerTone(transcript, line.speaker)} class="transcript-line">{line.text}</a>
             ))}
           </p>
         </section>
@@ -90,12 +90,20 @@ const { transcript } = Astro.props;
 
       const inView = (rect: DOMRect) => rect.bottom > 0 && rect.top < innerHeight;
 
+      let autoScrollUntil = 0;
+
       const reveal = (line: HTMLElement, force = false) => {
         if (!force && !inView(body.getBoundingClientRect())) return;
         const rect = line.getBoundingClientRect();
         const top = player.getBoundingClientRect().bottom + 24;
         if (!force && rect.top >= top && rect.bottom <= innerHeight * 0.75) return;
+        autoScrollUntil = performance.now() + 1000;
         scrollTo({ top: scrollY + rect.top - Math.max(top, innerHeight * 0.4), behavior: reduceMotion.matches ? "auto" : "smooth" });
+      };
+
+      const setFollowing = (value: boolean) => {
+        following = value;
+        followButton.hidden = following || audio.paused;
       };
 
       const update = () => {
@@ -115,41 +123,42 @@ const { transcript } = Astro.props;
         if (following && !audio.paused) reveal(line);
       };
 
-      const stopFollowing = () => {
-        if (audio.paused || !inView(body.getBoundingClientRect())) return;
-        following = false;
-        followButton.hidden = false;
-      };
-
       const seekTo = (time: number) => {
         audio.currentTime = time;
-        following = true;
-        followButton.hidden = true;
         if (audio.paused) document.querySelector<HTMLButtonElement>("audio-player [data-toggle]")?.click();
+        setFollowing(true);
         update();
       };
 
       audio.addEventListener("timeupdate", update);
       audio.addEventListener("play", () => {
-        following = true;
-        followButton.hidden = true;
+        const line = lines[Math.max(current, 0)];
+        setFollowing(following || inView(line.getBoundingClientRect()));
       });
-      audio.addEventListener("pause", () => (followButton.hidden = true));
-      addEventListener("wheel", stopFollowing, { passive: true });
-      addEventListener("touchmove", stopFollowing, { passive: true });
-      addEventListener("keydown", (event) => {
-        if (["ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End", " "].includes(event.key)) stopFollowing();
-      });
+      audio.addEventListener("pause", () => setFollowing(following));
+      addEventListener(
+        "scroll",
+        () => {
+          if (performance.now() > autoScrollUntil && inView(body.getBoundingClientRect())) setFollowing(false);
+        },
+        { passive: true },
+      );
       followButton.addEventListener("click", () => {
-        following = true;
-        followButton.hidden = true;
+        setFollowing(true);
         if (lines[current]) reveal(lines[current], true);
       });
       document.addEventListener("click", (event) => {
         const target = (event.target as HTMLElement).closest<HTMLElement>("[data-seek-to], [data-line]");
         if (!target) return;
+        event.preventDefault();
         seekTo(Number(target.dataset.seekTo ?? target.dataset.start));
       });
+      const linked = location.hash.match(/^#t=(\d+)$/);
+      if (linked) {
+        audio.currentTime = Number(linked[1]);
+        update();
+        reveal(lines[current], true);
+      }
     }
   }
 
