@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import AudioPlayer from "../components/AudioPlayer.astro";
 import EpisodeMeta from "../components/EpisodeMeta.astro";
+import ListenLinks from "../components/ListenLinks.astro";
 import { getShow } from "../lib/podcast";
 
 const show = await getShow();
@@ -17,6 +18,7 @@ const [latest, ...older] = show.episodes;
         <span class="font-semibold text-ink">Kalan</span> 與
         <span class="font-semibold text-ink">Mooly</span>，聊日本生活、職涯、科技與人生的大小事。
       </p>
+      <ListenLinks class="mt-8" />
     </div>
     <img src="/favicon.svg" alt="" width="240" height="240" class="mr-4 hidden w-60 md:block" />
   </section>

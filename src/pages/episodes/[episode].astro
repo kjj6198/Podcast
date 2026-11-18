@@ -1,5 +1,6 @@
 ---
 import { getCollection, render } from "astro:content";
+import { Icon } from "astro-icon/components";
 import Layout from "../../layouts/Layout.astro";
 import AudioPlayer from "../../components/AudioPlayer.astro";
 import EpisodeMeta from "../../components/EpisodeMeta.astro";
@@ -30,7 +31,10 @@ const Notes = notes && (await render(notes)).Content;
 
 <Layout title={`EP${episode.number} ${episode.title}｜${show.title}`} description={episode.summary.slice(0, 160)}>
   <article class="mx-auto max-w-3xl pt-6 sm:pt-10">
-    <a href="/" class="text-sm font-medium text-ink-muted hover:text-ink">← 所有集數</a>
+    <a href="/" class="inline-flex items-center gap-1.5 text-sm font-medium text-ink-muted hover:text-ink">
+      <Icon name="ri:arrow-left-line" class="size-4" aria-hidden="true" />
+      所有集數
+    </a>
 
     <header class="mt-8">
       <p class="text-sm font-semibold text-primary">EP{episode.number}</p>
@@ -50,7 +54,10 @@ const Notes = notes && (await render(notes)).Content;
       {
         older && (
           <a href={`/episodes/${older.number}`} class="episode-nav">
-            <span class="text-sm text-ink-muted">上一集，EP{older.number}</span>
+            <span class="inline-flex items-center gap-1.5 text-sm text-ink-muted">
+              <Icon name="ri:arrow-left-line" class="size-4" aria-hidden="true" />
+              上一集，EP{older.number}
+            </span>
             <span class="mt-1 block font-bold leading-snug">{older.title}</span>
           </a>
         )
@@ -58,7 +65,10 @@ const Notes = notes && (await render(notes)).Content;
       {
         newer && (
           <a href={`/episodes/${newer.number}`} class="episode-nav sm:col-start-2 sm:text-right">
-            <span class="text-sm text-ink-muted">下一集，EP{newer.number}</span>
+            <span class="inline-flex items-center gap-1.5 text-sm text-ink-muted">
+              下一集，EP{newer.number}
+              <Icon name="ri:arrow-right-line" class="size-4" aria-hidden="true" />
+            </span>
             <span class="mt-1 block font-bold leading-snug">{newer.title}</span>
           </a>
         )
