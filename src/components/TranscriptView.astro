@@ -1,0 +1,157 @@
+---
+import { Icon } from "astro-icon/components";
+import { formatTime } from "../lib/time";
+import { speakerTone, toTurns, type Transcript } from "../lib/transcript";
+
+interface Props {
+  transcript: Transcript;
+}
+
+const { transcript } = Astro.props;
+---
+
+<episode-transcript class="mt-14 block">
+  <h2 class="text-2xl font-bold tracking-tight">逐字稿</h2>
+  <button
+    type="button"
+    data-follow
+    hidden
+    class="fixed bottom-6 left-1/2 z-20 inline-flex h-11 -translate-x-1/2 items-center gap-2 rounded-full bg-ink px-5 text-sm font-semibold text-paper shadow-[0_12px_32px_-12px_oklch(0.32_0.026_196/0.6)] transition-colors duration-150 ease-out hover:bg-primary"
+  >
+    <Icon name="ri:focus-3-line" class="size-4" aria-hidden="true" />
+    回到目前段落
+  </button>
+  <div data-transcript class="mt-4 rounded-3xl border border-line bg-surface px-5 sm:px-6">
+    {
+      toTurns(transcript.lines).map((turn) => (
+        <section class="border-b border-line py-5 last:border-b-0">
+          <div class="flex items-baseline gap-3">
+            <span class:list={["text-sm font-bold", speakerTone(transcript, turn.speaker)]}>{turn.speaker}</span>
+            <button type="button" data-seek-to={turn.start} class="text-xs tabular-nums text-ink-muted hover:text-ink" aria-label={`從 ${formatTime(turn.start)} 播放`}>
+              {formatTime(turn.start)}
+            </button>
+          </div>
+          <p class="mt-1.5 leading-loose">
+            {turn.lines.map((line) => (
+              <span data-line data-start={line.start} data-speaker={line.speaker} data-tone={speakerTone(transcript, line.speaker)} class="transcript-line">{line.text}</span>
+            ))}
+          </p>
+        </section>
+      ))
+    }
+  </div>
+</episode-transcript>
+
+<style is:global>
+  .transcript-line {
+    cursor: pointer;
+    border-radius: 0.25rem;
+    box-decoration-break: clone;
+    transition: background-color 150ms ease-out;
+  }
+
+  .transcript-line:hover {
+    background-color: theme("colors.muted");
+  }
+
+  .transcript-line[aria-current="true"] {
+    background-color: color-mix(in oklab, theme("colors.coral") 24%, theme("colors.paper"));
+  }
+</style>
+
+<script>
+  class EpisodeTranscript extends HTMLElement {
+    connectedCallback() {
+      const audio = document.querySelector<HTMLAudioElement>("audio-player audio");
+      if (!audio) return;
+      const body = this.querySelector<HTMLElement>("[data-transcript]")!;
+      const player = document.querySelector<HTMLElement>("audio-player")!.parentElement!;
+      const followButton = this.querySelector<HTMLButtonElement>("[data-follow]")!;
+      const lines = [...this.querySelectorAll<HTMLElement>("[data-line]")];
+      const starts = lines.map((line) => Number(line.dataset.start));
+      const caption = document.querySelector<HTMLElement>("[data-caption]");
+      const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
+      let current = -1;
+      let following = true;
+
+      const indexAt = (time: number) => {
+        let low = 0;
+        let high = starts.length - 1;
+        let found = -1;
+        while (low <= high) {
+          const mid = (low + high) >> 1;
+          if (starts[mid] <= time) {
+            found = mid;
+            low = mid + 1;
+          } else high = mid - 1;
+        }
+        return found;
+      };
+
+      const inView = (rect: DOMRect) => rect.bottom > 0 && rect.top < innerHeight;
+
+      const reveal = (line: HTMLElement, force = false) => {
+        if (!force && !inView(body.getBoundingClientRect())) return;
+        const rect = line.getBoundingClientRect();
+        const top = player.getBoundingClientRect().bottom + 24;
+        if (!force && rect.top >= top && rect.bottom <= innerHeight * 0.75) return;
+        scrollTo({ top: scrollY + rect.top - Math.max(top, innerHeight * 0.4), behavior: reduceMotion.matches ? "auto" : "smooth" });
+      };
+
+      const update = () => {
+        const next = indexAt(audio.currentTime);
+        if (next === current) return;
+        lines[current]?.removeAttribute("aria-current");
+        current = next;
+        const line = lines[current];
+        if (!line) return;
+        line.setAttribute("aria-current", "true");
+        if (caption) {
+          caption.hidden = false;
+          caption.querySelector("[data-caption-speaker]")!.textContent = line.dataset.speaker!;
+          caption.querySelector("[data-caption-speaker]")!.className = `font-bold ${line.dataset.tone}`;
+          caption.querySelector("[data-caption-text]")!.textContent = line.textContent;
+        }
+        if (following && !audio.paused) reveal(line);
+      };
+
+      const stopFollowing = () => {
+        if (audio.paused || !inView(body.getBoundingClientRect())) return;
+        following = false;
+        followButton.hidden = false;
+      };
+
+      const seekTo = (time: number) => {
+        audio.currentTime = time;
+        following = true;
+        followButton.hidden = true;
+        if (audio.paused) document.querySelector<HTMLButtonElement>("audio-player [data-toggle]")?.click();
+        update();
+      };
+
+      audio.addEventListener("timeupdate", update);
+      audio.addEventListener("play", () => {
+        following = true;
+        followButton.hidden = true;
+      });
+      audio.addEventListener("pause", () => (followButton.hidden = true));
+      addEventListener("wheel", stopFollowing, { passive: true });
+      addEventListener("touchmove", stopFollowing, { passive: true });
+      addEventListener("keydown", (event) => {
+        if (["ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End", " "].includes(event.key)) stopFollowing();
+      });
+      followButton.addEventListener("click", () => {
+        following = true;
+        followButton.hidden = true;
+        if (lines[current]) reveal(lines[current], true);
+      });
+      document.addEventListener("click", (event) => {
+        const target = (event.target as HTMLElement).closest<HTMLElement>("[data-seek-to], [data-line]");
+        if (!target) return;
+        seekTo(Number(target.dataset.seekTo ?? target.dataset.start));
+      });
+    }
+  }
+
+  customElements.define("episode-transcript", EpisodeTranscript);
+</script>

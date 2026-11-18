@@ -1,0 +1,43 @@
+---
+import { formatTime } from "../lib/time";
+import type { Transcript } from "../lib/transcript";
+
+interface Props {
+  summary: Transcript["summary"];
+}
+
+const { summary } = Astro.props;
+---
+
+<section aria-labelledby="summary" class="mt-14">
+  <h2 id="summary" class="text-2xl font-bold tracking-tight">本集摘要</h2>
+  <p class="mt-4 leading-loose">{summary.overview}</p>
+  <ul class="mt-4 space-y-2 leading-relaxed">
+    {
+      summary.points.map((point) => (
+        <li class="flex gap-3">
+          <span class="mt-[0.6em] size-1.5 shrink-0 rounded-full bg-coral" aria-hidden="true" />
+          {point}
+        </li>
+      ))
+    }
+  </ul>
+
+  <h3 class="mt-10 text-sm font-semibold text-ink-muted">章節</h3>
+  <ol class="mt-3 divide-y divide-line border-y border-line">
+    {
+      summary.chapters.map((chapter) => (
+        <li>
+          <button
+            type="button"
+            data-seek-to={chapter.start}
+            class="group -mx-3 flex w-[calc(100%+1.5rem)] items-baseline gap-4 rounded-xl px-3 py-3 text-left transition-colors duration-150 ease-out hover:bg-surface"
+          >
+            <span class="w-12 shrink-0 text-sm tabular-nums text-ink-muted group-hover:text-primary">{formatTime(chapter.start)}</span>
+            <span class="font-medium">{chapter.title}</span>
+          </button>
+        </li>
+      ))
+    }
+  </ol>
+</section>

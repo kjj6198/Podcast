@@ -1,0 +1,3768 @@
+{
+ "episode": 14,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 延續上集的 AI 話題，先從 De-esser 對捲舌音的副作用閒聊起，接著討論 AI 時代是否還需要打好基礎、能否信任 AI 的產出。兩人也聊到 AI 垃圾文章與文章搬運、付費牆與開放網路的矛盾、翻譯與配音等正面應用，以及勞動與情感連結難以被取代的部分，最後談到模型觀點的影響與 AI 訓練資料的兩難。",
+  "points": [
+   "Mooly 認為只要最終仍需要人把關，reviewer 的能力就得比產出者好，所以基礎仍然必要。",
+   "Kalan 指出 AI 與人都無法做到確定性，探索、試錯的學習過程被 AI 省略是否是好事，他並不確定。",
+   "Kalan 期待 AI 完全取代寫程式，因為這能降低門檻，讓人人都能把想法做成產品，即使這可能與自己的職涯利益衝突。",
+   "兩人認為 AI 大幅降低了產出空洞文章的門檻，也讓文章改寫與搬運更容易，使創作者在開放分享與付費牆之間難以抉擇。",
+   "AI 在翻譯、逐字稿、多語配音，以及作為梳理想法的討論對象上帶來明顯好處。",
+   "勞動與情感連結目前較難被 AI 取代，但若 AI 作品好到讓人不在意來源，連這個答案也不那麼確定；Mooly 也擔心模型被植入觀點，以及 AI 未來只能學習 AI 生成的內容。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與 De-esser 閒聊"
+   },
+   {
+    "start": 159.0,
+    "title": "AI 還有什麼做不到？"
+   },
+   {
+    "start": 286.0,
+    "title": "還需要打基礎嗎？信任與把關"
+   },
+   {
+    "start": 680.0,
+    "title": "學程式的價值與期待 AI 取代"
+   },
+   {
+    "start": 928.0,
+    "title": "AI 垃圾文章與內容搬運"
+   },
+   {
+    "start": 1203.0,
+    "title": "付費牆與開放網路的兩難"
+   },
+   {
+    "start": 1366.0,
+    "title": "翻譯配音與梳理想法的好處"
+   },
+   {
+    "start": 1683.0,
+    "title": "難被取代的事與模型的隱憂"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.9,
+   "speaker": "Kalan",
+   "text": "哈囉，大家好，我是 Kalan。"
+  },
+  {
+   "start": 1.9,
+   "end": 2.9,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 3.56,
+   "end": 5.74,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 6.68,
+   "end": 12.86,
+   "speaker": "Kalan",
+   "text": "今天就延續一下我們上次聊的關於 AI 的東西喔。"
+  },
+  {
+   "start": 12.86,
+   "end": 19.16,
+   "speaker": "Kalan",
+   "text": "這次我們就想說，來聊聊看 AI 在軟體開發以外的應用。"
+  },
+  {
+   "start": 21.16,
+   "end": 23.06,
+   "speaker": "Kalan",
+   "text": "我想分享一件事。"
+  },
+  {
+   "start": 23.06,
+   "end": 26.76,
+   "speaker": "Kalan",
+   "text": "Podcast 我們錄完之後都會先剪，"
+  },
+  {
+   "start": 26.76,
+   "end": 28.4,
+   "speaker": "Kalan",
+   "text": "我這邊會先剪，"
+  },
+  {
+   "start": 28.98,
+   "end": 31.44,
+   "speaker": "Kalan",
+   "text": "然後我通常會用那個 De-esser，"
+  },
+  {
+   "start": 31.44,
+   "end": 37.4,
+   "speaker": "Kalan",
+   "text": "就是它是一個可以幫你去有點消除那種嘶嘶聲的感覺。"
+  },
+  {
+   "start": 37.4,
+   "end": 39.98,
+   "speaker": "Mooly",
+   "text": "消除雜音那種。"
+  },
+  {
+   "start": 40.78,
+   "end": 41.22,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 43.16,
+   "end": 46.26,
+   "speaker": "Kalan",
+   "text": "然後裡面的其中一個特定的，"
+  },
+  {
+   "start": 46.26,
+   "end": 50.56,
+   "speaker": "Kalan",
+   "text": "就是有時候會有那種嘶嘶聲、口水聲，那種它可以去，"
+  },
+  {
+   "start": 50.56,
+   "end": 54.84,
+   "speaker": "Kalan",
+   "text": "反正用了這一個效果之後，它可以把它去弱化這樣子。"
+  },
+  {
+   "start": 54.84,
+   "end": 56.1,
+   "speaker": "Kalan",
+   "text": "但我發現，"
+  },
+  {
+   "start": 56.1,
+   "end": 58.22,
+   "speaker": "Kalan",
+   "text": "它也會把捲舌音給弱化。"
+  },
+  {
+   "start": 58.94,
+   "end": 63.9,
+   "speaker": "Mooly",
+   "text": "就是那些聲音對它來說是一樣的東西，是不是？"
+  },
+  {
+   "start": 64.44,
+   "end": 71.04,
+   "speaker": "Kalan",
+   "text": "就比如說你原本發 sh 或者是 n 的音的話，"
+  },
+  {
+   "start": 71.04,
+   "end": 75.7,
+   "speaker": "Kalan",
+   "text": "你用這個 De-esser 給它套下去之後，"
+  },
+  {
+   "start": 75.7,
+   "end": 78.98,
+   "speaker": "Kalan",
+   "text": "你的 sh 的音可能會變成 s 的音，"
+  },
+  {
+   "start": 78.98,
+   "end": 84.16,
+   "speaker": "Kalan",
+   "text": "再加上原本台灣人捲舌音本來就比較弱化一點，"
+  },
+  {
+   "start": 84.16,
+   "end": 86.34,
+   "speaker": "Mooly",
+   "text": "再套下去就更弱化了，"
+  },
+  {
+   "start": 86.34,
+   "end": 88.9,
+   "speaker": "Mooly",
+   "text": "就會變成吃吃不分的那種感覺。"
+  },
+  {
+   "start": 90.54,
+   "end": 92.44,
+   "speaker": "Kalan",
+   "text": "然後再加上我本來有，"
+  },
+  {
+   "start": 92.44,
+   "end": 94.34,
+   "speaker": "Kalan",
+   "text": "就我現在有在戴牙套，"
+  },
+  {
+   "start": 95.46,
+   "end": 97.34,
+   "speaker": "Kalan",
+   "text": "所以套下來還蠻明顯的，"
+  },
+  {
+   "start": 97.34,
+   "end": 99.26,
+   "speaker": "Kalan",
+   "text": "所以我後來就沒有再套了。"
+  },
+  {
+   "start": 99.26,
+   "end": 103.96,
+   "speaker": "Mooly",
+   "text": "喔，後來就沒有去套這個效果讓它把那個聲音去消除。"
+  },
+  {
+   "start": 105.06,
+   "end": 107.68,
+   "speaker": "Mooly",
+   "text": "那我蠻好奇，愷愷有研究過這個，"
+  },
+  {
+   "start": 108.26,
+   "end": 111.24,
+   "speaker": "Mooly",
+   "text": "就是造成這個現象的原理是什麼嗎？"
+  },
+  {
+   "start": 111.24,
+   "end": 114.44,
+   "speaker": "Mooly",
+   "text": "是因為以"
+  },
+  {
+   "start": 115.08,
+   "end": 118.0,
+   "speaker": "Mooly",
+   "text": "聲波或什麼的角度，它們是一樣的，所以它，"
+  },
+  {
+   "start": 118.0,
+   "end": 118.6,
+   "speaker": "Kalan",
+   "text": "頻率，"
+  },
+  {
+   "start": 118.6,
+   "end": 122.78,
+   "speaker": "Kalan",
+   "text": "當然我不確定我的解析對不對，"
+  },
+  {
+   "start": 122.78,
+   "end": 123.1,
+   "speaker": "Kalan",
+   "text": "但是，"
+  },
+  {
+   "start": 125.22,
+   "end": 126.94,
+   "speaker": "Kalan",
+   "text": "因為假設是 sh 的音，"
+  },
+  {
+   "start": 126.94,
+   "end": 131.06,
+   "speaker": "Kalan",
+   "text": "那它可能是在某一個頻率範圍下面，"
+  },
+  {
+   "start": 131.66,
+   "end": 132.76,
+   "speaker": "Kalan",
+   "text": "有比較多，"
+  },
+  {
+   "start": 133.14,
+   "end": 134.58,
+   "speaker": "Kalan",
+   "text": "是有比較多成分在。"
+  },
+  {
+   "start": 134.58,
+   "end": 139.64,
+   "speaker": "Kalan",
+   "text": "然後 De-esser 的原理其實就是針對那一段的頻率去做消除，"
+  },
+  {
+   "start": 140.38,
+   "end": 142.82,
+   "speaker": "Kalan",
+   "text": "然後可能我們削減掉的就是那個，"
+  },
+  {
+   "start": 143.36,
+   "end": 144.04,
+   "speaker": "Kalan",
+   "text": "比如說，"
+  },
+  {
+   "start": 144.04,
+   "end": 149.44,
+   "speaker": "Kalan",
+   "text": "發 sh 裡面的那個部分最重要的部分，"
+  },
+  {
+   "start": 149.44,
+   "end": 150.92,
+   "speaker": "Kalan",
+   "text": "然後就變成 s 這樣子。"
+  },
+  {
+   "start": 151.56,
+   "end": 153.96,
+   "speaker": "Mooly",
+   "text": "聽起來似乎是有點道理。"
+  },
+  {
+   "start": 153.96,
+   "end": 154.62,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 154.62,
+   "end": 157.94,
+   "speaker": "Kalan",
+   "text": "那就是一個小閒聊。"
+  },
+  {
+   "start": 159.02,
+   "end": 166.36,
+   "speaker": "Kalan",
+   "text": "好，那我們上一次主要都是聊一些在程式上面的應用，"
+  },
+  {
+   "start": 167.08,
+   "end": 168.8,
+   "speaker": "Kalan",
+   "text": "就 AI 在程式上面的應用。"
+  },
+  {
+   "start": 168.8,
+   "end": 172.06,
+   "speaker": "Kalan",
+   "text": "那今天就主要來聊一下軟體開發以外的應用。"
+  },
+  {
+   "start": 173.26,
+   "end": 173.98,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 173.98,
+   "end": 175.4,
+   "speaker": "Kalan",
+   "text": "但我這邊其實，"
+  },
+  {
+   "start": 175.4,
+   "end": 177.34,
+   "speaker": "Kalan",
+   "text": "就是上次其實有想要說，"
+  },
+  {
+   "start": 178.0,
+   "end": 183.24,
+   "speaker": "Kalan",
+   "text": "我覺得其實寫程式很多部分是可以用 AI 取代的，"
+  },
+  {
+   "start": 183.24,
+   "end": 187.06,
+   "speaker": "Kalan",
+   "text": "或者是 AI 可以幫助到很多很多的，"
+  },
+  {
+   "start": 187.06,
+   "end": 191.78,
+   "speaker": "Kalan",
+   "text": "但不知道 Mooly 你這邊覺得，"
+  },
+  {
+   "start": 193.26,
+   "end": 193.98,
+   "speaker": "Kalan",
+   "text": "AI，"
+  },
+  {
+   "start": 196.26,
+   "end": 201.56,
+   "speaker": "Kalan",
+   "text": "不知道 Mooly 你覺得 AI 這邊有什麼事情是目前，"
+  },
+  {
+   "start": 201.56,
+   "end": 204.26,
+   "speaker": "Kalan",
+   "text": "AI 還很難做到的？"
+  },
+  {
+   "start": 204.26,
+   "end": 205.92,
+   "speaker": "Kalan",
+   "text": "或者是很難去取代，"
+  },
+  {
+   "start": 205.92,
+   "end": 207.9,
+   "speaker": "Mooly",
+   "text": "很難做到的嗎？"
+  },
+  {
+   "start": 209.38,
+   "end": 210.88,
+   "speaker": "Mooly",
+   "text": "我想一下喔。"
+  },
+  {
+   "start": 210.88,
+   "end": 213.7,
+   "speaker": "Mooly",
+   "text": "AI 還很難做到的喔？"
+  },
+  {
+   "start": 216.42,
+   "end": 219.0,
+   "speaker": "Mooly",
+   "text": "老實說我暫時還想不太到。"
+  },
+  {
+   "start": 219.0,
+   "end": 223.88,
+   "speaker": "Mooly",
+   "text": "畢竟最近的 AI 實在是有點太厲害了，"
+  },
+  {
+   "start": 224.6,
+   "end": 228.22,
+   "speaker": "Mooly",
+   "text": "感覺不論是各個領域的東西你都可以問它，"
+  },
+  {
+   "start": 228.22,
+   "end": 229.98,
+   "speaker": "Mooly",
+   "text": "再加上 AI，"
+  },
+  {
+   "start": 229.98,
+   "end": 234.54,
+   "speaker": "Mooly",
+   "text": "這幾年又進化之後，他可能幻覺也少了一點，"
+  },
+  {
+   "start": 234.54,
+   "end": 239.4,
+   "speaker": "Mooly",
+   "text": "然後不懂的東西也會開啟這個搜尋功能去網路上查，"
+  },
+  {
+   "start": 240.0,
+   "end": 240.48,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 241.16,
+   "end": 250.78,
+   "speaker": "Mooly",
+   "text": "如果你說原本就是跟網路、跟電腦有關的事情，是 AI 目前還做不到的東西的話，"
+  },
+  {
+   "start": 250.78,
+   "end": 253.68,
+   "speaker": "Mooly",
+   "text": "我其實目前真的還暫時想不太到。"
+  },
+  {
+   "start": 254.22,
+   "end": 255.24,
+   "speaker": "Kalan",
+   "text": "喔，了解。"
+  },
+  {
+   "start": 256.04,
+   "end": 256.86,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 257.38,
+   "end": 257.82,
+   "speaker": "Kalan",
+   "text": "然後，"
+  },
+  {
+   "start": 257.82,
+   "end": 259.66,
+   "speaker": "Kalan",
+   "text": "我那時候其實就有在想說，"
+  },
+  {
+   "start": 259.66,
+   "end": 264.22,
+   "speaker": "Kalan",
+   "text": "如果 AI 的效果已經這麼好的話，"
+  },
+  {
+   "start": 264.22,
+   "end": 268.52,
+   "speaker": "Kalan",
+   "text": "那像我們以前比較強調說，"
+  },
+  {
+   "start": 269.02,
+   "end": 271.46,
+   "speaker": "Kalan",
+   "text": "你如果要學這門技術好了，"
+  },
+  {
+   "start": 271.46,
+   "end": 273.76,
+   "speaker": "Kalan",
+   "text": "那你可能要先把基礎打好，"
+  },
+  {
+   "start": 274.58,
+   "end": 280.28,
+   "speaker": "Kalan",
+   "text": "那你覺得在 AI 開始變更加成熟了，"
+  },
+  {
+   "start": 280.28,
+   "end": 281.34,
+   "speaker": "Kalan",
+   "text": "或者是更加進步之後，"
+  },
+  {
+   "start": 281.34,
+   "end": 285.92,
+   "speaker": "Kalan",
+   "text": "這件事情還是很有必要性嗎？"
+  },
+  {
+   "start": 286.46,
+   "end": 287.66,
+   "speaker": "Mooly",
+   "text": "這個問得好。"
+  },
+  {
+   "start": 287.66,
+   "end": 288.3,
+   "speaker": "Mooly",
+   "text": "我覺得，"
+  },
+  {
+   "start": 289.1,
+   "end": 294.56,
+   "speaker": "Mooly",
+   "text": "感覺好像要看，嗯，或是說，"
+  },
+  {
+   "start": 295.16,
+   "end": 301.94,
+   "speaker": "Mooly",
+   "text": "到底 AI 的發展可以到哪一個地步。"
+  },
+  {
+   "start": 301.94,
+   "end": 302.68,
+   "speaker": "Mooly",
+   "text": "這樣說好了，"
+  },
+  {
+   "start": 302.68,
+   "end": 307.6,
+   "speaker": "Mooly",
+   "text": "我們是不是有一天可以完全信任 AI 給出來的東西？"
+  },
+  {
+   "start": 308.22,
+   "end": 309.32,
+   "speaker": "Mooly",
+   "text": "如果沒有辦法，"
+  },
+  {
+   "start": 309.32,
+   "end": 311.22,
+   "speaker": "Mooly",
+   "text": "最後如果還是要人去把關的話，"
+  },
+  {
+   "start": 312.4,
+   "end": 315.9,
+   "speaker": "Mooly",
+   "text": "理論上那個基礎就還是需要有的，"
+  },
+  {
+   "start": 315.9,
+   "end": 323.14,
+   "speaker": "Mooly",
+   "text": "因為你最後還是需要一個人手動去檢查 AI 產生出來的東西，因為你怕會有問題。"
+  },
+  {
+   "start": 323.66,
+   "end": 326.08,
+   "speaker": "Mooly",
+   "text": "所以既然你是擔任那個把關者的話，理論上，"
+  },
+  {
+   "start": 326.08,
+   "end": 327.62,
+   "speaker": "Mooly",
+   "text": "你擔任一個 reviewer，"
+  },
+  {
+   "start": 327.62,
+   "end": 331.1,
+   "speaker": "Mooly",
+   "text": "你需要有的知識或是你的基礎，"
+  },
+  {
+   "start": 331.1,
+   "end": 335.92,
+   "speaker": "Mooly",
+   "text": "你的能力應該要比產生出來東西的那個人好，"
+  },
+  {
+   "start": 335.92,
+   "end": 338.4,
+   "speaker": "Mooly",
+   "text": "你才有辦法找出他哪裡有問題。"
+  },
+  {
+   "start": 338.86,
+   "end": 340.74,
+   "speaker": "Mooly",
+   "text": "所以站在這個角度來看的話，"
+  },
+  {
+   "start": 340.74,
+   "end": 344.98,
+   "speaker": "Mooly",
+   "text": "我覺得那些基礎功的其實應該還是需要的。"
+  },
+  {
+   "start": 344.98,
+   "end": 346.82,
+   "speaker": "Mooly",
+   "text": "如果你沒有那些，比如說，舉，"
+  },
+  {
+   "start": 346.82,
+   "end": 350.14,
+   "speaker": "Mooly",
+   "text": "雖然今天這集是聊軟體開發以外的應用，但"
+  },
+  {
+   "start": 350.14,
+   "end": 353.56,
+   "speaker": "Mooly",
+   "text": "因為畢竟我們平常都是在軟體開發上用 AI，"
+  },
+  {
+   "start": 353.56,
+   "end": 355.04,
+   "speaker": "Mooly",
+   "text": "所以以這個來舉例的話，"
+  },
+  {
+   "start": 355.04,
+   "end": 356.2,
+   "speaker": "Mooly",
+   "text": "很多人可能，"
+  },
+  {
+   "start": 356.2,
+   "end": 357.9,
+   "speaker": "Mooly",
+   "text": "vibe coding 出來一個東西，"
+  },
+  {
+   "start": 357.9,
+   "end": 362.96,
+   "speaker": "Mooly",
+   "text": "或是他可能問 AI 說我要做什麼功能，最後寫出一些 code，"
+  },
+  {
+   "start": 362.96,
+   "end": 364.34,
+   "speaker": "Mooly",
+   "text": "但他可能也不知道那在幹嘛。"
+  },
+  {
+   "start": 364.86,
+   "end": 372.98,
+   "speaker": "Mooly",
+   "text": "但你如果是基礎好的，或者你會寫 code，一看就知道很多是根本沒有必要加進來的程式碼，"
+  },
+  {
+   "start": 372.98,
+   "end": 374.8,
+   "speaker": "Mooly",
+   "text": "但是 AI 幫你寫出來，你就用了，"
+  },
+  {
+   "start": 374.8,
+   "end": 378.78,
+   "speaker": "Mooly",
+   "text": "那這樣子就顯然不是一件好事。"
+  },
+  {
+   "start": 379.3,
+   "end": 379.58,
+   "speaker": "Kalan",
+   "text": "嗯。"
+  },
+  {
+   "start": 379.58,
+   "end": 380.76,
+   "speaker": "Kalan",
+   "text": "原來是這樣。"
+  },
+  {
+   "start": 382.06,
+   "end": 383.76,
+   "speaker": "Kalan",
+   "text": "想一下喔。"
+  },
+  {
+   "start": 383.76,
+   "end": 385.28,
+   "speaker": "Kalan",
+   "text": "嗯，我的，"
+  },
+  {
+   "start": 386.12,
+   "end": 388.9,
+   "speaker": "Kalan",
+   "text": "我覺得我的意見跟你蠻像的。"
+  },
+  {
+   "start": 388.9,
+   "end": 394.92,
+   "speaker": "Kalan",
+   "text": "喔，你剛好提到一個關鍵字，我覺得是蠻不錯的，就是信任，"
+  },
+  {
+   "start": 395.48,
+   "end": 400.34,
+   "speaker": "Kalan",
+   "text": "就我們什麼時候可以完全信任 AI 的產出。"
+  },
+  {
+   "start": 400.86,
+   "end": 404.02,
+   "speaker": "Kalan",
+   "text": "那這件事情老實說很難講嘛。"
+  },
+  {
+   "start": 406.16,
+   "end": 415.0,
+   "speaker": "Kalan",
+   "text": "至少以現在的 AI 的原理來說，它的核心還是你的 input 進去，"
+  },
+  {
+   "start": 416.12,
+   "end": 418.84,
+   "speaker": "Kalan",
+   "text": "它會去猜測下一次的機率這樣子。"
+  },
+  {
+   "start": 419.74,
+   "end": 424.94,
+   "speaker": "Kalan",
+   "text": "那對我來說，這件事情最大的局限就是我們沒辦法做到確定性。"
+  },
+  {
+   "start": 425.64,
+   "end": 430.24,
+   "speaker": "Kalan",
+   "text": "比如說你的一個人去寫了一個函數，"
+  },
+  {
+   "start": 430.74,
+   "end": 431.22,
+   "speaker": "Kalan",
+   "text": "但是，"
+  },
+  {
+   "start": 432.72,
+   "end": 437.86,
+   "speaker": "Kalan",
+   "text": "回歸到源頭，就是人寫的好像也不一定能做到確定性。"
+  },
+  {
+   "start": 440.02,
+   "end": 441.66,
+   "speaker": "Kalan",
+   "text": "突然想到。"
+  },
+  {
+   "start": 443.18,
+   "end": 445.7,
+   "speaker": "Mooly",
+   "text": "這個就是我剛本來想問你的，"
+  },
+  {
+   "start": 446.38,
+   "end": 450.8,
+   "speaker": "Mooly",
+   "text": "雖然我們都知道現在的 LLM 它原理是你，"
+  },
+  {
+   "start": 450.8,
+   "end": 454.22,
+   "speaker": "Mooly",
+   "text": "你剛講它可能猜測下一個字的機率這件事情，"
+  },
+  {
+   "start": 454.22,
+   "end": 456.24,
+   "speaker": "Mooly",
+   "text": "聽起來很不可靠，"
+  },
+  {
+   "start": 456.86,
+   "end": 460.92,
+   "speaker": "Mooly",
+   "text": "但是它出來的結果又這麼的令人難以置信。"
+  },
+  {
+   "start": 460.92,
+   "end": 463.88,
+   "speaker": "Mooly",
+   "text": "那所以我之前聽過有一種說法是，會不會"
+  },
+  {
+   "start": 463.88,
+   "end": 470.22,
+   "speaker": "Mooly",
+   "text": "它的這種訓練模型，反而其實就是人的一種思考方式嗎？"
+  },
+  {
+   "start": 470.22,
+   "end": 472.88,
+   "speaker": "Mooly",
+   "text": "人最底層的運作就是各個神經元，"
+  },
+  {
+   "start": 472.88,
+   "end": 482.06,
+   "speaker": "Mooly",
+   "text": "你可能給它一些參數，然後它最後出來的東西就會是對的，但你也不知道為什麼它會是對的，但反正它出來的結果就是對的這樣。"
+  },
+  {
+   "start": 482.6,
+   "end": 487.1,
+   "speaker": "Mooly",
+   "text": "就它其實是最接近人在思考時候的那種，"
+  },
+  {
+   "start": 488.96,
+   "end": 490.76,
+   "speaker": "Mooly",
+   "text": "以生理學的角度來看。"
+  },
+  {
+   "start": 490.76,
+   "end": 492.12,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 494.78,
+   "end": 496.36,
+   "speaker": "Kalan",
+   "text": "好，所以好像，"
+  },
+  {
+   "start": 497.26,
+   "end": 497.78,
+   "speaker": "Kalan",
+   "text": "對啊。"
+  },
+  {
+   "start": 497.78,
+   "end": 499.82,
+   "speaker": "Kalan",
+   "text": "既然 AI 就，"
+  },
+  {
+   "start": 500.66,
+   "end": 501.68,
+   "speaker": "Kalan",
+   "text": "怎麼說呢，"
+  },
+  {
+   "start": 501.68,
+   "end": 503.18,
+   "speaker": "Kalan",
+   "text": "AI 無法做到確定性，"
+  },
+  {
+   "start": 503.18,
+   "end": 503.92,
+   "speaker": "Kalan",
+   "text": "但是呢，"
+  },
+  {
+   "start": 503.92,
+   "end": 506.78,
+   "speaker": "Kalan",
+   "text": "很不幸的，人好像也沒辦法做到確定性，"
+  },
+  {
+   "start": 506.78,
+   "end": 509.44,
+   "speaker": "Mooly",
+   "text": "但你可能就可以比較信任那個人吧，"
+  },
+  {
+   "start": 509.44,
+   "end": 510.72,
+   "speaker": "Mooly",
+   "text": "因為你知道他是，"
+  },
+  {
+   "start": 511.18,
+   "end": 514.24,
+   "speaker": "Mooly",
+   "text": "就你可以相信他是有自主思考的能力的。"
+  },
+  {
+   "start": 514.9,
+   "end": 517.7,
+   "speaker": "Kalan",
+   "text": "這倒是，就是比如說我今天"
+  },
+  {
+   "start": 519.0,
+   "end": 526.04,
+   "speaker": "Kalan",
+   "text": "把工作交付給一個是信得過的人的話，那我可能也不會去管說所謂的確定性了，"
+  },
+  {
+   "start": 526.04,
+   "end": 532.34,
+   "speaker": "Mooly",
+   "text": "因為你相信他嘛，像他可以把事情做好，你就把事情給他，他怎麼做就怎麼做這樣子。"
+  },
+  {
+   "start": 532.34,
+   "end": 537.46,
+   "speaker": "Kalan",
+   "text": "然後我覺得 AI 一個帶來的蠻大的轉變就是，"
+  },
+  {
+   "start": 538.24,
+   "end": 544.66,
+   "speaker": "Kalan",
+   "text": "我們以前要把一門東西或者是一個技能學好，"
+  },
+  {
+   "start": 544.66,
+   "end": 550.06,
+   "speaker": "Kalan",
+   "text": "通常會包含幾個階段，像是探索、學習、"
+  },
+  {
+   "start": 550.06,
+   "end": 551.66,
+   "speaker": "Kalan",
+   "text": "然後試錯、"
+  },
+  {
+   "start": 551.66,
+   "end": 552.7,
+   "speaker": "Kalan",
+   "text": "出錯。"
+  },
+  {
+   "start": 553.3,
+   "end": 560.28,
+   "speaker": "Kalan",
+   "text": "但是在 AI 進步的情況下，我們很常直接把我們要的東西，"
+  },
+  {
+   "start": 560.28,
+   "end": 561.5,
+   "speaker": "Kalan",
+   "text": "然後問 AI，"
+  },
+  {
+   "start": 561.5,
+   "end": 562.86,
+   "speaker": "Kalan",
+   "text": "然後 AI 直接產出。"
+  },
+  {
+   "start": 562.86,
+   "end": 566.86,
+   "speaker": "Kalan",
+   "text": "那以目前的流程來講，"
+  },
+  {
+   "start": 566.86,
+   "end": 568.9,
+   "speaker": "Kalan",
+   "text": "我不確定這樣是不是一件好事，"
+  },
+  {
+   "start": 568.9,
+   "end": 572.36,
+   "speaker": "Kalan",
+   "text": "就是把這些過程省略之後，"
+  },
+  {
+   "start": 572.94,
+   "end": 574.62,
+   "speaker": "Mooly",
+   "text": "因為現在其實都靠，"
+  },
+  {
+   "start": 574.62,
+   "end": 576.66,
+   "speaker": "Mooly",
+   "text": "剛剛那些流程都靠 AI 嘛。"
+  },
+  {
+   "start": 576.66,
+   "end": 578.48,
+   "speaker": "Mooly",
+   "text": "就比如說你跟 AI 講說要做什麼，AI"
+  },
+  {
+   "start": 578.48,
+   "end": 580.78,
+   "speaker": "Mooly",
+   "text": "做完之後如果不對，你甚至"
+  },
+  {
+   "start": 580.78,
+   "end": 584.42,
+   "speaker": "Mooly",
+   "text": "意外上點一個按鈕，它就會自己把錯誤訊息或什麼，然後再"
+  },
+  {
+   "start": 584.96,
+   "end": 588.66,
+   "speaker": "Mooly",
+   "text": "再反饋給 AI，然後 AI 就再繼續改。"
+  },
+  {
+   "start": 588.66,
+   "end": 590.98,
+   "speaker": "Kalan",
+   "text": "以前是你去找錯了，"
+  },
+  {
+   "start": 590.98,
+   "end": 593.98,
+   "speaker": "Kalan",
+   "text": "現在是請你跟我講哪邊錯了，"
+  },
+  {
+   "start": 594.54,
+   "end": 596.3,
+   "speaker": "Kalan",
+   "text": "找出來，請你自己改這樣子。"
+  },
+  {
+   "start": 596.98,
+   "end": 600.28,
+   "speaker": "Mooly",
+   "text": "AI 幫你找錯，AI 幫你修，全部都有靠 AI 這樣子。"
+  },
+  {
+   "start": 600.88,
+   "end": 601.38,
+   "speaker": "Mooly",
+   "text": "這個，"
+  },
+  {
+   "start": 603.44,
+   "end": 606.38,
+   "speaker": "Mooly",
+   "text": "我覺得好像還是也跟剛剛那個話題有關，"
+  },
+  {
+   "start": 606.92,
+   "end": 609.3,
+   "speaker": "Mooly",
+   "text": "它是不是一件好事，會取決於"
+  },
+  {
+   "start": 610.02,
+   "end": 615.36,
+   "speaker": "Mooly",
+   "text": "最後到底能不能由 AI 完全取代人類去做這件事情。"
+  },
+  {
+   "start": 615.36,
+   "end": 617.38,
+   "speaker": "Mooly",
+   "text": "假設如果可以的話，"
+  },
+  {
+   "start": 617.83,
+   "end": 620.9,
+   "speaker": "Mooly",
+   "text": "那代表說其實你也不需要去學習了，"
+  },
+  {
+   "start": 620.9,
+   "end": 627.6,
+   "speaker": "Mooly",
+   "text": "你也不需要去學怎麼找錯，去學怎麼 debug，怎麼出錯。"
+  },
+  {
+   "start": 627.6,
+   "end": 629.66,
+   "speaker": "Mooly",
+   "text": "因為 AI 可以幫你做到這些事情，"
+  },
+  {
+   "start": 629.66,
+   "end": 631.78,
+   "speaker": "Mooly",
+   "text": "所以你甚至都不需要學了，"
+  },
+  {
+   "start": 631.78,
+   "end": 633.5,
+   "speaker": "Mooly",
+   "text": "因為 AI 的都是對的。"
+  },
+  {
+   "start": 633.5,
+   "end": 639.36,
+   "speaker": "Mooly",
+   "text": "但如果最終你還是沒有辦法相信 AI 的產出，你還是要有個人去 review 的話，那"
+  },
+  {
+   "start": 639.82,
+   "end": 643.94,
+   "speaker": "Mooly",
+   "text": "實際上那個人會需要去做到這件事情，"
+  },
+  {
+   "start": 644.4,
+   "end": 647.12,
+   "speaker": "Mooly",
+   "text": "那他需要去做到這件事情，他必須要有經驗的累積，"
+  },
+  {
+   "start": 647.12,
+   "end": 652.14,
+   "speaker": "Mooly",
+   "text": "那他有經驗累積，就代表說他必須之前要有跑過那個流程，知道"
+  },
+  {
+   "start": 652.88,
+   "end": 655.96,
+   "speaker": "Mooly",
+   "text": "這個學習的過程是長什麼樣子，有真的去學習過。"
+  },
+  {
+   "start": 655.96,
+   "end": 657.52,
+   "speaker": "Mooly",
+   "text": "但當然它又是一個"
+  },
+  {
+   "start": 659.66,
+   "end": 661.68,
+   "speaker": "Mooly",
+   "text": "一個很有趣的東西是，"
+  },
+  {
+   "start": 661.68,
+   "end": 662.54,
+   "speaker": "Mooly",
+   "text": "當今天"
+  },
+  {
+   "start": 662.54,
+   "end": 664.18,
+   "speaker": "Mooly",
+   "text": "之前有人提過，比如說當今天"
+  },
+  {
+   "start": 665.34,
+   "end": 671.04,
+   "speaker": "Mooly",
+   "text": "比較剛進來的人，或是 junior 的人，他們都用 AI 去取代這些事情之後，"
+  },
+  {
+   "start": 671.04,
+   "end": 673.62,
+   "speaker": "Mooly",
+   "text": "那是不是會越來越少"
+  },
+  {
+   "start": 673.62,
+   "end": 679.24,
+   "speaker": "Mooly",
+   "text": "可以成為 senior 的人，去有能力做到這些事情？"
+  },
+  {
+   "start": 680.12,
+   "end": 683.7,
+   "speaker": "Kalan",
+   "text": "剛剛講的這個，的確會想到，"
+  },
+  {
+   "start": 683.7,
+   "end": 686.08,
+   "speaker": "Kalan",
+   "text": "那這樣講的話，是不是在"
+  },
+  {
+   "start": 687.04,
+   "end": 688.48,
+   "speaker": "Kalan",
+   "text": "現在這樣的發展下，"
+  },
+  {
+   "start": 688.48,
+   "end": 694.12,
+   "speaker": "Kalan",
+   "text": "其實寫程式會變得是一件 CP 值越來越低的事情？"
+  },
+  {
+   "start": 694.12,
+   "end": 697.32,
+   "speaker": "Mooly",
+   "text": "你指的寫程式是人去寫，還是你就是"
+  },
+  {
+   "start": 697.32,
+   "end": 699.76,
+   "speaker": "Mooly",
+   "text": "泛指說就是寫一個東西出來，"
+  },
+  {
+   "start": 699.76,
+   "end": 701.08,
+   "speaker": "Mooly",
+   "text": "不管你有沒有用 AI？"
+  },
+  {
+   "start": 701.08,
+   "end": 702.82,
+   "speaker": "Kalan",
+   "text": "人去學程式這件事。"
+  },
+  {
+   "start": 702.82,
+   "end": 704.18,
+   "speaker": "Mooly",
+   "text": "人去學程式嗎？"
+  },
+  {
+   "start": 704.58,
+   "end": 707.1,
+   "speaker": "Mooly",
+   "text": "以現在的風向來說，我覺得確實"
+  },
+  {
+   "start": 707.1,
+   "end": 708.88,
+   "speaker": "Mooly",
+   "text": "有些人是這樣想的，覺得"
+  },
+  {
+   "start": 709.68,
+   "end": 714.22,
+   "speaker": "Mooly",
+   "text": "像我有些同事也是，他們抱持的概念就是"
+  },
+  {
+   "start": 714.22,
+   "end": 715.46,
+   "speaker": "Mooly",
+   "text": "軟體工程師在"
+  },
+  {
+   "start": 716.06,
+   "end": 720.86,
+   "speaker": "Mooly",
+   "text": "ChatGPT 或是從 Copilot 出來的那一剎那，就決定了它的末路，"
+  },
+  {
+   "start": 720.86,
+   "end": 724.46,
+   "speaker": "Mooly",
+   "text": "就是它一定會逐漸被淘汰，"
+  },
+  {
+   "start": 724.46,
+   "end": 725.86,
+   "speaker": "Mooly",
+   "text": "整個被 AI 取代。"
+  },
+  {
+   "start": 725.86,
+   "end": 727.48,
+   "speaker": "Mooly",
+   "text": "我有些同事是這樣想的，"
+  },
+  {
+   "start": 727.48,
+   "end": 731.18,
+   "speaker": "Mooly",
+   "text": "他們是抱持著這個 AI 取代說這樣子。"
+  },
+  {
+   "start": 731.7,
+   "end": 733.1,
+   "speaker": "Mooly",
+   "text": "但也有些人，"
+  },
+  {
+   "start": 733.1,
+   "end": 737.48,
+   "speaker": "Mooly",
+   "text": "比如說我有另外一些同事，他們是覺得 AI 不可能完全做到這件事情，"
+  },
+  {
+   "start": 737.48,
+   "end": 741.64,
+   "speaker": "Mooly",
+   "text": "他們抱持著我剛剛比較像是這個 AI 協作說，"
+  },
+  {
+   "start": 741.64,
+   "end": 744.62,
+   "speaker": "Mooly",
+   "text": "你還是要跟 AI 一起協作，不能由 AI 完全取代。"
+  },
+  {
+   "start": 744.62,
+   "end": 745.34,
+   "speaker": "Mooly",
+   "text": "所以"
+  },
+  {
+   "start": 745.88,
+   "end": 751.22,
+   "speaker": "Mooly",
+   "text": "學程式這件事情還有沒有價值，可能會根據你這兩個的"
+  },
+  {
+   "start": 752.38,
+   "end": 754.28,
+   "speaker": "Mooly",
+   "text": "你相信哪一個道路，"
+  },
+  {
+   "start": 754.28,
+   "end": 755.5,
+   "speaker": "Mooly",
+   "text": "哪一個學說的人，"
+  },
+  {
+   "start": 755.5,
+   "end": 757.44,
+   "speaker": "Mooly",
+   "text": "它可能會影響到你的判斷。"
+  },
+  {
+   "start": 757.44,
+   "end": 758.2,
+   "speaker": "Mooly",
+   "text": "但是"
+  },
+  {
+   "start": 758.76,
+   "end": 764.66,
+   "speaker": "Mooly",
+   "text": "比如說，如果對新鮮人來說的話，可能確實"
+  },
+  {
+   "start": 765.24,
+   "end": 766.12,
+   "speaker": "Mooly",
+   "text": "有可能"
+  },
+  {
+   "start": 766.7,
+   "end": 769.92,
+   "speaker": "Mooly",
+   "text": "它至少能確定的是，"
+  },
+  {
+   "start": 770.42,
+   "end": 772.76,
+   "speaker": "Mooly",
+   "text": "你投入得到的回報不會有之前那麼高。"
+  },
+  {
+   "start": 773.5,
+   "end": 773.98,
+   "speaker": "Mooly",
+   "text": "喔。"
+  },
+  {
+   "start": 773.98,
+   "end": 774.66,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 775.36,
+   "end": 776.22,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 777.38,
+   "end": 778.44,
+   "speaker": "Kalan",
+   "text": "我的想法"
+  },
+  {
+   "start": 779.08,
+   "end": 780.78,
+   "speaker": "Kalan",
+   "text": "能不能做到完全取代，"
+  },
+  {
+   "start": 780.78,
+   "end": 782.0,
+   "speaker": "Kalan",
+   "text": "這件事情很難說，"
+  },
+  {
+   "start": 782.0,
+   "end": 785.18,
+   "speaker": "Kalan",
+   "text": "所以你當然就只有你有一個願景這樣子。"
+  },
+  {
+   "start": 786.22,
+   "end": 789.74,
+   "speaker": "Kalan",
+   "text": "那如果可以的話，我當然是希望做到全部取代，"
+  },
+  {
+   "start": 789.74,
+   "end": 791.96,
+   "speaker": "Kalan",
+   "text": "至少以現在是這件事情來說，"
+  },
+  {
+   "start": 793.3,
+   "end": 795.38,
+   "speaker": "Kalan",
+   "text": "但它畢竟是一個願景，"
+  },
+  {
+   "start": 795.38,
+   "end": 796.9,
+   "speaker": "Kalan",
+   "text": "會不會做得到，我們不知道。"
+  },
+  {
+   "start": 797.9,
+   "end": 801.0,
+   "speaker": "Mooly",
+   "text": "所以你是期待 AI 完全取代的？"
+  },
+  {
+   "start": 801.92,
+   "end": 804.18,
+   "speaker": "Kalan",
+   "text": "我是期待 AI 完全取代的。"
+  },
+  {
+   "start": 804.18,
+   "end": 807.54,
+   "speaker": "Mooly",
+   "text": "儘管這樣可能會讓你身為一個軟體工程師，"
+  },
+  {
+   "start": 807.54,
+   "end": 812.14,
+   "speaker": "Mooly",
+   "text": "在這個部分失去了競爭力，你還是希望它是完全取代的，"
+  },
+  {
+   "start": 813.68,
+   "end": 822.54,
+   "speaker": "Mooly",
+   "text": "是因為想看到這樣子的變化，還是背後出於的理由是什麼？畢竟這背後有一個利益衝突在嗎？"
+  },
+  {
+   "start": 823.32,
+   "end": 826.06,
+   "speaker": "Kalan",
+   "text": "我會希望的原因是，"
+  },
+  {
+   "start": 826.56,
+   "end": 828.74,
+   "speaker": "Kalan",
+   "text": "或者是說，我覺得一直以來，"
+  },
+  {
+   "start": 828.74,
+   "end": 831.56,
+   "speaker": "Kalan",
+   "text": "程式的進步好像都是這樣，"
+  },
+  {
+   "start": 831.56,
+   "end": 836.74,
+   "speaker": "Kalan",
+   "text": "我們從原本的組合語言到現在的高階語言，"
+  },
+  {
+   "start": 836.74,
+   "end": 842.42,
+   "speaker": "Kalan",
+   "text": "目的都是為了讓更多更多人可以以更低的門檻去做到寫程式這件事情。"
+  },
+  {
+   "start": 845.06,
+   "end": 848.42,
+   "speaker": "Kalan",
+   "text": "如果 AI 真的能夠取代程式開發這件事情的話，"
+  },
+  {
+   "start": 848.42,
+   "end": 852.74,
+   "speaker": "Kalan",
+   "text": "那等於說大家都有機會去做產品，"
+  },
+  {
+   "start": 852.74,
+   "end": 857.78,
+   "speaker": "Kalan",
+   "text": "或者是透過自己的想法，然後把東西實際地實踐出來。"
+  },
+  {
+   "start": 859.32,
+   "end": 863.82,
+   "speaker": "Kalan",
+   "text": "所以我當然，我自己是希望可以完全取代，然後會有利益衝突，"
+  },
+  {
+   "start": 864.34,
+   "end": 872.42,
+   "speaker": "Kalan",
+   "text": "這可能也代表說我可能最終要去往不同領域去發展這樣子。"
+  },
+  {
+   "start": 873.04,
+   "end": 878.66,
+   "speaker": "Mooly",
+   "text": "了解了解，就是希望變成一個人人都可以使用魔法的一個世界。"
+  },
+  {
+   "start": 879.4,
+   "end": 880.92,
+   "speaker": "Kalan",
+   "text": "的確也蠻像的，"
+  },
+  {
+   "start": 884.72,
+   "end": 886.5,
+   "speaker": "Kalan",
+   "text": "人人都可以使用魔法的世界。"
+  },
+  {
+   "start": 886.5,
+   "end": 889.66,
+   "speaker": "Kalan",
+   "text": "但我不確定那個世界會是怎麼樣就是了。"
+  },
+  {
+   "start": 889.66,
+   "end": 893.2,
+   "speaker": "Mooly",
+   "text": "喔，我覺得現在其實已經很接近了。"
+  },
+  {
+   "start": 893.6,
+   "end": 900.9,
+   "speaker": "Mooly",
+   "text": "現在其實已經算一半了嗎？至少比如說我們公司的 PM 跟 designer，"
+  },
+  {
+   "start": 901.58,
+   "end": 906.26,
+   "speaker": "Mooly",
+   "text": "最近都被要求說，你要出 prototype 的話，你直接用 Cursor 寫一個，"
+  },
+  {
+   "start": 906.26,
+   "end": 911.08,
+   "speaker": "Mooly",
+   "text": "然後對他們來說，其實他們試過之後發現是做得到的。"
+  },
+  {
+   "start": 911.08,
+   "end": 913.12,
+   "speaker": "Kalan",
+   "text": "喔，了解了解。"
+  },
+  {
+   "start": 913.12,
+   "end": 916.14,
+   "speaker": "Kalan",
+   "text": "那就看那個"
+  },
+  {
+   "start": 916.14,
+   "end": 918.36,
+   "speaker": "Kalan",
+   "text": "世界是不是想要自己想要的樣子了。"
+  },
+  {
+   "start": 918.36,
+   "end": 920.18,
+   "speaker": "Kalan",
+   "text": "但畢竟人是會變的嘛，"
+  },
+  {
+   "start": 920.18,
+   "end": 924.76,
+   "speaker": "Kalan",
+   "text": "現在我現在這麼想，可能之後又有一些想法，"
+  },
+  {
+   "start": 925.54,
+   "end": 927.04,
+   "speaker": "Kalan",
+   "text": "可能又會改變。"
+  },
+  {
+   "start": 927.74,
+   "end": 934.4,
+   "speaker": "Kalan",
+   "text": "那下一個我想聊聊的是 AI 造成的影響，"
+  },
+  {
+   "start": 934.94,
+   "end": 937.8,
+   "speaker": "Kalan",
+   "text": "那不然我先舉一些例子好了。"
+  },
+  {
+   "start": 939.82,
+   "end": 945.14,
+   "speaker": "Kalan",
+   "text": "我覺得一個很明顯的影響就是 AI 產出的文章變多了，"
+  },
+  {
+   "start": 946.92,
+   "end": 949.4,
+   "speaker": "Kalan",
+   "text": "你有時候用 Google 去一搜尋，"
+  },
+  {
+   "start": 949.4,
+   "end": 952.54,
+   "speaker": "Kalan",
+   "text": "然後可能前幾篇跳出來的，"
+  },
+  {
+   "start": 953.02,
+   "end": 960.58,
+   "speaker": "Kalan",
+   "text": "你可以很明顯地感受到這個標題內容就是用 AI 產出來的，"
+  },
+  {
+   "start": 961.42,
+   "end": 964.84,
+   "speaker": "Kalan",
+   "text": "然後他可能沒辦法幫助你，"
+  },
+  {
+   "start": 965.58,
+   "end": 968.3,
+   "speaker": "Kalan",
+   "text": "在找到資訊這件事情上面有幫助，"
+  },
+  {
+   "start": 969.34,
+   "end": 970.94,
+   "speaker": "Kalan",
+   "text": "或者是他寫了一大段，"
+  },
+  {
+   "start": 970.94,
+   "end": 973.58,
+   "speaker": "Kalan",
+   "text": "可能都是為了讓 SEO 更好，"
+  },
+  {
+   "start": 973.58,
+   "end": 977.62,
+   "speaker": "Kalan",
+   "text": "但是實際上它的內容其實沒有那麼好。"
+  },
+  {
+   "start": 978.16,
+   "end": 983.18,
+   "speaker": "Kalan",
+   "text": "那這是我覺得 AI 文章是 AI 造成的不太好的影響，"
+  },
+  {
+   "start": 983.18,
+   "end": 984.4,
+   "speaker": "Kalan",
+   "text": "不良目的的一種。"
+  },
+  {
+   "start": 986.18,
+   "end": 988.66,
+   "speaker": "Mooly",
+   "text": "我覺得你剛剛的用語太含蓄了，"
+  },
+  {
+   "start": 988.66,
+   "end": 990.8,
+   "speaker": "Mooly",
+   "text": "我會稱那些東西是 AI 垃圾。"
+  },
+  {
+   "start": 990.8,
+   "end": 992.36,
+   "speaker": "Kalan",
+   "text": "AI 垃圾，好。"
+  },
+  {
+   "start": 995.16,
+   "end": 998.0,
+   "speaker": "Mooly",
+   "text": "因為確實現在 AI 太方便，導致說"
+  },
+  {
+   "start": 998.0,
+   "end": 1002.26,
+   "speaker": "Mooly",
+   "text": "比如說你要讓 AI 寫一篇文章或什麼，它是非常非常容易的，"
+  },
+  {
+   "start": 1002.26,
+   "end": 1004.62,
+   "speaker": "Mooly",
+   "text": "但它寫出來的東西沒有任何的，"
+  },
+  {
+   "start": 1004.62,
+   "end": 1007.62,
+   "speaker": "Mooly",
+   "text": "就像剛才講的一樣，它沒有任何的幫助，就只是"
+  },
+  {
+   "start": 1008.16,
+   "end": 1010.96,
+   "speaker": "Mooly",
+   "text": "也不是說 AI 產文這件事情本身不好，"
+  },
+  {
+   "start": 1010.96,
+   "end": 1013.12,
+   "speaker": "Mooly",
+   "text": "它畢竟還是取決於使用它的人。"
+  },
+  {
+   "start": 1013.5,
+   "end": 1015.64,
+   "speaker": "Mooly",
+   "text": "就是你還是有些人，你可以比如說你自己，"
+  },
+  {
+   "start": 1016.0,
+   "end": 1023.2,
+   "speaker": "Mooly",
+   "text": "稍微訓練一下 AI，讓它有你的風格，讓你可以寫出一些新的東西，它是真的可以幫你節省時間的，這個當然是沒問題。"
+  },
+  {
+   "start": 1023.66,
+   "end": 1027.1,
+   "speaker": "Mooly",
+   "text": "但問題是有些人用 AI 就用得非常的，"
+  },
+  {
+   "start": 1027.84,
+   "end": 1028.92,
+   "speaker": "Mooly",
+   "text": "嗯，怎麼講，"
+  },
+  {
+   "start": 1030.7,
+   "end": 1032.24,
+   "speaker": "Mooly",
+   "text": "非常的隨便吧，"
+  },
+  {
+   "start": 1032.24,
+   "end": 1038.04,
+   "speaker": "Mooly",
+   "text": "他就用 AI 隨便產出一個沒有任何意義的一些文章，"
+  },
+  {
+   "start": 1039.38,
+   "end": 1040.58,
+   "speaker": "Mooly",
+   "text": "東學西學，"
+  },
+  {
+   "start": 1040.58,
+   "end": 1044.64,
+   "speaker": "Mooly",
+   "text": "把東西湊在一起，又沒有什麼，"
+  },
+  {
+   "start": 1044.64,
+   "end": 1047.48,
+   "speaker": "Mooly",
+   "text": "也不算自己的看法，反正，"
+  },
+  {
+   "start": 1047.48,
+   "end": 1050.18,
+   "speaker": "Mooly",
+   "text": "你可以很明顯看到它內容空洞的那種感覺，"
+  },
+  {
+   "start": 1050.18,
+   "end": 1052.94,
+   "speaker": "Mooly",
+   "text": "它很明顯是來騙流量的，這種東西越來越多。"
+  },
+  {
+   "start": 1053.44,
+   "end": 1055.74,
+   "speaker": "Mooly",
+   "text": "再加上其實如果你現在有 AI 了，"
+  },
+  {
+   "start": 1055.74,
+   "end": 1057.16,
+   "speaker": "Mooly",
+   "text": "你甚至可以做一些"
+  },
+  {
+   "start": 1058.3,
+   "end": 1061.78,
+   "speaker": "Mooly",
+   "text": "比較有道德疑慮的事情，但用 AI 做很簡單。比如說你，"
+  },
+  {
+   "start": 1061.78,
+   "end": 1063.4,
+   "speaker": "Mooly",
+   "text": "你就不要用 AI 自己寫，"
+  },
+  {
+   "start": 1063.4,
+   "end": 1067.7,
+   "speaker": "Mooly",
+   "text": "你是直接去搬運某個人的文章，"
+  },
+  {
+   "start": 1067.7,
+   "end": 1069.6,
+   "speaker": "Mooly",
+   "text": "比如說某個人的技術 blog，"
+  },
+  {
+   "start": 1069.6,
+   "end": 1071.92,
+   "speaker": "Mooly",
+   "text": "你就 AI，你就下一個 prompt 是，"
+  },
+  {
+   "start": 1072.5,
+   "end": 1075.86,
+   "speaker": "Mooly",
+   "text": "請把這個文章改寫成什麼什麼風格，"
+  },
+  {
+   "start": 1075.86,
+   "end": 1079.06,
+   "speaker": "Mooly",
+   "text": "什麼什麼，你就給它一個 style guide 的那種感覺。"
+  },
+  {
+   "start": 1079.64,
+   "end": 1086.42,
+   "speaker": "Mooly",
+   "text": "它理論上應該就可以幫你把那個人的文章翻成一個不同的形式，但是內容還是一樣的，"
+  },
+  {
+   "start": 1086.42,
+   "end": 1090.08,
+   "speaker": "Mooly",
+   "text": "就變成說，它會變得更可怕是它內容言之有物，"
+  },
+  {
+   "start": 1090.08,
+   "end": 1091.54,
+   "speaker": "Mooly",
+   "text": "但是不是它寫的，"
+  },
+  {
+   "start": 1091.54,
+   "end": 1094.4,
+   "speaker": "Mooly",
+   "text": "而是別人寫的，它只是改一改那個文字而已，"
+  },
+  {
+   "start": 1094.4,
+   "end": 1095.4,
+   "speaker": "Mooly",
+   "text": "而且這樣子，"
+  },
+  {
+   "start": 1096.12,
+   "end": 1099.82,
+   "speaker": "Mooly",
+   "text": "你文字都不一樣的話，理論上應該不構成抄襲，"
+  },
+  {
+   "start": 1099.82,
+   "end": 1103.3,
+   "speaker": "Mooly",
+   "text": "因為想法本身是不被保護的，"
+  },
+  {
+   "start": 1103.3,
+   "end": 1107.24,
+   "speaker": "Mooly",
+   "text": "所以就可以去搬運很多別人的文章，當作是自己寫的。"
+  },
+  {
+   "start": 1108.12,
+   "end": 1112.68,
+   "speaker": "Mooly",
+   "text": "這個我不確定現在有沒有在發生，我可能還沒看到，但如果真的有的話，"
+  },
+  {
+   "start": 1113.24,
+   "end": 1114.24,
+   "speaker": "Mooly",
+   "text": "它就會是一個，"
+  },
+  {
+   "start": 1114.24,
+   "end": 1116.38,
+   "speaker": "Mooly",
+   "text": "我不是很喜歡的事情。"
+  },
+  {
+   "start": 1118.24,
+   "end": 1121.34,
+   "speaker": "Kalan",
+   "text": "剛剛你講的這些，我想到兩點。"
+  },
+  {
+   "start": 1121.34,
+   "end": 1122.68,
+   "speaker": "Kalan",
+   "text": "第一點是，"
+  },
+  {
+   "start": 1123.24,
+   "end": 1125.44,
+   "speaker": "Kalan",
+   "text": "就產出垃圾這件事情，"
+  },
+  {
+   "start": 1126.44,
+   "end": 1129.96,
+   "speaker": "Kalan",
+   "text": "會不會其實在以前就有了？"
+  },
+  {
+   "start": 1129.96,
+   "end": 1131.38,
+   "speaker": "Kalan",
+   "text": "就產垃圾這件事情，"
+  },
+  {
+   "start": 1131.38,
+   "end": 1134.18,
+   "speaker": "Kalan",
+   "text": "只是 AI 越來越進步之後，"
+  },
+  {
+   "start": 1135.02,
+   "end": 1138.62,
+   "speaker": "Kalan",
+   "text": "它讓產垃圾的門檻大幅地降低，"
+  },
+  {
+   "start": 1139.2,
+   "end": 1141.58,
+   "speaker": "Kalan",
+   "text": "就大家都可以產垃圾這樣子，"
+  },
+  {
+   "start": 1142.36,
+   "end": 1143.18,
+   "speaker": "Kalan",
+   "text": "而且是，"
+  },
+  {
+   "start": 1143.76,
+   "end": 1144.44,
+   "speaker": "Kalan",
+   "text": "怎麼講，"
+  },
+  {
+   "start": 1144.44,
+   "end": 1146.52,
+   "speaker": "Kalan",
+   "text": "包裝華麗的垃圾，"
+  },
+  {
+   "start": 1147.02,
+   "end": 1148.52,
+   "speaker": "Kalan",
+   "text": "可以這麼說嗎？"
+  },
+  {
+   "start": 1148.52,
+   "end": 1150.08,
+   "speaker": "Mooly",
+   "text": "對，我覺得有點像是，"
+  },
+  {
+   "start": 1150.08,
+   "end": 1152.9,
+   "speaker": "Mooly",
+   "text": "那我剛想了一下，以我的看法可能會是，"
+  },
+  {
+   "start": 1153.32,
+   "end": 1154.7,
+   "speaker": "Mooly",
+   "text": "以前雖然就有了，但，"
+  },
+  {
+   "start": 1155.18,
+   "end": 1157.5,
+   "speaker": "Mooly",
+   "text": "可能有兩點我會在意吧。"
+  },
+  {
+   "start": 1157.5,
+   "end": 1160.04,
+   "speaker": "Mooly",
+   "text": "第一個是它可能不會那麼容易出現在我面前，"
+  },
+  {
+   "start": 1160.04,
+   "end": 1160.64,
+   "speaker": "Mooly",
+   "text": "就是我可能，"
+  },
+  {
+   "start": 1160.64,
+   "end": 1163.74,
+   "speaker": "Mooly",
+   "text": "Google 搜尋的時候，我不一定搜尋得到那些東西，"
+  },
+  {
+   "start": 1163.74,
+   "end": 1165.42,
+   "speaker": "Mooly",
+   "text": "因為它量比較少。"
+  },
+  {
+   "start": 1165.98,
+   "end": 1167.34,
+   "speaker": "Mooly",
+   "text": "第二點可能是，"
+  },
+  {
+   "start": 1167.34,
+   "end": 1171.62,
+   "speaker": "Mooly",
+   "text": "好，你以前沒有 AI 的時候，你產垃圾，你可能會需要付出一些努力，"
+  },
+  {
+   "start": 1171.62,
+   "end": 1175.36,
+   "speaker": "Mooly",
+   "text": "就我知道你是有在付出努力的，你是有付出時間的。"
+  },
+  {
+   "start": 1175.36,
+   "end": 1186.2,
+   "speaker": "Mooly",
+   "text": "但現在你可能 AI 你下個指令，它都幫你搞好，我就會覺得你又不付出時間，你又產生一些垃圾，就沒有任何可以讓我覺得你有在付出的地方。"
+  },
+  {
+   "start": 1188.88,
+   "end": 1189.28,
+   "speaker": "Kalan",
+   "text": "剛剛，"
+  },
+  {
+   "start": 1190.54,
+   "end": 1192.86,
+   "speaker": "Kalan",
+   "text": "我剛剛說兩點，那第二點是，"
+  },
+  {
+   "start": 1193.26,
+   "end": 1196.22,
+   "speaker": "Kalan",
+   "text": "如果現在這種文章啊，"
+  },
+  {
+   "start": 1196.22,
+   "end": 1200.04,
+   "speaker": "Kalan",
+   "text": "或者是自己的原創文章，已經非常容易被 AI 給"
+  },
+  {
+   "start": 1200.62,
+   "end": 1202.7,
+   "speaker": "Kalan",
+   "text": "拿走改寫的話，"
+  },
+  {
+   "start": 1203.26,
+   "end": 1210.7,
+   "speaker": "Kalan",
+   "text": "你會覺得比如說像一些付費的文章，或者是一些付費的電子報，會是未來的趨勢嗎？"
+  },
+  {
+   "start": 1211.68,
+   "end": 1214.34,
+   "speaker": "Kalan",
+   "text": "你覺得這件事情會是好事嗎？"
+  },
+  {
+   "start": 1214.34,
+   "end": 1216.74,
+   "speaker": "Mooly",
+   "text": "喔，你說付費的那些是吧？"
+  },
+  {
+   "start": 1216.74,
+   "end": 1218.42,
+   "speaker": "Kalan",
+   "text": "就是為了去對抗說，"
+  },
+  {
+   "start": 1219.12,
+   "end": 1226.6,
+   "speaker": "Kalan",
+   "text": "AI 會不會偷偷把我的文章拿去偷訓練，然後搬運、偷改寫這樣子，"
+  },
+  {
+   "start": 1226.6,
+   "end": 1229.4,
+   "speaker": "Kalan",
+   "text": "所以我把它變成一個付費的，讓真正"
+  },
+  {
+   "start": 1229.4,
+   "end": 1231.88,
+   "speaker": "Kalan",
+   "text": "想要看的人再來這樣子。"
+  },
+  {
+   "start": 1232.4,
+   "end": 1233.38,
+   "speaker": "Mooly",
+   "text": "喔，就是"
+  },
+  {
+   "start": 1234.24,
+   "end": 1236.32,
+   "speaker": "Mooly",
+   "text": "把它的門檻提高，對吧？"
+  },
+  {
+   "start": 1236.32,
+   "end": 1243.24,
+   "speaker": "Mooly",
+   "text": "你如果真的要用 AI 做什麼，你還是要先花錢訂閱，然後再去偷文章，"
+  },
+  {
+   "start": 1243.24,
+   "end": 1246.18,
+   "speaker": "Mooly",
+   "text": "不然你是偷不到的。"
+  },
+  {
+   "start": 1246.88,
+   "end": 1250.02,
+   "speaker": "Mooly",
+   "text": "嗯，好像確實似乎是一個方向。"
+  },
+  {
+   "start": 1250.02,
+   "end": 1256.66,
+   "speaker": "Mooly",
+   "text": "是不是一件好事，我自己其實沒有很喜歡放在付費牆後面的文章，"
+  },
+  {
+   "start": 1257.26,
+   "end": 1257.54,
+   "speaker": "Mooly",
+   "text": "因為，"
+  },
+  {
+   "start": 1258.3,
+   "end": 1266.42,
+   "speaker": "Mooly",
+   "text": "我對這個網際網路的認識，啟蒙於那個蓬勃發展的時代，"
+  },
+  {
+   "start": 1266.42,
+   "end": 1270.44,
+   "speaker": "Mooly",
+   "text": "就是在網路上你什麼資源都可以找到，都是免費的那個時代。"
+  },
+  {
+   "start": 1270.44,
+   "end": 1277.92,
+   "speaker": "Mooly",
+   "text": "比如說我們一開始可能學寫程式、學寫 code，也是從網路上很多免費的文章裡面看來的，"
+  },
+  {
+   "start": 1277.92,
+   "end": 1282.12,
+   "speaker": "Mooly",
+   "text": "所以我個人其實不是很喜歡把文章放在付費牆後面這件事情，"
+  },
+  {
+   "start": 1282.12,
+   "end": 1285.4,
+   "speaker": "Mooly",
+   "text": "因為它會讓這個網路變成，"
+  },
+  {
+   "start": 1286.58,
+   "end": 1288.0,
+   "speaker": "Mooly",
+   "text": "不是我期待的樣子。"
+  },
+  {
+   "start": 1288.0,
+   "end": 1289.86,
+   "speaker": "Mooly",
+   "text": "我希望它是一個開放的地方，"
+  },
+  {
+   "start": 1290.43,
+   "end": 1292.68,
+   "speaker": "Mooly",
+   "text": "但現在面臨的挑戰就是剛剛愷愷講的，"
+  },
+  {
+   "start": 1293.17,
+   "end": 1296.26,
+   "speaker": "Mooly",
+   "text": "你現在如果開放了，你可能會面臨這些問題。"
+  },
+  {
+   "start": 1296.26,
+   "end": 1301.48,
+   "speaker": "Mooly",
+   "text": "那身為一個，比如說一個內容創作者，到底應該怎麼做？"
+  },
+  {
+   "start": 1301.48,
+   "end": 1303.9,
+   "speaker": "Mooly",
+   "text": "到底是應該為了這個，"
+  },
+  {
+   "start": 1304.46,
+   "end": 1307.66,
+   "speaker": "Mooly",
+   "text": "堅守這個自己對網路世界開放的信念，"
+  },
+  {
+   "start": 1307.66,
+   "end": 1308.88,
+   "speaker": "Mooly",
+   "text": "而繼續開放文章，"
+  },
+  {
+   "start": 1308.88,
+   "end": 1312.48,
+   "speaker": "Mooly",
+   "text": "還是為了對抗 AI，去弄一些付費牆的東西？"
+  },
+  {
+   "start": 1312.48,
+   "end": 1314.96,
+   "speaker": "Mooly",
+   "text": "我目前還沒有一個明確的答案。"
+  },
+  {
+   "start": 1314.96,
+   "end": 1316.36,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 1317.28,
+   "end": 1319.5,
+   "speaker": "Kalan",
+   "text": "我覺得 Mooly 剛剛講的那個，"
+  },
+  {
+   "start": 1319.5,
+   "end": 1321.64,
+   "speaker": "Kalan",
+   "text": "我也蠻有感觸的。"
+  },
+  {
+   "start": 1321.64,
+   "end": 1328.82,
+   "speaker": "Kalan",
+   "text": "我們都是在那個網際網路開放的時代出生的，"
+  },
+  {
+   "start": 1328.82,
+   "end": 1332.12,
+   "speaker": "Kalan",
+   "text": "或者是有受到那樣子的風氣影響，"
+  },
+  {
+   "start": 1332.12,
+   "end": 1335.56,
+   "speaker": "Kalan",
+   "text": "所以它可能默默地形成我們的一些價值觀，"
+  },
+  {
+   "start": 1335.56,
+   "end": 1338.6,
+   "speaker": "Kalan",
+   "text": "就是我們覺得這件事情是好的。"
+  },
+  {
+   "start": 1339.35,
+   "end": 1341.1,
+   "speaker": "Kalan",
+   "text": "但今天 AI 出來之後，"
+  },
+  {
+   "start": 1341.51,
+   "end": 1342.98,
+   "speaker": "Kalan",
+   "text": "再加上，"
+  },
+  {
+   "start": 1344.5,
+   "end": 1350.88,
+   "speaker": "Kalan",
+   "text": "文章改寫，或者是文章改寫跟搬垃圾這件事情，"
+  },
+  {
+   "start": 1350.88,
+   "end": 1355.96,
+   "speaker": "Kalan",
+   "text": "會不會開始逼得自己要去轉換一下自己的想法？"
+  },
+  {
+   "start": 1355.96,
+   "end": 1356.6,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 1357.14,
+   "end": 1359.7,
+   "speaker": "Kalan",
+   "text": "我自己好像也還沒有一個很明確的答案。"
+  },
+  {
+   "start": 1360.86,
+   "end": 1364.62,
+   "speaker": "Kalan",
+   "text": "那我們剛剛講到一些比較不好的影響，"
+  },
+  {
+   "start": 1365.9,
+   "end": 1371.18,
+   "speaker": "Kalan",
+   "text": "那我們是不是可以講一些 AI 帶來的比較好的影響？"
+  },
+  {
+   "start": 1371.18,
+   "end": 1377.16,
+   "speaker": "Mooly",
+   "text": "可以可以，這個我覺得最明顯的是翻譯這件事情。"
+  },
+  {
+   "start": 1378.66,
+   "end": 1383.32,
+   "speaker": "Mooly",
+   "text": "雖然在 AI 出現以前就有翻譯了，但那個翻譯的品質實在是，"
+  },
+  {
+   "start": 1383.32,
+   "end": 1389.8,
+   "speaker": "Mooly",
+   "text": "你也不能說它完全不好，但可能你只會給它 50 分吧。"
+  },
+  {
+   "start": 1389.8,
+   "end": 1395.58,
+   "speaker": "Mooly",
+   "text": "就你不會覺得，你甚至不會覺得它及格，你只會覺得它有把字翻出來，但你不會覺得它是真的，"
+  },
+  {
+   "start": 1396.28,
+   "end": 1398.54,
+   "speaker": "Mooly",
+   "text": "可以用在，"
+  },
+  {
+   "start": 1399.08,
+   "end": 1403.54,
+   "speaker": "Mooly",
+   "text": "如果以寫程式來講，你不會覺得它是一個 production ready 的東西，"
+  },
+  {
+   "start": 1403.54,
+   "end": 1406.7,
+   "speaker": "Mooly",
+   "text": "它沒有辦法這麼的精準。"
+  },
+  {
+   "start": 1406.7,
+   "end": 1411.58,
+   "speaker": "Mooly",
+   "text": "但 AI 出現之後，在翻譯這塊真的是進步得很快。"
+  },
+  {
+   "start": 1411.58,
+   "end": 1413.02,
+   "speaker": "Mooly",
+   "text": "不論是翻文字，"
+  },
+  {
+   "start": 1413.02,
+   "end": 1416.28,
+   "speaker": "Mooly",
+   "text": "第一個是翻文字，翻文字它又翻得更好了，"
+  },
+  {
+   "start": 1416.28,
+   "end": 1420.18,
+   "speaker": "Mooly",
+   "text": "很明顯比之前什麼 Google 翻譯的品質是好非常非常多的。"
+  },
+  {
+   "start": 1420.18,
+   "end": 1426.02,
+   "speaker": "Mooly",
+   "text": "另外一個更明顯的是，比如說現在 AI 做那個聲音，"
+  },
+  {
+   "start": 1426.64,
+   "end": 1427.26,
+   "speaker": "Mooly",
+   "text": "比如說你，"
+  },
+  {
+   "start": 1427.26,
+   "end": 1429.68,
+   "speaker": "Mooly",
+   "text": "聲音直接轉逐字稿或什麼的，"
+  },
+  {
+   "start": 1429.68,
+   "end": 1432.66,
+   "speaker": "Mooly",
+   "text": "這個現在也是精準度蠻高的。"
+  },
+  {
+   "start": 1432.66,
+   "end": 1438.06,
+   "speaker": "Mooly",
+   "text": "再包含說現在很多其他的科技，你全部再搭配上的話，"
+  },
+  {
+   "start": 1438.06,
+   "end": 1443.66,
+   "speaker": "Mooly",
+   "text": "它就會變成一個對於各國人士非常友善的東西，例如說，"
+  },
+  {
+   "start": 1443.66,
+   "end": 1447.76,
+   "speaker": "Mooly",
+   "text": "之前我看到 YouTube 有做，最近在實驗那個自動聲音轉換，"
+  },
+  {
+   "start": 1447.76,
+   "end": 1450.56,
+   "speaker": "Mooly",
+   "text": "它聲音轉換的時候，比如說你原文是一個，"
+  },
+  {
+   "start": 1450.56,
+   "end": 1453.9,
+   "speaker": "Mooly",
+   "text": "原本是一個韓國的影片，一個韓國 YouTuber，"
+  },
+  {
+   "start": 1454.32,
+   "end": 1456.64,
+   "speaker": "Mooly",
+   "text": "它就有那個音軌可以選，它可以選日文。"
+  },
+  {
+   "start": 1456.64,
+   "end": 1460.94,
+   "speaker": "Mooly",
+   "text": "它背後應該是把那個韓文的語音，"
+  },
+  {
+   "start": 1460.94,
+   "end": 1462.96,
+   "speaker": "Mooly",
+   "text": "然後翻成日文之後，"
+  },
+  {
+   "start": 1462.96,
+   "end": 1466.04,
+   "speaker": "Mooly",
+   "text": "再搭配上原本的聲音，用一樣的，"
+  },
+  {
+   "start": 1466.46,
+   "end": 1471.26,
+   "speaker": "Mooly",
+   "text": "是用那種類似 deepfake 的那種東西嗎？"
+  },
+  {
+   "start": 1471.26,
+   "end": 1474.1,
+   "speaker": "Mooly",
+   "text": "就是它是去學習模仿一個聲音，"
+  },
+  {
+   "start": 1474.1,
+   "end": 1480.66,
+   "speaker": "Mooly",
+   "text": "然後讓你用一樣的聲音，只是換一個語言，用日文講出來，就可以去換那個音軌。"
+  },
+  {
+   "start": 1480.66,
+   "end": 1481.8,
+   "speaker": "Mooly",
+   "text": "然後去換那個字幕。"
+  },
+  {
+   "start": 1481.8,
+   "end": 1486.4,
+   "speaker": "Mooly",
+   "text": "就變成說，你就可以把一個外國的影片，用你熟悉的語言，"
+  },
+  {
+   "start": 1486.4,
+   "end": 1488.48,
+   "speaker": "Mooly",
+   "text": "甚至是你熟悉的聲音給放出來。"
+  },
+  {
+   "start": 1488.48,
+   "end": 1493.26,
+   "speaker": "Mooly",
+   "text": "那對於觀看者的體驗，應該就會比較好一點，"
+  },
+  {
+   "start": 1494.32,
+   "end": 1494.76,
+   "speaker": "Kalan",
+   "text": "而且，"
+  },
+  {
+   "start": 1496.6,
+   "end": 1502.3,
+   "speaker": "Kalan",
+   "text": "的確讓門檻降低許多。"
+  },
+  {
+   "start": 1502.3,
+   "end": 1504.9,
+   "speaker": "Kalan",
+   "text": "以前你可能要花很多時間去做，"
+  },
+  {
+   "start": 1504.9,
+   "end": 1509.86,
+   "speaker": "Kalan",
+   "text": "但現在就是 AI 馬上就可以幫你做好了這樣子。"
+  },
+  {
+   "start": 1512.08,
+   "end": 1513.02,
+   "speaker": "Kalan",
+   "text": "好的，音響。"
+  },
+  {
+   "start": 1513.02,
+   "end": 1514.32,
+   "speaker": "Kalan",
+   "text": "我覺得我跟，"
+  },
+  {
+   "start": 1514.32,
+   "end": 1515.9,
+   "speaker": "Kalan",
+   "text": "目的的，"
+  },
+  {
+   "start": 1515.9,
+   "end": 1517.78,
+   "speaker": "Kalan",
+   "text": "就是想要舉例的東西好像差不多。"
+  },
+  {
+   "start": 1517.78,
+   "end": 1519.64,
+   "speaker": "Kalan",
+   "text": "我想一下還有什麼。"
+  },
+  {
+   "start": 1519.64,
+   "end": 1520.86,
+   "speaker": "Kalan",
+   "text": "我有時候會，"
+  },
+  {
+   "start": 1522.34,
+   "end": 1524.3,
+   "speaker": "Kalan",
+   "text": "就我有時候會，"
+  },
+  {
+   "start": 1524.3,
+   "end": 1526.04,
+   "speaker": "Kalan",
+   "text": "喔，等一下喔，"
+  },
+  {
+   "start": 1526.04,
+   "end": 1527.5,
+   "speaker": "Kalan",
+   "text": "我這邊卡掉了。"
+  },
+  {
+   "start": 1528.58,
+   "end": 1532.84,
+   "speaker": "Kalan",
+   "text": "就我有時候會問 AI 一些問題，"
+  },
+  {
+   "start": 1532.84,
+   "end": 1535.66,
+   "speaker": "Kalan",
+   "text": "然後可能是自己想要思考的一些事情，"
+  },
+  {
+   "start": 1536.24,
+   "end": 1541.68,
+   "speaker": "Kalan",
+   "text": "然後跟 AI 一起算是做 brainstorming 的感覺，"
+  },
+  {
+   "start": 1542.28,
+   "end": 1542.88,
+   "speaker": "Kalan",
+   "text": "就是，"
+  },
+  {
+   "start": 1542.88,
+   "end": 1545.54,
+   "speaker": "Kalan",
+   "text": "可能請他問我一些問題，"
+  },
+  {
+   "start": 1546.19,
+   "end": 1547.9,
+   "speaker": "Kalan",
+   "text": "然後來幫我釐清一些，"
+  },
+  {
+   "start": 1547.9,
+   "end": 1550.32,
+   "speaker": "Kalan",
+   "text": "我可能自己沒有想通的事情。"
+  },
+  {
+   "start": 1552.2,
+   "end": 1556.2,
+   "speaker": "Kalan",
+   "text": "比如說像剛剛的對 AI 的看法，"
+  },
+  {
+   "start": 1556.2,
+   "end": 1560.38,
+   "speaker": "Kalan",
+   "text": "其實我有時候也會跟 LLM 去聊這樣子，"
+  },
+  {
+   "start": 1561.34,
+   "end": 1563.62,
+   "speaker": "Kalan",
+   "text": "然後進一步地去梳理這樣子。"
+  },
+  {
+   "start": 1563.62,
+   "end": 1564.96,
+   "speaker": "Kalan",
+   "text": "我覺得這在，"
+  },
+  {
+   "start": 1565.51,
+   "end": 1566.82,
+   "speaker": "Kalan",
+   "text": "就自己想要思考，"
+  },
+  {
+   "start": 1566.82,
+   "end": 1569.28,
+   "speaker": "Kalan",
+   "text": "然後想要找人去談，"
+  },
+  {
+   "start": 1569.28,
+   "end": 1572.22,
+   "speaker": "Kalan",
+   "text": "但是又不知道那個人是誰，"
+  },
+  {
+   "start": 1573.34,
+   "end": 1576.84,
+   "speaker": "Kalan",
+   "text": "的時候，你就可以請 LLM 幫忙這樣子。"
+  },
+  {
+   "start": 1577.46,
+   "end": 1580.48,
+   "speaker": "Mooly",
+   "text": "這我也覺得確實是一個好的影響，就是你"
+  },
+  {
+   "start": 1581.04,
+   "end": 1583.42,
+   "speaker": "Mooly",
+   "text": "現在不管什麼事情都可以先問 AI，"
+  },
+  {
+   "start": 1583.9,
+   "end": 1591.04,
+   "speaker": "Mooly",
+   "text": "然後它對你的工作來說其實也是有幫助的，比如說你可以寫一段文字，"
+  },
+  {
+   "start": 1591.04,
+   "end": 1595.02,
+   "speaker": "Mooly",
+   "text": "然後問 AI 說，你覺得這個怎麼樣，是不是有哪裡需要改。"
+  },
+  {
+   "start": 1595.02,
+   "end": 1597.94,
+   "speaker": "Mooly",
+   "text": "雖然 AI 不一定真的看得懂，"
+  },
+  {
+   "start": 1597.94,
+   "end": 1601.86,
+   "speaker": "Mooly",
+   "text": "但通常 AI 給的建議其實也是有幫助的，"
+  },
+  {
+   "start": 1601.86,
+   "end": 1611.2,
+   "speaker": "Mooly",
+   "text": "所以我一度甚至覺得，很多人現在用 AI 卡在用 AI 的門檻，可能是"
+  },
+  {
+   "start": 1612.06,
+   "end": 1615.38,
+   "speaker": "Mooly",
+   "text": "有點像是自尊心的那種感覺嗎？"
+  },
+  {
+   "start": 1615.38,
+   "end": 1620.9,
+   "speaker": "Mooly",
+   "text": "就是因為我不覺得 AI 能夠給我一些什麼幫助，所以我就乾脆不去問 AI，"
+  },
+  {
+   "start": 1620.9,
+   "end": 1626.58,
+   "speaker": "Mooly",
+   "text": "但它其實，你如果真的用了，可能會發現它是比你想的更厲害的，"
+  },
+  {
+   "start": 1626.58,
+   "end": 1630.8,
+   "speaker": "Kalan",
+   "text": "或者是反觀覺得 AI 太強了，"
+  },
+  {
+   "start": 1630.8,
+   "end": 1632.94,
+   "speaker": "Kalan",
+   "text": "所以不敢問了。"
+  },
+  {
+   "start": 1633.96,
+   "end": 1636.88,
+   "speaker": "Mooly",
+   "text": "這也是有可能，他不想面對這個事實，"
+  },
+  {
+   "start": 1639.42,
+   "end": 1644.08,
+   "speaker": "Mooly",
+   "text": "尤其是因為 AI 的進化速度實在是有點太快了。"
+  },
+  {
+   "start": 1644.08,
+   "end": 1648.0,
+   "speaker": "Mooly",
+   "text": "如果你是一兩年前，你跟我說你什麼都問 ChatGPT 的話，"
+  },
+  {
+   "start": 1648.0,
+   "end": 1651.28,
+   "speaker": "Mooly",
+   "text": "那確實很多他給你的答案，很多可能都是錯的，"
+  },
+  {
+   "start": 1651.28,
+   "end": 1653.62,
+   "speaker": "Mooly",
+   "text": "雖然現在一定也還是有錯的，"
+  },
+  {
+   "start": 1653.62,
+   "end": 1655.32,
+   "speaker": "Mooly",
+   "text": "他還是有給錯的東西，"
+  },
+  {
+   "start": 1655.32,
+   "end": 1656.5,
+   "speaker": "Mooly",
+   "text": "但我說，如果你是，"
+  },
+  {
+   "start": 1656.5,
+   "end": 1659.36,
+   "speaker": "Mooly",
+   "text": "如果你不是問一些事實類的東西的話，"
+  },
+  {
+   "start": 1659.36,
+   "end": 1666.16,
+   "speaker": "Mooly",
+   "text": "它給你的幫助是很多的，比如像剛才講，你可以跟它討論一些 AI 發展的問題，可以跟它討論一些職涯的問題，"
+  },
+  {
+   "start": 1666.16,
+   "end": 1670.08,
+   "speaker": "Mooly",
+   "text": "它可能都可以給出一些很實際的建議。"
+  },
+  {
+   "start": 1671.48,
+   "end": 1676.06,
+   "speaker": "Kalan",
+   "text": "這有點想要讓我拉回我剛剛有講到的，"
+  },
+  {
+   "start": 1676.06,
+   "end": 1679.68,
+   "speaker": "Kalan",
+   "text": "但其實剛剛還沒有講到，"
+  },
+  {
+   "start": 1680.44,
+   "end": 1682.86,
+   "speaker": "Kalan",
+   "text": "就你剛剛講的這些，讓我想到說，"
+  },
+  {
+   "start": 1682.86,
+   "end": 1687.8,
+   "speaker": "Kalan",
+   "text": "那有沒有目前是什麼東西是 AI 還沒有辦法取代的？"
+  },
+  {
+   "start": 1687.8,
+   "end": 1692.9,
+   "speaker": "Kalan",
+   "text": "就我們以一個比較通用的角度出發，"
+  },
+  {
+   "start": 1692.9,
+   "end": 1694.58,
+   "speaker": "Kalan",
+   "text": "就比如說，我剛剛就想到說，"
+  },
+  {
+   "start": 1695.06,
+   "end": 1704.62,
+   "speaker": "Kalan",
+   "text": "比如說你需要勞動的東西，可能目前 AI 還沒有辦法取代，雖然有所謂的機械手臂或者是機器人等等，"
+  },
+  {
+   "start": 1705.64,
+   "end": 1711.54,
+   "speaker": "Kalan",
+   "text": "但以現在的發展來看的話，可能他們也還沒有辦法取代某"
+  },
+  {
+   "start": 1712.16,
+   "end": 1714.92,
+   "speaker": "Kalan",
+   "text": "或者是大部分的一些勞動的東西。"
+  },
+  {
+   "start": 1714.92,
+   "end": 1716.6,
+   "speaker": "Mooly",
+   "text": "對，沒錯沒錯。"
+  },
+  {
+   "start": 1716.6,
+   "end": 1719.54,
+   "speaker": "Mooly",
+   "text": "就目前勞動相關應該都不行，"
+  },
+  {
+   "start": 1719.54,
+   "end": 1721.94,
+   "speaker": "Mooly",
+   "text": "但除了勞動之外的，"
+  },
+  {
+   "start": 1722.48,
+   "end": 1724.88,
+   "speaker": "Mooly",
+   "text": "我就不清楚了。"
+  },
+  {
+   "start": 1724.88,
+   "end": 1729.78,
+   "speaker": "Mooly",
+   "text": "我猜可能要比較更專業一點的領域嗎？"
+  },
+  {
+   "start": 1729.78,
+   "end": 1733.06,
+   "speaker": "Mooly",
+   "text": "比如說什麼太空工程，或"
+  },
+  {
+   "start": 1733.06,
+   "end": 1735.42,
+   "speaker": "Kalan",
+   "text": "什麼之"
+  },
+  {
+   "start": 1735.42,
+   "end": 1737.12,
+   "speaker": "Mooly",
+   "text": "類的，那個就有可能。"
+  },
+  {
+   "start": 1739.82,
+   "end": 1744.76,
+   "speaker": "Mooly",
+   "text": "但搞不好其實現在也可以，只是我們不知道，因為我們平常不會往那個方向去用。"
+  },
+  {
+   "start": 1744.76,
+   "end": 1749.34,
+   "speaker": "Mooly",
+   "text": "畢竟 AI 現在如果都可以，就是考數學、考物理，"
+  },
+  {
+   "start": 1749.86,
+   "end": 1752.12,
+   "speaker": "Mooly",
+   "text": "分數都比人考得還要高的話，"
+  },
+  {
+   "start": 1752.12,
+   "end": 1756.88,
+   "speaker": "Mooly",
+   "text": "那理論上那些基礎的東西它是會的話，"
+  },
+  {
+   "start": 1756.88,
+   "end": 1760.62,
+   "speaker": "Mooly",
+   "text": "它應該能力比我們想像的更厲害。"
+  },
+  {
+   "start": 1761.62,
+   "end": 1762.42,
+   "speaker": "Kalan",
+   "text": "喔對，"
+  },
+  {
+   "start": 1762.42,
+   "end": 1764.44,
+   "speaker": "Kalan",
+   "text": "我還要想到另外一件，就是"
+  },
+  {
+   "start": 1764.44,
+   "end": 1766.26,
+   "speaker": "Kalan",
+   "text": "喔，剛剛講的這有點像是，什麼講"
+  },
+  {
+   "start": 1766.26,
+   "end": 1772.24,
+   "speaker": "Kalan",
+   "text": "反而是白領階級相關的東西，都比較容易被 AI 取代嗎？"
+  },
+  {
+   "start": 1772.24,
+   "end": 1772.88,
+   "speaker": "Kalan",
+   "text": "喔對，"
+  },
+  {
+   "start": 1772.88,
+   "end": 1774.34,
+   "speaker": "Kalan",
+   "text": "藍領相關的可能就"
+  },
+  {
+   "start": 1775.74,
+   "end": 1777.36,
+   "speaker": "Kalan",
+   "text": "體力勞動為主，"
+  },
+  {
+   "start": 1778.58,
+   "end": 1780.36,
+   "speaker": "Kalan",
+   "text": "也是一件蠻訝異的事情。"
+  },
+  {
+   "start": 1781.04,
+   "end": 1788.08,
+   "speaker": "Kalan",
+   "text": "我後來還有想到一件事，就是比較不容易被取代，就是我自己的想法，就是所謂的情感連結。"
+  },
+  {
+   "start": 1788.08,
+   "end": 1789.22,
+   "speaker": "Kalan",
+   "text": "舉例來講，"
+  },
+  {
+   "start": 1789.98,
+   "end": 1792.8,
+   "speaker": "Kalan",
+   "text": "我們可能會有自己喜歡的動畫、"
+  },
+  {
+   "start": 1792.8,
+   "end": 1795.66,
+   "speaker": "Kalan",
+   "text": "喜歡的偶像、"
+  },
+  {
+   "start": 1795.66,
+   "end": 1797.08,
+   "speaker": "Kalan",
+   "text": "喜歡的歌手，"
+  },
+  {
+   "start": 1797.08,
+   "end": 1799.62,
+   "speaker": "Kalan",
+   "text": "有時候你去買那些東西，"
+  },
+  {
+   "start": 1799.62,
+   "end": 1801.18,
+   "speaker": "Kalan",
+   "text": "就比如說你去買專輯，"
+  },
+  {
+   "start": 1801.18,
+   "end": 1802.86,
+   "speaker": "Kalan",
+   "text": "或者是你去買"
+  },
+  {
+   "start": 1804.82,
+   "end": 1808.32,
+   "speaker": "Kalan",
+   "text": "喜歡的動畫的娃娃、吊飾等等。"
+  },
+  {
+   "start": 1809.4,
+   "end": 1812.22,
+   "speaker": "Kalan",
+   "text": "第一個，你可能買專輯不一定是為了要聽歌，"
+  },
+  {
+   "start": 1812.78,
+   "end": 1815.08,
+   "speaker": "Kalan",
+   "text": "因為聽歌你到哪裡都聽得到，"
+  },
+  {
+   "start": 1815.08,
+   "end": 1823.58,
+   "speaker": "Kalan",
+   "text": "而是你已經對這個歌手有產生情感連結之後，你才會想去用買專輯這件事情去支持他。"
+  },
+  {
+   "start": 1824.24,
+   "end": 1829.14,
+   "speaker": "Kalan",
+   "text": "我想買娃娃、買吊飾什麼的，也有點是類似的概念，"
+  },
+  {
+   "start": 1829.76,
+   "end": 1834.58,
+   "speaker": "Kalan",
+   "text": "這個娃娃它帶給你的就是一種情感連結，"
+  },
+  {
+   "start": 1835.24,
+   "end": 1839.94,
+   "speaker": "Kalan",
+   "text": "這可能也是 AI 暫時沒辦法取代的一件事。"
+  },
+  {
+   "start": 1841.7,
+   "end": 1842.58,
+   "speaker": "Mooly",
+   "text": "確實。"
+  },
+  {
+   "start": 1843.06,
+   "end": 1844.9,
+   "speaker": "Mooly",
+   "text": "那假設如果之後，比如說"
+  },
+  {
+   "start": 1845.34,
+   "end": 1848.2,
+   "speaker": "Mooly",
+   "text": "你喜歡看的動畫是 AI 產生出來的，"
+  },
+  {
+   "start": 1848.2,
+   "end": 1851.08,
+   "speaker": "Mooly",
+   "text": "這樣算是 AI 取代了這個情感連結嗎？"
+  },
+  {
+   "start": 1851.08,
+   "end": 1853.82,
+   "speaker": "Kalan",
+   "text": "我其實有點在想這件事情耶，"
+  },
+  {
+   "start": 1853.82,
+   "end": 1857.24,
+   "speaker": "Kalan",
+   "text": "因為我那時候就在想說，如果這部動畫"
+  },
+  {
+   "start": 1857.24,
+   "end": 1859.88,
+   "speaker": "Kalan",
+   "text": "假設它是從 AI 產出來的，"
+  },
+  {
+   "start": 1859.88,
+   "end": 1861.58,
+   "speaker": "Kalan",
+   "text": "然後它真的好看到"
+  },
+  {
+   "start": 1861.58,
+   "end": 1864.88,
+   "speaker": "Kalan",
+   "text": "第一個，我完全不知道它是 AI，"
+  },
+  {
+   "start": 1865.68,
+   "end": 1870.6,
+   "speaker": "Kalan",
+   "text": "又或者是劇情已經佔到很，佔很，佔"
+  },
+  {
+   "start": 1870.6,
+   "end": 1874.24,
+   "speaker": "Kalan",
+   "text": "佔到說我其實也不在意它到底是不是 AI"
+  },
+  {
+   "start": 1875.1,
+   "end": 1875.74,
+   "speaker": "Kalan",
+   "text": "的話，"
+  },
+  {
+   "start": 1876.4,
+   "end": 1880.2,
+   "speaker": "Kalan",
+   "text": "那好像也沒差了。"
+  },
+  {
+   "start": 1881.16,
+   "end": 1882.94,
+   "speaker": "Kalan",
+   "text": "想一下喔。"
+  },
+  {
+   "start": 1883.68,
+   "end": 1884.46,
+   "speaker": "Kalan",
+   "text": "嗯，對，"
+  },
+  {
+   "start": 1886.38,
+   "end": 1889.06,
+   "speaker": "Kalan",
+   "text": "好像是這樣沒錯耶。"
+  },
+  {
+   "start": 1889.48,
+   "end": 1892.74,
+   "speaker": "Mooly",
+   "text": "這麼可愛，再繼續聊下去，AI 征服世界的"
+  },
+  {
+   "start": 1892.74,
+   "end": 1894.36,
+   "speaker": "Kalan",
+   "text": "AI 征服世界。"
+  },
+  {
+   "start": 1896.1,
+   "end": 1898.26,
+   "speaker": "Mooly",
+   "text": "但剛剛比如說聊到那個，"
+  },
+  {
+   "start": 1898.68,
+   "end": 1902.36,
+   "speaker": "Mooly",
+   "text": "就我剛剛講大家什麼事情都會問 AI 的時候，我突然想到一個"
+  },
+  {
+   "start": 1902.92,
+   "end": 1905.66,
+   "speaker": "Mooly",
+   "text": "另一個話題，是安全性這件事情。"
+  },
+  {
+   "start": 1906.82,
+   "end": 1912.82,
+   "speaker": "Mooly",
+   "text": "比如說好了，比如說因為現在大家什麼都問 AI 嘛，所以理論上 AI 給你的答案，會多少"
+  },
+  {
+   "start": 1912.82,
+   "end": 1914.06,
+   "speaker": "Mooly",
+   "text": "影響到你。"
+  },
+  {
+   "start": 1914.06,
+   "end": 1915.44,
+   "speaker": "Mooly",
+   "text": "那假設有一天，"
+  },
+  {
+   "start": 1915.44,
+   "end": 1916.58,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 1917.36,
+   "end": 1920.44,
+   "speaker": "Mooly",
+   "text": "那幾個大的 AI 平台全部聯合起來，"
+  },
+  {
+   "start": 1921.0,
+   "end": 1931.1,
+   "speaker": "Mooly",
+   "text": "偷偷或是某些人利用什麼方式，在那個模型裡面植入一些邪惡的想法，或是某一些特定觀點的想法的話，"
+  },
+  {
+   "start": 1931.1,
+   "end": 1933.3,
+   "speaker": "Mooly",
+   "text": "是不是其實比如說過個 5 年、10 年，"
+  },
+  {
+   "start": 1933.82,
+   "end": 1942.64,
+   "speaker": "Mooly",
+   "text": "整個社會的人就會被潛移默化，心理偷偷被 inception、被植入那個概念而不知道？"
+  },
+  {
+   "start": 1943.22,
+   "end": 1953.7,
+   "speaker": "Kalan",
+   "text": "喔，我覺得這個有可能發生，然後它蠻可怕的，雖然 AI 的安全性問題，一直是這些大公司有在關注的，"
+  },
+  {
+   "start": 1953.7,
+   "end": 1958.12,
+   "speaker": "Kalan",
+   "text": "但畢竟就是軟體公司嘛，"
+  },
+  {
+   "start": 1960.08,
+   "end": 1963.32,
+   "speaker": "Kalan",
+   "text": "就我們都知道沒辦法全盤地相信它。"
+  },
+  {
+   "start": 1963.32,
+   "end": 1965.96,
+   "speaker": "Kalan",
+   "text": "那其實另外一個方向就是，"
+  },
+  {
+   "start": 1967.1,
+   "end": 1970.04,
+   "speaker": "Kalan",
+   "text": "我們有辦法進化到說，"
+  },
+  {
+   "start": 1970.04,
+   "end": 1972.18,
+   "speaker": "Kalan",
+   "text": "每個人的家庭都有能力，"
+  },
+  {
+   "start": 1972.18,
+   "end": 1976.48,
+   "speaker": "Kalan",
+   "text": "直接部署一個夠用的本地 AI 模型嗎？"
+  },
+  {
+   "start": 1977.7,
+   "end": 1979.74,
+   "speaker": "Mooly",
+   "text": "我覺得這個不可能，"
+  },
+  {
+   "start": 1982.16,
+   "end": 1985.9,
+   "speaker": "Mooly",
+   "text": "就是你可能有能力歸有能力，但沒有人會去做這件事情。"
+  },
+  {
+   "start": 1988.56,
+   "end": 1992.26,
+   "speaker": "Mooly",
+   "text": "這個也連繫到另一個我剛剛想到的，"
+  },
+  {
+   "start": 1992.26,
+   "end": 1998.46,
+   "speaker": "Mooly",
+   "text": "就你剛剛講這件事情，只侷限在我們這個圈子裡面會想做這件事情，"
+  },
+  {
+   "start": 1998.46,
+   "end": 2000.66,
+   "speaker": "Mooly",
+   "text": "對其他人來說，他第一個，他不懂，"
+  },
+  {
+   "start": 2000.66,
+   "end": 2001.84,
+   "speaker": "Mooly",
+   "text": "第二個，是他不會想這樣做，"
+  },
+  {
+   "start": 2001.84,
+   "end": 2005.46,
+   "speaker": "Mooly",
+   "text": "他就是有免費的 ChatGPT 用，好棒，我就用它這樣子。"
+  },
+  {
+   "start": 2006.84,
+   "end": 2008.0,
+   "speaker": "Mooly",
+   "text": "再加上其實，"
+  },
+  {
+   "start": 2008.48,
+   "end": 2012.88,
+   "speaker": "Mooly",
+   "text": "雖然我們現在聊 AI，我們都覺得 AI 已經是生活必需品了，"
+  },
+  {
+   "start": 2012.88,
+   "end": 2014.14,
+   "speaker": "Mooly",
+   "text": "但是其實，"
+  },
+  {
+   "start": 2014.14,
+   "end": 2018.16,
+   "speaker": "Mooly",
+   "text": "畢竟我們身處在這個科技的圈子，本來就是"
+  },
+  {
+   "start": 2019.02,
+   "end": 2020.18,
+   "speaker": "Kalan",
+   "text": "比較容易接觸到的。"
+  },
+  {
+   "start": 2020.18,
+   "end": 2025.28,
+   "speaker": "Mooly",
+   "text": "對，比較早接觸到、比較容易接觸到，雖然現在 ChatGPT 已經這麼流行，"
+  },
+  {
+   "start": 2025.28,
+   "end": 2030.46,
+   "speaker": "Mooly",
+   "text": "但我相信一定還是有很多人，他可能有聽過 ChatGPT，有問過它一兩句話，"
+  },
+  {
+   "start": 2030.46,
+   "end": 2032.28,
+   "speaker": "Mooly",
+   "text": "但它其實上，"
+  },
+  {
+   "start": 2032.28,
+   "end": 2034.66,
+   "speaker": "Mooly",
+   "text": "我基本上完全不會用它。"
+  },
+  {
+   "start": 2036.2,
+   "end": 2042.52,
+   "speaker": "Kalan",
+   "text": "而且現在的確是大模型，就是閉源的模型，"
+  },
+  {
+   "start": 2042.52,
+   "end": 2045.2,
+   "speaker": "Kalan",
+   "text": "它表現的確是好很多的，"
+  },
+  {
+   "start": 2045.82,
+   "end": 2047.94,
+   "speaker": "Kalan",
+   "text": "雖然現在的本地，"
+  },
+  {
+   "start": 2047.94,
+   "end": 2052.28,
+   "speaker": "Kalan",
+   "text": "就是可以部署到本地的，像 Llama 什麼的，"
+  },
+  {
+   "start": 2052.28,
+   "end": 2055.52,
+   "speaker": "Kalan",
+   "text": "它的確效果還蠻不錯的，"
+  },
+  {
+   "start": 2055.52,
+   "end": 2056.42,
+   "speaker": "Kalan",
+   "text": "但就是有差。"
+  },
+  {
+   "start": 2056.94,
+   "end": 2058.02,
+   "speaker": "Kalan",
+   "text": "但就是有差，"
+  },
+  {
+   "start": 2058.74,
+   "end": 2061.32,
+   "speaker": "Mooly",
+   "text": "但反正現在模型的進化速度也很快，"
+  },
+  {
+   "start": 2061.32,
+   "end": 2065.8,
+   "speaker": "Mooly",
+   "text": "可能過個一兩年就有進步了，"
+  },
+  {
+   "start": 2065.8,
+   "end": 2067.94,
+   "speaker": "Kalan",
+   "text": "又是不一樣的風景了。"
+  },
+  {
+   "start": 2069.4,
+   "end": 2074.56,
+   "speaker": "Mooly",
+   "text": "這個模型的訓練，也讓我想到剛剛我們聊那個 AI 文章的那個話題，"
+  },
+  {
+   "start": 2074.56,
+   "end": 2077.16,
+   "speaker": "Mooly",
+   "text": "就之前看過一個是說，"
+  },
+  {
+   "start": 2077.9,
+   "end": 2082.72,
+   "speaker": "Mooly",
+   "text": "那些大型的模型，AI 都是用很多的網路資料訓練起來的，"
+  },
+  {
+   "start": 2083.3,
+   "end": 2085.52,
+   "speaker": "Mooly",
+   "text": "那比如說過了十年之後，"
+  },
+  {
+   "start": 2085.52,
+   "end": 2087.94,
+   "speaker": "Mooly",
+   "text": "假設網路上的資料，"
+  },
+  {
+   "start": 2087.94,
+   "end": 2091.16,
+   "speaker": "Mooly",
+   "text": "真人活人寫的內容已經越來越少了，"
+  },
+  {
+   "start": 2091.16,
+   "end": 2093.5,
+   "speaker": "Mooly",
+   "text": "就大部分都是 AI 寫的，"
+  },
+  {
+   "start": 2093.5,
+   "end": 2095.26,
+   "speaker": "Mooly",
+   "text": "就會變成是 AI 自己訓練的 AI，"
+  },
+  {
+   "start": 2095.26,
+   "end": 2099.56,
+   "speaker": "Mooly",
+   "text": "它就會進入到一個沒辦法繼續突破的階段，"
+  },
+  {
+   "start": 2099.56,
+   "end": 2103.46,
+   "speaker": "Mooly",
+   "text": "因為它的 data source 都是自己產生出來的，"
+  },
+  {
+   "start": 2105.4,
+   "end": 2108.86,
+   "speaker": "Mooly",
+   "text": "是一個 AI 進步的兩難吧。"
+  },
+  {
+   "start": 2108.86,
+   "end": 2111.66,
+   "speaker": "Mooly",
+   "text": "你 AI 進步之後，人就會開始用 AI，"
+  },
+  {
+   "start": 2112.22,
+   "end": 2115.4,
+   "speaker": "Mooly",
+   "text": "它那些文章數據都是 AI 產生，"
+  },
+  {
+   "start": 2115.4,
+   "end": 2119.38,
+   "speaker": "Mooly",
+   "text": "那它就會進入到這個進步的困難。"
+  },
+  {
+   "start": 2121.4,
+   "end": 2126.5,
+   "speaker": "Kalan",
+   "text": "第一個是很高興處在這個 AI 蓬勃發展的時代，"
+  },
+  {
+   "start": 2126.5,
+   "end": 2128.68,
+   "speaker": "Kalan",
+   "text": "也很羨慕現在的"
+  },
+  {
+   "start": 2128.68,
+   "end": 2134.66,
+   "speaker": "Kalan",
+   "text": "一則以喜，一則以憂，很羨慕現在的大學生，有這麼棒的工具幫助自己，"
+  },
+  {
+   "start": 2135.28,
+   "end": 2137.62,
+   "speaker": "Kalan",
+   "text": "但也像我們剛剛講到，"
+  },
+  {
+   "start": 2137.62,
+   "end": 2140.02,
+   "speaker": "Kalan",
+   "text": "在 AI 這麼進步的情況下，其實"
+  },
+  {
+   "start": 2140.74,
+   "end": 2143.64,
+   "speaker": "Kalan",
+   "text": "你如果是剛入門學程式的話，"
+  },
+  {
+   "start": 2143.64,
+   "end": 2145.6,
+   "speaker": "Kalan",
+   "text": "的確會遇到一些困難，"
+  },
+  {
+   "start": 2145.6,
+   "end": 2150.46,
+   "speaker": "Kalan",
+   "text": "很多事情好像直接從 AI 這邊解決掉了就 OK。"
+  },
+  {
+   "start": 2150.46,
+   "end": 2156.2,
+   "speaker": "Kalan",
+   "text": "那你真的要在這一塊脫穎而出的話，"
+  },
+  {
+   "start": 2156.2,
+   "end": 2158.92,
+   "speaker": "Kalan",
+   "text": "你可能就要真的非常非常深入，"
+  },
+  {
+   "start": 2158.92,
+   "end": 2164.1,
+   "speaker": "Kalan",
+   "text": "或者是你要真的很喜歡學習這件事情，才有辦法走到"
+  },
+  {
+   "start": 2164.68,
+   "end": 2168.2,
+   "speaker": "Kalan",
+   "text": "就是現在 AI 還沒有辦法完全取代的部分。"
+  },
+  {
+   "start": 2168.2,
+   "end": 2168.74,
+   "speaker": "Kalan",
+   "text": "嗯。"
+  },
+  {
+   "start": 2169.9,
+   "end": 2174.58,
+   "speaker": "Kalan",
+   "text": "一方面也會擔心說 AI 帶來的影響到底是好是壞呢，"
+  },
+  {
+   "start": 2174.58,
+   "end": 2176.46,
+   "speaker": "Kalan",
+   "text": "這個我們還不知道，"
+  },
+  {
+   "start": 2176.46,
+   "end": 2179.46,
+   "speaker": "Kalan",
+   "text": "但就盡量分享一些我們的觀點這樣。"
+  },
+  {
+   "start": 2181.3,
+   "end": 2183.86,
+   "speaker": "Kalan",
+   "text": "那我們今天的節目也差不多啦，"
+  },
+  {
+   "start": 2184.42,
+   "end": 2187.14,
+   "speaker": "Kalan",
+   "text": "好，那我們今天的節目就到這邊啦。"
+  },
+  {
+   "start": 2187.14,
+   "end": 2189.3,
+   "speaker": "Kalan",
+   "text": "喜歡的話歡迎訂閱分享，"
+  },
+  {
+   "start": 2189.3,
+   "end": 2193.24,
+   "speaker": "Kalan",
+   "text": "那有任何回饋的話，都可以透過表單或寄信給我們喔。"
+  },
+  {
+   "start": 2193.24,
+   "end": 2193.9,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 2193.9,
+   "end": 2194.94,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2195.44,
+   "end": 2196.56,
+   "speaker": "Kalan",
+   "text": "我們下次見，"
+  },
+  {
+   "start": 2196.56,
+   "end": 2197.58,
+   "speaker": "Mooly",
+   "text": "bye bye！"
+  }
+ ]
+}
