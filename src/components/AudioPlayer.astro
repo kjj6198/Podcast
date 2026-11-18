@@ -1,0 +1,108 @@
+---
+import type { Episode } from "../lib/podcast";
+import { formatTime } from "../lib/time";
+
+interface Props {
+  episode: Episode;
+}
+
+const { episode } = Astro.props;
+const total = formatTime(episode.durationSeconds);
+---
+
+<audio-player class="block">
+  <div class="flex items-center gap-4">
+    <button
+      type="button"
+      data-toggle
+      aria-label={`播放 EP${episode.number}`}
+      class="grid size-12 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground transition-colors duration-150 ease-out hover:bg-ink aria-busy:animate-pulse motion-reduce:animate-none"
+    >
+      <svg data-icon="play" viewBox="0 0 24 24" class="ml-0.5 size-5" fill="currentColor" aria-hidden="true">
+        <path d="M7 4.8v14.4a1 1 0 0 0 1.52.85l11.5-7.2a1 1 0 0 0 0-1.7L8.52 3.95A1 1 0 0 0 7 4.8Z" />
+      </svg>
+      <svg data-icon="pause" viewBox="0 0 24 24" class="hidden size-5" fill="currentColor" aria-hidden="true">
+        <rect x="6" y="4.5" width="4" height="15" rx="1.2" />
+        <rect x="14" y="4.5" width="4" height="15" rx="1.2" />
+      </svg>
+    </button>
+    <div class="min-w-0 flex-1">
+      <input
+        type="range"
+        data-seek
+        min="0"
+        max={episode.durationSeconds}
+        step="1"
+        value="0"
+        aria-label="播放進度"
+        aria-valuetext={`0:00 / ${total}`}
+        class="w-full cursor-pointer accent-[theme(colors.primary.DEFAULT)]"
+      />
+      <div class="mt-1 flex justify-between text-xs tabular-nums text-ink-muted">
+        <span data-current>0:00</span>
+        <span>{total}</span>
+      </div>
+    </div>
+  </div>
+  <p data-error role="alert" hidden class="mt-3 text-sm text-ink-muted">
+    無法播放這集，請改到 <a href={episode.link} class="font-medium text-primary underline underline-offset-4">SoundOn</a> 收聽。
+  </p>
+  <audio preload="none" src={episode.mp3}></audio>
+</audio-player>
+
+<script>
+  import { formatTime } from "../lib/time";
+
+  class AudioPlayer extends HTMLElement {
+    connectedCallback() {
+      const audio = this.querySelector("audio")!;
+      const toggle = this.querySelector<HTMLButtonElement>("[data-toggle]")!;
+      const seek = this.querySelector<HTMLInputElement>("[data-seek]")!;
+      const current = this.querySelector<HTMLElement>("[data-current]")!;
+      const error = this.querySelector<HTMLElement>("[data-error]")!;
+      const label = toggle.getAttribute("aria-label")!;
+      const total = formatTime(Number(seek.max));
+
+      const showTime = (seconds: number) => {
+        current.textContent = formatTime(seconds);
+        seek.setAttribute("aria-valuetext", `${formatTime(seconds)} / ${total}`);
+      };
+
+      const render = () => {
+        toggle.querySelector('[data-icon="play"]')!.classList.toggle("hidden", !audio.paused);
+        toggle.querySelector('[data-icon="pause"]')!.classList.toggle("hidden", audio.paused);
+        toggle.setAttribute("aria-label", audio.paused ? label : label.replace("播放", "暫停"));
+      };
+
+      toggle.addEventListener("click", () => {
+        if (audio.paused) {
+          document.querySelectorAll("audio").forEach((other) => other !== audio && other.pause());
+          audio.play().catch(() => {});
+        } else {
+          audio.pause();
+        }
+      });
+      seek.addEventListener("input", () => {
+        audio.currentTime = Number(seek.value);
+        showTime(audio.currentTime);
+      });
+      audio.addEventListener("timeupdate", () => {
+        seek.value = String(audio.currentTime);
+        showTime(audio.currentTime);
+      });
+      audio.addEventListener("waiting", () => toggle.setAttribute("aria-busy", "true"));
+      audio.addEventListener("playing", () => toggle.removeAttribute("aria-busy"));
+      audio.addEventListener("play", render);
+      audio.addEventListener("pause", () => {
+        toggle.removeAttribute("aria-busy");
+        render();
+      });
+      audio.addEventListener("error", () => {
+        toggle.removeAttribute("aria-busy");
+        error.hidden = false;
+      });
+    }
+  }
+
+  customElements.define("audio-player", AudioPlayer);
+</script>

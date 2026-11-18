@@ -1,30 +1,83 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import AudioPlayer from "../../components/AudioPlayer.astro";
+import EpisodeMeta from "../../components/EpisodeMeta.astro";
+import { getShow, type Episode } from "../../lib/podcast";
 
 export async function getStaticPaths() {
-  const episodes = await getCollection("episodes");
+  const { episodes } = await getShow();
 
-  return episodes.map((episode) => ({
-    params: { episode: episode.data.episode.toString() },
-    props: { episode },
+  return episodes.map((episode, index) => ({
+    params: { episode: String(episode.number) },
+    props: { episode, newer: episodes[index - 1], older: episodes[index + 1] },
   }));
 }
 
-const { episode } = Astro.props;
-const { Content } = await render(episode);
+interface Props {
+  episode: Episode;
+  newer?: Episode;
+  older?: Episode;
+}
+
+const { episode, newer, older } = Astro.props;
+const show = await getShow();
+const notes = (await getCollection("episodes")).find(
+  (entry) => entry.data.episode === episode.number && entry.body?.trim(),
+);
+const Notes = notes && (await render(notes)).Content;
 ---
 
-<Layout title={episode.data.title}>
-  <div class="max-w-4xl mx-auto prose prose-sm sm:prose lg:prose-lg">
-    <article class="bg-white shadow rounded-lg p-8">
-      <h1 class="text-4xl font-bold text-gray-900 mb-8">
-        {episode.data.title}
-      </h1>
-      <audio controls>
-        <source src={episode.data.mp3} type="audio/mpeg" class="w-full" />
-      </audio>
-      <Content />
-    </article>
-  </div>
+<Layout title={`EP${episode.number} ${episode.title}｜${show.title}`} description={episode.summary.slice(0, 160)}>
+  <article class="mx-auto max-w-3xl pt-6 sm:pt-10">
+    <a href="/" class="text-sm font-medium text-ink-muted hover:text-ink">← 所有集數</a>
+
+    <header class="mt-8">
+      <p class="text-sm font-semibold text-primary">EP{episode.number}</p>
+      <h1 class="mt-2 text-3xl font-black leading-tight tracking-tight sm:text-4xl">{episode.title}</h1>
+      <EpisodeMeta episode={episode} class="mt-3" />
+    </header>
+
+    <div class="mt-8 rounded-3xl border border-line bg-surface p-5 sm:p-6">
+      <AudioPlayer episode={episode} />
+    </div>
+
+    <div class="prose prose-hina mt-10 max-w-none leading-loose">
+      {Notes ? <Notes /> : <Fragment set:html={episode.notesHtml} />}
+    </div>
+
+    <nav aria-label="其他集數" class="mt-16 grid gap-4 border-t border-line pt-8 sm:grid-cols-2">
+      {
+        older && (
+          <a href={`/episodes/${older.number}`} class="episode-nav">
+            <span class="text-sm text-ink-muted">上一集，EP{older.number}</span>
+            <span class="mt-1 block font-bold leading-snug">{older.title}</span>
+          </a>
+        )
+      }
+      {
+        newer && (
+          <a href={`/episodes/${newer.number}`} class="episode-nav sm:col-start-2 sm:text-right">
+            <span class="text-sm text-ink-muted">下一集，EP{newer.number}</span>
+            <span class="mt-1 block font-bold leading-snug">{newer.title}</span>
+          </a>
+        )
+      }
+    </nav>
+  </article>
 </Layout>
+
+<style>
+  .episode-nav {
+    display: block;
+    border-radius: 1rem;
+    border: 1px solid theme("colors.line");
+    padding: 1rem 1.25rem;
+    transition: background-color 150ms ease-out, border-color 150ms ease-out;
+  }
+
+  .episode-nav:hover {
+    background-color: theme("colors.surface");
+    border-color: theme("colors.ink.muted");
+  }
+</style>

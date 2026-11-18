@@ -1,0 +1,16 @@
+---
+import { formatDate, formatDuration, type Episode } from "../lib/podcast";
+
+interface Props {
+  episode: Episode;
+  class?: string;
+}
+
+const { episode, class: className } = Astro.props;
+---
+
+<span class:list={["flex items-center gap-2.5 text-sm text-ink-muted", className]}>
+  <time datetime={episode.publishedAt.toISOString()}>{formatDate(episode.publishedAt)}</time>
+  <span class="h-3 w-px bg-ink-muted opacity-40" aria-hidden="true"></span>
+  <span>{formatDuration(episode.durationSeconds)}</span>
+</span>
