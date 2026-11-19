@@ -4,6 +4,8 @@ import { Icon } from "astro-icon/components";
 import Layout from "../../layouts/Layout.astro";
 import AudioPlayer from "../../components/AudioPlayer.astro";
 import EpisodeMeta from "../../components/EpisodeMeta.astro";
+import EpisodeSummary from "../../components/EpisodeSummary.astro";
+import TranscriptView from "../../components/TranscriptView.astro";
 import { getShow, type Episode } from "../../lib/podcast";
 
 export async function getStaticPaths() {
@@ -27,6 +29,7 @@ const notes = (await getCollection("episodes")).find(
   (entry) => entry.data.episode === episode.number && entry.body?.trim(),
 );
 const Notes = notes && (await render(notes)).Content;
+const transcript = (await getCollection("transcripts")).find((entry) => entry.data.episode === episode.number)?.data;
 ---
 
 <Layout title={`EP${episode.number} ${episode.title}｜${show.title}`} description={episode.summary.slice(0, 160)}>
@@ -42,13 +45,16 @@ const Notes = notes && (await render(notes)).Content;
       <EpisodeMeta episode={episode} class="mt-3" />
     </header>
 
-    <div class="mt-8 rounded-3xl border border-line bg-surface p-5 sm:p-6">
-      <AudioPlayer episode={episode} />
+    <div class="sticky top-3 z-10 mt-8 rounded-3xl border border-line bg-surface p-5 shadow-[0_12px_32px_-20px_oklch(0.32_0.026_196/0.45)] sm:p-6">
+      <AudioPlayer episode={episode} captions={Boolean(transcript)} />
     </div>
 
     <div class="prose prose-hina mt-10 max-w-none leading-loose">
       {Notes ? <Notes /> : <Fragment set:html={episode.notesHtml} />}
     </div>
+
+    {transcript && <EpisodeSummary summary={transcript.summary} />}
+    {transcript && <TranscriptView transcript={transcript} />}
 
     <nav aria-label="其他集數" class="mt-16 grid gap-4 border-t border-line pt-8 sm:grid-cols-2">
       {

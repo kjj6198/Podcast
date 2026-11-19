@@ -1,0 +1,4110 @@
+{
+ "episode": 5,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 在本集聊日本與台灣的生活與工作差異。話題涵蓋買房簽約的信任機制與《地面師》詐騙事件、交通與公車禮讓、飲食、一體式浴室、支付方式，以及健康檢查、健保組合與下請制度。",
+  "points": [
+   "日本買房多半直接匯款給不動產公司，沒有台灣常見的履約保證，過戶登記還要等一兩個月，信任成分很高。",
+   "日本汽車很習慣禮讓行人、公車乘客等停穩再起身，台灣公車則常要求提早走到門口，對長輩不友善。",
+   "日本餐點蔬菜選擇較少，且日本高麗菜與台灣口感不同，炒起來味道有差異。",
+   "日本的一體式浴室（ユニットバス）防滑、乾燥、不易漏水且好清潔，但在台灣因成本與維修問題不易普及。",
+   "日本 PayPay 市占率很高；非日本發行的 Android 手機沒有 FeliCa 晶片，無法把交通卡綁進手機，Mooly 也遇過 My Number Card 相關 app 顯示裝置不支援，但兩人不確定是硬體還是軟體限制。",
+   "日本上班族每年強制健檢，健保依公司加入健康保險組合並有額外福利；下請制度則規範大公司不得欺壓小公司。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與本集主題"
+   },
+   {
+    "start": 29.0,
+    "title": "《地面師》與日本買房簽約"
+   },
+   {
+    "start": 188.0,
+    "title": "台灣履約保證與日本信任機制"
+   },
+   {
+    "start": 361.0,
+    "title": "交通安全與公車差異"
+   },
+   {
+    "start": 708.0,
+    "title": "飲食習慣與高麗菜"
+   },
+   {
+    "start": 869.0,
+    "title": "一體式浴室的設計"
+   },
+   {
+    "start": 1124.0,
+    "title": "PayPay、交通卡與 Android 限制"
+   },
+   {
+    "start": 1402.0,
+    "title": "健檢、健保與下請制度"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.18,
+   "end": 2.02,
+   "speaker": "Kalan",
+   "text": "大家好，我是 Kalan。"
+  },
+  {
+   "start": 2.02,
+   "end": 2.88,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 3.58,
+   "end": 5.92,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 18.22,
+   "end": 24.68,
+   "speaker": "Kalan",
+   "text": "那我們今天主要想要來聊聊日台生活的各種差異。"
+  },
+  {
+   "start": 24.68,
+   "end": 28.62,
+   "speaker": "Kalan",
+   "text": "那我們就先從生活上的部分開始聊起好了。"
+  },
+  {
+   "start": 29.18,
+   "end": 32.14,
+   "speaker": "Kalan",
+   "text": "因為我最近其實在日本買了房子。"
+  },
+  {
+   "start": 32.64,
+   "end": 40.54,
+   "speaker": "Kalan",
+   "text": "Mooly，我不知道你有沒有看過，就是最近在 Netflix 上蠻紅的，叫做《地面師》的一部，算是日本的"
+  },
+  {
+   "start": 40.54,
+   "end": 41.8,
+   "speaker": "Mooly",
+   "text": "影集嗎？"
+  },
+  {
+   "start": 42.5,
+   "end": 47.94,
+   "speaker": "Mooly",
+   "text": "我有聽過，然後加在我的待看清單裡面，但還沒點開來。"
+  },
+  {
+   "start": 47.94,
+   "end": 54.96,
+   "speaker": "Kalan",
+   "text": "那我就先稍微講一下這個《地面師》的，也不算劇情，算是它的那個狀況是什麼。"
+  },
+  {
+   "start": 55.76,
+   "end": 63.9,
+   "speaker": "Kalan",
+   "text": "比如說你去做不動產簽約，或者是買房之類的事情的時候，他們會做一種"
+  },
+  {
+   "start": 63.9,
+   "end": 68.9,
+   "speaker": "Kalan",
+   "text": "他們當然會先跟你確認說，你是真的是那個賣家本人。"
+  },
+  {
+   "start": 68.9,
+   "end": 74.08,
+   "speaker": "Kalan",
+   "text": "他們會做 本人確認，就是確認本人這件事情。"
+  },
+  {
+   "start": 74.66,
+   "end": 75.62,
+   "speaker": "Kalan",
+   "text": "但是呢，"
+  },
+  {
+   "start": 76.3,
+   "end": 77.48,
+   "speaker": "Kalan",
+   "text": "之前在東京裡面，"
+  },
+  {
+   "start": 78.0,
+   "end": 79.36,
+   "speaker": "Kalan",
+   "text": "之前有東京奧運，"
+  },
+  {
+   "start": 79.36,
+   "end": 82.18,
+   "speaker": "Kalan",
+   "text": "所以東京附近的房價就漲得很兇，"
+  },
+  {
+   "start": 82.76,
+   "end": 84.52,
+   "speaker": "Kalan",
+   "text": "然後就有詐騙集團，"
+  },
+  {
+   "start": 85.18,
+   "end": 87.26,
+   "speaker": "Kalan",
+   "text": "看上了這個機會。"
+  },
+  {
+   "start": 87.26,
+   "end": 90.18,
+   "speaker": "Kalan",
+   "text": "他們就先去偽造那些證件啊，"
+  },
+  {
+   "start": 90.18,
+   "end": 93.26,
+   "speaker": "Kalan",
+   "text": "然後像是不動產的登記書等等，"
+  },
+  {
+   "start": 93.26,
+   "end": 98.2,
+   "speaker": "Kalan",
+   "text": "他們就去騙不動產公司，說他們就是賣家本人這樣子。"
+  },
+  {
+   "start": 98.2,
+   "end": 101.06,
+   "speaker": "Kalan",
+   "text": "所以那時候他們挑的物件都是"
+  },
+  {
+   "start": 101.06,
+   "end": 102.74,
+   "speaker": "Kalan",
+   "text": "欸，可能沒人住了，"
+  },
+  {
+   "start": 102.74,
+   "end": 106.2,
+   "speaker": "Kalan",
+   "text": "或者是屋主很老，可能神智不清的那種。"
+  },
+  {
+   "start": 106.2,
+   "end": 112.96,
+   "speaker": "Kalan",
+   "text": "然後當時詐騙到一個非常大的對象，叫做積水房屋，"
+  },
+  {
+   "start": 112.96,
+   "end": 118.62,
+   "speaker": "Kalan",
+   "text": "它算是日本裡面第一名吧，做不動產最有名的。"
+  },
+  {
+   "start": 118.62,
+   "end": 121.14,
+   "speaker": "Kalan",
+   "text": "這件事情就造成很大轟動這樣子。"
+  },
+  {
+   "start": 121.86,
+   "end": 124.54,
+   "speaker": "Kalan",
+   "text": "然後我那時候看到其實也蠻"
+  },
+  {
+   "start": 124.54,
+   "end": 127.7,
+   "speaker": "Kalan",
+   "text": "有一點心驚膽戰的感覺。"
+  },
+  {
+   "start": 127.7,
+   "end": 131.16,
+   "speaker": "Kalan",
+   "text": "在日本買房，它是不需要"
+  },
+  {
+   "start": 131.16,
+   "end": 133.48,
+   "speaker": "Kalan",
+   "text": "比如說你去貸款好了，"
+  },
+  {
+   "start": 133.48,
+   "end": 136.02,
+   "speaker": "Kalan",
+   "text": "貸款下來的錢，"
+  },
+  {
+   "start": 136.02,
+   "end": 137.38,
+   "speaker": "Kalan",
+   "text": "就是會先到你的戶頭，"
+  },
+  {
+   "start": 137.92,
+   "end": 138.64,
+   "speaker": "Kalan",
+   "text": "可能看銀行，"
+  },
+  {
+   "start": 138.64,
+   "end": 142.44,
+   "speaker": "Kalan",
+   "text": "可能銀行會直接匯到不動產指定的帳戶，"
+  },
+  {
+   "start": 142.44,
+   "end": 144.34,
+   "speaker": "Kalan",
+   "text": "或者是先到你的戶頭之後，"
+  },
+  {
+   "start": 144.82,
+   "end": 147.9,
+   "speaker": "Kalan",
+   "text": "他們好像還會再自動把那個錢轉出去到那個"
+  },
+  {
+   "start": 147.9,
+   "end": 150.98,
+   "speaker": "Kalan",
+   "text": "你指定的那個不動產的帳戶這樣。"
+  },
+  {
+   "start": 151.8,
+   "end": 153.32,
+   "speaker": "Kalan",
+   "text": "他們收到錢之後，"
+  },
+  {
+   "start": 153.32,
+   "end": 155.76,
+   "speaker": "Kalan",
+   "text": "才會去做交付的動作。"
+  },
+  {
+   "start": 155.76,
+   "end": 156.56,
+   "speaker": "Kalan",
+   "text": "所以其實"
+  },
+  {
+   "start": 156.56,
+   "end": 160.26,
+   "speaker": "Kalan",
+   "text": "這個流程是蠻沒有保障的。"
+  },
+  {
+   "start": 161.1,
+   "end": 162.72,
+   "speaker": "Kalan",
+   "text": "就是你交了錢之後，"
+  },
+  {
+   "start": 163.18,
+   "end": 167.18,
+   "speaker": "Kalan",
+   "text": "對方房屋不給你啊，或者是像《地面師》那邊提到的，"
+  },
+  {
+   "start": 167.18,
+   "end": 171.58,
+   "speaker": "Kalan",
+   "text": "結果他們去法務局看，說怎麼不是本人這樣子，"
+  },
+  {
+   "start": 172.08,
+   "end": 174.46,
+   "speaker": "Kalan",
+   "text": "但是對方已經拿到錢，然後就跑走了。"
+  },
+  {
+   "start": 175.96,
+   "end": 177.34,
+   "speaker": "Kalan",
+   "text": "蠻 cool 的地方。"
+  },
+  {
+   "start": 177.34,
+   "end": 179.66,
+   "speaker": "Kalan",
+   "text": "欸，Mooly，你在台灣有買過房子嗎？"
+  },
+  {
+   "start": 179.66,
+   "end": 184.06,
+   "speaker": "Mooly",
+   "text": "有，大概三四年前有買過一個小套房。"
+  },
+  {
+   "start": 184.06,
+   "end": 184.7,
+   "speaker": "Kalan",
+   "text": "小套房？"
+  },
+  {
+   "start": 184.7,
+   "end": 186.76,
+   "speaker": "Kalan",
+   "text": "喔，好，恭喜恭喜。"
+  },
+  {
+   "start": 187.96,
+   "end": 194.04,
+   "speaker": "Kalan",
+   "text": "因為我有聽說在台灣好像會有所謂的履約保證嗎？"
+  },
+  {
+   "start": 194.04,
+   "end": 196.4,
+   "speaker": "Kalan",
+   "text": "你可以稍微講一下那是怎樣的機制嗎？"
+  },
+  {
+   "start": 196.4,
+   "end": 199.9,
+   "speaker": "Mooly",
+   "text": "那如果我們簡單來說，它就比較像是你簽了履約保證之後，"
+  },
+  {
+   "start": 199.9,
+   "end": 205.8,
+   "speaker": "Mooly",
+   "text": "你從貸款那邊拿到的錢，就會先到那個履約保證的帳戶，"
+  },
+  {
+   "start": 205.8,
+   "end": 210.26,
+   "speaker": "Mooly",
+   "text": "然後等確定都搞定、你拿到房屋之後，"
+  },
+  {
+   "start": 210.82,
+   "end": 211.64,
+   "speaker": "Mooly",
+   "text": "就會有"
+  },
+  {
+   "start": 211.64,
+   "end": 214.88,
+   "speaker": "Mooly",
+   "text": "算是一個公正的第三方嗎之類的，"
+  },
+  {
+   "start": 214.88,
+   "end": 218.22,
+   "speaker": "Mooly",
+   "text": "由那邊把錢再撥給賣家那邊。"
+  },
+  {
+   "start": 218.22,
+   "end": 221.92,
+   "speaker": "Mooly",
+   "text": "確保你們兩個都可以拿到你們需要的東西。"
+  },
+  {
+   "start": 221.92,
+   "end": 230.84,
+   "speaker": "Mooly",
+   "text": "它感覺就有點像是那個線上買賣平台會推出的那種，叫做什麼的，它反而也是說你那個錢先打到他們"
+  },
+  {
+   "start": 231.4,
+   "end": 232.58,
+   "speaker": "Mooly",
+   "text": "官方那邊，"
+  },
+  {
+   "start": 232.58,
+   "end": 236.54,
+   "speaker": "Mooly",
+   "text": "然後確定物品交易完成之後，他們才會把錢再撥給那個"
+  },
+  {
+   "start": 236.54,
+   "end": 239.1,
+   "speaker": "Mooly",
+   "text": "賣家，來確保雙方的交易安全。"
+  },
+  {
+   "start": 239.1,
+   "end": 240.86,
+   "speaker": "Mooly",
+   "text": "似乎是這樣子的一個制度。"
+  },
+  {
+   "start": 240.86,
+   "end": 246.26,
+   "speaker": "Kalan",
+   "text": "日本好像雖然有這個制度存在，"
+  },
+  {
+   "start": 246.26,
+   "end": 248.92,
+   "speaker": "Kalan",
+   "text": "就是它有所謂的信託的制度存在，"
+  },
+  {
+   "start": 248.92,
+   "end": 251.44,
+   "speaker": "Kalan",
+   "text": "但是一般買房大家的"
+  },
+  {
+   "start": 251.44,
+   "end": 253.18,
+   "speaker": "Kalan",
+   "text": "算是潛規則，"
+  },
+  {
+   "start": 253.18,
+   "end": 255.5,
+   "speaker": "Kalan",
+   "text": "一般買房大家的習慣都是"
+  },
+  {
+   "start": 255.5,
+   "end": 258.34,
+   "speaker": "Kalan",
+   "text": "就是直接錢就是直接打過去這樣子。"
+  },
+  {
+   "start": 259.74,
+   "end": 264.64,
+   "speaker": "Kalan",
+   "text": "如果你是跟那些比較有名、比較知名的不動產做，那當然"
+  },
+  {
+   "start": 265.12,
+   "end": 266.84,
+   "speaker": "Kalan",
+   "text": "是不太會遇到這樣的情況，"
+  },
+  {
+   "start": 266.84,
+   "end": 267.68,
+   "speaker": "Kalan",
+   "text": "但是，"
+  },
+  {
+   "start": 268.2,
+   "end": 269.8,
+   "speaker": "Kalan",
+   "text": "好像就是只能靠信任，"
+  },
+  {
+   "start": 269.8,
+   "end": 271.9,
+   "speaker": "Kalan",
+   "text": "它沒有所謂的履約保證在。"
+  },
+  {
+   "start": 271.9,
+   "end": 275.22,
+   "speaker": "Mooly",
+   "text": "喔對，你講到這個我有想到，之前好像看那個"
+  },
+  {
+   "start": 275.22,
+   "end": 279.28,
+   "speaker": "Mooly",
+   "text": "就我記得之前不是有什麼 YouTuber，比如說 Joman 什麼，有在日本買房嗎？"
+  },
+  {
+   "start": 279.28,
+   "end": 282.08,
+   "speaker": "Mooly",
+   "text": "然後他那時候好像有提到說，比如說有些人"
+  },
+  {
+   "start": 282.08,
+   "end": 284.38,
+   "speaker": "Mooly",
+   "text": "他們比如說從台灣想要買日本房子的，"
+  },
+  {
+   "start": 284.38,
+   "end": 286.54,
+   "speaker": "Mooly",
+   "text": "有些如果是透過日本房仲的，"
+  },
+  {
+   "start": 286.54,
+   "end": 288.58,
+   "speaker": "Mooly",
+   "text": "很多其實他好像那個錢是"
+  },
+  {
+   "start": 288.58,
+   "end": 293.12,
+   "speaker": "Mooly",
+   "text": "就是從台灣的錢直接匯到，比如說那個房仲或是那個公司的帳號，"
+  },
+  {
+   "start": 293.12,
+   "end": 298.06,
+   "speaker": "Mooly",
+   "text": "然後再由那個公司的帳號轉交給那個賣房的。"
+  },
+  {
+   "start": 298.06,
+   "end": 299.02,
+   "speaker": "Mooly",
+   "text": "所以如果"
+  },
+  {
+   "start": 299.02,
+   "end": 304.7,
+   "speaker": "Mooly",
+   "text": "就是仲介或是那個仲介公司捲款跑路，你的錢可能就都沒了。"
+  },
+  {
+   "start": 304.7,
+   "end": 305.5,
+   "speaker": "Kalan",
+   "text": "喔，對。"
+  },
+  {
+   "start": 305.94,
+   "end": 308.16,
+   "speaker": "Kalan",
+   "text": "對，所以我覺得這真的超可怕的。"
+  },
+  {
+   "start": 308.16,
+   "end": 310.24,
+   "speaker": "Kalan",
+   "text": "當然我們買房這個"
+  },
+  {
+   "start": 311.24,
+   "end": 314.52,
+   "speaker": "Kalan",
+   "text": "主題，我們之後可以再另外聊聊。"
+  },
+  {
+   "start": 315.38,
+   "end": 317.34,
+   "speaker": "Kalan",
+   "text": "不過他在交屋之後，"
+  },
+  {
+   "start": 317.86,
+   "end": 319.06,
+   "speaker": "Kalan",
+   "text": "他會再去跑，"
+  },
+  {
+   "start": 319.06,
+   "end": 321.66,
+   "speaker": "Kalan",
+   "text": "他會再去請司法書士，"
+  },
+  {
+   "start": 321.66,
+   "end": 323.82,
+   "speaker": "Kalan",
+   "text": "去法務局跑登記的流程。"
+  },
+  {
+   "start": 323.82,
+   "end": 325.52,
+   "speaker": "Kalan",
+   "text": "就是其實他交屋的時候，"
+  },
+  {
+   "start": 325.52,
+   "end": 328.56,
+   "speaker": "Kalan",
+   "text": "還不算正式的登記嗎？"
+  },
+  {
+   "start": 328.56,
+   "end": 329.6,
+   "speaker": "Kalan",
+   "text": "在你的名下。"
+  },
+  {
+   "start": 329.6,
+   "end": 330.02,
+   "speaker": "Mooly",
+   "text": "喔，"
+  },
+  {
+   "start": 330.4,
+   "end": 331.86,
+   "speaker": "Mooly",
+   "text": "到那時候還沒這樣。"
+  },
+  {
+   "start": 332.49,
+   "end": 332.74,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 332.74,
+   "end": 335.3,
+   "speaker": "Kalan",
+   "text": "所以那時候我其實住的算是"
+  },
+  {
+   "start": 335.3,
+   "end": 338.0,
+   "speaker": "Kalan",
+   "text": "還是他們那個房子，"
+  },
+  {
+   "start": 338.0,
+   "end": 341.1,
+   "speaker": "Kalan",
+   "text": "就還是不動產的房子。"
+  },
+  {
+   "start": 341.61,
+   "end": 341.86,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 341.86,
+   "end": 343.58,
+   "speaker": "Kalan",
+   "text": "只是他們就是先讓我住，"
+  },
+  {
+   "start": 343.58,
+   "end": 345.1,
+   "speaker": "Kalan",
+   "text": "然後再去跑，"
+  },
+  {
+   "start": 345.1,
+   "end": 346.96,
+   "speaker": "Kalan",
+   "text": "因為那個法務局，"
+  },
+  {
+   "start": 346.96,
+   "end": 349.4,
+   "speaker": "Kalan",
+   "text": "你登記大概要等一兩個月。"
+  },
+  {
+   "start": 349.4,
+   "end": 350.28,
+   "speaker": "Mooly",
+   "text": "這麼久？"
+  },
+  {
+   "start": 350.95,
+   "end": 351.2,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 351.72,
+   "end": 354.52,
+   "speaker": "Kalan",
+   "text": "所以這裡面其實信任的成分蠻多的。"
+  },
+  {
+   "start": 354.52,
+   "end": 356.84,
+   "speaker": "Mooly",
+   "text": "對，聽起來就是完全靠信任在。"
+  },
+  {
+   "start": 356.84,
+   "end": 359.32,
+   "speaker": "Kalan",
+   "text": "下一 round 換你。"
+  },
+  {
+   "start": 359.32,
+   "end": 359.96,
+   "speaker": "Mooly",
+   "text": "可以可以。"
+  },
+  {
+   "start": 360.88,
+   "end": 364.02,
+   "speaker": "Mooly",
+   "text": "生活上的那個中台差異的感受嗎？"
+  },
+  {
+   "start": 364.98,
+   "end": 370.62,
+   "speaker": "Mooly",
+   "text": "我自己的話，其實來日本一年多，感受最深的算是兩個吧。"
+  },
+  {
+   "start": 370.62,
+   "end": 373.3,
+   "speaker": "Mooly",
+   "text": "第一個是來日本前我就知道的，"
+  },
+  {
+   "start": 373.3,
+   "end": 377.74,
+   "speaker": "Mooly",
+   "text": "然後來日本後也算是深刻體會的，是那個交通安全的部分。"
+  },
+  {
+   "start": 377.74,
+   "end": 379.4,
+   "speaker": "Mooly",
+   "text": "就比如說，因為在台灣的話，"
+  },
+  {
+   "start": 379.4,
+   "end": 382.5,
+   "speaker": "Mooly",
+   "text": "大家都知道，台灣的交通安全不是那麼的安全。"
+  },
+  {
+   "start": 382.5,
+   "end": 384.76,
+   "speaker": "Mooly",
+   "text": "雖然最近兩年開始，"
+  },
+  {
+   "start": 385.22,
+   "end": 388.04,
+   "speaker": "Mooly",
+   "text": "行人可能有比較大的路權，"
+  },
+  {
+   "start": 388.04,
+   "end": 392.48,
+   "speaker": "Mooly",
+   "text": "無論是民間或政府，都在宣導這件事情，"
+  },
+  {
+   "start": 392.48,
+   "end": 395.06,
+   "speaker": "Mooly",
+   "text": "但畢竟它不是一朝一夕能改的嘛。"
+  },
+  {
+   "start": 395.06,
+   "end": 396.12,
+   "speaker": "Mooly",
+   "text": "有些車可能就會，"
+  },
+  {
+   "start": 396.12,
+   "end": 398.56,
+   "speaker": "Mooly",
+   "text": "你還沒過馬路的時候，就直接衝過去或什麼的。"
+  },
+  {
+   "start": 398.56,
+   "end": 404.16,
+   "speaker": "Mooly",
+   "text": "但在日本的話，就跟其他有些地方的國外是一樣的，"
+  },
+  {
+   "start": 404.16,
+   "end": 407.74,
+   "speaker": "Mooly",
+   "text": "就是他們的車子是很會禮讓行人的。"
+  },
+  {
+   "start": 407.74,
+   "end": 410.34,
+   "speaker": "Mooly",
+   "text": "就是你還沒走到那個路口，"
+  },
+  {
+   "start": 410.34,
+   "end": 411.92,
+   "speaker": "Mooly",
+   "text": "他只要看到你的話，"
+  },
+  {
+   "start": 411.92,
+   "end": 414.26,
+   "speaker": "Mooly",
+   "text": "有些甚至就會直接停下來，"
+  },
+  {
+   "start": 414.26,
+   "end": 416.74,
+   "speaker": "Mooly",
+   "text": "然後慢慢等你走過去，他才開走。"
+  },
+  {
+   "start": 417.22,
+   "end": 420.7,
+   "speaker": "Mooly",
+   "text": "就是他們的車禮讓行人這件事情是非常普遍，"
+  },
+  {
+   "start": 420.7,
+   "end": 422.96,
+   "speaker": "Mooly",
+   "text": "然後也是非常強制的一件事情。"
+  },
+  {
+   "start": 423.54,
+   "end": 426.02,
+   "speaker": "Kalan",
+   "text": "你甚至不走，他們還會等，"
+  },
+  {
+   "start": 426.02,
+   "end": 429.3,
+   "speaker": "Kalan",
+   "text": "一直等你，或者是示意你趕快走過去這樣子。"
+  },
+  {
+   "start": 429.3,
+   "end": 431.4,
+   "speaker": "Mooly",
+   "text": "對對對，他們有時候等，是……"
+  },
+  {
+   "start": 431.92,
+   "end": 434.18,
+   "speaker": "Mooly",
+   "text": "就像我剛剛講的，你可能都還沒走到那邊，"
+  },
+  {
+   "start": 434.18,
+   "end": 435.12,
+   "speaker": "Mooly",
+   "text": "他其實要……"
+  },
+  {
+   "start": 435.12,
+   "end": 438.24,
+   "speaker": "Mooly",
+   "text": "有時候我甚至覺得，他其實要過是可以過的，"
+  },
+  {
+   "start": 438.24,
+   "end": 439.18,
+   "speaker": "Mooly",
+   "text": "然後他也不會撞到我，"
+  },
+  {
+   "start": 439.18,
+   "end": 440.46,
+   "speaker": "Mooly",
+   "text": "但他就是會先……"
+  },
+  {
+   "start": 440.46,
+   "end": 441.84,
+   "speaker": "Mooly",
+   "text": "他只要看到你，就先等你。"
+  },
+  {
+   "start": 441.84,
+   "end": 443.38,
+   "speaker": "Mooly",
+   "text": "這個我覺得蠻……"
+  },
+  {
+   "start": 443.38,
+   "end": 445.94,
+   "speaker": "Mooly",
+   "text": "其實對行人來說，是很友善的一件事情，"
+  },
+  {
+   "start": 445.94,
+   "end": 449.6,
+   "speaker": "Mooly",
+   "text": "你不會擔心走在路上突然被車撞或什麼的。"
+  },
+  {
+   "start": 449.6,
+   "end": 454.04,
+   "speaker": "Kalan",
+   "text": "剛好你有講到這個交通安全的部分，那我想要再另外問一個，"
+  },
+  {
+   "start": 454.5,
+   "end": 456.06,
+   "speaker": "Kalan",
+   "text": "Mooly，你常搭公車嗎？"
+  },
+  {
+   "start": 456.06,
+   "end": 457.58,
+   "speaker": "Mooly",
+   "text": "你說在台灣嗎，還是在日本？"
+  },
+  {
+   "start": 458.22,
+   "end": 458.66,
+   "speaker": "Kalan",
+   "text": "兩個。"
+  },
+  {
+   "start": 459.56,
+   "end": 462.22,
+   "speaker": "Mooly",
+   "text": "日本比較不常，然後台灣蠻常的。"
+  },
+  {
+   "start": 463.14,
+   "end": 467.42,
+   "speaker": "Kalan",
+   "text": "那你有沒有覺得搭起來的感受蠻不一樣的？"
+  },
+  {
+   "start": 467.42,
+   "end": 469.78,
+   "speaker": "Mooly",
+   "text": "這個我非常確定，我知道你想問什麼，"
+  },
+  {
+   "start": 469.78,
+   "end": 472.42,
+   "speaker": "Mooly",
+   "text": "確實這個差很多。"
+  },
+  {
+   "start": 472.42,
+   "end": 473.82,
+   "speaker": "Mooly",
+   "text": "比如說台灣公車就是……"
+  },
+  {
+   "start": 473.82,
+   "end": 476.7,
+   "speaker": "Mooly",
+   "text": "有一個差最多的點，就是台灣公車都很急，"
+  },
+  {
+   "start": 476.7,
+   "end": 489.34,
+   "speaker": "Mooly",
+   "text": "急到你如果下車的時候，門一打開你沒有立刻刷出去的話，你可能就會被司機直接當場用廣播嗆，說怎麼還不趕快下車或什麼的，所以很多人都會，"
+  },
+  {
+   "start": 489.93,
+   "end": 493.24,
+   "speaker": "Mooly",
+   "text": "還沒到站的時候就會先站起來，然後慢慢往前走，"
+  },
+  {
+   "start": 493.24,
+   "end": 495.38,
+   "speaker": "Mooly",
+   "text": "車一到站就嗶卡直接下車。"
+  },
+  {
+   "start": 495.38,
+   "end": 496.94,
+   "speaker": "Mooly",
+   "text": "這個在台灣非常常見，"
+  },
+  {
+   "start": 496.94,
+   "end": 498.34,
+   "speaker": "Mooly",
+   "text": "而且你不這樣子做的話，"
+  },
+  {
+   "start": 498.34,
+   "end": 500.08,
+   "speaker": "Mooly",
+   "text": "你可能會被罵。"
+  },
+  {
+   "start": 500.08,
+   "end": 500.94,
+   "speaker": "Mooly",
+   "text": "但在日本的話，"
+  },
+  {
+   "start": 500.94,
+   "end": 502.64,
+   "speaker": "Mooly",
+   "text": "你這樣做反而會被罵。"
+  },
+  {
+   "start": 502.64,
+   "end": 506.28,
+   "speaker": "Mooly",
+   "text": "在日本就是百分之百是車停好之後，"
+  },
+  {
+   "start": 506.28,
+   "end": 507.38,
+   "speaker": "Mooly",
+   "text": "你再起身，"
+  },
+  {
+   "start": 507.38,
+   "end": 509.64,
+   "speaker": "Mooly",
+   "text": "然後再走去下車就可以了。"
+  },
+  {
+   "start": 509.64,
+   "end": 512.02,
+   "speaker": "Mooly",
+   "text": "這一點也是真的差超級多。"
+  },
+  {
+   "start": 512.02,
+   "end": 519.08,
+   "speaker": "Kalan",
+   "text": "像我平常在高雄，他們很多公車的站牌都會在那個路肩喔。"
+  },
+  {
+   "start": 519.08,
+   "end": 520.92,
+   "speaker": "Mooly",
+   "text": "對，我好像知道。"
+  },
+  {
+   "start": 521.62,
+   "end": 524.18,
+   "speaker": "Kalan",
+   "text": "就我那時候那個站牌，"
+  },
+  {
+   "start": 524.18,
+   "end": 526.34,
+   "speaker": "Kalan",
+   "text": "離下一個大馬路很近，"
+  },
+  {
+   "start": 526.89,
+   "end": 529.38,
+   "speaker": "Kalan",
+   "text": "離下一個十字路口超級近，"
+  },
+  {
+   "start": 529.38,
+   "end": 534.9,
+   "speaker": "Kalan",
+   "text": "但是因為它的行駛車道是在左邊，"
+  },
+  {
+   "start": 535.52,
+   "end": 540.9,
+   "speaker": "Kalan",
+   "text": "所以等於說司機在上一個站牌關門之後，"
+  },
+  {
+   "start": 540.9,
+   "end": 542.38,
+   "speaker": "Kalan",
+   "text": "他現在在右側的車道，"
+  },
+  {
+   "start": 542.38,
+   "end": 544.12,
+   "speaker": "Kalan",
+   "text": "然後他為了要行駛，"
+  },
+  {
+   "start": 544.12,
+   "end": 546.12,
+   "speaker": "Kalan",
+   "text": "他需要做一個大轉彎，"
+  },
+  {
+   "start": 546.97,
+   "end": 548.4,
+   "speaker": "Kalan",
+   "text": "到左側車道。"
+  },
+  {
+   "start": 548.4,
+   "end": 549.78,
+   "speaker": "Kalan",
+   "text": "然後執行完之後，"
+  },
+  {
+   "start": 549.78,
+   "end": 552.3,
+   "speaker": "Kalan",
+   "text": "因為下一個站牌非常近，"
+  },
+  {
+   "start": 552.3,
+   "end": 555.32,
+   "speaker": "Kalan",
+   "text": "他又要再從最外側車道、左側車道呢，"
+  },
+  {
+   "start": 555.32,
+   "end": 558.1,
+   "speaker": "Kalan",
+   "text": "用非常高速的方式切到，"
+  },
+  {
+   "start": 558.1,
+   "end": 559.08,
+   "speaker": "Mooly",
+   "text": "再切過去這樣，"
+  },
+  {
+   "start": 559.08,
+   "end": 561.1,
+   "speaker": "Kalan",
+   "text": "右側車道的站牌放人。"
+  },
+  {
+   "start": 561.1,
+   "end": 563.82,
+   "speaker": "Kalan",
+   "text": "然後又因為你剛剛講到的，"
+  },
+  {
+   "start": 563.82,
+   "end": 566.86,
+   "speaker": "Kalan",
+   "text": "我們要提早下去走，然後下去刷，"
+  },
+  {
+   "start": 567.4,
+   "end": 568.64,
+   "speaker": "Kalan",
+   "text": "那個其實是非常，"
+  },
+  {
+   "start": 568.64,
+   "end": 570.28,
+   "speaker": "Kalan",
+   "text": "我自己覺得非常危險。"
+  },
+  {
+   "start": 570.28,
+   "end": 571.78,
+   "speaker": "Kalan",
+   "text": "然後司機又開得很快。"
+  },
+  {
+   "start": 571.78,
+   "end": 573.36,
+   "speaker": "Mooly",
+   "text": "對對，沒錯沒錯。"
+  },
+  {
+   "start": 573.36,
+   "end": 575.26,
+   "speaker": "Mooly",
+   "text": "對，我們這種比較年輕的，"
+  },
+  {
+   "start": 575.26,
+   "end": 576.96,
+   "speaker": "Mooly",
+   "text": "都已經覺得有點危險了，"
+  },
+  {
+   "start": 576.96,
+   "end": 579.62,
+   "speaker": "Mooly",
+   "text": "何況是那些比較老一點的。"
+  },
+  {
+   "start": 579.62,
+   "end": 581.18,
+   "speaker": "Mooly",
+   "text": "比如說他們搭台灣公車的時候，"
+  },
+  {
+   "start": 581.18,
+   "end": 582.64,
+   "speaker": "Mooly",
+   "text": "有時候真的會覺得好像，"
+  },
+  {
+   "start": 583.12,
+   "end": 585.42,
+   "speaker": "Mooly",
+   "text": "台灣公車對他們來說非常非常不友善。"
+  },
+  {
+   "start": 585.42,
+   "end": 588.64,
+   "speaker": "Kalan",
+   "text": "我其實有看過有長輩在，"
+  },
+  {
+   "start": 588.64,
+   "end": 590.34,
+   "speaker": "Kalan",
+   "text": "公車上摔倒的。"
+  },
+  {
+   "start": 590.84,
+   "end": 593.88,
+   "speaker": "Kalan",
+   "text": "是司機就是關門就直接爆衝嘛，"
+  },
+  {
+   "start": 593.88,
+   "end": 596.22,
+   "speaker": "Kalan",
+   "text": "然後就有長輩摔倒這樣子。"
+  },
+  {
+   "start": 597.2,
+   "end": 601.5,
+   "speaker": "Kalan",
+   "text": "因為那個長輩好像看起來相對是比較健康一點，所以還好，"
+  },
+  {
+   "start": 601.5,
+   "end": 606.12,
+   "speaker": "Kalan",
+   "text": "但是你想一下，如果有些是肌肉流失比較多的長輩，"
+  },
+  {
+   "start": 606.12,
+   "end": 608.18,
+   "speaker": "Kalan",
+   "text": "他可能一摔下去就是骨折這樣子。"
+  },
+  {
+   "start": 608.18,
+   "end": 609.96,
+   "speaker": "Mooly",
+   "text": "交通安全還有一個想聊的，"
+  },
+  {
+   "start": 609.96,
+   "end": 615.86,
+   "speaker": "Mooly",
+   "text": "就是其實在日本，我倒是有覺得有一個其實跟台灣有點像，是那個腳踏車。"
+  },
+  {
+   "start": 615.86,
+   "end": 617.5,
+   "speaker": "Mooly",
+   "text": "我覺得日本腳踏車其實，"
+  },
+  {
+   "start": 617.96,
+   "end": 621.1,
+   "speaker": "Mooly",
+   "text": "在交通安全來說就沒有這麼守規矩，"
+  },
+  {
+   "start": 621.1,
+   "end": 622.48,
+   "speaker": "Mooly",
+   "text": "因為腳踏車感覺蠻兇的。"
+  },
+  {
+   "start": 622.48,
+   "end": 626.88,
+   "speaker": "Mooly",
+   "text": "就是它可能一樣有些會，就是比如說在行人間竄來竄去，"
+  },
+  {
+   "start": 626.88,
+   "end": 629.02,
+   "speaker": "Mooly",
+   "text": "或是騎很快啊什麼的。"
+  },
+  {
+   "start": 629.02,
+   "end": 633.12,
+   "speaker": "Mooly",
+   "text": "就我覺得他們腳踏車這個倒是沒有到很安全，"
+  },
+  {
+   "start": 633.12,
+   "end": 634.44,
+   "speaker": "Mooly",
+   "text": "但畢竟是腳踏車嘛，"
+  },
+  {
+   "start": 634.44,
+   "end": 636.08,
+   "speaker": "Mooly",
+   "text": "你就算被撞到，"
+  },
+  {
+   "start": 636.48,
+   "end": 639.12,
+   "speaker": "Mooly",
+   "text": "你也可能不會像那個機車那麼嚴重，"
+  },
+  {
+   "start": 639.12,
+   "end": 641.64,
+   "speaker": "Mooly",
+   "text": "所以我覺得算是可以接受。"
+  },
+  {
+   "start": 641.64,
+   "end": 643.34,
+   "speaker": "Mooly",
+   "text": "當然它可以更安全是更好的。"
+  },
+  {
+   "start": 643.34,
+   "end": 645.8,
+   "speaker": "Kalan",
+   "text": "怎麼聽起來有點像是台灣的機車？"
+  },
+  {
+   "start": 645.8,
+   "end": 647.62,
+   "speaker": "Mooly",
+   "text": "有點像那種感覺。"
+  },
+  {
+   "start": 648.26,
+   "end": 652.36,
+   "speaker": "Kalan",
+   "text": "喔對，說到這個，就台灣的騎樓嘛，"
+  },
+  {
+   "start": 652.9,
+   "end": 654.8,
+   "speaker": "Kalan",
+   "text": "常常會去停機車嘛。"
+  },
+  {
+   "start": 655.32,
+   "end": 657.78,
+   "speaker": "Kalan",
+   "text": "因為日本本來就沒有騎樓，"
+  },
+  {
+   "start": 657.78,
+   "end": 659.84,
+   "speaker": "Kalan",
+   "text": "所以也不太會看到。"
+  },
+  {
+   "start": 659.84,
+   "end": 660.76,
+   "speaker": "Kalan",
+   "text": "然後他們也，"
+  },
+  {
+   "start": 660.76,
+   "end": 661.18,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 661.18,
+   "end": 664.16,
+   "speaker": "Mooly",
+   "text": "日本機車真的少蠻多的，"
+  },
+  {
+   "start": 664.16,
+   "end": 667.66,
+   "speaker": "Kalan",
+   "text": "但我不確定哪個是因、哪個是果，"
+  },
+  {
+   "start": 667.66,
+   "end": 669.02,
+   "speaker": "Kalan",
+   "text": "是因為停車位少，"
+  },
+  {
+   "start": 669.02,
+   "end": 671.94,
+   "speaker": "Kalan",
+   "text": "所以日本人不騎機車，還是，"
+  },
+  {
+   "start": 672.62,
+   "end": 675.32,
+   "speaker": "Kalan",
+   "text": "因為日本人不騎機車，所以停車位少？"
+  },
+  {
+   "start": 676.36,
+   "end": 678.82,
+   "speaker": "Mooly",
+   "text": "我自己感覺可能是，"
+  },
+  {
+   "start": 678.82,
+   "end": 681.62,
+   "speaker": "Mooly",
+   "text": "第一個可能跟那個天氣有關係，"
+  },
+  {
+   "start": 681.62,
+   "end": 685.54,
+   "speaker": "Mooly",
+   "text": "比如說冬天的時候，你不會想要騎著機車在那邊走。"
+  },
+  {
+   "start": 685.54,
+   "end": 689.72,
+   "speaker": "Mooly",
+   "text": "第二個可能應該是機車其實有時候也沒那麼方便，"
+  },
+  {
+   "start": 689.72,
+   "end": 693.66,
+   "speaker": "Mooly",
+   "text": "畢竟他們像你剛才說的，可能停車位少，"
+  },
+  {
+   "start": 693.66,
+   "end": 701.14,
+   "speaker": "Mooly",
+   "text": "或是說他們其實汽車普及率滿高的嘛，"
+  },
+  {
+   "start": 701.14,
+   "end": 701.5,
+   "speaker": "Mooly",
+   "text": "就可能，"
+  },
+  {
+   "start": 701.5,
+   "end": 702.72,
+   "speaker": "Kalan",
+   "text": "喔對啦。"
+  },
+  {
+   "start": 702.72,
+   "end": 703.5,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 703.5,
+   "end": 708.16,
+   "speaker": "Mooly",
+   "text": "就如果你機車沒有那麼方便的話，你可能就不會想要騎機車在外面走來走去。"
+  },
+  {
+   "start": 708.16,
+   "end": 713.04,
+   "speaker": "Mooly",
+   "text": "剛第二個想聊的那個日台差異是那個飲食習慣。"
+  },
+  {
+   "start": 713.04,
+   "end": 714.18,
+   "speaker": "Kalan",
+   "text": "飲食習慣。"
+  },
+  {
+   "start": 714.72,
+   "end": 716.68,
+   "speaker": "Mooly",
+   "text": "就是比如說在台灣的話，我覺得"
+  },
+  {
+   "start": 717.14,
+   "end": 722.6,
+   "speaker": "Mooly",
+   "text": "我自己在台灣喜歡或是說平常會吃的東西，就比如說假設一個排骨便當，"
+  },
+  {
+   "start": 723.18,
+   "end": 726.48,
+   "speaker": "Mooly",
+   "text": "就是一個飯、排骨，然後跟三個配菜。"
+  },
+  {
+   "start": 726.48,
+   "end": 730.52,
+   "speaker": "Mooly",
+   "text": "那比如說在日本的話，我覺得吃了一年之後，覺得它"
+  },
+  {
+   "start": 730.52,
+   "end": 733.78,
+   "speaker": "Mooly",
+   "text": "常吃的東西有點固定嗎？"
+  },
+  {
+   "start": 733.78,
+   "end": 738.24,
+   "speaker": "Mooly",
+   "text": "就比如說你可以 find 它那個青菜有點少，"
+  },
+  {
+   "start": 739.18,
+   "end": 739.66,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 739.66,
+   "end": 743.4,
+   "speaker": "Mooly",
+   "text": "比如說你吃拉麵，基本上也就沒什麼菜吧，"
+  },
+  {
+   "start": 743.4,
+   "end": 745.24,
+   "speaker": "Mooly",
+   "text": "如果你吃豆芽菜，"
+  },
+  {
+   "start": 745.88,
+   "end": 752.28,
+   "speaker": "Mooly",
+   "text": "比如說如果你吃那個一般那種牛丼、豬排丼什麼的，它就是肉跟飯，"
+  },
+  {
+   "start": 752.28,
+   "end": 754.44,
+   "speaker": "Mooly",
+   "text": "就是它也沒有任何的配菜，"
+  },
+  {
+   "start": 754.44,
+   "end": 755.48,
+   "speaker": "Mooly",
+   "text": "甚至是青菜可以"
+  },
+  {
+   "start": 755.48,
+   "end": 757.46,
+   "speaker": "Mooly",
+   "text": "他們就算有配菜，也是那種"
+  },
+  {
+   "start": 757.46,
+   "end": 759.96,
+   "speaker": "Mooly",
+   "text": "就是醃製過的小菜，"
+  },
+  {
+   "start": 760.68,
+   "end": 763.48,
+   "speaker": "Mooly",
+   "text": "那種你不會把它稱之為是蔬菜。"
+  },
+  {
+   "start": 763.48,
+   "end": 765.32,
+   "speaker": "Mooly",
+   "text": "然後你如果在吃別的，"
+  },
+  {
+   "start": 765.32,
+   "end": 767.68,
+   "speaker": "Mooly",
+   "text": "就算你吃那種日式定食的話，"
+  },
+  {
+   "start": 768.14,
+   "end": 771.48,
+   "speaker": "Mooly",
+   "text": "好像也不一定會有青菜，對不對？"
+  },
+  {
+   "start": 771.48,
+   "end": 774.5,
+   "speaker": "Kalan",
+   "text": "可能也是像你剛剛講的小菜，"
+  },
+  {
+   "start": 774.5,
+   "end": 776.2,
+   "speaker": "Kalan",
+   "text": "醃製的那種小菜居多，"
+  },
+  {
+   "start": 776.2,
+   "end": 777.86,
+   "speaker": "Mooly",
+   "text": "醃蘿蔔啊之類的，"
+  },
+  {
+   "start": 777.86,
+   "end": 779.08,
+   "speaker": "Mooly",
+   "text": "它都比較像是那種"
+  },
+  {
+   "start": 779.08,
+   "end": 779.88,
+   "speaker": "Mooly",
+   "text": "所以我就覺得"
+  },
+  {
+   "start": 779.88,
+   "end": 783.46,
+   "speaker": "Mooly",
+   "text": "這一點就是需要一點時間適應這件事情。"
+  },
+  {
+   "start": 783.46,
+   "end": 784.2,
+   "speaker": "Mooly",
+   "text": "或是你去"
+  },
+  {
+   "start": 784.2,
+   "end": 789.0,
+   "speaker": "Mooly",
+   "text": "比如說你去マツヤ（松屋）點餐的時候，你自己再加個生菜沙拉什麼的，"
+  },
+  {
+   "start": 789.0,
+   "end": 796.56,
+   "speaker": "Mooly",
+   "text": "就是你甚至你要加青菜，它都只有生菜沙拉這個選項，它沒有比如說我要一個燙高麗菜或是什麼的這個選項。"
+  },
+  {
+   "start": 796.56,
+   "end": 798.38,
+   "speaker": "Kalan",
+   "text": "喔，燙高麗菜。"
+  },
+  {
+   "start": 799.06,
+   "end": 800.16,
+   "speaker": "Mooly",
+   "text": "講到高麗菜，"
+  },
+  {
+   "start": 800.94,
+   "end": 803.7,
+   "speaker": "Mooly",
+   "text": "講到高麗菜，愷愷有什麼想要分享的事嗎？"
+  },
+  {
+   "start": 804.34,
+   "end": 808.26,
+   "speaker": "Kalan",
+   "text": "大家都會常常在講說什麼日本的高麗菜沒有很好吃。"
+  },
+  {
+   "start": 809.18,
+   "end": 815.54,
+   "speaker": "Kalan",
+   "text": "好像是炒，如果你是用炒的話，當然好像炒不出台灣的那種味道，"
+  },
+  {
+   "start": 815.54,
+   "end": 818.74,
+   "speaker": "Kalan",
+   "text": "但好像是因為雙方的文化差異，"
+  },
+  {
+   "start": 818.74,
+   "end": 825.6,
+   "speaker": "Kalan",
+   "text": "所以在品種上面還是種植方法上面，好像有做調整，"
+  },
+  {
+   "start": 825.6,
+   "end": 827.54,
+   "speaker": "Kalan",
+   "text": "就之前好像聽有人分享是這樣。"
+  },
+  {
+   "start": 827.54,
+   "end": 838.86,
+   "speaker": "Mooly",
+   "text": "對，我也記得好像是高麗菜本身就有點差異，好像日本的比較硬嗎，還是比較怎樣，所以吃起來可能會對吃慣台灣高麗菜的人來說比較沒那麼習慣。"
+  },
+  {
+   "start": 838.86,
+   "end": 841.48,
+   "speaker": "Kalan",
+   "text": "但好像聽說用一些特別"
+  },
+  {
+   "start": 841.48,
+   "end": 847.46,
+   "speaker": "Kalan",
+   "text": "也不是很特別，就是如果烹飪手法有改變的話，"
+  },
+  {
+   "start": 847.46,
+   "end": 850.82,
+   "speaker": "Kalan",
+   "text": "好像日本的高麗菜也可能炒得很好吃，"
+  },
+  {
+   "start": 850.82,
+   "end": 852.86,
+   "speaker": "Kalan",
+   "text": "但我不確定要怎麼做。"
+  },
+  {
+   "start": 853.76,
+   "end": 856.14,
+   "speaker": "Kalan",
+   "text": "如果知道怎麼把高麗菜炒得好吃，"
+  },
+  {
+   "start": 856.14,
+   "end": 858.1,
+   "speaker": "Kalan",
+   "text": "把日本的高麗菜炒得很好吃的話，"
+  },
+  {
+   "start": 858.1,
+   "end": 860.1,
+   "speaker": "Kalan",
+   "text": "請留言給我們。"
+  },
+  {
+   "start": 860.1,
+   "end": 861.7,
+   "speaker": "Mooly",
+   "text": "對，請留言跟我們分享，"
+  },
+  {
+   "start": 862.1,
+   "end": 863.08,
+   "speaker": "Mooly",
+   "text": "我們非常想知道。"
+  },
+  {
+   "start": 863.08,
+   "end": 868.84,
+   "speaker": "Mooly",
+   "text": "那愷愷那邊還有覺得就是日台生活上還有什麼其他的差異嗎？"
+  },
+  {
+   "start": 868.84,
+   "end": 871.48,
+   "speaker": "Kalan",
+   "text": "我想要分享的是洗澡，"
+  },
+  {
+   "start": 871.48,
+   "end": 872.58,
+   "speaker": "Kalan",
+   "text": "洗澡這件事情。"
+  },
+  {
+   "start": 872.58,
+   "end": 874.44,
+   "speaker": "Kalan",
+   "text": "不然我先問 Mooly 好了，"
+  },
+  {
+   "start": 874.44,
+   "end": 876.14,
+   "speaker": "Kalan",
+   "text": "你那邊現在洗澡是"
+  },
+  {
+   "start": 876.14,
+   "end": 880.72,
+   "speaker": "Kalan",
+   "text": "你那個隔間是算是完全獨立的隔間嗎？"
+  },
+  {
+   "start": 880.72,
+   "end": 883.0,
+   "speaker": "Mooly",
+   "text": "就是日本標配吧，"
+  },
+  {
+   "start": 883.0,
+   "end": 886.58,
+   "speaker": "Kalan",
+   "text": "他們其實有一個名詞叫做「ユニットバス」嗎？"
+  },
+  {
+   "start": 886.58,
+   "end": 888.1,
+   "speaker": "Kalan",
+   "text": "就是如果用中文講的話，"
+  },
+  {
+   "start": 888.1,
+   "end": 889.58,
+   "speaker": "Kalan",
+   "text": "一體成型的那種，"
+  },
+  {
+   "start": 889.58,
+   "end": 891.58,
+   "speaker": "Kalan",
+   "text": "就是它不是說"
+  },
+  {
+   "start": 891.58,
+   "end": 894.9,
+   "speaker": "Kalan",
+   "text": "比如說你在蓋房子的時候，去把它蓋好這樣子。"
+  },
+  {
+   "start": 894.9,
+   "end": 896.46,
+   "speaker": "Kalan",
+   "text": "而是它可能會搬，"
+  },
+  {
+   "start": 896.46,
+   "end": 898.22,
+   "speaker": "Kalan",
+   "text": "它有一個規格在，"
+  },
+  {
+   "start": 898.22,
+   "end": 900.96,
+   "speaker": "Kalan",
+   "text": "在蓋房子的時候，它可能就是那邊會留一個，"
+  },
+  {
+   "start": 900.96,
+   "end": 903.9,
+   "speaker": "Kalan",
+   "text": "我這邊要放一個空間放浴室，"
+  },
+  {
+   "start": 903.9,
+   "end": 904.98,
+   "speaker": "Kalan",
+   "text": "然後他們就會把，"
+  },
+  {
+   "start": 904.98,
+   "end": 908.54,
+   "speaker": "Kalan",
+   "text": "組裝好的那個浴室的那個房間呢，"
+  },
+  {
+   "start": 908.54,
+   "end": 909.7,
+   "speaker": "Kalan",
+   "text": "給它塞進去這樣子。"
+  },
+  {
+   "start": 910.24,
+   "end": 911.7,
+   "speaker": "Mooly",
+   "text": "對，整個搬進來這樣。"
+  },
+  {
+   "start": 911.7,
+   "end": 917.6,
+   "speaker": "Kalan",
+   "text": "對，那我後來覺得這件事情真的是設計得蠻好的，"
+  },
+  {
+   "start": 917.6,
+   "end": 920.54,
+   "speaker": "Kalan",
+   "text": "就是這個發想其實是蠻厲害的，"
+  },
+  {
+   "start": 921.32,
+   "end": 923.46,
+   "speaker": "Kalan",
+   "text": "因為第一個，他們的地板，"
+  },
+  {
+   "start": 924.22,
+   "end": 927.74,
+   "speaker": "Kalan",
+   "text": "通常是有止滑的材質在。"
+  },
+  {
+   "start": 927.74,
+   "end": 930.2,
+   "speaker": "Kalan",
+   "text": "我不確定目前台灣那邊是不是這樣，"
+  },
+  {
+   "start": 930.2,
+   "end": 931.22,
+   "speaker": "Kalan",
+   "text": "你有沒有感受到，"
+  },
+  {
+   "start": 931.22,
+   "end": 931.9,
+   "speaker": "Kalan",
+   "text": "就是你那邊，"
+  },
+  {
+   "start": 931.9,
+   "end": 933.06,
+   "speaker": "Kalan",
+   "text": "不是用那種，"
+  },
+  {
+   "start": 933.06,
+   "end": 937.26,
+   "speaker": "Kalan",
+   "text": "台灣那種比較常見是陶瓷磁磚之類的。"
+  },
+  {
+   "start": 937.26,
+   "end": 939.02,
+   "speaker": "Mooly",
+   "text": "有，有有有，有感覺到。"
+  },
+  {
+   "start": 939.56,
+   "end": 943.44,
+   "speaker": "Kalan",
+   "text": "它是比較像是塑膠或者是橡膠那種材質，"
+  },
+  {
+   "start": 943.44,
+   "end": 945.58,
+   "speaker": "Kalan",
+   "text": "然後會有止滑作用，"
+  },
+  {
+   "start": 945.58,
+   "end": 947.32,
+   "speaker": "Kalan",
+   "text": "那這是它的第一個好處。"
+  },
+  {
+   "start": 947.32,
+   "end": 948.8,
+   "speaker": "Kalan",
+   "text": "那第二個好處是，"
+  },
+  {
+   "start": 948.8,
+   "end": 951.32,
+   "speaker": "Kalan",
+   "text": "這些衛浴它們都有一些，"
+  },
+  {
+   "start": 951.32,
+   "end": 953.5,
+   "speaker": "Kalan",
+   "text": "它們都有共同的功能，就是乾燥。"
+  },
+  {
+   "start": 953.5,
+   "end": 956.98,
+   "speaker": "Kalan",
+   "text": "我不知道大家在台灣，如果用那種一般的，"
+  },
+  {
+   "start": 956.98,
+   "end": 959.38,
+   "speaker": "Kalan",
+   "text": "比如說是陶瓷磁磚的那種，"
+  },
+  {
+   "start": 959.38,
+   "end": 960.74,
+   "speaker": "Kalan",
+   "text": "就是用久了的時候，"
+  },
+  {
+   "start": 960.74,
+   "end": 962.38,
+   "speaker": "Kalan",
+   "text": "你那個陶瓷跟陶瓷，"
+  },
+  {
+   "start": 962.38,
+   "end": 968.6,
+   "speaker": "Kalan",
+   "text": "磁磚跟磁磚的中間的縫縫，會長苔蘚或者是發霉之類的，"
+  },
+  {
+   "start": 968.6,
+   "end": 970.18,
+   "speaker": "Kalan",
+   "text": "因為長期以來的濕氣，"
+  },
+  {
+   "start": 970.88,
+   "end": 973.36,
+   "speaker": "Kalan",
+   "text": "日本這件事情是比較難發生，"
+  },
+  {
+   "start": 973.36,
+   "end": 975.42,
+   "speaker": "Kalan",
+   "text": "因為你還可以用乾燥。"
+  },
+  {
+   "start": 975.42,
+   "end": 979.16,
+   "speaker": "Kalan",
+   "text": "它這個設計其實是不容易漏水的，"
+  },
+  {
+   "start": 979.16,
+   "end": 980.16,
+   "speaker": "Kalan",
+   "text": "漏水這件事情，"
+  },
+  {
+   "start": 980.7,
+   "end": 986.7,
+   "speaker": "Kalan",
+   "text": "但我不確定是因為這個原因造成它不容易漏水，還是有其他原因存在。"
+  },
+  {
+   "start": 986.7,
+   "end": 988.02,
+   "speaker": "Kalan",
+   "text": "你這個只要一漏水，"
+  },
+  {
+   "start": 988.02,
+   "end": 990.22,
+   "speaker": "Kalan",
+   "text": "通常你就會有 B.I.，"
+  },
+  {
+   "start": 990.34,
+   "end": 991.74,
+   "speaker": "Kalan",
+   "text": "如果台灣的話，"
+  },
+  {
+   "start": 991.74,
+   "end": 995.14,
+   "speaker": "Kalan",
+   "text": "你就會有 BI，那就會整個變得超級麻煩。"
+  },
+  {
+   "start": 995.14,
+   "end": 995.9,
+   "speaker": "Mooly",
+   "text": "沒錯。"
+  },
+  {
+   "start": 996.46,
+   "end": 1000.96,
+   "speaker": "Kalan",
+   "text": "日本因為這樣的這種設計嘛，可能就是比較不容易漏水這樣子。"
+  },
+  {
+   "start": 1001.36,
+   "end": 1006.18,
+   "speaker": "Mooly",
+   "text": "它還有一個好處是，它其實我覺得算是清潔起來比較方便嘛。"
+  },
+  {
+   "start": 1006.18,
+   "end": 1007.72,
+   "speaker": "Kalan",
+   "text": "喔，清潔起來很方便。"
+  },
+  {
+   "start": 1008.5,
+   "end": 1010.58,
+   "speaker": "Kalan",
+   "text": "不知道耶，不知道台灣有沒有這樣。"
+  },
+  {
+   "start": 1010.58,
+   "end": 1020.58,
+   "speaker": "Kalan",
+   "text": "反正你有在台灣買啊，那就問問看你當初的狀況是怎樣，你買的時候預售屋是怎樣的。"
+  },
+  {
+   "start": 1020.58,
+   "end": 1021.8,
+   "speaker": "Mooly",
+   "text": "我覺得台灣，"
+  },
+  {
+   "start": 1022.3,
+   "end": 1025.46,
+   "speaker": "Mooly",
+   "text": "我似乎沒看過這種跟日本一樣的。"
+  },
+  {
+   "start": 1025.46,
+   "end": 1028.64,
+   "speaker": "Mooly",
+   "text": "之前好像有看過有人討論，可能幾個原因，"
+  },
+  {
+   "start": 1028.64,
+   "end": 1030.62,
+   "speaker": "Mooly",
+   "text": "可能第一個是，"
+  },
+  {
+   "start": 1030.62,
+   "end": 1037.12,
+   "speaker": "Mooly",
+   "text": "你如果要那樣子做的話，基本上你可能原本房子就要先那樣設計，你才有辦法把那個浴室整個搬進去。"
+  },
+  {
+   "start": 1038.72,
+   "end": 1042.1,
+   "speaker": "Mooly",
+   "text": "那如果你原本的房子沒有要這樣做，你想要這樣做的話，"
+  },
+  {
+   "start": 1042.1,
+   "end": 1044.06,
+   "speaker": "Mooly",
+   "text": "你可能要把浴室整個打掉，"
+  },
+  {
+   "start": 1044.06,
+   "end": 1047.78,
+   "speaker": "Mooly",
+   "text": "然後變成可以容納那個設計的樣子，"
+  },
+  {
+   "start": 1047.78,
+   "end": 1049.42,
+   "speaker": "Mooly",
+   "text": "那這個可能就是一個成本。"
+  },
+  {
+   "start": 1049.42,
+   "end": 1050.56,
+   "speaker": "Mooly",
+   "text": "然後第二個是，"
+  },
+  {
+   "start": 1050.56,
+   "end": 1052.46,
+   "speaker": "Mooly",
+   "text": "你如果到時候要維修什麼的，其實，"
+  },
+  {
+   "start": 1053.38,
+   "end": 1054.42,
+   "speaker": "Mooly",
+   "text": "應該很不方便，"
+  },
+  {
+   "start": 1054.42,
+   "end": 1056.56,
+   "speaker": "Mooly",
+   "text": "因為如果台灣沒有人專門做這個的話，"
+  },
+  {
+   "start": 1056.56,
+   "end": 1060.24,
+   "speaker": "Mooly",
+   "text": "你搞不好要從日本那邊找人來維修或什麼的，"
+  },
+  {
+   "start": 1060.24,
+   "end": 1062.96,
+   "speaker": "Mooly",
+   "text": "畢竟它在台灣本來就不是一個普遍的東西。"
+  },
+  {
+   "start": 1062.96,
+   "end": 1065.26,
+   "speaker": "Mooly",
+   "text": "所以你如果硬要把這個套到台灣的話，現在來說可能沒那麼適合，"
+  },
+  {
+   "start": 1065.26,
+   "end": 1067.98,
+   "speaker": "Mooly",
+   "text": "現在來說可能沒那麼適合，"
+  },
+  {
+   "start": 1067.98,
+   "end": 1071.76,
+   "speaker": "Mooly",
+   "text": "就它從根本設計上似乎就不太一樣。"
+  },
+  {
+   "start": 1071.76,
+   "end": 1075.64,
+   "speaker": "Mooly",
+   "text": "它就有點像是你可能本來都寫 Vue，"
+  },
+  {
+   "start": 1075.64,
+   "end": 1078.72,
+   "speaker": "Mooly",
+   "text": "然後你可能突然想要加個 React component 進來，"
+  },
+  {
+   "start": 1078.72,
+   "end": 1081.5,
+   "speaker": "Mooly",
+   "text": "你可能就很不合的那種感覺吧。"
+  },
+  {
+   "start": 1082.3,
+   "end": 1083.74,
+   "speaker": "Kalan",
+   "text": "OK OK，了解。"
+  },
+  {
+   "start": 1083.74,
+   "end": 1087.5,
+   "speaker": "Kalan",
+   "text": "我覺得這件事情長期以來真的會差滿多的，"
+  },
+  {
+   "start": 1087.5,
+   "end": 1090.98,
+   "speaker": "Kalan",
+   "text": "因為一旦漏水，真的整件事情就會變得很麻煩，"
+  },
+  {
+   "start": 1091.52,
+   "end": 1094.14,
+   "speaker": "Mooly",
+   "text": "因為會牽扯到其他人，什麼也有可能。"
+  },
+  {
+   "start": 1095.08,
+   "end": 1099.82,
+   "speaker": "Kalan",
+   "text": "所以這部分是我覺得洗澡這件事情真的是差滿多的。"
+  },
+  {
+   "start": 1099.82,
+   "end": 1104.36,
+   "speaker": "Kalan",
+   "text": "喔對，然後就附加一點，就是大家都會坐著洗嗎？"
+  },
+  {
+   "start": 1104.36,
+   "end": 1106.76,
+   "speaker": "Kalan",
+   "text": "Mooly，你也變成坐著洗了嗎？"
+  },
+  {
+   "start": 1106.76,
+   "end": 1107.62,
+   "speaker": "Mooly",
+   "text": "坐著洗澡？"
+  },
+  {
+   "start": 1107.62,
+   "end": 1110.5,
+   "speaker": "Mooly",
+   "text": "喔，你說因為它有一個讓你坐著的空間，"
+  },
+  {
+   "start": 1110.5,
+   "end": 1111.14,
+   "speaker": "Mooly",
+   "text": "你會坐得住嗎？"
+  },
+  {
+   "start": 1111.14,
+   "end": 1112.68,
+   "speaker": "Mooly",
+   "text": "沒有耶，我還是站。"
+  },
+  {
+   "start": 1112.68,
+   "end": 1113.7,
+   "speaker": "Kalan",
+   "text": "你還是站得住。"
+  },
+  {
+   "start": 1113.7,
+   "end": 1114.84,
+   "speaker": "Mooly",
+   "text": "對，我還是站得住。"
+  },
+  {
+   "start": 1114.84,
+   "end": 1115.64,
+   "speaker": "Kalan",
+   "text": "OK 好。"
+  },
+  {
+   "start": 1116.12,
+   "end": 1120.44,
+   "speaker": "Mooly",
+   "text": "那可能還有什麼其他想分享的日台生活差異嗎？"
+  },
+  {
+   "start": 1120.44,
+   "end": 1122.72,
+   "speaker": "Kalan",
+   "text": "還有想要分享的嗎？"
+  },
+  {
+   "start": 1123.28,
+   "end": 1123.76,
+   "speaker": "Kalan",
+   "text": "有，"
+  },
+  {
+   "start": 1124.26,
+   "end": 1126.16,
+   "speaker": "Kalan",
+   "text": "就是 PayPay。"
+  },
+  {
+   "start": 1127.38,
+   "end": 1133.36,
+   "speaker": "Kalan",
+   "text": "在日本大家比較常用的支付方式是 PayPay。"
+  },
+  {
+   "start": 1133.36,
+   "end": 1134.62,
+   "speaker": "Kalan",
+   "text": "那我想問一下，"
+  },
+  {
+   "start": 1134.62,
+   "end": 1139.18,
+   "speaker": "Kalan",
+   "text": "目前你之前在台灣都是用什麼第三方支付比較多？"
+  },
+  {
+   "start": 1139.7,
+   "end": 1141.26,
+   "speaker": "Mooly",
+   "text": "我在台灣的話，"
+  },
+  {
+   "start": 1141.76,
+   "end": 1145.14,
+   "speaker": "Mooly",
+   "text": "一律掏出我的魔法小卡刷下去就對了。"
+  },
+  {
+   "start": 1145.64,
+   "end": 1149.28,
+   "speaker": "Kalan",
+   "text": "你都是用信用卡就對了，信用卡跟 Apple Pay？"
+  },
+  {
+   "start": 1149.6,
+   "end": 1152.48,
+   "speaker": "Mooly",
+   "text": "我是安卓手機，所以我就是信用卡。"
+  },
+  {
+   "start": 1152.48,
+   "end": 1153.34,
+   "speaker": "Kalan",
+   "text": "信用卡。"
+  },
+  {
+   "start": 1153.34,
+   "end": 1154.6,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯，信用卡。"
+  },
+  {
+   "start": 1154.6,
+   "end": 1158.88,
+   "speaker": "Kalan",
+   "text": "你說直接用信用卡，然後比如說沒有綁手機這樣？"
+  },
+  {
+   "start": 1159.47,
+   "end": 1163.26,
+   "speaker": "Mooly",
+   "text": "對，就雖然理論上我的那個手機你也可以綁什麼"
+  },
+  {
+   "start": 1163.26,
+   "end": 1168.28,
+   "speaker": "Mooly",
+   "text": "Google Pay，然後你可以綁信用卡直接刷下去，"
+  },
+  {
+   "start": 1168.28,
+   "end": 1173.04,
+   "speaker": "Mooly",
+   "text": "但因為我習慣是本來就都會把那個信用卡隨身攜帶，"
+  },
+  {
+   "start": 1173.04,
+   "end": 1176.46,
+   "speaker": "Mooly",
+   "text": "所以我都是把卡拿出來直接刷，"
+  },
+  {
+   "start": 1176.46,
+   "end": 1183.24,
+   "speaker": "Mooly",
+   "text": "就比較沒有在用那種第三方支付，像什麼 LINE Pay 或什麼介面，基本上。"
+  },
+  {
+   "start": 1183.24,
+   "end": 1189.82,
+   "speaker": "Mooly",
+   "text": "所以愷愷在台灣之前在台灣的時候，也是都有用什麼第三方支付嗎？還是其實也沒有？"
+  },
+  {
+   "start": 1189.82,
+   "end": 1191.3,
+   "speaker": "Kalan",
+   "text": "我那個時候，"
+  },
+  {
+   "start": 1191.3,
+   "end": 1194.46,
+   "speaker": "Kalan",
+   "text": "LINE Pay 已經有一點起來了，"
+  },
+  {
+   "start": 1194.46,
+   "end": 1197.76,
+   "speaker": "Kalan",
+   "text": "但還沒有到現在這麼普及，"
+  },
+  {
+   "start": 1199.0,
+   "end": 1201.22,
+   "speaker": "Kalan",
+   "text": "所以我那時候大部分是用 Apple Pay，"
+  },
+  {
+   "start": 1201.22,
+   "end": 1202.58,
+   "speaker": "Kalan",
+   "text": "其實還蠻好用的，"
+  },
+  {
+   "start": 1202.58,
+   "end": 1203.74,
+   "speaker": "Kalan",
+   "text": "因為它是，"
+  },
+  {
+   "start": 1204.18,
+   "end": 1206.34,
+   "speaker": "Kalan",
+   "text": "它可以直接 touch，"
+  },
+  {
+   "start": 1207.26,
+   "end": 1208.94,
+   "speaker": "Kalan",
+   "text": "然後就完成了，"
+  },
+  {
+   "start": 1208.94,
+   "end": 1213.0,
+   "speaker": "Kalan",
+   "text": "所以我那時候會是用 Apple Pay 居多，"
+  },
+  {
+   "start": 1213.0,
+   "end": 1215.54,
+   "speaker": "Kalan",
+   "text": "然後就綁我的信用卡這樣子。"
+  },
+  {
+   "start": 1216.64,
+   "end": 1217.68,
+   "speaker": "Kalan",
+   "text": "日本的話，"
+  },
+  {
+   "start": 1217.68,
+   "end": 1219.48,
+   "speaker": "Kalan",
+   "text": "PayPay 真的算是"
+  },
+  {
+   "start": 1220.08,
+   "end": 1221.56,
+   "speaker": "Kalan",
+   "text": "目前市占率很高，"
+  },
+  {
+   "start": 1221.56,
+   "end": 1224.5,
+   "speaker": "Kalan",
+   "text": "就至少以日本人的使用的話。"
+  },
+  {
+   "start": 1224.5,
+   "end": 1227.16,
+   "speaker": "Kalan",
+   "text": "這樣的話，Mooly 也有用 PayPay 了嗎？"
+  },
+  {
+   "start": 1227.16,
+   "end": 1229.06,
+   "speaker": "Mooly",
+   "text": "我 PayPay 有，"
+  },
+  {
+   "start": 1229.06,
+   "end": 1233.46,
+   "speaker": "Mooly",
+   "text": "有是有，它比較常用來跟那個，比如說朋友吃飯要分錢的時候，"
+  },
+  {
+   "start": 1233.46,
+   "end": 1241.4,
+   "speaker": "Mooly",
+   "text": "用來轉錢的一個工具，但日常生活我還是直接掏出我的魔法小卡刷下去。"
+  },
+  {
+   "start": 1241.4,
+   "end": 1244.68,
+   "speaker": "Mooly",
+   "text": "我覺得它比較像算是一種習慣了吧，"
+  },
+  {
+   "start": 1244.68,
+   "end": 1248.24,
+   "speaker": "Mooly",
+   "text": "像是比如說那個要搭那個地鐵的時候，"
+  },
+  {
+   "start": 1248.24,
+   "end": 1253.26,
+   "speaker": "Mooly",
+   "text": "比如說如果有蘋果手機，不就直接 Apple Pay 綁數位卡什麼的，就直接進站嗎？"
+  },
+  {
+   "start": 1253.7,
+   "end": 1259.32,
+   "speaker": "Mooly",
+   "text": "但因為 Android 手機，如果你不是日本發行的，你沒有它那個晶片的話，"
+  },
+  {
+   "start": 1259.82,
+   "end": 1262.44,
+   "speaker": "Mooly",
+   "text": "你是沒有辦法直接把數位卡綁手機的。"
+  },
+  {
+   "start": 1262.44,
+   "end": 1264.84,
+   "speaker": "Mooly",
+   "text": "所以你必須要有一個實體的數位卡，"
+  },
+  {
+   "start": 1264.84,
+   "end": 1270.06,
+   "speaker": "Mooly",
+   "text": "所以我到現在還是，我有一張我第一次來日本的時候買的實體數位卡，"
+  },
+  {
+   "start": 1270.06,
+   "end": 1273.64,
+   "speaker": "Mooly",
+   "text": "然後我還是刷那個實體的卡進站。"
+  },
+  {
+   "start": 1273.64,
+   "end": 1273.96,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 1275.22,
+   "end": 1275.62,
+   "speaker": "Kalan",
+   "text": "OK。"
+  },
+  {
+   "start": 1275.62,
+   "end": 1278.82,
+   "speaker": "Kalan",
+   "text": "Mooly 感覺起來是一個比較不怕麻煩的人。"
+  },
+  {
+   "start": 1279.2,
+   "end": 1282.96,
+   "speaker": "Mooly",
+   "text": "就我覺得他習慣了之後，你倒是會覺得還好，"
+  },
+  {
+   "start": 1282.96,
+   "end": 1287.58,
+   "speaker": "Mooly",
+   "text": "他其實也沒有真的耗損你更多時間，"
+  },
+  {
+   "start": 1287.58,
+   "end": 1289.04,
+   "speaker": "Mooly",
+   "text": "我覺得啦。"
+  },
+  {
+   "start": 1289.04,
+   "end": 1290.44,
+   "speaker": "Kalan",
+   "text": "我想說，"
+  },
+  {
+   "start": 1290.96,
+   "end": 1295.0,
+   "speaker": "Kalan",
+   "text": "那要不要你就換一個日本發行的手機這樣？"
+  },
+  {
+   "start": 1295.0,
+   "end": 1302.5,
+   "speaker": "Mooly",
+   "text": "這也是可以，但我怕他那個整個系統什麼的可能會不太一樣，可能之後再考慮一下。"
+  },
+  {
+   "start": 1302.5,
+   "end": 1304.44,
+   "speaker": "Kalan",
+   "text": "我有另外一個選擇，"
+  },
+  {
+   "start": 1305.56,
+   "end": 1307.26,
+   "speaker": "Kalan",
+   "text": "就是兩台一起用。"
+  },
+  {
+   "start": 1307.72,
+   "end": 1312.94,
+   "speaker": "Mooly",
+   "text": "這個我有想過，就是要不要乾脆買一個日本專用的。"
+  },
+  {
+   "start": 1312.94,
+   "end": 1314.24,
+   "speaker": "Mooly",
+   "text": "因為它其實，"
+  },
+  {
+   "start": 1314.68,
+   "end": 1316.34,
+   "speaker": "Mooly",
+   "text": "你沒有那個，它好像叫什麼，"
+  },
+  {
+   "start": 1316.92,
+   "end": 1318.74,
+   "speaker": "Mooly",
+   "text": "FeliCa 還是什麼的那個晶片吧。"
+  },
+  {
+   "start": 1318.74,
+   "end": 1323.06,
+   "speaker": "Mooly",
+   "text": "那如果你沒有那個晶片，還有一個會不方便的地方是，比如說那個，"
+  },
+  {
+   "start": 1323.66,
+   "end": 1327.38,
+   "speaker": "Mooly",
+   "text": "有一些日本的 app 你可能是要掃那個 My Number Card，"
+  },
+  {
+   "start": 1327.38,
+   "end": 1330.88,
+   "speaker": "Mooly",
+   "text": "就有點像是日本這邊的身分證，"
+  },
+  {
+   "start": 1331.44,
+   "end": 1333.16,
+   "speaker": "Mooly",
+   "text": "那個自然人憑證的感覺。"
+  },
+  {
+   "start": 1333.16,
+   "end": 1337.44,
+   "speaker": "Mooly",
+   "text": "那比如說你要掃那個的話，你手機要有那個晶片你才能去感應，"
+  },
+  {
+   "start": 1337.44,
+   "end": 1340.94,
+   "speaker": "Mooly",
+   "text": "如果你沒有的話，你就只能比如說你電腦買一個讀卡機，"
+  },
+  {
+   "start": 1340.94,
+   "end": 1342.78,
+   "speaker": "Mooly",
+   "text": "或是你用一個蘋果手機，"
+  },
+  {
+   "start": 1342.78,
+   "end": 1346.1,
+   "speaker": "Mooly",
+   "text": "就可以直接感應那個卡，然後去做一些驗證。"
+  },
+  {
+   "start": 1346.1,
+   "end": 1351.4,
+   "speaker": "Mooly",
+   "text": "如果你沒有那個晶片的話，你基本上 Android 手機是做不了任何事情的。"
+  },
+  {
+   "start": 1351.4,
+   "end": 1351.68,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 1352.22,
+   "end": 1355.86,
+   "speaker": "Kalan",
+   "text": "這倒是我不太確定耶，因為"
+  },
+  {
+   "start": 1355.86,
+   "end": 1359.56,
+   "speaker": "Kalan",
+   "text": "FeliCa 的話，它其實也是 NFC 的一種，"
+  },
+  {
+   "start": 1359.56,
+   "end": 1359.98,
+   "speaker": "Kalan",
+   "text": "但是"
+  },
+  {
+   "start": 1360.56,
+   "end": 1363.0,
+   "speaker": "Kalan",
+   "text": "Android 的話應該都會有 NFC，"
+  },
+  {
+   "start": 1363.82,
+   "end": 1365.1,
+   "speaker": "Kalan",
+   "text": "所以照理來講，"
+  },
+  {
+   "start": 1365.1,
+   "end": 1369.08,
+   "speaker": "Kalan",
+   "text": "My Number Card 應該是都能刷得過的。"
+  },
+  {
+   "start": 1369.08,
+   "end": 1371.46,
+   "speaker": "Mooly",
+   "text": "這個我之前有試過，"
+  },
+  {
+   "start": 1371.46,
+   "end": 1376.8,
+   "speaker": "Mooly",
+   "text": "甚至有些 app 我連載都不能載，"
+  },
+  {
+   "start": 1376.8,
+   "end": 1378.98,
+   "speaker": "Mooly",
+   "text": "它就直接說你的裝置不支援，"
+  },
+  {
+   "start": 1378.98,
+   "end": 1382.3,
+   "speaker": "Mooly",
+   "text": "但我很確定我裝置是有 NFC 的。"
+  },
+  {
+   "start": 1382.3,
+   "end": 1387.8,
+   "speaker": "Mooly",
+   "text": "所以雖然那個 FeliCa 好像它確實是 NFC 的一種，"
+  },
+  {
+   "start": 1387.8,
+   "end": 1390.98,
+   "speaker": "Mooly",
+   "text": "但我不確定是硬體限制還是軟體限制，"
+  },
+  {
+   "start": 1390.98,
+   "end": 1394.44,
+   "speaker": "Kalan",
+   "text": "就是你不知道是哪邊在擋這件事，"
+  },
+  {
+   "start": 1394.44,
+   "end": 1401.88,
+   "speaker": "Mooly",
+   "text": "就不知道是手機自己把它鎖起來，還是它是一種比較特殊的規格，需要一些資源什麼的。"
+  },
+  {
+   "start": 1401.88,
+   "end": 1403.84,
+   "speaker": "Kalan",
+   "text": "我們聊完生活的部分，"
+  },
+  {
+   "start": 1403.84,
+   "end": 1406.04,
+   "speaker": "Kalan",
+   "text": "要不要來聊一下工作的部分？"
+  },
+  {
+   "start": 1406.04,
+   "end": 1408.26,
+   "speaker": "Kalan",
+   "text": "Mooly 這邊有沒有什麼想分享的？"
+  },
+  {
+   "start": 1408.26,
+   "end": 1409.66,
+   "speaker": "Mooly",
+   "text": "工作上的話，"
+  },
+  {
+   "start": 1410.22,
+   "end": 1413.66,
+   "speaker": "Mooly",
+   "text": "其實有一個還是算偏跟生活有關的，首先因為，"
+  },
+  {
+   "start": 1413.66,
+   "end": 1420.22,
+   "speaker": "Mooly",
+   "text": "因為比如說日本工作上，因為之前有分享過，其實我在的公司並不是一個真的日本公司，"
+  },
+  {
+   "start": 1420.22,
+   "end": 1421.18,
+   "speaker": "Mooly",
+   "text": "所以其實，"
+  },
+  {
+   "start": 1421.76,
+   "end": 1424.2,
+   "speaker": "Mooly",
+   "text": "我自己覺得在工作上，工作起來，"
+  },
+  {
+   "start": 1424.2,
+   "end": 1428.56,
+   "speaker": "Mooly",
+   "text": "公司本身的差異會比國家的差異更大。"
+  },
+  {
+   "start": 1428.56,
+   "end": 1431.36,
+   "speaker": "Mooly",
+   "text": "像我之前在那個新加坡工作的時候也是，"
+  },
+  {
+   "start": 1431.36,
+   "end": 1438.76,
+   "speaker": "Mooly",
+   "text": "就我覺得在新加坡工作跟在台灣工作，我覺得工作本身差別倒是沒有太多，比較會影響的是你的"
+  },
+  {
+   "start": 1439.26,
+   "end": 1442.12,
+   "speaker": "Mooly",
+   "text": "那一間公司的工作風格跟同事，"
+  },
+  {
+   "start": 1442.12,
+   "end": 1445.14,
+   "speaker": "Mooly",
+   "text": "然後跟國家這件事情，我反而就覺得還好。"
+  },
+  {
+   "start": 1445.62,
+   "end": 1449.38,
+   "speaker": "Mooly",
+   "text": "所以我自己比較有感的是，比如說像是，"
+  },
+  {
+   "start": 1449.38,
+   "end": 1451.7,
+   "speaker": "Mooly",
+   "text": "工作上的工作安全吧。"
+  },
+  {
+   "start": 1451.7,
+   "end": 1453.18,
+   "speaker": "Mooly",
+   "text": "比如說，舉個例子是，"
+  },
+  {
+   "start": 1453.18,
+   "end": 1455.9,
+   "speaker": "Mooly",
+   "text": "假設有某個地方它在修路，"
+  },
+  {
+   "start": 1455.9,
+   "end": 1458.54,
+   "speaker": "Mooly",
+   "text": "或是有一些施工或什麼的時候，"
+  },
+  {
+   "start": 1459.02,
+   "end": 1460.34,
+   "speaker": "Mooly",
+   "text": "那你可能在台灣的話就是，"
+  },
+  {
+   "start": 1460.76,
+   "end": 1465.58,
+   "speaker": "Mooly",
+   "text": "大多數可能比如說你可能擺一個路障，或是擺一個很像稻草人的東西在那邊，"
+  },
+  {
+   "start": 1465.58,
+   "end": 1468.54,
+   "speaker": "Mooly",
+   "text": "跟大家說前面在修路或什麼的。"
+  },
+  {
+   "start": 1468.54,
+   "end": 1474.92,
+   "speaker": "Mooly",
+   "text": "日本的話，我比較常見的場景是他可能就專門派一個人守在那個路口，"
+  },
+  {
+   "start": 1474.92,
+   "end": 1479.1,
+   "speaker": "Mooly",
+   "text": "然後跟每一個來的車都跟他講說：前面在施工，不通喔，"
+  },
+  {
+   "start": 1479.1,
+   "end": 1480.38,
+   "speaker": "Mooly",
+   "text": "然後請走別的路這樣子。"
+  },
+  {
+   "start": 1480.38,
+   "end": 1483.38,
+   "speaker": "Mooly",
+   "text": "就他可能會專門有一個人去做這件事情。"
+  },
+  {
+   "start": 1483.38,
+   "end": 1487.26,
+   "speaker": "Mooly",
+   "text": "那我覺得其實是蠻花人力的一件事，"
+  },
+  {
+   "start": 1487.26,
+   "end": 1490.16,
+   "speaker": "Mooly",
+   "text": "但他們可能習慣就這樣子吧，"
+  },
+  {
+   "start": 1490.16,
+   "end": 1493.06,
+   "speaker": "Mooly",
+   "text": "或可能其實這樣比較安全嗎？"
+  },
+  {
+   "start": 1493.06,
+   "end": 1496.46,
+   "speaker": "Mooly",
+   "text": "就是有一個人專門跟你說明這件事情。"
+  },
+  {
+   "start": 1496.46,
+   "end": 1500.64,
+   "speaker": "Mooly",
+   "text": "這是一個我覺得工作上有注意到的差異。"
+  },
+  {
+   "start": 1501.18,
+   "end": 1505.3,
+   "speaker": "Mooly",
+   "text": "第二個的話，就是工作上的健康檢查。"
+  },
+  {
+   "start": 1505.3,
+   "end": 1507.36,
+   "speaker": "Mooly",
+   "text": "比如說在台灣的話，"
+  },
+  {
+   "start": 1507.36,
+   "end": 1511.3,
+   "speaker": "Mooly",
+   "text": "進入公司之前可能會要你做一個簡單的體檢，"
+  },
+  {
+   "start": 1511.3,
+   "end": 1517.42,
+   "speaker": "Mooly",
+   "text": "進入公司之後，它可能會有公司提供的健康檢查，"
+  },
+  {
+   "start": 1517.42,
+   "end": 1519.54,
+   "speaker": "Mooly",
+   "text": "但它之前比如說，"
+  },
+  {
+   "start": 1519.54,
+   "end": 1521.94,
+   "speaker": "Mooly",
+   "text": "就是公司出錢讓你做健康檢查，"
+  },
+  {
+   "start": 1521.94,
+   "end": 1525.1,
+   "speaker": "Mooly",
+   "text": "然後我記得大多數它其實也不是一進去就有，"
+  },
+  {
+   "start": 1525.1,
+   "end": 1531.4,
+   "speaker": "Mooly",
+   "text": "可能是你要待個兩年或三年，才會有公司提供的免費健康檢查。"
+  },
+  {
+   "start": 1531.9,
+   "end": 1534.98,
+   "speaker": "Mooly",
+   "text": "那我有查了一下台灣的規定，是"
+  },
+  {
+   "start": 1535.58,
+   "end": 1540.78,
+   "speaker": "Mooly",
+   "text": "如果你是 40 歲以下，像我們 40 歲以下的話，它是每五年強制要做一次，"
+  },
+  {
+   "start": 1541.58,
+   "end": 1544.58,
+   "speaker": "Mooly",
+   "text": "所以它其實是蠻寬的一個時間吧。"
+  },
+  {
+   "start": 1544.58,
+   "end": 1550.88,
+   "speaker": "Mooly",
+   "text": "每五年一次，除非你是做一些比較體力活，或是本來就暴露在比較危險一點的環境，"
+  },
+  {
+   "start": 1550.88,
+   "end": 1553.58,
+   "speaker": "Mooly",
+   "text": "比如說你可能會吸入大量粉塵啊或什麼的，"
+  },
+  {
+   "start": 1553.58,
+   "end": 1555.72,
+   "speaker": "Mooly",
+   "text": "那種環境的話，它是每一年一次啦。"
+  },
+  {
+   "start": 1555.72,
+   "end": 1562.2,
+   "speaker": "Mooly",
+   "text": "但像我們這種做辦公室的一般上班族，它就是每五年做一次。"
+  },
+  {
+   "start": 1562.74,
+   "end": 1564.36,
+   "speaker": "Mooly",
+   "text": "那像是日本的話，其實是，"
+  },
+  {
+   "start": 1564.36,
+   "end": 1565.8,
+   "speaker": "Mooly",
+   "text": "就是像我這種，"
+  },
+  {
+   "start": 1565.8,
+   "end": 1570.94,
+   "speaker": "Mooly",
+   "text": "只要是做辦公室的，其實是每一年都強制要做一次基本的健康檢查，"
+  },
+  {
+   "start": 1570.94,
+   "end": 1573.92,
+   "speaker": "Mooly",
+   "text": "所以我覺得這點也跟台灣滿不一樣的。"
+  },
+  {
+   "start": 1573.92,
+   "end": 1576.92,
+   "speaker": "Kalan",
+   "text": "它好像是法律有規定說，"
+  },
+  {
+   "start": 1576.92,
+   "end": 1579.56,
+   "speaker": "Kalan",
+   "text": "你有義務去接受健康檢查，"
+  },
+  {
+   "start": 1579.56,
+   "end": 1582.88,
+   "speaker": "Mooly",
+   "text": "是法律規定你必須要去健康檢查，"
+  },
+  {
+   "start": 1582.88,
+   "end": 1586.28,
+   "speaker": "Kalan",
+   "text": "然後如果你不去做的話，公司可能還會被督導，"
+  },
+  {
+   "start": 1586.28,
+   "end": 1587.7,
+   "speaker": "Kalan",
+   "text": "被指導什麼的。"
+  },
+  {
+   "start": 1588.5,
+   "end": 1589.38,
+   "speaker": "Kalan",
+   "text": "所以有時候，"
+  },
+  {
+   "start": 1589.98,
+   "end": 1592.18,
+   "speaker": "Kalan",
+   "text": "就是如果你都一直不去做的話，"
+  },
+  {
+   "start": 1592.18,
+   "end": 1594.14,
+   "speaker": "Kalan",
+   "text": "公司會一直寄信給你這樣。"
+  },
+  {
+   "start": 1594.14,
+   "end": 1595.26,
+   "speaker": "Mooly",
+   "text": "對對，沒錯沒錯。"
+  },
+  {
+   "start": 1595.26,
+   "end": 1598.76,
+   "speaker": "Mooly",
+   "text": "他會一直問你什麼時候去約，約了沒，約了沒這樣子。"
+  },
+  {
+   "start": 1599.48,
+   "end": 1601.8,
+   "speaker": "Kalan",
+   "text": "然後這邊我想要補充幾點，就是"
+  },
+  {
+   "start": 1602.36,
+   "end": 1605.26,
+   "speaker": "Kalan",
+   "text": "如果你是有在公司工作的話呢，"
+  },
+  {
+   "start": 1605.26,
+   "end": 1609.78,
+   "speaker": "Kalan",
+   "text": "通常你不會是用國民健保，而是會加入公司指定的，"
+  },
+  {
+   "start": 1609.78,
+   "end": 1612.58,
+   "speaker": "Kalan",
+   "text": "可能是組合工會裡面的健保這樣子。"
+  },
+  {
+   "start": 1613.78,
+   "end": 1620.72,
+   "speaker": "Kalan",
+   "text": "比如說有一些健保，它是過了 30 歲之後，會讓你做一個人間ドック的檢查。"
+  },
+  {
+   "start": 1620.72,
+   "end": 1622.3,
+   "speaker": "Mooly",
+   "text": "它翻成中文會是什麼？"
+  },
+  {
+   "start": 1622.3,
+   "end": 1631.12,
+   "speaker": "Kalan",
+   "text": "全身健康檢查，就是更精細的健康檢查，比如說他會讓你去照胃鏡。"
+  },
+  {
+   "start": 1632.3,
+   "end": 1635.54,
+   "speaker": "Mooly",
+   "text": "會照核磁共振嗎？"
+  },
+  {
+   "start": 1635.54,
+   "end": 1639.38,
+   "speaker": "Kalan",
+   "text": "核磁共振好像也會，"
+  },
+  {
+   "start": 1641.08,
+   "end": 1645.04,
+   "speaker": "Kalan",
+   "text": "看他們配的套裝是怎麼樣，"
+  },
+  {
+   "start": 1646.02,
+   "end": 1650.56,
+   "speaker": "Kalan",
+   "text": "但大概是比如說就像剛剛講的胃鏡什麼的，"
+  },
+  {
+   "start": 1650.56,
+   "end": 1656.88,
+   "speaker": "Kalan",
+   "text": "就是讓你去做比一般的健康檢查更精細的檢查這樣子。"
+  },
+  {
+   "start": 1657.94,
+   "end": 1660.98,
+   "speaker": "Kalan",
+   "text": "那因為它的費用是相對比較高的，"
+  },
+  {
+   "start": 1660.98,
+   "end": 1664.5,
+   "speaker": "Kalan",
+   "text": "基本上你到 30 歲之後，"
+  },
+  {
+   "start": 1664.5,
+   "end": 1667.62,
+   "speaker": "Kalan",
+   "text": "公司會讓你免費去做這件事情。"
+  },
+  {
+   "start": 1668.56,
+   "end": 1671.04,
+   "speaker": "Kalan",
+   "text": "那當然這應該也是看健保，"
+  },
+  {
+   "start": 1671.04,
+   "end": 1675.96,
+   "speaker": "Kalan",
+   "text": "就是看你的健保的部分是怎麼用，這樣子。"
+  },
+  {
+   "start": 1675.96,
+   "end": 1678.36,
+   "speaker": "Mooly",
+   "text": "聊到這個，突然好奇一件事情，就是"
+  },
+  {
+   "start": 1678.36,
+   "end": 1686.84,
+   "speaker": "Mooly",
+   "text": "愷愷不是有講說，比如說在日本工作，他的健保可能就是保在某一個協會底下，就跟公司有關的，"
+  },
+  {
+   "start": 1687.6,
+   "end": 1701.9,
+   "speaker": "Mooly",
+   "text": "那不知道愷愷保的是什麼樣的協會？像我可以講，我的是有一個什麼關東 IT software 健康保險組合，感覺很厲害的東西。"
+  },
+  {
+   "start": 1701.9,
+   "end": 1704.66,
+   "speaker": "Kalan",
+   "text": "我們這邊是用公司的，"
+  },
+  {
+   "start": 1704.66,
+   "end": 1706.14,
+   "speaker": "Kalan",
+   "text": "因為公司比較大，"
+  },
+  {
+   "start": 1706.14,
+   "end": 1710.2,
+   "speaker": "Kalan",
+   "text": "所以公司那邊有一個健康保險組合，這樣子。"
+  },
+  {
+   "start": 1711.08,
+   "end": 1713.34,
+   "speaker": "Mooly",
+   "text": "公司自己本身就有一個。"
+  },
+  {
+   "start": 1713.34,
+   "end": 1716.04,
+   "speaker": "Mooly",
+   "text": "了解了解。"
+  },
+  {
+   "start": 1716.04,
+   "end": 1718.2,
+   "speaker": "Mooly",
+   "text": "只是突然好奇大家的那個是什麼，"
+  },
+  {
+   "start": 1718.2,
+   "end": 1720.26,
+   "speaker": "Mooly",
+   "text": "因為在台灣沒有這個東西，"
+  },
+  {
+   "start": 1720.26,
+   "end": 1722.06,
+   "speaker": "Mooly",
+   "text": "大家都是健康保險，"
+  },
+  {
+   "start": 1722.06,
+   "end": 1726.24,
+   "speaker": "Mooly",
+   "text": "就不會有這種跟著特定組織走的這種。"
+  },
+  {
+   "start": 1726.24,
+   "end": 1728.86,
+   "speaker": "Kalan",
+   "text": "欸，台灣有沒有這件事情？"
+  },
+  {
+   "start": 1728.86,
+   "end": 1730.52,
+   "speaker": "Kalan",
+   "text": "我猜可能有，"
+  },
+  {
+   "start": 1731.02,
+   "end": 1733.6,
+   "speaker": "Kalan",
+   "text": "但不像日本那麼普遍吧，"
+  },
+  {
+   "start": 1734.54,
+   "end": 1736.8,
+   "speaker": "Mooly",
+   "text": "因為台灣其實有工會，"
+  },
+  {
+   "start": 1736.8,
+   "end": 1741.12,
+   "speaker": "Mooly",
+   "text": "就有些人，可能某些原因，他會保在工會底下，"
+  },
+  {
+   "start": 1741.12,
+   "end": 1742.96,
+   "speaker": "Kalan",
+   "text": "只是它不普遍的感覺，"
+  },
+  {
+   "start": 1742.96,
+   "end": 1744.92,
+   "speaker": "Mooly",
+   "text": "它比較不普遍一點。"
+  },
+  {
+   "start": 1744.92,
+   "end": 1747.7,
+   "speaker": "Kalan",
+   "text": "那講到健保這件事情，"
+  },
+  {
+   "start": 1748.34,
+   "end": 1750.68,
+   "speaker": "Kalan",
+   "text": "它其實有蠻多福利的，"
+  },
+  {
+   "start": 1751.74,
+   "end": 1754.66,
+   "speaker": "Kalan",
+   "text": "比如說有時候它會給你一些，"
+  },
+  {
+   "start": 1755.16,
+   "end": 1756.7,
+   "speaker": "Kalan",
+   "text": "比如說你要去住宿，"
+  },
+  {
+   "start": 1756.7,
+   "end": 1758.84,
+   "speaker": "Kalan",
+   "text": "然後他就說這個現在在 campaign 中，"
+  },
+  {
+   "start": 1758.84,
+   "end": 1760.14,
+   "speaker": "Kalan",
+   "text": "然後就是有優惠，"
+  },
+  {
+   "start": 1760.14,
+   "end": 1761.24,
+   "speaker": "Kalan",
+   "text": "然後你可以去"
+  },
+  {
+   "start": 1761.24,
+   "end": 1765.84,
+   "speaker": "Kalan",
+   "text": "用很便宜的價格去住宿，"
+  },
+  {
+   "start": 1765.84,
+   "end": 1767.36,
+   "speaker": "Kalan",
+   "text": "或者是有套裝行程，"
+  },
+  {
+   "start": 1767.36,
+   "end": 1769.38,
+   "speaker": "Kalan",
+   "text": "或者是商品這樣的東西。"
+  },
+  {
+   "start": 1769.38,
+   "end": 1770.12,
+   "speaker": "Kalan",
+   "text": "欸，不曉得"
+  },
+  {
+   "start": 1770.12,
+   "end": 1771.3,
+   "speaker": "Kalan",
+   "text": "Mooly 這邊有沒有？"
+  },
+  {
+   "start": 1771.3,
+   "end": 1772.78,
+   "speaker": "Mooly",
+   "text": "完全不知道。"
+  },
+  {
+   "start": 1772.78,
+   "end": 1774.04,
+   "speaker": "Mooly",
+   "text": "它還有這個，"
+  },
+  {
+   "start": 1774.04,
+   "end": 1775.3,
+   "speaker": "Mooly",
+   "text": "還有這種東西嗎？"
+  },
+  {
+   "start": 1775.3,
+   "end": 1775.84,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 1775.84,
+   "end": 1778.18,
+   "speaker": "Kalan",
+   "text": "因為它的概念比較像是，"
+  },
+  {
+   "start": 1778.18,
+   "end": 1779.98,
+   "speaker": "Kalan",
+   "text": "就是為了要你健康嘛，"
+  },
+  {
+   "start": 1779.98,
+   "end": 1782.12,
+   "speaker": "Kalan",
+   "text": "過上一個健康的生活，"
+  },
+  {
+   "start": 1782.12,
+   "end": 1782.92,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 1783.4,
+   "end": 1785.78,
+   "speaker": "Kalan",
+   "text": "欸，除了剛剛講到的這個，"
+  },
+  {
+   "start": 1785.78,
+   "end": 1789.0,
+   "speaker": "Kalan",
+   "text": "欸，你去做檢查這些的東西以外呢，"
+  },
+  {
+   "start": 1789.0,
+   "end": 1790.28,
+   "speaker": "Kalan",
+   "text": "欸，你的生活，"
+  },
+  {
+   "start": 1790.28,
+   "end": 1796.44,
+   "speaker": "Kalan",
+   "text": "它也會提供各種有的沒的福利，讓你過得好一點、過得健康一點，這樣子。"
+  },
+  {
+   "start": 1796.44,
+   "end": 1798.68,
+   "speaker": "Mooly",
+   "text": "是喔，這我完全不知道。"
+  },
+  {
+   "start": 1798.68,
+   "end": 1801.44,
+   "speaker": "Kalan",
+   "text": "那 Mooly 你等一下可以去查一下。"
+  },
+  {
+   "start": 1801.44,
+   "end": 1803.36,
+   "speaker": "Mooly",
+   "text": "可以可以，我等一下去研究一下。"
+  },
+  {
+   "start": 1803.36,
+   "end": 1806.4,
+   "speaker": "Kalan",
+   "text": "那換我這邊分享一些好了。"
+  },
+  {
+   "start": 1806.4,
+   "end": 1808.88,
+   "speaker": "Kalan",
+   "text": "就那時候我剛來公司的時候啊，"
+  },
+  {
+   "start": 1808.88,
+   "end": 1814.28,
+   "speaker": "Kalan",
+   "text": "我發現很多日本人，他們會很習慣帶便當來吃，"
+  },
+  {
+   "start": 1816.04,
+   "end": 1818.7,
+   "speaker": "Kalan",
+   "text": "就可能前一晚先做好，"
+  },
+  {
+   "start": 1818.7,
+   "end": 1822.86,
+   "speaker": "Kalan",
+   "text": "然後中午的時候就吃那個自己做好的便當，這樣子。"
+  },
+  {
+   "start": 1823.5,
+   "end": 1826.28,
+   "speaker": "Kalan",
+   "text": "然後我後來也有這樣做，"
+  },
+  {
+   "start": 1826.28,
+   "end": 1828.66,
+   "speaker": "Kalan",
+   "text": "但是會有一個小問題，就是"
+  },
+  {
+   "start": 1828.66,
+   "end": 1833.66,
+   "speaker": "Kalan",
+   "text": "你的飯如果放隔夜，其實會變硬蠻快的，"
+  },
+  {
+   "start": 1834.64,
+   "end": 1836.48,
+   "speaker": "Kalan",
+   "text": "然後其實也沒有那麼好吃。"
+  },
+  {
+   "start": 1836.48,
+   "end": 1839.1,
+   "speaker": "Kalan",
+   "text": "所以我那時候後來就改成，"
+  },
+  {
+   "start": 1839.1,
+   "end": 1844.84,
+   "speaker": "Kalan",
+   "text": "我們那個炊飯機，它你可以設定說你要什麼時候開始煮這件事情，"
+  },
+  {
+   "start": 1844.84,
+   "end": 1845.86,
+   "speaker": "Mooly",
+   "text": "定時嘛。"
+  },
+  {
+   "start": 1845.86,
+   "end": 1848.08,
+   "speaker": "Kalan",
+   "text": "所以我就比如說設說"
+  },
+  {
+   "start": 1848.08,
+   "end": 1850.72,
+   "speaker": "Kalan",
+   "text": "早上可能八點開始煮，"
+  },
+  {
+   "start": 1850.72,
+   "end": 1853.96,
+   "speaker": "Kalan",
+   "text": "然後可能八點半煮好，或八點四十幾分煮好，"
+  },
+  {
+   "start": 1854.54,
+   "end": 1857.8,
+   "speaker": "Kalan",
+   "text": "然後再把那個飯裝到我的便當裡，"
+  },
+  {
+   "start": 1857.8,
+   "end": 1859.86,
+   "speaker": "Kalan",
+   "text": "這樣我的配菜算是前一晚的，"
+  },
+  {
+   "start": 1859.86,
+   "end": 1861.94,
+   "speaker": "Kalan",
+   "text": "然後飯是新鮮的，"
+  },
+  {
+   "start": 1861.94,
+   "end": 1864.02,
+   "speaker": "Kalan",
+   "text": "然後帶去公司，中午吃這樣子。"
+  },
+  {
+   "start": 1864.46,
+   "end": 1867.42,
+   "speaker": "Mooly",
+   "text": "比如說像你或你同事帶便當去公司中午吃的時候，"
+  },
+  {
+   "start": 1867.42,
+   "end": 1869.4,
+   "speaker": "Mooly",
+   "text": "他中午吃的時候會加熱嗎？"
+  },
+  {
+   "start": 1869.4,
+   "end": 1870.34,
+   "speaker": "Mooly",
+   "text": "還是直接吃冷的？"
+  },
+  {
+   "start": 1870.34,
+   "end": 1871.84,
+   "speaker": "Kalan",
+   "text": "我的話會加熱，"
+  },
+  {
+   "start": 1871.84,
+   "end": 1874.38,
+   "speaker": "Kalan",
+   "text": "然後有些同事會吃冷的，"
+  },
+  {
+   "start": 1874.38,
+   "end": 1876.8,
+   "speaker": "Kalan",
+   "text": "他們好像有些人都還蠻習慣，"
+  },
+  {
+   "start": 1876.8,
+   "end": 1878.68,
+   "speaker": "Kalan",
+   "text": "習慣吃冷的耶。"
+  },
+  {
+   "start": 1878.68,
+   "end": 1881.84,
+   "speaker": "Mooly",
+   "text": "你有沒有問過他們，便當那些飯也是當天煮的，還是其實……"
+  },
+  {
+   "start": 1881.84,
+   "end": 1883.36,
+   "speaker": "Kalan",
+   "text": "這個我沒問耶。"
+  },
+  {
+   "start": 1884.36,
+   "end": 1892.48,
+   "speaker": "Kalan",
+   "text": "但因為現在都是遠端居多，所以這個文化也開始慢慢不見了。"
+  },
+  {
+   "start": 1892.48,
+   "end": 1897.44,
+   "speaker": "Mooly",
+   "text": "因為像我們公司，中午有提供，算提供便當，"
+  },
+  {
+   "start": 1897.44,
+   "end": 1902.66,
+   "speaker": "Mooly",
+   "text": "所以就是好像沒什麼看過有人自己帶便當來吃。"
+  },
+  {
+   "start": 1902.66,
+   "end": 1905.14,
+   "speaker": "Kalan",
+   "text": "下請制度是，比如說，"
+  },
+  {
+   "start": 1905.14,
+   "end": 1907.6,
+   "speaker": "Kalan",
+   "text": "今天你是一個大公司好了，"
+  },
+  {
+   "start": 1907.6,
+   "end": 1911.56,
+   "speaker": "Kalan",
+   "text": "那你有工作想要給另外一家公司做，"
+  },
+  {
+   "start": 1912.62,
+   "end": 1915.76,
+   "speaker": "Kalan",
+   "text": "那這個時候你就要注意下請制度這個東西。"
+  },
+  {
+   "start": 1915.76,
+   "end": 1922.76,
+   "speaker": "Kalan",
+   "text": "那它的目的就是為了防止像大公司對小公司這種，"
+  },
+  {
+   "start": 1922.76,
+   "end": 1926.28,
+   "speaker": "Kalan",
+   "text": "可能雙方的資本不平等，"
+  },
+  {
+   "start": 1926.28,
+   "end": 1930.34,
+   "speaker": "Kalan",
+   "text": "然後造成的一些類似霸凌的現象產生。"
+  },
+  {
+   "start": 1930.34,
+   "end": 1931.6,
+   "speaker": "Kalan",
+   "text": "就比如說，"
+  },
+  {
+   "start": 1931.6,
+   "end": 1933.48,
+   "speaker": "Kalan",
+   "text": "我今天包給你一個，"
+  },
+  {
+   "start": 1933.48,
+   "end": 1935.36,
+   "speaker": "Kalan",
+   "text": "因為我是大公司嘛，"
+  },
+  {
+   "start": 1935.36,
+   "end": 1936.28,
+   "speaker": "Kalan",
+   "text": "所以我錢比較多，"
+  },
+  {
+   "start": 1936.28,
+   "end": 1938.68,
+   "speaker": "Kalan",
+   "text": "我就包給你一個 2000 萬的案子，"
+  },
+  {
+   "start": 1938.68,
+   "end": 1940.4,
+   "speaker": "Kalan",
+   "text": "但是我可能就一直，"
+  },
+  {
+   "start": 1940.4,
+   "end": 1941.46,
+   "speaker": "Kalan",
+   "text": "因為錢很大，"
+  },
+  {
+   "start": 1941.88,
+   "end": 1944.44,
+   "speaker": "Kalan",
+   "text": "但我可能就一直找藉口不付款，"
+  },
+  {
+   "start": 1944.44,
+   "end": 1946.06,
+   "speaker": "Kalan",
+   "text": "不付尾款給你，"
+  },
+  {
+   "start": 1947.0,
+   "end": 1951.38,
+   "speaker": "Kalan",
+   "text": "然後導致讓你的現金流可能就變得周轉比較困難。"
+  },
+  {
+   "start": 1952.06,
+   "end": 1955.88,
+   "speaker": "Kalan",
+   "text": "那下請法就是為了要防止這件事情發生這樣子。"
+  },
+  {
+   "start": 1957.04,
+   "end": 1962.42,
+   "speaker": "Kalan",
+   "text": "所以它其實是有制定一些你在做下請，"
+  },
+  {
+   "start": 1962.42,
+   "end": 1965.1,
+   "speaker": "Kalan",
+   "text": "就是你把工作發包給別人的時候，"
+  },
+  {
+   "start": 1965.1,
+   "end": 1968.66,
+   "speaker": "Kalan",
+   "text": "你可以做的一些事情，跟你不能做的一些事情。"
+  },
+  {
+   "start": 1969.43,
+   "end": 1975.76,
+   "speaker": "Mooly",
+   "text": "所以它的下請的意思，其實就是外包給其他公司的意思嗎？"
+  },
+  {
+   "start": 1975.76,
+   "end": 1976.78,
+   "speaker": "Kalan",
+   "text": "大概是這樣。"
+  },
+  {
+   "start": 1976.78,
+   "end": 1981.46,
+   "speaker": "Kalan",
+   "text": "那其實這件事情在日本蠻常見的，"
+  },
+  {
+   "start": 1981.46,
+   "end": 1985.1,
+   "speaker": "Kalan",
+   "text": "就日本很常會有那種，"
+  },
+  {
+   "start": 1985.75,
+   "end": 1989.98,
+   "speaker": "Kalan",
+   "text": "比如說最上層的那間公司，"
+  },
+  {
+   "start": 1989.98,
+   "end": 1991.86,
+   "speaker": "Kalan",
+   "text": "它可能有一個案件，"
+  },
+  {
+   "start": 1992.46,
+   "end": 1995.16,
+   "speaker": "Kalan",
+   "text": "然後它可能發包給下一層。"
+  },
+  {
+   "start": 1995.16,
+   "end": 1996.34,
+   "speaker": "Mooly",
+   "text": "對，層層發包。"
+  },
+  {
+   "start": 1996.34,
+   "end": 1999.38,
+   "speaker": "Kalan",
+   "text": "對，層層發包，這一層再繼續發包給下一層這樣子。"
+  },
+  {
+   "start": 1999.94,
+   "end": 2001.36,
+   "speaker": "Kalan",
+   "text": "對啊，那這也是日本一個，"
+  },
+  {
+   "start": 2001.36,
+   "end": 2003.1,
+   "speaker": "Kalan",
+   "text": "另外一個蠻有趣的文化。"
+  },
+  {
+   "start": 2003.1,
+   "end": 2007.34,
+   "speaker": "Kalan",
+   "text": "就像我剛剛講的，你不可以故意拖延尾款不付錢啊，"
+  },
+  {
+   "start": 2007.34,
+   "end": 2012.54,
+   "speaker": "Kalan",
+   "text": "然後你可能要有一個非常明確的契約書去記載，"
+  },
+  {
+   "start": 2013.18,
+   "end": 2015.9,
+   "speaker": "Kalan",
+   "text": "說什麼時候發，什麼時候，"
+  },
+  {
+   "start": 2016.64,
+   "end": 2019.36,
+   "speaker": "Kalan",
+   "text": "拿到的結果應該是怎樣怎樣的這樣子。"
+  },
+  {
+   "start": 2020.12,
+   "end": 2025.8,
+   "speaker": "Kalan",
+   "text": "然後它也規定了一些禁止事項，比如說我就故意不領你的成果，"
+  },
+  {
+   "start": 2026.36,
+   "end": 2028.22,
+   "speaker": "Kalan",
+   "text": "故意不接受你的成果，"
+  },
+  {
+   "start": 2028.22,
+   "end": 2031.26,
+   "speaker": "Kalan",
+   "text": "或者是明明約好的事，才減少金額，"
+  },
+  {
+   "start": 2031.88,
+   "end": 2039.22,
+   "speaker": "Kalan",
+   "text": "然後因為用那種自己的優越身份，去減少說你這個做得不怎樣，我要減多少多少錢這樣子，"
+  },
+  {
+   "start": 2040.56,
+   "end": 2046.42,
+   "speaker": "Kalan",
+   "text": "或者是用遠低於市價的價格去買這件事情。"
+  },
+  {
+   "start": 2046.42,
+   "end": 2048.4,
+   "speaker": "Kalan",
+   "text": "反正它有訂很多這種小細項。"
+  },
+  {
+   "start": 2048.4,
+   "end": 2052.02,
+   "speaker": "Kalan",
+   "text": "就是為了防止我剛剛提到的那個狀況發生，"
+  },
+  {
+   "start": 2052.02,
+   "end": 2054.06,
+   "speaker": "Kalan",
+   "text": "大企業霸凌小企業的狀況，"
+  },
+  {
+   "start": 2054.58,
+   "end": 2057.32,
+   "speaker": "Mooly",
+   "text": "還有這種完整的規範這樣子。"
+  },
+  {
+   "start": 2058.02,
+   "end": 2058.46,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 2059.0,
+   "end": 2060.1,
+   "speaker": "Kalan",
+   "text": "不確定台灣有沒有。"
+  },
+  {
+   "start": 2062.14,
+   "end": 2067.0,
+   "speaker": "Mooly",
+   "text": "這個我也不太確定，至少我是沒有聽過啦。"
+  },
+  {
+   "start": 2067.0,
+   "end": 2069.16,
+   "speaker": "Kalan",
+   "text": "講一講，你真的講了蠻多的。"
+  },
+  {
+   "start": 2069.66,
+   "end": 2070.1,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 2070.74,
+   "end": 2072.88,
+   "speaker": "Kalan",
+   "text": "那今天的節目就到這邊啦。"
+  },
+  {
+   "start": 2072.88,
+   "end": 2075.66,
+   "speaker": "Kalan",
+   "text": "如果大家喜歡的話，歡迎訂閱、分享。"
+  },
+  {
+   "start": 2075.66,
+   "end": 2077.38,
+   "speaker": "Kalan",
+   "text": "那如果有任何回饋的話，"
+  },
+  {
+   "start": 2077.38,
+   "end": 2080.18,
+   "speaker": "Kalan",
+   "text": "也可以透過說明的表單或寄信給我們喔。"
+  },
+  {
+   "start": 2080.18,
+   "end": 2081.14,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 2081.14,
+   "end": 2082.12,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2082.66,
+   "end": 2083.86,
+   "speaker": "Kalan",
+   "text": "我們下次見。"
+  },
+  {
+   "start": 2084.44,
+   "end": 2084.84,
+   "speaker": "Kalan",
+   "text": "拜拜。"
+  }
+ ]
+}

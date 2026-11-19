@@ -1,0 +1,3738 @@
+{
+ "episode": 9,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 在本集討論在日本想做副業時的做法，重點介紹「個人事業主」制度。Kalan 說明開業登記、青色申告、經費報帳、損益通算與家事按分等好處，也提醒國民健康保險、失業給付與稅率上升等風險。Mooly 分享太太依親簽證申請資格外活動許可的經驗，並提出幾個疑問，最後表示目前沒有副業，暫不考慮，但之後有副業會考慮開設。",
+  "points": [
+   "副業要先確認簽證的活動範圍，不符合時可申請資格外活動許可，高度人才簽證則可直接從事簽證範圍外的副業。",
+   "個人事業主不需成立法人，只要線上向稅務署提交開業登記即可，且有正職也能同時成為個人事業主。",
+   "事業所得需具備營利性、有償性與持續性，打工領薪水屬於薪資所得，不能算個人事業主的收入。",
+   "搭配青色申告可拿到最高 65 萬扣除額，白色申告只有 10 萬；事業若出現赤字，還能與正職所得損益通算來減稅。",
+   "經費可報自宅房租水電（家事按分）、付給家人的薪水，以及 300 萬以內的 10 萬以上資產可一次報銷，不必折舊。",
+   "從正職轉為專職個人事業主要注意國民健康保險、失業給付與福利喪失、稅率可能上升，營收約 900 萬以上可考慮設立法人。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與本集主題"
+   },
+   {
+    "start": 63.0,
+    "title": "副業與簽證、資格外活動許可"
+   },
+   {
+    "start": 291.0,
+    "title": "個人事業主的定義與開業登記"
+   },
+   {
+    "start": 366.0,
+    "title": "報帳經費與事業所得的條件"
+   },
+   {
+    "start": 586.0,
+    "title": "正職兼個人事業主與損益通算"
+   },
+   {
+    "start": 1034.0,
+    "title": "青色申告與白色申告"
+   },
+   {
+    "start": 1358.0,
+    "title": "家事按分與折舊等經費細節"
+   },
+   {
+    "start": 1625.0,
+    "title": "轉為專職的注意事項與心得"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.84,
+   "speaker": "Kalan",
+   "text": "哈囉，大家好，我是 Kalan。"
+  },
+  {
+   "start": 1.84,
+   "end": 3.0,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 3.76,
+   "end": 6.2,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 19.18,
+   "end": 24.34,
+   "speaker": "Kalan",
+   "text": "今天我們訂的主題就是，如果你在日本想做副業怎麼辦？"
+  },
+  {
+   "start": 24.94,
+   "end": 29.4,
+   "speaker": "Kalan",
+   "text": "今天最主要會介紹一個，我覺得應該不會，"
+  },
+  {
+   "start": 29.4,
+   "end": 36.68,
+   "speaker": "Kalan",
+   "text": "就可能有些人已經知道，但可能有些人只是聽過，但不知道怎麼實際地去做。"
+  },
+  {
+   "start": 37.38,
+   "end": 40.96,
+   "speaker": "Kalan",
+   "text": "那我今天要介紹的這個制度，就是個人事業主。"
+  },
+  {
+   "start": 40.96,
+   "end": 41.76,
+   "speaker": "Kalan",
+   "text": "欸，Mooly，那"
+  },
+  {
+   "start": 41.76,
+   "end": 45.34,
+   "speaker": "Kalan",
+   "text": "你之前有聽過個人事業主這個東西嗎？"
+  },
+  {
+   "start": 45.34,
+   "end": 57.24,
+   "speaker": "Mooly",
+   "text": "我之前有聽過，但不是很熟，對我來講它感覺就有點像台灣的那種工作室的概念嗎？"
+  },
+  {
+   "start": 57.92,
+   "end": 59.18,
+   "speaker": "Kalan",
+   "text": "喔，好。"
+  },
+  {
+   "start": 59.18,
+   "end": 61.9,
+   "speaker": "Kalan",
+   "text": "那沒關係，我們等一下就一起介紹一下。"
+  },
+  {
+   "start": 62.68,
+   "end": 64.88,
+   "speaker": "Kalan",
+   "text": "那我想要問一下，就是"
+  },
+  {
+   "start": 64.88,
+   "end": 71.3,
+   "speaker": "Kalan",
+   "text": "你有，比如說你在工作之餘，有在日本做一些副業嗎？"
+  },
+  {
+   "start": 71.3,
+   "end": 72.84,
+   "speaker": "Mooly",
+   "text": "在日本的話，"
+  },
+  {
+   "start": 73.64,
+   "end": 74.52,
+   "speaker": "Mooly",
+   "text": "倒是沒有。"
+  },
+  {
+   "start": 74.52,
+   "end": 77.82,
+   "speaker": "Mooly",
+   "text": "比較多，雖然現在也基本上沒有啦，"
+  },
+  {
+   "start": 77.82,
+   "end": 84.6,
+   "speaker": "Mooly",
+   "text": "就是一些什麼部落格文章、業配什麼的，但那個非常少，可能半年一年才一次。"
+  },
+  {
+   "start": 84.6,
+   "end": 90.38,
+   "speaker": "Mooly",
+   "text": "然後那個雖然仍在日本，但是那個是就是針對線上網路的嘛，"
+  },
+  {
+   "start": 90.38,
+   "end": 93.02,
+   "speaker": "Mooly",
+   "text": "所以它好像也不太算是在日本的。"
+  },
+  {
+   "start": 93.02,
+   "end": 95.94,
+   "speaker": "Kalan",
+   "text": "如果你在日本啊，比如說你在日本上班，"
+  },
+  {
+   "start": 95.94,
+   "end": 97.44,
+   "speaker": "Kalan",
+   "text": "然後你可能覺得，欸，"
+  },
+  {
+   "start": 97.44,
+   "end": 99.5,
+   "speaker": "Kalan",
+   "text": "這個公司的薪水有點少，"
+  },
+  {
+   "start": 99.5,
+   "end": 102.68,
+   "speaker": "Kalan",
+   "text": "那你想要開始一份副業的話呢，"
+  },
+  {
+   "start": 102.68,
+   "end": 105.18,
+   "speaker": "Kalan",
+   "text": "有幾個地方你可能要注意一下。"
+  },
+  {
+   "start": 105.18,
+   "end": 106.26,
+   "speaker": "Kalan",
+   "text": "第一個就是，"
+  },
+  {
+   "start": 106.88,
+   "end": 108.94,
+   "speaker": "Kalan",
+   "text": "你要看你的簽證，"
+  },
+  {
+   "start": 108.94,
+   "end": 112.02,
+   "speaker": "Kalan",
+   "text": "它所規定的這個從事範圍，"
+  },
+  {
+   "start": 112.02,
+   "end": 113.58,
+   "speaker": "Kalan",
+   "text": "就是從事工作的範圍，"
+  },
+  {
+   "start": 114.46,
+   "end": 116.12,
+   "speaker": "Kalan",
+   "text": "有沒有符合，"
+  },
+  {
+   "start": 116.12,
+   "end": 119.52,
+   "speaker": "Kalan",
+   "text": "就是有沒有被定義在你想要做的那個副業裡面。"
+  },
+  {
+   "start": 119.96,
+   "end": 122.04,
+   "speaker": "Kalan",
+   "text": "但如果沒有的話呢，"
+  },
+  {
+   "start": 122.04,
+   "end": 128.38,
+   "speaker": "Kalan",
+   "text": "其實你也可以用申請資格外活動許可的方式來做到。"
+  },
+  {
+   "start": 129.08,
+   "end": 133.1,
+   "speaker": "Kalan",
+   "text": "那 Mooly，你有聽過這個資格外活動許可嗎？"
+  },
+  {
+   "start": 133.1,
+   "end": 136.72,
+   "speaker": "Mooly",
+   "text": "有，但我知道的是比較不同類型的，"
+  },
+  {
+   "start": 136.72,
+   "end": 137.6,
+   "speaker": "Mooly",
+   "text": "就比如說，"
+  },
+  {
+   "start": 137.6,
+   "end": 142.1,
+   "speaker": "Mooly",
+   "text": "像我太太拿那個家族滞在簽證，就是依親簽證，"
+  },
+  {
+   "start": 142.58,
+   "end": 144.82,
+   "speaker": "Mooly",
+   "text": "然後像她的那個簽證就沒辦法工作，"
+  },
+  {
+   "start": 144.82,
+   "end": 146.52,
+   "speaker": "Mooly",
+   "text": "所以她那個簽證就是，"
+  },
+  {
+   "start": 147.06,
+   "end": 151.0,
+   "speaker": "Mooly",
+   "text": "你可以再去額外申請剛剛講的那個資格外活動許可，她就"
+  },
+  {
+   "start": 151.4,
+   "end": 156.0,
+   "speaker": "Mooly",
+   "text": "一個禮拜可以有 28 小時的打工時數，可以拿那個去打工。"
+  },
+  {
+   "start": 156.5,
+   "end": 157.46,
+   "speaker": "Mooly",
+   "text": "所以看起來應該是，"
+  },
+  {
+   "start": 157.46,
+   "end": 164.68,
+   "speaker": "Mooly",
+   "text": "就資格外活動許可可能有兩個類型吧，一個可能是你本來的簽證就不能工作了，你要去打工，"
+  },
+  {
+   "start": 164.68,
+   "end": 167.12,
+   "speaker": "Mooly",
+   "text": "另一個應該就是你本來的簽證類型，"
+  },
+  {
+   "start": 167.12,
+   "end": 172.62,
+   "speaker": "Mooly",
+   "text": "工作簽證類型是沒有包含那個類型的，讓你可以額外申請別的類型這樣子。"
+  },
+  {
+   "start": 173.14,
+   "end": 181.3,
+   "speaker": "Kalan",
+   "text": "以資格外活動許可的這個要件來看的話，的確剛剛講的那個，就是你剛剛講的那個家族滞在，然後或者配偶簽證，"
+  },
+  {
+   "start": 182.58,
+   "end": 186.22,
+   "speaker": "Kalan",
+   "text": "可以去用這個方式，讓他至少可以打工。"
+  },
+  {
+   "start": 186.22,
+   "end": 190.78,
+   "speaker": "Kalan",
+   "text": "然後另外一個就是，它可能沒有包含在你現有的簽證範圍，"
+  },
+  {
+   "start": 190.78,
+   "end": 193.56,
+   "speaker": "Kalan",
+   "text": "那可以透過這個方式去拿到，"
+  },
+  {
+   "start": 193.56,
+   "end": 196.72,
+   "speaker": "Kalan",
+   "text": "但它比較麻煩一點，就是你要去申請。"
+  },
+  {
+   "start": 197.64,
+   "end": 201.92,
+   "speaker": "Kalan",
+   "text": "另外一個方式呢，是這個我們可能之後可以再細談，"
+  },
+  {
+   "start": 201.92,
+   "end": 204.78,
+   "speaker": "Kalan",
+   "text": "就是所謂的高度人才簽證。"
+  },
+  {
+   "start": 204.78,
+   "end": 207.6,
+   "speaker": "Kalan",
+   "text": "欸，這個名詞應該多少有聽過吧？"
+  },
+  {
+   "start": 207.6,
+   "end": 208.98,
+   "speaker": "Mooly",
+   "text": "有有有，高度人才我知道。"
+  },
+  {
+   "start": 209.48,
+   "end": 215.4,
+   "speaker": "Kalan",
+   "text": "對，那高度人才簽證，它就是可以直接允許你去做副業，"
+  },
+  {
+   "start": 215.4,
+   "end": 219.1,
+   "speaker": "Kalan",
+   "text": "或者是說，簽證以外，包含"
+  },
+  {
+   "start": 219.82,
+   "end": 221.9,
+   "speaker": "Kalan",
+   "text": "簽證沒有包含的一些範圍。"
+  },
+  {
+   "start": 221.9,
+   "end": 223.78,
+   "speaker": "Kalan",
+   "text": "那比如說你可能假日，"
+  },
+  {
+   "start": 224.52,
+   "end": 226.5,
+   "speaker": "Kalan",
+   "text": "你真的斜槓斜得非常多，"
+  },
+  {
+   "start": 226.5,
+   "end": 230.46,
+   "speaker": "Kalan",
+   "text": "可能平日上班，然後假日開咖啡廳。"
+  },
+  {
+   "start": 230.46,
+   "end": 232.68,
+   "speaker": "Kalan",
+   "text": "那這件事情可能就做得到，"
+  },
+  {
+   "start": 233.26,
+   "end": 235.44,
+   "speaker": "Kalan",
+   "text": "就不用再另外去申請什麼東西。"
+  },
+  {
+   "start": 236.2,
+   "end": 238.94,
+   "speaker": "Mooly",
+   "text": "是喔，所以高度人才還有這種好處，"
+  },
+  {
+   "start": 238.94,
+   "end": 242.1,
+   "speaker": "Mooly",
+   "text": "就是可以做一些其他事情，是不是？"
+  },
+  {
+   "start": 242.82,
+   "end": 243.82,
+   "speaker": "Kalan",
+   "text": "對，那當然，"
+  },
+  {
+   "start": 243.82,
+   "end": 250.44,
+   "speaker": "Kalan",
+   "text": "開店這個，當然它除了簽證有沒有規範在裡面之外，它當然還有一些其他的東西要去做，但"
+  },
+  {
+   "start": 250.44,
+   "end": 257.92,
+   "speaker": "Kalan",
+   "text": "它的確是可以直接讓你去做副業，而不用再去申請什麼資格外活動許可這些東西。"
+  },
+  {
+   "start": 257.92,
+   "end": 273.08,
+   "speaker": "Mooly",
+   "text": "喔，這個倒是我不知道，就是學到了一個簽證新知識。我本來以為高度人才是差在別的部分，我不知道連這個資格外活動許可這種類型的也有直接包含上去。"
+  },
+  {
+   "start": 273.08,
+   "end": 274.38,
+   "speaker": "Kalan",
+   "text": "就是會是一個，"
+  },
+  {
+   "start": 274.8,
+   "end": 279.76,
+   "speaker": "Kalan",
+   "text": "但它可能不會是一個多數人想要的這個高度人才簽證的好處，"
+  },
+  {
+   "start": 280.54,
+   "end": 283.16,
+   "speaker": "Kalan",
+   "text": "但它是一個的確有的一件事情。"
+  },
+  {
+   "start": 283.82,
+   "end": 285.18,
+   "speaker": "Kalan",
+   "text": "那這是一個，"
+  },
+  {
+   "start": 285.18,
+   "end": 289.16,
+   "speaker": "Kalan",
+   "text": "那另外一個呢，就是我們今天的主要大重點，"
+  },
+  {
+   "start": 289.16,
+   "end": 291.32,
+   "speaker": "Kalan",
+   "text": "就是個人事業主。"
+  },
+  {
+   "start": 291.32,
+   "end": 295.56,
+   "speaker": "Kalan",
+   "text": "好，那我們首先先來介紹一下個人事業主是什麼好了。"
+  },
+  {
+   "start": 296.24,
+   "end": 298.28,
+   "speaker": "Kalan",
+   "text": "我覺得個人事業主是一個滿，"
+  },
+  {
+   "start": 298.28,
+   "end": 301.32,
+   "speaker": "Kalan",
+   "text": "在日本滿特別，而且我覺得，"
+  },
+  {
+   "start": 301.32,
+   "end": 303.72,
+   "speaker": "Kalan",
+   "text": "至少算是一個蠻方便的一個制度。"
+  },
+  {
+   "start": 303.72,
+   "end": 306.18,
+   "speaker": "Kalan",
+   "text": "個人事業主，他指的就是"
+  },
+  {
+   "start": 306.18,
+   "end": 307.76,
+   "speaker": "Kalan",
+   "text": "你不成立公司、"
+  },
+  {
+   "start": 308.18,
+   "end": 309.26,
+   "speaker": "Kalan",
+   "text": "不成立法人，"
+  },
+  {
+   "start": 309.26,
+   "end": 313.14,
+   "speaker": "Kalan",
+   "text": "而以個人身份經營事業的人。"
+  },
+  {
+   "start": 314.22,
+   "end": 315.96,
+   "speaker": "Kalan",
+   "text": "那它有幾個好處，"
+  },
+  {
+   "start": 316.52,
+   "end": 318.24,
+   "speaker": "Kalan",
+   "text": "第一個就是你不需要登記法人，"
+  },
+  {
+   "start": 318.24,
+   "end": 320.62,
+   "speaker": "Kalan",
+   "text": "所以你也不需要開公司啊，然後"
+  },
+  {
+   "start": 321.48,
+   "end": 326.16,
+   "speaker": "Kalan",
+   "text": "搞股東會啊，然後繁雜的手續或開設費用等等。"
+  },
+  {
+   "start": 326.76,
+   "end": 328.58,
+   "speaker": "Kalan",
+   "text": "你要做的事情就只有一個，"
+  },
+  {
+   "start": 329.16,
+   "end": 330.84,
+   "speaker": "Kalan",
+   "text": "就是跟稅務署提交"
+  },
+  {
+   "start": 330.84,
+   "end": 332.34,
+   "speaker": "Kalan",
+   "text": "開業登記。"
+  },
+  {
+   "start": 333.06,
+   "end": 335.68,
+   "speaker": "Kalan",
+   "text": "那它有那個規定好的文件，"
+  },
+  {
+   "start": 335.68,
+   "end": 337.18,
+   "speaker": "Kalan",
+   "text": "你可以線上做，"
+  },
+  {
+   "start": 337.18,
+   "end": 338.62,
+   "speaker": "Kalan",
+   "text": "所以其實就是"
+  },
+  {
+   "start": 339.16,
+   "end": 340.08,
+   "speaker": "Kalan",
+   "text": "滑鼠點一點，"
+  },
+  {
+   "start": 340.08,
+   "end": 341.72,
+   "speaker": "Kalan",
+   "text": "然後表格填一填，"
+  },
+  {
+   "start": 341.72,
+   "end": 344.0,
+   "speaker": "Kalan",
+   "text": "然後東西線上送過去，"
+  },
+  {
+   "start": 344.0,
+   "end": 345.0,
+   "speaker": "Kalan",
+   "text": "就 OK 了。"
+  },
+  {
+   "start": 345.0,
+   "end": 346.3,
+   "speaker": "Kalan",
+   "text": "你不用等回覆喔？"
+  },
+  {
+   "start": 346.3,
+   "end": 347.58,
+   "speaker": "Kalan",
+   "text": "不需要等回覆。"
+  },
+  {
+   "start": 347.58,
+   "end": 351.58,
+   "speaker": "Mooly",
+   "text": "所以完全線上申請，然後就直接通過，直接可以了。"
+  },
+  {
+   "start": 351.58,
+   "end": 352.06,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 352.6,
+   "end": 354.62,
+   "speaker": "Mooly",
+   "text": "喔，那很方便耶。"
+  },
+  {
+   "start": 354.62,
+   "end": 354.82,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 354.82,
+   "end": 358.5,
+   "speaker": "Kalan",
+   "text": "那麼接下來就有人想，可能會好奇，"
+  },
+  {
+   "start": 358.5,
+   "end": 358.76,
+   "speaker": "Kalan",
+   "text": "欸，"
+  },
+  {
+   "start": 358.76,
+   "end": 362.12,
+   "speaker": "Kalan",
+   "text": "那跟我就直接做副業，"
+  },
+  {
+   "start": 362.12,
+   "end": 364.54,
+   "speaker": "Kalan",
+   "text": "然後我也不去做個人事業主，"
+  },
+  {
+   "start": 364.54,
+   "end": 366.3,
+   "speaker": "Kalan",
+   "text": "兩者差在哪邊？"
+  },
+  {
+   "start": 366.3,
+   "end": 369.94,
+   "speaker": "Kalan",
+   "text": "那成為個人事業主有兩個好處，"
+  },
+  {
+   "start": 370.44,
+   "end": 374.52,
+   "speaker": "Kalan",
+   "text": "第一個好處就是你經營事業的經費可以報帳，"
+  },
+  {
+   "start": 374.52,
+   "end": 379.34,
+   "speaker": "Kalan",
+   "text": "比如說我今天買了一台新電腦好了，"
+  },
+  {
+   "start": 379.34,
+   "end": 381.78,
+   "speaker": "Kalan",
+   "text": "那這個新電腦是我為了要"
+  },
+  {
+   "start": 382.2,
+   "end": 383.88,
+   "speaker": "Kalan",
+   "text": "比如說我們要寫程式嘛，"
+  },
+  {
+   "start": 384.32,
+   "end": 387.5,
+   "speaker": "Kalan",
+   "text": "那這個時候你的這個電腦就可以當作是"
+  },
+  {
+   "start": 388.1,
+   "end": 389.56,
+   "speaker": "Kalan",
+   "text": "經費報帳。"
+  },
+  {
+   "start": 390.24,
+   "end": 394.0,
+   "speaker": "Kalan",
+   "text": "那假設說我今年賺了 100 萬，"
+  },
+  {
+   "start": 394.62,
+   "end": 397.4,
+   "speaker": "Kalan",
+   "text": "然後我的電腦是 10 萬塊，"
+  },
+  {
+   "start": 398.02,
+   "end": 402.28,
+   "speaker": "Kalan",
+   "text": "那我的收入減支出，就是 100 萬減 10 萬，剩下 90 萬，"
+  },
+  {
+   "start": 402.62,
+   "end": 406.94,
+   "speaker": "Kalan",
+   "text": "那他的課稅金額，他就會從 90 萬那邊去幫"
+  },
+  {
+   "start": 407.58,
+   "end": 409.34,
+   "speaker": "Kalan",
+   "text": "就是以 90 萬做計算。"
+  },
+  {
+   "start": 409.34,
+   "end": 411.12,
+   "speaker": "Kalan",
+   "text": "所以長期下來，"
+  },
+  {
+   "start": 411.74,
+   "end": 414.02,
+   "speaker": "Kalan",
+   "text": "就是你的所得稅會變少一些。"
+  },
+  {
+   "start": 414.02,
+   "end": 415.86,
+   "speaker": "Kalan",
+   "text": "嗯嗯嗯。"
+  },
+  {
+   "start": 415.86,
+   "end": 416.1,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 416.1,
+   "end": 417.94,
+   "speaker": "Kalan",
+   "text": "它大概是有這樣的效果。"
+  },
+  {
+   "start": 417.94,
+   "end": 419.76,
+   "speaker": "Kalan",
+   "text": "然後第二個好處就是，"
+  },
+  {
+   "start": 420.24,
+   "end": 424.18,
+   "speaker": "Kalan",
+   "text": "你可以透過記帳，然後跟那個搭配，"
+  },
+  {
+   "start": 424.18,
+   "end": 426.76,
+   "speaker": "Kalan",
+   "text": "我們等一下會提到的青色申告，"
+  },
+  {
+   "start": 426.76,
+   "end": 428.66,
+   "speaker": "Kalan",
+   "text": "拿到一個比較高的扣除額。"
+  },
+  {
+   "start": 428.66,
+   "end": 430.46,
+   "speaker": "Kalan",
+   "text": "你在正職，"
+  },
+  {
+   "start": 430.46,
+   "end": 432.38,
+   "speaker": "Kalan",
+   "text": "就是有正職的情況下，"
+  },
+  {
+   "start": 432.38,
+   "end": 435.2,
+   "speaker": "Kalan",
+   "text": "也是可以當個人事業主的。"
+  },
+  {
+   "start": 435.2,
+   "end": 436.38,
+   "speaker": "Mooly",
+   "text": "嗯嗯，是。"
+  },
+  {
+   "start": 437.12,
+   "end": 440.14,
+   "speaker": "Kalan",
+   "text": "那這個情況會發生在說，"
+  },
+  {
+   "start": 440.14,
+   "end": 441.52,
+   "speaker": "Kalan",
+   "text": "比如說你就是，"
+  },
+  {
+   "start": 442.06,
+   "end": 443.28,
+   "speaker": "Kalan",
+   "text": "可能白天上班，"
+  },
+  {
+   "start": 443.28,
+   "end": 446.28,
+   "speaker": "Kalan",
+   "text": "然後晚上可能做自己的一些副業等等。"
+  },
+  {
+   "start": 446.28,
+   "end": 451.5,
+   "speaker": "Kalan",
+   "text": "但這個副業，它其實是你可能會需要考量的一點，是"
+  },
+  {
+   "start": 451.5,
+   "end": 456.2,
+   "speaker": "Kalan",
+   "text": "因為個人事業主它是以事業來定義的，"
+  },
+  {
+   "start": 456.2,
+   "end": 459.86,
+   "speaker": "Kalan",
+   "text": "所以你的收入必須要是一個事業收入。"
+  },
+  {
+   "start": 460.74,
+   "end": 462.42,
+   "speaker": "Kalan",
+   "text": "你真的超級忙，"
+  },
+  {
+   "start": 462.42,
+   "end": 467.28,
+   "speaker": "Kalan",
+   "text": "你白天上班，然後晚上可能去餐廳打工，"
+  },
+  {
+   "start": 467.94,
+   "end": 471.2,
+   "speaker": "Kalan",
+   "text": "那餐廳打工它其實不是事業收入，"
+  },
+  {
+   "start": 471.2,
+   "end": 473.78,
+   "speaker": "Kalan",
+   "text": "它是所謂的薪資收入，"
+  },
+  {
+   "start": 473.78,
+   "end": 477.12,
+   "speaker": "Kalan",
+   "text": "那它就不能算是個人事業主。"
+  },
+  {
+   "start": 477.12,
+   "end": 478.7,
+   "speaker": "Kalan",
+   "text": "那它當然也不能，"
+  },
+  {
+   "start": 478.7,
+   "end": 480.3,
+   "speaker": "Kalan",
+   "text": "就是不能以剛剛那種方式，"
+  },
+  {
+   "start": 480.3,
+   "end": 483.72,
+   "speaker": "Kalan",
+   "text": "比如說你去這個餐廳打工，"
+  },
+  {
+   "start": 483.72,
+   "end": 486.02,
+   "speaker": "Kalan",
+   "text": "那你搭交通費等等，"
+  },
+  {
+   "start": 486.02,
+   "end": 487.62,
+   "speaker": "Kalan",
+   "text": "那這些東西都不能報帳，"
+  },
+  {
+   "start": 487.62,
+   "end": 489.74,
+   "speaker": "Kalan",
+   "text": "因為它就不是事業收入。"
+  },
+  {
+   "start": 489.74,
+   "end": 496.38,
+   "speaker": "Mooly",
+   "text": "所以就是基本上你要是經營自己的事業的那一塊，才能算是個人事業主的收入。"
+  },
+  {
+   "start": 496.38,
+   "end": 497.2,
+   "speaker": "Kalan",
+   "text": "那其實，"
+  },
+  {
+   "start": 499.06,
+   "end": 499.5,
+   "speaker": "Kalan",
+   "text": "它的，"
+  },
+  {
+   "start": 499.5,
+   "end": 505.52,
+   "speaker": "Kalan",
+   "text": "因為我記得好像法律上對於事業所得，也並沒有到非常非常"
+  },
+  {
+   "start": 506.06,
+   "end": 506.68,
+   "speaker": "Mooly",
+   "text": "嚴格，"
+  },
+  {
+   "start": 507.07,
+   "end": 510.18,
+   "speaker": "Kalan",
+   "text": "對，嚴格或者是非常精確的一個定義。"
+  },
+  {
+   "start": 510.86,
+   "end": 520.04,
+   "speaker": "Kalan",
+   "text": "但有一些，就是如果你特別去查的話，你可能會去看到一些，比如說看一些判決的一些結果等等的，"
+  },
+  {
+   "start": 520.43,
+   "end": 524.28,
+   "speaker": "Kalan",
+   "text": "主要要符合一個，第一個是它有盈利性，"
+  },
+  {
+   "start": 524.75,
+   "end": 525.64,
+   "speaker": "Kalan",
+   "text": "那它有，"
+  },
+  {
+   "start": 526.78,
+   "end": 527.84,
+   "speaker": "Kalan",
+   "text": "有償性，"
+  },
+  {
+   "start": 527.84,
+   "end": 529.86,
+   "speaker": "Kalan",
+   "text": "就是你有獲得對價，"
+  },
+  {
+   "start": 531.12,
+   "end": 533.3,
+   "speaker": "Kalan",
+   "text": "跟它有持續性，"
+  },
+  {
+   "start": 533.3,
+   "end": 535.32,
+   "speaker": "Kalan",
+   "text": "反覆持續。"
+  },
+  {
+   "start": 535.86,
+   "end": 542.38,
+   "speaker": "Kalan",
+   "text": "那基本上只要符合這三點的話，它就可以大概被當成是事業所得。"
+  },
+  {
+   "start": 542.38,
+   "end": 547.28,
+   "speaker": "Mooly",
+   "text": "那所以比如說像是最常見的，比如說像接案好了，"
+  },
+  {
+   "start": 547.28,
+   "end": 550.38,
+   "speaker": "Mooly",
+   "text": "假設你接了一個日本公司的案子，"
+  },
+  {
+   "start": 550.38,
+   "end": 557.42,
+   "speaker": "Mooly",
+   "text": "它最後面給你的時候，就會算成是事業主的事業所得嗎？"
+  },
+  {
+   "start": 557.42,
+   "end": 559.2,
+   "speaker": "Mooly",
+   "text": "還是有些公司其實是會算成，"
+  },
+  {
+   "start": 559.2,
+   "end": 562.26,
+   "speaker": "Mooly",
+   "text": "它是比如說薪資所得那種？"
+  },
+  {
+   "start": 562.26,
+   "end": 565.34,
+   "speaker": "Mooly",
+   "text": "就比如說你只接這家、只接那一次的話，"
+  },
+  {
+   "start": 566.6,
+   "end": 571.06,
+   "speaker": "Kalan",
+   "text": "應該一樣會是這個事業所得，沒錯。"
+  },
+  {
+   "start": 573.6,
+   "end": 576.68,
+   "speaker": "Kalan",
+   "text": "好，那接下來我們繼續談。"
+  },
+  {
+   "start": 577.24,
+   "end": 580.72,
+   "speaker": "Kalan",
+   "text": "好，我知道正職也可以當個人事業主了，"
+  },
+  {
+   "start": 580.72,
+   "end": 586.2,
+   "speaker": "Kalan",
+   "text": "然後接下來我們就來談談正職也可以當個人事業主這件事情，我知道，"
+  },
+  {
+   "start": 586.2,
+   "end": 588.7,
+   "speaker": "Kalan",
+   "text": "做這件事情有什麼好處呢？"
+  },
+  {
+   "start": 588.7,
+   "end": 592.14,
+   "speaker": "Kalan",
+   "text": "就是同時身兼正職跟個人事業主，"
+  },
+  {
+   "start": 593.04,
+   "end": 594.64,
+   "speaker": "Kalan",
+   "text": "基本上就是剛剛有提到的，"
+  },
+  {
+   "start": 594.64,
+   "end": 598.36,
+   "speaker": "Kalan",
+   "text": "就是你經營事業的經費是可以報帳的，"
+  },
+  {
+   "start": 599.2,
+   "end": 601.04,
+   "speaker": "Kalan",
+   "text": "然後另外一個好處就是，"
+  },
+  {
+   "start": 601.04,
+   "end": 605.84,
+   "speaker": "Kalan",
+   "text": "你的收入跟支出是可以做損益通算的。"
+  },
+  {
+   "start": 605.84,
+   "end": 607.26,
+   "speaker": "Kalan",
+   "text": "那這是什麼意思呢？"
+  },
+  {
+   "start": 607.72,
+   "end": 609.68,
+   "speaker": "Kalan",
+   "text": "比如說我今天的本業，"
+  },
+  {
+   "start": 610.24,
+   "end": 611.58,
+   "speaker": "Kalan",
+   "text": "假設薪水是 100 萬，"
+  },
+  {
+   "start": 612.5,
+   "end": 616.0,
+   "speaker": "Kalan",
+   "text": "然後我的事業收入是 50 萬，"
+  },
+  {
+   "start": 617.22,
+   "end": 618.1,
+   "speaker": "Kalan",
+   "text": "但是呢，"
+  },
+  {
+   "start": 618.1,
+   "end": 619.8,
+   "speaker": "Kalan",
+   "text": "我可能第一年剛開始，"
+  },
+  {
+   "start": 619.8,
+   "end": 622.62,
+   "speaker": "Kalan",
+   "text": "所以我的事業那邊有出現赤字，"
+  },
+  {
+   "start": 624.28,
+   "end": 625.16,
+   "speaker": "Kalan",
+   "text": "可能是，"
+  },
+  {
+   "start": 626.1,
+   "end": 628.76,
+   "speaker": "Kalan",
+   "text": "假設我的支出花了 60 萬，"
+  },
+  {
+   "start": 628.76,
+   "end": 631.4,
+   "speaker": "Kalan",
+   "text": "那我就是赤字 10 萬嘛。"
+  },
+  {
+   "start": 632.92,
+   "end": 636.14,
+   "speaker": "Kalan",
+   "text": "那我剛剛講的損益通算的概念就是說，"
+  },
+  {
+   "start": 636.14,
+   "end": 641.6,
+   "speaker": "Kalan",
+   "text": "你的本業的收入是可以跟你事業那邊的收入，"
+  },
+  {
+   "start": 642.26,
+   "end": 644.46,
+   "speaker": "Kalan",
+   "text": "或者是這個營收做損益通算。"
+  },
+  {
+   "start": 644.46,
+   "end": 647.12,
+   "speaker": "Kalan",
+   "text": "所以我先赤字 10 萬，"
+  },
+  {
+   "start": 647.12,
+   "end": 649.3,
+   "speaker": "Kalan",
+   "text": "然後我的本業是 100 萬好了，"
+  },
+  {
+   "start": 649.3,
+   "end": 651.12,
+   "speaker": "Kalan",
+   "text": "那我可以 100 萬減 10 萬，"
+  },
+  {
+   "start": 651.32,
+   "end": 652.66,
+   "speaker": "Kalan",
+   "text": "然後就會變成 90 萬。"
+  },
+  {
+   "start": 653.76,
+   "end": 656.44,
+   "speaker": "Kalan",
+   "text": "所以它的效用就是，"
+  },
+  {
+   "start": 656.44,
+   "end": 659.5,
+   "speaker": "Kalan",
+   "text": "你可以讓你的所得稅變得更低一點，"
+  },
+  {
+   "start": 659.5,
+   "end": 660.14,
+   "speaker": "Kalan",
+   "text": "而且它是，"
+  },
+  {
+   "start": 660.14,
+   "end": 662.56,
+   "speaker": "Kalan",
+   "text": "因為它可以跟本業隨意通算，"
+  },
+  {
+   "start": 662.56,
+   "end": 667.38,
+   "speaker": "Kalan",
+   "text": "所以它有一定的減稅效果。"
+  },
+  {
+   "start": 667.38,
+   "end": 673.02,
+   "speaker": "Mooly",
+   "text": "所以它最後繳所得稅的時候，基本上是兩邊加在一起算的。"
+  },
+  {
+   "start": 673.02,
+   "end": 673.68,
+   "speaker": "Kalan",
+   "text": "應該說，"
+  },
+  {
+   "start": 673.68,
+   "end": 677.5,
+   "speaker": "Kalan",
+   "text": "正常情況下是你們會去分開算，"
+  },
+  {
+   "start": 677.5,
+   "end": 681.96,
+   "speaker": "Kalan",
+   "text": "但是如果你今天在事業那邊出現了赤字的話，"
+  },
+  {
+   "start": 681.96,
+   "end": 684.56,
+   "speaker": "Kalan",
+   "text": "那它其實是可以做這種損益通算，"
+  },
+  {
+   "start": 684.56,
+   "end": 685.96,
+   "speaker": "Kalan",
+   "text": "跟本業一起做，"
+  },
+  {
+   "start": 686.44,
+   "end": 692.5,
+   "speaker": "Kalan",
+   "text": "讓你本業那邊的所得稅至少可以補貼一點到你事業那邊的赤字。"
+  },
+  {
+   "start": 692.5,
+   "end": 694.66,
+   "speaker": "Kalan",
+   "text": "它的概念應該像是這樣子。"
+  },
+  {
+   "start": 694.66,
+   "end": 696.4,
+   "speaker": "Mooly",
+   "text": "了解了解。"
+  },
+  {
+   "start": 697.22,
+   "end": 702.12,
+   "speaker": "Kalan",
+   "text": "所以如果大家對這個個人事業主有興趣的話，"
+  },
+  {
+   "start": 702.12,
+   "end": 704.24,
+   "speaker": "Kalan",
+   "text": "可以這樣子試試看。"
+  },
+  {
+   "start": 704.24,
+   "end": 707.92,
+   "speaker": "Kalan",
+   "text": "我覺得另外一個比較被忽略的好處是，"
+  },
+  {
+   "start": 708.9,
+   "end": 710.64,
+   "speaker": "Kalan",
+   "text": "你有正職的情況下，"
+  },
+  {
+   "start": 710.64,
+   "end": 712.26,
+   "speaker": "Kalan",
+   "text": "然後你再當個人事業主，"
+  },
+  {
+   "start": 712.26,
+   "end": 715.4,
+   "speaker": "Kalan",
+   "text": "那基本上你在公司那邊，"
+  },
+  {
+   "start": 716.16,
+   "end": 720.92,
+   "speaker": "Kalan",
+   "text": "基本上你的社會保險沒有意外就是在公司那邊嘛，"
+  },
+  {
+   "start": 720.92,
+   "end": 725.04,
+   "speaker": "Kalan",
+   "text": "所以你同時會有這個厚生年金，"
+  },
+  {
+   "start": 725.76,
+   "end": 731.2,
+   "speaker": "Kalan",
+   "text": "跟比較優惠的健康保險的情況下，"
+  },
+  {
+   "start": 731.2,
+   "end": 733.2,
+   "speaker": "Kalan",
+   "text": "然後你一邊經營你的事業，"
+  },
+  {
+   "start": 733.2,
+   "end": 734.94,
+   "speaker": "Kalan",
+   "text": "其實是一個蠻不錯的優勢。"
+  },
+  {
+   "start": 734.94,
+   "end": 737.48,
+   "speaker": "Kalan",
+   "text": "像厚生年金跟那些保險費，"
+  },
+  {
+   "start": 737.48,
+   "end": 739.44,
+   "speaker": "Kalan",
+   "text": "是公司幫你繳一半嘛，"
+  },
+  {
+   "start": 740.16,
+   "end": 743.56,
+   "speaker": "Kalan",
+   "text": "但是如果你今天只有個人事業主的話，"
+  },
+  {
+   "start": 743.56,
+   "end": 744.98,
+   "speaker": "Kalan",
+   "text": "你就要繳全額，"
+  },
+  {
+   "start": 746.18,
+   "end": 747.96,
+   "speaker": "Mooly",
+   "text": "就全部都要自己繳了，對吧？"
+  },
+  {
+   "start": 748.56,
+   "end": 752.16,
+   "speaker": "Kalan",
+   "text": "個人事業主我覺得它有一個困難點，就在於，"
+  },
+  {
+   "start": 752.16,
+   "end": 753.86,
+   "speaker": "Kalan",
+   "text": "如果你是外國人的話，"
+  },
+  {
+   "start": 753.86,
+   "end": 758.74,
+   "speaker": "Kalan",
+   "text": "基本上你就只能以正職加個人事業主的身份，"
+  },
+  {
+   "start": 759.26,
+   "end": 760.28,
+   "speaker": "Kalan",
+   "text": "你比較難，"
+  },
+  {
+   "start": 761.18,
+   "end": 763.28,
+   "speaker": "Kalan",
+   "text": "只靠個人事業主，"
+  },
+  {
+   "start": 763.28,
+   "end": 765.82,
+   "speaker": "Kalan",
+   "text": "因為假設你今天沒有工作好了，"
+  },
+  {
+   "start": 765.82,
+   "end": 768.94,
+   "speaker": "Kalan",
+   "text": "那可能你第一個要面對的就是你的簽證問題。"
+  },
+  {
+   "start": 768.94,
+   "end": 771.64,
+   "speaker": "Kalan",
+   "text": "那你個人事業主基本上，"
+  },
+  {
+   "start": 772.22,
+   "end": 774.24,
+   "speaker": "Kalan",
+   "text": "如果你沒有對應的簽證的話，"
+  },
+  {
+   "start": 774.24,
+   "end": 779.8,
+   "speaker": "Kalan",
+   "text": "那你也沒辦法以個人事業主的方式在日本繼續留下去。"
+  },
+  {
+   "start": 779.8,
+   "end": 782.4,
+   "speaker": "Mooly",
+   "text": "對對，沒錯沒錯，因為它不是一種簽證。"
+  },
+  {
+   "start": 782.84,
+   "end": 785.48,
+   "speaker": "Kalan",
+   "text": "個人事業主如果你想要自己做的話，那它，"
+  },
+  {
+   "start": 785.48,
+   "end": 788.68,
+   "speaker": "Kalan",
+   "text": "你可能第一個就是一定要有勇作"
+  },
+  {
+   "start": 788.68,
+   "end": 790.46,
+   "speaker": "Kalan",
+   "text": "才能做這件事情。"
+  },
+  {
+   "start": 790.46,
+   "end": 793.32,
+   "speaker": "Kalan",
+   "text": "或者是經營簽證。"
+  },
+  {
+   "start": 793.32,
+   "end": 794.78,
+   "speaker": "Kalan",
+   "text": "但如果你是經營簽證的話，"
+  },
+  {
+   "start": 794.78,
+   "end": 797.1,
+   "speaker": "Kalan",
+   "text": "那這也不是我們今天要討論的範圍，"
+  },
+  {
+   "start": 797.1,
+   "end": 800.72,
+   "speaker": "Kalan",
+   "text": "因為你有經營簽證，那基本上你就是開了一個公司這樣子。"
+  },
+  {
+   "start": 800.72,
+   "end": 804.5,
+   "speaker": "Mooly",
+   "text": "嗯，對，那就是另外一個故事了。"
+  },
+  {
+   "start": 804.5,
+   "end": 805.88,
+   "speaker": "Kalan",
+   "text": "對對對，好。"
+  },
+  {
+   "start": 806.7,
+   "end": 811.08,
+   "speaker": "Kalan",
+   "text": "所以假設這是 case one 嘛，case one 就是你有就職簽證，"
+  },
+  {
+   "start": 811.08,
+   "end": 813.72,
+   "speaker": "Kalan",
+   "text": "然後加個人事業主，case two。"
+  },
+  {
+   "start": 813.72,
+   "end": 814.16,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 814.16,
+   "end": 816.84,
+   "speaker": "Mooly",
+   "text": "對，那個我還有一個問題想問，"
+  },
+  {
+   "start": 816.84,
+   "end": 817.16,
+   "speaker": "Mooly",
+   "text": "那個，"
+  },
+  {
+   "start": 817.16,
+   "end": 824.12,
+   "speaker": "Mooly",
+   "text": "就剛剛講說，比如說個人事業主的好處是，比如說你可以報你的營業成本，"
+  },
+  {
+   "start": 824.58,
+   "end": 828.26,
+   "speaker": "Mooly",
+   "text": "然後加上比如說你個人事業那邊有赤字的狀況下，"
+  },
+  {
+   "start": 828.26,
+   "end": 830.82,
+   "speaker": "Mooly",
+   "text": "它可以就是把你的，"
+  },
+  {
+   "start": 831.32,
+   "end": 834.68,
+   "speaker": "Mooly",
+   "text": "通過那個損益通算，讓另外一邊的所得稅也少一點。"
+  },
+  {
+   "start": 834.68,
+   "end": 836.22,
+   "speaker": "Mooly",
+   "text": "那假設比如說你的，"
+  },
+  {
+   "start": 836.64,
+   "end": 839.22,
+   "speaker": "Mooly",
+   "text": "你的副業是賺錢的狀況下，"
+  },
+  {
+   "start": 839.22,
+   "end": 842.48,
+   "speaker": "Mooly",
+   "text": "個人事業主有什麼其他好處嗎？"
+  },
+  {
+   "start": 842.48,
+   "end": 846.0,
+   "speaker": "Mooly",
+   "text": "比如說稅更低，還是其實也沒有？"
+  },
+  {
+   "start": 848.1,
+   "end": 851.06,
+   "speaker": "Kalan",
+   "text": "如果是有賺錢的情況下呢？"
+  },
+  {
+   "start": 852.3,
+   "end": 855.38,
+   "speaker": "Kalan",
+   "text": "第一個就是稅其實會比較低，"
+  },
+  {
+   "start": 855.38,
+   "end": 859.32,
+   "speaker": "Kalan",
+   "text": "但它的低可能因為你本業那邊的所得稅，"
+  },
+  {
+   "start": 859.32,
+   "end": 863.66,
+   "speaker": "Kalan",
+   "text": "因為你有賺錢，所以所得稅基本上就是不會變少了，"
+  },
+  {
+   "start": 865.08,
+   "end": 871.96,
+   "speaker": "Kalan",
+   "text": "但是它的好處就是你事業那邊的收入是可以報帳的，"
+  },
+  {
+   "start": 871.96,
+   "end": 874.38,
+   "speaker": "Kalan",
+   "text": "所以基本上可以壓低一點，"
+  },
+  {
+   "start": 874.38,
+   "end": 884.96,
+   "speaker": "Kalan",
+   "text": "事業那邊的所得稅。跟我們接下來等一下可能會一起提到的這個青色申告，會有比較高的扣除額，是 65 萬。"
+  },
+  {
+   "start": 884.96,
+   "end": 889.76,
+   "speaker": "Kalan",
+   "text": "那假設你今天是沒有個人事業主，"
+  },
+  {
+   "start": 889.76,
+   "end": 892.3,
+   "speaker": "Kalan",
+   "text": "但是你有副業好了，"
+  },
+  {
+   "start": 892.3,
+   "end": 894.3,
+   "speaker": "Kalan",
+   "text": "那假設你賺了 100 萬，"
+  },
+  {
+   "start": 894.3,
+   "end": 896.36,
+   "speaker": "Kalan",
+   "text": "那你可能就沒辦法用青色申告，"
+  },
+  {
+   "start": 896.36,
+   "end": 899.06,
+   "speaker": "Kalan",
+   "text": "而且你的經費也沒辦法報上去，"
+  },
+  {
+   "start": 899.62,
+   "end": 903.96,
+   "speaker": "Kalan",
+   "text": "所以等於整體算下來，你的所得稅會再更高一點。"
+  },
+  {
+   "start": 903.96,
+   "end": 905.4,
+   "speaker": "Kalan",
+   "text": "就事業的部分。"
+  },
+  {
+   "start": 905.4,
+   "end": 909.0,
+   "speaker": "Mooly",
+   "text": "比如說假設我正職有一個收入，"
+  },
+  {
+   "start": 909.0,
+   "end": 910.56,
+   "speaker": "Mooly",
+   "text": "然後我副業也有一個收入，"
+  },
+  {
+   "start": 911.04,
+   "end": 915.04,
+   "speaker": "Mooly",
+   "text": "那因為那個所得稅不是走那個累進稅率嗎？"
+  },
+  {
+   "start": 915.04,
+   "end": 916.9,
+   "speaker": "Mooly",
+   "text": "就你賺越多，基本上"
+  },
+  {
+   "start": 916.9,
+   "end": 918.94,
+   "speaker": "Mooly",
+   "text": "後面那一段繳的會越多。"
+  },
+  {
+   "start": 919.38,
+   "end": 922.2,
+   "speaker": "Mooly",
+   "text": "那它在報所得稅的時候，它兩個是，"
+  },
+  {
+   "start": 922.94,
+   "end": 924.92,
+   "speaker": "Mooly",
+   "text": "就是計在一起算的，"
+  },
+  {
+   "start": 924.92,
+   "end": 928.6,
+   "speaker": "Mooly",
+   "text": "比如說假設正職收入是 500 萬好了，"
+  },
+  {
+   "start": 929.12,
+   "end": 930.98,
+   "speaker": "Mooly",
+   "text": "然後副業收入是 300 萬，"
+  },
+  {
+   "start": 930.98,
+   "end": 933.26,
+   "speaker": "Mooly",
+   "text": "最後面你整個收入就是 800 萬，"
+  },
+  {
+   "start": 933.26,
+   "end": 945.38,
+   "speaker": "Mooly",
+   "text": "那他就是以這個 800 萬去算整個個人的所得稅，這樣子加起來。還是他 500 萬跟 300 萬的部分是會分開算？500 萬是 500 萬的，"
+  },
+  {
+   "start": 945.38,
+   "end": 949.84,
+   "speaker": "Mooly",
+   "text": "然後 300 萬是一樣從 0 開始的那個級距算 300 萬？"
+  },
+  {
+   "start": 949.84,
+   "end": 954.64,
+   "speaker": "Mooly",
+   "text": "因為如果是分開的話，他其實那個稅率就差蠻多的，"
+  },
+  {
+   "start": 954.64,
+   "end": 958.28,
+   "speaker": "Mooly",
+   "text": "畢竟以那個累進稅率來講的話，你越低是越好的。"
+  },
+  {
+   "start": 958.28,
+   "end": 962.42,
+   "speaker": "Kalan",
+   "text": "那我目前的理解是，這個事業所得跟"
+  },
+  {
+   "start": 964.08,
+   "end": 967.12,
+   "speaker": "Kalan",
+   "text": "薪資所得它是加起來計算的，"
+  },
+  {
+   "start": 967.12,
+   "end": 972.22,
+   "speaker": "Kalan",
+   "text": "然後我記得我好像在做確定申告的時候有遇到，說"
+  },
+  {
+   "start": 972.8,
+   "end": 979.8,
+   "speaker": "Kalan",
+   "text": "就是它會先要求你把源泉徵收票裡面的一些項目給填上去，"
+  },
+  {
+   "start": 979.8,
+   "end": 984.06,
+   "speaker": "Kalan",
+   "text": "然後你還要再把你的事業所得也一起加上去，"
+  },
+  {
+   "start": 985.42,
+   "end": 991.34,
+   "speaker": "Kalan",
+   "text": "然後事業所得那邊，因為我剛剛講到有可以提經費等等，所以它又再幫你扣掉等等，"
+  },
+  {
+   "start": 992.04,
+   "end": 995.42,
+   "speaker": "Kalan",
+   "text": "然後他會再把你的收入，"
+  },
+  {
+   "start": 995.42,
+   "end": 997.42,
+   "speaker": "Kalan",
+   "text": "就你所有的所得，"
+  },
+  {
+   "start": 997.42,
+   "end": 999.88,
+   "speaker": "Kalan",
+   "text": "包含了事業所得跟薪資所得算出來，"
+  },
+  {
+   "start": 999.88,
+   "end": 1003.36,
+   "speaker": "Kalan",
+   "text": "然後算完之後，你應該會得到另外一個數字，"
+  },
+  {
+   "start": 1004.48,
+   "end": 1010.6,
+   "speaker": "Kalan",
+   "text": "那這個數字就會決定說你今年要多繳錢，還是他會退你錢這樣子。"
+  },
+  {
+   "start": 1011.26,
+   "end": 1013.24,
+   "speaker": "Mooly",
+   "text": "那我大概理解了。"
+  },
+  {
+   "start": 1013.24,
+   "end": 1016.7,
+   "speaker": "Mooly",
+   "text": "反正個人事業主的好處，第一個就是你可以報成本。"
+  },
+  {
+   "start": 1016.7,
+   "end": 1019.1,
+   "speaker": "Mooly",
+   "text": "如果你沒有個人事業主，就不能報。"
+  },
+  {
+   "start": 1019.1,
+   "end": 1020.96,
+   "speaker": "Mooly",
+   "text": "然後第二個是它的那個，"
+  },
+  {
+   "start": 1021.54,
+   "end": 1025.46,
+   "speaker": "Mooly",
+   "text": "像可能是愷恩之後要講的，就是它的客戶數也會變多。"
+  },
+  {
+   "start": 1025.46,
+   "end": 1030.14,
+   "speaker": "Mooly",
+   "text": "主要好處應該算是這兩個比較大的，跟客戶數有關的。"
+  },
+  {
+   "start": 1030.14,
+   "end": 1030.42,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1031.02,
+   "end": 1031.76,
+   "speaker": "Mooly",
+   "text": "OK，好。"
+  },
+  {
+   "start": 1032.56,
+   "end": 1033.04,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 1033.58,
+   "end": 1039.62,
+   "speaker": "Kalan",
+   "text": "那我們下一個要提的，就是這個青色申告以及白色申告。"
+  },
+  {
+   "start": 1040.14,
+   "end": 1043.16,
+   "speaker": "Kalan",
+   "text": "如果你申請了開業證明，"
+  },
+  {
+   "start": 1043.16,
+   "end": 1048.9,
+   "speaker": "Kalan",
+   "text": "就我們剛剛有提到，你如果要成為個人事業主的話，你就是要提交開業證明。"
+  },
+  {
+   "start": 1048.9,
+   "end": 1051.52,
+   "speaker": "Kalan",
+   "text": "那通常呢，"
+  },
+  {
+   "start": 1051.52,
+   "end": 1054.48,
+   "speaker": "Kalan",
+   "text": "或者是幾乎一定啊，"
+  },
+  {
+   "start": 1054.48,
+   "end": 1058.7,
+   "speaker": "Kalan",
+   "text": "就記得要一併申請這個青色申告承認申請書，"
+  },
+  {
+   "start": 1060.58,
+   "end": 1063.24,
+   "speaker": "Kalan",
+   "text": "因為跟一般的上班族不同，"
+  },
+  {
+   "start": 1063.24,
+   "end": 1064.52,
+   "speaker": "Kalan",
+   "text": "個人事業主的話，"
+  },
+  {
+   "start": 1064.52,
+   "end": 1068.64,
+   "speaker": "Kalan",
+   "text": "他每年都需要確定申告，來計算最後的所得稅等等。"
+  },
+  {
+   "start": 1069.64,
+   "end": 1071.64,
+   "speaker": "Kalan",
+   "text": "那青色申告呢，"
+  },
+  {
+   "start": 1071.64,
+   "end": 1072.96,
+   "speaker": "Kalan",
+   "text": "它其實是一個"
+  },
+  {
+   "start": 1073.84,
+   "end": 1075.92,
+   "speaker": "Kalan",
+   "text": "政府為了獎勵嗎，"
+  },
+  {
+   "start": 1075.92,
+   "end": 1077.64,
+   "speaker": "Kalan",
+   "text": "獎勵大家有好好記帳，"
+  },
+  {
+   "start": 1077.64,
+   "end": 1078.82,
+   "speaker": "Kalan",
+   "text": "就鼓勵大家記帳，"
+  },
+  {
+   "start": 1079.82,
+   "end": 1082.44,
+   "speaker": "Kalan",
+   "text": "所以他提了這個申告特別控除制度。"
+  },
+  {
+   "start": 1083.34,
+   "end": 1089.56,
+   "speaker": "Kalan",
+   "text": "就是說如果你的收入和經費有按照正確的格式記帳的話，"
+  },
+  {
+   "start": 1090.2,
+   "end": 1092.18,
+   "speaker": "Kalan",
+   "text": "並且保留收據等等，"
+  },
+  {
+   "start": 1093.1,
+   "end": 1096.74,
+   "speaker": "Kalan",
+   "text": "你就可以拿到最高 65 萬的扣除了。"
+  },
+  {
+   "start": 1097.86,
+   "end": 1100.66,
+   "speaker": "Kalan",
+   "text": "那除了這個記帳之外，"
+  },
+  {
+   "start": 1100.66,
+   "end": 1104.0,
+   "speaker": "Kalan",
+   "text": "你還要提出這個貸借對照表，"
+  },
+  {
+   "start": 1104.0,
+   "end": 1104.8,
+   "speaker": "Kalan",
+   "text": "還有"
+  },
+  {
+   "start": 1106.1,
+   "end": 1107.66,
+   "speaker": "Kalan",
+   "text": "損益計算書。"
+  },
+  {
+   "start": 1108.78,
+   "end": 1111.5,
+   "speaker": "Kalan",
+   "text": "就是我們在會計裡面會常常遇到一些，"
+  },
+  {
+   "start": 1112.44,
+   "end": 1114.2,
+   "speaker": "Kalan",
+   "text": "會常常看一些報表，"
+  },
+  {
+   "start": 1114.8,
+   "end": 1116.88,
+   "speaker": "Kalan",
+   "text": "這兩個東西雖然它看起來很麻煩，"
+  },
+  {
+   "start": 1116.88,
+   "end": 1120.46,
+   "speaker": "Kalan",
+   "text": "但其實如果你搭配一些線上的會計軟體，"
+  },
+  {
+   "start": 1120.46,
+   "end": 1124.62,
+   "speaker": "Kalan",
+   "text": "像是在日本比較有名的，大概就是 Money Forward，"
+  },
+  {
+   "start": 1125.14,
+   "end": 1129.28,
+   "speaker": "Kalan",
+   "text": "或者是 freee，有那個三個語音的那個 freee，"
+  },
+  {
+   "start": 1129.28,
+   "end": 1132.28,
+   "speaker": "Kalan",
+   "text": "都可以很輕鬆地記帳。"
+  },
+  {
+   "start": 1132.28,
+   "end": 1134.32,
+   "speaker": "Kalan",
+   "text": "青色申告大概就是這樣，"
+  },
+  {
+   "start": 1134.32,
+   "end": 1137.86,
+   "speaker": "Kalan",
+   "text": "就是交的文件裡面你要有你的記帳，"
+  },
+  {
+   "start": 1138.5,
+   "end": 1140.62,
+   "speaker": "Kalan",
+   "text": "然後跟我剛剛提到的那兩個表，"
+  },
+  {
+   "start": 1140.62,
+   "end": 1143.18,
+   "speaker": "Kalan",
+   "text": "貸借對照表跟損益計算書。"
+  },
+  {
+   "start": 1143.88,
+   "end": 1146.18,
+   "speaker": "Kalan",
+   "text": "那你這些東西都有提出來的話呢，"
+  },
+  {
+   "start": 1146.18,
+   "end": 1149.46,
+   "speaker": "Kalan",
+   "text": "你就可以符合青色申告的要件。"
+  },
+  {
+   "start": 1150.3,
+   "end": 1152.02,
+   "speaker": "Kalan",
+   "text": "那另外一個就是，"
+  },
+  {
+   "start": 1152.02,
+   "end": 1154.7,
+   "speaker": "Kalan",
+   "text": "因為現在大家都很鼓勵，"
+  },
+  {
+   "start": 1154.7,
+   "end": 1158.06,
+   "speaker": "Kalan",
+   "text": "就是政府常常都會鼓勵大家要線上申告，"
+  },
+  {
+   "start": 1158.66,
+   "end": 1161.26,
+   "speaker": "Kalan",
+   "text": "所以如果你用了剛剛那個，"
+  },
+  {
+   "start": 1161.26,
+   "end": 1163.76,
+   "speaker": "Kalan",
+   "text": "就是你有交文件跟記帳，"
+  },
+  {
+   "start": 1163.76,
+   "end": 1167.16,
+   "speaker": "Kalan",
+   "text": "然後再加上如果你是線上申告的話呢，"
+  },
+  {
+   "start": 1167.68,
+   "end": 1170.62,
+   "speaker": "Kalan",
+   "text": "你最高就可以拿到 65 萬的扣除額。"
+  },
+  {
+   "start": 1174.55,
+   "end": 1177.61,
+   "speaker": "Kalan",
+   "text": "那如果你沒有做這件事情的話呢，"
+  },
+  {
+   "start": 1177.61,
+   "end": 1179.69,
+   "speaker": "Kalan",
+   "text": "你就只能用白色申告。"
+  },
+  {
+   "start": 1181.17,
+   "end": 1184.07,
+   "speaker": "Kalan",
+   "text": "那白色申告雖然它的條件比較簡單，"
+  },
+  {
+   "start": 1184.07,
+   "end": 1188.25,
+   "speaker": "Kalan",
+   "text": "就是你記帳的格式可以不用這麼複雜，"
+  },
+  {
+   "start": 1189.23,
+   "end": 1192.51,
+   "speaker": "Kalan",
+   "text": "但是相對的，你的扣除額就會變得超級少，"
+  },
+  {
+   "start": 1192.51,
+   "end": 1194.65,
+   "speaker": "Kalan",
+   "text": "就只有 10 萬的扣除額。"
+  },
+  {
+   "start": 1194.65,
+   "end": 1197.01,
+   "speaker": "Mooly",
+   "text": "那還差滿多的耶。"
+  },
+  {
+   "start": 1197.01,
+   "end": 1197.77,
+   "speaker": "Kalan",
+   "text": "對，所以，"
+  },
+  {
+   "start": 1199.25,
+   "end": 1202.25,
+   "speaker": "Kalan",
+   "text": "所以如果你是要走個人事業主的話呢，"
+  },
+  {
+   "start": 1202.25,
+   "end": 1205.01,
+   "speaker": "Kalan",
+   "text": "就記得一律做這個青色申告。"
+  },
+  {
+   "start": 1205.49,
+   "end": 1209.01,
+   "speaker": "Kalan",
+   "text": "那這個時候，你可以請，比如說你的家族，"
+  },
+  {
+   "start": 1209.01,
+   "end": 1215.17,
+   "speaker": "Kalan",
+   "text": "你的親人，幫你做一些這個事業所需要的工作。"
+  },
+  {
+   "start": 1216.35,
+   "end": 1219.19,
+   "speaker": "Kalan",
+   "text": "那它其實是有規定說，"
+  },
+  {
+   "start": 1219.93,
+   "end": 1223.45,
+   "speaker": "Kalan",
+   "text": "如果你是這樣的 case，這樣的情況下的話呢，"
+  },
+  {
+   "start": 1223.45,
+   "end": 1229.85,
+   "speaker": "Kalan",
+   "text": "你給他的這個薪水，是可以當作經費的，全額經費。"
+  },
+  {
+   "start": 1230.79,
+   "end": 1232.19,
+   "speaker": "Kalan",
+   "text": "所以比如說，"
+  },
+  {
+   "start": 1232.19,
+   "end": 1237.85,
+   "speaker": "Kalan",
+   "text": "我今天叫我的太太幫我 key 資料好了，"
+  },
+  {
+   "start": 1238.67,
+   "end": 1240.77,
+   "speaker": "Kalan",
+   "text": "那我一小時給她算 1000 塊，"
+  },
+  {
+   "start": 1241.23,
+   "end": 1242.71,
+   "speaker": "Kalan",
+   "text": "那她做了 30 個小時，"
+  },
+  {
+   "start": 1242.71,
+   "end": 1244.65,
+   "speaker": "Kalan",
+   "text": "那你就可以報 3 萬塊。"
+  },
+  {
+   "start": 1247.43,
+   "end": 1250.89,
+   "speaker": "Kalan",
+   "text": "但這個前提就是，這個勞動者，"
+  },
+  {
+   "start": 1251.47,
+   "end": 1252.75,
+   "speaker": "Kalan",
+   "text": "就你的那個親族，"
+  },
+  {
+   "start": 1252.75,
+   "end": 1253.51,
+   "speaker": "Kalan",
+   "text": "它沒有，"
+  },
+  {
+   "start": 1254.15,
+   "end": 1256.75,
+   "speaker": "Kalan",
+   "text": "除了這個收入之外，沒有其他的收入，"
+  },
+  {
+   "start": 1256.75,
+   "end": 1258.39,
+   "speaker": "Mooly",
+   "text": "它沒有別的收入這樣子，"
+  },
+  {
+   "start": 1258.39,
+   "end": 1260.23,
+   "speaker": "Kalan",
+   "text": "你才可以做這件事情。"
+  },
+  {
+   "start": 1261.01,
+   "end": 1263.99,
+   "speaker": "Kalan",
+   "text": "它必須要有所謂的專業知識，"
+  },
+  {
+   "start": 1263.99,
+   "end": 1265.85,
+   "speaker": "Kalan",
+   "text": "就比如說，你不能說，"
+  },
+  {
+   "start": 1266.47,
+   "end": 1269.87,
+   "speaker": "Kalan",
+   "text": "我今天這個工作是寫網頁好了，"
+  },
+  {
+   "start": 1272.85,
+   "end": 1275.77,
+   "speaker": "Kalan",
+   "text": "但你的太太可能她不會寫網頁，"
+  },
+  {
+   "start": 1275.77,
+   "end": 1278.83,
+   "speaker": "Kalan",
+   "text": "那你還故意把這個事業給她做，"
+  },
+  {
+   "start": 1278.83,
+   "end": 1281.05,
+   "speaker": "Kalan",
+   "text": "但是其實你只是把它外包出去，"
+  },
+  {
+   "start": 1281.05,
+   "end": 1281.91,
+   "speaker": "Kalan",
+   "text": "然後你，"
+  },
+  {
+   "start": 1281.91,
+   "end": 1284.11,
+   "speaker": "Kalan",
+   "text": "但是你想要透過這種方式來，"
+  },
+  {
+   "start": 1284.73,
+   "end": 1287.55,
+   "speaker": "Kalan",
+   "text": "有點像是做節稅的效果。"
+  },
+  {
+   "start": 1287.55,
+   "end": 1291.61,
+   "speaker": "Kalan",
+   "text": "但這件事情如果被查到的話，你可能就會被罰錢，或者是，"
+  },
+  {
+   "start": 1291.61,
+   "end": 1294.15,
+   "speaker": "Kalan",
+   "text": "他就是不會讓你算成那個經費。"
+  },
+  {
+   "start": 1294.15,
+   "end": 1296.43,
+   "speaker": "Mooly",
+   "text": "嗯嗯，對對對，合理合理。"
+  },
+  {
+   "start": 1296.43,
+   "end": 1298.19,
+   "speaker": "Kalan",
+   "text": "大概是這個樣子。"
+  },
+  {
+   "start": 1299.13,
+   "end": 1304.21,
+   "speaker": "Kalan",
+   "text": "好，那這個主要就是青色申告的一些好處啦。"
+  },
+  {
+   "start": 1304.21,
+   "end": 1307.25,
+   "speaker": "Mooly",
+   "text": "那我再額外問一個跟副業有關的東西，"
+  },
+  {
+   "start": 1307.25,
+   "end": 1307.89,
+   "speaker": "Mooly",
+   "text": "就是，"
+  },
+  {
+   "start": 1309.19,
+   "end": 1310.07,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 1310.07,
+   "end": 1314.73,
+   "speaker": "Mooly",
+   "text": "當初加入正職公司的時候，"
+  },
+  {
+   "start": 1315.49,
+   "end": 1321.95,
+   "speaker": "Mooly",
+   "text": "似乎好像有些公司會簽那種禁止經營副業的條款嗎？"
+  },
+  {
+   "start": 1322.59,
+   "end": 1323.95,
+   "speaker": "Mooly",
+   "text": "就是我只想問，"
+  },
+  {
+   "start": 1323.95,
+   "end": 1326.13,
+   "speaker": "Mooly",
+   "text": "愷愷有碰過這種嗎？"
+  },
+  {
+   "start": 1327.69,
+   "end": 1330.31,
+   "speaker": "Kalan",
+   "text": "我倒是沒有碰過耶。"
+  },
+  {
+   "start": 1330.31,
+   "end": 1333.77,
+   "speaker": "Kalan",
+   "text": "它比較會像是說，你要經營副業可以，"
+  },
+  {
+   "start": 1333.77,
+   "end": 1336.33,
+   "speaker": "Kalan",
+   "text": "但要先跟，"
+  },
+  {
+   "start": 1336.33,
+   "end": 1339.19,
+   "speaker": "Kalan",
+   "text": "公司通知一聲，"
+  },
+  {
+   "start": 1339.19,
+   "end": 1342.97,
+   "speaker": "Kalan",
+   "text": "但通常是算是鼓勵吧，或者是，"
+  },
+  {
+   "start": 1342.97,
+   "end": 1345.31,
+   "speaker": "Kalan",
+   "text": "對啊，會有可能會有一些敬業條款。"
+  },
+  {
+   "start": 1345.31,
+   "end": 1345.65,
+   "speaker": "Kalan",
+   "text": "沒錯，"
+  },
+  {
+   "start": 1346.11,
+   "end": 1350.43,
+   "speaker": "Mooly",
+   "text": "就基本上可能只要不要是相同領域類型的，就沒什麼關係了。"
+  },
+  {
+   "start": 1351.11,
+   "end": 1352.77,
+   "speaker": "Mooly",
+   "text": "了解了解。"
+  },
+  {
+   "start": 1352.77,
+   "end": 1353.35,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 1353.86,
+   "end": 1357.61,
+   "speaker": "Kalan",
+   "text": "那大概就個人事業主的部分，大概到這邊。"
+  },
+  {
+   "start": 1358.15,
+   "end": 1361.31,
+   "speaker": "Kalan",
+   "text": "不過因為我們剛剛有講到那個經費的部分嘛，"
+  },
+  {
+   "start": 1361.97,
+   "end": 1366.23,
+   "speaker": "Kalan",
+   "text": "經費這個東西其實它可以聊蠻深的，"
+  },
+  {
+   "start": 1366.23,
+   "end": 1368.05,
+   "speaker": "Kalan",
+   "text": "那今天的話我們就，"
+  },
+  {
+   "start": 1368.05,
+   "end": 1370.83,
+   "speaker": "Kalan",
+   "text": "大概講兩個到三個好了。"
+  },
+  {
+   "start": 1370.83,
+   "end": 1375.17,
+   "speaker": "Kalan",
+   "text": "就是經費它能報的東西其實還蠻多的，"
+  },
+  {
+   "start": 1375.17,
+   "end": 1379.73,
+   "speaker": "Kalan",
+   "text": "比如說如果你把自己的家當作是事務所的話，"
+  },
+  {
+   "start": 1380.39,
+   "end": 1385.09,
+   "speaker": "Kalan",
+   "text": "那麼房租、水電費、網路費都可以報帳，"
+  },
+  {
+   "start": 1386.97,
+   "end": 1395.83,
+   "speaker": "Kalan",
+   "text": "但是它會需要做一個，這個日本這邊的那個名詞叫做家事按分的方式來報帳。"
+  },
+  {
+   "start": 1395.83,
+   "end": 1396.75,
+   "speaker": "Kalan",
+   "text": "就比如說，"
+  },
+  {
+   "start": 1396.75,
+   "end": 1398.25,
+   "speaker": "Kalan",
+   "text": "欸，我水電費，"
+  },
+  {
+   "start": 1399.19,
+   "end": 1401.99,
+   "speaker": "Kalan",
+   "text": "如果你把家當成自己的辦公室的話，"
+  },
+  {
+   "start": 1401.99,
+   "end": 1407.05,
+   "speaker": "Kalan",
+   "text": "那不會是全部都是這個事業的部分嗎？"
+  },
+  {
+   "start": 1407.05,
+   "end": 1409.21,
+   "speaker": "Kalan",
+   "text": "它就可以用家事按分來保障。"
+  },
+  {
+   "start": 1409.21,
+   "end": 1410.15,
+   "speaker": "Kalan",
+   "text": "那它的概念就是說，"
+  },
+  {
+   "start": 1410.15,
+   "end": 1415.71,
+   "speaker": "Kalan",
+   "text": "喔，我的這個房租呢，有幾趴的部分是拿來當作事業，"
+  },
+  {
+   "start": 1416.25,
+   "end": 1418.37,
+   "speaker": "Kalan",
+   "text": "然後水電費也是一樣的概念，"
+  },
+  {
+   "start": 1418.37,
+   "end": 1423.01,
+   "speaker": "Kalan",
+   "text": "就我這個電費呢，有幾趴是事業用的這樣子。"
+  },
+  {
+   "start": 1424.63,
+   "end": 1425.99,
+   "speaker": "Mooly",
+   "text": "這個跟台灣，"
+  },
+  {
+   "start": 1425.99,
+   "end": 1428.11,
+   "speaker": "Mooly",
+   "text": "我好像有點類似，"
+  },
+  {
+   "start": 1428.11,
+   "end": 1430.83,
+   "speaker": "Mooly",
+   "text": "就是比例這個部分我不太確定，"
+  },
+  {
+   "start": 1430.83,
+   "end": 1431.73,
+   "speaker": "Mooly",
+   "text": "但比如說在台灣，"
+  },
+  {
+   "start": 1431.73,
+   "end": 1435.11,
+   "speaker": "Mooly",
+   "text": "假設你租屋或是你自己買一間房好了，"
+  },
+  {
+   "start": 1435.11,
+   "end": 1439.75,
+   "speaker": "Mooly",
+   "text": "那個房屋本身都會有它的類型，"
+  },
+  {
+   "start": 1440.37,
+   "end": 1442.55,
+   "speaker": "Mooly",
+   "text": "然後比如說你純住家的好像，"
+  },
+  {
+   "start": 1443.03,
+   "end": 1446.47,
+   "speaker": "Mooly",
+   "text": "我印象中就沒辦法作為商業來使用，"
+  },
+  {
+   "start": 1446.47,
+   "end": 1449.39,
+   "speaker": "Mooly",
+   "text": "那你要作為商業，就是這種辦公室來使用的話，"
+  },
+  {
+   "start": 1449.39,
+   "end": 1451.63,
+   "speaker": "Mooly",
+   "text": "你會需要去轉換那個類型，"
+  },
+  {
+   "start": 1451.63,
+   "end": 1454.49,
+   "speaker": "Mooly",
+   "text": "變成什麼類似住商混合那種感覺，"
+  },
+  {
+   "start": 1454.49,
+   "end": 1456.01,
+   "speaker": "Mooly",
+   "text": "它的那個類型變更。"
+  },
+  {
+   "start": 1456.01,
+   "end": 1458.23,
+   "speaker": "Mooly",
+   "text": "但類型變更的壞處就是，"
+  },
+  {
+   "start": 1458.65,
+   "end": 1459.39,
+   "speaker": "Mooly",
+   "text": "你在繳，"
+  },
+  {
+   "start": 1459.39,
+   "end": 1460.75,
+   "speaker": "Mooly",
+   "text": "比如說假設這個房是你的，"
+  },
+  {
+   "start": 1460.75,
+   "end": 1463.73,
+   "speaker": "Mooly",
+   "text": "你在繳那個房屋稅的時候，它的那個稅率就會不一樣，"
+  },
+  {
+   "start": 1463.73,
+   "end": 1467.15,
+   "speaker": "Mooly",
+   "text": "因為辦公室的稅率跟一般自住的稅率是不一樣的。"
+  },
+  {
+   "start": 1467.15,
+   "end": 1470.73,
+   "speaker": "Mooly",
+   "text": "所以我印象中沒錯的話，是可以利用，"
+  },
+  {
+   "start": 1470.73,
+   "end": 1474.31,
+   "speaker": "Mooly",
+   "text": "就是像剛剛那樣講，就是你把其中一個比例，"
+  },
+  {
+   "start": 1474.31,
+   "end": 1476.09,
+   "speaker": "Mooly",
+   "text": "比如說某一個房間或什麼，"
+  },
+  {
+   "start": 1476.09,
+   "end": 1477.17,
+   "speaker": "Mooly",
+   "text": "割出來，"
+  },
+  {
+   "start": 1477.17,
+   "end": 1480.71,
+   "speaker": "Mooly",
+   "text": "只有這一塊比例變成商業用的，"
+  },
+  {
+   "start": 1480.71,
+   "end": 1482.67,
+   "speaker": "Mooly",
+   "text": "然後其他都還是維持自住，"
+  },
+  {
+   "start": 1482.67,
+   "end": 1484.35,
+   "speaker": "Mooly",
+   "text": "你就可以在繳房屋稅的時候，"
+  },
+  {
+   "start": 1484.35,
+   "end": 1486.27,
+   "speaker": "Mooly",
+   "text": "可以少繳一點。"
+  },
+  {
+   "start": 1487.37,
+   "end": 1491.55,
+   "speaker": "Kalan",
+   "text": "但它這個比較像是你要去申請。"
+  },
+  {
+   "start": 1491.55,
+   "end": 1492.79,
+   "speaker": "Mooly",
+   "text": "對對對，"
+  },
+  {
+   "start": 1493.63,
+   "end": 1498.65,
+   "speaker": "Kalan",
+   "text": "但我剛剛講的那個，有點像是自由心證的感覺。"
+  },
+  {
+   "start": 1498.65,
+   "end": 1500.87,
+   "speaker": "Mooly",
+   "text": "自由心證的感覺。"
+  },
+  {
+   "start": 1500.87,
+   "end": 1502.49,
+   "speaker": "Kalan",
+   "text": "對，就是說我今天，"
+  },
+  {
+   "start": 1503.19,
+   "end": 1505.67,
+   "speaker": "Kalan",
+   "text": "假設我今天房租是 10 萬塊好了，"
+  },
+  {
+   "start": 1505.67,
+   "end": 1510.93,
+   "speaker": "Kalan",
+   "text": "然後我覺得我事務的部分用了 50%，"
+  },
+  {
+   "start": 1510.93,
+   "end": 1513.83,
+   "speaker": "Kalan",
+   "text": "那你可能就是可以報 50% 的那個，"
+  },
+  {
+   "start": 1513.83,
+   "end": 1515.95,
+   "speaker": "Kalan",
+   "text": "就 5 萬塊當作經費。"
+  },
+  {
+   "start": 1515.95,
+   "end": 1518.43,
+   "speaker": "Kalan",
+   "text": "但這件事情會變得是說，"
+  },
+  {
+   "start": 1519.14,
+   "end": 1520.37,
+   "speaker": "Kalan",
+   "text": "因為它是自由心證，"
+  },
+  {
+   "start": 1520.37,
+   "end": 1523.85,
+   "speaker": "Kalan",
+   "text": "所以今天如果國稅局要來查你的話，"
+  },
+  {
+   "start": 1523.85,
+   "end": 1524.73,
+   "speaker": "Kalan",
+   "text": "你要有，"
+  },
+  {
+   "start": 1524.73,
+   "end": 1526.47,
+   "speaker": "Kalan",
+   "text": "就是你要有道理，"
+  },
+  {
+   "start": 1526.9,
+   "end": 1528.15,
+   "speaker": "Kalan",
+   "text": "就是你要講得出來，"
+  },
+  {
+   "start": 1528.15,
+   "end": 1529.85,
+   "speaker": "Kalan",
+   "text": "喔，為什麼是 50% 這樣子。"
+  },
+  {
+   "start": 1529.85,
+   "end": 1531.95,
+   "speaker": "Mooly",
+   "text": "對對對，了解。"
+  },
+  {
+   "start": 1531.95,
+   "end": 1536.29,
+   "speaker": "Kalan",
+   "text": "經費的話，還有一個可以聊的是，"
+  },
+  {
+   "start": 1538.07,
+   "end": 1539.79,
+   "speaker": "Kalan",
+   "text": "所謂的，"
+  },
+  {
+   "start": 1540.28,
+   "end": 1541.29,
+   "speaker": "Kalan",
+   "text": "那叫什麼啊？"
+  },
+  {
+   "start": 1541.29,
+   "end": 1542.65,
+   "speaker": "Kalan",
+   "text": "資產跟，"
+  },
+  {
+   "start": 1542.65,
+   "end": 1543.37,
+   "speaker": "Kalan",
+   "text": "那叫，"
+  },
+  {
+   "start": 1543.37,
+   "end": 1544.27,
+   "speaker": "Kalan",
+   "text": "折舊，"
+  },
+  {
+   "start": 1545.35,
+   "end": 1546.29,
+   "speaker": "Mooly",
+   "text": "想起來了，"
+  },
+  {
+   "start": 1546.29,
+   "end": 1547.57,
+   "speaker": "Mooly",
+   "text": "折舊。"
+  },
+  {
+   "start": 1547.57,
+   "end": 1550.55,
+   "speaker": "Kalan",
+   "text": "就還有一個可以聊的事情是折舊。"
+  },
+  {
+   "start": 1551.31,
+   "end": 1554.95,
+   "speaker": "Kalan",
+   "text": "在日本的話，如果你有買超過 10 萬的，"
+  },
+  {
+   "start": 1555.41,
+   "end": 1561.19,
+   "speaker": "Kalan",
+   "text": "那在經費上面，你必須要用折舊的方式報成固定資產。"
+  },
+  {
+   "start": 1562.25,
+   "end": 1566.23,
+   "speaker": "Kalan",
+   "text": "比如說我今天買一部電腦，它可能超過 10 萬了，"
+  },
+  {
+   "start": 1566.73,
+   "end": 1567.79,
+   "speaker": "Kalan",
+   "text": "那它可能就"
+  },
+  {
+   "start": 1567.79,
+   "end": 1569.97,
+   "speaker": "Kalan",
+   "text": "你就不能直接報 10 萬下去，"
+  },
+  {
+   "start": 1570.59,
+   "end": 1572.93,
+   "speaker": "Kalan",
+   "text": "而是你要把它當作一個"
+  },
+  {
+   "start": 1572.93,
+   "end": 1574.49,
+   "speaker": "Kalan",
+   "text": "固定資產，然後報折舊，"
+  },
+  {
+   "start": 1574.49,
+   "end": 1577.33,
+   "speaker": "Mooly",
+   "text": "報折舊，然後它可能就會越來越少、越來越少這樣，"
+  },
+  {
+   "start": 1577.33,
+   "end": 1580.51,
+   "speaker": "Kalan",
+   "text": "但因為報折舊，你能拿到的錢就比較，"
+  },
+  {
+   "start": 1581.03,
+   "end": 1583.75,
+   "speaker": "Kalan",
+   "text": "就你能折掉的錢就比較少嘛。"
+  },
+  {
+   "start": 1583.75,
+   "end": 1587.39,
+   "speaker": "Kalan",
+   "text": "所以它其實是有一個特例，是說，"
+  },
+  {
+   "start": 1587.39,
+   "end": 1589.91,
+   "speaker": "Mooly",
+   "text": "喔，還有一個這個條款，"
+  },
+  {
+   "start": 1590.47,
+   "end": 1591.29,
+   "speaker": "Kalan",
+   "text": "但這個是，"
+  },
+  {
+   "start": 1591.75,
+   "end": 1594.69,
+   "speaker": "Kalan",
+   "text": "我不確定它是不是只給個人事業主這樣做，"
+  },
+  {
+   "start": 1594.69,
+   "end": 1596.85,
+   "speaker": "Kalan",
+   "text": "就公司的話可能就不行。"
+  },
+  {
+   "start": 1597.45,
+   "end": 1600.11,
+   "speaker": "Kalan",
+   "text": "然後它有幾個條件，就是你的，"
+  },
+  {
+   "start": 1600.73,
+   "end": 1601.87,
+   "speaker": "Kalan",
+   "text": "就是你的這個，"
+  },
+  {
+   "start": 1601.87,
+   "end": 1603.55,
+   "speaker": "Kalan",
+   "text": "全部的金額加起來，"
+  },
+  {
+   "start": 1603.55,
+   "end": 1604.91,
+   "speaker": "Kalan",
+   "text": "你要在 300 萬以內。"
+  },
+  {
+   "start": 1604.91,
+   "end": 1606.41,
+   "speaker": "Kalan",
+   "text": "假設你今天買了一部電腦，"
+  },
+  {
+   "start": 1606.41,
+   "end": 1609.65,
+   "speaker": "Kalan",
+   "text": "然後可能下個月買了一台車什麼的，"
+  },
+  {
+   "start": 1609.65,
+   "end": 1612.83,
+   "speaker": "Kalan",
+   "text": "就是全部加起來要小於 300 萬。"
+  },
+  {
+   "start": 1612.83,
+   "end": 1613.95,
+   "speaker": "Kalan",
+   "text": "那如果超過的話，"
+  },
+  {
+   "start": 1613.95,
+   "end": 1617.63,
+   "speaker": "Kalan",
+   "text": "那你就必須要還是把它包成固定資產。"
+  },
+  {
+   "start": 1617.63,
+   "end": 1618.79,
+   "speaker": "Mooly",
+   "text": "嗯嗯嗯嗯，"
+  },
+  {
+   "start": 1618.79,
+   "end": 1619.87,
+   "speaker": "Mooly",
+   "text": "了解。"
+  },
+  {
+   "start": 1619.87,
+   "end": 1622.67,
+   "speaker": "Kalan",
+   "text": "大概是這些東西。"
+  },
+  {
+   "start": 1622.67,
+   "end": 1623.49,
+   "speaker": "Mooly",
+   "text": "嗯嗯，是。"
+  },
+  {
+   "start": 1624.57,
+   "end": 1627.83,
+   "speaker": "Kalan",
+   "text": "如果你今天跟我一樣，是想要從正社員啊，"
+  },
+  {
+   "start": 1627.83,
+   "end": 1629.89,
+   "speaker": "Kalan",
+   "text": "因為原本是一位正社員，"
+  },
+  {
+   "start": 1629.89,
+   "end": 1631.81,
+   "speaker": "Kalan",
+   "text": "然後想要轉成個人事業主，"
+  },
+  {
+   "start": 1631.81,
+   "end": 1633.83,
+   "speaker": "Kalan",
+   "text": "就你終於拿到永住了，"
+  },
+  {
+   "start": 1633.83,
+   "end": 1639.55,
+   "speaker": "Kalan",
+   "text": "然後想要轉個人事業主，自己開始這個獨立之路的話，"
+  },
+  {
+   "start": 1640.11,
+   "end": 1641.39,
+   "speaker": "Kalan",
+   "text": "要注意幾個事情。"
+  },
+  {
+   "start": 1643.43,
+   "end": 1645.69,
+   "speaker": "Kalan",
+   "text": "第一個就是國民健康保險，"
+  },
+  {
+   "start": 1646.85,
+   "end": 1650.37,
+   "speaker": "Kalan",
+   "text": "因為國民健康保險它是以前年的所得計算，"
+  },
+  {
+   "start": 1650.37,
+   "end": 1651.91,
+   "speaker": "Kalan",
+   "text": "所以就會有兩種狀況。"
+  },
+  {
+   "start": 1651.91,
+   "end": 1653.99,
+   "speaker": "Kalan",
+   "text": "一個是你做得相當成功，"
+  },
+  {
+   "start": 1653.99,
+   "end": 1655.23,
+   "speaker": "Kalan",
+   "text": "已經超過你的，"
+  },
+  {
+   "start": 1655.77,
+   "end": 1658.49,
+   "speaker": "Kalan",
+   "text": "這個事業收入已經超過你本業的薪水，"
+  },
+  {
+   "start": 1658.49,
+   "end": 1661.75,
+   "speaker": "Kalan",
+   "text": "那這樣的話就是會稍微划算嘛，"
+  },
+  {
+   "start": 1662.63,
+   "end": 1666.57,
+   "speaker": "Kalan",
+   "text": "因為你是用比較少的錢在繳國民健康保險。"
+  },
+  {
+   "start": 1667.09,
+   "end": 1668.91,
+   "speaker": "Kalan",
+   "text": "但如果你是另外一種狀況，"
+  },
+  {
+   "start": 1668.91,
+   "end": 1671.29,
+   "speaker": "Kalan",
+   "text": "而且可能是大部分人"
+  },
+  {
+   "start": 1671.29,
+   "end": 1672.99,
+   "speaker": "Mooly",
+   "text": "的狀況，"
+  },
+  {
+   "start": 1672.99,
+   "end": 1674.77,
+   "speaker": "Kalan",
+   "text": "就是你的"
+  },
+  {
+   "start": 1674.77,
+   "end": 1677.21,
+   "speaker": "Kalan",
+   "text": "營收比在職的薪水還少，"
+  },
+  {
+   "start": 1677.85,
+   "end": 1680.75,
+   "speaker": "Kalan",
+   "text": "那它的負擔就會比你想像中的還大，"
+  },
+  {
+   "start": 1680.75,
+   "end": 1685.49,
+   "speaker": "Kalan",
+   "text": "因為你等於是用你在職的薪水去繳保險。"
+  },
+  {
+   "start": 1685.49,
+   "end": 1686.77,
+   "speaker": "Mooly",
+   "text": "保險，對對，沒錯。"
+  },
+  {
+   "start": 1686.77,
+   "end": 1688.39,
+   "speaker": "Kalan",
+   "text": "那另外一個就是，"
+  },
+  {
+   "start": 1689.09,
+   "end": 1694.07,
+   "speaker": "Kalan",
+   "text": "你這樣算下來啊，如果你的經費沒有很有效運用的話，"
+  },
+  {
+   "start": 1694.07,
+   "end": 1696.69,
+   "speaker": "Kalan",
+   "text": "你的稅率是很有可能變高的喔，"
+  },
+  {
+   "start": 1696.69,
+   "end": 1701.39,
+   "speaker": "Kalan",
+   "text": "因為我們在公司工作是以薪資所得來計算嘛，"
+  },
+  {
+   "start": 1702.01,
+   "end": 1706.05,
+   "speaker": "Kalan",
+   "text": "那薪資所得其實有所謂的薪資所得扣除額，"
+  },
+  {
+   "start": 1706.05,
+   "end": 1712.53,
+   "speaker": "Kalan",
+   "text": "但是我們剛剛算下來，事業所得頂多就只有那個青色申告特別扣除額 65 萬。"
+  },
+  {
+   "start": 1713.03,
+   "end": 1713.51,
+   "speaker": "Kalan",
+   "text": "但是，"
+  },
+  {
+   "start": 1713.51,
+   "end": 1716.49,
+   "speaker": "Kalan",
+   "text": "如果你去看薪資所得扣除額，"
+  },
+  {
+   "start": 1716.49,
+   "end": 1719.73,
+   "speaker": "Kalan",
+   "text": "那當然，因為它是累進制嘛，所以"
+  },
+  {
+   "start": 1720.21,
+   "end": 1724.61,
+   "speaker": "Kalan",
+   "text": "當然你收入越高，你的薪資所得扣除額也會越高。"
+  },
+  {
+   "start": 1724.61,
+   "end": 1725.73,
+   "speaker": "Mooly",
+   "text": "對對，沒錯沒錯。"
+  },
+  {
+   "start": 1726.15,
+   "end": 1728.41,
+   "speaker": "Kalan",
+   "text": "那假設我們算 1000 萬好了，"
+  },
+  {
+   "start": 1728.87,
+   "end": 1732.75,
+   "speaker": "Kalan",
+   "text": "就是假設你的在職薪水是 1000 萬的話呢，"
+  },
+  {
+   "start": 1733.83,
+   "end": 1739.09,
+   "speaker": "Kalan",
+   "text": "如果你的營收是小於 1000 萬的話，那你可能就會要繳更多的所得稅。"
+  },
+  {
+   "start": 1739.09,
+   "end": 1741.21,
+   "speaker": "Kalan",
+   "text": "嗯嗯嗯。"
+  },
+  {
+   "start": 1741.21,
+   "end": 1741.45,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 1741.93,
+   "end": 1744.73,
+   "speaker": "Kalan",
+   "text": "就如果你的經費沒有很有效地運用的話，"
+  },
+  {
+   "start": 1745.51,
+   "end": 1745.99,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1745.99,
+   "end": 1752.51,
+   "speaker": "Mooly",
+   "text": "對，就是你扣的東西扣得不夠多的話，你可能就反而還要繳得比較多一點。"
+  },
+  {
+   "start": 1753.11,
+   "end": 1754.75,
+   "speaker": "Mooly",
+   "text": "對對對對。"
+  },
+  {
+   "start": 1754.75,
+   "end": 1758.99,
+   "speaker": "Kalan",
+   "text": "然後另外一個就是沒有所謂的雇用保險跟公司福利，"
+  },
+  {
+   "start": 1758.99,
+   "end": 1763.03,
+   "speaker": "Kalan",
+   "text": "那這點應該是滿顯而易見的，"
+  },
+  {
+   "start": 1763.03,
+   "end": 1765.05,
+   "speaker": "Kalan",
+   "text": "因為你就不是在公司工作。"
+  },
+  {
+   "start": 1765.49,
+   "end": 1766.11,
+   "speaker": "Mooly",
+   "text": "對，沒錯。"
+  },
+  {
+   "start": 1766.71,
+   "end": 1767.87,
+   "speaker": "Kalan",
+   "text": "另外一個的話就是，"
+  },
+  {
+   "start": 1767.87,
+   "end": 1771.29,
+   "speaker": "Kalan",
+   "text": "一旦你去申請了個人事業主，"
+  },
+  {
+   "start": 1771.29,
+   "end": 1774.65,
+   "speaker": "Kalan",
+   "text": "然後假設你從原本的公司離開的話，"
+  },
+  {
+   "start": 1775.31,
+   "end": 1778.49,
+   "speaker": "Kalan",
+   "text": "那你可能也拿不到失業給付了，"
+  },
+  {
+   "start": 1778.49,
+   "end": 1780.37,
+   "speaker": "Kalan",
+   "text": "因為你是個人事業主，"
+  },
+  {
+   "start": 1780.37,
+   "end": 1783.55,
+   "speaker": "Kalan",
+   "text": "所以它們認定上就是你開始了一個事業。"
+  },
+  {
+   "start": 1783.55,
+   "end": 1784.41,
+   "speaker": "Mooly",
+   "text": "對，沒錯。"
+  },
+  {
+   "start": 1784.41,
+   "end": 1786.29,
+   "speaker": "Kalan",
+   "text": "那最後一個就是，"
+  },
+  {
+   "start": 1786.29,
+   "end": 1790.31,
+   "speaker": "Kalan",
+   "text": "這可能是你的事業做得很好的時候才要考慮，"
+  },
+  {
+   "start": 1790.31,
+   "end": 1794.07,
+   "speaker": "Kalan",
+   "text": "就是如果你的營收達到了一定的金額，"
+  },
+  {
+   "start": 1794.07,
+   "end": 1796.41,
+   "speaker": "Kalan",
+   "text": "那通常是 900 萬，"
+  },
+  {
+   "start": 1796.41,
+   "end": 1798.29,
+   "speaker": "Kalan",
+   "text": "是一個門檻，"
+  },
+  {
+   "start": 1798.93,
+   "end": 1801.85,
+   "speaker": "Kalan",
+   "text": "那你就可以開始考慮要不要設立法人，"
+  },
+  {
+   "start": 1801.85,
+   "end": 1804.03,
+   "speaker": "Kalan",
+   "text": "就是考慮要不要開公司了。"
+  },
+  {
+   "start": 1804.03,
+   "end": 1808.87,
+   "speaker": "Kalan",
+   "text": "因為我們剛剛提到這個個人的所得稅是累進稅率制的，"
+  },
+  {
+   "start": 1809.49,
+   "end": 1812.79,
+   "speaker": "Kalan",
+   "text": "但是法人稅的話它是固定稅率的。"
+  },
+  {
+   "start": 1812.79,
+   "end": 1814.79,
+   "speaker": "Mooly",
+   "text": "是喔，法人稅是固定稅率？"
+  },
+  {
+   "start": 1814.79,
+   "end": 1815.47,
+   "speaker": "Kalan",
+   "text": "對對對對。"
+  },
+  {
+   "start": 1817.05,
+   "end": 1817.49,
+   "speaker": "Kalan",
+   "text": "所以，"
+  },
+  {
+   "start": 1818.07,
+   "end": 1824.57,
+   "speaker": "Kalan",
+   "text": "一旦你達到某個金額的話，你就可以考慮開公司來達到節稅的效果，"
+  },
+  {
+   "start": 1826.59,
+   "end": 1827.95,
+   "speaker": "Kalan",
+   "text": "大概是這樣子。"
+  },
+  {
+   "start": 1828.65,
+   "end": 1830.39,
+   "speaker": "Mooly",
+   "text": "嗯，了解。"
+  },
+  {
+   "start": 1830.39,
+   "end": 1831.13,
+   "speaker": "Kalan",
+   "text": "好，那，"
+  },
+  {
+   "start": 1831.13,
+   "end": 1832.67,
+   "speaker": "Kalan",
+   "text": "Mooly 這樣聽下來，"
+  },
+  {
+   "start": 1833.93,
+   "end": 1835.23,
+   "speaker": "Kalan",
+   "text": "有想要，"
+  },
+  {
+   "start": 1835.99,
+   "end": 1837.51,
+   "speaker": "Mooly",
+   "text": "開個個人事業主嗎？"
+  },
+  {
+   "start": 1837.51,
+   "end": 1840.01,
+   "speaker": "Kalan",
+   "text": "有想要開個人事業主嗎？"
+  },
+  {
+   "start": 1840.01,
+   "end": 1842.11,
+   "speaker": "Mooly",
+   "text": "目前其實沒有耶，"
+  },
+  {
+   "start": 1842.11,
+   "end": 1843.71,
+   "speaker": "Mooly",
+   "text": "主要兩點吧。"
+  },
+  {
+   "start": 1843.71,
+   "end": 1844.45,
+   "speaker": "Mooly",
+   "text": "第一點是，"
+  },
+  {
+   "start": 1844.95,
+   "end": 1847.49,
+   "speaker": "Mooly",
+   "text": "如果你真的沒有副業的話，"
+  },
+  {
+   "start": 1848.05,
+   "end": 1852.13,
+   "speaker": "Mooly",
+   "text": "你弄個個人事業主，你也沒有東西可以報了。"
+  },
+  {
+   "start": 1853.37,
+   "end": 1860.71,
+   "speaker": "Mooly",
+   "text": "第二個是，因為你變成個人事業主之後，你就應該是確定要用那個確定申告，"
+  },
+  {
+   "start": 1860.71,
+   "end": 1863.01,
+   "speaker": "Mooly",
+   "text": "就你要自己整理一些資料，自己保存，"
+  },
+  {
+   "start": 1863.01,
+   "end": 1867.33,
+   "speaker": "Mooly",
+   "text": "包含說你的公司所得那邊應該也是會走確定申告，"
+  },
+  {
+   "start": 1867.33,
+   "end": 1873.67,
+   "speaker": "Mooly",
+   "text": "比起現在我什麼都不用做，就等公司源泉徵收加年末調整，"
+  },
+  {
+   "start": 1874.31,
+   "end": 1878.11,
+   "speaker": "Mooly",
+   "text": "比起來，確定申告還是稍嫌麻煩了一點。"
+  },
+  {
+   "start": 1878.65,
+   "end": 1881.73,
+   "speaker": "Mooly",
+   "text": "如果之後有一些副業開始的話，"
+  },
+  {
+   "start": 1881.73,
+   "end": 1886.33,
+   "speaker": "Mooly",
+   "text": "那聽起來個人事業主會是一個蠻好的選項。"
+  },
+  {
+   "start": 1886.33,
+   "end": 1887.49,
+   "speaker": "Kalan",
+   "text": "對，我自己覺得，"
+  },
+  {
+   "start": 1887.97,
+   "end": 1889.21,
+   "speaker": "Kalan",
+   "text": "它最大的好處就是，"
+  },
+  {
+   "start": 1889.87,
+   "end": 1892.03,
+   "speaker": "Kalan",
+   "text": "你不需要成立法人，"
+  },
+  {
+   "start": 1892.03,
+   "end": 1895.49,
+   "speaker": "Kalan",
+   "text": "但是你有可以報帳的好處。"
+  },
+  {
+   "start": 1895.49,
+   "end": 1897.43,
+   "speaker": "Mooly",
+   "text": "對對對對，沒錯沒錯。"
+  },
+  {
+   "start": 1897.91,
+   "end": 1900.21,
+   "speaker": "Kalan",
+   "text": "這對我來說是蠻方便的。"
+  },
+  {
+   "start": 1901.29,
+   "end": 1902.33,
+   "speaker": "Kalan",
+   "text": "好，所以，"
+  },
+  {
+   "start": 1902.95,
+   "end": 1905.39,
+   "speaker": "Kalan",
+   "text": "我們今天聊了蠻多東西了，"
+  },
+  {
+   "start": 1905.39,
+   "end": 1909.45,
+   "speaker": "Kalan",
+   "text": "那如果大家在日本有想要考慮開始一個副業，"
+  },
+  {
+   "start": 1909.45,
+   "end": 1910.39,
+   "speaker": "Kalan",
+   "text": "甚至是，"
+  },
+  {
+   "start": 1910.39,
+   "end": 1914.97,
+   "speaker": "Kalan",
+   "text": "你可能拿到永住了，然後你可能為你自己的下一步再做打算的話，"
+  },
+  {
+   "start": 1915.45,
+   "end": 1919.35,
+   "speaker": "Kalan",
+   "text": "那個人事業主，或許是一個你可以考慮的方向。"
+  },
+  {
+   "start": 1919.35,
+   "end": 1921.29,
+   "speaker": "Kalan",
+   "text": "那我們今天聊的東西也蠻多的，"
+  },
+  {
+   "start": 1921.29,
+   "end": 1924.41,
+   "speaker": "Kalan",
+   "text": "那不然我們今天就先到這邊嗎？"
+  },
+  {
+   "start": 1924.41,
+   "end": 1925.99,
+   "speaker": "Mooly",
+   "text": "嗯，差不多，差不多。"
+  },
+  {
+   "start": 1925.99,
+   "end": 1926.85,
+   "speaker": "Mooly",
+   "text": "嗯，好。"
+  },
+  {
+   "start": 1926.85,
+   "end": 1930.99,
+   "speaker": "Kalan",
+   "text": "那麼，今天的節目就到這邊啦。"
+  },
+  {
+   "start": 1931.73,
+   "end": 1934.61,
+   "speaker": "Kalan",
+   "text": "如果喜歡的話，歡迎訂閱或分享，"
+  },
+  {
+   "start": 1934.61,
+   "end": 1939.15,
+   "speaker": "Kalan",
+   "text": "那如果有任何問題的話，都歡迎透過下方的連結，"
+  },
+  {
+   "start": 1939.15,
+   "end": 1941.15,
+   "speaker": "Kalan",
+   "text": "或者是直接寄信到，"
+  },
+  {
+   "start": 1941.71,
+   "end": 1943.75,
+   "speaker": "Kalan",
+   "text": "或者是直接寄信給我們喔。"
+  },
+  {
+   "start": 1944.33,
+   "end": 1945.23,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 1945.77,
+   "end": 1946.43,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 1947.07,
+   "end": 1948.27,
+   "speaker": "Kalan",
+   "text": "我們下次見。"
+  },
+  {
+   "start": 1948.27,
+   "end": 1948.95,
+   "speaker": "Kalan",
+   "text": "拜拜。"
+  }
+ ]
+}

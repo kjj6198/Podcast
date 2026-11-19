@@ -1,0 +1,3492 @@
+{
+ "episode": 8,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 從「恭喜發財」是否代表華人愛錢聊起，接著談各自過年的安排、親戚問候的成因，以及不回家過年也是一種選擇。後半段 Mooly 分享日台機票的買法，Kalan 則談到自己的部落格被 Google 移除索引，並討論自架部落格與使用平台的取捨。",
+  "points": [
+   "Mooly 查到恭喜發財可能源自清朝廣州的通商文化，Kalan 則認為日本的抽籤與お年玉也有類似的重視財運成分。",
+   "兩人認為親戚的問候不一定出於惡意，可能只是用最熟悉的方式表達關心，聊近況或影劇等安全話題會比較舒服。",
+   "如果回家過年只是在應付傳統與忍受親戚，不回家也是一種選擇，但有人回家是出於孝順，要看個人取捨。",
+   "Mooly 分享買機票的方法：黃金週從日本出發很貴，可以先買台灣出發的來回票，再搭配里程票開單程，有時比兩次日台來回更便宜。",
+   "Kalan 的部落格自 2024 年 5 月起曝光大降，之後被 Google 移除索引，原因不明，但 DuckDuckGo 與 Bing 都能正常收錄。",
+   "兩人仍推薦開發者自架部落格，因為掌控權較高，內容不會被平台審查或鎖掉，就算被 Google 降流量也還有其他搜尋引擎。Mooly 也建議用 Ahrefs 等第三方工具找原因。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與新年問候"
+   },
+   {
+    "start": 39.0,
+    "title": "恭喜發財是愛錢嗎？"
+   },
+   {
+    "start": 353.0,
+    "title": "過年行程與回家的意義"
+   },
+   {
+    "start": 498.0,
+    "title": "親戚問候與不回家的選擇"
+   },
+   {
+    "start": 748.0,
+    "title": "Mooly 的日台機票買法"
+   },
+   {
+    "start": 1157.0,
+    "title": "部落格被 Google 移除索引"
+   },
+   {
+    "start": 1597.0,
+    "title": "自架部落格還是用平台"
+   },
+   {
+    "start": 1781.0,
+    "title": "結語"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.52,
+   "speaker": "Kalan",
+   "text": "哈囉，大家好，我是 Kalan。"
+  },
+  {
+   "start": 1.52,
+   "end": 2.26,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2.8,
+   "end": 5.16,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 5.16,
+   "end": 17.31,
+   "speaker": "Kalan",
+   "text": "欸，這個 Mooly 啊，"
+  },
+  {
+   "start": 17.31,
+   "end": 18.61,
+   "speaker": "Kalan",
+   "text": "我們新的一年，"
+  },
+  {
+   "start": 18.61,
+   "end": 20.07,
+   "speaker": "Mooly",
+   "text": "農曆年，"
+  },
+  {
+   "start": 20.07,
+   "end": 21.89,
+   "speaker": "Kalan",
+   "text": "新的一年又到了。"
+  },
+  {
+   "start": 23.19,
+   "end": 25.53,
+   "speaker": "Kalan",
+   "text": "一樣就是按照往常，"
+  },
+  {
+   "start": 25.53,
+   "end": 28.03,
+   "speaker": "Kalan",
+   "text": "就是一樣祝大家這個新年快樂。"
+  },
+  {
+   "start": 29.93,
+   "end": 34.25,
+   "speaker": "Kalan",
+   "text": "那我覺得後面要再配一個這個台灣人蠻常見的吧，"
+  },
+  {
+   "start": 34.25,
+   "end": 36.57,
+   "speaker": "Kalan",
+   "text": "新年快樂，還有恭喜發財。"
+  },
+  {
+   "start": 36.57,
+   "end": 37.95,
+   "speaker": "Mooly",
+   "text": "恭喜發財，沒錯。"
+  },
+  {
+   "start": 37.95,
+   "end": 38.99,
+   "speaker": "Mooly",
+   "text": "恭喜發財。"
+  },
+  {
+   "start": 38.99,
+   "end": 40.55,
+   "speaker": "Kalan",
+   "text": "說到恭喜發財，"
+  },
+  {
+   "start": 40.99,
+   "end": 43.31,
+   "speaker": "Kalan",
+   "text": "就我之前在推特上有看到，"
+  },
+  {
+   "start": 43.81,
+   "end": 45.59,
+   "speaker": "Kalan",
+   "text": "我不知道 Mooly 這邊有沒有看到，"
+  },
+  {
+   "start": 45.59,
+   "end": 52.03,
+   "speaker": "Kalan",
+   "text": "就是好像他有講到說，台灣人好像特別喜歡錢這件事情。"
+  },
+  {
+   "start": 52.03,
+   "end": 54.53,
+   "speaker": "Kalan",
+   "text": "就他的舉例就是用恭喜發財，"
+  },
+  {
+   "start": 54.53,
+   "end": 60.43,
+   "speaker": "Kalan",
+   "text": "就是連新年都在恭喜別人發財這件事情。"
+  },
+  {
+   "start": 61.69,
+   "end": 62.89,
+   "speaker": "Mooly",
+   "text": "確實。"
+  },
+  {
+   "start": 63.65,
+   "end": 65.83,
+   "speaker": "Mooly",
+   "text": "看到那個之前可能沒有感覺嘛，"
+  },
+  {
+   "start": 65.83,
+   "end": 67.75,
+   "speaker": "Mooly",
+   "text": "就是你沒有聽別人特別講的話，"
+  },
+  {
+   "start": 67.75,
+   "end": 69.37,
+   "speaker": "Mooly",
+   "text": "你可能不會意識到這件事情。"
+  },
+  {
+   "start": 69.37,
+   "end": 71.77,
+   "speaker": "Mooly",
+   "text": "畢竟你從小開始過年，"
+  },
+  {
+   "start": 71.77,
+   "end": 73.51,
+   "speaker": "Mooly",
+   "text": "大家就是恭喜發財、恭喜發財，"
+  },
+  {
+   "start": 73.51,
+   "end": 76.29,
+   "speaker": "Mooly",
+   "text": "你也不會意識到哪邊特別的不對勁，"
+  },
+  {
+   "start": 76.29,
+   "end": 76.61,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 77.55,
+   "end": 79.77,
+   "speaker": "Mooly",
+   "text": "但聽到有人這樣講之後，"
+  },
+  {
+   "start": 79.77,
+   "end": 89.23,
+   "speaker": "Mooly",
+   "text": "不知道，因為其實如果講台灣人，也有點不確定恭喜發財這個是台灣當地會這樣說的說法，還是其實整個大中華圈，"
+  },
+  {
+   "start": 89.23,
+   "end": 93.81,
+   "speaker": "Mooly",
+   "text": "就是整個華人感覺好像都會有這個恭喜發財的，"
+  },
+  {
+   "start": 93.81,
+   "end": 96.77,
+   "speaker": "Mooly",
+   "text": "這個問候語嗎？"
+  },
+  {
+   "start": 97.87,
+   "end": 103.17,
+   "speaker": "Mooly",
+   "text": "財富、錢這件事情是一個比較重要的東西嗎？"
+  },
+  {
+   "start": 103.17,
+   "end": 104.25,
+   "speaker": "Mooly",
+   "text": "大概是這種感覺。"
+  },
+  {
+   "start": 104.25,
+   "end": 110.65,
+   "speaker": "Kalan",
+   "text": "我覺得一方面可以，的確你可以這樣理解這樣的文化，"
+  },
+  {
+   "start": 111.05,
+   "end": 114.29,
+   "speaker": "Kalan",
+   "text": "但我覺得可能在日本吧，"
+  },
+  {
+   "start": 114.75,
+   "end": 122.85,
+   "speaker": "Kalan",
+   "text": "或許或多或少也有一點點那樣的成分在，雖然日本人的開頭不會說恭喜發財，"
+  },
+  {
+   "start": 122.85,
+   "end": 126.31,
+   "speaker": "Kalan",
+   "text": "但比如說你去抽籤，好，"
+  },
+  {
+   "start": 126.87,
+   "end": 130.85,
+   "speaker": "Kalan",
+   "text": "就你去神社參拜，新年去神社參拜，"
+  },
+  {
+   "start": 130.85,
+   "end": 134.07,
+   "speaker": "Kalan",
+   "text": "然後還是很多人會去，比如說抽籤，"
+  },
+  {
+   "start": 134.07,
+   "end": 136.05,
+   "speaker": "Kalan",
+   "text": "然後抽籤裡面上面，"
+  },
+  {
+   "start": 136.43,
+   "end": 140.99,
+   "speaker": "Kalan",
+   "text": "他可能就會寫你的財運是什麼吉啊什麼的，"
+  },
+  {
+   "start": 140.99,
+   "end": 147.91,
+   "speaker": "Kalan",
+   "text": "就雖然這件事情他不是這麼直接地把這個招呼用語、"
+  },
+  {
+   "start": 147.91,
+   "end": 150.55,
+   "speaker": "Kalan",
+   "text": "問候語直接說出來，"
+  },
+  {
+   "start": 150.55,
+   "end": 153.13,
+   "speaker": "Kalan",
+   "text": "但我覺得還是有一點點間接的成分在裡頭。"
+  },
+  {
+   "start": 153.13,
+   "end": 155.97,
+   "speaker": "Kalan",
+   "text": "而且在日本也會有所謂的"
+  },
+  {
+   "start": 155.97,
+   "end": 156.65,
+   "speaker": "Kalan",
+   "text": "お年玉，"
+  },
+  {
+   "start": 156.65,
+   "end": 158.49,
+   "speaker": "Kalan",
+   "text": "就是紅包的概念。"
+  },
+  {
+   "start": 160.29,
+   "end": 161.09,
+   "speaker": "Kalan",
+   "text": "所以我覺得，"
+  },
+  {
+   "start": 162.45,
+   "end": 164.19,
+   "speaker": "Kalan",
+   "text": "你說愛錢嗎，或許。"
+  },
+  {
+   "start": 164.75,
+   "end": 167.87,
+   "speaker": "Kalan",
+   "text": "我覺得第一次聽到的時候，真的會覺得這個觀念還蠻有趣的。"
+  },
+  {
+   "start": 167.87,
+   "end": 172.09,
+   "speaker": "Kalan",
+   "text": "人家可能歐美那邊就是 happy new year，"
+  },
+  {
+   "start": 172.09,
+   "end": 173.39,
+   "speaker": "Kalan",
+   "text": "但我們這個是"
+  },
+  {
+   "start": 174.15,
+   "end": 175.73,
+   "speaker": "Kalan",
+   "text": "恭喜你發財這樣子。"
+  },
+  {
+   "start": 175.73,
+   "end": 178.29,
+   "speaker": "Mooly",
+   "text": "剛講的我覺得算是一個程度上的差異吧，"
+  },
+  {
+   "start": 178.29,
+   "end": 179.59,
+   "speaker": "Mooly",
+   "text": "就比如說你剛講的那個"
+  },
+  {
+   "start": 179.59,
+   "end": 184.73,
+   "speaker": "Mooly",
+   "text": "抽籤的那個，財運之外，比如說可能有什麼事業啊、戀愛運啊什麼的，"
+  },
+  {
+   "start": 184.73,
+   "end": 185.91,
+   "speaker": "Mooly",
+   "text": "然後什麼身體健康什麼的，"
+  },
+  {
+   "start": 185.91,
+   "end": 187.37,
+   "speaker": "Mooly",
+   "text": "它就是每個都會有嘛，"
+  },
+  {
+   "start": 187.37,
+   "end": 192.45,
+   "speaker": "Mooly",
+   "text": "但是這個恭喜發財還是特別把這個發財拿出來講，就蠻有趣的。"
+  },
+  {
+   "start": 192.45,
+   "end": 194.97,
+   "speaker": "Kalan",
+   "text": "那我想要順便帶到"
+  },
+  {
+   "start": 194.97,
+   "end": 196.77,
+   "speaker": "Kalan",
+   "text": "你覺得講這件事情，"
+  },
+  {
+   "start": 196.77,
+   "end": 205.45,
+   "speaker": "Kalan",
+   "text": "然後他可能得出來一個結論是說，台灣人很愛錢，或者是這個華人很愛錢這件事情，"
+  },
+  {
+   "start": 205.45,
+   "end": 207.29,
+   "speaker": "Kalan",
+   "text": "你會怎麼想？"
+  },
+  {
+   "start": 207.29,
+   "end": 208.19,
+   "speaker": "Mooly",
+   "text": "我覺得，"
+  },
+  {
+   "start": 209.21,
+   "end": 215.49,
+   "speaker": "Mooly",
+   "text": "它中間可能有幾步需要補齊，這個脈絡可能才有辦法這樣講。"
+  },
+  {
+   "start": 215.49,
+   "end": 217.87,
+   "speaker": "Mooly",
+   "text": "首先我們知道恭喜發財是一個結果，"
+  },
+  {
+   "start": 217.87,
+   "end": 220.15,
+   "speaker": "Mooly",
+   "text": "就是它現在確實是這樣的一個現象，"
+  },
+  {
+   "start": 220.15,
+   "end": 221.49,
+   "speaker": "Mooly",
+   "text": "它到底是怎麼來的？"
+  },
+  {
+   "start": 221.49,
+   "end": 223.81,
+   "speaker": "Mooly",
+   "text": "搞不好有一些典故或什麼之類的。"
+  },
+  {
+   "start": 223.81,
+   "end": 230.79,
+   "speaker": "Mooly",
+   "text": "說不定這個恭喜發財，其實搞不好已經有人做過論文去研究，說為什麼新年要講恭喜發財或什麼的。"
+  },
+  {
+   "start": 230.79,
+   "end": 235.07,
+   "speaker": "Mooly",
+   "text": "如果要真的講出背後可能有什麼原因，我可能會想要再研究得更深一點，"
+  },
+  {
+   "start": 235.07,
+   "end": 237.31,
+   "speaker": "Mooly",
+   "text": "說不定會有一些更有趣的發現。"
+  },
+  {
+   "start": 237.31,
+   "end": 243.11,
+   "speaker": "Kalan",
+   "text": "你剛剛講的這個還蠻不錯的，說不定已經有人做完這個研究，"
+  },
+  {
+   "start": 243.11,
+   "end": 245.45,
+   "speaker": "Kalan",
+   "text": "然後他可能得到他的結論。"
+  },
+  {
+   "start": 247.07,
+   "end": 249.49,
+   "speaker": "Kalan",
+   "text": "好，那我們就暫且，"
+  },
+  {
+   "start": 249.49,
+   "end": 252.95,
+   "speaker": "Kalan",
+   "text": "因為不僅我們也不知道有沒有這個論文的存在，"
+  },
+  {
+   "start": 252.95,
+   "end": 254.37,
+   "speaker": "Mooly",
+   "text": "我剛稍微 google 了一下，"
+  },
+  {
+   "start": 254.37,
+   "end": 260.07,
+   "speaker": "Mooly",
+   "text": "看起來好像真的確實是有人特別研究過恭喜發財這個東西，"
+  },
+  {
+   "start": 261.31,
+   "end": 262.85,
+   "speaker": "Mooly",
+   "text": "而且看起來他，"
+  },
+  {
+   "start": 263.69,
+   "end": 266.65,
+   "speaker": "Mooly",
+   "text": "這篇網路文章還沒確定他的"
+  },
+  {
+   "start": 266.65,
+   "end": 275.69,
+   "speaker": "Mooly",
+   "text": "來源是真的，但他寫說這個是從廣州，廣州那邊來的，就是從中國那邊傳過來的，跟一些歷史典故有關。"
+  },
+  {
+   "start": 275.69,
+   "end": 276.91,
+   "speaker": "Kalan",
+   "text": "跟歷史典故有"
+  },
+  {
+   "start": 276.91,
+   "end": 284.53,
+   "speaker": "Mooly",
+   "text": "對，他說是因為廣州是靠海嘛，對不對，那時候在清朝的時候，就是一個開放的港口嘛，"
+  },
+  {
+   "start": 284.53,
+   "end": 288.75,
+   "speaker": "Mooly",
+   "text": "所以就有很多那種做商業、做貿易的人，"
+  },
+  {
+   "start": 288.75,
+   "end": 292.07,
+   "speaker": "Mooly",
+   "text": "那邊的人在過年的時候就會恭喜發財，"
+  },
+  {
+   "start": 292.07,
+   "end": 295.01,
+   "speaker": "Mooly",
+   "text": "因為是做，就是很商業的一個地區。"
+  },
+  {
+   "start": 295.01,
+   "end": 296.79,
+   "speaker": "Kalan",
+   "text": "喔，原來是這樣喔。"
+  },
+  {
+   "start": 296.79,
+   "end": 304.03,
+   "speaker": "Mooly",
+   "text": "有一個香港的一個做歷史的部落格是這樣講的。"
+  },
+  {
+   "start": 305.11,
+   "end": 305.71,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 305.71,
+   "end": 308.77,
+   "speaker": "Kalan",
+   "text": "那我覺得另外一個有趣的問題會是，"
+  },
+  {
+   "start": 308.77,
+   "end": 311.01,
+   "speaker": "Kalan",
+   "text": "如果我們今天不恭喜發財了，"
+  },
+  {
+   "start": 311.77,
+   "end": 312.89,
+   "speaker": "Kalan",
+   "text": "我們要恭喜什麼？"
+  },
+  {
+   "start": 312.89,
+   "end": 313.19,
+   "speaker": "Mooly",
+   "text": "那，"
+  },
+  {
+   "start": 313.19,
+   "end": 315.89,
+   "speaker": "Mooly",
+   "text": "就是恭喜恭喜，新年快樂嘛。"
+  },
+  {
+   "start": 318.79,
+   "end": 319.99,
+   "speaker": "Kalan",
+   "text": "我的話，"
+  },
+  {
+   "start": 320.67,
+   "end": 323.11,
+   "speaker": "Kalan",
+   "text": "我覺得到我們這個歲數，"
+  },
+  {
+   "start": 323.45,
+   "end": 324.23,
+   "speaker": "Kalan",
+   "text": "我會覺得，"
+  },
+  {
+   "start": 324.23,
+   "end": 328.17,
+   "speaker": "Kalan",
+   "text": "健康這件事情是很值得被恭喜的耶。"
+  },
+  {
+   "start": 328.17,
+   "end": 333.35,
+   "speaker": "Mooly",
+   "text": "如果你要說確實，最實用的確實是健康沒錯。"
+  },
+  {
+   "start": 334.25,
+   "end": 338.89,
+   "speaker": "Kalan",
+   "text": "恭喜健康聽起來好怪喔。"
+  },
+  {
+   "start": 338.89,
+   "end": 344.53,
+   "speaker": "Mooly",
+   "text": "對，它聽起來有點奇怪，它應該有更好的說法，但我一時也想不到。"
+  },
+  {
+   "start": 346.45,
+   "end": 353.15,
+   "speaker": "Kalan",
+   "text": "反正祝大家十二年行大運。"
+  },
+  {
+   "start": 353.15,
+   "end": 356.33,
+   "speaker": "Kalan",
+   "text": "那 Mooly 你這次過年有回台灣嗎？"
+  },
+  {
+   "start": 356.33,
+   "end": 357.09,
+   "speaker": "Mooly",
+   "text": "對，有。"
+  },
+  {
+   "start": 357.09,
+   "end": 358.11,
+   "speaker": "Kalan",
+   "text": "有齁。"
+  },
+  {
+   "start": 358.11,
+   "end": 359.33,
+   "speaker": "Kalan",
+   "text": "那我想要問一下，"
+  },
+  {
+   "start": 359.95,
+   "end": 360.47,
+   "speaker": "Kalan",
+   "text": "你的，"
+  },
+  {
+   "start": 361.13,
+   "end": 365.25,
+   "speaker": "Kalan",
+   "text": "你們家過年的行程是那種比較典型的嗎？"
+  },
+  {
+   "start": 365.25,
+   "end": 367.39,
+   "speaker": "Kalan",
+   "text": "就比如說這個除夕夜，"
+  },
+  {
+   "start": 367.93,
+   "end": 369.69,
+   "speaker": "Kalan",
+   "text": "回娘家之類的，"
+  },
+  {
+   "start": 369.69,
+   "end": 371.67,
+   "speaker": "Kalan",
+   "text": "是這些行程都會固定走完嗎？"
+  },
+  {
+   "start": 371.67,
+   "end": 373.31,
+   "speaker": "Mooly",
+   "text": "基本上會，"
+  },
+  {
+   "start": 373.31,
+   "end": 374.83,
+   "speaker": "Mooly",
+   "text": "但是順序不一定。"
+  },
+  {
+   "start": 374.83,
+   "end": 379.57,
+   "speaker": "Mooly",
+   "text": "因為比如說回我媽媽那邊是在宜蘭，"
+  },
+  {
+   "start": 379.57,
+   "end": 381.69,
+   "speaker": "Mooly",
+   "text": "然後宜蘭就是一個，"
+  },
+  {
+   "start": 382.19,
+   "end": 384.73,
+   "speaker": "Mooly",
+   "text": "基本上你什麼時候去都會塞車的地方，"
+  },
+  {
+   "start": 384.73,
+   "end": 387.91,
+   "speaker": "Mooly",
+   "text": "尤其是過年的時候，所以我們通常都會提早回去。"
+  },
+  {
+   "start": 388.71,
+   "end": 392.85,
+   "speaker": "Mooly",
+   "text": "所以這一次的話，是因為除夕是禮拜二，"
+  },
+  {
+   "start": 392.85,
+   "end": 395.51,
+   "speaker": "Mooly",
+   "text": "然後禮拜一其實就開始放假，"
+  },
+  {
+   "start": 395.51,
+   "end": 398.87,
+   "speaker": "Mooly",
+   "text": "所以你再往前推，是禮拜六就開始放假。"
+  },
+  {
+   "start": 398.87,
+   "end": 401.63,
+   "speaker": "Mooly",
+   "text": "所以那個時候禮拜六已經很多人出國或什麼了，"
+  },
+  {
+   "start": 401.63,
+   "end": 404.57,
+   "speaker": "Mooly",
+   "text": "所以我們是禮拜天的時候回來，"
+  },
+  {
+   "start": 404.57,
+   "end": 409.93,
+   "speaker": "Mooly",
+   "text": "然後運氣蠻好的，其實沒有塞車，可能要回去的都已經回去了。"
+  },
+  {
+   "start": 409.93,
+   "end": 418.09,
+   "speaker": "Mooly",
+   "text": "然後其他的就是什麼除夕、吃年夜飯什麼的，那個都差不多，算是偏傳統一點。"
+  },
+  {
+   "start": 418.09,
+   "end": 419.51,
+   "speaker": "Kalan",
+   "text": "OK，OK。"
+  },
+  {
+   "start": 419.51,
+   "end": 422.31,
+   "speaker": "Kalan",
+   "text": "你剛剛講到塞車那件事情，"
+  },
+  {
+   "start": 422.31,
+   "end": 428.53,
+   "speaker": "Kalan",
+   "text": "讓我想到，像過年或者是在日本新年也好，"
+  },
+  {
+   "start": 429.09,
+   "end": 432.57,
+   "speaker": "Kalan",
+   "text": "它都是一個蠻容易讓人聚集的，"
+  },
+  {
+   "start": 432.95,
+   "end": 434.51,
+   "speaker": "Kalan",
+   "text": "就大家都會很容易聚集，"
+  },
+  {
+   "start": 434.51,
+   "end": 438.91,
+   "speaker": "Kalan",
+   "text": "然後反而你如果要在那個時間點一起移動的話，"
+  },
+  {
+   "start": 438.91,
+   "end": 440.71,
+   "speaker": "Kalan",
+   "text": "就會多很多麻煩，"
+  },
+  {
+   "start": 440.71,
+   "end": 441.85,
+   "speaker": "Kalan",
+   "text": "比如說塞車，"
+  },
+  {
+   "start": 442.43,
+   "end": 446.81,
+   "speaker": "Kalan",
+   "text": "或者是你要花很多時間才可以從 A 點到 B 點。"
+  },
+  {
+   "start": 447.51,
+   "end": 449.43,
+   "speaker": "Kalan",
+   "text": "所以我那時候就覺得說，"
+  },
+  {
+   "start": 449.85,
+   "end": 454.03,
+   "speaker": "Kalan",
+   "text": "有時候你真的要過所謂的新年，"
+  },
+  {
+   "start": 454.03,
+   "end": 459.77,
+   "speaker": "Kalan",
+   "text": "你可能不一定要在別人訂好的那個時間點去做這件事情，"
+  },
+  {
+   "start": 459.77,
+   "end": 464.39,
+   "speaker": "Mooly",
+   "text": "不一定要照著那個原本的流程走，"
+  },
+  {
+   "start": 465.01,
+   "end": 468.37,
+   "speaker": "Kalan",
+   "text": "不一定新年才要回家。"
+  },
+  {
+   "start": 468.37,
+   "end": 469.91,
+   "speaker": "Mooly",
+   "text": "喔，我懂你那個意思，"
+  },
+  {
+   "start": 470.51,
+   "end": 473.01,
+   "speaker": "Kalan",
+   "text": "你可能想到的時候你就可以回家，"
+  },
+  {
+   "start": 473.01,
+   "end": 475.57,
+   "speaker": "Kalan",
+   "text": "不需要在那邊人擠人啊之類的。"
+  },
+  {
+   "start": 475.57,
+   "end": 478.37,
+   "speaker": "Kalan",
+   "text": "當然，或許有些人他們就是喜歡這樣的氣氛吧。"
+  },
+  {
+   "start": 478.37,
+   "end": 481.31,
+   "speaker": "Mooly",
+   "text": "對，就是一種儀式感的感覺吧，"
+  },
+  {
+   "start": 481.95,
+   "end": 486.75,
+   "speaker": "Mooly",
+   "text": "就像那種什麼聖誕節吃什麼聖誕大餐，也是這種感覺嘛，"
+  },
+  {
+   "start": 486.75,
+   "end": 491.21,
+   "speaker": "Mooly",
+   "text": "就是你其實一年 365 天，你也都可以這樣過、這樣吃大餐，"
+  },
+  {
+   "start": 491.21,
+   "end": 493.85,
+   "speaker": "Mooly",
+   "text": "但就是大家一起過的那種感覺，"
+  },
+  {
+   "start": 493.85,
+   "end": 496.51,
+   "speaker": "Mooly",
+   "text": "是只有那一天可能才會有的。"
+  },
+  {
+   "start": 496.51,
+   "end": 497.31,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 498.39,
+   "end": 501.09,
+   "speaker": "Kalan",
+   "text": "可能在台灣這個話題已經被，"
+  },
+  {
+   "start": 501.09,
+   "end": 503.09,
+   "speaker": "Kalan",
+   "text": "每次新年都一定會被講到爛掉，"
+  },
+  {
+   "start": 503.09,
+   "end": 505.47,
+   "speaker": "Kalan",
+   "text": "就是所謂的這個親戚的問候，"
+  },
+  {
+   "start": 506.15,
+   "end": 508.13,
+   "speaker": "Kalan",
+   "text": "什麼時候結婚啊？"
+  },
+  {
+   "start": 508.13,
+   "end": 509.91,
+   "speaker": "Kalan",
+   "text": "什麼時候買房子啊？"
+  },
+  {
+   "start": 510.39,
+   "end": 511.65,
+   "speaker": "Kalan",
+   "text": "你的薪水多少？"
+  },
+  {
+   "start": 512.35,
+   "end": 514.69,
+   "speaker": "Kalan",
+   "text": "什麼時候生小孩之類的。"
+  },
+  {
+   "start": 514.69,
+   "end": 520.77,
+   "speaker": "Kalan",
+   "text": "Mooly，你覺得你的原生家庭或者是親戚有這樣的現"
+  },
+  {
+   "start": 520.77,
+   "end": 522.09,
+   "speaker": "Kalan",
+   "text": "象嗎？"
+  },
+  {
+   "start": 522.09,
+   "end": 522.69,
+   "speaker": "Mooly",
+   "text": "有，"
+  },
+  {
+   "start": 523.31,
+   "end": 525.65,
+   "speaker": "Mooly",
+   "text": "有一點，但沒有很多。"
+  },
+  {
+   "start": 525.65,
+   "end": 526.29,
+   "speaker": "Mooly",
+   "text": "可是，"
+  },
+  {
+   "start": 526.95,
+   "end": 528.29,
+   "speaker": "Mooly",
+   "text": "其實我覺得這跟那個，"
+  },
+  {
+   "start": 530.37,
+   "end": 532.83,
+   "speaker": "Mooly",
+   "text": "就是你的親戚的規模大小有關，"
+  },
+  {
+   "start": 532.83,
+   "end": 535.79,
+   "speaker": "Mooly",
+   "text": "或是你的關係遠近有關。"
+  },
+  {
+   "start": 535.79,
+   "end": 545.33,
+   "speaker": "Mooly",
+   "text": "比如說，如果你是那種回老家過年的時候，有一堆那種平常不會見面的親戚都出現的話，我覺得好像會很常有這種狀況發生。"
+  },
+  {
+   "start": 545.33,
+   "end": 547.69,
+   "speaker": "Mooly",
+   "text": "那因為我們家親戚不多，"
+  },
+  {
+   "start": 547.69,
+   "end": 551.15,
+   "speaker": "Mooly",
+   "text": "然後有一些比較近的，是本來就有在聯絡的那種，"
+  },
+  {
+   "start": 551.15,
+   "end": 553.05,
+   "speaker": "Mooly",
+   "text": "就是不會只有過年才見面，"
+  },
+  {
+   "start": 553.05,
+   "end": 553.37,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 553.77,
+   "end": 555.03,
+   "speaker": "Mooly",
+   "text": "問這種問題的那個"
+  },
+  {
+   "start": 555.03,
+   "end": 557.23,
+   "speaker": "Mooly",
+   "text": "狀況就會少非常非常多。"
+  },
+  {
+   "start": 557.23,
+   "end": 557.97,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 558.61,
+   "end": 559.99,
+   "speaker": "Kalan",
+   "text": "其實我最近在想耶，"
+  },
+  {
+   "start": 559.99,
+   "end": 562.55,
+   "speaker": "Kalan",
+   "text": "就是有時候這些親戚他們，"
+  },
+  {
+   "start": 563.01,
+   "end": 565.45,
+   "speaker": "Kalan",
+   "text": "就你覺得這些很煩人的問題，"
+  },
+  {
+   "start": 566.03,
+   "end": 569.95,
+   "speaker": "Kalan",
+   "text": "可能是因為親戚不知道怎麼跟你溝通，"
+  },
+  {
+   "start": 571.63,
+   "end": 574.03,
+   "speaker": "Kalan",
+   "text": "所以他只好用一個這個，"
+  },
+  {
+   "start": 574.03,
+   "end": 577.31,
+   "speaker": "Kalan",
+   "text": "可能在他的認知裡面最適當的、"
+  },
+  {
+   "start": 577.31,
+   "end": 579.75,
+   "speaker": "Mooly",
+   "text": "最熟悉的方式嗎？"
+  },
+  {
+   "start": 579.75,
+   "end": 581.47,
+   "speaker": "Kalan",
+   "text": "最熟悉的方式，"
+  },
+  {
+   "start": 581.97,
+   "end": 583.37,
+   "speaker": "Kalan",
+   "text": "去問這些問題。"
+  },
+  {
+   "start": 583.37,
+   "end": 587.19,
+   "speaker": "Kalan",
+   "text": "所以他的本意或許是想關心你。"
+  },
+  {
+   "start": 588.39,
+   "end": 594.91,
+   "speaker": "Kalan",
+   "text": "當然也一定會有那些聽完你的心事，瞭解就算這樣而已，"
+  },
+  {
+   "start": 595.53,
+   "end": 598.81,
+   "speaker": "Kalan",
+   "text": "之類的，可能想酸之類的，"
+  },
+  {
+   "start": 599.39,
+   "end": 600.17,
+   "speaker": "Kalan",
+   "text": "也說不定。"
+  },
+  {
+   "start": 600.17,
+   "end": 607.77,
+   "speaker": "Kalan",
+   "text": "但有沒有另外一種可能性，就是他可能是想要關心你，只是他不知道有沒有一些更好的方式？"
+  },
+  {
+   "start": 607.77,
+   "end": 608.77,
+   "speaker": "Kalan",
+   "text": "當然，我覺得，"
+  },
+  {
+   "start": 609.37,
+   "end": 611.87,
+   "speaker": "Kalan",
+   "text": "如果我們想要讓整個過年的"
+  },
+  {
+   "start": 612.59,
+   "end": 613.53,
+   "speaker": "Kalan",
+   "text": "氛圍嗎，"
+  },
+  {
+   "start": 613.53,
+   "end": 614.65,
+   "speaker": "Kalan",
+   "text": "變得更好的話，"
+  },
+  {
+   "start": 615.17,
+   "end": 620.71,
+   "speaker": "Kalan",
+   "text": "當然除了把你問的問題可能有點討人厭這件事情給說出來之外，"
+  },
+  {
+   "start": 621.25,
+   "end": 622.65,
+   "speaker": "Kalan",
+   "text": "或許另外一個方式是，"
+  },
+  {
+   "start": 622.65,
+   "end": 627.93,
+   "speaker": "Kalan",
+   "text": "比如說問年薪、問什麼時候結婚、買房、生小孩等等，"
+  },
+  {
+   "start": 627.93,
+   "end": 633.63,
+   "speaker": "Kalan",
+   "text": "這件事情它是不那麼恰當，或者是相對讓人比較反感的話呢，"
+  },
+  {
+   "start": 633.63,
+   "end": 639.23,
+   "speaker": "Kalan",
+   "text": "那怎樣的問題會是一個身為經濟在過年問候時比較好的一個問題呢？"
+  },
+  {
+   "start": 640.81,
+   "end": 643.65,
+   "speaker": "Mooly",
+   "text": "感覺你要問候的話，不如就"
+  },
+  {
+   "start": 644.07,
+   "end": 651.39,
+   "speaker": "Mooly",
+   "text": "感覺用一個跟多年好友，或是甚至陌生人聊天的角度來講，可能會是比較舒服的。"
+  },
+  {
+   "start": 651.39,
+   "end": 654.23,
+   "speaker": "Mooly",
+   "text": "比如說一般會跟別人聊什麼，你可能就聊什麼，"
+  },
+  {
+   "start": 654.23,
+   "end": 657.21,
+   "speaker": "Mooly",
+   "text": "比如說聊最近在做什麼，"
+  },
+  {
+   "start": 657.63,
+   "end": 658.03,
+   "speaker": "Mooly",
+   "text": "然後，"
+  },
+  {
+   "start": 659.17,
+   "end": 663.43,
+   "speaker": "Mooly",
+   "text": "通常有些聊一些比較安全的，就是比如說聊一些劇、電影那種，"
+  },
+  {
+   "start": 664.75,
+   "end": 667.13,
+   "speaker": "Mooly",
+   "text": "這種是相對安全的，"
+  },
+  {
+   "start": 667.13,
+   "end": 667.57,
+   "speaker": "Mooly",
+   "text": "然後，"
+  },
+  {
+   "start": 668.07,
+   "end": 669.71,
+   "speaker": "Mooly",
+   "text": "但他不一定聊得起來，"
+  },
+  {
+   "start": 669.71,
+   "end": 674.51,
+   "speaker": "Mooly",
+   "text": "對吧？因為比如說如果對方就沒有在做一些事情的話，你就沒有東西可以聊，"
+  },
+  {
+   "start": 674.51,
+   "end": 675.75,
+   "speaker": "Mooly",
+   "text": "所以其實"
+  },
+  {
+   "start": 677.85,
+   "end": 680.79,
+   "speaker": "Mooly",
+   "text": "這好像跟怎麼聊天也有關係。"
+  },
+  {
+   "start": 682.21,
+   "end": 682.73,
+   "speaker": "Mooly",
+   "text": "對啊。"
+  },
+  {
+   "start": 682.73,
+   "end": 684.51,
+   "speaker": "Kalan",
+   "text": "所以我就想說，"
+  },
+  {
+   "start": 685.21,
+   "end": 689.91,
+   "speaker": "Kalan",
+   "text": "當然這會是原生家庭的狀況不同而定，"
+  },
+  {
+   "start": 689.91,
+   "end": 694.89,
+   "speaker": "Kalan",
+   "text": "但如果那麼多人他們回家過年，好像都是變成一種儀式嗎，"
+  },
+  {
+   "start": 694.89,
+   "end": 697.61,
+   "speaker": "Kalan",
+   "text": "或者是只是為了應付家人，"
+  },
+  {
+   "start": 697.61,
+   "end": 702.33,
+   "speaker": "Kalan",
+   "text": "然後要去忍受那些親戚的這種反感問候的話呢，"
+  },
+  {
+   "start": 702.33,
+   "end": 707.71,
+   "speaker": "Kalan",
+   "text": "那我就會懷疑，為什麼一定要為了配合這個所謂的傳統而去做這件事情？"
+  },
+  {
+   "start": 707.71,
+   "end": 710.67,
+   "speaker": "Kalan",
+   "text": "就說不定不回家也是一種選擇。"
+  },
+  {
+   "start": 710.67,
+   "end": 711.09,
+   "speaker": "Mooly",
+   "text": "對，"
+  },
+  {
+   "start": 711.09,
+   "end": 712.53,
+   "speaker": "Mooly",
+   "text": "這個也是一種選擇，"
+  },
+  {
+   "start": 712.53,
+   "end": 717.35,
+   "speaker": "Mooly",
+   "text": "但就是也要看每個人的取捨或什麼吧。"
+  },
+  {
+   "start": 717.35,
+   "end": 722.29,
+   "speaker": "Mooly",
+   "text": "就是比如說有些人回家可能是為了一種孝順的感覺嗎。"
+  },
+  {
+   "start": 722.29,
+   "end": 723.97,
+   "speaker": "Mooly",
+   "text": "嗯嗯，對對對。"
+  },
+  {
+   "start": 724.93,
+   "end": 728.03,
+   "speaker": "Kalan",
+   "text": "剛好把這些問題丟出來，"
+  },
+  {
+   "start": 728.03,
+   "end": 732.09,
+   "speaker": "Kalan",
+   "text": "就是想順便跟大家一起聊聊說，"
+  },
+  {
+   "start": 732.09,
+   "end": 733.59,
+   "speaker": "Kalan",
+   "text": "說不定過年，"
+  },
+  {
+   "start": 734.15,
+   "end": 739.11,
+   "speaker": "Kalan",
+   "text": "你可以不一定要做那些所謂傳統、別人在做的事情，"
+  },
+  {
+   "start": 739.11,
+   "end": 741.31,
+   "speaker": "Kalan",
+   "text": "如果你覺得親戚真的很討厭的話，"
+  },
+  {
+   "start": 741.85,
+   "end": 745.71,
+   "speaker": "Kalan",
+   "text": "不回家說不定會讓你更開心也說不定。"
+  },
+  {
+   "start": 745.71,
+   "end": 747.11,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯。"
+  },
+  {
+   "start": 747.99,
+   "end": 749.47,
+   "speaker": "Kalan",
+   "text": "好，那"
+  },
+  {
+   "start": 749.47,
+   "end": 751.81,
+   "speaker": "Kalan",
+   "text": "Mooly，你現在回日本了嗎？"
+  },
+  {
+   "start": 751.81,
+   "end": 753.09,
+   "speaker": "Mooly",
+   "text": "對沒錯，我現在在日本。"
+  },
+  {
+   "start": 753.09,
+   "end": 756.61,
+   "speaker": "Kalan",
+   "text": "那你要不要順便聊一下？"
+  },
+  {
+   "start": 757.25,
+   "end": 762.43,
+   "speaker": "Kalan",
+   "text": "因為我想說 Mooly 好像對機票這件事情有些研究，"
+  },
+  {
+   "start": 763.11,
+   "end": 764.97,
+   "speaker": "Kalan",
+   "text": "還是 Mooly 要來跟大家分享一下，"
+  },
+  {
+   "start": 764.97,
+   "end": 770.99,
+   "speaker": "Kalan",
+   "text": "就是如果你要從台灣飛回來日本，或者是從日本飛回來台灣，"
+  },
+  {
+   "start": 770.99,
+   "end": 773.31,
+   "speaker": "Kalan",
+   "text": "有哪些選擇，或者是有些"
+  },
+  {
+   "start": 773.31,
+   "end": 775.05,
+   "speaker": "Kalan",
+   "text": "撇步可以分享的？"
+  },
+  {
+   "start": 775.05,
+   "end": 778.83,
+   "speaker": "Mooly",
+   "text": "可以，其實也不太算研究，主要就是"
+  },
+  {
+   "start": 778.83,
+   "end": 781.87,
+   "speaker": "Mooly",
+   "text": "因為比如說我現在可能回台灣的時候都會"
+  },
+  {
+   "start": 782.93,
+   "end": 784.27,
+   "speaker": "Mooly",
+   "text": "因為假比較少嘛，"
+  },
+  {
+   "start": 784.27,
+   "end": 789.05,
+   "speaker": "Mooly",
+   "text": "所以通常可能會挑一些日本人在放假的時候，或是要嘛就是台灣過年這種，"
+  },
+  {
+   "start": 789.05,
+   "end": 791.21,
+   "speaker": "Mooly",
+   "text": "通常都會回去的時候"
+  },
+  {
+   "start": 791.21,
+   "end": 794.01,
+   "speaker": "Mooly",
+   "text": "買機票就變成是一個需要思考的課題。"
+  },
+  {
+   "start": 794.01,
+   "end": 794.39,
+   "speaker": "Mooly",
+   "text": "畢竟，"
+  },
+  {
+   "start": 794.89,
+   "end": 798.09,
+   "speaker": "Mooly",
+   "text": "比如說我下次回去，假設想挑那個黃金週好了，"
+  },
+  {
+   "start": 798.09,
+   "end": 799.75,
+   "speaker": "Mooly",
+   "text": "就日本五月的時候，"
+  },
+  {
+   "start": 800.39,
+   "end": 802.75,
+   "speaker": "Mooly",
+   "text": "比如說我直接買日本台灣來回機票的話，"
+  },
+  {
+   "start": 802.75,
+   "end": 805.01,
+   "speaker": "Mooly",
+   "text": "其實蠻貴的。"
+  },
+  {
+   "start": 805.01,
+   "end": 805.73,
+   "speaker": "Mooly",
+   "text": "我看過。"
+  },
+  {
+   "start": 805.73,
+   "end": 809.37,
+   "speaker": "Mooly",
+   "text": "然後這也取決於你是飛桃園還是飛松山，"
+  },
+  {
+   "start": 809.37,
+   "end": 811.09,
+   "speaker": "Mooly",
+   "text": "通常松山會比較貴一點。"
+  },
+  {
+   "start": 811.09,
+   "end": 813.07,
+   "speaker": "Kalan",
+   "text": "你說現在買，"
+  },
+  {
+   "start": 813.07,
+   "end": 815.21,
+   "speaker": "Kalan",
+   "text": "然後黃金週還是會很貴。"
+  },
+  {
+   "start": 815.21,
+   "end": 815.45,
+   "speaker": "Mooly",
+   "text": "對啊，"
+  },
+  {
+   "start": 816.55,
+   "end": 822.37,
+   "speaker": "Mooly",
+   "text": "因為黃金週已經是一個被預期到會很多人的時刻，"
+  },
+  {
+   "start": 822.37,
+   "end": 826.59,
+   "speaker": "Mooly",
+   "text": "所以早買晚買基本上價錢應該都差不多。"
+  },
+  {
+   "start": 826.59,
+   "end": 830.17,
+   "speaker": "Mooly",
+   "text": "你飛松山的話，基本上應該是必定比較貴一點，"
+  },
+  {
+   "start": 830.17,
+   "end": 832.19,
+   "speaker": "Mooly",
+   "text": "因為松山的需求量比較高，"
+  },
+  {
+   "start": 832.19,
+   "end": 835.97,
+   "speaker": "Mooly",
+   "text": "因為松山對那些商務客來說是比較方便的，"
+  },
+  {
+   "start": 835.97,
+   "end": 837.23,
+   "speaker": "Mooly",
+   "text": "因為機場比較近。"
+  },
+  {
+   "start": 837.23,
+   "end": 839.69,
+   "speaker": "Mooly",
+   "text": "然後桃園的話就是，"
+  },
+  {
+   "start": 839.69,
+   "end": 840.95,
+   "speaker": "Mooly",
+   "text": "飛機比較多，"
+  },
+  {
+   "start": 840.95,
+   "end": 842.71,
+   "speaker": "Mooly",
+   "text": "然後會比較便宜一點。"
+  },
+  {
+   "start": 842.71,
+   "end": 849.25,
+   "speaker": "Mooly",
+   "text": "那比如說像從我家去成田，可能要一個半小時左右，"
+  },
+  {
+   "start": 849.25,
+   "end": 855.25,
+   "speaker": "Mooly",
+   "text": "回到台灣桃園之後，要回台北，然後又要一段時間，可能又要一個小時，"
+  },
+  {
+   "start": 855.25,
+   "end": 856.71,
+   "speaker": "Mooly",
+   "text": "所以就比較不方便一點。"
+  },
+  {
+   "start": 856.71,
+   "end": 857.37,
+   "speaker": "Kalan",
+   "text": "那也差不多。"
+  },
+  {
+   "start": 857.37,
+   "end": 858.43,
+   "speaker": "Mooly",
+   "text": "對對對對對，"
+  },
+  {
+   "start": 858.43,
+   "end": 864.43,
+   "speaker": "Mooly",
+   "text": "所以比如說如果想飛松山的話，那可能現在，我記得如果你現在去買，比如說黃金週來回，"
+  },
+  {
+   "start": 864.43,
+   "end": 866.41,
+   "speaker": "Mooly",
+   "text": "日本出發來回機票的話，"
+  },
+  {
+   "start": 866.41,
+   "end": 869.69,
+   "speaker": "Mooly",
+   "text": "好像經濟艙也要個兩萬塊台幣左右。"
+  },
+  {
+   "start": 870.55,
+   "end": 874.13,
+   "speaker": "Mooly",
+   "text": "對吧，就是一個蠻貴的價格。"
+  },
+  {
+   "start": 874.13,
+   "end": 874.75,
+   "speaker": "Mooly",
+   "text": "有一種，"
+  },
+  {
+   "start": 874.75,
+   "end": 877.35,
+   "speaker": "Kalan",
+   "text": "是羽田飛松山嗎？"
+  },
+  {
+   "start": 877.35,
+   "end": 878.65,
+   "speaker": "Mooly",
+   "text": "對對對對對。"
+  },
+  {
+   "start": 878.65,
+   "end": 879.03,
+   "speaker": "Kalan",
+   "text": "OK，"
+  },
+  {
+   "start": 879.47,
+   "end": 880.39,
+   "speaker": "Mooly",
+   "text": "羽田飛松山。"
+  },
+  {
+   "start": 880.39,
+   "end": 882.11,
+   "speaker": "Mooly",
+   "text": "另外一種，"
+  },
+  {
+   "start": 882.11,
+   "end": 884.25,
+   "speaker": "Mooly",
+   "text": "就是這個是一種買法，"
+  },
+  {
+   "start": 884.25,
+   "end": 885.65,
+   "speaker": "Mooly",
+   "text": "就我在日本，"
+  },
+  {
+   "start": 885.65,
+   "end": 887.93,
+   "speaker": "Mooly",
+   "text": "然後我買日本台灣來回機票。"
+  },
+  {
+   "start": 888.53,
+   "end": 890.95,
+   "speaker": "Mooly",
+   "text": "那還有另外一種買法是，比如說，"
+  },
+  {
+   "start": 890.95,
+   "end": 895.23,
+   "speaker": "Mooly",
+   "text": "假設我已經決定我下次回台灣是 9 月好了，"
+  },
+  {
+   "start": 895.23,
+   "end": 895.93,
+   "speaker": "Mooly",
+   "text": "這樣子，"
+  },
+  {
+   "start": 896.49,
+   "end": 899.53,
+   "speaker": "Mooly",
+   "text": "先把我行程的後半段先，"
+  },
+  {
+   "start": 899.53,
+   "end": 903.53,
+   "speaker": "Mooly",
+   "text": "比如說我就先買台灣到日本的來回機票，"
+  },
+  {
+   "start": 903.53,
+   "end": 912.03,
+   "speaker": "Mooly",
+   "text": "那在買機票的時候，有一種最常見的買法，就比如說我現在在日本，我就買日本到台灣的來回機票，這非常普通，就像你要來台灣，"
+  },
+  {
+   "start": 912.03,
+   "end": 916.09,
+   "speaker": "Mooly",
+   "text": "就像你從台灣要去日本玩，也是一樣的買法。"
+  },
+  {
+   "start": 916.09,
+   "end": 919.99,
+   "speaker": "Mooly",
+   "text": "那有另外一種是，比如說我已經知道我下次什麼時候要回，"
+  },
+  {
+   "start": 919.99,
+   "end": 922.69,
+   "speaker": "Mooly",
+   "text": "什麼時候要再回一次日本，比如說 9 月好了，"
+  },
+  {
+   "start": 922.69,
+   "end": 924.97,
+   "speaker": "Mooly",
+   "text": "假設我 9 月要再回一次日本的話，"
+  },
+  {
+   "start": 924.97,
+   "end": 928.79,
+   "speaker": "Mooly",
+   "text": "那很明顯我就是需要有四段的機票嘛，"
+  },
+  {
+   "start": 928.79,
+   "end": 931.97,
+   "speaker": "Mooly",
+   "text": "對吧，就是這次五月的時候從日本到台灣，"
+  },
+  {
+   "start": 931.97,
+   "end": 933.01,
+   "speaker": "Mooly",
+   "text": "然後台灣回日本，"
+  },
+  {
+   "start": 933.01,
+   "end": 935.95,
+   "speaker": "Mooly",
+   "text": "然後 9 月的時候再從日本到台灣，"
+  },
+  {
+   "start": 935.95,
+   "end": 936.83,
+   "speaker": "Mooly",
+   "text": "然後台灣回日本，"
+  },
+  {
+   "start": 936.83,
+   "end": 937.59,
+   "speaker": "Mooly",
+   "text": "好，這樣子，"
+  },
+  {
+   "start": 937.59,
+   "end": 940.29,
+   "speaker": "Mooly",
+   "text": "所以總共有這四段，"
+  },
+  {
+   "start": 940.29,
+   "end": 941.59,
+   "speaker": "Mooly",
+   "text": "我現在有四段機票要買，"
+  },
+  {
+   "start": 942.13,
+   "end": 945.53,
+   "speaker": "Mooly",
+   "text": "那剛講的第一種買法，從日本到台灣，它就是前，"
+  },
+  {
+   "start": 945.53,
+   "end": 949.41,
+   "speaker": "Mooly",
+   "text": "就是前面兩段、後面兩段嘛，就是兩次來回，"
+  },
+  {
+   "start": 949.41,
+   "end": 950.43,
+   "speaker": "Mooly",
+   "text": "這非常普通。"
+  },
+  {
+   "start": 951.03,
+   "end": 953.13,
+   "speaker": "Mooly",
+   "text": "那還有另外一種買法，就是"
+  },
+  {
+   "start": 953.13,
+   "end": 955.77,
+   "speaker": "Mooly",
+   "text": "我買中間那兩段，"
+  },
+  {
+   "start": 955.77,
+   "end": 959.81,
+   "speaker": "Mooly",
+   "text": "就是我現在先買台北到日本來回，"
+  },
+  {
+   "start": 959.81,
+   "end": 963.87,
+   "speaker": "Mooly",
+   "text": "然後台北的去程是黃金周，"
+  },
+  {
+   "start": 963.87,
+   "end": 965.55,
+   "speaker": "Mooly",
+   "text": "我要回日本的那天，"
+  },
+  {
+   "start": 965.55,
+   "end": 968.73,
+   "speaker": "Mooly",
+   "text": "然後它的回程是我下次要回，"
+  },
+  {
+   "start": 969.21,
+   "end": 971.57,
+   "speaker": "Mooly",
+   "text": "下次要從日本回台灣的那天。"
+  },
+  {
+   "start": 971.57,
+   "end": 974.19,
+   "speaker": "Mooly",
+   "text": "就是 1、2、3、4，我把 2、3 先買好，"
+  },
+  {
+   "start": 974.19,
+   "end": 977.75,
+   "speaker": "Mooly",
+   "text": "然後之後 3、4 那個，"
+  },
+  {
+   "start": 977.75,
+   "end": 980.83,
+   "speaker": "Mooly",
+   "text": "我可以再把它接到我下一次，"
+  },
+  {
+   "start": 981.91,
+   "end": 984.63,
+   "speaker": "Mooly",
+   "text": "下一次回台灣的那個時間點。"
+  },
+  {
+   "start": 984.63,
+   "end": 985.25,
+   "speaker": "Mooly",
+   "text": "1 的話，"
+  },
+  {
+   "start": 985.79,
+   "end": 987.35,
+   "speaker": "Mooly",
+   "text": "你可以買單程機票，"
+  },
+  {
+   "start": 987.35,
+   "end": 990.17,
+   "speaker": "Mooly",
+   "text": "但是買單程機票通常會比較貴一點，"
+  },
+  {
+   "start": 990.17,
+   "end": 992.47,
+   "speaker": "Mooly",
+   "text": "因為來回票通常是比較便宜，"
+  },
+  {
+   "start": 992.47,
+   "end": 993.57,
+   "speaker": "Mooly",
+   "text": "除非你是買聯航啊，"
+  },
+  {
+   "start": 993.57,
+   "end": 994.45,
+   "speaker": "Mooly",
+   "text": "那個就另當別論。"
+  },
+  {
+   "start": 995.07,
+   "end": 998.33,
+   "speaker": "Mooly",
+   "text": "所以第一段機票通常最划算的地方是用里程，"
+  },
+  {
+   "start": 998.33,
+   "end": 1000.69,
+   "speaker": "Mooly",
+   "text": "就是用航空里程去開票，"
+  },
+  {
+   "start": 1000.69,
+   "end": 1005.15,
+   "speaker": "Mooly",
+   "text": "因為里程票基本上它的來回就是單程的兩倍，"
+  },
+  {
+   "start": 1005.15,
+   "end": 1007.77,
+   "speaker": "Mooly",
+   "text": "就是它需要的里程就是單程的兩倍，"
+  },
+  {
+   "start": 1007.77,
+   "end": 1010.35,
+   "speaker": "Mooly",
+   "text": "所以你其實開單程票是比較划算"
+  },
+  {
+   "start": 1010.35,
+   "end": 1011.17,
+   "speaker": "Mooly",
+   "text": "的選項。"
+  },
+  {
+   "start": 1011.17,
+   "end": 1013.35,
+   "speaker": "Mooly",
+   "text": "那這樣子的一個好處是，"
+  },
+  {
+   "start": 1013.35,
+   "end": 1015.23,
+   "speaker": "Mooly",
+   "text": "有些時段你從"
+  },
+  {
+   "start": 1015.23,
+   "end": 1018.29,
+   "speaker": "Mooly",
+   "text": "我剛講的那個買台灣到日本的來回機票，會比"
+  },
+  {
+   "start": 1018.29,
+   "end": 1020.61,
+   "speaker": "Mooly",
+   "text": "會比你從日本出發還要便宜。"
+  },
+  {
+   "start": 1020.61,
+   "end": 1022.31,
+   "speaker": "Mooly",
+   "text": "它通常是看那個"
+  },
+  {
+   "start": 1022.89,
+   "end": 1025.11,
+   "speaker": "Mooly",
+   "text": "算是看需求量或什麼決定吧。"
+  },
+  {
+   "start": 1025.11,
+   "end": 1025.77,
+   "speaker": "Mooly",
+   "text": "就比如說，"
+  },
+  {
+   "start": 1025.77,
+   "end": 1027.59,
+   "speaker": "Mooly",
+   "text": "你從台灣到日本，"
+  },
+  {
+   "start": 1028.15,
+   "end": 1030.19,
+   "speaker": "Mooly",
+   "text": "然後黃金周這個時間其實"
+  },
+  {
+   "start": 1030.19,
+   "end": 1031.85,
+   "speaker": "Kalan",
+   "text": "大家都還在上班，"
+  },
+  {
+   "start": 1032.35,
+   "end": 1033.93,
+   "speaker": "Mooly",
+   "text": "對，它就算是一個淡季，"
+  },
+  {
+   "start": 1033.93,
+   "end": 1036.01,
+   "speaker": "Mooly",
+   "text": "所以它可能會比較便宜一點。"
+  },
+  {
+   "start": 1036.01,
+   "end": 1038.19,
+   "speaker": "Mooly",
+   "text": "所以像我剛講的，比如說"
+  },
+  {
+   "start": 1038.19,
+   "end": 1039.63,
+   "speaker": "Mooly",
+   "text": "我如果把就是"
+  },
+  {
+   "start": 1040.19,
+   "end": 1041.67,
+   "speaker": "Mooly",
+   "text": "2、3 那段來回好了，"
+  },
+  {
+   "start": 1041.67,
+   "end": 1047.71,
+   "speaker": "Mooly",
+   "text": "2、3 那段來回它可能只要比如說 12000 或 13000 台幣，"
+  },
+  {
+   "start": 1047.71,
+   "end": 1051.37,
+   "speaker": "Mooly",
+   "text": "就可以買到 2、3 那段的機票，"
+  },
+  {
+   "start": 1051.37,
+   "end": 1055.01,
+   "speaker": "Mooly",
+   "text": "然後再搭配上 1 的話，你用里程去換，"
+  },
+  {
+   "start": 1055.01,
+   "end": 1057.51,
+   "speaker": "Mooly",
+   "text": "然後再搭配你叫這樣一直接下去，"
+  },
+  {
+   "start": 1057.51,
+   "end": 1064.59,
+   "speaker": "Mooly",
+   "text": "這樣子有可能會比你買日本到台灣的兩次來回機票還要便宜。"
+  },
+  {
+   "start": 1064.59,
+   "end": 1067.65,
+   "speaker": "Kalan",
+   "text": "這樣的原理是類似把比較貴的那一段"
+  },
+  {
+   "start": 1067.65,
+   "end": 1070.85,
+   "speaker": "Kalan",
+   "text": "用里程開掉的感覺嗎？"
+  },
+  {
+   "start": 1073.71,
+   "end": 1076.03,
+   "speaker": "Mooly",
+   "text": "它的大概念有點像是說，"
+  },
+  {
+   "start": 1076.03,
+   "end": 1077.17,
+   "speaker": "Mooly",
+   "text": "假設好了，"
+  },
+  {
+   "start": 1077.17,
+   "end": 1082.31,
+   "speaker": "Mooly",
+   "text": "假設你要從日本回台灣的時候，都是一個日本出發的熱門時段，"
+  },
+  {
+   "start": 1082.75,
+   "end": 1088.13,
+   "speaker": "Mooly",
+   "text": "比如說黃金周，或是某個熱門假期，比如說年末年始或什麼好了，"
+  },
+  {
+   "start": 1088.85,
+   "end": 1092.01,
+   "speaker": "Mooly",
+   "text": "那理論上它應該就會"
+  },
+  {
+   "start": 1092.01,
+   "end": 1093.39,
+   "speaker": "Mooly",
+   "text": "本來就比較貴嘛。"
+  },
+  {
+   "start": 1094.13,
+   "end": 1097.23,
+   "speaker": "Mooly",
+   "text": "你在那個時間點，你從日本到台灣玩，"
+  },
+  {
+   "start": 1097.23,
+   "end": 1101.21,
+   "speaker": "Mooly",
+   "text": "一定會比你從那個時間點，從台灣到日本還要貴。"
+  },
+  {
+   "start": 1101.21,
+   "end": 1103.45,
+   "speaker": "Mooly",
+   "text": "先假設這個前提為真好了，"
+  },
+  {
+   "start": 1103.45,
+   "end": 1104.95,
+   "speaker": "Mooly",
+   "text": "假設這點為真的話呢，"
+  },
+  {
+   "start": 1104.95,
+   "end": 1106.21,
+   "speaker": "Mooly",
+   "text": "我們就把它變成，"
+  },
+  {
+   "start": 1106.21,
+   "end": 1108.95,
+   "speaker": "Mooly",
+   "text": "你自己先開一段機票回去台灣之後，"
+  },
+  {
+   "start": 1108.95,
+   "end": 1113.19,
+   "speaker": "Mooly",
+   "text": "剩下的日本的熱門時間，都等於是你從台灣到日本玩，"
+  },
+  {
+   "start": 1113.75,
+   "end": 1115.89,
+   "speaker": "Mooly",
+   "text": "然後再回去的這種感覺。"
+  },
+  {
+   "start": 1116.67,
+   "end": 1122.31,
+   "speaker": "Mooly",
+   "text": "就他只是把出發地跟目的地顛倒了。"
+  },
+  {
+   "start": 1122.31,
+   "end": 1124.61,
+   "speaker": "Mooly",
+   "text": "這樣有時候會比較便宜。"
+  },
+  {
+   "start": 1124.61,
+   "end": 1125.31,
+   "speaker": "Mooly",
+   "text": "他不是"
+  },
+  {
+   "start": 1125.31,
+   "end": 1127.51,
+   "speaker": "Kalan",
+   "text": "always，"
+  },
+  {
+   "start": 1127.63,
+   "end": 1129.89,
+   "speaker": "Mooly",
+   "text": "都有作用，但它有時候會比較便宜。"
+  },
+  {
+   "start": 1132.93,
+   "end": 1139.45,
+   "speaker": "Mooly",
+   "text": "但這個前提是你要規劃好你下次什麼時候要再回去，不然你沒辦法先把它買好。"
+  },
+  {
+   "start": 1139.45,
+   "end": 1141.49,
+   "speaker": "Kalan",
+   "text": "感謝 Mooly 分享，"
+  },
+  {
+   "start": 1141.49,
+   "end": 1146.15,
+   "speaker": "Mooly",
+   "text": "之後可以查查看，如果有興趣的話。"
+  },
+  {
+   "start": 1146.15,
+   "end": 1151.41,
+   "speaker": "Kalan",
+   "text": "那這個就是 Mooly 的買機票 tips，"
+  },
+  {
+   "start": 1151.41,
+   "end": 1153.53,
+   "speaker": "Mooly",
+   "text": "機票小祕訣分享，"
+  },
+  {
+   "start": 1154.19,
+   "end": 1155.67,
+   "speaker": "Kalan",
+   "text": "小祕訣分享。"
+  },
+  {
+   "start": 1157.03,
+   "end": 1161.31,
+   "speaker": "Kalan",
+   "text": "好，那下一個主題有點，"
+  },
+  {
+   "start": 1161.89,
+   "end": 1166.03,
+   "speaker": "Kalan",
+   "text": "但是我順便聊一下我最近發生的一些事情好了。"
+  },
+  {
+   "start": 1166.03,
+   "end": 1169.39,
+   "speaker": "Kalan",
+   "text": "首先是我的部落格，"
+  },
+  {
+   "start": 1170.25,
+   "end": 1172.25,
+   "speaker": "Kalan",
+   "text": "我想要講一下我的部落格。"
+  },
+  {
+   "start": 1172.25,
+   "end": 1177.65,
+   "speaker": "Kalan",
+   "text": "我的部落格被 Google 移除索引了。"
+  },
+  {
+   "start": 1177.65,
+   "end": 1181.29,
+   "speaker": "Kalan",
+   "text": "那它移除索引有點像是，"
+  },
+  {
+   "start": 1181.29,
+   "end": 1186.05,
+   "speaker": "Kalan",
+   "text": "大概從去年 11 月的時候開始，"
+  },
+  {
+   "start": 1186.63,
+   "end": 1190.89,
+   "speaker": "Kalan",
+   "text": "就發現它有開始慢慢地把我的索引移除了一些。"
+  },
+  {
+   "start": 1191.57,
+   "end": 1196.59,
+   "speaker": "Kalan",
+   "text": "然後大概更早以前，再更早以前，大概 2024 年的 5 月開始，"
+  },
+  {
+   "start": 1197.19,
+   "end": 1199.75,
+   "speaker": "Kalan",
+   "text": "就有非常大的降曝光，"
+  },
+  {
+   "start": 1199.75,
+   "end": 1202.07,
+   "speaker": "Kalan",
+   "text": "就是非常明顯的那種降曝光。"
+  },
+  {
+   "start": 1202.77,
+   "end": 1206.47,
+   "speaker": "Kalan",
+   "text": "那其實這段時間我的結構啊，"
+  },
+  {
+   "start": 1206.97,
+   "end": 1209.33,
+   "speaker": "Kalan",
+   "text": "或者是內容啊什麼的，其實都沒有大改。"
+  },
+  {
+   "start": 1210.11,
+   "end": 1212.67,
+   "speaker": "Kalan",
+   "text": "然後我就很好奇到底原因是什麼。"
+  },
+  {
+   "start": 1215.17,
+   "end": 1218.13,
+   "speaker": "Kalan",
+   "text": "那通常如果你有在用 SEO，"
+  },
+  {
+   "start": 1218.13,
+   "end": 1220.51,
+   "speaker": "Kalan",
+   "text": "然後你有註冊所謂的，"
+  },
+  {
+   "start": 1220.51,
+   "end": 1224.33,
+   "speaker": "Kalan",
+   "text": "也不是註冊啦，就是登入 Google Search Console 的話，"
+  },
+  {
+   "start": 1224.33,
+   "end": 1228.79,
+   "speaker": "Kalan",
+   "text": "你可以在那個後台裡面看到說別人是用什麼關鍵字啊，"
+  },
+  {
+   "start": 1228.79,
+   "end": 1233.67,
+   "speaker": "Kalan",
+   "text": "以及這個 Google 在做爬蟲爬你的網站的時候遇到哪些問題，"
+  },
+  {
+   "start": 1233.67,
+   "end": 1235.15,
+   "speaker": "Kalan",
+   "text": "然後請你修正這樣子。"
+  },
+  {
+   "start": 1235.15,
+   "end": 1238.05,
+   "speaker": "Kalan",
+   "text": "雖然的確有遇到一些問題，"
+  },
+  {
+   "start": 1238.05,
+   "end": 1240.43,
+   "speaker": "Kalan",
+   "text": "但我有把它修正，跟"
+  },
+  {
+   "start": 1240.43,
+   "end": 1242.29,
+   "speaker": "Kalan",
+   "text": "後來就是不知道為什麼，"
+  },
+  {
+   "start": 1242.7,
+   "end": 1244.17,
+   "speaker": "Kalan",
+   "text": "Google 就是爬不到了。"
+  },
+  {
+   "start": 1244.17,
+   "end": 1249.69,
+   "speaker": "Kalan",
+   "text": "也不是爬不到，就是它會出現一個什麼「已檢索，但尚未建立索引」，"
+  },
+  {
+   "start": 1249.69,
+   "end": 1251.01,
+   "speaker": "Kalan",
+   "text": "這個文字，"
+  },
+  {
+   "start": 1251.01,
+   "end": 1253.47,
+   "speaker": "Kalan",
+   "text": "但背後原因就是不知道為什麼。"
+  },
+  {
+   "start": 1253.47,
+   "end": 1256.09,
+   "speaker": "Mooly",
+   "text": "所以現在也還是不知道原因，對不對？"
+  },
+  {
+   "start": 1256.62,
+   "end": 1258.23,
+   "speaker": "Kalan",
+   "text": "我現在還是不知道原因。"
+  },
+  {
+   "start": 1258.23,
+   "end": 1259.23,
+   "speaker": "Kalan",
+   "text": "然後，"
+  },
+  {
+   "start": 1260.06,
+   "end": 1265.53,
+   "speaker": "Kalan",
+   "text": "但是我因為這件事情去修了一下我的部落格，首先是我把"
+  },
+  {
+   "start": 1265.53,
+   "end": 1267.11,
+   "speaker": "Kalan",
+   "text": "反正就是之前用了一些"
+  },
+  {
+   "start": 1267.11,
+   "end": 1270.55,
+   "speaker": "Kalan",
+   "text": "比較舊的框架跟套件，就把它升級一下，"
+  },
+  {
+   "start": 1270.55,
+   "end": 1272.17,
+   "speaker": "Kalan",
+   "text": "然後重新設計，"
+  },
+  {
+   "start": 1272.17,
+   "end": 1273.67,
+   "speaker": "Kalan",
+   "text": "然後順便把"
+  },
+  {
+   "start": 1273.67,
+   "end": 1281.65,
+   "speaker": "Kalan",
+   "text": "因為我覺得之前的這個 routing、之前的這個 URL 有些不合理的地方，"
+  },
+  {
+   "start": 1281.65,
+   "end": 1283.49,
+   "speaker": "Kalan",
+   "text": "所以我就順便把它修了一下，"
+  },
+  {
+   "start": 1283.49,
+   "end": 1285.75,
+   "speaker": "Kalan",
+   "text": "然後設定了 301。"
+  },
+  {
+   "start": 1285.75,
+   "end": 1291.31,
+   "speaker": "Kalan",
+   "text": "有網友跟我推薦說可以換個網域試試看，"
+  },
+  {
+   "start": 1291.31,
+   "end": 1292.57,
+   "speaker": "Kalan",
+   "text": "那我試了，"
+  },
+  {
+   "start": 1292.93,
+   "end": 1295.39,
+   "speaker": "Kalan",
+   "text": "但我發現成效不是很好。"
+  },
+  {
+   "start": 1295.39,
+   "end": 1299.25,
+   "speaker": "Kalan",
+   "text": "就雖然好像隔了一兩天的確有被索引回來，"
+  },
+  {
+   "start": 1299.25,
+   "end": 1301.33,
+   "speaker": "Kalan",
+   "text": "然後再過了一兩天之後，"
+  },
+  {
+   "start": 1301.87,
+   "end": 1304.87,
+   "speaker": "Kalan",
+   "text": "Google 直接把我的那個索引直接拔掉。"
+  },
+  {
+   "start": 1305.65,
+   "end": 1307.67,
+   "speaker": "Kalan",
+   "text": "以前我們都常講說，"
+  },
+  {
+   "start": 1307.67,
+   "end": 1309.61,
+   "speaker": "Kalan",
+   "text": "我們應該要有自己的 blog，"
+  },
+  {
+   "start": 1309.61,
+   "end": 1313.37,
+   "speaker": "Kalan",
+   "text": "就如果你是開發者的話，通常會同意這句話。"
+  },
+  {
+   "start": 1313.37,
+   "end": 1317.31,
+   "speaker": "Kalan",
+   "text": "Google 這樣的政策嗎，或者是這樣的行為，"
+  },
+  {
+   "start": 1317.31,
+   "end": 1322.59,
+   "speaker": "Kalan",
+   "text": "又讓我重新思考說，如果今天我是在平台寫這些東西的話，"
+  },
+  {
+   "start": 1322.59,
+   "end": 1326.25,
+   "speaker": "Kalan",
+   "text": "或許我就不會被移除索引了。"
+  },
+  {
+   "start": 1327.41,
+   "end": 1330.35,
+   "speaker": "Mooly",
+   "text": "確實，你說如果寫在一個既有平台的話，"
+  },
+  {
+   "start": 1330.35,
+   "end": 1333.13,
+   "speaker": "Mooly",
+   "text": "譬如說 Google 自己的平台那種，"
+  },
+  {
+   "start": 1333.13,
+   "end": 1335.75,
+   "speaker": "Kalan",
+   "text": "Google 自己的平台，或者是所謂的 Medium。"
+  },
+  {
+   "start": 1336.95,
+   "end": 1338.15,
+   "speaker": "Mooly",
+   "text": "對對對。"
+  },
+  {
+   "start": 1338.15,
+   "end": 1339.75,
+   "speaker": "Mooly",
+   "text": "我剛突然想到就是，"
+  },
+  {
+   "start": 1339.75,
+   "end": 1342.91,
+   "speaker": "Mooly",
+   "text": "因為比如說通常你看你的網站有什麼 SEO 問題，"
+  },
+  {
+   "start": 1342.91,
+   "end": 1345.37,
+   "speaker": "Mooly",
+   "text": "你就去看那個 Google Search Console 嘛，對不對？"
+  },
+  {
+   "start": 1345.37,
+   "end": 1347.67,
+   "speaker": "Kalan",
+   "text": "對，我是去看 Search Console 沒錯。"
+  },
+  {
+   "start": 1347.67,
+   "end": 1349.35,
+   "speaker": "Mooly",
+   "text": "然後有一些那個，"
+  },
+  {
+   "start": 1349.81,
+   "end": 1351.95,
+   "speaker": "Mooly",
+   "text": "third party 的一些工具好像也可以，"
+  },
+  {
+   "start": 1351.95,
+   "end": 1353.07,
+   "speaker": "Mooly",
+   "text": "可以試一下，"
+  },
+  {
+   "start": 1353.07,
+   "end": 1358.57,
+   "speaker": "Mooly",
+   "text": "它通常有時候會給一些更多、更廣泛的建議可以參考，"
+  },
+  {
+   "start": 1358.57,
+   "end": 1359.77,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 1359.77,
+   "end": 1362.67,
+   "speaker": "Mooly",
+   "text": "有各種啦，剛剛我有貼給你一個那個。"
+  },
+  {
+   "start": 1362.67,
+   "end": 1363.49,
+   "speaker": "Kalan",
+   "text": "喔，有。"
+  },
+  {
+   "start": 1363.49,
+   "end": 1364.11,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1364.11,
+   "end": 1371.59,
+   "speaker": "Mooly",
+   "text": "這個 Ahrefs 的這個好像是一個也蠻有名的，之前我有用過，雖然我"
+  },
+  {
+   "start": 1371.59,
+   "end": 1378.01,
+   "speaker": "Mooly",
+   "text": "它給的報告我沒有很認真看，但我有偶爾看一下，就是它通常好像會給一些更多建議。"
+  },
+  {
+   "start": 1378.01,
+   "end": 1378.77,
+   "speaker": "Mooly",
+   "text": "這個也可以。"
+  },
+  {
+   "start": 1379.27,
+   "end": 1380.35,
+   "speaker": "Kalan",
+   "text": "喔，了解。"
+  },
+  {
+   "start": 1380.35,
+   "end": 1386.47,
+   "speaker": "Mooly",
+   "text": "試一下，說不定它會知道為什麼，或是有更多建議之類的。"
+  },
+  {
+   "start": 1386.47,
+   "end": 1388.89,
+   "speaker": "Kalan",
+   "text": "好呀好呀，那我也來試試看。"
+  },
+  {
+   "start": 1389.87,
+   "end": 1391.59,
+   "speaker": "Kalan",
+   "text": "但怎麼講，"
+  },
+  {
+   "start": 1391.59,
+   "end": 1396.17,
+   "speaker": "Kalan",
+   "text": "就算我的網站真的某些地方有問題好了，"
+  },
+  {
+   "start": 1396.17,
+   "end": 1401.71,
+   "speaker": "Kalan",
+   "text": "我覺得也不至於說要直接把我的所有文章全部都拿掉。"
+  },
+  {
+   "start": 1402.15,
+   "end": 1405.95,
+   "speaker": "Kalan",
+   "text": "就我自己的想法是，maybe 我的某一個文章，"
+  },
+  {
+   "start": 1405.95,
+   "end": 1407.95,
+   "speaker": "Kalan",
+   "text": "或者是結構等等，"
+  },
+  {
+   "start": 1407.95,
+   "end": 1410.21,
+   "speaker": "Kalan",
+   "text": "踩到了 Google 的某一個判定，"
+  },
+  {
+   "start": 1410.21,
+   "end": 1411.63,
+   "speaker": "Kalan",
+   "text": "導致這樣的結果，"
+  },
+  {
+   "start": 1412.23,
+   "end": 1415.51,
+   "speaker": "Kalan",
+   "text": "而不是真的內容出了什麼太大的問題。"
+  },
+  {
+   "start": 1415.51,
+   "end": 1417.09,
+   "speaker": "Kalan",
+   "text": "不然你看像現在什麼，"
+  },
+  {
+   "start": 1417.09,
+   "end": 1421.51,
+   "speaker": "Kalan",
+   "text": "當然不是說什麼 AI 就一定是比較不好的文章，"
+  },
+  {
+   "start": 1421.51,
+   "end": 1424.97,
+   "speaker": "Kalan",
+   "text": "但目前很多那種 AI 產出來的那種文章，"
+  },
+  {
+   "start": 1424.97,
+   "end": 1428.13,
+   "speaker": "Kalan",
+   "text": "的確它的品質都不太好，然後沒有什麼幫助，"
+  },
+  {
+   "start": 1428.13,
+   "end": 1431.63,
+   "speaker": "Kalan",
+   "text": "但它卻是佔了搜尋結果的前景這樣。"
+  },
+  {
+   "start": 1431.63,
+   "end": 1433.61,
+   "speaker": "Mooly",
+   "text": "對對，沒錯沒錯。"
+  },
+  {
+   "start": 1433.61,
+   "end": 1437.27,
+   "speaker": "Kalan",
+   "text": "所以我覺得這件事情有點不合理。"
+  },
+  {
+   "start": 1437.27,
+   "end": 1439.75,
+   "speaker": "Kalan",
+   "text": "然後也讓我重新思考了說，"
+  },
+  {
+   "start": 1439.75,
+   "end": 1442.59,
+   "speaker": "Kalan",
+   "text": "基本上你做 SEO 或者做網站，"
+  },
+  {
+   "start": 1442.59,
+   "end": 1444.95,
+   "speaker": "Kalan",
+   "text": "大部分可能都還是用 Google，"
+  },
+  {
+   "start": 1444.95,
+   "end": 1448.09,
+   "speaker": "Kalan",
+   "text": "所以會變得有點被綁架的感覺，"
+  },
+  {
+   "start": 1448.09,
+   "end": 1451.43,
+   "speaker": "Kalan",
+   "text": "就如果今天 Google 的政策一改變，你可能就要去配合它。"
+  },
+  {
+   "start": 1452.07,
+   "end": 1458.91,
+   "speaker": "Kalan",
+   "text": "我想說好，那不然我就先繼續我目前的網站，"
+  },
+  {
+   "start": 1458.91,
+   "end": 1461.29,
+   "speaker": "Kalan",
+   "text": "然後就不管了，"
+  },
+  {
+   "start": 1461.29,
+   "end": 1463.25,
+   "speaker": "Kalan",
+   "text": "就看能怎麼改就怎麼改，"
+  },
+  {
+   "start": 1463.25,
+   "end": 1466.51,
+   "speaker": "Kalan",
+   "text": "但也不要花太多的心力，或者是就給它"
+  },
+  {
+   "start": 1466.51,
+   "end": 1467.93,
+   "speaker": "Kalan",
+   "text": "硬剛到底等等。"
+  },
+  {
+   "start": 1467.93,
+   "end": 1472.05,
+   "speaker": "Mooly",
+   "text": "我覺得剛剛講的有一點其實蠻對的，"
+  },
+  {
+   "start": 1472.05,
+   "end": 1473.61,
+   "speaker": "Mooly",
+   "text": "就是確實，"
+  },
+  {
+   "start": 1473.61,
+   "end": 1475.65,
+   "speaker": "Mooly",
+   "text": "就因為比如說 Google 的那個，"
+  },
+  {
+   "start": 1475.65,
+   "end": 1479.63,
+   "speaker": "Mooly",
+   "text": "它到底怎麼 index，或怎樣會比較前面，有些其實是一個"
+  },
+  {
+   "start": 1480.25,
+   "end": 1481.89,
+   "speaker": "Mooly",
+   "text": "黑箱的演算法，"
+  },
+  {
+   "start": 1481.89,
+   "end": 1484.97,
+   "speaker": "Mooly",
+   "text": "所以它也不會跟你講說它背後到底是怎麼樣，"
+  },
+  {
+   "start": 1484.97,
+   "end": 1486.67,
+   "speaker": "Mooly",
+   "text": "你只能盡可能做一些東西，"
+  },
+  {
+   "start": 1486.67,
+   "end": 1487.05,
+   "speaker": "Mooly",
+   "text": "然後，"
+  },
+  {
+   "start": 1487.73,
+   "end": 1491.11,
+   "speaker": "Mooly",
+   "text": "如果有碰到這種你就是突然被移掉，"
+  },
+  {
+   "start": 1491.11,
+   "end": 1493.29,
+   "speaker": "Mooly",
+   "text": "然後它也沒有什麼通知，什麼都沒有的話，"
+  },
+  {
+   "start": 1493.29,
+   "end": 1495.49,
+   "speaker": "Mooly",
+   "text": "就確實也蠻"
+  },
+  {
+   "start": 1495.49,
+   "end": 1496.71,
+   "speaker": "Mooly",
+   "text": "蠻挫折的，"
+  },
+  {
+   "start": 1496.71,
+   "end": 1500.51,
+   "speaker": "Mooly",
+   "text": "就會開始懷疑這東西，尤其是你剛講的"
+  },
+  {
+   "start": 1500.51,
+   "end": 1503.71,
+   "speaker": "Mooly",
+   "text": "就是有點被 Google 綁架的感覺。"
+  },
+  {
+   "start": 1503.71,
+   "end": 1505.31,
+   "speaker": "Mooly",
+   "text": "他怎麼說，你就怎麼做。"
+  },
+  {
+   "start": 1505.31,
+   "end": 1510.59,
+   "speaker": "Mooly",
+   "text": "然後弄了也還是沒辦法好的話，就也不太知道該怎麼繼續"
+  },
+  {
+   "start": 1510.59,
+   "end": 1511.87,
+   "speaker": "Mooly",
+   "text": "繼續弄。"
+  },
+  {
+   "start": 1512.55,
+   "end": 1512.81,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 1512.81,
+   "end": 1518.57,
+   "speaker": "Kalan",
+   "text": "所以我有一些之後可能會想要試試看的方法。"
+  },
+  {
+   "start": 1518.57,
+   "end": 1522.71,
+   "speaker": "Kalan",
+   "text": "首先第一個就是，我不確定這是不是件好事，"
+  },
+  {
+   "start": 1522.71,
+   "end": 1523.07,
+   "speaker": "Kalan",
+   "text": "但是，"
+  },
+  {
+   "start": 1523.67,
+   "end": 1524.53,
+   "speaker": "Kalan",
+   "text": "我發現，"
+  },
+  {
+   "start": 1524.53,
+   "end": 1528.05,
+   "speaker": "Kalan",
+   "text": "像是 Threads 或者是 Twitter，"
+  },
+  {
+   "start": 1528.05,
+   "end": 1531.97,
+   "speaker": "Kalan",
+   "text": "他們有時候搜尋結果會意外排得蠻高的。"
+  },
+  {
+   "start": 1533.55,
+   "end": 1536.99,
+   "speaker": "Kalan",
+   "text": "那或許我就可以利用這一點，我就把我的文章"
+  },
+  {
+   "start": 1537.61,
+   "end": 1542.15,
+   "speaker": "Kalan",
+   "text": "寫多一點東西，然後把它放到社群平台，"
+  },
+  {
+   "start": 1542.15,
+   "end": 1546.61,
+   "speaker": "Kalan",
+   "text": "讓社群平台的 SEO 幫我間接地曝光。"
+  },
+  {
+   "start": 1546.61,
+   "end": 1549.29,
+   "speaker": "Kalan",
+   "text": "雖然這件事情對讀者來說，它不一定是"
+  },
+  {
+   "start": 1549.85,
+   "end": 1551.27,
+   "speaker": "Kalan",
+   "text": "體驗不一定是最好的。"
+  },
+  {
+   "start": 1551.95,
+   "end": 1553.73,
+   "speaker": "Kalan",
+   "text": "那另外一件事情是，"
+  },
+  {
+   "start": 1553.73,
+   "end": 1555.69,
+   "speaker": "Kalan",
+   "text": "你可以不要用 Google，"
+  },
+  {
+   "start": 1556.35,
+   "end": 1559.45,
+   "speaker": "Kalan",
+   "text": "就比如說有 DuckDuckGo 啊，或者是 Bing，"
+  },
+  {
+   "start": 1559.45,
+   "end": 1564.01,
+   "speaker": "Kalan",
+   "text": "Bing 現在也收錄得到我的網站，或者是其他的搜尋引擎等等。"
+  },
+  {
+   "start": 1564.57,
+   "end": 1567.11,
+   "speaker": "Kalan",
+   "text": "我今天滿不理解的一點就是，"
+  },
+  {
+   "start": 1567.11,
+   "end": 1572.67,
+   "speaker": "Kalan",
+   "text": "今天 DuckDuckGo 它的確是可以很順利地爬得到我的網站，"
+  },
+  {
+   "start": 1572.67,
+   "end": 1574.25,
+   "speaker": "Kalan",
+   "text": "那 Bing 也是一樣。"
+  },
+  {
+   "start": 1575.27,
+   "end": 1578.31,
+   "speaker": "Kalan",
+   "text": "所以很明顯就是 Google 那邊一定有一些，"
+  },
+  {
+   "start": 1578.99,
+   "end": 1580.63,
+   "speaker": "Kalan",
+   "text": "就他們的演算法。"
+  },
+  {
+   "start": 1580.63,
+   "end": 1582.07,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯沒錯。"
+  },
+  {
+   "start": 1582.07,
+   "end": 1584.09,
+   "speaker": "Kalan",
+   "text": "對，所以可能另外一件事情就是，"
+  },
+  {
+   "start": 1584.09,
+   "end": 1587.55,
+   "speaker": "Kalan",
+   "text": "欸，我可以叫大家來用用看 DuckDuckGo。"
+  },
+  {
+   "start": 1587.55,
+   "end": 1589.61,
+   "speaker": "Mooly",
+   "text": "對，用用看別的搜尋器。"
+  },
+  {
+   "start": 1590.23,
+   "end": 1595.39,
+   "speaker": "Kalan",
+   "text": "對，或許會有新的體驗，或者是新的世界說不定。"
+  },
+  {
+   "start": 1595.39,
+   "end": 1597.27,
+   "speaker": "Mooly",
+   "text": "嗯嗯，確實。"
+  },
+  {
+   "start": 1597.27,
+   "end": 1597.83,
+   "speaker": "Kalan",
+   "text": "欸，那"
+  },
+  {
+   "start": 1598.51,
+   "end": 1601.17,
+   "speaker": "Kalan",
+   "text": "Mooly 你目前有在經營部落格嗎？"
+  },
+  {
+   "start": 1601.17,
+   "end": 1605.33,
+   "speaker": "Kalan",
+   "text": "那我想順便問問看，你有沒有遇到類似的情形，還是就是"
+  },
+  {
+   "start": 1606.19,
+   "end": 1607.15,
+   "speaker": "Kalan",
+   "text": "沒有什麼，"
+  },
+  {
+   "start": 1607.87,
+   "end": 1609.03,
+   "speaker": "Kalan",
+   "text": "怎麼講，沒有什麼，"
+  },
+  {
+   "start": 1609.79,
+   "end": 1612.15,
+   "speaker": "Kalan",
+   "text": "沒有遇到什麼太特別的狀況。"
+  },
+  {
+   "start": 1612.89,
+   "end": 1616.43,
+   "speaker": "Mooly",
+   "text": "目前好像沒有碰到太特別的狀況，"
+  },
+  {
+   "start": 1616.43,
+   "end": 1622.21,
+   "speaker": "Mooly",
+   "text": "因為我也是偶爾才看一下那些 Search Console 或什麼之類的，"
+  },
+  {
+   "start": 1622.21,
+   "end": 1630.15,
+   "speaker": "Mooly",
+   "text": "然後就是至少沒有那種突然變很低或突然變很高的狀況。"
+  },
+  {
+   "start": 1630.15,
+   "end": 1633.39,
+   "speaker": "Mooly",
+   "text": "就是算是一直都"
+  },
+  {
+   "start": 1634.59,
+   "end": 1635.91,
+   "speaker": "Mooly",
+   "text": "也不算維持，"
+  },
+  {
+   "start": 1636.81,
+   "end": 1640.95,
+   "speaker": "Mooly",
+   "text": "最近半年一年發文頻率下降，是確實有比較低一點，"
+  },
+  {
+   "start": 1640.95,
+   "end": 1649.71,
+   "speaker": "Mooly",
+   "text": "但就是不會像你那種，比如說整個掉下來，就是整個網域被黑單或什麼那種感覺。"
+  },
+  {
+   "start": 1649.71,
+   "end": 1654.63,
+   "speaker": "Kalan",
+   "text": "好，那這就是我最近遇到的事情。"
+  },
+  {
+   "start": 1655.11,
+   "end": 1658.09,
+   "speaker": "Kalan",
+   "text": "最近發生一些小事情，跟大家分享一下。"
+  },
+  {
+   "start": 1659.73,
+   "end": 1661.65,
+   "speaker": "Kalan",
+   "text": "那從結論上來說，"
+  },
+  {
+   "start": 1661.65,
+   "end": 1665.21,
+   "speaker": "Kalan",
+   "text": "如果你今天想要經營一個部落格的話，"
+  },
+  {
+   "start": 1668.43,
+   "end": 1671.33,
+   "speaker": "Kalan",
+   "text": "我們還是很推薦，"
+  },
+  {
+   "start": 1671.33,
+   "end": 1673.99,
+   "speaker": "Kalan",
+   "text": "我們還是會很推薦你去用，"
+  },
+  {
+   "start": 1674.69,
+   "end": 1675.93,
+   "speaker": "Kalan",
+   "text": "可能自己架一個。"
+  },
+  {
+   "start": 1676.53,
+   "end": 1678.51,
+   "speaker": "Kalan",
+   "text": "那當然用平台的好處就是，"
+  },
+  {
+   "start": 1679.19,
+   "end": 1682.07,
+   "speaker": "Kalan",
+   "text": "它可以很快地開始做部落格，"
+  },
+  {
+   "start": 1682.07,
+   "end": 1684.07,
+   "speaker": "Kalan",
+   "text": "就寫文章這件事情。"
+  },
+  {
+   "start": 1684.77,
+   "end": 1687.09,
+   "speaker": "Kalan",
+   "text": "Mooly 你現在還是一樣同樣的想法，"
+  },
+  {
+   "start": 1687.69,
+   "end": 1688.17,
+   "speaker": "Mooly",
+   "text": "你說"
+  },
+  {
+   "start": 1690.35,
+   "end": 1693.35,
+   "speaker": "Mooly",
+   "text": "就是自己架還是部落格平台這個嗎？"
+  },
+  {
+   "start": 1693.35,
+   "end": 1694.43,
+   "speaker": "Kalan",
+   "text": "對對對。"
+  },
+  {
+   "start": 1694.43,
+   "end": 1696.47,
+   "speaker": "Mooly",
+   "text": "我覺得如果你想要快速開始的話，"
+  },
+  {
+   "start": 1697.29,
+   "end": 1699.41,
+   "speaker": "Mooly",
+   "text": "找現成的當然是最快嘛。"
+  },
+  {
+   "start": 1700.97,
+   "end": 1708.47,
+   "speaker": "Mooly",
+   "text": "這個其實要看你的背景，比如說如果你本來就不碰寫 code、不碰技術的話，"
+  },
+  {
+   "start": 1708.93,
+   "end": 1714.05,
+   "speaker": "Mooly",
+   "text": "你直接用 WordPress 算是最快最方便的一個事情，"
+  },
+  {
+   "start": 1714.05,
+   "end": 1715.97,
+   "speaker": "Mooly",
+   "text": "畢竟各種 plugin 給你用。"
+  },
+  {
+   "start": 1716.51,
+   "end": 1720.41,
+   "speaker": "Mooly",
+   "text": "但比如說如果你是開發者，或平常在寫 code 的話，我覺得，"
+  },
+  {
+   "start": 1721.01,
+   "end": 1722.45,
+   "speaker": "Mooly",
+   "text": "從一開始就自己架，"
+  },
+  {
+   "start": 1722.45,
+   "end": 1723.63,
+   "speaker": "Mooly",
+   "text": "也是一個選擇，"
+  },
+  {
+   "start": 1723.63,
+   "end": 1723.95,
+   "speaker": "Mooly",
+   "text": "畢竟，"
+  },
+  {
+   "start": 1724.53,
+   "end": 1726.21,
+   "speaker": "Mooly",
+   "text": "你其實自己架一個也蠻快的，"
+  },
+  {
+   "start": 1726.21,
+   "end": 1729.61,
+   "speaker": "Mooly",
+   "text": "然後他掌握權比較高一點，"
+  },
+  {
+   "start": 1730.37,
+   "end": 1734.31,
+   "speaker": "Mooly",
+   "text": "所以如果對開發者來說，我還是會推薦自己，"
+  },
+  {
+   "start": 1734.31,
+   "end": 1735.83,
+   "speaker": "Mooly",
+   "text": "自己架一個。"
+  },
+  {
+   "start": 1735.83,
+   "end": 1736.07,
+   "speaker": "Kalan",
+   "text": "嗯，"
+  },
+  {
+   "start": 1736.67,
+   "end": 1737.77,
+   "speaker": "Kalan",
+   "text": "對，的確，"
+  },
+  {
+   "start": 1738.45,
+   "end": 1742.17,
+   "speaker": "Kalan",
+   "text": "掌握權這件事情其實蠻重要的，"
+  },
+  {
+   "start": 1742.69,
+   "end": 1747.03,
+   "speaker": "Kalan",
+   "text": "因為比如說有些平台它可能就是會做一些內容審查，"
+  },
+  {
+   "start": 1747.77,
+   "end": 1752.17,
+   "speaker": "Kalan",
+   "text": "或者是你也可能會遇到像我類似的問題，"
+  },
+  {
+   "start": 1752.67,
+   "end": 1756.27,
+   "speaker": "Kalan",
+   "text": "比如說可能平台不高興就直接把你鎖起來，"
+  },
+  {
+   "start": 1756.27,
+   "end": 1758.03,
+   "speaker": "Kalan",
+   "text": "或者是降流量等等。"
+  },
+  {
+   "start": 1758.03,
+   "end": 1761.77,
+   "speaker": "Kalan",
+   "text": "雖然說我今天自己家，我也遇到被 Google 降流量，"
+  },
+  {
+   "start": 1761.77,
+   "end": 1763.95,
+   "speaker": "Kalan",
+   "text": "但至少我還有其他的搜尋引擎，"
+  },
+  {
+   "start": 1763.95,
+   "end": 1768.17,
+   "speaker": "Kalan",
+   "text": "以及他們沒辦法對我的內容怎麼樣，"
+  },
+  {
+   "start": 1768.17,
+   "end": 1770.31,
+   "speaker": "Kalan",
+   "text": "他們沒辦法鎖掉我的內容等等，"
+  },
+  {
+   "start": 1772.51,
+   "end": 1778.51,
+   "speaker": "Kalan",
+   "text": "所以的確從前面身上來講，還是會蠻推薦大家可以自己架架看的。"
+  },
+  {
+   "start": 1778.51,
+   "end": 1780.07,
+   "speaker": "Mooly",
+   "text": "對，沒錯沒錯。"
+  },
+  {
+   "start": 1780.07,
+   "end": 1780.59,
+   "speaker": "Kalan",
+   "text": "好，那，"
+  },
+  {
+   "start": 1780.59,
+   "end": 1784.35,
+   "speaker": "Kalan",
+   "text": "今天的內容就差不多到這邊好了。"
+  },
+  {
+   "start": 1784.35,
+   "end": 1790.95,
+   "speaker": "Kalan",
+   "text": "好，那今天的節目就到這邊啦，"
+  },
+  {
+   "start": 1790.95,
+   "end": 1792.73,
+   "speaker": "Kalan",
+   "text": "喜歡的話歡迎訂閱分享，"
+  },
+  {
+   "start": 1792.73,
+   "end": 1796.67,
+   "speaker": "Kalan",
+   "text": "如果有任何回饋的話，可以透過說明的表單或寄信給我們喔。"
+  },
+  {
+   "start": 1796.67,
+   "end": 1797.33,
+   "speaker": "Kalan",
+   "text": "我是 Kalan，"
+  },
+  {
+   "start": 1797.33,
+   "end": 1798.21,
+   "speaker": "Mooly",
+   "text": "我是 Mooly，"
+  },
+  {
+   "start": 1798.72,
+   "end": 1800.03,
+   "speaker": "Kalan",
+   "text": "我們下次見，"
+  },
+  {
+   "start": 1800.03,
+   "end": 1800.79,
+   "speaker": "Mooly",
+   "text": "掰掰。"
+  }
+ ]
+}

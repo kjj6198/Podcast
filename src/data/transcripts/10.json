@@ -1,0 +1,4602 @@
+{
+ "episode": 10,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 聊起男人最愛聊的當兵話題，兩人都當過四個月的兵，從當兵鄙視鏈談到同溫層差異、軍中生活與各自的特殊經歷。他們也討論學歷與服從的關係、當兵的機會成本，最後認為若能不當兵，人生有更多值得追尋的事。",
+  "points": [
+   "當兵鄙視鏈的本質是付出越多的人歧視付出較少的人，背後是「怎麼可以只有我這麼累」的相對剝奪感，和程式語言的鄙視鏈很像。",
+   "當兵讓人接觸到與自己同溫層差距很大的人，Mooly 大學沒念完就入伍，同梯全是同溫層以外的人，其中約 20 到 30 人有前科，對認識世界很有幫助。",
+   "Kalan 因椎弓解離，後兩個月拿免操課單到退伍，還被質疑裝病；Mooly 則因睡眠呼吸中止症在結訓後辦了免役。",
+   "軍中的枕頭發黃發黑，他們已視為理所當然，另有甜鹹共用湯匙、感冒流感輪流傳染等細節；小確幸是小蜜蜂與賣肉粽，後兩個月週五晚上還能叫雞排。",
+   "Mooly 從 Podcast 聽到學歷高與較易服從有關，Kalan 認為當兵是服從遊戲，太服從與太叛逆都是極端，需取得平衡。",
+   "兩人最大的體悟是自由的可貴；若可以不當兵就不要主動去，一年的機會成本很高，沒當兵也不代表不是男人。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與四個月的兵"
+   },
+   {
+    "start": 47.0,
+    "title": "當兵鄙視鏈與程式語言"
+   },
+   {
+    "start": 211.0,
+    "title": "為什麼男生愛聊當兵"
+   },
+   {
+    "start": 257.0,
+    "title": "同溫層與學歷的差異"
+   },
+   {
+    "start": 653.0,
+    "title": "同梯的社會事與寢室生活"
+   },
+   {
+    "start": 1131.0,
+    "title": "椎弓解離與免役經歷"
+   },
+   {
+    "start": 1602.0,
+    "title": "學歷與服從的討論"
+   },
+   {
+    "start": 1969.0,
+    "title": "自由可貴與機會成本"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.08,
+   "end": 2.06,
+   "speaker": "Kalan",
+   "text": "Hello 大家好，我是 Kalan。"
+  },
+  {
+   "start": 2.06,
+   "end": 3.12,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 3.83,
+   "end": 5.96,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 6.65,
+   "end": 13.72,
+   "speaker": "Kalan",
+   "text": "好，那我們今天要聊這個男人都最喜歡聊的一個話題，"
+  },
+  {
+   "start": 14.48,
+   "end": 15.44,
+   "speaker": "Kalan",
+   "text": "當兵。"
+  },
+  {
+   "start": 17.56,
+   "end": 20.94,
+   "speaker": "Kalan",
+   "text": "那 Mooly，你有當過兵嗎？"
+  },
+  {
+   "start": 20.94,
+   "end": 25.04,
+   "speaker": "Mooly",
+   "text": "有，當四個月，有些人覺得這個不算兵。"
+  },
+  {
+   "start": 25.89,
+   "end": 27.72,
+   "speaker": "Kalan",
+   "text": "喔，對，我也是四個月的。"
+  },
+  {
+   "start": 27.72,
+   "end": 29.26,
+   "speaker": "Kalan",
+   "text": "的確，喔，四個月。"
+  },
+  {
+   "start": 29.26,
+   "end": 32.3,
+   "speaker": "Kalan",
+   "text": "它其實說長不長，"
+  },
+  {
+   "start": 32.3,
+   "end": 34.26,
+   "speaker": "Kalan",
+   "text": "說短也不短。"
+  },
+  {
+   "start": 34.26,
+   "end": 35.58,
+   "speaker": "Mooly",
+   "text": "也不算太短，沒錯沒錯。"
+  },
+  {
+   "start": 36.06,
+   "end": 39.94,
+   "speaker": "Kalan",
+   "text": "不過的確跟一年的比起來，當然還是有差。"
+  },
+  {
+   "start": 40.42,
+   "end": 43.6,
+   "speaker": "Mooly",
+   "text": "對的，畢竟是真的差蠻多的。"
+  },
+  {
+   "start": 43.6,
+   "end": 46.76,
+   "speaker": "Kalan",
+   "text": "那說到這個，就的確有那個，"
+  },
+  {
+   "start": 46.76,
+   "end": 49.88,
+   "speaker": "Kalan",
+   "text": "就是這個當兵的鄙視鏈。"
+  },
+  {
+   "start": 49.88,
+   "end": 51.46,
+   "speaker": "Mooly",
+   "text": "對，當兵鄙視鏈。"
+  },
+  {
+   "start": 52.72,
+   "end": 58.84,
+   "speaker": "Mooly",
+   "text": "對，它有一點像，畢竟比如說當兵鄙視鏈，就是當一年的鄙視當四個月的，"
+  },
+  {
+   "start": 58.84,
+   "end": 61.26,
+   "speaker": "Mooly",
+   "text": "四個月應該在最底層。"
+  },
+  {
+   "start": 61.26,
+   "end": 63.3,
+   "speaker": "Mooly",
+   "text": "然後當一年的，"
+  },
+  {
+   "start": 64.28,
+   "end": 70.62,
+   "speaker": "Mooly",
+   "text": "我不確定當一年的一般兵跟替代役，這兩個會不會互相歧視。"
+  },
+  {
+   "start": 70.62,
+   "end": 74.68,
+   "speaker": "Kalan",
+   "text": "有，應該是所有人都歧視替代役。"
+  },
+  {
+   "start": 74.68,
+   "end": 79.22,
+   "speaker": "Mooly",
+   "text": "然後再更老的，當兩年的就歧視當一年的。"
+  },
+  {
+   "start": 79.22,
+   "end": 81.66,
+   "speaker": "Kalan",
+   "text": "對對對，大概是這種感覺。"
+  },
+  {
+   "start": 81.66,
+   "end": 83.2,
+   "speaker": "Mooly",
+   "text": "對對對，當兵歧視兵。"
+  },
+  {
+   "start": 83.2,
+   "end": 85.92,
+   "speaker": "Kalan",
+   "text": "那這個就跟那個程式語言很像，"
+  },
+  {
+   "start": 85.92,
+   "end": 89.86,
+   "speaker": "Kalan",
+   "text": "寫 assembly 的鄙視寫 C 的，"
+  },
+  {
+   "start": 92.44,
+   "end": 95.56,
+   "speaker": "Kalan",
+   "text": "然後所有人都會鄙視 PHP，嗎？"
+  },
+  {
+   "start": 95.56,
+   "end": 97.18,
+   "speaker": "Mooly",
+   "text": "還有 Scratch。"
+  },
+  {
+   "start": 99.28,
+   "end": 102.8,
+   "speaker": "Kalan",
+   "text": "對對對，他們就是替代役的那個角色，"
+  },
+  {
+   "start": 102.8,
+   "end": 105.86,
+   "speaker": "Mooly",
+   "text": "在鄙視鏈最底層的人就是他們。"
+  },
+  {
+   "start": 106.74,
+   "end": 109.36,
+   "speaker": "Kalan",
+   "text": "好，那當然這個只是玩笑話，"
+  },
+  {
+   "start": 109.36,
+   "end": 112.46,
+   "speaker": "Mooly",
+   "text": "但感覺這個鄙視鏈背後，"
+  },
+  {
+   "start": 112.46,
+   "end": 114.12,
+   "speaker": "Mooly",
+   "text": "比如說像是當兵鄙視鏈，"
+  },
+  {
+   "start": 114.12,
+   "end": 116.78,
+   "speaker": "Mooly",
+   "text": "它背後隱藏的意涵其實是，"
+  },
+  {
+   "start": 116.78,
+   "end": 119.86,
+   "speaker": "Mooly",
+   "text": "通常你覺得你付出越多努力的，"
+  },
+  {
+   "start": 119.86,
+   "end": 125.08,
+   "speaker": "Mooly",
+   "text": "可以去歧視那些沒那麼多努力的類別。"
+  },
+  {
+   "start": 125.08,
+   "end": 126.62,
+   "speaker": "Mooly",
+   "text": "比如說你當兩年，就會說，"
+  },
+  {
+   "start": 126.62,
+   "end": 129.14,
+   "speaker": "Mooly",
+   "text": "你真的當一年兵那麼輕鬆，哪叫當兵？"
+  },
+  {
+   "start": 129.14,
+   "end": 133.06,
+   "speaker": "Mooly",
+   "text": "然後當一年的就說，你那個當四個月的兵那麼輕鬆，哪叫當兵？"
+  },
+  {
+   "start": 133.06,
+   "end": 136.7,
+   "speaker": "Mooly",
+   "text": "所以它其實是根據這個時間長短，外加"
+  },
+  {
+   "start": 136.7,
+   "end": 139.16,
+   "speaker": "Mooly",
+   "text": "這個算是付出，"
+  },
+  {
+   "start": 139.16,
+   "end": 142.2,
+   "speaker": "Mooly",
+   "text": "就是你需要付出心力的程度，"
+  },
+  {
+   "start": 142.2,
+   "end": 144.72,
+   "speaker": "Mooly",
+   "text": "來構成這一個鄙視鏈的。"
+  },
+  {
+   "start": 144.72,
+   "end": 147.88,
+   "speaker": "Kalan",
+   "text": "喔，這個觀察其實還蠻有趣的。"
+  },
+  {
+   "start": 147.88,
+   "end": 149.42,
+   "speaker": "Mooly",
+   "text": "程式語言感覺也類似，"
+  },
+  {
+   "start": 149.42,
+   "end": 157.48,
+   "speaker": "Mooly",
+   "text": "就是說我寫 assembly，就是要懂一堆機器 design 的東西啊，然後我對那些 OS 什麼的都非常了解，"
+  },
+  {
+   "start": 157.48,
+   "end": 161.8,
+   "speaker": "Mooly",
+   "text": "然後你寫比如說 JavaScript 的，甚至你寫 C 的，你可能"
+  },
+  {
+   "start": 161.8,
+   "end": 167.98,
+   "speaker": "Mooly",
+   "text": "程式語言已經幫你包好一些東西，你不需要那麼了解，你工作是不是比較輕鬆啊，什麼什麼的。"
+  },
+  {
+   "start": 167.98,
+   "end": 169.8,
+   "speaker": "Mooly",
+   "text": "是不是也有這種感覺在裡面？"
+  },
+  {
+   "start": 170.58,
+   "end": 171.0,
+   "speaker": "Kalan",
+   "text": "喔，"
+  },
+  {
+   "start": 171.7,
+   "end": 176.54,
+   "speaker": "Kalan",
+   "text": "你這麼一講的確還蠻有道理的，"
+  },
+  {
+   "start": 176.54,
+   "end": 179.6,
+   "speaker": "Kalan",
+   "text": "而且它可以套用在蠻多地方，"
+  },
+  {
+   "start": 179.6,
+   "end": 180.6,
+   "speaker": "Mooly",
+   "text": "很多東西在上面，"
+  },
+  {
+   "start": 182.06,
+   "end": 187.94,
+   "speaker": "Kalan",
+   "text": "就是有努力的人會去歧視沒有努力的，"
+  },
+  {
+   "start": 188.48,
+   "end": 190.78,
+   "speaker": "Mooly",
+   "text": "或是說他覺得自己，"
+  },
+  {
+   "start": 190.78,
+   "end": 195.54,
+   "speaker": "Mooly",
+   "text": "就他通常應該是他覺得他歧視的那個對象，因為過得很輕鬆，"
+  },
+  {
+   "start": 195.54,
+   "end": 196.82,
+   "speaker": "Mooly",
+   "text": "然後自己過得不輕鬆，"
+  },
+  {
+   "start": 196.82,
+   "end": 200.4,
+   "speaker": "Mooly",
+   "text": "所以是一種「怎麼可以只有我那麼累」的心態。"
+  },
+  {
+   "start": 200.4,
+   "end": 202.5,
+   "speaker": "Kalan",
+   "text": "相對剝奪感。"
+  },
+  {
+   "start": 202.5,
+   "end": 204.5,
+   "speaker": "Mooly",
+   "text": "對對對，大概這種感覺就是，"
+  },
+  {
+   "start": 205.12,
+   "end": 207.26,
+   "speaker": "Mooly",
+   "text": "怎麼可以只有我那麼累，怎麼那麼不公平，"
+  },
+  {
+   "start": 207.26,
+   "end": 209.12,
+   "speaker": "Mooly",
+   "text": "所以大家要跟著我一起累，"
+  },
+  {
+   "start": 209.12,
+   "end": 209.84,
+   "speaker": "Mooly",
+   "text": "有這種感覺。"
+  },
+  {
+   "start": 211.28,
+   "end": 213.46,
+   "speaker": "Kalan",
+   "text": "就說回當兵這件事情，"
+  },
+  {
+   "start": 214.48,
+   "end": 219.34,
+   "speaker": "Kalan",
+   "text": "我覺得也不一定能常常怪，比如說男生很喜歡聊當兵這個議題，"
+  },
+  {
+   "start": 219.34,
+   "end": 222.4,
+   "speaker": "Kalan",
+   "text": "因為它的確是一個你可以在短時間內，"
+  },
+  {
+   "start": 222.82,
+   "end": 224.48,
+   "speaker": "Kalan",
+   "text": "不一定是學到東西，"
+  },
+  {
+   "start": 224.48,
+   "end": 228.26,
+   "speaker": "Kalan",
+   "text": "是看到很多真實世界發生的事情，"
+  },
+  {
+   "start": 228.26,
+   "end": 228.62,
+   "speaker": "Kalan",
+   "text": "而且，"
+  },
+  {
+   "start": 228.62,
+   "end": 233.4,
+   "speaker": "Kalan",
+   "text": "尤其是你身處的環境越單一的時候，"
+  },
+  {
+   "start": 233.4,
+   "end": 235.74,
+   "speaker": "Kalan",
+   "text": "你可能感受會越深這樣子。"
+  },
+  {
+   "start": 236.22,
+   "end": 237.06,
+   "speaker": "Mooly",
+   "text": "對對，沒錯，"
+  },
+  {
+   "start": 237.06,
+   "end": 242.36,
+   "speaker": "Mooly",
+   "text": "因為你這一輩子當中，你會必須強迫被做一件事情的，"
+  },
+  {
+   "start": 242.94,
+   "end": 244.08,
+   "speaker": "Mooly",
+   "text": "可能就只有這個了。"
+  },
+  {
+   "start": 244.08,
+   "end": 247.42,
+   "speaker": "Mooly",
+   "text": "畢竟你去念書也不太算強制的，"
+  },
+  {
+   "start": 247.42,
+   "end": 249.54,
+   "speaker": "Mooly",
+   "text": "就是你不想念可以不要念，"
+  },
+  {
+   "start": 249.54,
+   "end": 252.8,
+   "speaker": "Mooly",
+   "text": "然後你不想工作，你也可以不要工作，待在家裡，"
+  },
+  {
+   "start": 252.8,
+   "end": 256.26,
+   "speaker": "Mooly",
+   "text": "那你不想當兵，你就會被抓去關，所以你就要去當兵。"
+  },
+  {
+   "start": 257.36,
+   "end": 265.04,
+   "speaker": "Kalan",
+   "text": "不然就彼此來聊一聊，當兵的時候發生的一些有趣的事情跟一些體悟好了。"
+  },
+  {
+   "start": 266.4,
+   "end": 269.32,
+   "speaker": "Kalan",
+   "text": "我那時候當兵發生，"
+  },
+  {
+   "start": 269.88,
+   "end": 270.68,
+   "speaker": "Kalan",
+   "text": "其實應該，"
+  },
+  {
+   "start": 270.68,
+   "end": 274.34,
+   "speaker": "Kalan",
+   "text": "我覺得應該也會有蠻多人會有類似的感受，就是，"
+  },
+  {
+   "start": 275.0,
+   "end": 279.14,
+   "speaker": "Kalan",
+   "text": "它是一個跟你自己的同溫層差距蠻大的地方。"
+  },
+  {
+   "start": 279.78,
+   "end": 284.5,
+   "speaker": "Kalan",
+   "text": "那所謂這個同溫層的意思是指說，你可能會來自，"
+  },
+  {
+   "start": 285.72,
+   "end": 287.42,
+   "speaker": "Kalan",
+   "text": "四面八方的人，"
+  },
+  {
+   "start": 287.42,
+   "end": 291.12,
+   "speaker": "Kalan",
+   "text": "那包含了學歷這件事情。"
+  },
+  {
+   "start": 291.12,
+   "end": 294.0,
+   "speaker": "Kalan",
+   "text": "那我們那一屆啊，其實是，"
+  },
+  {
+   "start": 294.56,
+   "end": 298.74,
+   "speaker": "Kalan",
+   "text": "因為我算是大學畢業之後去當的，"
+  },
+  {
+   "start": 298.74,
+   "end": 304.38,
+   "speaker": "Kalan",
+   "text": "所以應該蠻多人都是大學或者是研究所畢業的時候，就那一個批次。"
+  },
+  {
+   "start": 304.38,
+   "end": 308.0,
+   "speaker": "Kalan",
+   "text": "那那個時候其實你就會蠻深刻地感受到，"
+  },
+  {
+   "start": 308.0,
+   "end": 311.22,
+   "speaker": "Kalan",
+   "text": "學歷，因為大家都常常講說什麼學歷不重要，"
+  },
+  {
+   "start": 311.22,
+   "end": 312.56,
+   "speaker": "Kalan",
+   "text": "但有時候，"
+  },
+  {
+   "start": 312.56,
+   "end": 320.46,
+   "speaker": "Kalan",
+   "text": "就當你發現在軍隊上面搞事情的，都是那些學歷相對比較低的人的時候，"
+  },
+  {
+   "start": 321.11,
+   "end": 322.34,
+   "speaker": "Kalan",
+   "text": "你可能還是會覺得，"
+  },
+  {
+   "start": 322.91,
+   "end": 324.32,
+   "speaker": "Kalan",
+   "text": "可能還是真的有差。"
+  },
+  {
+   "start": 324.32,
+   "end": 328.2,
+   "speaker": "Kalan",
+   "text": "就是大學跟，就可能沒有讀到大學，"
+  },
+  {
+   "start": 328.2,
+   "end": 331.78,
+   "speaker": "Kalan",
+   "text": "或者是沒有讀，甚至是沒有讀高中之類的，"
+  },
+  {
+   "start": 332.84,
+   "end": 334.8,
+   "speaker": "Kalan",
+   "text": "像這些可能，"
+  },
+  {
+   "start": 334.8,
+   "end": 337.9,
+   "speaker": "Kalan",
+   "text": "可能我們就以軟體工程師來舉例來講好了，"
+  },
+  {
+   "start": 337.9,
+   "end": 342.3,
+   "speaker": "Kalan",
+   "text": "你可能在你的工作上會比較少，"
+  },
+  {
+   "start": 342.3,
+   "end": 343.4,
+   "speaker": "Kalan",
+   "text": "遇到這些人，"
+  },
+  {
+   "start": 345.5,
+   "end": 347.5,
+   "speaker": "Kalan",
+   "text": "當你真的遇到的時候，"
+  },
+  {
+   "start": 347.5,
+   "end": 351.14,
+   "speaker": "Kalan",
+   "text": "你可能會變得比較不容易跟他們相處。"
+  },
+  {
+   "start": 351.82,
+   "end": 353.06,
+   "speaker": "Kalan",
+   "text": "但也有可能是反過來，"
+  },
+  {
+   "start": 353.06,
+   "end": 357.72,
+   "speaker": "Kalan",
+   "text": "就是因為你是屬於那個學歷比較高的人，"
+  },
+  {
+   "start": 357.72,
+   "end": 359.08,
+   "speaker": "Kalan",
+   "text": "可能不一定比較多，"
+  },
+  {
+   "start": 359.68,
+   "end": 361.28,
+   "speaker": "Kalan",
+   "text": "但至少看過的，"
+  },
+  {
+   "start": 362.16,
+   "end": 363.0,
+   "speaker": "Kalan",
+   "text": "怎麼講，"
+  },
+  {
+   "start": 363.0,
+   "end": 364.92,
+   "speaker": "Kalan",
+   "text": "帶人處事的道理，"
+  },
+  {
+   "start": 366.04,
+   "end": 367.08,
+   "speaker": "Kalan",
+   "text": "比較多，"
+  },
+  {
+   "start": 368.18,
+   "end": 371.46,
+   "speaker": "Kalan",
+   "text": "所以可能相對相處起來會比較容易。"
+  },
+  {
+   "start": 371.46,
+   "end": 374.34,
+   "speaker": "Kalan",
+   "text": "那當然這個可能又是另外一個面向，"
+  },
+  {
+   "start": 374.34,
+   "end": 377.5,
+   "speaker": "Kalan",
+   "text": "就可能每個人他們相處的模式不一樣，"
+  },
+  {
+   "start": 378.02,
+   "end": 380.0,
+   "speaker": "Kalan",
+   "text": "所以我第一個體悟其實是這個。"
+  },
+  {
+   "start": 381.06,
+   "end": 385.14,
+   "speaker": "Mooly",
+   "text": "這個我其實也蠻深深有感的，"
+  },
+  {
+   "start": 385.14,
+   "end": 389.06,
+   "speaker": "Mooly",
+   "text": "因為我當兵的時期比較不一樣，"
+  },
+  {
+   "start": 389.06,
+   "end": 394.54,
+   "speaker": "Mooly",
+   "text": "就剛剛愷愷有講，大部分人都是大學畢業之後或研究所畢業去當兵，"
+  },
+  {
+   "start": 395.22,
+   "end": 397.46,
+   "speaker": "Mooly",
+   "text": "也有一些人其實是，"
+  },
+  {
+   "start": 397.46,
+   "end": 400.4,
+   "speaker": "Mooly",
+   "text": "那個時候你大學的暑假可以去當兵，"
+  },
+  {
+   "start": 400.4,
+   "end": 402.84,
+   "speaker": "Mooly",
+   "text": "好像是大一、大二的暑假各兩個月，"
+  },
+  {
+   "start": 402.84,
+   "end": 404.72,
+   "speaker": "Mooly",
+   "text": "你就把四個月當完。"
+  },
+  {
+   "start": 404.72,
+   "end": 408.8,
+   "speaker": "Mooly",
+   "text": "這個也是一個滿多人會選的途徑。"
+  },
+  {
+   "start": 409.52,
+   "end": 411.98,
+   "speaker": "Mooly",
+   "text": "還有一個像我一樣更少的是，"
+  },
+  {
+   "start": 412.46,
+   "end": 415.28,
+   "speaker": "Mooly",
+   "text": "我大學沒有念完就去當兵。"
+  },
+  {
+   "start": 415.86,
+   "end": 417.68,
+   "speaker": "Mooly",
+   "text": "意思就是說，我去當兵的時候，"
+  },
+  {
+   "start": 418.3,
+   "end": 421.26,
+   "speaker": "Mooly",
+   "text": "跟我同年紀的人都在念大學，"
+  },
+  {
+   "start": 422.1,
+   "end": 426.34,
+   "speaker": "Mooly",
+   "text": "所以我去當兵的時候，我的那些同梯們全部都是，"
+  },
+  {
+   "start": 426.34,
+   "end": 429.56,
+   "speaker": "Mooly",
+   "text": "要嘛跟我一樣大學沒念完，但很少，"
+  },
+  {
+   "start": 429.56,
+   "end": 436.08,
+   "speaker": "Mooly",
+   "text": "要嘛大學念完就會當兵，或是高中畢業就會當兵，畢竟你只要滿 18 歲就可以當兵。"
+  },
+  {
+   "start": 436.08,
+   "end": 438.64,
+   "speaker": "Mooly",
+   "text": "所以基本上我的同梯全部都是，"
+  },
+  {
+   "start": 438.64,
+   "end": 441.26,
+   "speaker": "Mooly",
+   "text": "跟我同溫層完全不一樣的那些人，"
+  },
+  {
+   "start": 441.74,
+   "end": 445.8,
+   "speaker": "Mooly",
+   "text": "比如說可能全部都是那些赤龍赤鳳，或是，"
+  },
+  {
+   "start": 445.8,
+   "end": 449.52,
+   "speaker": "Mooly",
+   "text": "好像大概有 20 到 30 個人是有前科的，"
+  },
+  {
+   "start": 449.52,
+   "end": 454.68,
+   "speaker": "Mooly",
+   "text": "就有進過一些少年觀護所，或什麼地方，"
+  },
+  {
+   "start": 454.68,
+   "end": 457.98,
+   "speaker": "Mooly",
+   "text": "所以就是一個完全不同的同溫層。"
+  },
+  {
+   "start": 457.98,
+   "end": 462.72,
+   "speaker": "Kalan",
+   "text": "那感覺你這個比我這個還……"
+  },
+  {
+   "start": 462.72,
+   "end": 463.32,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 463.32,
+   "end": 469.56,
+   "speaker": "Mooly",
+   "text": "它對於開拓眼界，跟增長你的，"
+  },
+  {
+   "start": 470.34,
+   "end": 474.4,
+   "speaker": "Mooly",
+   "text": "你對這整個世界的認識，有非常大的幫助。"
+  },
+  {
+   "start": 474.4,
+   "end": 476.9,
+   "speaker": "Kalan",
+   "text": "它可能對我們來講，可能是，"
+  },
+  {
+   "start": 477.3,
+   "end": 480.38,
+   "speaker": "Kalan",
+   "text": "我們可能在之前就已經知道了，"
+  },
+  {
+   "start": 480.38,
+   "end": 486.68,
+   "speaker": "Kalan",
+   "text": "當兵這件事情比較像是更真實地讓你體驗這件事情吧，"
+  },
+  {
+   "start": 486.68,
+   "end": 491.84,
+   "speaker": "Mooly",
+   "text": "或者是說，你可以換一個角度去體驗這件事情。"
+  },
+  {
+   "start": 491.84,
+   "end": 496.44,
+   "speaker": "Mooly",
+   "text": "比如說，我覺得有些蠻有趣的，"
+  },
+  {
+   "start": 496.44,
+   "end": 509.28,
+   "speaker": "Mooly",
+   "text": "就比如說換個角度，或者是平常，比如說當兵之前的角度，可能就是會在社會新聞或是在哪邊看到的那些人，一些感覺小流氓或什麼的那種感覺，"
+  },
+  {
+   "start": 509.72,
+   "end": 512.24,
+   "speaker": "Mooly",
+   "text": "那實際上接觸之後，就變成說你，"
+  },
+  {
+   "start": 512.7,
+   "end": 514.58,
+   "speaker": "Mooly",
+   "text": "變成是因為畢竟是當兵嘛，"
+  },
+  {
+   "start": 514.58,
+   "end": 516.0,
+   "speaker": "Mooly",
+   "text": "所以你有點像是他們的，"
+  },
+  {
+   "start": 516.0,
+   "end": 516.96,
+   "speaker": "Mooly",
+   "text": "一份子。"
+  },
+  {
+   "start": 516.96,
+   "end": 520.2,
+   "speaker": "Mooly",
+   "text": "就是我還算是融入在那個裡面，"
+  },
+  {
+   "start": 521.18,
+   "end": 523.48,
+   "speaker": "Mooly",
+   "text": "那你變成他們的一份子之後，"
+  },
+  {
+   "start": 524.14,
+   "end": 529.16,
+   "speaker": "Mooly",
+   "text": "我覺得以我的立場，我大概可以感受得到那種年輕氣盛，"
+  },
+  {
+   "start": 529.16,
+   "end": 532.08,
+   "speaker": "Mooly",
+   "text": "然後覺得自己做什麼都可以，"
+  },
+  {
+   "start": 532.08,
+   "end": 534.32,
+   "speaker": "Mooly",
+   "text": "然後有兄弟罩我什麼的那種感覺。"
+  },
+  {
+   "start": 534.32,
+   "end": 539.42,
+   "speaker": "Mooly",
+   "text": "就我在裡面身為那個一份子，是可以感受到這件事情的。"
+  },
+  {
+   "start": 539.42,
+   "end": 541.92,
+   "speaker": "Kalan",
+   "text": "這個我其實也有類似的感受，"
+  },
+  {
+   "start": 541.92,
+   "end": 543.72,
+   "speaker": "Kalan",
+   "text": "等一下可以順便講一下。"
+  },
+  {
+   "start": 544.42,
+   "end": 552.14,
+   "speaker": "Kalan",
+   "text": "然後跟的確，你在當兵的時候，不管你身邊的這個，我們叫鄰兵嘛，"
+  },
+  {
+   "start": 552.62,
+   "end": 556.36,
+   "speaker": "Kalan",
+   "text": "他們來自哪裡，或者是不是跟你屬於同溫層，"
+  },
+  {
+   "start": 556.36,
+   "end": 557.84,
+   "speaker": "Kalan",
+   "text": "基本上在那個環境底下，"
+  },
+  {
+   "start": 557.84,
+   "end": 561.44,
+   "speaker": "Kalan",
+   "text": "你們還是會，可能是環境所逼，"
+  },
+  {
+   "start": 561.44,
+   "end": 567.06,
+   "speaker": "Kalan",
+   "text": "但也有可能是因為所謂的革命情感，或是日久生情，"
+  },
+  {
+   "start": 567.06,
+   "end": 569.44,
+   "speaker": "Kalan",
+   "text": "自然而然會開始互相幫忙，"
+  },
+  {
+   "start": 569.84,
+   "end": 572.58,
+   "speaker": "Kalan",
+   "text": "就不管對方是怎麼樣的人。"
+  },
+  {
+   "start": 573.66,
+   "end": 575.78,
+   "speaker": "Mooly",
+   "text": "這個其實倒也不一定，"
+  },
+  {
+   "start": 575.78,
+   "end": 581.36,
+   "speaker": "Mooly",
+   "text": "畢竟雖然是同梯的，但也還是有些人會互相看不爽，"
+  },
+  {
+   "start": 582.3,
+   "end": 584.34,
+   "speaker": "Mooly",
+   "text": "至少在我當的時候是這樣，"
+  },
+  {
+   "start": 584.34,
+   "end": 587.68,
+   "speaker": "Mooly",
+   "text": "就是還是有一些互相看不爽的案例，"
+  },
+  {
+   "start": 587.68,
+   "end": 589.26,
+   "speaker": "Mooly",
+   "text": "但就比較少一點。"
+  },
+  {
+   "start": 589.26,
+   "end": 591.26,
+   "speaker": "Kalan",
+   "text": "喔對，但至少鄰兵，"
+  },
+  {
+   "start": 591.26,
+   "end": 594.2,
+   "speaker": "Kalan",
+   "text": "鄰兵的話，通常是感情會比較好。"
+  },
+  {
+   "start": 594.2,
+   "end": 598.08,
+   "speaker": "Mooly",
+   "text": "喔對對對對，因為平常可能要互相幫忙什麼，"
+  },
+  {
+   "start": 598.08,
+   "end": 601.36,
+   "speaker": "Mooly",
+   "text": "摺棉被什麼之類的。"
+  },
+  {
+   "start": 601.36,
+   "end": 602.72,
+   "speaker": "Kalan",
+   "text": "對，這些。"
+  },
+  {
+   "start": 603.4,
+   "end": 603.92,
+   "speaker": "Kalan",
+   "text": "然後，"
+  },
+  {
+   "start": 605.24,
+   "end": 607.06,
+   "speaker": "Kalan",
+   "text": "我在當兵的時候還有發現，"
+  },
+  {
+   "start": 607.62,
+   "end": 610.82,
+   "speaker": "Kalan",
+   "text": "就我們那一梯還蠻多人喜歡健身的，"
+  },
+  {
+   "start": 611.68,
+   "end": 615.6,
+   "speaker": "Kalan",
+   "text": "你就看到他們會拿彈力帶、拉力帶，"
+  },
+  {
+   "start": 616.12,
+   "end": 620.82,
+   "speaker": "Kalan",
+   "text": "然後他們就會直接在寢室裡面用那個彈力帶做伏地挺身。"
+  },
+  {
+   "start": 620.82,
+   "end": 623.78,
+   "speaker": "Kalan",
+   "text": "或者是因為那個床鋪是那個，"
+  },
+  {
+   "start": 624.36,
+   "end": 626.36,
+   "speaker": "Kalan",
+   "text": "就是它是兩層的，"
+  },
+  {
+   "start": 627.16,
+   "end": 629.68,
+   "speaker": "Kalan",
+   "text": "然後他就會把它綁在那個上面，"
+  },
+  {
+   "start": 629.68,
+   "end": 631.04,
+   "speaker": "Mooly",
+   "text": "然後去用。"
+  },
+  {
+   "start": 631.04,
+   "end": 631.84,
+   "speaker": "Kalan",
+   "text": "對，去用。"
+  },
+  {
+   "start": 631.84,
+   "end": 632.96,
+   "speaker": "Kalan",
+   "text": "他們做得很勤，"
+  },
+  {
+   "start": 633.42,
+   "end": 638.04,
+   "speaker": "Kalan",
+   "text": "超級勤的，就是每天可能休息時間的時候就會做這樣子。"
+  },
+  {
+   "start": 638.04,
+   "end": 640.32,
+   "speaker": "Mooly",
+   "text": "是喔，那真的做得很勤。"
+  },
+  {
+   "start": 640.32,
+   "end": 644.28,
+   "speaker": "Mooly",
+   "text": "就是在我當兵的時候，我們是完全沒有這種的，"
+  },
+  {
+   "start": 645.22,
+   "end": 651.86,
+   "speaker": "Mooly",
+   "text": "甚至你在寢室做 free tea，他會被嗆說你在什麼裝模作樣、什麼之類的。"
+  },
+  {
+   "start": 653.04,
+   "end": 657.0,
+   "speaker": "Kalan",
+   "text": "那這個是我發生的幾件有趣的事，"
+  },
+  {
+   "start": 657.0,
+   "end": 661.08,
+   "speaker": "Kalan",
+   "text": "那你有沒有一些有趣的事，或者是一些體悟可以分享？"
+  },
+  {
+   "start": 661.72,
+   "end": 662.56,
+   "speaker": "Mooly",
+   "text": "有趣的？"
+  },
+  {
+   "start": 662.56,
+   "end": 664.52,
+   "speaker": "Mooly",
+   "text": "有一個算有趣的是那個，"
+  },
+  {
+   "start": 665.12,
+   "end": 668.38,
+   "speaker": "Mooly",
+   "text": "因為當兵的時候，其實我那梯同梯的，"
+  },
+  {
+   "start": 668.8,
+   "end": 671.08,
+   "speaker": "Mooly",
+   "text": "它很多是按照地區來分的，"
+  },
+  {
+   "start": 671.08,
+   "end": 673.26,
+   "speaker": "Mooly",
+   "text": "就是你可能在那個地區，"
+  },
+  {
+   "start": 673.26,
+   "end": 678.18,
+   "speaker": "Mooly",
+   "text": "就你的戶籍地在差不多那個地區，或是你從同一個地方過來，比如說我在新北市，"
+  },
+  {
+   "start": 678.84,
+   "end": 680.98,
+   "speaker": "Mooly",
+   "text": "然後是到板橋搭火車過去，"
+  },
+  {
+   "start": 681.6,
+   "end": 685.74,
+   "speaker": "Mooly",
+   "text": "發現同梯有蠻多都是，就是我住的附近那一區，"
+  },
+  {
+   "start": 685.74,
+   "end": 688.02,
+   "speaker": "Mooly",
+   "text": "綜合區的，就有其中一部分是，"
+  },
+  {
+   "start": 688.02,
+   "end": 690.88,
+   "speaker": "Mooly",
+   "text": "所以他們有一些本來就互相認識，"
+  },
+  {
+   "start": 691.32,
+   "end": 694.88,
+   "speaker": "Mooly",
+   "text": "或是本來就是聽過對方的名字或什麼的，"
+  },
+  {
+   "start": 694.88,
+   "end": 699.46,
+   "speaker": "Mooly",
+   "text": "可能有在混的，都大概知道那個圈子這樣子，"
+  },
+  {
+   "start": 700.02,
+   "end": 703.08,
+   "speaker": "Mooly",
+   "text": "所以他們有些本來進來之前就認識了。"
+  },
+  {
+   "start": 703.08,
+   "end": 709.46,
+   "speaker": "Mooly",
+   "text": "像我剛剛講，我覺得比較有趣的是，可能對一些算是社會事吧，"
+  },
+  {
+   "start": 709.46,
+   "end": 711.12,
+   "speaker": "Mooly",
+   "text": "有比較多的了解，"
+  },
+  {
+   "start": 711.12,
+   "end": 711.98,
+   "speaker": "Mooly",
+   "text": "像是，"
+  },
+  {
+   "start": 711.98,
+   "end": 713.56,
+   "speaker": "Mooly",
+   "text": "社會事，"
+  },
+  {
+   "start": 714.26,
+   "end": 717.02,
+   "speaker": "Mooly",
+   "text": "像是比如說那個時候有一次放假的時候，"
+  },
+  {
+   "start": 717.02,
+   "end": 719.32,
+   "speaker": "Mooly",
+   "text": "然後就收到班長的訊息說，"
+  },
+  {
+   "start": 719.32,
+   "end": 722.4,
+   "speaker": "Mooly",
+   "text": "有一個人被抓了，"
+  },
+  {
+   "start": 722.4,
+   "end": 724.64,
+   "speaker": "Mooly",
+   "text": "有一個人他在放假的時候被抓了，"
+  },
+  {
+   "start": 724.64,
+   "end": 726.62,
+   "speaker": "Mooly",
+   "text": "叫我們趕快回去這樣子。"
+  },
+  {
+   "start": 726.62,
+   "end": 731.34,
+   "speaker": "Mooly",
+   "text": "通常放假的時候，反正只要那個部隊出什麼事就會比較嚴重一點，"
+  },
+  {
+   "start": 731.34,
+   "end": 735.5,
+   "speaker": "Mooly",
+   "text": "因為它是會影響到整個部隊的。"
+  },
+  {
+   "start": 735.5,
+   "end": 737.04,
+   "speaker": "Mooly",
+   "text": "然後後來的話是，"
+  },
+  {
+   "start": 737.54,
+   "end": 741.28,
+   "speaker": "Mooly",
+   "text": "那一個人他有上社會新聞，"
+  },
+  {
+   "start": 741.28,
+   "end": 742.76,
+   "speaker": "Mooly",
+   "text": "然後好像是那種，"
+  },
+  {
+   "start": 742.76,
+   "end": 743.92,
+   "speaker": "Mooly",
+   "text": "在路邊，"
+  },
+  {
+   "start": 743.92,
+   "end": 745.98,
+   "speaker": "Mooly",
+   "text": "就有一個人在路邊走，"
+  },
+  {
+   "start": 745.98,
+   "end": 752.54,
+   "speaker": "Mooly",
+   "text": "然後他們幾個，他們四個人一個團夥，就把那個人直接抓上車，"
+  },
+  {
+   "start": 752.54,
+   "end": 753.24,
+   "speaker": "Mooly",
+   "text": "然後開走，"
+  },
+  {
+   "start": 753.24,
+   "end": 756.24,
+   "speaker": "Mooly",
+   "text": "這樣子就是一個擄人的案例。"
+  },
+  {
+   "start": 756.24,
+   "end": 757.54,
+   "speaker": "Mooly",
+   "text": "烏龍的是說他，"
+  },
+  {
+   "start": 757.54,
+   "end": 759.74,
+   "speaker": "Mooly",
+   "text": "他其實也不知道他要幹嘛，"
+  },
+  {
+   "start": 760.34,
+   "end": 764.44,
+   "speaker": "Mooly",
+   "text": "就是他只是被那些哥哥找去說，"
+  },
+  {
+   "start": 764.92,
+   "end": 765.7,
+   "speaker": "Mooly",
+   "text": "來一下這樣子，"
+  },
+  {
+   "start": 765.7,
+   "end": 767.98,
+   "speaker": "Mooly",
+   "text": "就是他只是剛好搭上那個車，"
+  },
+  {
+   "start": 767.98,
+   "end": 769.82,
+   "speaker": "Mooly",
+   "text": "然後他本來也不知道要做這些事情，"
+  },
+  {
+   "start": 769.82,
+   "end": 771.84,
+   "speaker": "Mooly",
+   "text": "然後他是到那邊才知道，"
+  },
+  {
+   "start": 771.84,
+   "end": 774.06,
+   "speaker": "Mooly",
+   "text": "然後他還說他對那個人很好啊，"
+  },
+  {
+   "start": 774.06,
+   "end": 777.38,
+   "speaker": "Mooly",
+   "text": "就是還問他是不是餓啊，然後什麼東西的。"
+  },
+  {
+   "start": 777.38,
+   "end": 782.34,
+   "speaker": "Mooly",
+   "text": "這整件事情反正在外面看起來，可能就是一個當街擄人的案例，"
+  },
+  {
+   "start": 782.34,
+   "end": 787.82,
+   "speaker": "Mooly",
+   "text": "但比如說可能更多的一些消息是，可能那個被擄的人可能有欠錢啊，"
+  },
+  {
+   "start": 787.82,
+   "end": 790.04,
+   "speaker": "Mooly",
+   "text": "所以其實是討債啊，什麼什麼之類的，"
+  },
+  {
+   "start": 790.04,
+   "end": 793.62,
+   "speaker": "Mooly",
+   "text": "大概會知道一些就是更深的東西。"
+  },
+  {
+   "start": 793.62,
+   "end": 794.24,
+   "speaker": "Kalan",
+   "text": "那你這個，"
+  },
+  {
+   "start": 795.12,
+   "end": 797.36,
+   "speaker": "Kalan",
+   "text": "你這個好像比我的還嚴重，"
+  },
+  {
+   "start": 797.36,
+   "end": 799.22,
+   "speaker": "Mooly",
+   "text": "或是說比如說有一些"
+  },
+  {
+   "start": 799.8,
+   "end": 801.0,
+   "speaker": "Mooly",
+   "text": "之前有時候可能才看到，"
+  },
+  {
+   "start": 801.0,
+   "end": 802.54,
+   "speaker": "Mooly",
+   "text": "看一些社會新聞是什麼，"
+  },
+  {
+   "start": 803.2,
+   "end": 810.82,
+   "speaker": "Mooly",
+   "text": "有些混混什麼的，就路邊突然攔車砸車，然後後來說是砸錯人還什麼之類的，"
+  },
+  {
+   "start": 810.82,
+   "end": 812.26,
+   "speaker": "Mooly",
+   "text": "就有這種案例。"
+  },
+  {
+   "start": 812.26,
+   "end": 818.08,
+   "speaker": "Mooly",
+   "text": "但有一些，可能是比如說被砸車的那個人，"
+  },
+  {
+   "start": 818.08,
+   "end": 820.0,
+   "speaker": "Mooly",
+   "text": "他其實是有欠錢，"
+  },
+  {
+   "start": 820.54,
+   "end": 822.72,
+   "speaker": "Mooly",
+   "text": "他們其實是沒有砸錯人，"
+  },
+  {
+   "start": 822.72,
+   "end": 825.1,
+   "speaker": "Mooly",
+   "text": "但為了大家都不想把事情鬧大，"
+  },
+  {
+   "start": 825.1,
+   "end": 827.36,
+   "speaker": "Mooly",
+   "text": "然後說其實是砸錯人。"
+  },
+  {
+   "start": 827.36,
+   "end": 830.06,
+   "speaker": "Mooly",
+   "text": "就是有很多一些看起來，"
+  },
+  {
+   "start": 830.06,
+   "end": 836.62,
+   "speaker": "Mooly",
+   "text": "是怎樣怎樣的社會行為，其實可能背後有更多的那個關係在，"
+  },
+  {
+   "start": 836.62,
+   "end": 839.6,
+   "speaker": "Mooly",
+   "text": "所以我覺得這個是蠻有趣的一個觀察。"
+  },
+  {
+   "start": 839.6,
+   "end": 841.38,
+   "speaker": "Kalan",
+   "text": "在你的經驗裡面，"
+  },
+  {
+   "start": 842.06,
+   "end": 845.84,
+   "speaker": "Kalan",
+   "text": "你有感覺到學歷這件事情的差異嗎？"
+  },
+  {
+   "start": 845.84,
+   "end": 847.16,
+   "speaker": "Mooly",
+   "text": "算是有喔。"
+  },
+  {
+   "start": 847.74,
+   "end": 849.18,
+   "speaker": "Mooly",
+   "text": "學歷嗎？"
+  },
+  {
+   "start": 849.18,
+   "end": 850.54,
+   "speaker": "Mooly",
+   "text": "他跟學歷，"
+  },
+  {
+   "start": 851.56,
+   "end": 853.46,
+   "speaker": "Mooly",
+   "text": "我覺得也不必然有，"
+  },
+  {
+   "start": 853.46,
+   "end": 855.56,
+   "speaker": "Mooly",
+   "text": "就我不確定哪個是因，哪個是果，"
+  },
+  {
+   "start": 855.56,
+   "end": 858.68,
+   "speaker": "Mooly",
+   "text": "就比如說他們有些人的那個個性會更衝動一點，"
+  },
+  {
+   "start": 858.68,
+   "end": 863.02,
+   "speaker": "Mooly",
+   "text": "比如說如果再更衝動一點，可能就是那種直接跟班長會打起來那種，"
+  },
+  {
+   "start": 863.02,
+   "end": 865.42,
+   "speaker": "Mooly",
+   "text": "但是沒有到這麼衝動。"
+  },
+  {
+   "start": 866.16,
+   "end": 873.38,
+   "speaker": "Mooly",
+   "text": "我不確定是因為這樣子的個性造成了一些學歷上的差異，還是反過來是因為學歷的關係，"
+  },
+  {
+   "start": 874.14,
+   "end": 875.82,
+   "speaker": "Mooly",
+   "text": "但有一個蠻肯定的是，"
+  },
+  {
+   "start": 876.36,
+   "end": 879.82,
+   "speaker": "Mooly",
+   "text": "隨著你的那個學歷不同，你的那個生活圈會完全不同。"
+  },
+  {
+   "start": 879.82,
+   "end": 882.3,
+   "speaker": "Mooly",
+   "text": "像我的學歷就比較高的話，"
+  },
+  {
+   "start": 882.3,
+   "end": 885.72,
+   "speaker": "Mooly",
+   "text": "你的生活圈裡面基本上是不太會出現這種類型的人，"
+  },
+  {
+   "start": 885.72,
+   "end": 888.26,
+   "speaker": "Mooly",
+   "text": "但像他們的話就會反過來，"
+  },
+  {
+   "start": 888.26,
+   "end": 892.06,
+   "speaker": "Mooly",
+   "text": "他們的生活圈裡面完全不會出現像我這種類型的人。"
+  },
+  {
+   "start": 894.58,
+   "end": 899.66,
+   "speaker": "Kalan",
+   "text": "那你說你有遇到就跟你一樣是大學修學的？"
+  },
+  {
+   "start": 899.66,
+   "end": 901.24,
+   "speaker": "Mooly",
+   "text": "對，那個是，"
+  },
+  {
+   "start": 901.84,
+   "end": 905.18,
+   "speaker": "Mooly",
+   "text": "就是因為當四個月的兵，是前兩個月、後兩個月嘛，"
+  },
+  {
+   "start": 905.18,
+   "end": 910.76,
+   "speaker": "Mooly",
+   "text": "前兩個月新訓，後兩個月會被分到一個隨機的地方，要抽籤。"
+  },
+  {
+   "start": 911.32,
+   "end": 914.02,
+   "speaker": "Mooly",
+   "text": "那我後兩個月的時候，在高雄步兵學校，"
+  },
+  {
+   "start": 914.02,
+   "end": 915.4,
+   "speaker": "Mooly",
+   "text": "然後那個時候去的時候，"
+  },
+  {
+   "start": 915.4,
+   "end": 916.92,
+   "speaker": "Mooly",
+   "text": "因為後兩個月基本上都是，"
+  },
+  {
+   "start": 916.92,
+   "end": 918.6,
+   "speaker": "Mooly",
+   "text": "新的同梯、新的人，"
+  },
+  {
+   "start": 919.06,
+   "end": 921.86,
+   "speaker": "Mooly",
+   "text": "然後就突然認識了一個人，"
+  },
+  {
+   "start": 922.4,
+   "end": 924.6,
+   "speaker": "Mooly",
+   "text": "他說他好像知道我是誰，"
+  },
+  {
+   "start": 924.6,
+   "end": 926.06,
+   "speaker": "Mooly",
+   "text": "然後我就嚇到，"
+  },
+  {
+   "start": 926.06,
+   "end": 936.74,
+   "speaker": "Mooly",
+   "text": "然後後來才知道，原來跟我一樣是念師大附中的一個學弟，小我一屆還兩屆吧，"
+  },
+  {
+   "start": 936.74,
+   "end": 942.86,
+   "speaker": "Mooly",
+   "text": "然後因為也是那種電子類相關社團，就那種資訊類相關社團的人，"
+  },
+  {
+   "start": 943.36,
+   "end": 944.92,
+   "speaker": "Mooly",
+   "text": "所以知道我是誰。"
+  },
+  {
+   "start": 944.92,
+   "end": 945.46,
+   "speaker": "Mooly",
+   "text": "但，"
+  },
+  {
+   "start": 946.36,
+   "end": 948.06,
+   "speaker": "Mooly",
+   "text": "我是沒聽過他，"
+  },
+  {
+   "start": 948.06,
+   "end": 951.64,
+   "speaker": "Mooly",
+   "text": "但因為我們的那個圈子蠻類似，有些共同朋友，"
+  },
+  {
+   "start": 951.64,
+   "end": 956.4,
+   "speaker": "Mooly",
+   "text": "所以就真的非常幸運、非常巧，在那個時間點可以有一個，"
+  },
+  {
+   "start": 956.98,
+   "end": 958.46,
+   "speaker": "Mooly",
+   "text": "有一個是我同溫層的人。"
+  },
+  {
+   "start": 958.46,
+   "end": 962.96,
+   "speaker": "Mooly",
+   "text": "縱觀整個四個月裡面，大概就只有那個人是我同溫層裡面的人而已。"
+  },
+  {
+   "start": 964.44,
+   "end": 965.48,
+   "speaker": "Kalan",
+   "text": "我問一下喔，"
+  },
+  {
+   "start": 965.48,
+   "end": 969.68,
+   "speaker": "Kalan",
+   "text": "就是你的寢室裡面應該是有冷氣的嗎？"
+  },
+  {
+   "start": 969.68,
+   "end": 970.3,
+   "speaker": "Mooly",
+   "text": "沒有耶。"
+  },
+  {
+   "start": 970.8,
+   "end": 971.96,
+   "speaker": "Kalan",
+   "text": "我這邊也沒有。"
+  },
+  {
+   "start": 971.96,
+   "end": 975.4,
+   "speaker": "Mooly",
+   "text": "那你去當兵的時候是夏天還冬天啊？"
+  },
+  {
+   "start": 975.4,
+   "end": 977.12,
+   "speaker": "Kalan",
+   "text": "我是快要冬天。"
+  },
+  {
+   "start": 977.12,
+   "end": 980.78,
+   "speaker": "Mooly",
+   "text": "那跟我差不多，我也是快要冬天，所以其實也不需要冷氣。"
+  },
+  {
+   "start": 980.78,
+   "end": 982.04,
+   "speaker": "Kalan",
+   "text": "其實這樣比較好。"
+  },
+  {
+   "start": 982.04,
+   "end": 987.66,
+   "speaker": "Mooly",
+   "text": "對，因為當兵的那個環境其實說實在蠻差的，"
+  },
+  {
+   "start": 988.3,
+   "end": 991.26,
+   "speaker": "Kalan",
+   "text": "可是我記得之前好像有改善，"
+  },
+  {
+   "start": 991.26,
+   "end": 996.04,
+   "speaker": "Kalan",
+   "text": "最近好像開始有開始裝冷氣還是怎樣的。"
+  },
+  {
+   "start": 996.04,
+   "end": 1004.44,
+   "speaker": "Mooly",
+   "text": "這個倒是有可能，畢竟環境可能一直會改善，但從那個枕頭就可以看出來，那個地方的"
+  },
+  {
+   "start": 1005.02,
+   "end": 1006.1,
+   "speaker": "Kalan",
+   "text": "喔，枕頭。"
+  },
+  {
+   "start": 1006.1,
+   "end": 1008.96,
+   "speaker": "Kalan",
+   "text": "惠妮的枕頭也是發黃、發霉的嗎？"
+  },
+  {
+   "start": 1008.96,
+   "end": 1010.44,
+   "speaker": "Mooly",
+   "text": "發黃，發黃，發黑的那種。"
+  },
+  {
+   "start": 1012.0,
+   "end": 1014.34,
+   "speaker": "Kalan",
+   "text": "對，好像對我們來講好像，"
+  },
+  {
+   "start": 1014.86,
+   "end": 1017.98,
+   "speaker": "Kalan",
+   "text": "這個已經是理所當然的事情了。"
+  },
+  {
+   "start": 1017.98,
+   "end": 1023.7,
+   "speaker": "Kalan",
+   "text": "剛開始進去的時候還覺得很驚訝，這個是不是只是我運氣不好選到這個，"
+  },
+  {
+   "start": 1023.7,
+   "end": 1025.92,
+   "speaker": "Kalan",
+   "text": "但不是，就全部都長這樣子。"
+  },
+  {
+   "start": 1025.92,
+   "end": 1027.18,
+   "speaker": "Mooly",
+   "text": "發現大家都這樣。"
+  },
+  {
+   "start": 1029.16,
+   "end": 1032.28,
+   "speaker": "Kalan",
+   "text": "不過的確是有聽說，"
+  },
+  {
+   "start": 1032.28,
+   "end": 1033.4,
+   "speaker": "Kalan",
+   "text": "當兵他，"
+  },
+  {
+   "start": 1033.4,
+   "end": 1035.3,
+   "speaker": "Kalan",
+   "text": "在那個環境下，"
+  },
+  {
+   "start": 1036.0,
+   "end": 1043.5,
+   "speaker": "Kalan",
+   "text": "他不是很適應，就當一當，當到有憂鬱症或者是有焦慮症之類的症狀。"
+  },
+  {
+   "start": 1043.98,
+   "end": 1048.48,
+   "speaker": "Mooly",
+   "text": "但我覺得其實平心而論，我們當兵的那個時候已經比較好了，"
+  },
+  {
+   "start": 1049.04,
+   "end": 1053.04,
+   "speaker": "Mooly",
+   "text": "因為之前發生過各種事件之後，"
+  },
+  {
+   "start": 1053.04,
+   "end": 1055.62,
+   "speaker": "Mooly",
+   "text": "其實至少在我當兵那個時候，"
+  },
+  {
+   "start": 1056.22,
+   "end": 1061.28,
+   "speaker": "Mooly",
+   "text": "軍方已經對我們這些四個月的人來說，他已經基本上不怎麼管，"
+  },
+  {
+   "start": 1061.28,
+   "end": 1066.14,
+   "speaker": "Mooly",
+   "text": "因為這有點像是上下交相賊的感覺。"
+  },
+  {
+   "start": 1066.14,
+   "end": 1069.88,
+   "speaker": "Mooly",
+   "text": "就是因為他們，"
+  },
+  {
+   "start": 1069.88,
+   "end": 1071.54,
+   "speaker": "Mooly",
+   "text": "因為我們才來四個月嘛，"
+  },
+  {
+   "start": 1072.26,
+   "end": 1075.56,
+   "speaker": "Mooly",
+   "text": "但他們可能是要當一輩子，或當二、三十年的兵。"
+  },
+  {
+   "start": 1076.16,
+   "end": 1077.64,
+   "speaker": "Mooly",
+   "text": "那假設他真的，"
+  },
+  {
+   "start": 1078.12,
+   "end": 1082.66,
+   "speaker": "Mooly",
+   "text": "就算他沒有真的做出什麼特別出格的事情，"
+  },
+  {
+   "start": 1082.66,
+   "end": 1084.94,
+   "speaker": "Mooly",
+   "text": "他可能只是比較兇你或什麼之類的，"
+  },
+  {
+   "start": 1084.94,
+   "end": 1086.4,
+   "speaker": "Mooly",
+   "text": "你只要打個電話去投訴，"
+  },
+  {
+   "start": 1086.4,
+   "end": 1088.34,
+   "speaker": "Mooly",
+   "text": "然後就會有長官下來關心，"
+  },
+  {
+   "start": 1088.34,
+   "end": 1090.12,
+   "speaker": "Mooly",
+   "text": "那有人下來關心，他就會，"
+  },
+  {
+   "start": 1090.9,
+   "end": 1094.62,
+   "speaker": "Mooly",
+   "text": "他就會受到一定程度的，也不算懲處，"
+  },
+  {
+   "start": 1094.62,
+   "end": 1096.14,
+   "speaker": "Mooly",
+   "text": "就是可能會有一些壓力在。"
+  },
+  {
+   "start": 1096.14,
+   "end": 1098.1,
+   "speaker": "Mooly",
+   "text": "所以到後來其實我覺得，"
+  },
+  {
+   "start": 1098.1,
+   "end": 1099.76,
+   "speaker": "Mooly",
+   "text": "其實對他們來說，"
+  },
+  {
+   "start": 1099.76,
+   "end": 1103.56,
+   "speaker": "Mooly",
+   "text": "我覺得要管這些新兵是真的蠻困難的。"
+  },
+  {
+   "start": 1103.56,
+   "end": 1107.68,
+   "speaker": "Mooly",
+   "text": "就你既要管他，你又不能太超過，"
+  },
+  {
+   "start": 1107.68,
+   "end": 1108.78,
+   "speaker": "Mooly",
+   "text": "不然你就會被投訴，"
+  },
+  {
+   "start": 1108.78,
+   "end": 1112.18,
+   "speaker": "Mooly",
+   "text": "甚至你可能讓某些人不開心，他們可能會想投訴，"
+  },
+  {
+   "start": 1112.18,
+   "end": 1113.64,
+   "speaker": "Mooly",
+   "text": "所以就變成是一個，"
+  },
+  {
+   "start": 1114.22,
+   "end": 1117.36,
+   "speaker": "Mooly",
+   "text": "你很難去拿捏那個尺度的一個狀況。"
+  },
+  {
+   "start": 1117.36,
+   "end": 1119.4,
+   "speaker": "Kalan",
+   "text": "因為的確我還是可以理解說，"
+  },
+  {
+   "start": 1119.4,
+   "end": 1120.02,
+   "speaker": "Kalan",
+   "text": "當兵，"
+  },
+  {
+   "start": 1120.53,
+   "end": 1123.12,
+   "speaker": "Kalan",
+   "text": "就很多來自其他地方的人，"
+  },
+  {
+   "start": 1123.12,
+   "end": 1125.48,
+   "speaker": "Kalan",
+   "text": "跟不是你同溫層的人在一起，"
+  },
+  {
+   "start": 1125.48,
+   "end": 1127.42,
+   "speaker": "Kalan",
+   "text": "所以在那個情況下的確，"
+  },
+  {
+   "start": 1127.42,
+   "end": 1131.2,
+   "speaker": "Kalan",
+   "text": "或許對有些人來講，它是會累積心理壓力的。"
+  },
+  {
+   "start": 1131.2,
+   "end": 1132.98,
+   "speaker": "Kalan",
+   "text": "我其實好像當兵在，"
+  },
+  {
+   "start": 1133.59,
+   "end": 1138.98,
+   "speaker": "Kalan",
+   "text": "就我當那時候，當到一半的時候，我開始發現我自己有腳痛的症狀，"
+  },
+  {
+   "start": 1139.56,
+   "end": 1139.84,
+   "speaker": "Kalan",
+   "text": "然後，"
+  },
+  {
+   "start": 1140.4,
+   "end": 1143.64,
+   "speaker": "Kalan",
+   "text": "就原本就有一點點，然後後來是越來越，"
+  },
+  {
+   "start": 1144.24,
+   "end": 1144.92,
+   "speaker": "Mooly",
+   "text": "嚴重。"
+  },
+  {
+   "start": 1144.92,
+   "end": 1145.8,
+   "speaker": "Kalan",
+   "text": "對，越來越嚴重。"
+  },
+  {
+   "start": 1145.8,
+   "end": 1148.26,
+   "speaker": "Kalan",
+   "text": "然後我就想說，好，那不然我就是，"
+  },
+  {
+   "start": 1148.26,
+   "end": 1150.76,
+   "speaker": "Kalan",
+   "text": "跟班長申請去醫院檢查看看，"
+  },
+  {
+   "start": 1150.76,
+   "end": 1152.42,
+   "speaker": "Kalan",
+   "text": "結果這一檢查，"
+  },
+  {
+   "start": 1152.42,
+   "end": 1152.82,
+   "speaker": "Kalan",
+   "text": "這個，"
+  },
+  {
+   "start": 1153.44,
+   "end": 1153.92,
+   "speaker": "Kalan",
+   "text": "我得，"
+  },
+  {
+   "start": 1154.26,
+   "end": 1156.32,
+   "speaker": "Kalan",
+   "text": "也不是得啦，就是我的，"
+  },
+  {
+   "start": 1156.86,
+   "end": 1160.2,
+   "speaker": "Kalan",
+   "text": "就我有椎弓解離這個症狀。"
+  },
+  {
+   "start": 1161.58,
+   "end": 1163.8,
+   "speaker": "Kalan",
+   "text": "那他講白話一點就是，"
+  },
+  {
+   "start": 1164.4,
+   "end": 1172.04,
+   "speaker": "Kalan",
+   "text": "我的脊椎的第五個椎弓，好像有個骨頭有稍微斷裂的症狀。"
+  },
+  {
+   "start": 1173.04,
+   "end": 1176.58,
+   "speaker": "Kalan",
+   "text": "然後據醫生的說法，說這樣子其實是，"
+  },
+  {
+   "start": 1177.2,
+   "end": 1177.46,
+   "speaker": "Kalan",
+   "text": "就是，"
+  },
+  {
+   "start": 1177.46,
+   "end": 1179.6,
+   "speaker": "Kalan",
+   "text": "我原本應該是免疫的狀態，"
+  },
+  {
+   "start": 1180.02,
+   "end": 1182.1,
+   "speaker": "Kalan",
+   "text": "但因為檢查並沒有這個項目，"
+  },
+  {
+   "start": 1182.1,
+   "end": 1183.9,
+   "speaker": "Kalan",
+   "text": "所以我還是進去了。"
+  },
+  {
+   "start": 1183.9,
+   "end": 1186.3,
+   "speaker": "Kalan",
+   "text": "然後進去的時候他們就說，"
+  },
+  {
+   "start": 1186.9,
+   "end": 1189.06,
+   "speaker": "Kalan",
+   "text": "當下驗出來的時候他們就說，"
+  },
+  {
+   "start": 1189.58,
+   "end": 1192.32,
+   "speaker": "Kalan",
+   "text": "你現在跑停役，可能跑一跑你也當完了，"
+  },
+  {
+   "start": 1192.32,
+   "end": 1194.02,
+   "speaker": "Kalan",
+   "text": "那不然你就直接當完吧。"
+  },
+  {
+   "start": 1194.02,
+   "end": 1201.18,
+   "speaker": "Kalan",
+   "text": "所以我的後半段，其實我就是拿著一個免操課的單子到退伍。"
+  },
+  {
+   "start": 1201.18,
+   "end": 1205.1,
+   "speaker": "Mooly",
+   "text": "所以你的後半段是指說後兩個月是不是？"
+  },
+  {
+   "start": 1205.1,
+   "end": 1205.66,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1205.66,
+   "end": 1213.0,
+   "speaker": "Kalan",
+   "text": "然後我其實後半段就是行軍跟打靶之類的，"
+  },
+  {
+   "start": 1213.0,
+   "end": 1214.34,
+   "speaker": "Kalan",
+   "text": "這些東西我都沒有做。"
+  },
+  {
+   "start": 1215.5,
+   "end": 1219.46,
+   "speaker": "Mooly",
+   "text": "那因為你後半段新訓完的時候，不是會有一個……"
+  },
+  {
+   "start": 1220.04,
+   "end": 1221.58,
+   "speaker": "Kalan",
+   "text": "欸，我忘記了耶，"
+  },
+  {
+   "start": 1221.58,
+   "end": 1223.16,
+   "speaker": "Mooly",
+   "text": "但反正是步兵。"
+  },
+  {
+   "start": 1223.16,
+   "end": 1225.9,
+   "speaker": "Mooly",
+   "text": "欸，你後半段是在哪裡啊？"
+  },
+  {
+   "start": 1225.9,
+   "end": 1229.9,
+   "speaker": "Kalan",
+   "text": "我其實前後半段都是在同一個地方，"
+  },
+  {
+   "start": 1229.9,
+   "end": 1231.7,
+   "speaker": "Kalan",
+   "text": "在鳳山那一個，"
+  },
+  {
+   "start": 1231.7,
+   "end": 1233.18,
+   "speaker": "Mooly",
+   "text": "高雄鳳山。"
+  },
+  {
+   "start": 1233.18,
+   "end": 1234.26,
+   "speaker": "Kalan",
+   "text": "對對對。"
+  },
+  {
+   "start": 1234.26,
+   "end": 1235.8,
+   "speaker": "Mooly",
+   "text": "所以你前半段也在鳳山？"
+  },
+  {
+   "start": 1235.8,
+   "end": 1236.2,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 1237.02,
+   "end": 1238.24,
+   "speaker": "Kalan",
+   "text": "就都在同一個地方。"
+  },
+  {
+   "start": 1239.32,
+   "end": 1242.5,
+   "speaker": "Mooly",
+   "text": "那感覺你的前後半段跟我的後半段是在同一個地方，"
+  },
+  {
+   "start": 1242.5,
+   "end": 1245.18,
+   "speaker": "Mooly",
+   "text": "就高雄鳳山步兵學校，"
+  },
+  {
+   "start": 1245.18,
+   "end": 1247.68,
+   "speaker": "Mooly",
+   "text": "對吧？就是營區很大的那個。"
+  },
+  {
+   "start": 1248.08,
+   "end": 1249.6,
+   "speaker": "Kalan",
+   "text": "原來那樣叫營區很大。"
+  },
+  {
+   "start": 1249.6,
+   "end": 1251.06,
+   "speaker": "Kalan",
+   "text": "喔，對啊，的確蠻大的，"
+  },
+  {
+   "start": 1252.56,
+   "end": 1255.44,
+   "speaker": "Mooly",
+   "text": "它那個要從一邊走到另外一邊蠻大的。"
+  },
+  {
+   "start": 1255.44,
+   "end": 1259.6,
+   "speaker": "Mooly",
+   "text": "然後去打靶的時候，會有人來賣肉粽的那個嗎？"
+  },
+  {
+   "start": 1259.6,
+   "end": 1260.14,
+   "speaker": "Kalan",
+   "text": "喔，對。"
+  },
+  {
+   "start": 1261.72,
+   "end": 1263.72,
+   "speaker": "Kalan",
+   "text": "這個是你原本的營區沒有，就對了？"
+  },
+  {
+   "start": 1263.72,
+   "end": 1264.94,
+   "speaker": "Mooly",
+   "text": "原本，"
+  },
+  {
+   "start": 1265.58,
+   "end": 1266.78,
+   "speaker": "Mooly",
+   "text": "原本好像沒有。"
+  },
+  {
+   "start": 1266.78,
+   "end": 1269.22,
+   "speaker": "Kalan",
+   "text": "我跟你講，那是我們的小確幸。"
+  },
+  {
+   "start": 1269.22,
+   "end": 1270.86,
+   "speaker": "Kalan",
+   "text": "真的，說到這個，"
+  },
+  {
+   "start": 1270.86,
+   "end": 1271.26,
+   "speaker": "Kalan",
+   "text": "真的。"
+  },
+  {
+   "start": 1273.18,
+   "end": 1276.24,
+   "speaker": "Kalan",
+   "text": "就是在當兵的時候，會有很多，通常啊，"
+  },
+  {
+   "start": 1276.24,
+   "end": 1278.12,
+   "speaker": "Kalan",
+   "text": "通常會有很多人都會抽菸嘛，對不對？"
+  },
+  {
+   "start": 1278.12,
+   "end": 1281.02,
+   "speaker": "Kalan",
+   "text": "那 Mooly 是不抽的嘛。"
+  },
+  {
+   "start": 1281.76,
+   "end": 1284.28,
+   "speaker": "Kalan",
+   "text": "這些人其實還蠻好控制的耶，"
+  },
+  {
+   "start": 1284.28,
+   "end": 1287.9,
+   "speaker": "Kalan",
+   "text": "就只要班長說會放菸，"
+  },
+  {
+   "start": 1288.4,
+   "end": 1289.54,
+   "speaker": "Kalan",
+   "text": "他們就非常乖。"
+  },
+  {
+   "start": 1289.54,
+   "end": 1293.4,
+   "speaker": "Kalan",
+   "text": "所以可以知道這個菸癮其實還蠻可怕的，"
+  },
+  {
+   "start": 1293.4,
+   "end": 1298.92,
+   "speaker": "Mooly",
+   "text": "某種程度上也可以學習一下，就是怎麼樣去掌控這些人嗎？"
+  },
+  {
+   "start": 1299.82,
+   "end": 1303.18,
+   "speaker": "Kalan",
+   "text": "就不知道為什麼，他們只要一陣子不抽菸，他們就會變得……"
+  },
+  {
+   "start": 1303.76,
+   "end": 1306.88,
+   "speaker": "Kalan",
+   "text": "你會發現非常明顯，就是他們會變得非常煩躁，"
+  },
+  {
+   "start": 1307.44,
+   "end": 1310.24,
+   "speaker": "Mooly",
+   "text": "這就是一種上癮的症狀嘛，其實。"
+  },
+  {
+   "start": 1311.48,
+   "end": 1314.92,
+   "speaker": "Kalan",
+   "text": "然後治他們的方法就是放菸，"
+  },
+  {
+   "start": 1315.44,
+   "end": 1321.74,
+   "speaker": "Kalan",
+   "text": "然後跟他們說你現在只要乖乖做好什麼什麼動作，或者是怎樣怎樣，"
+  },
+  {
+   "start": 1321.74,
+   "end": 1323.3,
+   "speaker": "Kalan",
+   "text": "喔，他們就會非常聽話。"
+  },
+  {
+   "start": 1324.58,
+   "end": 1331.56,
+   "speaker": "Kalan",
+   "text": "然後對我們來說，對一般我們不抽菸的人來說，那小確幸就是那個小蜜蜂，或者是你剛剛講的那個賣肉粽。"
+  },
+  {
+   "start": 1332.2,
+   "end": 1337.72,
+   "speaker": "Mooly",
+   "text": "對，就小蜜蜂或投幣販賣機，或那個時候還有一個打電話。"
+  },
+  {
+   "start": 1337.72,
+   "end": 1338.94,
+   "speaker": "Kalan",
+   "text": "喔，對，還有打電話。"
+  },
+  {
+   "start": 1339.5,
+   "end": 1340.8,
+   "speaker": "Kalan",
+   "text": "還有放手機嗎？"
+  },
+  {
+   "start": 1341.38,
+   "end": 1345.52,
+   "speaker": "Mooly",
+   "text": "放手機，我們前兩個月新訓是完全沒有這個。"
+  },
+  {
+   "start": 1345.52,
+   "end": 1346.5,
+   "speaker": "Kalan",
+   "text": "完全沒有了。"
+  },
+  {
+   "start": 1346.5,
+   "end": 1348.02,
+   "speaker": "Mooly",
+   "text": "你只有放假的時候，"
+  },
+  {
+   "start": 1348.5,
+   "end": 1349.88,
+   "speaker": "Mooly",
+   "text": "他才會把手機給你，"
+  },
+  {
+   "start": 1349.88,
+   "end": 1351.92,
+   "speaker": "Mooly",
+   "text": "你平常是沒有手機可以用的。"
+  },
+  {
+   "start": 1351.92,
+   "end": 1359.26,
+   "speaker": "Mooly",
+   "text": "我還記得第一次新訓兩個禮拜後放假的時候，一打開手機，那個通知一大堆，"
+  },
+  {
+   "start": 1360.0,
+   "end": 1361.42,
+   "speaker": "Mooly",
+   "text": "第一次看到這麼多通知。"
+  },
+  {
+   "start": 1361.42,
+   "end": 1364.14,
+   "speaker": "Kalan",
+   "text": "然後把話題拉回來，那個椎弓解離。"
+  },
+  {
+   "start": 1365.0,
+   "end": 1367.94,
+   "speaker": "Kalan",
+   "text": "結果我後半段其實就是不用操課，"
+  },
+  {
+   "start": 1367.94,
+   "end": 1370.64,
+   "speaker": "Kalan",
+   "text": "但不用操課等於說，我就是坐在那邊，"
+  },
+  {
+   "start": 1370.64,
+   "end": 1375.14,
+   "speaker": "Kalan",
+   "text": "我就坐在旁邊，然後看其他同梯一起操課。"
+  },
+  {
+   "start": 1375.68,
+   "end": 1378.06,
+   "speaker": "Kalan",
+   "text": "然後因為我這個症狀又是，"
+  },
+  {
+   "start": 1378.06,
+   "end": 1380.28,
+   "speaker": "Kalan",
+   "text": "你外表上看不出來的，"
+  },
+  {
+   "start": 1380.28,
+   "end": 1383.04,
+   "speaker": "Kalan",
+   "text": "所以很理所當然的，你就會被，"
+  },
+  {
+   "start": 1383.04,
+   "end": 1385.5,
+   "speaker": "Kalan",
+   "text": "就說，你怎麼那麼爽，都"
+  },
+  {
+   "start": 1385.5,
+   "end": 1388.26,
+   "speaker": "Mooly",
+   "text": "不用操課？"
+  },
+  {
+   "start": 1388.26,
+   "end": 1390.24,
+   "speaker": "Kalan",
+   "text": "然後，你這個是不是裝的啊？"
+  },
+  {
+   "start": 1390.24,
+   "end": 1391.46,
+   "speaker": "Kalan",
+   "text": "然後之類的。"
+  },
+  {
+   "start": 1392.58,
+   "end": 1394.58,
+   "speaker": "Kalan",
+   "text": "有時候聽到這些，你就是會很，"
+  },
+  {
+   "start": 1394.58,
+   "end": 1396.04,
+   "speaker": "Kalan",
+   "text": "蠻無奈的。"
+  },
+  {
+   "start": 1397.06,
+   "end": 1400.12,
+   "speaker": "Kalan",
+   "text": "結果後半段其實行軍佔蠻多的，"
+  },
+  {
+   "start": 1400.12,
+   "end": 1402.9,
+   "speaker": "Kalan",
+   "text": "但行軍就很麻煩，然後又很累，"
+  },
+  {
+   "start": 1403.44,
+   "end": 1405.6,
+   "speaker": "Kalan",
+   "text": "然後我都不用做，"
+  },
+  {
+   "start": 1405.6,
+   "end": 1406.6,
+   "speaker": "Kalan",
+   "text": "這時候就會，"
+  },
+  {
+   "start": 1406.6,
+   "end": 1408.62,
+   "speaker": "Kalan",
+   "text": "好像就跟那個奇士店一樣，"
+  },
+  {
+   "start": 1408.62,
+   "end": 1411.82,
+   "speaker": "Kalan",
+   "text": "那我就覺得，"
+  },
+  {
+   "start": 1411.82,
+   "end": 1413.68,
+   "speaker": "Kalan",
+   "text": "為什麼就不乾脆讓我走，"
+  },
+  {
+   "start": 1413.68,
+   "end": 1415.28,
+   "speaker": "Kalan",
+   "text": "就是離開就好，"
+  },
+  {
+   "start": 1415.28,
+   "end": 1418.02,
+   "speaker": "Kalan",
+   "text": "然後就為了那個流程什麼的，"
+  },
+  {
+   "start": 1418.8,
+   "end": 1421.8,
+   "speaker": "Kalan",
+   "text": "不然我坐在那邊其實好像也沒什麼用。"
+  },
+  {
+   "start": 1423.06,
+   "end": 1425.0,
+   "speaker": "Mooly",
+   "text": "講到這個，其實我，"
+  },
+  {
+   "start": 1425.0,
+   "end": 1427.0,
+   "speaker": "Mooly",
+   "text": "就我雖然四個月有當完，"
+  },
+  {
+   "start": 1427.0,
+   "end": 1428.7,
+   "speaker": "Mooly",
+   "text": "但我現在其實是免役。"
+  },
+  {
+   "start": 1428.7,
+   "end": 1430.16,
+   "speaker": "Mooly",
+   "text": "當完兵之後，"
+  },
+  {
+   "start": 1430.66,
+   "end": 1432.96,
+   "speaker": "Mooly",
+   "text": "反正，反正就隔了很多年，"
+  },
+  {
+   "start": 1432.96,
+   "end": 1436.26,
+   "speaker": "Mooly",
+   "text": "然後反正我發現我有那個睡眠呼吸中止症，"
+  },
+  {
+   "start": 1437.66,
+   "end": 1442.94,
+   "speaker": "Mooly",
+   "text": "後來才發現，原來睡眠呼吸中止症的重度是可以辦免役的。"
+  },
+  {
+   "start": 1442.94,
+   "end": 1450.02,
+   "speaker": "Mooly",
+   "text": "雖然它並不是一個像別的，就你不能運動、不能什麼的一個疾病，"
+  },
+  {
+   "start": 1450.02,
+   "end": 1455.86,
+   "speaker": "Mooly",
+   "text": "但總之它是可以辦免役的，甚至這個疾病在幾年前，比如說十幾年前，"
+  },
+  {
+   "start": 1456.3,
+   "end": 1458.94,
+   "speaker": "Mooly",
+   "text": "它是可以拿什麼身心障礙手冊的，"
+  },
+  {
+   "start": 1460.12,
+   "end": 1461.22,
+   "speaker": "Mooly",
+   "text": "但後來沒了，"
+  },
+  {
+   "start": 1461.22,
+   "end": 1464.04,
+   "speaker": "Mooly",
+   "text": "但它還是可以辦免役。"
+  },
+  {
+   "start": 1464.04,
+   "end": 1464.98,
+   "speaker": "Mooly",
+   "text": "所以我後來，"
+  },
+  {
+   "start": 1464.98,
+   "end": 1467.14,
+   "speaker": "Mooly",
+   "text": "即便是我結訓之後，"
+  },
+  {
+   "start": 1467.14,
+   "end": 1468.96,
+   "speaker": "Mooly",
+   "text": "我還是去辦了免役，"
+  },
+  {
+   "start": 1468.96,
+   "end": 1472.8,
+   "speaker": "Mooly",
+   "text": "所以我現在是處於不用教召的一個狀態，因為我是免役。"
+  },
+  {
+   "start": 1472.8,
+   "end": 1477.34,
+   "speaker": "Mooly",
+   "text": "但我去辦免役的時候，那個政府人員就跟我說，你辦了之後，"
+  },
+  {
+   "start": 1477.34,
+   "end": 1479.78,
+   "speaker": "Mooly",
+   "text": "意思大概就是說，我在政府紀錄裡面，我就是，"
+  },
+  {
+   "start": 1479.78,
+   "end": 1482.62,
+   "speaker": "Mooly",
+   "text": "就不是本來的那個當過兵的那個狀態，"
+  },
+  {
+   "start": 1482.62,
+   "end": 1488.12,
+   "speaker": "Mooly",
+   "text": "所以假設我要再拿那個當過兵的證明的話，我是拿不到的。"
+  },
+  {
+   "start": 1488.12,
+   "end": 1489.04,
+   "speaker": "Kalan",
+   "text": "哦，了解。"
+  },
+  {
+   "start": 1489.04,
+   "end": 1491.44,
+   "speaker": "Mooly",
+   "text": "比如說如果有公司，"
+  },
+  {
+   "start": 1492.02,
+   "end": 1493.48,
+   "speaker": "Mooly",
+   "text": "填履歷要寫什麼，"
+  },
+  {
+   "start": 1494.2,
+   "end": 1496.28,
+   "speaker": "Mooly",
+   "text": "退伍證明什麼的，那個我是沒辦法給出來，"
+  },
+  {
+   "start": 1496.28,
+   "end": 1497.92,
+   "speaker": "Mooly",
+   "text": "我只能跟他們說我免役，"
+  },
+  {
+   "start": 1497.92,
+   "end": 1499.04,
+   "speaker": "Mooly",
+   "text": "雖然我有當過兵。"
+  },
+  {
+   "start": 1503.6,
+   "end": 1504.7,
+   "speaker": "Kalan",
+   "text": "原來是這樣。"
+  },
+  {
+   "start": 1504.7,
+   "end": 1507.38,
+   "speaker": "Kalan",
+   "text": "我有當過兵，可是我有免役，這樣。"
+  },
+  {
+   "start": 1507.38,
+   "end": 1508.4,
+   "speaker": "Mooly",
+   "text": "對對對，"
+  },
+  {
+   "start": 1508.4,
+   "end": 1512.84,
+   "speaker": "Mooly",
+   "text": "就是一個一般人通常不太會有的一個狀態。"
+  },
+  {
+   "start": 1512.84,
+   "end": 1514.08,
+   "speaker": "Kalan",
+   "text": "後半段那個，"
+  },
+  {
+   "start": 1514.08,
+   "end": 1515.8,
+   "speaker": "Kalan",
+   "text": "就椎弓解離後的事，"
+  },
+  {
+   "start": 1516.78,
+   "end": 1520.2,
+   "speaker": "Kalan",
+   "text": "我反正我之後有跟幾位朋友分享，"
+  },
+  {
+   "start": 1520.2,
+   "end": 1520.96,
+   "speaker": "Kalan",
+   "text": "然後，"
+  },
+  {
+   "start": 1520.96,
+   "end": 1524.08,
+   "speaker": "Kalan",
+   "text": "那些朋友有跟我分享一些案例，就是"
+  },
+  {
+   "start": 1524.82,
+   "end": 1527.16,
+   "speaker": "Kalan",
+   "text": "有一位也是，比如說他發燒，"
+  },
+  {
+   "start": 1527.16,
+   "end": 1531.94,
+   "speaker": "Kalan",
+   "text": "然後班長一直就覺得他是裝的，然後一直不讓他去"
+  },
+  {
+   "start": 1533.3,
+   "end": 1534.58,
+   "speaker": "Kalan",
+   "text": "醫院看。"
+  },
+  {
+   "start": 1535.14,
+   "end": 1540.0,
+   "speaker": "Kalan",
+   "text": "結果好像就燒到，我不知道出現什麼症狀，"
+  },
+  {
+   "start": 1540.72,
+   "end": 1542.78,
+   "speaker": "Kalan",
+   "text": "但反正就是蠻嚴重的。"
+  },
+  {
+   "start": 1543.5,
+   "end": 1545.02,
+   "speaker": "Kalan",
+   "text": "所以有時候"
+  },
+  {
+   "start": 1546.22,
+   "end": 1549.7,
+   "speaker": "Kalan",
+   "text": "當兵有時候或許會讓你的病情加重，"
+  },
+  {
+   "start": 1549.7,
+   "end": 1551.24,
+   "speaker": "Kalan",
+   "text": "你的症狀加重，"
+  },
+  {
+   "start": 1551.24,
+   "end": 1552.82,
+   "speaker": "Kalan",
+   "text": "因為在那個環境下，其實"
+  },
+  {
+   "start": 1553.36,
+   "end": 1556.96,
+   "speaker": "Kalan",
+   "text": "你能做的事情很大程度會取決於班長。"
+  },
+  {
+   "start": 1556.96,
+   "end": 1560.16,
+   "speaker": "Mooly",
+   "text": "而且講到這個我才想到，"
+  },
+  {
+   "start": 1560.16,
+   "end": 1562.28,
+   "speaker": "Mooly",
+   "text": "基本上我當病人的四個月裡面，"
+  },
+  {
+   "start": 1562.28,
+   "end": 1564.32,
+   "speaker": "Mooly",
+   "text": "我的感冒幾乎沒有好過，"
+  },
+  {
+   "start": 1564.32,
+   "end": 1568.0,
+   "speaker": "Mooly",
+   "text": "因為當你好的時候，就有別人傳染給你，"
+  },
+  {
+   "start": 1568.0,
+   "end": 1569.52,
+   "speaker": "Mooly",
+   "text": "然後當別人好的時候，"
+  },
+  {
+   "start": 1569.52,
+   "end": 1571.12,
+   "speaker": "Mooly",
+   "text": "他就會被你傳染，"
+  },
+  {
+   "start": 1571.12,
+   "end": 1575.42,
+   "speaker": "Mooly",
+   "text": "所以它是一個一直無限循環的狀態。"
+  },
+  {
+   "start": 1575.42,
+   "end": 1577.62,
+   "speaker": "Kalan",
+   "text": "我們那時候有流感，"
+  },
+  {
+   "start": 1577.62,
+   "end": 1579.8,
+   "speaker": "Kalan",
+   "text": "就是整個營上，"
+  },
+  {
+   "start": 1579.8,
+   "end": 1581.76,
+   "speaker": "Kalan",
+   "text": "大家都開始戴口罩了，"
+  },
+  {
+   "start": 1581.76,
+   "end": 1583.62,
+   "speaker": "Kalan",
+   "text": "它那個傳染力真的很強。"
+  },
+  {
+   "start": 1583.62,
+   "end": 1584.84,
+   "speaker": "Mooly",
+   "text": "對，傳染力很強，"
+  },
+  {
+   "start": 1584.84,
+   "end": 1589.04,
+   "speaker": "Mooly",
+   "text": "然後再加上你們朝夕相處，又睡在同一個空間，"
+  },
+  {
+   "start": 1589.04,
+   "end": 1591.62,
+   "speaker": "Kalan",
+   "text": "所以基本上就是一人中槍，"
+  },
+  {
+   "start": 1592.14,
+   "end": 1594.7,
+   "speaker": "Mooly",
+   "text": "對，一人中全部都中，然後越來越嚴重，"
+  },
+  {
+   "start": 1594.7,
+   "end": 1596.9,
+   "speaker": "Mooly",
+   "text": "然後你好了之後，別人又傳染給你，"
+  },
+  {
+   "start": 1596.9,
+   "end": 1598.6,
+   "speaker": "Mooly",
+   "text": "它是一個大毒窟。"
+  },
+  {
+   "start": 1598.6,
+   "end": 1600.5,
+   "speaker": "Kalan",
+   "text": "喔，對，大毒窟。"
+  },
+  {
+   "start": 1600.5,
+   "end": 1601.96,
+   "speaker": "Mooly",
+   "text": "對，非常可怕。"
+  },
+  {
+   "start": 1601.96,
+   "end": 1605.62,
+   "speaker": "Mooly",
+   "text": "話題稍微拉回前面講學歷的那個問題，"
+  },
+  {
+   "start": 1606.72,
+   "end": 1608.5,
+   "speaker": "Mooly",
+   "text": "我突然想到之前那個，"
+  },
+  {
+   "start": 1609.0,
+   "end": 1611.72,
+   "speaker": "Mooly",
+   "text": "前幾天我剛好在聽一個博恩的 podcast，"
+  },
+  {
+   "start": 1611.72,
+   "end": 1618.44,
+   "speaker": "Mooly",
+   "text": "他跟一個台大醫學系的饒舌歌手，叫神經元，在聊天，"
+  },
+  {
+   "start": 1618.96,
+   "end": 1621.2,
+   "speaker": "Mooly",
+   "text": "然後他們有聊到，因為他們兩個學歷都，"
+  },
+  {
+   "start": 1621.2,
+   "end": 1622.78,
+   "speaker": "Mooly",
+   "text": "他們有聊到學歷這件事情。"
+  },
+  {
+   "start": 1622.78,
+   "end": 1628.56,
+   "speaker": "Mooly",
+   "text": "他們其中一個在聊的是學歷高跟服從的關聯性，"
+  },
+  {
+   "start": 1629.08,
+   "end": 1634.92,
+   "speaker": "Mooly",
+   "text": "他們似乎發現，學歷高的人似乎有比較容易服從的傾向。"
+  },
+  {
+   "start": 1636.08,
+   "end": 1642.32,
+   "speaker": "Mooly",
+   "text": "這個我覺得套在當兵裡面，其實你也可以蠻看得出來這件事情的，就比如說像有點學歷的人可能"
+  },
+  {
+   "start": 1642.32,
+   "end": 1648.46,
+   "speaker": "Mooly",
+   "text": "本來就比較會服從這東西嘛，他會知道這邊的遊戲規則就是這樣子，讓你知道我們遵守就可以好好過，"
+  },
+  {
+   "start": 1648.46,
+   "end": 1650.48,
+   "speaker": "Mooly",
+   "text": "所以你也不會特別出什麼亂子，"
+  },
+  {
+   "start": 1650.48,
+   "end": 1653.4,
+   "speaker": "Mooly",
+   "text": "甚至你有時候可能"
+  },
+  {
+   "start": 1653.4,
+   "end": 1657.1,
+   "speaker": "Mooly",
+   "text": "再更極端一點，就是你也不會去想說那件事情是不是對的，"
+  },
+  {
+   "start": 1657.1,
+   "end": 1659.18,
+   "speaker": "Mooly",
+   "text": "反正你就只要服從就可以了。"
+  },
+  {
+   "start": 1659.18,
+   "end": 1661.98,
+   "speaker": "Mooly",
+   "text": "再更極端一點，就變成那個，叫什麼，"
+  },
+  {
+   "start": 1661.98,
+   "end": 1664.38,
+   "speaker": "Mooly",
+   "text": "就是有一個專有名詞是講說，"
+  },
+  {
+   "start": 1664.38,
+   "end": 1675.16,
+   "speaker": "Mooly",
+   "text": "比如說在德國那個時候，在屠殺猶太人、納粹的時候，士兵雖然說自己只是 follow 那個規則，但最後還是被判了。"
+  },
+  {
+   "start": 1675.16,
+   "end": 1677.84,
+   "speaker": "Mooly",
+   "text": "我記得有一個專有名詞是在講"
+  },
+  {
+   "start": 1677.84,
+   "end": 1679.72,
+   "speaker": "Kalan",
+   "text": "平庸的邪惡，"
+  },
+  {
+   "start": 1682.02,
+   "end": 1689.02,
+   "speaker": "Mooly",
+   "text": "大概是這種感覺，所以那個時候聽完，才讓我有稍微想了一下，就是服從這件事情好像是"
+  },
+  {
+   "start": 1689.52,
+   "end": 1693.76,
+   "speaker": "Mooly",
+   "text": "平常自己沒有感覺到，但想一想好像會覺得，好像他們講的也沒錯的一個"
+  },
+  {
+   "start": 1693.76,
+   "end": 1694.98,
+   "speaker": "Mooly",
+   "text": "概念。"
+  },
+  {
+   "start": 1694.98,
+   "end": 1696.82,
+   "speaker": "Kalan",
+   "text": "我覺得蠻有道理的，"
+  },
+  {
+   "start": 1696.82,
+   "end": 1701.92,
+   "speaker": "Mooly",
+   "text": "就是你服從，你可能從小就比較聽老師的話，你會乖乖寫作業，你會乖乖上課，"
+  },
+  {
+   "start": 1701.92,
+   "end": 1703.66,
+   "speaker": "Mooly",
+   "text": "可能有些人他們就不喜歡上課，"
+  },
+  {
+   "start": 1703.66,
+   "end": 1705.8,
+   "speaker": "Mooly",
+   "text": "然後他們就去做其他事情，"
+  },
+  {
+   "start": 1705.8,
+   "end": 1708.4,
+   "speaker": "Mooly",
+   "text": "那他們學歷自然而然就不會好，"
+  },
+  {
+   "start": 1708.4,
+   "end": 1712.66,
+   "speaker": "Mooly",
+   "text": "但也不代表說他們不懂得做人處事的道理或是什麼的，"
+  },
+  {
+   "start": 1712.66,
+   "end": 1717.0,
+   "speaker": "Kalan",
+   "text": "它會比較像是兩個天平的兩個極端，"
+  },
+  {
+   "start": 1718.04,
+   "end": 1722.6,
+   "speaker": "Kalan",
+   "text": "就我們想要的狀態可能是比較中間那一點，"
+  },
+  {
+   "start": 1723.42,
+   "end": 1727.02,
+   "speaker": "Kalan",
+   "text": "但如果你往兩個極端走的話，就會呈現"
+  },
+  {
+   "start": 1727.64,
+   "end": 1730.64,
+   "speaker": "Kalan",
+   "text": "一個太服從，然後一個太叛逆。"
+  },
+  {
+   "start": 1731.2,
+   "end": 1733.88,
+   "speaker": "Mooly",
+   "text": "對對對，就可能要從中間取得一個平衡。"
+  },
+  {
+   "start": 1734.9,
+   "end": 1739.02,
+   "speaker": "Kalan",
+   "text": "當兵它的確就是一個服從遊戲。"
+  },
+  {
+   "start": 1740.68,
+   "end": 1741.62,
+   "speaker": "Mooly",
+   "text": "沒錯，畢竟"
+  },
+  {
+   "start": 1742.26,
+   "end": 1745.44,
+   "speaker": "Mooly",
+   "text": "你其實從客觀角度來看，你當兵的時候服從其實也蠻重要的，"
+  },
+  {
+   "start": 1745.44,
+   "end": 1747.82,
+   "speaker": "Mooly",
+   "text": "畢竟到時候如果真的上戰場或什麼的話，"
+  },
+  {
+   "start": 1748.44,
+   "end": 1752.44,
+   "speaker": "Mooly",
+   "text": "確實是真的要聽某一個人的命令，"
+  },
+  {
+   "start": 1752.44,
+   "end": 1753.5,
+   "speaker": "Mooly",
+   "text": "他說什麼就做什麼，"
+  },
+  {
+   "start": 1753.5,
+   "end": 1756.7,
+   "speaker": "Mooly",
+   "text": "不然很難去做出一些什麼事。"
+  },
+  {
+   "start": 1756.7,
+   "end": 1758.8,
+   "speaker": "Mooly",
+   "text": "整體四個月當兵裡面，"
+  },
+  {
+   "start": 1759.36,
+   "end": 1762.66,
+   "speaker": "Mooly",
+   "text": "你覺得是輕鬆的嗎？"
+  },
+  {
+   "start": 1762.66,
+   "end": 1765.18,
+   "speaker": "Kalan",
+   "text": "如果以我自己的角度來講的話，"
+  },
+  {
+   "start": 1765.18,
+   "end": 1766.12,
+   "speaker": "Kalan",
+   "text": "對我來講，"
+  },
+  {
+   "start": 1766.12,
+   "end": 1770.0,
+   "speaker": "Kalan",
+   "text": "雖然有時候會有些就是很阿雜的地方，"
+  },
+  {
+   "start": 1770.0,
+   "end": 1770.86,
+   "speaker": "Mooly",
+   "text": "阿雜的事情這樣。"
+  },
+  {
+   "start": 1770.86,
+   "end": 1771.78,
+   "speaker": "Kalan",
+   "text": "對，阿雜的事情，"
+  },
+  {
+   "start": 1771.78,
+   "end": 1774.48,
+   "speaker": "Kalan",
+   "text": "但整體來講，對我來講是輕鬆的，"
+  },
+  {
+   "start": 1774.48,
+   "end": 1779.76,
+   "speaker": "Kalan",
+   "text": "因為第一個就是我們那一梯是相對學歷比較高的，"
+  },
+  {
+   "start": 1779.76,
+   "end": 1779.96,
+   "speaker": "Kalan",
+   "text": "所以，"
+  },
+  {
+   "start": 1780.56,
+   "end": 1785.6,
+   "speaker": "Kalan",
+   "text": "雖然還是會有所謂的異溫層，但沒有異溫層到這麼多，"
+  },
+  {
+   "start": 1786.28,
+   "end": 1790.78,
+   "speaker": "Kalan",
+   "text": "然後第二個就是班長其實也算，"
+  },
+  {
+   "start": 1790.78,
+   "end": 1793.0,
+   "speaker": "Kalan",
+   "text": "我自己覺得也算正常，"
+  },
+  {
+   "start": 1793.0,
+   "end": 1799.14,
+   "speaker": "Kalan",
+   "text": "跟第三個就是我可能相對可以適應那樣的環境，因為我知道可能有些人，"
+  },
+  {
+   "start": 1799.14,
+   "end": 1801.98,
+   "speaker": "Kalan",
+   "text": "他們可能看到那個枕頭就已經受不了了這樣子。"
+  },
+  {
+   "start": 1801.98,
+   "end": 1803.9,
+   "speaker": "Mooly",
+   "text": "對我來說，"
+  },
+  {
+   "start": 1804.6,
+   "end": 1807.42,
+   "speaker": "Mooly",
+   "text": "前兩個月是比較不輕鬆的，"
+  },
+  {
+   "start": 1807.42,
+   "end": 1809.44,
+   "speaker": "Mooly",
+   "text": "前兩個月新訓的時候是真的比較累，"
+  },
+  {
+   "start": 1809.44,
+   "end": 1812.28,
+   "speaker": "Mooly",
+   "text": "然後也沒有什麼手機可以用，"
+  },
+  {
+   "start": 1812.28,
+   "end": 1815.54,
+   "speaker": "Mooly",
+   "text": "然後整個環境也比較糟一點，"
+  },
+  {
+   "start": 1815.54,
+   "end": 1816.52,
+   "speaker": "Mooly",
+   "text": "然後也比較糙一點。"
+  },
+  {
+   "start": 1816.52,
+   "end": 1819.22,
+   "speaker": "Mooly",
+   "text": "但後兩個月就算相對輕鬆，"
+  },
+  {
+   "start": 1819.22,
+   "end": 1821.5,
+   "speaker": "Mooly",
+   "text": "因為它那個輕鬆是客觀的輕鬆，"
+  },
+  {
+   "start": 1821.5,
+   "end": 1826.78,
+   "speaker": "Mooly",
+   "text": "就算你可能有時候早上也要跑跑步，或是有時候也要操課什麼的，"
+  },
+  {
+   "start": 1826.78,
+   "end": 1831.22,
+   "speaker": "Mooly",
+   "text": "但基本上後兩個月就是，甚至是你有時候什麼禮拜五晚上，"
+  },
+  {
+   "start": 1832.06,
+   "end": 1835.88,
+   "speaker": "Mooly",
+   "text": "還可以叫個珍奶、叫個雞排進來的那種。"
+  },
+  {
+   "start": 1835.88,
+   "end": 1837.08,
+   "speaker": "Kalan",
+   "text": "喔，對對對。"
+  },
+  {
+   "start": 1837.08,
+   "end": 1840.48,
+   "speaker": "Mooly",
+   "text": "比如說什麼看個電影什麼的，整體氛圍相對來講，"
+  },
+  {
+   "start": 1840.48,
+   "end": 1844.2,
+   "speaker": "Mooly",
+   "text": "比之前在新訓的時候再更好一點。"
+  },
+  {
+   "start": 1844.2,
+   "end": 1848.56,
+   "speaker": "Mooly",
+   "text": "但我有聽到有其他同梯是他們在新訓的時候就已經過那麼爽，"
+  },
+  {
+   "start": 1848.56,
+   "end": 1853.96,
+   "speaker": "Mooly",
+   "text": "所以對於那些說是個人是下令營的人，我也沒辦法說些什麼，"
+  },
+  {
+   "start": 1853.96,
+   "end": 1857.12,
+   "speaker": "Mooly",
+   "text": "因為他某些狀況下還真的就是下令營，"
+  },
+  {
+   "start": 1858.56,
+   "end": 1859.9,
+   "speaker": "Mooly",
+   "text": "我也沒辦法反駁什麼。"
+  },
+  {
+   "start": 1859.9,
+   "end": 1863.3,
+   "speaker": "Kalan",
+   "text": "的確，那個吃雞排真的很爽，"
+  },
+  {
+   "start": 1864.74,
+   "end": 1866.1,
+   "speaker": "Mooly",
+   "text": "尤其你在當兵的時候，"
+  },
+  {
+   "start": 1866.1,
+   "end": 1867.52,
+   "speaker": "Mooly",
+   "text": "吃雞排就更爽。"
+  },
+  {
+   "start": 1867.52,
+   "end": 1872.9,
+   "speaker": "Mooly",
+   "text": "餐廳裡面，雖然很多人說軍中裡面東西很難吃，但我吃起來其實我覺得還，"
+  },
+  {
+   "start": 1872.9,
+   "end": 1874.52,
+   "speaker": "Kalan",
+   "text": "我也覺得還好，"
+  },
+  {
+   "start": 1874.52,
+   "end": 1877.58,
+   "speaker": "Kalan",
+   "text": "就是其實還不錯吃啦。"
+  },
+  {
+   "start": 1877.58,
+   "end": 1877.8,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 1878.36,
+   "end": 1883.72,
+   "speaker": "Mooly",
+   "text": "但其實也跟你在哪邊有關係，像我新訓站那個苗栗斗煥坪，"
+  },
+  {
+   "start": 1883.72,
+   "end": 1887.72,
+   "speaker": "Mooly",
+   "text": "斗煥坪據說是一個被暱稱為什麼斗煥坪大飯店的地方，"
+  },
+  {
+   "start": 1887.72,
+   "end": 1889.78,
+   "speaker": "Mooly",
+   "text": "就好像它的餐廳比較好吃。"
+  },
+  {
+   "start": 1890.36,
+   "end": 1893.96,
+   "speaker": "Mooly",
+   "text": "到高雄之後，我覺得東西確實有比較不好吃一點，"
+  },
+  {
+   "start": 1893.96,
+   "end": 1895.16,
+   "speaker": "Mooly",
+   "text": "但整體來說我覺得還是，"
+  },
+  {
+   "start": 1895.16,
+   "end": 1896.28,
+   "speaker": "Mooly",
+   "text": "還是 OK 的。"
+  },
+  {
+   "start": 1896.7,
+   "end": 1897.66,
+   "speaker": "Kalan",
+   "text": "原來是這樣。"
+  },
+  {
+   "start": 1897.66,
+   "end": 1900.36,
+   "speaker": "Mooly",
+   "text": "不同地方那個食物風格不一樣。"
+  },
+  {
+   "start": 1900.36,
+   "end": 1903.46,
+   "speaker": "Kalan",
+   "text": "就是在吃飯的時候，會讓我體驗到一件事情，就是"
+  },
+  {
+   "start": 1903.98,
+   "end": 1907.54,
+   "speaker": "Kalan",
+   "text": "我們吃甜跟吃鹹的湯匙是共用的，"
+  },
+  {
+   "start": 1908.66,
+   "end": 1909.38,
+   "speaker": "Kalan",
+   "text": "所以好像"
+  },
+  {
+   "start": 1909.38,
+   "end": 1910.98,
+   "speaker": "Kalan",
+   "text": "但其實好像也沒什麼差。"
+  },
+  {
+   "start": 1910.98,
+   "end": 1917.92,
+   "speaker": "Kalan",
+   "text": "就以前可能就是會習慣說，鹹的湯匙要用這個，然後甜的湯匙要用另外一個。"
+  },
+  {
+   "start": 1917.92,
+   "end": 1921.54,
+   "speaker": "Kalan",
+   "text": "但在軍中沒拿來給你那麼多湯匙用。"
+  },
+  {
+   "start": 1921.54,
+   "end": 1923.8,
+   "speaker": "Mooly",
+   "text": "在軍中就是什麼都沒差。"
+  },
+  {
+   "start": 1923.8,
+   "end": 1925.02,
+   "speaker": "Kalan",
+   "text": "什麼都沒差。"
+  },
+  {
+   "start": 1925.02,
+   "end": 1928.18,
+   "speaker": "Mooly",
+   "text": "就你也不可能跟班長說，我想要再拿一個湯匙。"
+  },
+  {
+   "start": 1929.32,
+   "end": 1931.9,
+   "speaker": "Kalan",
+   "text": "哇，這個一定會被罵。"
+  },
+  {
+   "start": 1933.6,
+   "end": 1935.4,
+   "speaker": "Kalan",
+   "text": "就是班長那些講的話，"
+  },
+  {
+   "start": 1935.4,
+   "end": 1937.74,
+   "speaker": "Kalan",
+   "text": "就是你在《新兵日記》看的東西，"
+  },
+  {
+   "start": 1938.24,
+   "end": 1942.4,
+   "speaker": "Kalan",
+   "text": "你可能以為就是做效果，怎麼可能會這樣講，"
+  },
+  {
+   "start": 1942.4,
+   "end": 1945.06,
+   "speaker": "Kalan",
+   "text": "但好像進去的時候，班長就是真的會這樣講。"
+  },
+  {
+   "start": 1945.06,
+   "end": 1946.5,
+   "speaker": "Mooly",
+   "text": "班長真的會這樣講。"
+  },
+  {
+   "start": 1946.5,
+   "end": 1948.9,
+   "speaker": "Mooly",
+   "text": "然後有些班長也蠻幽默的，"
+  },
+  {
+   "start": 1948.9,
+   "end": 1951.42,
+   "speaker": "Mooly",
+   "text": "就他可能也不是刻意搞笑，"
+  },
+  {
+   "start": 1951.42,
+   "end": 1953.28,
+   "speaker": "Mooly",
+   "text": "但他講出來罵人那些話就，"
+  },
+  {
+   "start": 1953.28,
+   "end": 1957.34,
+   "speaker": "Mooly",
+   "text": "很好笑，就是你以前會在軍教片裡面看到的那種台詞。"
+  },
+  {
+   "start": 1957.34,
+   "end": 1961.22,
+   "speaker": "Kalan",
+   "text": "對，什麼「不打情，不打懶，"
+  },
+  {
+   "start": 1961.22,
+   "end": 1962.26,
+   "speaker": "Mooly",
+   "text": "專打不張眼」。"
+  },
+  {
+   "start": 1962.88,
+   "end": 1964.28,
+   "speaker": "Kalan",
+   "text": "就這些東西，"
+  },
+  {
+   "start": 1964.88,
+   "end": 1966.72,
+   "speaker": "Kalan",
+   "text": "它真的會在劇裡面出現。"
+  },
+  {
+   "start": 1966.72,
+   "end": 1968.84,
+   "speaker": "Mooly",
+   "text": "對，這些蠻常見的。"
+  },
+  {
+   "start": 1969.22,
+   "end": 1972.38,
+   "speaker": "Mooly",
+   "text": "那我分享一個當兵最大的體悟好了，"
+  },
+  {
+   "start": 1972.38,
+   "end": 1975.02,
+   "speaker": "Mooly",
+   "text": "基本上就是自由的可貴。"
+  },
+  {
+   "start": 1975.02,
+   "end": 1979.04,
+   "speaker": "Mooly",
+   "text": "你這輩子中，除了被關或是被抓去當兵之外，"
+  },
+  {
+   "start": 1979.46,
+   "end": 1983.12,
+   "speaker": "Mooly",
+   "text": "基本上你其實都可以享有一定程度的人身自由。"
+  },
+  {
+   "start": 1983.12,
+   "end": 1989.1,
+   "speaker": "Mooly",
+   "text": "就算有些人覺得你去工作可能被綁住好了，你其實下班之後還是自由的，或你工作你可以不幹嘛。"
+  },
+  {
+   "start": 1989.1,
+   "end": 1993.68,
+   "speaker": "Mooly",
+   "text": "但當兵基本上你沒有特殊理由，你不能退伍，你不能離開那個地方，"
+  },
+  {
+   "start": 1993.68,
+   "end": 1996.72,
+   "speaker": "Mooly",
+   "text": "你的人身自由是受到很大程度的一個限制。"
+  },
+  {
+   "start": 1996.72,
+   "end": 2005.04,
+   "speaker": "Mooly",
+   "text": "在進去之前，我完全沒有感受到人身自由這麼重要，就是我想要做什麼事情，我現在就馬上可以去做，"
+  },
+  {
+   "start": 2005.04,
+   "end": 2012.12,
+   "speaker": "Mooly",
+   "text": "或是我立刻就可以脫離這裡，去一個地方的那種感覺，是當兵之後我才深刻體會到說，"
+  },
+  {
+   "start": 2012.12,
+   "end": 2014.46,
+   "speaker": "Mooly",
+   "text": "原來自由這麼重要。"
+  },
+  {
+   "start": 2014.46,
+   "end": 2016.42,
+   "speaker": "Kalan",
+   "text": "這件事情會比較像是，"
+  },
+  {
+   "start": 2016.42,
+   "end": 2019.32,
+   "speaker": "Kalan",
+   "text": "可能我們以前就知道這樣的事情，"
+  },
+  {
+   "start": 2019.32,
+   "end": 2025.98,
+   "speaker": "Kalan",
+   "text": "但當兵這件事情，因為它是真真實實地會限制住你的自由，"
+  },
+  {
+   "start": 2025.98,
+   "end": 2028.4,
+   "speaker": "Kalan",
+   "text": "而且要把你的頭剃光，"
+  },
+  {
+   "start": 2029.62,
+   "end": 2032.4,
+   "speaker": "Kalan",
+   "text": "那你在感受完這件事情之後，"
+  },
+  {
+   "start": 2032.4,
+   "end": 2036.34,
+   "speaker": "Kalan",
+   "text": "你就會更加地認識到自由這件事情。"
+  },
+  {
+   "start": 2037.9,
+   "end": 2041.78,
+   "speaker": "Mooly",
+   "text": "你有時候你知道這件事情，跟你實際上體驗過的那件事情，是完全，"
+  },
+  {
+   "start": 2041.78,
+   "end": 2042.98,
+   "speaker": "Mooly",
+   "text": "完全不同的一個感受。"
+  },
+  {
+   "start": 2042.98,
+   "end": 2043.98,
+   "speaker": "Kalan",
+   "text": "對，是完全不同。"
+  },
+  {
+   "start": 2043.98,
+   "end": 2045.5,
+   "speaker": "Kalan",
+   "text": "但是呢，"
+  },
+  {
+   "start": 2046.0,
+   "end": 2048.02,
+   "speaker": "Kalan",
+   "text": "如果你是現在還沒有當兵，"
+  },
+  {
+   "start": 2048.02,
+   "end": 2052.58,
+   "speaker": "Kalan",
+   "text": "然後你聽完，你竟然會想要體驗當兵的話，"
+  },
+  {
+   "start": 2052.58,
+   "end": 2054.4,
+   "speaker": "Kalan",
+   "text": "我們是建議先不要。"
+  },
+  {
+   "start": 2056.94,
+   "end": 2060.86,
+   "speaker": "Kalan",
+   "text": "如果你可以不用當兵的話，那當然就是選不用當兵了。"
+  },
+  {
+   "start": 2060.86,
+   "end": 2064.6,
+   "speaker": "Kalan",
+   "text": "老實講，一年可以做很多事耶。"
+  },
+  {
+   "start": 2064.6,
+   "end": 2066.54,
+   "speaker": "Mooly",
+   "text": "對，一年其實，"
+  },
+  {
+   "start": 2067.42,
+   "end": 2070.34,
+   "speaker": "Mooly",
+   "text": "對，他可以做滿多事，他不一定要去，"
+  },
+  {
+   "start": 2070.34,
+   "end": 2072.86,
+   "speaker": "Mooly",
+   "text": "在軍中度過你的那一年。"
+  },
+  {
+   "start": 2073.68,
+   "end": 2076.78,
+   "speaker": "Kalan",
+   "text": "我想不到有任何理由，"
+  },
+  {
+   "start": 2076.78,
+   "end": 2081.56,
+   "speaker": "Kalan",
+   "text": "就是除非你是真的對服兵役這件事情有信仰的話，"
+  },
+  {
+   "start": 2082.1,
+   "end": 2085.72,
+   "speaker": "Kalan",
+   "text": "我想不到任何理由要把自己主動送進去，"
+  },
+  {
+   "start": 2085.72,
+   "end": 2087.18,
+   "speaker": "Kalan",
+   "text": "這一年限制住自由，"
+  },
+  {
+   "start": 2087.18,
+   "end": 2089.42,
+   "speaker": "Kalan",
+   "text": "然後不能做自己想做事情的原因，"
+  },
+  {
+   "start": 2090.03,
+   "end": 2091.0,
+   "speaker": "Kalan",
+   "text": "的理由。"
+  },
+  {
+   "start": 2091.0,
+   "end": 2091.52,
+   "speaker": "Kalan",
+   "text": "嗯。"
+  },
+  {
+   "start": 2091.52,
+   "end": 2092.34,
+   "speaker": "Mooly",
+   "text": "確實。"
+  },
+  {
+   "start": 2092.34,
+   "end": 2097.12,
+   "speaker": "Mooly",
+   "text": "畢竟就算你真的想保家衛國，可能有其他方法，"
+  },
+  {
+   "start": 2097.12,
+   "end": 2098.52,
+   "speaker": "Mooly",
+   "text": "就你可能不一定要，"
+  },
+  {
+   "start": 2099.08,
+   "end": 2103.18,
+   "speaker": "Mooly",
+   "text": "進去當兵你才可以保家衛國嗎？"
+  },
+  {
+   "start": 2103.18,
+   "end": 2106.12,
+   "speaker": "Mooly",
+   "text": "這個其實就牽涉到別的話題。"
+  },
+  {
+   "start": 2106.12,
+   "end": 2107.74,
+   "speaker": "Kalan",
+   "text": "它會牽涉到更大的話題，"
+  },
+  {
+   "start": 2109.06,
+   "end": 2113.06,
+   "speaker": "Mooly",
+   "text": "就比如說可能就是，對國家來說，服兵役是強制的，"
+  },
+  {
+   "start": 2113.64,
+   "end": 2115.16,
+   "speaker": "Mooly",
+   "text": "背後的理由可能是什麼？"
+  },
+  {
+   "start": 2115.7,
+   "end": 2122.44,
+   "speaker": "Mooly",
+   "text": "甚至更極端的就是說，你如果不去當兵，是不是一種不愛國的表現之類的，"
+  },
+  {
+   "start": 2122.44,
+   "end": 2125.24,
+   "speaker": "Kalan",
+   "text": "你可能會被貼上這樣的標籤。"
+  },
+  {
+   "start": 2125.88,
+   "end": 2129.68,
+   "speaker": "Mooly",
+   "text": "這個又跟你實際上當兵之後在做什麼是有關聯的，"
+  },
+  {
+   "start": 2129.68,
+   "end": 2131.28,
+   "speaker": "Mooly",
+   "text": "就可能有一派的人會主張說，"
+  },
+  {
+   "start": 2131.28,
+   "end": 2139.1,
+   "speaker": "Mooly",
+   "text": "你進去當兵之後，你也只是在割草，你也只是去做那些基本文書工作，你也沒有學會怎麼打仗，那不如不要去，"
+  },
+  {
+   "start": 2139.1,
+   "end": 2139.82,
+   "speaker": "Kalan",
+   "text": "一年。"
+  },
+  {
+   "start": 2140.22,
+   "end": 2142.94,
+   "speaker": "Kalan",
+   "text": "而且尤其是現在這樣的變化，"
+  },
+  {
+   "start": 2142.94,
+   "end": 2144.56,
+   "speaker": "Kalan",
+   "text": "你可能當兵的時候，"
+  },
+  {
+   "start": 2146.08,
+   "end": 2146.88,
+   "speaker": "Kalan",
+   "text": "現在是什麼？"
+  },
+  {
+   "start": 2146.88,
+   "end": 2149.54,
+   "speaker": "Kalan",
+   "text": "GPT 4.5，"
+  },
+  {
+   "start": 2150.12,
+   "end": 2151.38,
+   "speaker": "Kalan",
+   "text": "那你當完兵出來，"
+  },
+  {
+   "start": 2151.38,
+   "end": 2154.26,
+   "speaker": "Mooly",
+   "text": "現在我覺得其實還好，因為現在當兵的時候，如果你"
+  },
+  {
+   "start": 2154.26,
+   "end": 2156.7,
+   "speaker": "Mooly",
+   "text": "休閒時間都可以拿手機的話，其實"
+  },
+  {
+   "start": 2158.2,
+   "end": 2161.34,
+   "speaker": "Mooly",
+   "text": "其實你是不會落後外面的資訊太多的，"
+  },
+  {
+   "start": 2162.98,
+   "end": 2166.04,
+   "speaker": "Kalan",
+   "text": "只是可能每天看的時間就比較少而已。"
+  },
+  {
+   "start": 2167.06,
+   "end": 2169.84,
+   "speaker": "Mooly",
+   "text": "只是時間可能會比較少一點而已。"
+  },
+  {
+   "start": 2169.84,
+   "end": 2176.72,
+   "speaker": "Mooly",
+   "text": "其實沒有早期那樣，就是你完全資訊隔絕，只能打投幣式電話的那種。"
+  },
+  {
+   "start": 2176.72,
+   "end": 2179.4,
+   "speaker": "Kalan",
+   "text": "它可能比較會體現在，"
+  },
+  {
+   "start": 2180.1,
+   "end": 2181.58,
+   "speaker": "Kalan",
+   "text": "假設一年，"
+  },
+  {
+   "start": 2181.58,
+   "end": 2183.78,
+   "speaker": "Kalan",
+   "text": "那一年你可以學，"
+  },
+  {
+   "start": 2184.24,
+   "end": 2188.64,
+   "speaker": "Kalan",
+   "text": "你應該可以學個程式語言，假設，"
+  },
+  {
+   "start": 2188.64,
+   "end": 2194.04,
+   "speaker": "Kalan",
+   "text": "那等於說你可能會把學習程式語言的成本都變成拿來當兵這樣子。"
+  },
+  {
+   "start": 2194.74,
+   "end": 2196.74,
+   "speaker": "Kalan",
+   "text": "它的成本大概會是像這樣，"
+  },
+  {
+   "start": 2196.74,
+   "end": 2199.32,
+   "speaker": "Kalan",
+   "text": "現在當兵的薪水還是 6000 塊嗎？"
+  },
+  {
+   "start": 2199.32,
+   "end": 2201.42,
+   "speaker": "Mooly",
+   "text": "我不確定一年的是不是 6000 塊，"
+  },
+  {
+   "start": 2202.02,
+   "end": 2205.56,
+   "speaker": "Kalan",
+   "text": "如果是 6000 塊，那你一年等於就是 7.2 萬，"
+  },
+  {
+   "start": 2205.56,
+   "end": 2210.88,
+   "speaker": "Mooly",
+   "text": "那比如說你本來可以拿 70 萬的話，你的機會成本就是 60 萬左右，"
+  },
+  {
+   "start": 2210.88,
+   "end": 2215.18,
+   "speaker": "Kalan",
+   "text": "你的機會成本就是 60 萬左右，大概是這樣的感覺。"
+  },
+  {
+   "start": 2215.18,
+   "end": 2221.06,
+   "speaker": "Kalan",
+   "text": "那如果你是原本就在公司上班，然後被抓去當兵的話，"
+  },
+  {
+   "start": 2221.06,
+   "end": 2226.74,
+   "speaker": "Kalan",
+   "text": "那假設你的實力不錯，100 萬的話，那這個機會成本就更大。"
+  },
+  {
+   "start": 2227.66,
+   "end": 2229.7,
+   "speaker": "Kalan",
+   "text": "大概是可以這樣子想。"
+  },
+  {
+   "start": 2229.7,
+   "end": 2231.8,
+   "speaker": "Kalan",
+   "text": "我看很多人，他們會說什麼，"
+  },
+  {
+   "start": 2232.56,
+   "end": 2236.08,
+   "speaker": "Kalan",
+   "text": "你沒有當兵，你就不是男人什麼的。"
+  },
+  {
+   "start": 2236.08,
+   "end": 2239.8,
+   "speaker": "Kalan",
+   "text": "我覺得這種話可以聽聽就好。"
+  },
+  {
+   "start": 2239.8,
+   "end": 2245.66,
+   "speaker": "Mooly",
+   "text": "這種話其實某種程度上，也只是一開始講的那個鄙視鏈的原因，他們只是覺得，"
+  },
+  {
+   "start": 2246.1,
+   "end": 2248.92,
+   "speaker": "Mooly",
+   "text": "怎麼可以只有我受過這種痛苦，你也要一起來。"
+  },
+  {
+   "start": 2248.92,
+   "end": 2254.0,
+   "speaker": "Kalan",
+   "text": "相對學歷比較好，或者是你看的東西相對比較多的話，"
+  },
+  {
+   "start": 2254.0,
+   "end": 2256.76,
+   "speaker": "Kalan",
+   "text": "那可能我們剛剛講的這件事情，"
+  },
+  {
+   "start": 2257.3,
+   "end": 2260.1,
+   "speaker": "Kalan",
+   "text": "你可能或多或少都已經知道了。"
+  },
+  {
+   "start": 2260.1,
+   "end": 2266.06,
+   "speaker": "Kalan",
+   "text": "當兵這件事情可能比較像是你實際去實踐它，或者是實際去體驗它，"
+  },
+  {
+   "start": 2266.06,
+   "end": 2269.12,
+   "speaker": "Kalan",
+   "text": "那有時候這種體驗不一定它是必要的。"
+  },
+  {
+   "start": 2269.12,
+   "end": 2271.38,
+   "speaker": "Kalan",
+   "text": "對，不一定它是必要的。"
+  },
+  {
+   "start": 2271.38,
+   "end": 2273.84,
+   "speaker": "Kalan",
+   "text": "你可以放在其他，就我們剛剛講的，"
+  },
+  {
+   "start": 2273.84,
+   "end": 2277.22,
+   "speaker": "Kalan",
+   "text": "對你來講機會成本更低，或者是"
+  },
+  {
+   "start": 2277.22,
+   "end": 2279.14,
+   "speaker": "Kalan",
+   "text": "你覺得更值得的地方。"
+  },
+  {
+   "start": 2279.14,
+   "end": 2282.4,
+   "speaker": "Kalan",
+   "text": "那最後再聊一個，這個刺槍好了。"
+  },
+  {
+   "start": 2282.4,
+   "end": 2283.48,
+   "speaker": "Kalan",
+   "text": "刺槍。"
+  },
+  {
+   "start": 2283.48,
+   "end": 2285.98,
+   "speaker": "Kalan",
+   "text": "你當兵一定會遇到那個刺槍。"
+  },
+  {
+   "start": 2285.98,
+   "end": 2288.76,
+   "speaker": "Kalan",
+   "text": "欸，Mooly，你們那時候有刺槍嗎？"
+  },
+  {
+   "start": 2288.76,
+   "end": 2289.7,
+   "speaker": "Mooly",
+   "text": "有啊，有啊，當然有。"
+  },
+  {
+   "start": 2289.7,
+   "end": 2290.34,
+   "speaker": "Kalan",
+   "text": "就那個什麼，"
+  },
+  {
+   "start": 2290.34,
+   "end": 2292.8,
+   "speaker": "Mooly",
+   "text": "什麼千軍萬馬刺什麼的，"
+  },
+  {
+   "start": 2293.78,
+   "end": 2295.08,
+   "speaker": "Kalan",
+   "text": "那個是不是好像，"
+  },
+  {
+   "start": 2295.66,
+   "end": 2297.24,
+   "speaker": "Kalan",
+   "text": "我不知道其他地方有沒有，"
+  },
+  {
+   "start": 2297.24,
+   "end": 2298.24,
+   "speaker": "Kalan",
+   "text": "但好像會，"
+  },
+  {
+   "start": 2298.24,
+   "end": 2299.68,
+   "speaker": "Kalan",
+   "text": "就會有一個表演，是不是？"
+  },
+  {
+   "start": 2299.68,
+   "end": 2301.86,
+   "speaker": "Mooly",
+   "text": "表演，你說是在新訓的時候或什麼？"
+  },
+  {
+   "start": 2302.42,
+   "end": 2305.64,
+   "speaker": "Mooly",
+   "text": "對，好像那種算什麼，刺槍比賽嗎？"
+  },
+  {
+   "start": 2305.64,
+   "end": 2306.9,
+   "speaker": "Kalan",
+   "text": "喔，對，刺槍比賽。"
+  },
+  {
+   "start": 2307.68,
+   "end": 2310.12,
+   "speaker": "Mooly",
+   "text": "看誰刺得最好，這樣刺得最整齊。"
+  },
+  {
+   "start": 2312.78,
+   "end": 2313.98,
+   "speaker": "Kalan",
+   "text": "那個是真的。"
+  },
+  {
+   "start": 2313.98,
+   "end": 2319.24,
+   "speaker": "Kalan",
+   "text": "如果你是在《新兵日記》有看到那個台詞啊什麼的，都是真的，"
+  },
+  {
+   "start": 2320.22,
+   "end": 2321.0,
+   "speaker": "Kalan",
+   "text": "不要懷疑。"
+  },
+  {
+   "start": 2321.0,
+   "end": 2325.4,
+   "speaker": "Mooly",
+   "text": "然後那個刺槍其實已經被詬病滿久的，"
+  },
+  {
+   "start": 2325.4,
+   "end": 2328.12,
+   "speaker": "Mooly",
+   "text": "就是，他已經被詬病很久了。"
+  },
+  {
+   "start": 2328.12,
+   "end": 2331.46,
+   "speaker": "Mooly",
+   "text": "就是他在實際戰場上的實用性到底怎麼樣？"
+  },
+  {
+   "start": 2331.46,
+   "end": 2334.4,
+   "speaker": "Mooly",
+   "text": "在這一個都是開槍的時代，"
+  },
+  {
+   "start": 2334.96,
+   "end": 2336.58,
+   "speaker": "Mooly",
+   "text": "刺槍，你就算近身的話，"
+  },
+  {
+   "start": 2337.08,
+   "end": 2340.6,
+   "speaker": "Mooly",
+   "text": "有比刺槍更好的方法，或是你根本很少近身。"
+  },
+  {
+   "start": 2341.12,
+   "end": 2350.34,
+   "speaker": "Mooly",
+   "text": "但最新消息好像是那個新的國防部長還什麼，上任之後他好像有想要把刺槍給拿掉。"
+  },
+  {
+   "start": 2350.34,
+   "end": 2354.62,
+   "speaker": "Kalan",
+   "text": "喔，好，那我們不然我們今天就就此打住。"
+  },
+  {
+   "start": 2354.62,
+   "end": 2355.42,
+   "speaker": "Mooly",
+   "text": "好。"
+  },
+  {
+   "start": 2355.42,
+   "end": 2357.08,
+   "speaker": "Mooly",
+   "text": "就先到這邊。"
+  },
+  {
+   "start": 2357.44,
+   "end": 2361.18,
+   "speaker": "Kalan",
+   "text": "那如果你是接下來要當兵的人，"
+  },
+  {
+   "start": 2361.18,
+   "end": 2364.16,
+   "speaker": "Kalan",
+   "text": "那我們祝你當兵順利，"
+  },
+  {
+   "start": 2364.16,
+   "end": 2367.72,
+   "speaker": "Kalan",
+   "text": "就真的是順利、安全退伍。"
+  },
+  {
+   "start": 2367.72,
+   "end": 2371.7,
+   "speaker": "Kalan",
+   "text": "然後如果你是不需要當兵的，"
+  },
+  {
+   "start": 2371.7,
+   "end": 2375.68,
+   "speaker": "Kalan",
+   "text": "我覺得你也不需要太遺憾或者什麼的，"
+  },
+  {
+   "start": 2375.68,
+   "end": 2378.76,
+   "speaker": "Kalan",
+   "text": "就是人生有很多事情可以做。"
+  },
+  {
+   "start": 2379.24,
+   "end": 2381.18,
+   "speaker": "Kalan",
+   "text": "那如果你是替代役呢？"
+  },
+  {
+   "start": 2381.18,
+   "end": 2384.44,
+   "speaker": "Kalan",
+   "text": "很不幸的，你剛好在這個鄙視鏈的最底層，"
+  },
+  {
+   "start": 2384.44,
+   "end": 2386.22,
+   "speaker": "Kalan",
+   "text": "但我覺得這也代表著"
+  },
+  {
+   "start": 2386.8,
+   "end": 2388.4,
+   "speaker": "Kalan",
+   "text": "你有更多的心力去做，"
+  },
+  {
+   "start": 2388.4,
+   "end": 2390.6,
+   "speaker": "Kalan",
+   "text": "你可以去做自己想要做的事情。"
+  },
+  {
+   "start": 2391.14,
+   "end": 2392.16,
+   "speaker": "Mooly",
+   "text": "嗯嗯，沒錯。"
+  },
+  {
+   "start": 2392.9,
+   "end": 2393.34,
+   "speaker": "Kalan",
+   "text": "好啦。"
+  },
+  {
+   "start": 2393.34,
+   "end": 2396.42,
+   "speaker": "Kalan",
+   "text": "那我們今天節目就先到這邊啦。"
+  },
+  {
+   "start": 2396.42,
+   "end": 2398.38,
+   "speaker": "Kalan",
+   "text": "喜歡的話，歡迎訂閱分享，"
+  },
+  {
+   "start": 2398.38,
+   "end": 2402.46,
+   "speaker": "Kalan",
+   "text": "如果有任何回饋的話，也可以透過說明的表單或寄信給我們喔。"
+  },
+  {
+   "start": 2402.46,
+   "end": 2403.36,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 2403.9,
+   "end": 2404.74,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2404.74,
+   "end": 2405.22,
+   "speaker": "Kalan",
+   "text": "我們"
+  },
+  {
+   "start": 2405.22,
+   "end": 2406.22,
+   "speaker": "Kalan",
+   "text": "下次見。"
+  },
+  {
+   "start": 2406.72,
+   "end": 2407.16,
+   "speaker": "Kalan",
+   "text": "掰掰。"
+  }
+ ]
+}

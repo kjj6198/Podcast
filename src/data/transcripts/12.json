@@ -1,0 +1,5652 @@
+{
+ "episode": 12,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 剛去完釜山，發現旅行越來越公式化、像在比 CP 值和資本遊戲，於是和 Mooly 聊起旅行的意義。Mooly 談到貴賓室、會員卡、預算，以及他以自由和體驗氛圍為主的旅行方式。Kalan 則認為與當地人交流比跑景點有趣，也開始懷疑旅行的 CP 值，最後兩人都希望大家找到適合自己的旅行方式。",
+  "points": [
+   "Kalan 覺得找景點、買機票、訂飯店、去網路推薦景點看看的旅行越來越公式化，等待與排隊的過程也變成負擔。",
+   "Mooly 認為追求高 CP 值、排滿行程的旅行，常見於一年只能出國一次、甚至兩年才出國一次的人。",
+   "商務艙、貴賓室、高級飯店都得靠課金，Mooly 認為課金能增加體驗，但不是必要條件。",
+   "兩人都認為日本生活水準高，出國旅行少了直接的加成，需要別的動機才想去。",
+   "Kalan 最喜歡與當地人交流和豬肉湯飯這類樸素美食；Mooly 偏好搭飛機、換環境，和不被行程綁住的自由。",
+   "Kalan 算過釜山 4 天 3 夜的花費，覺得這筆錢也許能買到更多快樂，仍在尋找適合自己的旅行方式。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "釜山之旅與旅行公式化"
+   },
+   {
+    "start": 115.0,
+    "title": "高 CP 值與鐵人行程"
+   },
+   {
+    "start": 320.0,
+    "title": "旅行的定義與機場等待"
+   },
+   {
+    "start": 905.0,
+    "title": "課金與資本遊戲"
+   },
+   {
+    "start": 1103.0,
+    "title": "日本生活與出國動機"
+   },
+   {
+    "start": 1286.0,
+    "title": "釜山美食與旅行意義"
+   },
+   {
+    "start": 2274.0,
+    "title": "預算與會員卡成本"
+   },
+   {
+    "start": 2582.0,
+    "title": "主題旅行與旅行的 CP 值"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.21,
+   "end": 2.31,
+   "speaker": "Kalan",
+   "text": "Hello 大家好，我是 Kalan。"
+  },
+  {
+   "start": 2.31,
+   "end": 3.05,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 3.73,
+   "end": 5.97,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 8.15,
+   "end": 12.23,
+   "speaker": "Kalan",
+   "text": "Mooly，我上禮拜去釜山玩，"
+  },
+  {
+   "start": 13.05,
+   "end": 17.49,
+   "speaker": "Kalan",
+   "text": "那它其實算是我第一次真正去韓國，"
+  },
+  {
+   "start": 18.21,
+   "end": 22.15,
+   "speaker": "Kalan",
+   "text": "因為我上一次去的時候，其實算是出差，"
+  },
+  {
+   "start": 24.43,
+   "end": 25.63,
+   "speaker": "Kalan",
+   "text": "然後因為，"
+  },
+  {
+   "start": 26.87,
+   "end": 29.17,
+   "speaker": "Kalan",
+   "text": "雖然出差那邊有一些自由行程，"
+  },
+  {
+   "start": 29.17,
+   "end": 33.39,
+   "speaker": "Kalan",
+   "text": "但因為我們去的目的地其實算是有點深山地，"
+  },
+  {
+   "start": 35.13,
+   "end": 37.35,
+   "speaker": "Kalan",
+   "text": "所以就只有一個活動中心，"
+  },
+  {
+   "start": 37.91,
+   "end": 39.93,
+   "speaker": "Kalan",
+   "text": "附近其實也沒什麼東西，"
+  },
+  {
+   "start": 39.93,
+   "end": 42.59,
+   "speaker": "Kalan",
+   "text": "所以也不算真正玩到。"
+  },
+  {
+   "start": 43.17,
+   "end": 45.63,
+   "speaker": "Kalan",
+   "text": "那所以上個禮拜我去釜山，"
+  },
+  {
+   "start": 45.63,
+   "end": 47.95,
+   "speaker": "Kalan",
+   "text": "就算是真正的自由行，"
+  },
+  {
+   "start": 47.95,
+   "end": 51.27,
+   "speaker": "Kalan",
+   "text": "也可以在街上走來走去那樣子。"
+  },
+  {
+   "start": 53.25,
+   "end": 55.63,
+   "speaker": "Kalan",
+   "text": "所以今天想說機會難得，"
+  },
+  {
+   "start": 56.33,
+   "end": 57.53,
+   "speaker": "Kalan",
+   "text": "我們就來聊聊"
+  },
+  {
+   "start": 57.53,
+   "end": 59.37,
+   "speaker": "Mooly",
+   "text": "旅行，"
+  },
+  {
+   "start": 60.07,
+   "end": 61.67,
+   "speaker": "Kalan",
+   "text": "旅行的意義"
+  },
+  {
+   "start": 62.91,
+   "end": 64.19,
+   "speaker": "Kalan",
+   "text": "這件事情。"
+  },
+  {
+   "start": 65.99,
+   "end": 68.25,
+   "speaker": "Kalan",
+   "text": "上次我去釜山玩，"
+  },
+  {
+   "start": 68.25,
+   "end": 75.83,
+   "speaker": "Kalan",
+   "text": "給我一個算是我自己長期或者是最近以來一直感受到的事情，"
+  },
+  {
+   "start": 76.51,
+   "end": 82.77,
+   "speaker": "Kalan",
+   "text": "就是我覺得對我來說，旅行這件事情越來越公式化了，"
+  },
+  {
+   "start": 83.65,
+   "end": 85.09,
+   "speaker": "Kalan",
+   "text": "就會變成像是，"
+  },
+  {
+   "start": 85.09,
+   "end": 86.89,
+   "speaker": "Kalan",
+   "text": "喔，我就去找景點，"
+  },
+  {
+   "start": 87.59,
+   "end": 89.27,
+   "speaker": "Kalan",
+   "text": "然後買機票、訂飯店，"
+  },
+  {
+   "start": 89.99,
+   "end": 95.87,
+   "speaker": "Kalan",
+   "text": "然後開始到了之後，就開始到那些網路上大家會推薦的景點看看，"
+  },
+  {
+   "start": 95.87,
+   "end": 98.15,
+   "speaker": "Mooly",
+   "text": "去看、去吃、去玩這樣子。"
+  },
+  {
+   "start": 99.75,
+   "end": 101.65,
+   "speaker": "Kalan",
+   "text": "我就覺得，好，"
+  },
+  {
+   "start": 102.37,
+   "end": 104.13,
+   "speaker": "Kalan",
+   "text": "算是蠻公事化吧，"
+  },
+  {
+   "start": 105.57,
+   "end": 107.85,
+   "speaker": "Kalan",
+   "text": "就想要跟你聊聊說，"
+  },
+  {
+   "start": 108.21,
+   "end": 109.47,
+   "speaker": "Kalan",
+   "text": "你有沒有感受到，"
+  },
+  {
+   "start": 110.09,
+   "end": 111.93,
+   "speaker": "Kalan",
+   "text": "感受過類似的事情？"
+  },
+  {
+   "start": 115.31,
+   "end": 116.27,
+   "speaker": "Mooly",
+   "text": "我覺得其實，"
+  },
+  {
+   "start": 116.77,
+   "end": 118.79,
+   "speaker": "Mooly",
+   "text": "旅行這件事情本來就"
+  },
+  {
+   "start": 119.29,
+   "end": 125.97,
+   "speaker": "Mooly",
+   "text": "蠻看每個人的個性，或是有沒有找到適合自己的旅遊方式，"
+  },
+  {
+   "start": 125.97,
+   "end": 129.37,
+   "speaker": "Mooly",
+   "text": "因為我可以理解你說的那種，"
+  },
+  {
+   "start": 129.37,
+   "end": 132.37,
+   "speaker": "Mooly",
+   "text": "就是比較公式化的那種情形，"
+  },
+  {
+   "start": 132.37,
+   "end": 133.09,
+   "speaker": "Mooly",
+   "text": "因為這個是，"
+  },
+  {
+   "start": 135.39,
+   "end": 140.55,
+   "speaker": "Mooly",
+   "text": "我覺得它對大多數人來說，可能算是一種必然，"
+  },
+  {
+   "start": 141.27,
+   "end": 143.93,
+   "speaker": "Mooly",
+   "text": "因為我舉個例子，他可能背後是有一個，"
+  },
+  {
+   "start": 143.93,
+   "end": 145.73,
+   "speaker": "Mooly",
+   "text": "我覺得可能是有一個背景在的，"
+  },
+  {
+   "start": 145.73,
+   "end": 146.47,
+   "speaker": "Mooly",
+   "text": "比如說像，"
+  },
+  {
+   "start": 147.67,
+   "end": 151.89,
+   "speaker": "Mooly",
+   "text": "我跟你在整體社會的收入上面，"
+  },
+  {
+   "start": 151.89,
+   "end": 154.89,
+   "speaker": "Mooly",
+   "text": "鐵定是屬於可能比較上層，"
+  },
+  {
+   "start": 155.67,
+   "end": 156.75,
+   "speaker": "Mooly",
+   "text": "比較上層一點的，"
+  },
+  {
+   "start": 156.75,
+   "end": 164.93,
+   "speaker": "Mooly",
+   "text": "畢竟工程師的收入跟其他行業比起來，本來就是在整體統計數字裡面是比較偏高的，我們有工作比較久了，"
+  },
+  {
+   "start": 164.93,
+   "end": 165.51,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 167.65,
+   "end": 170.25,
+   "speaker": "Mooly",
+   "text": "我認為旅遊對我們來"
+  },
+  {
+   "start": 170.25,
+   "end": 171.41,
+   "speaker": "Mooly",
+   "text": "就假設，"
+  },
+  {
+   "start": 172.13,
+   "end": 176.51,
+   "speaker": "Mooly",
+   "text": "當然就是愷愷現在如果沒有在工作，可能預算什麼會拮据一點，"
+  },
+  {
+   "start": 176.51,
+   "end": 178.31,
+   "speaker": "Mooly",
+   "text": "但假設以前有在工作的話，"
+  },
+  {
+   "start": 178.31,
+   "end": 185.15,
+   "speaker": "Mooly",
+   "text": "理論上旅行的花費這件事情，它可能不是占整體支出這麼"
+  },
+  {
+   "start": 185.15,
+   "end": 186.85,
+   "speaker": "Mooly",
+   "text": "比例這麼高的一個東西，"
+  },
+  {
+   "start": 186.85,
+   "end": 192.79,
+   "speaker": "Mooly",
+   "text": "那我們就可以有更多的餘裕，去思考旅行這件事情我們想要做的是什麼。"
+  },
+  {
+   "start": 192.79,
+   "end": 197.71,
+   "speaker": "Mooly",
+   "text": "但可能對很多大多數人來說，他們搞不好一年只能出國那一次，"
+  },
+  {
+   "start": 197.71,
+   "end": 198.95,
+   "speaker": "Mooly",
+   "text": "或是兩年出國一次，"
+  },
+  {
+   "start": 198.95,
+   "end": 205.01,
+   "speaker": "Mooly",
+   "text": "因為出國你可能要機票、住宿啊什麼的，它確實成本會比較高一點。"
+  },
+  {
+   "start": 205.01,
+   "end": 206.65,
+   "speaker": "Mooly",
+   "text": "但當然可以討論到別的議題是，"
+  },
+  {
+   "start": 206.65,
+   "end": 209.19,
+   "speaker": "Mooly",
+   "text": "就是如果你在台灣國旅，有沒有比較便宜？"
+  },
+  {
+   "start": 209.19,
+   "end": 210.49,
+   "speaker": "Mooly",
+   "text": "但有些人撇開不談。"
+  },
+  {
+   "start": 210.49,
+   "end": 215.15,
+   "speaker": "Mooly",
+   "text": "那以這個前提來講的話，如果你一年只能出國一次，或兩年只能出國一次的話，"
+  },
+  {
+   "start": 215.15,
+   "end": 218.71,
+   "speaker": "Mooly",
+   "text": "對很多人來說，他們當然就是追求那種高 CP 值的感覺。"
+  },
+  {
+   "start": 218.71,
+   "end": 221.33,
+   "speaker": "Mooly",
+   "text": "他想要在比如說那四天三夜裡面，"
+  },
+  {
+   "start": 221.33,
+   "end": 225.05,
+   "speaker": "Mooly",
+   "text": "盡可能吃到、玩到最精華的那些東西。"
+  },
+  {
+   "start": 226.61,
+   "end": 227.77,
+   "speaker": "Mooly",
+   "text": "那想當然了，"
+  },
+  {
+   "start": 227.77,
+   "end": 232.51,
+   "speaker": "Mooly",
+   "text": "他們就會去參考一些什麼日本必吃攻略、必玩攻略，"
+  },
+  {
+   "start": 232.51,
+   "end": 242.57,
+   "speaker": "Mooly",
+   "text": "去一些只有那邊才有的景點，或是真的特別好吃的店，或是排隊名店，你不知道它好不好吃，但可能很多人推薦，就是去排隊名店這樣子。"
+  },
+  {
+   "start": 243.15,
+   "end": 248.59,
+   "speaker": "Mooly",
+   "text": "所以他們如果想要達成這件事情的話，那鐵定是會走那種，"
+  },
+  {
+   "start": 249.41,
+   "end": 256.87,
+   "speaker": "Mooly",
+   "text": "就是我有看過有朋友是走那種非常鐵人的行程，就是出去之前行程都規劃得很好，都排得很緊，"
+  },
+  {
+   "start": 256.87,
+   "end": 257.45,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 257.45,
+   "end": 259.33,
+   "speaker": "Mooly",
+   "text": "我早上 8 點出門，"
+  },
+  {
+   "start": 259.33,
+   "end": 260.47,
+   "speaker": "Mooly",
+   "text": "我先去那裡吃個早餐，"
+  },
+  {
+   "start": 260.47,
+   "end": 263.85,
+   "speaker": "Mooly",
+   "text": "10 點再去那邊晃一下，再吃午餐，12 點要吃什麼、要拍什麼，"
+  },
+  {
+   "start": 263.85,
+   "end": 266.43,
+   "speaker": "Mooly",
+   "text": "整天行程都規劃得好好的，"
+  },
+  {
+   "start": 266.43,
+   "end": 268.83,
+   "speaker": "Mooly",
+   "text": "就是全部都規劃得很縝密。"
+  },
+  {
+   "start": 268.83,
+   "end": 271.97,
+   "speaker": "Mooly",
+   "text": "那我覺得它背後可能有一個理由是出自於這個，"
+  },
+  {
+   "start": 271.97,
+   "end": 272.35,
+   "speaker": "Mooly",
+   "text": "就是說，"
+  },
+  {
+   "start": 272.73,
+   "end": 275.01,
+   "speaker": "Mooly",
+   "text": "對他來說，我可能那一年就去那一次，"
+  },
+  {
+   "start": 275.01,
+   "end": 280.43,
+   "speaker": "Mooly",
+   "text": "那我當然要花盡我所有的力量，把錢給賺回來的這種感覺。"
+  },
+  {
+   "start": 281.59,
+   "end": 281.95,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 282.87,
+   "end": 285.39,
+   "speaker": "Kalan",
+   "text": "懂你的意思，就是要盡可能地"
+  },
+  {
+   "start": 286.85,
+   "end": 290.39,
+   "speaker": "Kalan",
+   "text": "讓花出去的每一分錢達到最大的效益。"
+  },
+  {
+   "start": 290.39,
+   "end": 293.43,
+   "speaker": "Mooly",
+   "text": "對，他會是以這個點作為考量，"
+  },
+  {
+   "start": 294.11,
+   "end": 299.61,
+   "speaker": "Mooly",
+   "text": "他可能也沒有時間去想說自己是不是喜歡這樣子的東西，"
+  },
+  {
+   "start": 299.61,
+   "end": 301.45,
+   "speaker": "Mooly",
+   "text": "但因為大家都這樣子做，"
+  },
+  {
+   "start": 301.45,
+   "end": 304.13,
+   "speaker": "Mooly",
+   "text": "所以他可能就先照著模式走。"
+  },
+  {
+   "start": 304.13,
+   "end": 307.09,
+   "speaker": "Mooly",
+   "text": "畢竟確實是，你客觀如果你來看，"
+  },
+  {
+   "start": 307.63,
+   "end": 310.17,
+   "speaker": "Mooly",
+   "text": "你是能玩到跟吃到最多東西的。"
+  },
+  {
+   "start": 310.67,
+   "end": 311.29,
+   "speaker": "Kalan",
+   "text": "嗯，對。"
+  },
+  {
+   "start": 312.21,
+   "end": 313.93,
+   "speaker": "Kalan",
+   "text": "不過你剛剛有提到一點，"
+  },
+  {
+   "start": 316.31,
+   "end": 318.79,
+   "speaker": "Kalan",
+   "text": "國內我們先不算，所以我覺得，"
+  },
+  {
+   "start": 319.21,
+   "end": 320.45,
+   "speaker": "Kalan",
+   "text": "不然我們這邊就先"
+  },
+  {
+   "start": 320.45,
+   "end": 323.71,
+   "speaker": "Kalan",
+   "text": "稍微定義一下我們心目中的"
+  },
+  {
+   "start": 323.71,
+   "end": 326.71,
+   "speaker": "Kalan",
+   "text": "所謂旅行的定義到底是什麼好了。"
+  },
+  {
+   "start": 327.73,
+   "end": 329.19,
+   "speaker": "Mooly",
+   "text": "旅行的定義嗎？"
+  },
+  {
+   "start": 329.19,
+   "end": 332.11,
+   "speaker": "Mooly",
+   "text": "我倒是問得好耶。"
+  },
+  {
+   "start": 332.77,
+   "end": 334.67,
+   "speaker": "Mooly",
+   "text": "旅行的定義。"
+  },
+  {
+   "start": 335.51,
+   "end": 336.61,
+   "speaker": "Mooly",
+   "text": "我自己覺得，"
+  },
+  {
+   "start": 337.05,
+   "end": 339.57,
+   "speaker": "Mooly",
+   "text": "我自己覺得要有住，"
+  },
+  {
+   "start": 340.25,
+   "end": 343.49,
+   "speaker": "Mooly",
+   "text": "才能，對我來說才叫做旅行。"
+  },
+  {
+   "start": 345.01,
+   "end": 347.75,
+   "speaker": "Mooly",
+   "text": "比如說假設我今天一日來回福岡，"
+  },
+  {
+   "start": 347.75,
+   "end": 350.03,
+   "speaker": "Mooly",
+   "text": "我可能就不會說我去福岡旅行，"
+  },
+  {
+   "start": 350.03,
+   "end": 351.23,
+   "speaker": "Mooly",
+   "text": "我可能會說我去福岡玩，"
+  },
+  {
+   "start": 351.23,
+   "end": 353.11,
+   "speaker": "Mooly",
+   "text": "但我可能不會用旅行這件事情。"
+  },
+  {
+   "start": 353.11,
+   "end": 354.05,
+   "speaker": "Mooly",
+   "text": "旅行可能要，"
+  },
+  {
+   "start": 354.05,
+   "end": 357.91,
+   "speaker": "Mooly",
+   "text": "它時間可能要更長一點點，至少兩天一夜起跳。"
+  },
+  {
+   "start": 357.91,
+   "end": 359.53,
+   "speaker": "Kalan",
+   "text": "OK，好，所以"
+  },
+  {
+   "start": 361.33,
+   "end": 363.19,
+   "speaker": "Kalan",
+   "text": "那跟我其實有點像，"
+  },
+  {
+   "start": 364.63,
+   "end": 366.13,
+   "speaker": "Kalan",
+   "text": "因為我後來有想想，"
+  },
+  {
+   "start": 366.83,
+   "end": 370.15,
+   "speaker": "Kalan",
+   "text": "到底要怎樣我們才可以算是一種旅行好了，"
+  },
+  {
+   "start": 370.15,
+   "end": 375.17,
+   "speaker": "Kalan",
+   "text": "那我覺得它第一個要有距離，"
+  },
+  {
+   "start": 376.63,
+   "end": 379.21,
+   "speaker": "Kalan",
+   "text": "那距離的話呢，"
+  },
+  {
+   "start": 379.21,
+   "end": 381.53,
+   "speaker": "Kalan",
+   "text": "因為我們想說"
+  },
+  {
+   "start": 382.35,
+   "end": 386.05,
+   "speaker": "Kalan",
+   "text": "因為我想說不然我們就先暫時討論國內、"
+  },
+  {
+   "start": 386.05,
+   "end": 388.17,
+   "speaker": "Kalan",
+   "text": "國外這種旅行好了，"
+  },
+  {
+   "start": 388.17,
+   "end": 389.79,
+   "speaker": "Mooly",
+   "text": "就是出國旅遊。"
+  },
+  {
+   "start": 389.79,
+   "end": 390.45,
+   "speaker": "Kalan",
+   "text": "對對對，"
+  },
+  {
+   "start": 390.45,
+   "end": 394.85,
+   "speaker": "Kalan",
+   "text": "所以就把它定義成是你一定要搭飛機，"
+  },
+  {
+   "start": 394.85,
+   "end": 397.23,
+   "speaker": "Kalan",
+   "text": "這樣子的距離這樣子。"
+  },
+  {
+   "start": 397.23,
+   "end": 399.41,
+   "speaker": "Mooly",
+   "text": "反而也不一定要搭飛機，就是你一定要，"
+  },
+  {
+   "start": 399.41,
+   "end": 400.73,
+   "speaker": "Mooly",
+   "text": "出國嘛。"
+  },
+  {
+   "start": 400.73,
+   "end": 402.03,
+   "speaker": "Mooly",
+   "text": "就比如說你搭船也可以。"
+  },
+  {
+   "start": 402.49,
+   "end": 403.21,
+   "speaker": "Kalan",
+   "text": "對，就是，"
+  },
+  {
+   "start": 403.85,
+   "end": 406.49,
+   "speaker": "Kalan",
+   "text": "怎麼講，你出海關跟入海關，"
+  },
+  {
+   "start": 406.49,
+   "end": 408.45,
+   "speaker": "Kalan",
+   "text": "就是你要有出境跟入境，"
+  },
+  {
+   "start": 408.45,
+   "end": 411.17,
+   "speaker": "Mooly",
+   "text": "可以，出境跟入境，"
+  },
+  {
+   "start": 411.65,
+   "end": 412.63,
+   "speaker": "Kalan",
+   "text": "流程存在。"
+  },
+  {
+   "start": 412.63,
+   "end": 419.27,
+   "speaker": "Kalan",
+   "text": "再來就是你可能要有在當地要住飯店，或者是，"
+  },
+  {
+   "start": 419.27,
+   "end": 423.03,
+   "speaker": "Kalan",
+   "text": "反正就是要在當地那邊有住一段時間這樣子。"
+  },
+  {
+   "start": 423.71,
+   "end": 426.51,
+   "speaker": "Kalan",
+   "text": "好，那我就把這樣的行為叫做旅行好了。"
+  },
+  {
+   "start": 427.03,
+   "end": 427.51,
+   "speaker": "Kalan",
+   "text": "當然，"
+  },
+  {
+   "start": 427.51,
+   "end": 428.27,
+   "speaker": "Kalan",
+   "text": "雖然，"
+  },
+  {
+   "start": 429.03,
+   "end": 432.53,
+   "speaker": "Kalan",
+   "text": "可能對有些人來說，可能國內也算是一種旅行。"
+  },
+  {
+   "start": 432.53,
+   "end": 433.13,
+   "speaker": "Kalan",
+   "text": "對，沒錯。"
+  },
+  {
+   "start": 433.13,
+   "end": 436.57,
+   "speaker": "Kalan",
+   "text": "但我們今天就把討論的範圍，"
+  },
+  {
+   "start": 436.57,
+   "end": 437.67,
+   "speaker": "Mooly",
+   "text": "局限在，"
+  },
+  {
+   "start": 437.67,
+   "end": 437.93,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 437.93,
+   "end": 439.81,
+   "speaker": "Kalan",
+   "text": "局限在國內跟國外。"
+  },
+  {
+   "start": 439.81,
+   "end": 440.73,
+   "speaker": "Mooly",
+   "text": "可以，可以，可以。"
+  },
+  {
+   "start": 440.73,
+   "end": 441.43,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 442.07,
+   "end": 444.53,
+   "speaker": "Kalan",
+   "text": "那從這個角度出發呢，"
+  },
+  {
+   "start": 445.43,
+   "end": 446.95,
+   "speaker": "Kalan",
+   "text": "我們訂閱完之後，"
+  },
+  {
+   "start": 448.33,
+   "end": 450.79,
+   "speaker": "Kalan",
+   "text": "再回到你剛剛講的那邊，"
+  },
+  {
+   "start": 451.31,
+   "end": 451.61,
+   "speaker": "Kalan",
+   "text": "我覺得，"
+  },
+  {
+   "start": 453.15,
+   "end": 456.11,
+   "speaker": "Kalan",
+   "text": "的確就是我們把錢花出去，"
+  },
+  {
+   "start": 456.11,
+   "end": 456.75,
+   "speaker": "Kalan",
+   "text": "想要把"
+  },
+  {
+   "start": 457.51,
+   "end": 461.03,
+   "speaker": "Kalan",
+   "text": "所有錢都花在 CP 值最高的地方。"
+  },
+  {
+   "start": 461.03,
+   "end": 466.55,
+   "speaker": "Kalan",
+   "text": "而且尤其是像我現在，就像你剛剛講到，我現在畢竟是自由工作者，"
+  },
+  {
+   "start": 466.55,
+   "end": 467.85,
+   "speaker": "Mooly",
+   "text": "對對對，"
+  },
+  {
+   "start": 467.85,
+   "end": 468.51,
+   "speaker": "Kalan",
+   "text": "自由接案，"
+  },
+  {
+   "start": 468.51,
+   "end": 469.01,
+   "speaker": "Kalan",
+   "text": "所以，對，"
+  },
+  {
+   "start": 469.01,
+   "end": 472.77,
+   "speaker": "Kalan",
+   "text": "預算這些事情其實會比較敏感一點。"
+  },
+  {
+   "start": 472.77,
+   "end": 474.67,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯，合理。"
+  },
+  {
+   "start": 474.67,
+   "end": 474.99,
+   "speaker": "Kalan",
+   "text": "但，"
+  },
+  {
+   "start": 476.05,
+   "end": 477.37,
+   "speaker": "Kalan",
+   "text": "就會遇到一件事情，"
+  },
+  {
+   "start": 478.63,
+   "end": 480.89,
+   "speaker": "Kalan",
+   "text": "就是我發現旅行裡面，"
+  },
+  {
+   "start": 481.61,
+   "end": 483.23,
+   "speaker": "Kalan",
+   "text": "你要做的每一件事情，"
+  },
+  {
+   "start": 485.17,
+   "end": 490.79,
+   "speaker": "Kalan",
+   "text": "其實都蠻燒錢，而且我覺得 CP 值其實不高的。"
+  },
+  {
+   "start": 490.79,
+   "end": 492.67,
+   "speaker": "Kalan",
+   "text": "那我先舉例幾個好了。"
+  },
+  {
+   "start": 493.09,
+   "end": 494.11,
+   "speaker": "Kalan",
+   "text": "搭飛機，"
+  },
+  {
+   "start": 495.69,
+   "end": 497.89,
+   "speaker": "Kalan",
+   "text": "假設你有錢好了，"
+  },
+  {
+   "start": 498.45,
+   "end": 501.61,
+   "speaker": "Kalan",
+   "text": "你把你的機票升級成商務艙，"
+  },
+  {
+   "start": 502.15,
+   "end": 504.03,
+   "speaker": "Kalan",
+   "text": "你可以省下很多時間，"
+  },
+  {
+   "start": 504.51,
+   "end": 505.47,
+   "speaker": "Kalan",
+   "text": "比如說，"
+  },
+  {
+   "start": 505.47,
+   "end": 510.09,
+   "speaker": "Kalan",
+   "text": "你要 check in 的時候，你不需要跟那些經濟艙的人一樣在那邊排隊，"
+  },
+  {
+   "start": 510.09,
+   "end": 511.25,
+   "speaker": "Kalan",
+   "text": "你是優先，"
+  },
+  {
+   "start": 511.91,
+   "end": 512.39,
+   "speaker": "Kalan",
+   "text": "過安，"
+  },
+  {
+   "start": 512.39,
+   "end": 513.97,
+   "speaker": "Kalan",
+   "text": "過安檢的話可能沒有啦。"
+  },
+  {
+   "start": 514.67,
+   "end": 517.99,
+   "speaker": "Mooly",
+   "text": "過安檢，在日本出境的時候會有，"
+  },
+  {
+   "start": 517.99,
+   "end": 523.45,
+   "speaker": "Mooly",
+   "text": "就它會有那個優先通道可以走。"
+  },
+  {
+   "start": 523.45,
+   "end": 524.15,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 524.15,
+   "end": 526.81,
+   "speaker": "Kalan",
+   "text": "那就是過安檢的時候你也可以優先，"
+  },
+  {
+   "start": 527.41,
+   "end": 529.25,
+   "speaker": "Kalan",
+   "text": "登機的時候你也可以優先，"
+  },
+  {
+   "start": 529.87,
+   "end": 532.37,
+   "speaker": "Kalan",
+   "text": "下飛機拿行李的時候你也可以優先，"
+  },
+  {
+   "start": 532.99,
+   "end": 536.55,
+   "speaker": "Kalan",
+   "text": "這個其實是一件非常方便的事情，"
+  },
+  {
+   "start": 537.57,
+   "end": 539.27,
+   "speaker": "Kalan",
+   "text": "但就是你要花錢。"
+  },
+  {
+   "start": 539.77,
+   "end": 541.71,
+   "speaker": "Kalan",
+   "text": "那如果你今天不花錢呢？"
+  },
+  {
+   "start": 541.71,
+   "end": 545.85,
+   "speaker": "Kalan",
+   "text": "我要提早到機場去等、去排隊，"
+  },
+  {
+   "start": 546.43,
+   "end": 548.61,
+   "speaker": "Kalan",
+   "text": "過安檢的時候可能也要排隊。"
+  },
+  {
+   "start": 549.41,
+   "end": 552.75,
+   "speaker": "Kalan",
+   "text": "然後在登機的時候也沒辦法優先登機。"
+  },
+  {
+   "start": 553.17,
+   "end": 554.63,
+   "speaker": "Kalan",
+   "text": "下飛機的時候也是一樣。"
+  },
+  {
+   "start": 555.01,
+   "end": 560.31,
+   "speaker": "Kalan",
+   "text": "就這一整個流程，就會讓我覺得是一個，"
+  },
+  {
+   "start": 561.07,
+   "end": 564.87,
+   "speaker": "Kalan",
+   "text": "對，現在，至少對現在我來講，是一種負擔。"
+  },
+  {
+   "start": 565.43,
+   "end": 570.41,
+   "speaker": "Kalan",
+   "text": "就是我會覺得等飛機的時間真的很長，"
+  },
+  {
+   "start": 570.41,
+   "end": 571.09,
+   "speaker": "Kalan",
+   "text": "尤其是，"
+  },
+  {
+   "start": 571.09,
+   "end": 574.13,
+   "speaker": "Kalan",
+   "text": "我今天是從福岡到釜山，"
+  },
+  {
+   "start": 574.71,
+   "end": 575.81,
+   "speaker": "Kalan",
+   "text": "我可能飛機，"
+  },
+  {
+   "start": 575.81,
+   "end": 578.17,
+   "speaker": "Kalan",
+   "text": "我可能前三個小時就要 standby 了，"
+  },
+  {
+   "start": 578.77,
+   "end": 581.33,
+   "speaker": "Kalan",
+   "text": "我上飛機才搭了半小時。"
+  },
+  {
+   "start": 582.73,
+   "end": 583.85,
+   "speaker": "Kalan",
+   "text": "對對對，"
+  },
+  {
+   "start": 583.85,
+   "end": 586.91,
+   "speaker": "Mooly",
+   "text": "我大概懂你的意思，"
+  },
+  {
+   "start": 587.57,
+   "end": 587.93,
+   "speaker": "Mooly",
+   "text": "但，"
+  },
+  {
+   "start": 589.69,
+   "end": 590.25,
+   "speaker": "Mooly",
+   "text": "我覺得，"
+  },
+  {
+   "start": 591.05,
+   "end": 596.91,
+   "speaker": "Mooly",
+   "text": "因為畢竟以搭飛機來講，它有些東西就是你必定會需要的嘛，"
+  },
+  {
+   "start": 596.91,
+   "end": 597.63,
+   "speaker": "Mooly",
+   "text": "就比如說，"
+  },
+  {
+   "start": 597.63,
+   "end": 598.29,
+   "speaker": "Mooly",
+   "text": "但當然，"
+  },
+  {
+   "start": 598.29,
+   "end": 600.81,
+   "speaker": "Mooly",
+   "text": "你其實有些彈性空間可以調整，"
+  },
+  {
+   "start": 601.25,
+   "end": 601.95,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 601.95,
+   "end": 608.81,
+   "speaker": "Mooly",
+   "text": "以國際線來說，基本上你兩個小時前到機場應該已經算安全了，"
+  },
+  {
+   "start": 608.81,
+   "end": 617.71,
+   "speaker": "Mooly",
+   "text": "有些人甚至會一個半小時或是一個小時前才到機場，因為他表定關櫃通常是一小時前或是半個小時前，"
+  },
+  {
+   "start": 617.71,
+   "end": 619.83,
+   "speaker": "Mooly",
+   "text": "才會把 check in 的櫃台給關起來，"
+  },
+  {
+   "start": 620.35,
+   "end": 626.19,
+   "speaker": "Mooly",
+   "text": "所以理論上你只要關起來之前去排隊，基本上都是 OK 的，"
+  },
+  {
+   "start": 626.19,
+   "end": 630.75,
+   "speaker": "Mooly",
+   "text": "他可能不需要預留到比如說 3 個小時這麼久。"
+  },
+  {
+   "start": 630.75,
+   "end": 632.11,
+   "speaker": "Mooly",
+   "text": "我自己覺得，"
+  },
+  {
+   "start": 634.27,
+   "end": 634.67,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 635.23,
+   "end": 635.63,
+   "speaker": "Kalan",
+   "text": "只是，"
+  },
+  {
+   "start": 637.47,
+   "end": 639.19,
+   "speaker": "Kalan",
+   "text": "人生總是會有些意外。"
+  },
+  {
+   "start": 640.07,
+   "end": 640.87,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯，"
+  },
+  {
+   "start": 641.29,
+   "end": 643.03,
+   "speaker": "Kalan",
+   "text": "安檢那邊其實我會怕，"
+  },
+  {
+   "start": 645.05,
+   "end": 646.31,
+   "speaker": "Mooly",
+   "text": "確實也是一個，"
+  },
+  {
+   "start": 646.31,
+   "end": 650.93,
+   "speaker": "Mooly",
+   "text": "因為確實如果中國人很多的話，安檢那邊也會是一個問題。"
+  },
+  {
+   "start": 651.87,
+   "end": 654.05,
+   "speaker": "Mooly",
+   "text": "他當然像我講的，還是有一些調整空間，"
+  },
+  {
+   "start": 654.05,
+   "end": 655.65,
+   "speaker": "Mooly",
+   "text": "但我也同意他確實，"
+  },
+  {
+   "start": 655.65,
+   "end": 657.21,
+   "speaker": "Mooly",
+   "text": "有預留好時間，"
+  },
+  {
+   "start": 658.17,
+   "end": 660.03,
+   "speaker": "Mooly",
+   "text": "這不是一種錯的行為，"
+  },
+  {
+   "start": 660.59,
+   "end": 663.65,
+   "speaker": "Mooly",
+   "text": "你預留好時間是很好的，"
+  },
+  {
+   "start": 664.15,
+   "end": 665.23,
+   "speaker": "Mooly",
+   "text": "它整體，"
+  },
+  {
+   "start": 665.93,
+   "end": 667.95,
+   "speaker": "Mooly",
+   "text": "確實你如果是商務艙的話，"
+  },
+  {
+   "start": 668.57,
+   "end": 670.19,
+   "speaker": "Mooly",
+   "text": "會省一些時間，"
+  },
+  {
+   "start": 670.99,
+   "end": 675.47,
+   "speaker": "Mooly",
+   "text": "但我也覺得整體 CP 值沒有到這麼高。"
+  },
+  {
+   "start": 675.95,
+   "end": 679.81,
+   "speaker": "Mooly",
+   "text": "就算你升到商務艙，你如果光看錢的話，"
+  },
+  {
+   "start": 681.05,
+   "end": 683.97,
+   "speaker": "Mooly",
+   "text": "比如說你可能要多花個兩萬台幣，"
+  },
+  {
+   "start": 683.97,
+   "end": 686.33,
+   "speaker": "Mooly",
+   "text": "才能買到這些服務，"
+  },
+  {
+   "start": 686.93,
+   "end": 688.77,
+   "speaker": "Mooly",
+   "text": "它的 CP 值來說就沒有比如說，"
+  },
+  {
+   "start": 688.77,
+   "end": 695.37,
+   "speaker": "Mooly",
+   "text": "你拿那兩萬台幣去換一個高級飯店，或是去吃一個大餐的感受來得這麼高級。"
+  },
+  {
+   "start": 696.71,
+   "end": 697.13,
+   "speaker": "Kalan",
+   "text": "是。"
+  },
+  {
+   "start": 697.99,
+   "end": 698.41,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 699.35,
+   "end": 701.39,
+   "speaker": "Kalan",
+   "text": "那我也想要問問，"
+  },
+  {
+   "start": 701.39,
+   "end": 707.37,
+   "speaker": "Kalan",
+   "text": "Mooly，你自己對這件事情的感受是怎樣？"
+  },
+  {
+   "start": 707.37,
+   "end": 709.89,
+   "speaker": "Kalan",
+   "text": "就是你會覺得到機場，"
+  },
+  {
+   "start": 709.89,
+   "end": 711.01,
+   "speaker": "Kalan",
+   "text": "我可能先到機場，"
+  },
+  {
+   "start": 711.01,
+   "end": 712.93,
+   "speaker": "Kalan",
+   "text": "我等了這個時間，"
+  },
+  {
+   "start": 712.93,
+   "end": 714.13,
+   "speaker": "Kalan",
+   "text": "你會覺得，"
+  },
+  {
+   "start": 716.91,
+   "end": 724.65,
+   "speaker": "Kalan",
+   "text": "也不能說不舒服啊，就是你會覺得等待的時間是旅行當中很，"
+  },
+  {
+   "start": 725.73,
+   "end": 728.13,
+   "speaker": "Kalan",
+   "text": "就相對沒有那麼好玩的，"
+  },
+  {
+   "start": 729.93,
+   "end": 733.39,
+   "speaker": "Kalan",
+   "text": "就是它是旅行當中相對沒有那麼好玩的一個過程。"
+  },
+  {
+   "start": 734.29,
+   "end": 741.47,
+   "speaker": "Mooly",
+   "text": "這問題蠻不錯的，但我要先講一下，我之前有幾次搭商務艙，"
+  },
+  {
+   "start": 741.47,
+   "end": 743.39,
+   "speaker": "Mooly",
+   "text": "就算沒有搭商務艙，因為，"
+  },
+  {
+   "start": 743.89,
+   "end": 748.23,
+   "speaker": "Mooly",
+   "text": "我有一些航空公司的會員卡比較高級的，"
+  },
+  {
+   "start": 748.23,
+   "end": 755.79,
+   "speaker": "Mooly",
+   "text": "所以我覺得有一個東西會大幅影響到你在機場等待時間的體感，這件事情就是你能不能進貴賓室。"
+  },
+  {
+   "start": 756.73,
+   "end": 760.87,
+   "speaker": "Mooly",
+   "text": "因為像我來說，其實我是很喜歡到機場的，"
+  },
+  {
+   "start": 760.87,
+   "end": 762.37,
+   "speaker": "Mooly",
+   "text": "就是甚至我可能會，"
+  },
+  {
+   "start": 762.91,
+   "end": 764.65,
+   "speaker": "Kalan",
+   "text": "你會為了這個提早到機場？"
+  },
+  {
+   "start": 764.65,
+   "end": 769.05,
+   "speaker": "Mooly",
+   "text": "對，我可能會提前三小時或有時候提前四個小時到機場去 check in，"
+  },
+  {
+   "start": 769.05,
+   "end": 771.15,
+   "speaker": "Mooly",
+   "text": "那當然這背後有它的"
+  },
+  {
+   "start": 771.15,
+   "end": 777.75,
+   "speaker": "Mooly",
+   "text": "理由在，因為我得到的體驗跟一般你只買經濟艙的體驗是不太一樣的。"
+  },
+  {
+   "start": 777.75,
+   "end": 781.33,
+   "speaker": "Mooly",
+   "text": "第一個是我 check in 的時候，因為有了航空公司的會員卡，"
+  },
+  {
+   "start": 781.33,
+   "end": 786.41,
+   "speaker": "Mooly",
+   "text": "所以就算你是搭經濟艙，你也可以去商務艙的櫃台先報到，"
+  },
+  {
+   "start": 786.41,
+   "end": 788.99,
+   "speaker": "Mooly",
+   "text": "所以報到是沒問題的，"
+  },
+  {
+   "start": 788.99,
+   "end": 789.33,
+   "speaker": "Mooly",
+   "text": "這是第一。"
+  },
+  {
+   "start": 789.33,
+   "end": 790.51,
+   "speaker": "Kalan",
+   "text": "報到是可以優先的？"
+  },
+  {
+   "start": 790.51,
+   "end": 791.09,
+   "speaker": "Mooly",
+   "text": "對對對。"
+  },
+  {
+   "start": 791.09,
+   "end": 792.35,
+   "speaker": "Mooly",
+   "text": "然後第二點是，"
+  },
+  {
+   "start": 792.35,
+   "end": 794.53,
+   "speaker": "Mooly",
+   "text": "因為我可以去貴賓室，"
+  },
+  {
+   "start": 794.53,
+   "end": 796.69,
+   "speaker": "Mooly",
+   "text": "那當然貴賓室有分很多種，"
+  },
+  {
+   "start": 796.69,
+   "end": 799.49,
+   "speaker": "Mooly",
+   "text": "包含說你拿很多信用卡其實你就可以進貴賓室，"
+  },
+  {
+   "start": 799.49,
+   "end": 801.93,
+   "speaker": "Mooly",
+   "text": "那當然通常你信用卡辦了可以，"
+  },
+  {
+   "start": 802.45,
+   "end": 804.25,
+   "speaker": "Mooly",
+   "text": "或是你有些在第一級，"
+  },
+  {
+   "start": 804.25,
+   "end": 807.49,
+   "speaker": "Mooly",
+   "text": "甚至是你可能只要有 JCB 信用卡，"
+  },
+  {
+   "start": 807.49,
+   "end": 809.05,
+   "speaker": "Mooly",
+   "text": "你只需要，"
+  },
+  {
+   "start": 809.05,
+   "end": 811.95,
+   "speaker": "Mooly",
+   "text": "就你甚至不需要繳年費，反正你只要辦那個信用卡，"
+  },
+  {
+   "start": 811.95,
+   "end": 813.43,
+   "speaker": "Mooly",
+   "text": "在日本某些地方，"
+  },
+  {
+   "start": 813.43,
+   "end": 815.95,
+   "speaker": "Mooly",
+   "text": "在海外其實也有一些，"
+  },
+  {
+   "start": 815.95,
+   "end": 818.29,
+   "speaker": "Mooly",
+   "text": "你就可以進一個最基本的貴賓室，"
+  },
+  {
+   "start": 818.29,
+   "end": 821.43,
+   "speaker": "Mooly",
+   "text": "通常被戲稱為 JCB 茶水間。"
+  },
+  {
+   "start": 821.43,
+   "end": 824.13,
+   "speaker": "Mooly",
+   "text": "那裡面可能就一些免費飲料給你喝，"
+  },
+  {
+   "start": 824.13,
+   "end": 826.21,
+   "speaker": "Mooly",
+   "text": "沒有吃的，就有一個地方給你休息，"
+  },
+  {
+   "start": 827.01,
+   "end": 828.25,
+   "speaker": "Mooly",
+   "text": "這個通常是比較，"
+  },
+  {
+   "start": 830.09,
+   "end": 830.73,
+   "speaker": "Mooly",
+   "text": "最 basic 的。"
+  },
+  {
+   "start": 830.73,
+   "end": 835.47,
+   "speaker": "Mooly",
+   "text": "再上來一個，就是比如說你辦某些信用卡，會有什麼龍騰貴賓室或什麼 PP 卡，"
+  },
+  {
+   "start": 835.47,
+   "end": 837.45,
+   "speaker": "Mooly",
+   "text": "就是他可以進去一些什麼，"
+  },
+  {
+   "start": 838.91,
+   "end": 842.39,
+   "speaker": "Mooly",
+   "text": "什麼 Plaza Lounge，什麼，反正就是一些其他貴賓室。"
+  },
+  {
+   "start": 842.39,
+   "end": 845.25,
+   "speaker": "Mooly",
+   "text": "再上去就是航空公司自己的貴賓室，"
+  },
+  {
+   "start": 845.61,
+   "end": 848.03,
+   "speaker": "Mooly",
+   "text": "那通常航空公司自己的貴賓室，你就只有"
+  },
+  {
+   "start": 848.03,
+   "end": 852.79,
+   "speaker": "Mooly",
+   "text": "要嘛搭商務艙，要嘛你有航空公司或那整個聯盟的比較高等的會員卡，"
+  },
+  {
+   "start": 852.79,
+   "end": 854.27,
+   "speaker": "Mooly",
+   "text": "你就可以進去貴賓室。"
+  },
+  {
+   "start": 854.27,
+   "end": 857.45,
+   "speaker": "Mooly",
+   "text": "那貴賓室還有分商務貴賓室跟頭等貴賓室，"
+  },
+  {
+   "start": 857.87,
+   "end": 860.85,
+   "speaker": "Mooly",
+   "text": "我沒有那麼高階，所以都去商務貴賓室那一個。"
+  },
+  {
+   "start": 860.85,
+   "end": 862.91,
+   "speaker": "Mooly",
+   "text": "所以我報到完之後，"
+  },
+  {
+   "start": 862.91,
+   "end": 865.63,
+   "speaker": "Mooly",
+   "text": "然後就出境完之後，我就去那個貴賓室，"
+  },
+  {
+   "start": 865.63,
+   "end": 868.21,
+   "speaker": "Mooly",
+   "text": "那個貴賓室有免費餐點、"
+  },
+  {
+   "start": 868.21,
+   "end": 870.39,
+   "speaker": "Mooly",
+   "text": "免費飲料，還有一個舒適的環境，"
+  },
+  {
+   "start": 870.39,
+   "end": 874.69,
+   "speaker": "Mooly",
+   "text": "然後我可能就帶著電腦或手機在那邊待個兩個小時，"
+  },
+  {
+   "start": 874.69,
+   "end": 876.87,
+   "speaker": "Mooly",
+   "text": "然後最後再去搭飛機，"
+  },
+  {
+   "start": 876.87,
+   "end": 878.29,
+   "speaker": "Kalan",
+   "text": "悠閒地上飛機這樣子。"
+  },
+  {
+   "start": 878.29,
+   "end": 879.55,
+   "speaker": "Mooly",
+   "text": "對，所以對我來說，"
+  },
+  {
+   "start": 879.55,
+   "end": 884.57,
+   "speaker": "Mooly",
+   "text": "那整體的體驗是，我覺得等兩三個小時其實沒有什麼問題，"
+  },
+  {
+   "start": 885.13,
+   "end": 890.55,
+   "speaker": "Mooly",
+   "text": "我甚至會因為這個提早去貴賓室免費吃東西，去蹭他一餐這樣子。"
+  },
+  {
+   "start": 890.55,
+   "end": 892.07,
+   "speaker": "Kalan",
+   "text": "嗯嗯嗯，了解。"
+  },
+  {
+   "start": 892.75,
+   "end": 896.55,
+   "speaker": "Kalan",
+   "text": "這其實也是另外一個我想要提到的，"
+  },
+  {
+   "start": 897.23,
+   "end": 897.95,
+   "speaker": "Kalan",
+   "text": "就是我覺得，"
+  },
+  {
+   "start": 898.61,
+   "end": 903.03,
+   "speaker": "Kalan",
+   "text": "你如果想要讓你的旅行的體驗變得更好的話，"
+  },
+  {
+   "start": 905.09,
+   "end": 909.09,
+   "speaker": "Kalan",
+   "text": "你就要玩資本遊戲。"
+  },
+  {
+   "start": 910.75,
+   "end": 913.57,
+   "speaker": "Kalan",
+   "text": "想要體驗貴賓室嗎？"
+  },
+  {
+   "start": 913.57,
+   "end": 914.81,
+   "speaker": "Kalan",
+   "text": "請課金。"
+  },
+  {
+   "start": 914.81,
+   "end": 916.97,
+   "speaker": "Kalan",
+   "text": "想要升級商務艙嗎？"
+  },
+  {
+   "start": 916.97,
+   "end": 917.87,
+   "speaker": "Kalan",
+   "text": "請課金。"
+  },
+  {
+   "start": 918.53,
+   "end": 921.53,
+   "speaker": "Kalan",
+   "text": "想要住比較好的飯店嗎？"
+  },
+  {
+   "start": 921.53,
+   "end": 922.55,
+   "speaker": "Kalan",
+   "text": "請課金。"
+  },
+  {
+   "start": 923.19,
+   "end": 928.85,
+   "speaker": "Kalan",
+   "text": "就是任何可以增加你體驗的方法了，"
+  },
+  {
+   "start": 928.85,
+   "end": 930.15,
+   "speaker": "Kalan",
+   "text": "就是課金。"
+  },
+  {
+   "start": 931.01,
+   "end": 932.79,
+   "speaker": "Kalan",
+   "text": "那我其實有點，"
+  },
+  {
+   "start": 933.43,
+   "end": 935.79,
+   "speaker": "Kalan",
+   "text": "怎麼講，不太喜歡嗎？"
+  },
+  {
+   "start": 937.11,
+   "end": 937.67,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 938.45,
+   "end": 938.75,
+   "speaker": "Mooly",
+   "text": "喔。"
+  },
+  {
+   "start": 939.45,
+   "end": 942.79,
+   "speaker": "Mooly",
+   "text": "我覺得它應該比較像是你課金之後，"
+  },
+  {
+   "start": 942.79,
+   "end": 944.65,
+   "speaker": "Mooly",
+   "text": "可以增加你的體驗，"
+  },
+  {
+   "start": 945.39,
+   "end": 947.39,
+   "speaker": "Mooly",
+   "text": "但有時候你要增加體驗，"
+  },
+  {
+   "start": 948.13,
+   "end": 949.49,
+   "speaker": "Mooly",
+   "text": "不一定需要課金。"
+  },
+  {
+   "start": 950.05,
+   "end": 952.47,
+   "speaker": "Kalan",
+   "text": "課金可以百分，"
+  },
+  {
+   "start": 953.03,
+   "end": 957.37,
+   "speaker": "Kalan",
+   "text": "可能不一定是百分之百，百分之九十可以增加你的體驗，"
+  },
+  {
+   "start": 957.95,
+   "end": 962.35,
+   "speaker": "Kalan",
+   "text": "但是你也可以選擇不課金的方式。"
+  },
+  {
+   "start": 965.19,
+   "end": 967.81,
+   "speaker": "Mooly",
+   "text": "因為其實如果以這個來說的話，"
+  },
+  {
+   "start": 968.59,
+   "end": 969.93,
+   "speaker": "Mooly",
+   "text": "其實我覺得旅遊是，"
+  },
+  {
+   "start": 970.37,
+   "end": 973.19,
+   "speaker": "Mooly",
+   "text": "可能算是特別凸顯資本遊戲這件事情，"
+  },
+  {
+   "start": 973.19,
+   "end": 975.49,
+   "speaker": "Mooly",
+   "text": "所以才會讓你突然感到，"
+  },
+  {
+   "start": 975.49,
+   "end": 978.31,
+   "speaker": "Mooly",
+   "text": "好像都是圍繞著資本在運作。"
+  },
+  {
+   "start": 978.31,
+   "end": 979.77,
+   "speaker": "Mooly",
+   "text": "畢竟像我之前講過，"
+  },
+  {
+   "start": 979.77,
+   "end": 984.25,
+   "speaker": "Mooly",
+   "text": "你搭飛機本身就是一種很資本的東西，"
+  },
+  {
+   "start": 984.78,
+   "end": 988.09,
+   "speaker": "Mooly",
+   "text": "你商務艙和經濟艙不同走道，吃不同的東西，"
+  },
+  {
+   "start": 989.09,
+   "end": 991.67,
+   "speaker": "Mooly",
+   "text": "內裝什麼的都整個都不一樣，"
+  },
+  {
+   "start": 991.67,
+   "end": 996.65,
+   "speaker": "Mooly",
+   "text": "你多花兩三萬塊就可以得到完全不同的體驗，"
+  },
+  {
+   "start": 996.65,
+   "end": 998.55,
+   "speaker": "Mooly",
+   "text": "那何況是頭等艙。"
+  },
+  {
+   "start": 998.55,
+   "end": 1001.87,
+   "speaker": "Mooly",
+   "text": "但其實比如說你可能在旅遊之外的，"
+  },
+  {
+   "start": 1001.87,
+   "end": 1005.77,
+   "speaker": "Mooly",
+   "text": "你在現實生活中可能也是，比如說你去某個地方，你可以搭公車，"
+  },
+  {
+   "start": 1005.77,
+   "end": 1006.71,
+   "speaker": "Mooly",
+   "text": "搭公車便宜，"
+  },
+  {
+   "start": 1006.71,
+   "end": 1007.43,
+   "speaker": "Mooly",
+   "text": "你也可以搭捷運，"
+  },
+  {
+   "start": 1007.43,
+   "end": 1013.93,
+   "speaker": "Mooly",
+   "text": "那你搭計程車的話，你可以花比較多錢，享用你一個人的空間跟可能比較快的交通時間，"
+  },
+  {
+   "start": 1013.93,
+   "end": 1019.05,
+   "speaker": "Mooly",
+   "text": "它其實也是你課金之後，你可以某種程度上增加你的體驗，"
+  },
+  {
+   "start": 1019.05,
+   "end": 1026.93,
+   "speaker": "Mooly",
+   "text": "但不代表說你從這邊去到某個地方，你一定要搭計程車才能讓你的體驗變得好。"
+  },
+  {
+   "start": 1028.59,
+   "end": 1030.37,
+   "speaker": "Kalan",
+   "text": "不過我想要補充一下，"
+  },
+  {
+   "start": 1030.37,
+   "end": 1034.17,
+   "speaker": "Kalan",
+   "text": "我在釜山有叫過兩次計程車。"
+  },
+  {
+   "start": 1034.89,
+   "end": 1041.59,
+   "speaker": "Kalan",
+   "text": "首先第一個是我感受到的是，韓國的計程車好便宜喔，"
+  },
+  {
+   "start": 1041.59,
+   "end": 1043.67,
+   "speaker": "Mooly",
+   "text": "跟日本比起來，"
+  },
+  {
+   "start": 1043.67,
+   "end": 1044.85,
+   "speaker": "Kalan",
+   "text": "超級便宜的。"
+  },
+  {
+   "start": 1044.85,
+   "end": 1048.91,
+   "speaker": "Kalan",
+   "text": "但是就我搭到的第一輛呢，"
+  },
+  {
+   "start": 1049.57,
+   "end": 1051.93,
+   "speaker": "Kalan",
+   "text": "雖然我是在 Uber 上面叫的，"
+  },
+  {
+   "start": 1052.49,
+   "end": 1056.03,
+   "speaker": "Kalan",
+   "text": "但是司機，我自己覺得蠻明顯，車裡面有一種"
+  },
+  {
+   "start": 1056.65,
+   "end": 1057.79,
+   "speaker": "Kalan",
+   "text": "怪怪的味道，"
+  },
+  {
+   "start": 1058.43,
+   "end": 1059.47,
+   "speaker": "Kalan",
+   "text": "不是很舒服。"
+  },
+  {
+   "start": 1061.37,
+   "end": 1063.21,
+   "speaker": "Kalan",
+   "text": "然後第二個司機呢，"
+  },
+  {
+   "start": 1063.21,
+   "end": 1067.61,
+   "speaker": "Kalan",
+   "text": "就是會明顯感受到他開得很快，"
+  },
+  {
+   "start": 1070.83,
+   "end": 1073.85,
+   "speaker": "Kalan",
+   "text": "所以搭計程車體驗會不會比較好呢？"
+  },
+  {
+   "start": 1073.85,
+   "end": 1075.67,
+   "speaker": "Kalan",
+   "text": "這點可能要視國家而定。"
+  },
+  {
+   "start": 1077.45,
+   "end": 1080.27,
+   "speaker": "Mooly",
+   "text": "因為我之前去釜山也是類似的體驗，"
+  },
+  {
+   "start": 1080.27,
+   "end": 1085.29,
+   "speaker": "Mooly",
+   "text": "之前好像在網上查的時候，就有人說釜山的計程車也是都蠻兇的，"
+  },
+  {
+   "start": 1085.29,
+   "end": 1089.05,
+   "speaker": "Mooly",
+   "text": "就是可能跟台北計程車差不多的感覺。"
+  },
+  {
+   "start": 1089.91,
+   "end": 1093.11,
+   "speaker": "Mooly",
+   "text": "所以再加上尤其是因為我們在日本，"
+  },
+  {
+   "start": 1093.11,
+   "end": 1096.43,
+   "speaker": "Mooly",
+   "text": "日本的計程車體驗是相當相當好的，"
+  },
+  {
+   "start": 1097.69,
+   "end": 1101.71,
+   "speaker": "Mooly",
+   "text": "所以相較之下確實就會顯得有點不太習慣。"
+  },
+  {
+   "start": 1103.07,
+   "end": 1105.17,
+   "speaker": "Kalan",
+   "text": "我後來就想到啊，"
+  },
+  {
+   "start": 1105.17,
+   "end": 1113.35,
+   "speaker": "Kalan",
+   "text": "就是我會開始覺得旅行這些事情有點公式化的原因，會不會是因為"
+  },
+  {
+   "start": 1113.35,
+   "end": 1116.33,
+   "speaker": "Kalan",
+   "text": "我已經住在日本很久了？"
+  },
+  {
+   "start": 1116.85,
+   "end": 1119.27,
+   "speaker": "Kalan",
+   "text": "我會這樣講的原因是，"
+  },
+  {
+   "start": 1120.07,
+   "end": 1124.41,
+   "speaker": "Kalan",
+   "text": "我後來想到，就比如說跟其他國家比起來，"
+  },
+  {
+   "start": 1125.09,
+   "end": 1127.07,
+   "speaker": "Kalan",
+   "text": "日本真的算是一個，"
+  },
+  {
+   "start": 1128.01,
+   "end": 1130.09,
+   "speaker": "Kalan",
+   "text": "畢竟它是一個已開發國家，"
+  },
+  {
+   "start": 1130.09,
+   "end": 1133.55,
+   "speaker": "Kalan",
+   "text": "所以你在日本國內旅行，"
+  },
+  {
+   "start": 1133.55,
+   "end": 1135.23,
+   "speaker": "Kalan",
+   "text": "甚至也不用到旅行，"
+  },
+  {
+   "start": 1135.23,
+   "end": 1137.37,
+   "speaker": "Kalan",
+   "text": "比如說你在國內生活，"
+  },
+  {
+   "start": 1138.19,
+   "end": 1140.27,
+   "speaker": "Kalan",
+   "text": "其實都算是一種，"
+  },
+  {
+   "start": 1141.93,
+   "end": 1144.15,
+   "speaker": "Kalan",
+   "text": "相對來講最高級的階段。"
+  },
+  {
+   "start": 1144.55,
+   "end": 1146.13,
+   "speaker": "Kalan",
+   "text": "就比如說搭計程車好了，"
+  },
+  {
+   "start": 1147.15,
+   "end": 1149.61,
+   "speaker": "Kalan",
+   "text": "通常你不會遇到很雷的司機，"
+  },
+  {
+   "start": 1150.27,
+   "end": 1152.07,
+   "speaker": "Kalan",
+   "text": "然後去住飯店好了，"
+  },
+  {
+   "start": 1152.07,
+   "end": 1154.77,
+   "speaker": "Kalan",
+   "text": "你可能也相對啦，"
+  },
+  {
+   "start": 1154.77,
+   "end": 1156.23,
+   "speaker": "Kalan",
+   "text": "當然還是有不好的飯店，"
+  },
+  {
+   "start": 1156.23,
+   "end": 1158.41,
+   "speaker": "Kalan",
+   "text": "但相對比較不容易遇到，"
+  },
+  {
+   "start": 1158.41,
+   "end": 1162.13,
+   "speaker": "Kalan",
+   "text": "房間的乾淨程度也是相對比較好的。"
+  },
+  {
+   "start": 1163.27,
+   "end": 1165.37,
+   "speaker": "Kalan",
+   "text": "像是公共設施也是一樣，"
+  },
+  {
+   "start": 1165.37,
+   "end": 1166.31,
+   "speaker": "Kalan",
+   "text": "比如說廁所。"
+  },
+  {
+   "start": 1166.95,
+   "end": 1167.43,
+   "speaker": "Kalan",
+   "text": "哇，"
+  },
+  {
+   "start": 1167.43,
+   "end": 1169.77,
+   "speaker": "Kalan",
+   "text": "公共廁所也有免治馬桶。"
+  },
+  {
+   "start": 1172.07,
+   "end": 1173.39,
+   "speaker": "Kalan",
+   "text": "像這些東西，"
+  },
+  {
+   "start": 1175.89,
+   "end": 1178.41,
+   "speaker": "Mooly",
+   "text": "確實你這樣講讓我想起來，"
+  },
+  {
+   "start": 1180.09,
+   "end": 1185.69,
+   "speaker": "Mooly",
+   "text": "日本人整體出國的比率其實是在世界上偏滿低的，"
+  },
+  {
+   "start": 1186.35,
+   "end": 1187.47,
+   "speaker": "Mooly",
+   "text": "之前忘記有沒有提過。"
+  },
+  {
+   "start": 1188.87,
+   "end": 1192.61,
+   "speaker": "Mooly",
+   "text": "比如說日本光是擁有護照這件事情，"
+  },
+  {
+   "start": 1192.61,
+   "end": 1195.93,
+   "speaker": "Mooly",
+   "text": "我記得好像擁有護照的人口可能是，"
+  },
+  {
+   "start": 1196.77,
+   "end": 1198.49,
+   "speaker": "Mooly",
+   "text": "20% 還是多少嗎？"
+  },
+  {
+   "start": 1198.49,
+   "end": 1200.49,
+   "speaker": "Kalan",
+   "text": "喔對，好像就低於一半，"
+  },
+  {
+   "start": 1200.49,
+   "end": 1202.55,
+   "speaker": "Mooly",
+   "text": "就是很少很少的，"
+  },
+  {
+   "start": 1202.55,
+   "end": 1205.75,
+   "speaker": "Mooly",
+   "text": "代表說他們其實沒那麼喜歡出國，"
+  },
+  {
+   "start": 1205.75,
+   "end": 1210.77,
+   "speaker": "Mooly",
+   "text": "在國內旅遊就可以玩得很開心。"
+  },
+  {
+   "start": 1210.77,
+   "end": 1216.99,
+   "speaker": "Mooly",
+   "text": "那確實背後原因可能是之前看到的統計，可能有幾個，第一個可能是比如說有些日本人，"
+  },
+  {
+   "start": 1216.99,
+   "end": 1218.81,
+   "speaker": "Mooly",
+   "text": "可能英文或什麼沒那麼好，"
+  },
+  {
+   "start": 1218.81,
+   "end": 1223.07,
+   "speaker": "Mooly",
+   "text": "那他們出國就可能覺得語言不通、溝通不良，"
+  },
+  {
+   "start": 1223.07,
+   "end": 1225.73,
+   "speaker": "Mooly",
+   "text": "或是說有可能是日本國內的，"
+  },
+  {
+   "start": 1225.73,
+   "end": 1234.37,
+   "speaker": "Mooly",
+   "text": "體驗已經太好了，導致說你去國外沒辦法得到更好的體驗的話，你可能就會覺得說這旅遊有點沒有意思，"
+  },
+  {
+   "start": 1235.37,
+   "end": 1242.99,
+   "speaker": "Kalan",
+   "text": "它可能就會變得，你如果要去國外旅遊，你可能會是為了比較不同的目的吧，"
+  },
+  {
+   "start": 1243.75,
+   "end": 1248.57,
+   "speaker": "Mooly",
+   "text": "你可能沒辦法在服務上面得到更好的體驗，"
+  },
+  {
+   "start": 1248.57,
+   "end": 1252.27,
+   "speaker": "Mooly",
+   "text": "那你就勢必要找一個別的理由去那邊，比如說，"
+  },
+  {
+   "start": 1252.27,
+   "end": 1254.65,
+   "speaker": "Mooly",
+   "text": "台灣人去日本旅遊可能，"
+  },
+  {
+   "start": 1254.65,
+   "end": 1256.95,
+   "speaker": "Mooly",
+   "text": "就算你沒有特別想去哪裡，"
+  },
+  {
+   "start": 1256.95,
+   "end": 1266.73,
+   "speaker": "Mooly",
+   "text": "你可能光是得到日式服務的體驗，跟整體的空氣清淨或是什麼，整體的整潔、交通什麼，"
+  },
+  {
+   "start": 1266.73,
+   "end": 1269.43,
+   "speaker": "Mooly",
+   "text": "你可能就能感受到一定的幸福程度。"
+  },
+  {
+   "start": 1270.51,
+   "end": 1273.89,
+   "speaker": "Mooly",
+   "text": "但相對來說，如果你是從日本去到其他國家的話，"
+  },
+  {
+   "start": 1273.89,
+   "end": 1277.39,
+   "speaker": "Mooly",
+   "text": "那你可能少了這一個直接的 buff 的話，"
+  },
+  {
+   "start": 1277.39,
+   "end": 1280.89,
+   "speaker": "Mooly",
+   "text": "你可能就需要更多的 motivation 去做這件事情。"
+  },
+  {
+   "start": 1280.89,
+   "end": 1281.83,
+   "speaker": "Kalan",
+   "text": "喔，"
+  },
+  {
+   "start": 1281.83,
+   "end": 1284.27,
+   "speaker": "Kalan",
+   "text": "我覺得說得蠻讚的。"
+  },
+  {
+   "start": 1285.89,
+   "end": 1289.31,
+   "speaker": "Kalan",
+   "text": "那不然我就來聊一下去釜山，"
+  },
+  {
+   "start": 1289.31,
+   "end": 1291.03,
+   "speaker": "Kalan",
+   "text": "我覺得一些，"
+  },
+  {
+   "start": 1292.89,
+   "end": 1294.87,
+   "speaker": "Kalan",
+   "text": "蠻幸福的時光好了。"
+  },
+  {
+   "start": 1296.91,
+   "end": 1301.71,
+   "speaker": "Kalan",
+   "text": "我覺得相對來講只有吃這件事情，"
+  },
+  {
+   "start": 1302.77,
+   "end": 1306.85,
+   "speaker": "Kalan",
+   "text": "就我很喜歡豬肉湯飯，"
+  },
+  {
+   "start": 1307.77,
+   "end": 1308.77,
+   "speaker": "Kalan",
+   "text": "因為我覺得，"
+  },
+  {
+   "start": 1309.95,
+   "end": 1311.07,
+   "speaker": "Kalan",
+   "text": "我很喜歡這種，"
+  },
+  {
+   "start": 1311.71,
+   "end": 1314.71,
+   "speaker": "Kalan",
+   "text": "它可能食材上面就是蠻樸素的，"
+  },
+  {
+   "start": 1315.99,
+   "end": 1321.03,
+   "speaker": "Kalan",
+   "text": "但是它把這種食材做得非常好吃。"
+  },
+  {
+   "start": 1321.03,
+   "end": 1324.61,
+   "speaker": "Kalan",
+   "text": "它可能不是比如說用很精緻的烹飪手法，"
+  },
+  {
+   "start": 1324.61,
+   "end": 1327.11,
+   "speaker": "Kalan",
+   "text": "或是你可能加了一些很精緻的食材，"
+  },
+  {
+   "start": 1327.11,
+   "end": 1328.95,
+   "speaker": "Kalan",
+   "text": "它就是很平凡的，"
+  },
+  {
+   "start": 1328.95,
+   "end": 1330.55,
+   "speaker": "Kalan",
+   "text": "五花肉，"
+  },
+  {
+   "start": 1331.11,
+   "end": 1332.03,
+   "speaker": "Kalan",
+   "text": "川燙，"
+  },
+  {
+   "start": 1332.03,
+   "end": 1333.71,
+   "speaker": "Kalan",
+   "text": "加蔥加蒜，"
+  },
+  {
+   "start": 1334.35,
+   "end": 1336.85,
+   "speaker": "Kalan",
+   "text": "但是它的湯頭就是做得很好喝，"
+  },
+  {
+   "start": 1337.99,
+   "end": 1340.65,
+   "speaker": "Kalan",
+   "text": "五花肉再加一些沾醬什麼的，"
+  },
+  {
+   "start": 1340.65,
+   "end": 1343.19,
+   "speaker": "Kalan",
+   "text": "這樣子一餐就可以吃得很飽。"
+  },
+  {
+   "start": 1343.19,
+   "end": 1344.59,
+   "speaker": "Kalan",
+   "text": "再加上小菜。"
+  },
+  {
+   "start": 1344.59,
+   "end": 1346.93,
+   "speaker": "Mooly",
+   "text": "這是去韓國的重點，小菜。"
+  },
+  {
+   "start": 1347.51,
+   "end": 1349.39,
+   "speaker": "Kalan",
+   "text": "小菜可以免費無限夾，"
+  },
+  {
+   "start": 1350.01,
+   "end": 1351.45,
+   "speaker": "Kalan",
+   "text": "你就會覺得很幸福。"
+  },
+  {
+   "start": 1352.49,
+   "end": 1354.49,
+   "speaker": "Mooly",
+   "text": "那你吃豬肉湯飯的時候，"
+  },
+  {
+   "start": 1354.49,
+   "end": 1355.37,
+   "speaker": "Mooly",
+   "text": "你應該，"
+  },
+  {
+   "start": 1356.01,
+   "end": 1364.47,
+   "speaker": "Mooly",
+   "text": "你是吃沒有加任何調料的豬肉湯飯就已經覺得很幸福，還是你要加一些，比如說鹽、魚露或是什麼醬？"
+  },
+  {
+   "start": 1364.47,
+   "end": 1369.15,
+   "speaker": "Kalan",
+   "text": "我會加鹽跟櫻花蝦醬。"
+  },
+  {
+   "start": 1370.51,
+   "end": 1372.35,
+   "speaker": "Kalan",
+   "text": "櫻花蝦醬超好吃。"
+  },
+  {
+   "start": 1372.35,
+   "end": 1373.75,
+   "speaker": "Kalan",
+   "text": "就它雖然很鹹，"
+  },
+  {
+   "start": 1373.75,
+   "end": 1377.33,
+   "speaker": "Kalan",
+   "text": "但我覺得它跟豬肉吃下去真的超讚的，"
+  },
+  {
+   "start": 1377.33,
+   "end": 1380.73,
+   "speaker": "Kalan",
+   "text": "因為它可以把豬肉的味道給提出來。"
+  },
+  {
+   "start": 1381.77,
+   "end": 1383.25,
+   "speaker": "Kalan",
+   "text": "因為它很鹹嘛，"
+  },
+  {
+   "start": 1385.63,
+   "end": 1388.67,
+   "speaker": "Mooly",
+   "text": "它是一個你可以自由調節的，"
+  },
+  {
+   "start": 1388.67,
+   "end": 1390.77,
+   "speaker": "Mooly",
+   "text": "你想要多鹹、想要多那個的，"
+  },
+  {
+   "start": 1390.77,
+   "end": 1393.47,
+   "speaker": "Mooly",
+   "text": "反正它上來的時候就給你一個最清淡的。"
+  },
+  {
+   "start": 1395.13,
+   "end": 1397.53,
+   "speaker": "Mooly",
+   "text": "大多數人可能吃了就會覺得說，怎麼那麼清淡，"
+  },
+  {
+   "start": 1397.53,
+   "end": 1401.37,
+   "speaker": "Mooly",
+   "text": "但你可以自己加那些東西，讓它變得味道更豐富一點。"
+  },
+  {
+   "start": 1405.73,
+   "end": 1407.21,
+   "speaker": "Kalan",
+   "text": "還有人蔘雞。"
+  },
+  {
+   "start": 1407.77,
+   "end": 1408.67,
+   "speaker": "Mooly",
+   "text": "人蔘雞，"
+  },
+  {
+   "start": 1408.67,
+   "end": 1411.43,
+   "speaker": "Kalan",
+   "text": "我也很喜歡。"
+  },
+  {
+   "start": 1411.43,
+   "end": 1412.87,
+   "speaker": "Kalan",
+   "text": "不管是湯頭還是什麼，"
+  },
+  {
+   "start": 1412.87,
+   "end": 1415.27,
+   "speaker": "Kalan",
+   "text": "它就是很暴力地給你一隻雞，"
+  },
+  {
+   "start": 1416.47,
+   "end": 1417.85,
+   "speaker": "Kalan",
+   "text": "但是湯頭很好喝，"
+  },
+  {
+   "start": 1417.85,
+   "end": 1420.65,
+   "speaker": "Mooly",
+   "text": "雞弄得很爛，你就可以把雞肉都剝開。"
+  },
+  {
+   "start": 1422.31,
+   "end": 1423.71,
+   "speaker": "Kalan",
+   "text": "爛是很軟爛的意思。"
+  },
+  {
+   "start": 1424.27,
+   "end": 1425.23,
+   "speaker": "Kalan",
+   "text": "雞很爛，"
+  },
+  {
+   "start": 1425.23,
+   "end": 1426.17,
+   "speaker": "Mooly",
+   "text": "很軟爛的意思。"
+  },
+  {
+   "start": 1429.31,
+   "end": 1430.41,
+   "speaker": "Kalan",
+   "text": "還有什麼？"
+  },
+  {
+   "start": 1431.73,
+   "end": 1434.01,
+   "speaker": "Kalan",
+   "text": "還有去搭海岸膠囊列車。"
+  },
+  {
+   "start": 1434.71,
+   "end": 1436.71,
+   "speaker": "Kalan",
+   "text": "但是我自己吧，"
+  },
+  {
+   "start": 1436.71,
+   "end": 1440.39,
+   "speaker": "Kalan",
+   "text": "我自己不是很喜歡這樣的東西，就是，"
+  },
+  {
+   "start": 1440.39,
+   "end": 1441.65,
+   "speaker": "Kalan",
+   "text": "就是風景很美，"
+  },
+  {
+   "start": 1441.65,
+   "end": 1447.01,
+   "speaker": "Kalan",
+   "text": "但你說我會不會想要特別為了膠囊列車，"
+  },
+  {
+   "start": 1447.47,
+   "end": 1450.59,
+   "speaker": "Kalan",
+   "text": "我可能會想一下這樣子。"
+  },
+  {
+   "start": 1452.49,
+   "end": 1454.61,
+   "speaker": "Mooly",
+   "text": "所以就這幾個東西讓你比較，"
+  },
+  {
+   "start": 1454.61,
+   "end": 1456.15,
+   "speaker": "Mooly",
+   "text": "印象深刻，是不是？"
+  },
+  {
+   "start": 1457.25,
+   "end": 1459.35,
+   "speaker": "Mooly",
+   "text": "那比如說你去海岸膠囊列車的時候，"
+  },
+  {
+   "start": 1459.35,
+   "end": 1462.57,
+   "speaker": "Mooly",
+   "text": "你不是去海雲台那個地方嗎？"
+  },
+  {
+   "start": 1463.77,
+   "end": 1467.25,
+   "speaker": "Mooly",
+   "text": "你對那邊有什麼其他感想？"
+  },
+  {
+   "start": 1467.25,
+   "end": 1468.75,
+   "speaker": "Mooly",
+   "text": "比如說我先講我好了，"
+  },
+  {
+   "start": 1469.21,
+   "end": 1473.67,
+   "speaker": "Mooly",
+   "text": "就可能我第一次去海雲台那地方的時候，就覺得那邊整個，"
+  },
+  {
+   "start": 1473.67,
+   "end": 1476.37,
+   "speaker": "Mooly",
+   "text": "我自己覺得蠻悠閒的，"
+  },
+  {
+   "start": 1476.37,
+   "end": 1478.25,
+   "speaker": "Mooly",
+   "text": "因為它離沙灘很近，"
+  },
+  {
+   "start": 1478.25,
+   "end": 1479.59,
+   "speaker": "Mooly",
+   "text": "沙灘後面就是海。"
+  },
+  {
+   "start": 1480.39,
+   "end": 1482.53,
+   "speaker": "Mooly",
+   "text": "我自己覺得在那邊最，"
+  },
+  {
+   "start": 1483.07,
+   "end": 1486.03,
+   "speaker": "Mooly",
+   "text": "印象深刻的一個時候是晚上的時候，"
+  },
+  {
+   "start": 1486.03,
+   "end": 1487.65,
+   "speaker": "Mooly",
+   "text": "好像假日晚上吧。"
+  },
+  {
+   "start": 1487.65,
+   "end": 1494.57,
+   "speaker": "Mooly",
+   "text": "就是海雲台沙灘，也不算沙灘，就靠近沙灘那邊，可能會隔幾步，"
+  },
+  {
+   "start": 1494.57,
+   "end": 1498.05,
+   "speaker": "Mooly",
+   "text": "就有一些那種類似街頭藝人，可能到那邊唱歌表演，"
+  },
+  {
+   "start": 1498.05,
+   "end": 1500.49,
+   "speaker": "Mooly",
+   "text": "就有人坐在台階聽。"
+  },
+  {
+   "start": 1500.49,
+   "end": 1502.77,
+   "speaker": "Mooly",
+   "text": "在海邊散步的時候就可以聽到，"
+  },
+  {
+   "start": 1502.77,
+   "end": 1504.01,
+   "speaker": "Mooly",
+   "text": "旁邊有人在唱歌，"
+  },
+  {
+   "start": 1504.01,
+   "end": 1505.17,
+   "speaker": "Mooly",
+   "text": "看到海，"
+  },
+  {
+   "start": 1505.89,
+   "end": 1509.41,
+   "speaker": "Mooly",
+   "text": "附近高樓大廈什麼的，就我自己蠻喜歡"
+  },
+  {
+   "start": 1509.41,
+   "end": 1511.57,
+   "speaker": "Mooly",
+   "text": "整體的環境跟氛圍。"
+  },
+  {
+   "start": 1513.57,
+   "end": 1514.69,
+   "speaker": "Kalan",
+   "text": "我的話，"
+  },
+  {
+   "start": 1516.61,
+   "end": 1524.99,
+   "speaker": "Kalan",
+   "text": "首先是海雲台的海景，我的確也蠻喜歡的，跟那邊的氣氛吧。"
+  },
+  {
+   "start": 1527.37,
+   "end": 1529.83,
+   "speaker": "Kalan",
+   "text": "只是該怎麼講呢，"
+  },
+  {
+   "start": 1529.83,
+   "end": 1533.87,
+   "speaker": "Kalan",
+   "text": "就你去的時候，你還是會遇到很多觀光客。"
+  },
+  {
+   "start": 1534.69,
+   "end": 1537.07,
+   "speaker": "Kalan",
+   "text": "因為它畢竟就是一個觀光景點。"
+  },
+  {
+   "start": 1537.07,
+   "end": 1539.03,
+   "speaker": "Kalan",
+   "text": "對，觀光名勝這樣子。"
+  },
+  {
+   "start": 1539.03,
+   "end": 1540.49,
+   "speaker": "Kalan",
+   "text": "再來就是，"
+  },
+  {
+   "start": 1540.49,
+   "end": 1543.11,
+   "speaker": "Kalan",
+   "text": "你說日本人能不能找到類似的地方？"
+  },
+  {
+   "start": 1543.83,
+   "end": 1544.83,
+   "speaker": "Kalan",
+   "text": "可能也有很多。"
+  },
+  {
+   "start": 1546.49,
+   "end": 1547.85,
+   "speaker": "Kalan",
+   "text": "所以我那時候，"
+  },
+  {
+   "start": 1548.83,
+   "end": 1552.33,
+   "speaker": "Kalan",
+   "text": "這就帶到一個我想要聊聊的，"
+  },
+  {
+   "start": 1554.05,
+   "end": 1556.01,
+   "speaker": "Kalan",
+   "text": "就是你自己覺得，"
+  },
+  {
+   "start": 1557.23,
+   "end": 1559.45,
+   "speaker": "Kalan",
+   "text": "旅行的意義會是什麼？"
+  },
+  {
+   "start": 1560.87,
+   "end": 1563.13,
+   "speaker": "Kalan",
+   "text": "以及在整個旅程當中，"
+  },
+  {
+   "start": 1563.13,
+   "end": 1565.73,
+   "speaker": "Kalan",
+   "text": "通常你感到最有趣的地方會在哪裡？"
+  },
+  {
+   "start": 1566.81,
+   "end": 1567.87,
+   "speaker": "Kalan",
+   "text": "像我來說，"
+  },
+  {
+   "start": 1567.87,
+   "end": 1570.37,
+   "speaker": "Kalan",
+   "text": "我那時候就是一直在思考說，"
+  },
+  {
+   "start": 1570.91,
+   "end": 1574.77,
+   "speaker": "Kalan",
+   "text": "那我旅行到底是為了什麼這樣子。"
+  },
+  {
+   "start": 1576.13,
+   "end": 1581.91,
+   "speaker": "Kalan",
+   "text": "那我自己發現一個我一直以來會覺得有趣的，"
+  },
+  {
+   "start": 1581.91,
+   "end": 1586.07,
+   "speaker": "Kalan",
+   "text": "是和當地的人交流這件事情。"
+  },
+  {
+   "start": 1587.67,
+   "end": 1589.81,
+   "speaker": "Kalan",
+   "text": "比如說我之前在，"
+  },
+  {
+   "start": 1589.81,
+   "end": 1591.91,
+   "speaker": "Kalan",
+   "text": "就那時候我還沒有來日本，"
+  },
+  {
+   "start": 1591.91,
+   "end": 1594.09,
+   "speaker": "Kalan",
+   "text": "我來日本都是來旅行的，"
+  },
+  {
+   "start": 1595.05,
+   "end": 1596.25,
+   "speaker": "Kalan",
+   "text": "他可能是，"
+  },
+  {
+   "start": 1596.25,
+   "end": 1599.11,
+   "speaker": "Kalan",
+   "text": "比如說你就很自然地跟飯店的，"
+  },
+  {
+   "start": 1599.11,
+   "end": 1600.49,
+   "speaker": "Kalan",
+   "text": "那時候還不算飯店，"
+  },
+  {
+   "start": 1600.49,
+   "end": 1602.35,
+   "speaker": "Kalan",
+   "text": "那是民宿的老闆一起聊天，"
+  },
+  {
+   "start": 1603.07,
+   "end": 1606.27,
+   "speaker": "Kalan",
+   "text": "或者是你到了一個居酒屋，"
+  },
+  {
+   "start": 1606.77,
+   "end": 1609.17,
+   "speaker": "Kalan",
+   "text": "別人聽到你用日文點餐，"
+  },
+  {
+   "start": 1609.17,
+   "end": 1611.77,
+   "speaker": "Kalan",
+   "text": "他可能就很好奇，跑來跟你聊天，"
+  },
+  {
+   "start": 1611.77,
+   "end": 1615.69,
+   "speaker": "Kalan",
+   "text": "那是一件我會喜歡的事情。"
+  },
+  {
+   "start": 1617.51,
+   "end": 1620.63,
+   "speaker": "Kalan",
+   "text": "反而是像這種跑觀光景點這件事情，"
+  },
+  {
+   "start": 1620.63,
+   "end": 1622.97,
+   "speaker": "Kalan",
+   "text": "是一個我自己覺得，"
+  },
+  {
+   "start": 1623.43,
+   "end": 1625.15,
+   "speaker": "Kalan",
+   "text": "我沒有那麼喜歡，或者是，"
+  },
+  {
+   "start": 1625.83,
+   "end": 1629.85,
+   "speaker": "Kalan",
+   "text": "有更多其他方式會讓我感到更開心。"
+  },
+  {
+   "start": 1632.13,
+   "end": 1634.35,
+   "speaker": "Kalan",
+   "text": "想聽聽看 Mooly 的。"
+  },
+  {
+   "start": 1634.35,
+   "end": 1635.71,
+   "speaker": "Mooly",
+   "text": "我的話，"
+  },
+  {
+   "start": 1635.71,
+   "end": 1640.29,
+   "speaker": "Mooly",
+   "text": "旅行這件事情的話，之前我有聽過一個很常見的說法是，"
+  },
+  {
+   "start": 1640.29,
+   "end": 1641.41,
+   "speaker": "Mooly",
+   "text": "對很多人來說，"
+  },
+  {
+   "start": 1642.07,
+   "end": 1648.93,
+   "speaker": "Mooly",
+   "text": "所謂的旅遊或旅行，就是在那個地方做你原本做不到的一些事情，"
+  },
+  {
+   "start": 1649.45,
+   "end": 1654.15,
+   "speaker": "Mooly",
+   "text": "比如說你可能想要看櫻花，但可能台灣沒有，或是你比較難看到，"
+  },
+  {
+   "start": 1654.15,
+   "end": 1659.47,
+   "speaker": "Mooly",
+   "text": "或是沒有日本看的那麼壯觀，所以你來日本特地做這一件你在原本地方做不到的事情，"
+  },
+  {
+   "start": 1659.47,
+   "end": 1663.17,
+   "speaker": "Mooly",
+   "text": "或你想要得到一些日式服務，或是整體的氛圍，"
+  },
+  {
+   "start": 1663.17,
+   "end": 1667.03,
+   "speaker": "Mooly",
+   "text": "那可能也是你在台灣得不到的，所以你出國去做，"
+  },
+  {
+   "start": 1667.03,
+   "end": 1669.75,
+   "speaker": "Mooly",
+   "text": "你可能只有在那邊才做得到的一些事情。"
+  },
+  {
+   "start": 1669.75,
+   "end": 1672.13,
+   "speaker": "Mooly",
+   "text": "這是對很多人來說，他旅行的目的。"
+  },
+  {
+   "start": 1672.13,
+   "end": 1674.13,
+   "speaker": "Mooly",
+   "text": "那對我自己來說的話，"
+  },
+  {
+   "start": 1674.61,
+   "end": 1677.79,
+   "speaker": "Mooly",
+   "text": "我的目的其實是，因為我本來就比較隨意，"
+  },
+  {
+   "start": 1677.79,
+   "end": 1683.53,
+   "speaker": "Mooly",
+   "text": "所以我的目的也沒有說特別的目的，我就只是想要在不同的地方，"
+  },
+  {
+   "start": 1683.53,
+   "end": 1687.45,
+   "speaker": "Mooly",
+   "text": "去做我想做的事情，不論那是什麼。"
+  },
+  {
+   "start": 1687.45,
+   "end": 1690.91,
+   "speaker": "Mooly",
+   "text": "所以我自己的旅行型態，很多時候是，"
+  },
+  {
+   "start": 1690.91,
+   "end": 1692.41,
+   "speaker": "Mooly",
+   "text": "比如說我可能去到某個地方，"
+  },
+  {
+   "start": 1692.41,
+   "end": 1695.07,
+   "speaker": "Mooly",
+   "text": "比如說假設我去紐約好了，"
+  },
+  {
+   "start": 1695.07,
+   "end": 1696.93,
+   "speaker": "Mooly",
+   "text": "我可能就住在飯店，"
+  },
+  {
+   "start": 1696.93,
+   "end": 1702.77,
+   "speaker": "Mooly",
+   "text": "我住了兩天，在飯店裡面看《權力遊戲》的影集，"
+  },
+  {
+   "start": 1702.77,
+   "end": 1703.69,
+   "speaker": "Mooly",
+   "text": "因為我覺得很好看。"
+  },
+  {
+   "start": 1704.15,
+   "end": 1706.19,
+   "speaker": "Mooly",
+   "text": "我也沒去什麼觀光景點，我就去紐，"
+  },
+  {
+   "start": 1706.19,
+   "end": 1711.99,
+   "speaker": "Mooly",
+   "text": "中午甚至也沒有去餐廳吃，我可能就去超市買東西回來自己簡單煮一下，"
+  },
+  {
+   "start": 1711.99,
+   "end": 1713.17,
+   "speaker": "Mooly",
+   "text": "就對我來說，那也是一個，"
+  },
+  {
+   "start": 1713.17,
+   "end": 1717.37,
+   "speaker": "Mooly",
+   "text": "那也是一個我覺得適合我的型態。"
+  },
+  {
+   "start": 1717.37,
+   "end": 1720.27,
+   "speaker": "Mooly",
+   "text": "那我自己覺得，"
+  },
+  {
+   "start": 1721.33,
+   "end": 1722.59,
+   "speaker": "Mooly",
+   "text": "對我來說其實，"
+  },
+  {
+   "start": 1723.17,
+   "end": 1726.05,
+   "speaker": "Mooly",
+   "text": "我後來發現我自己比較喜歡兩件事情，"
+  },
+  {
+   "start": 1726.05,
+   "end": 1729.05,
+   "speaker": "Mooly",
+   "text": "第一件事情是搭飛機，"
+  },
+  {
+   "start": 1729.05,
+   "end": 1729.91,
+   "speaker": "Kalan",
+   "text": "搭飛機。"
+  },
+  {
+   "start": 1730.71,
+   "end": 1734.93,
+   "speaker": "Mooly",
+   "text": "搭飛機這件事情，才會讓我有種旅遊的感覺。"
+  },
+  {
+   "start": 1734.93,
+   "end": 1737.93,
+   "speaker": "Mooly",
+   "text": "比如說現在，可能假設如果去，"
+  },
+  {
+   "start": 1737.93,
+   "end": 1739.39,
+   "speaker": "Mooly",
+   "text": "比如說去仙台好了，"
+  },
+  {
+   "start": 1739.39,
+   "end": 1741.29,
+   "speaker": "Mooly",
+   "text": "或是去青森，"
+  },
+  {
+   "start": 1741.29,
+   "end": 1741.93,
+   "speaker": "Mooly",
+   "text": "那你可能，"
+  },
+  {
+   "start": 1741.93,
+   "end": 1743.45,
+   "speaker": "Mooly",
+   "text": "你可以搭新幹線，可以搭飛機，"
+  },
+  {
+   "start": 1743.45,
+   "end": 1747.81,
+   "speaker": "Mooly",
+   "text": "那對我來說，搭飛機就更有那種好像有出國旅遊的感覺。"
+  },
+  {
+   "start": 1747.81,
+   "end": 1750.23,
+   "speaker": "Mooly",
+   "text": "就是旅遊就是一定要搭飛機。"
+  },
+  {
+   "start": 1750.23,
+   "end": 1756.19,
+   "speaker": "Mooly",
+   "text": "第二個是，我就只是想要去感受不同的地方、不同的環境，"
+  },
+  {
+   "start": 1756.19,
+   "end": 1760.29,
+   "speaker": "Mooly",
+   "text": "就算它可能跟原本的地方有點像，"
+  },
+  {
+   "start": 1760.29,
+   "end": 1761.25,
+   "speaker": "Mooly",
+   "text": "但我還是覺得，"
+  },
+  {
+   "start": 1761.25,
+   "end": 1765.07,
+   "speaker": "Mooly",
+   "text": "就是它不是那些熟悉的街道、熟悉的風景，"
+  },
+  {
+   "start": 1765.07,
+   "end": 1766.97,
+   "speaker": "Mooly",
+   "text": "它還是會換一下。"
+  },
+  {
+   "start": 1767.53,
+   "end": 1767.73,
+   "speaker": "Mooly",
+   "text": "就，"
+  },
+  {
+   "start": 1767.73,
+   "end": 1769.83,
+   "speaker": "Mooly",
+   "text": "就算比如說都是在日本好了，"
+  },
+  {
+   "start": 1769.83,
+   "end": 1771.67,
+   "speaker": "Mooly",
+   "text": "可能我家附近的風景跟我那時候，"
+  },
+  {
+   "start": 1771.67,
+   "end": 1775.05,
+   "speaker": "Mooly",
+   "text": "比如說可能去青森或哪邊，你看到的東西雖然都是日本，"
+  },
+  {
+   "start": 1775.05,
+   "end": 1779.35,
+   "speaker": "Mooly",
+   "text": "但我就喜歡那種陌生的感覺。"
+  },
+  {
+   "start": 1779.35,
+   "end": 1780.63,
+   "speaker": "Kalan",
+   "text": "喔，了解。"
+  },
+  {
+   "start": 1783.45,
+   "end": 1788.37,
+   "speaker": "Kalan",
+   "text": "我喜歡搭飛機只有起飛跟降落那一段，"
+  },
+  {
+   "start": 1789.07,
+   "end": 1791.81,
+   "speaker": "Kalan",
+   "text": "其實剩下的幾段，我其實都不是很喜歡，"
+  },
+  {
+   "start": 1791.81,
+   "end": 1795.27,
+   "speaker": "Kalan",
+   "text": "因為飛機畢竟是一個密閉的空間，"
+  },
+  {
+   "start": 1795.27,
+   "end": 1799.89,
+   "speaker": "Kalan",
+   "text": "然後氣壓的變化會讓我感覺有點不太舒服。"
+  },
+  {
+   "start": 1800.49,
+   "end": 1800.73,
+   "speaker": "Kalan",
+   "text": "但，"
+  },
+  {
+   "start": 1800.73,
+   "end": 1805.49,
+   "speaker": "Kalan",
+   "text": "就如果撇除這些的話，我也不算到那麼討厭搭飛機，"
+  },
+  {
+   "start": 1805.49,
+   "end": 1807.77,
+   "speaker": "Kalan",
+   "text": "但也沒有到喜歡這樣子。"
+  },
+  {
+   "start": 1807.77,
+   "end": 1809.73,
+   "speaker": "Mooly",
+   "text": "對對對，合理。"
+  },
+  {
+   "start": 1810.39,
+   "end": 1813.39,
+   "speaker": "Kalan",
+   "text": "剛剛 Mooly 講的，"
+  },
+  {
+   "start": 1814.93,
+   "end": 1819.53,
+   "speaker": "Kalan",
+   "text": "就比如說待在飯店裡面，也不特別去跑行程什麼的，"
+  },
+  {
+   "start": 1820.47,
+   "end": 1824.19,
+   "speaker": "Kalan",
+   "text": "我覺得當然也是一種旅行的方式，"
+  },
+  {
+   "start": 1824.79,
+   "end": 1827.77,
+   "speaker": "Kalan",
+   "text": "只是如果可能自己，對我自己來說，"
+  },
+  {
+   "start": 1827.77,
+   "end": 1829.57,
+   "speaker": "Kalan",
+   "text": "如果是這樣的旅遊，"
+  },
+  {
+   "start": 1829.57,
+   "end": 1831.45,
+   "speaker": "Kalan",
+   "text": "方式的話，"
+  },
+  {
+   "start": 1831.91,
+   "end": 1833.09,
+   "speaker": "Kalan",
+   "text": "欸，那我會覺得，"
+  },
+  {
+   "start": 1833.63,
+   "end": 1835.01,
+   "speaker": "Kalan",
+   "text": "我待在家好像也，"
+  },
+  {
+   "start": 1835.01,
+   "end": 1836.15,
+   "speaker": "Mooly",
+   "text": "也可以做到嗎？"
+  },
+  {
+   "start": 1836.15,
+   "end": 1837.07,
+   "speaker": "Kalan",
+   "text": "也類似，"
+  },
+  {
+   "start": 1837.07,
+   "end": 1839.69,
+   "speaker": "Kalan",
+   "text": "就是他的體驗好像是類似的，"
+  },
+  {
+   "start": 1840.45,
+   "end": 1844.17,
+   "speaker": "Kalan",
+   "text": "除非你今天可能比如說，"
+  },
+  {
+   "start": 1844.17,
+   "end": 1847.59,
+   "speaker": "Kalan",
+   "text": "欸，家裡可能你覺得環境不好什麼的。"
+  },
+  {
+   "start": 1847.59,
+   "end": 1847.89,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 1847.89,
+   "end": 1850.11,
+   "speaker": "Mooly",
+   "text": "就，"
+  },
+  {
+   "start": 1850.69,
+   "end": 1852.59,
+   "speaker": "Mooly",
+   "text": "我能理解這個說法，"
+  },
+  {
+   "start": 1852.59,
+   "end": 1854.43,
+   "speaker": "Mooly",
+   "text": "因為他確實是沒錯，就是說，"
+  },
+  {
+   "start": 1854.43,
+   "end": 1856.21,
+   "speaker": "Mooly",
+   "text": "你既然都要，"
+  },
+  {
+   "start": 1856.67,
+   "end": 1857.13,
+   "speaker": "Mooly",
+   "text": "就要，"
+  },
+  {
+   "start": 1857.13,
+   "end": 1860.05,
+   "speaker": "Mooly",
+   "text": "待在那邊看動畫、看影集，你怎麼不在家裡做就好。"
+  },
+  {
+   "start": 1860.05,
+   "end": 1861.55,
+   "speaker": "Mooly",
+   "text": "但它其實比較像是，"
+  },
+  {
+   "start": 1862.01,
+   "end": 1864.31,
+   "speaker": "Mooly",
+   "text": "我不是專程去那邊做這件事情，"
+  },
+  {
+   "start": 1864.31,
+   "end": 1865.61,
+   "speaker": "Mooly",
+   "text": "而是我去到那邊之後，"
+  },
+  {
+   "start": 1865.61,
+   "end": 1866.13,
+   "speaker": "Mooly",
+   "text": "我覺得，"
+  },
+  {
+   "start": 1867.03,
+   "end": 1868.35,
+   "speaker": "Mooly",
+   "text": "我想要做這件事情，"
+  },
+  {
+   "start": 1868.35,
+   "end": 1869.95,
+   "speaker": "Kalan",
+   "text": "我不想要，Kimochi，"
+  },
+  {
+   "start": 1870.09,
+   "end": 1872.41,
+   "speaker": "Mooly",
+   "text": "適合看個動畫。"
+  },
+  {
+   "start": 1872.41,
+   "end": 1874.43,
+   "speaker": "Mooly",
+   "text": "我不想要被局限住，說，"
+  },
+  {
+   "start": 1874.79,
+   "end": 1880.43,
+   "speaker": "Mooly",
+   "text": "既然我都去了那邊，我就一定要去那些觀光景點，或去那些餐廳吃飯。"
+  },
+  {
+   "start": 1881.51,
+   "end": 1884.09,
+   "speaker": "Mooly",
+   "text": "我想要在我真的想去的時候才去，"
+  },
+  {
+   "start": 1884.09,
+   "end": 1884.91,
+   "speaker": "Mooly",
+   "text": "就是對我來說，"
+  },
+  {
+   "start": 1884.91,
+   "end": 1889.07,
+   "speaker": "Mooly",
+   "text": "所以對我來說，那整體的旅遊就會是自由的。"
+  },
+  {
+   "start": 1889.07,
+   "end": 1891.01,
+   "speaker": "Mooly",
+   "text": "就是我是自由的這樣子。"
+  },
+  {
+   "start": 1891.01,
+   "end": 1893.05,
+   "speaker": "Kalan",
+   "text": "了解了解。"
+  },
+  {
+   "start": 1895.61,
+   "end": 1897.15,
+   "speaker": "Kalan",
+   "text": "我想一下喔。"
+  },
+  {
+   "start": 1897.53,
+   "end": 1903.73,
+   "speaker": "Kalan",
+   "text": "就是我剛剛想到，就是有很多人他們來日本，他們可能會去逛藥妝，"
+  },
+  {
+   "start": 1903.73,
+   "end": 1906.01,
+   "speaker": "Kalan",
+   "text": "然後去唐吉訶德購物，"
+  },
+  {
+   "start": 1906.43,
+   "end": 1909.73,
+   "speaker": "Kalan",
+   "text": "然後去找一些有名的觀光景點，"
+  },
+  {
+   "start": 1909.73,
+   "end": 1913.79,
+   "speaker": "Kalan",
+   "text": "可能到一些名店去吃飯等等。"
+  },
+  {
+   "start": 1915.45,
+   "end": 1917.69,
+   "speaker": "Kalan",
+   "text": "那這或許對他們來說，"
+  },
+  {
+   "start": 1918.29,
+   "end": 1923.29,
+   "speaker": "Kalan",
+   "text": "就是一件會讓他們很開心的事情，會不會？"
+  },
+  {
+   "start": 1923.29,
+   "end": 1925.83,
+   "speaker": "Kalan",
+   "text": "就是可能對現在的我來說是，"
+  },
+  {
+   "start": 1926.27,
+   "end": 1928.35,
+   "speaker": "Kalan",
+   "text": "我是完全不太想要做這件事情的，"
+  },
+  {
+   "start": 1928.35,
+   "end": 1931.77,
+   "speaker": "Kalan",
+   "text": "但可能對他們來說是一件非常開心的事情。"
+  },
+  {
+   "start": 1933.73,
+   "end": 1937.93,
+   "speaker": "Mooly",
+   "text": "但我覺得其實這也要取決於你最後的體驗是不是好的，"
+  },
+  {
+   "start": 1937.93,
+   "end": 1939.77,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 1939.77,
+   "end": 1942.89,
+   "speaker": "Mooly",
+   "text": "也有一些那種，比如說排隊名店或什麼的，可能是他自己"
+  },
+  {
+   "start": 1942.89,
+   "end": 1946.05,
+   "speaker": "Mooly",
+   "text": "吃不習慣，或吃了都覺得怎麼那麼普通這樣子，"
+  },
+  {
+   "start": 1946.05,
+   "end": 1947.55,
+   "speaker": "Mooly",
+   "text": "那可能下次就不會去了。"
+  },
+  {
+   "start": 1948.09,
+   "end": 1948.45,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 1949.01,
+   "end": 1951.37,
+   "speaker": "Mooly",
+   "text": "通常有些東西，可能是比如說去藥妝店好了，"
+  },
+  {
+   "start": 1951.37,
+   "end": 1954.89,
+   "speaker": "Mooly",
+   "text": "那是因為有些日本藥真的他們試過比較有用，"
+  },
+  {
+   "start": 1954.89,
+   "end": 1956.49,
+   "speaker": "Mooly",
+   "text": "或是親友代買，"
+  },
+  {
+   "start": 1956.49,
+   "end": 1958.19,
+   "speaker": "Mooly",
+   "text": "或是原本台灣就有在賣，"
+  },
+  {
+   "start": 1958.19,
+   "end": 1960.09,
+   "speaker": "Mooly",
+   "text": "但是你去日本免稅比較便宜，"
+  },
+  {
+   "start": 1960.09,
+   "end": 1962.15,
+   "speaker": "Mooly",
+   "text": "或甚至比如說去買 Uniqlo 什麼的，"
+  },
+  {
+   "start": 1962.15,
+   "end": 1963.53,
+   "speaker": "Mooly",
+   "text": "你可能比在台灣買的便宜，"
+  },
+  {
+   "start": 1963.53,
+   "end": 1967.29,
+   "speaker": "Mooly",
+   "text": "那對他們來說體驗是好的，可能就會希望再去一次。"
+  },
+  {
+   "start": 1967.29,
+   "end": 1969.75,
+   "speaker": "Mooly",
+   "text": "那我覺得可能對愷愷來說，你可能是"
+  },
+  {
+   "start": 1969.75,
+   "end": 1972.55,
+   "speaker": "Mooly",
+   "text": "你去了之後覺得體驗其實並不好，"
+  },
+  {
+   "start": 1972.55,
+   "end": 1973.87,
+   "speaker": "Mooly",
+   "text": "所以才沒有去。"
+  },
+  {
+   "start": 1973.87,
+   "end": 1980.93,
+   "speaker": "Mooly",
+   "text": "所以它可能不是大家都會去或是必吃必玩的問題，可能是最後得到的體驗的問題。"
+  },
+  {
+   "start": 1980.93,
+   "end": 1984.35,
+   "speaker": "Mooly",
+   "text": "就算某一個東西很多人都去，"
+  },
+  {
+   "start": 1984.35,
+   "end": 1985.23,
+   "speaker": "Mooly",
+   "text": "你排了兩個小時，"
+  },
+  {
+   "start": 1985.23,
+   "end": 1987.57,
+   "speaker": "Mooly",
+   "text": "但假設最後真的是驚為天人，"
+  },
+  {
+   "start": 1987.57,
+   "end": 1992.71,
+   "speaker": "Mooly",
+   "text": "你可能還是會覺得整個體驗其實是值得去的。"
+  },
+  {
+   "start": 1994.47,
+   "end": 1996.51,
+   "speaker": "Kalan",
+   "text": "以我自己的經驗來講，"
+  },
+  {
+   "start": 1997.01,
+   "end": 1999.11,
+   "speaker": "Kalan",
+   "text": "我還沒有遇到值得的，"
+  },
+  {
+   "start": 1999.11,
+   "end": 2004.47,
+   "speaker": "Kalan",
+   "text": "還沒有遇到那種排隊排了兩小時，就吃了輕微甜點的，"
+  },
+  {
+   "start": 2004.89,
+   "end": 2006.73,
+   "speaker": "Kalan",
+   "text": "因為可能對我來講，"
+  },
+  {
+   "start": 2007.41,
+   "end": 2011.29,
+   "speaker": "Kalan",
+   "text": "就比如說我在家裡附近找到了一個"
+  },
+  {
+   "start": 2011.93,
+   "end": 2015.05,
+   "speaker": "Kalan",
+   "text": "雖然小小的但是很好吃的餐廳，"
+  },
+  {
+   "start": 2015.75,
+   "end": 2023.47,
+   "speaker": "Kalan",
+   "text": "它帶給我的快樂程度，可能會約略等於我在國外吃到一間好吃的餐廳。"
+  },
+  {
+   "start": 2024.63,
+   "end": 2028.11,
+   "speaker": "Kalan",
+   "text": "但如果它帶來的"
+  },
+  {
+   "start": 2028.11,
+   "end": 2029.07,
+   "speaker": "Kalan",
+   "text": "體驗，"
+  },
+  {
+   "start": 2029.07,
+   "end": 2030.87,
+   "speaker": "Kalan",
+   "text": "它帶來的快樂程度是一樣的話，"
+  },
+  {
+   "start": 2030.87,
+   "end": 2035.75,
+   "speaker": "Kalan",
+   "text": "那我一定會是選擇我家附近的小餐廳這樣子。"
+  },
+  {
+   "start": 2036.95,
+   "end": 2044.23,
+   "speaker": "Mooly",
+   "text": "所以你還沒有碰過那種，比如說在國外吃了一些什麼東西，都覺得就是再三回味，"
+  },
+  {
+   "start": 2044.23,
+   "end": 2045.53,
+   "speaker": "Mooly",
+   "text": "難以忘懷的那種？"
+  },
+  {
+   "start": 2045.53,
+   "end": 2046.69,
+   "speaker": "Mooly",
+   "text": "還沒。"
+  },
+  {
+   "start": 2047.79,
+   "end": 2054.77,
+   "speaker": "Kalan",
+   "text": "我上一次去沖繩的時候，有吃到一個爆好吃的年輪蛋糕，"
+  },
+  {
+   "start": 2056.61,
+   "end": 2057.79,
+   "speaker": "Kalan",
+   "text": "它雖然不是，"
+  },
+  {
+   "start": 2057.79,
+   "end": 2059.21,
+   "speaker": "Kalan",
+   "text": "它是年輪蛋糕，"
+  },
+  {
+   "start": 2060.21,
+   "end": 2063.57,
+   "speaker": "Kalan",
+   "text": "但的確是讓我很難以忘懷。"
+  },
+  {
+   "start": 2063.57,
+   "end": 2064.37,
+   "speaker": "Kalan",
+   "text": "但你說，"
+  },
+  {
+   "start": 2065.79,
+   "end": 2068.11,
+   "speaker": "Kalan",
+   "text": "有沒有其他東西可以替代，"
+  },
+  {
+   "start": 2068.11,
+   "end": 2069.47,
+   "speaker": "Kalan",
+   "text": "是一定有的。"
+  },
+  {
+   "start": 2070.03,
+   "end": 2071.49,
+   "speaker": "Mooly",
+   "text": "是一定有的是吧？"
+  },
+  {
+   "start": 2071.49,
+   "end": 2072.97,
+   "speaker": "Kalan",
+   "text": "對我來說，"
+  },
+  {
+   "start": 2072.97,
+   "end": 2074.19,
+   "speaker": "Mooly",
+   "text": "對我來說，"
+  },
+  {
+   "start": 2074.89,
+   "end": 2077.31,
+   "speaker": "Mooly",
+   "text": "我印象最深刻的其實也是在日本，"
+  },
+  {
+   "start": 2077.31,
+   "end": 2079.67,
+   "speaker": "Mooly",
+   "text": "但我那時候是來日本旅遊。"
+  },
+  {
+   "start": 2079.67,
+   "end": 2082.71,
+   "speaker": "Mooly",
+   "text": "所以算是旅遊的時候吃到的。"
+  },
+  {
+   "start": 2082.71,
+   "end": 2085.75,
+   "speaker": "Mooly",
+   "text": "我突然想起來，我之前去釜山的時候，我覺得吃到我自己"
+  },
+  {
+   "start": 2085.75,
+   "end": 2091.21,
+   "speaker": "Mooly",
+   "text": "最喜歡的東西是豬腳吧。"
+  },
+  {
+   "start": 2091.21,
+   "end": 2092.41,
+   "speaker": "Kalan",
+   "text": "喔，豬腳喔？"
+  },
+  {
+   "start": 2092.41,
+   "end": 2097.05,
+   "speaker": "Mooly",
+   "text": "對，釜山有幾個店是賣豬腳的。"
+  },
+  {
+   "start": 2097.05,
+   "end": 2102.39,
+   "speaker": "Mooly",
+   "text": "它的豬腳特別的地方在於說，它的豬腳跟台灣那種是不一樣的。"
+  },
+  {
+   "start": 2102.39,
+   "end": 2107.99,
+   "speaker": "Mooly",
+   "text": "就是台灣的豬腳通常都是切塊比較多嘛，就是一塊一塊，"
+  },
+  {
+   "start": 2107.99,
+   "end": 2110.29,
+   "speaker": "Mooly",
+   "text": "皮肉在一起的那種。"
+  },
+  {
+   "start": 2111.51,
+   "end": 2113.79,
+   "speaker": "Mooly",
+   "text": "我去韓國吃的，它通常是切片的，"
+  },
+  {
+   "start": 2113.79,
+   "end": 2115.73,
+   "speaker": "Mooly",
+   "text": "就是一片一片的豬腳。"
+  },
+  {
+   "start": 2116.31,
+   "end": 2118.39,
+   "speaker": "Mooly",
+   "text": "它有那種涼拌的，"
+  },
+  {
+   "start": 2118.39,
+   "end": 2124.05,
+   "speaker": "Mooly",
+   "text": "也有那種烤的或什麼的。"
+  },
+  {
+   "start": 2124.05,
+   "end": 2128.67,
+   "speaker": "Mooly",
+   "text": "反正我覺得雖然都是豬腳，但它的調理方式不太一樣，"
+  },
+  {
+   "start": 2128.67,
+   "end": 2129.63,
+   "speaker": "Mooly",
+   "text": "味道也不太一樣。"
+  },
+  {
+   "start": 2129.63,
+   "end": 2132.51,
+   "speaker": "Mooly",
+   "text": "總之我算是還蠻喜歡的。"
+  },
+  {
+   "start": 2132.51,
+   "end": 2133.63,
+   "speaker": "Kalan",
+   "text": "喔，豬腳。"
+  },
+  {
+   "start": 2133.63,
+   "end": 2136.25,
+   "speaker": "Kalan",
+   "text": "但所以它會讓你回味到說，"
+  },
+  {
+   "start": 2137.49,
+   "end": 2138.97,
+   "speaker": "Kalan",
+   "text": "我想到豬腳了，"
+  },
+  {
+   "start": 2138.97,
+   "end": 2142.23,
+   "speaker": "Kalan",
+   "text": "那我接下來要開始規劃到韓國了，"
+  },
+  {
+   "start": 2142.23,
+   "end": 2143.21,
+   "speaker": "Kalan",
+   "text": "是這樣嗎？"
+  },
+  {
+   "start": 2143.21,
+   "end": 2153.67,
+   "speaker": "Mooly",
+   "text": "也沒有到那種等級，就目前可能還沒有任何一個東西是有到這個等級，我對吃的沒有到這麼的這麼的在意，"
+  },
+  {
+   "start": 2154.31,
+   "end": 2159.07,
+   "speaker": "Kalan",
+   "text": "或者是可能到那個等級，就是再下一個 level 了吧，"
+  },
+  {
+   "start": 2159.65,
+   "end": 2162.89,
+   "speaker": "Kalan",
+   "text": "就可能一餐可能就是一萬起跳的那種。"
+  },
+  {
+   "start": 2164.11,
+   "end": 2166.15,
+   "speaker": "Mooly",
+   "text": "這倒是也不一定，"
+  },
+  {
+   "start": 2166.15,
+   "end": 2168.33,
+   "speaker": "Mooly",
+   "text": "就是畢竟有些東西，"
+  },
+  {
+   "start": 2169.51,
+   "end": 2171.13,
+   "speaker": "Mooly",
+   "text": "它不是越貴就越好吃。"
+  },
+  {
+   "start": 2171.13,
+   "end": 2172.77,
+   "speaker": "Mooly",
+   "text": "就是我能認同它，"
+  },
+  {
+   "start": 2172.77,
+   "end": 2179.77,
+   "speaker": "Mooly",
+   "text": "越貴就可以帶給你越多豐富的體驗，或是你之前不曾體驗過的事情，"
+  },
+  {
+   "start": 2179.77,
+   "end": 2181.97,
+   "speaker": "Mooly",
+   "text": "包含說它用的食材、"
+  },
+  {
+   "start": 2181.97,
+   "end": 2188.09,
+   "speaker": "Mooly",
+   "text": "它的調理方式，或是它整個背後包裝的故事跟組合，或整個氛圍，"
+  },
+  {
+   "start": 2188.09,
+   "end": 2189.45,
+   "speaker": "Mooly",
+   "text": "這點我是同意的。"
+  },
+  {
+   "start": 2189.45,
+   "end": 2192.15,
+   "speaker": "Mooly",
+   "text": "你可能在越高價的餐廳，會越得到這些東西，"
+  },
+  {
+   "start": 2192.15,
+   "end": 2193.95,
+   "speaker": "Mooly",
+   "text": "但它是不是好吃，就"
+  },
+  {
+   "start": 2193.95,
+   "end": 2195.05,
+   "speaker": "Mooly",
+   "text": "我覺得是"
+  },
+  {
+   "start": 2195.05,
+   "end": 2196.73,
+   "speaker": "Mooly",
+   "text": "另外一個問題。"
+  },
+  {
+   "start": 2196.73,
+   "end": 2198.03,
+   "speaker": "Kalan",
+   "text": "喔，等一下，"
+  },
+  {
+   "start": 2198.67,
+   "end": 2200.55,
+   "speaker": "Kalan",
+   "text": "所以 Mooly 有體驗過，就對了？"
+  },
+  {
+   "start": 2202.01,
+   "end": 2204.51,
+   "speaker": "Mooly",
+   "text": "體驗過嗎？我想一下，國外，"
+  },
+  {
+   "start": 2204.51,
+   "end": 2211.19,
+   "speaker": "Mooly",
+   "text": "在台灣倒是比較多，在國外貴的好像比較少。"
+  },
+  {
+   "start": 2211.19,
+   "end": 2214.15,
+   "speaker": "Mooly",
+   "text": "就我去國外，比較少吃到這麼貴的，"
+  },
+  {
+   "start": 2214.15,
+   "end": 2216.29,
+   "speaker": "Mooly",
+   "text": "通常都是一些平民小吃比較多。"
+  },
+  {
+   "start": 2216.29,
+   "end": 2221.65,
+   "speaker": "Kalan",
+   "text": "就是你的食材一旦高於了某個價格，"
+  },
+  {
+   "start": 2221.65,
+   "end": 2223.43,
+   "speaker": "Kalan",
+   "text": "那過了那個價格之後，"
+  },
+  {
+   "start": 2223.95,
+   "end": 2228.49,
+   "speaker": "Kalan",
+   "text": "它們體現的地方可能就不是在食物上面，而是在其他地方了。"
+  },
+  {
+   "start": 2228.49,
+   "end": 2229.99,
+   "speaker": "Mooly",
+   "text": "所以我相信食物當然也有，"
+  },
+  {
+   "start": 2229.99,
+   "end": 2234.29,
+   "speaker": "Mooly",
+   "text": "但比如說，它可能像是一個那種邊際效益遞減的東西，"
+  },
+  {
+   "start": 2234.29,
+   "end": 2240.57,
+   "speaker": "Mooly",
+   "text": "或是它也牽涉到其實你個人的味覺品嚐能力。"
+  },
+  {
+   "start": 2240.57,
+   "end": 2245.63,
+   "speaker": "Mooly",
+   "text": "比如說，你可能像對我來說，你可能 1000 塊台幣的高級牛肉，"
+  },
+  {
+   "start": 2245.63,
+   "end": 2248.37,
+   "speaker": "Mooly",
+   "text": "就是那種什麼澳洲和牛或什麼的，"
+  },
+  {
+   "start": 2248.37,
+   "end": 2249.97,
+   "speaker": "Mooly",
+   "text": "跟 3000 塊的日本和牛，"
+  },
+  {
+   "start": 2249.97,
+   "end": 2252.85,
+   "speaker": "Mooly",
+   "text": "對我來說吃起來可能一個是，"
+  },
+  {
+   "start": 2253.21,
+   "end": 2256.51,
+   "speaker": "Mooly",
+   "text": "比如說一個是 90 分，一個是 93 分，"
+  },
+  {
+   "start": 2256.51,
+   "end": 2259.01,
+   "speaker": "Mooly",
+   "text": "那它相較於，比如說"
+  },
+  {
+   "start": 2259.01,
+   "end": 2262.65,
+   "speaker": "Mooly",
+   "text": "一般 200 塊的平價牛肉 60 分，"
+  },
+  {
+   "start": 2262.65,
+   "end": 2265.87,
+   "speaker": "Mooly",
+   "text": "跟我剛講的那個 90 分的 1000 塊的，"
+  },
+  {
+   "start": 2265.87,
+   "end": 2267.83,
+   "speaker": "Mooly",
+   "text": "它的差別就沒有到這麼大。"
+  },
+  {
+   "start": 2267.83,
+   "end": 2270.63,
+   "speaker": "Mooly",
+   "text": "它再差更大，我其實也感覺不出來的差別。"
+  },
+  {
+   "start": 2271.75,
+   "end": 2272.99,
+   "speaker": "Kalan",
+   "text": "嗯，了解。"
+  },
+  {
+   "start": 2273.73,
+   "end": 2277.45,
+   "speaker": "Mooly",
+   "text": "那再，我們來聊聊預算這件事情好了，"
+  },
+  {
+   "start": 2277.45,
+   "end": 2279.17,
+   "speaker": "Mooly",
+   "text": "既然都講到錢了。"
+  },
+  {
+   "start": 2279.17,
+   "end": 2280.41,
+   "speaker": "Kalan",
+   "text": "好好預算。"
+  },
+  {
+   "start": 2280.41,
+   "end": 2285.49,
+   "speaker": "Mooly",
+   "text": "那愷愷有稍微算一下這次去釜山花了多少錢嗎？"
+  },
+  {
+   "start": 2285.49,
+   "end": 2286.09,
+   "speaker": "Kalan",
+   "text": "欸，"
+  },
+  {
+   "start": 2286.09,
+   "end": 2289.35,
+   "speaker": "Kalan",
+   "text": "我們那時候抓的是 4 天 3 夜，"
+  },
+  {
+   "start": 2289.35,
+   "end": 2296.07,
+   "speaker": "Kalan",
+   "text": "機票加飯店是 8.5 萬日幣，"
+  },
+  {
+   "start": 2297.95,
+   "end": 2303.79,
+   "speaker": "Kalan",
+   "text": "然後剩下的那種預算我其實沒有特別記，"
+  },
+  {
+   "start": 2303.79,
+   "end": 2307.03,
+   "speaker": "Kalan",
+   "text": "但是我換了 10 萬塊日幣，"
+  },
+  {
+   "start": 2307.03,
+   "end": 2315.13,
+   "speaker": "Kalan",
+   "text": "去那邊玩玩玩，回來剩 40 萬韓幣，"
+  },
+  {
+   "start": 2315.13,
+   "end": 2316.81,
+   "speaker": "Kalan",
+   "text": "所以花了大概啦，"
+  },
+  {
+   "start": 2316.81,
+   "end": 2317.71,
+   "speaker": "Kalan",
+   "text": "花了 6 萬，"
+  },
+  {
+   "start": 2318.89,
+   "end": 2320.61,
+   "speaker": "Kalan",
+   "text": "6 萬日幣，"
+  },
+  {
+   "start": 2322.11,
+   "end": 2325.21,
+   "speaker": "Kalan",
+   "text": "所以大概花費是這樣子。"
+  },
+  {
+   "start": 2326.13,
+   "end": 2327.83,
+   "speaker": "Kalan",
+   "text": "所以大概 14 萬吧，"
+  },
+  {
+   "start": 2327.83,
+   "end": 2328.47,
+   "speaker": "Kalan",
+   "text": "加起來。"
+  },
+  {
+   "start": 2328.47,
+   "end": 2331.55,
+   "speaker": "Mooly",
+   "text": "14 萬大概 3 萬台幣左右，"
+  },
+  {
+   "start": 2331.55,
+   "end": 2335.39,
+   "speaker": "Kalan",
+   "text": "就是機票跟飯店跟，"
+  },
+  {
+   "start": 2336.09,
+   "end": 2338.03,
+   "speaker": "Kalan",
+   "text": "就是在那邊的旅費這樣子。"
+  },
+  {
+   "start": 2339.01,
+   "end": 2341.69,
+   "speaker": "Mooly",
+   "text": "3 萬台幣，只要 4 天 3 夜嘛？"
+  },
+  {
+   "start": 2342.59,
+   "end": 2343.69,
+   "speaker": "Mooly",
+   "text": "3 萬台幣是，"
+  },
+  {
+   "start": 2343.69,
+   "end": 2346.47,
+   "speaker": "Mooly",
+   "text": "一個人還是兩個人？"
+  },
+  {
+   "start": 2347.19,
+   "end": 2348.77,
+   "speaker": "Mooly",
+   "text": "加起來 3 萬台幣，"
+  },
+  {
+   "start": 2349.39,
+   "end": 2352.01,
+   "speaker": "Mooly",
+   "text": "所以一個人大概 1 萬 5 左右，"
+  },
+  {
+   "start": 2353.43,
+   "end": 2355.99,
+   "speaker": "Mooly",
+   "text": "4 天 3 夜 1 萬 5 左右。"
+  },
+  {
+   "start": 2356.85,
+   "end": 2361.91,
+   "speaker": "Mooly",
+   "text": "4 天 3 夜 1 萬 5，好像跟我之前的差不多。"
+  },
+  {
+   "start": 2362.4,
+   "end": 2363.59,
+   "speaker": "Mooly",
+   "text": "我之前的話，"
+  },
+  {
+   "start": 2364.05,
+   "end": 2367.47,
+   "speaker": "Mooly",
+   "text": "我之前玩了幾次，基本上我最後的花費，"
+  },
+  {
+   "start": 2368.31,
+   "end": 2370.35,
+   "speaker": "Mooly",
+   "text": "大概都是 1 人天，"
+  },
+  {
+   "start": 2370.35,
+   "end": 2372.15,
+   "speaker": "Mooly",
+   "text": "1 人，"
+  },
+  {
+   "start": 2372.15,
+   "end": 2373.01,
+   "speaker": "Mooly",
+   "text": "欸等一下，你剛剛說，"
+  },
+  {
+   "start": 2373.01,
+   "end": 2378.73,
+   "speaker": "Mooly",
+   "text": "1 萬 5 是一個人，兩個人 3 萬。"
+  },
+  {
+   "start": 2381.25,
+   "end": 2385.87,
+   "speaker": "Mooly",
+   "text": "我之前自己抓大概是一人天 5000 台幣，"
+  },
+  {
+   "start": 2385.87,
+   "end": 2390.11,
+   "speaker": "Mooly",
+   "text": "所以 4 天 3 夜可能就是一個人 2 萬台幣，"
+  },
+  {
+   "start": 2390.11,
+   "end": 2392.31,
+   "speaker": "Mooly",
+   "text": "那 4 天 3 夜兩個人就是 4 萬台幣，"
+  },
+  {
+   "start": 2392.31,
+   "end": 2394.23,
+   "speaker": "Mooly",
+   "text": "比你的高一點點。"
+  },
+  {
+   "start": 2394.23,
+   "end": 2397.77,
+   "speaker": "Kalan",
+   "text": "你這個是也有算機票，"
+  },
+  {
+   "start": 2399.13,
+   "end": 2401.51,
+   "speaker": "Mooly",
+   "text": "機票加住宿加在那邊的話，"
+  },
+  {
+   "start": 2401.51,
+   "end": 2403.01,
+   "speaker": "Kalan",
+   "text": "攤平大概是這樣子，"
+  },
+  {
+   "start": 2403.01,
+   "end": 2404.19,
+   "speaker": "Kalan",
+   "text": "一天 5000，"
+  },
+  {
+   "start": 2406.77,
+   "end": 2408.69,
+   "speaker": "Mooly",
+   "text": "一人天 5 千這樣。"
+  },
+  {
+   "start": 2411.32,
+   "end": 2414.18,
+   "speaker": "Mooly",
+   "text": "因為其實我自己出國覺得，"
+  },
+  {
+   "start": 2415.16,
+   "end": 2418.04,
+   "speaker": "Mooly",
+   "text": "花最多的都在機票跟住宿，"
+  },
+  {
+   "start": 2420.82,
+   "end": 2424.6,
+   "speaker": "Mooly",
+   "text": "光是機票就佔了一半以上，"
+  },
+  {
+   "start": 2425.84,
+   "end": 2428.02,
+   "speaker": "Mooly",
+   "text": "然後住宿要看地區，"
+  },
+  {
+   "start": 2428.94,
+   "end": 2431.08,
+   "speaker": "Mooly",
+   "text": "在那邊其實沒有花到太多錢，"
+  },
+  {
+   "start": 2431.08,
+   "end": 2432.82,
+   "speaker": "Mooly",
+   "text": "因為我也比較少買什麼，"
+  },
+  {
+   "start": 2432.82,
+   "end": 2434.6,
+   "speaker": "Mooly",
+   "text": "伴手禮或什麼的。"
+  },
+  {
+   "start": 2437.58,
+   "end": 2438.78,
+   "speaker": "Kalan",
+   "text": "預算，"
+  },
+  {
+   "start": 2438.78,
+   "end": 2442.58,
+   "speaker": "Kalan",
+   "text": "我差不多都是抓這個價位。"
+  },
+  {
+   "start": 2442.58,
+   "end": 2443.18,
+   "speaker": "Kalan",
+   "text": "可是，"
+  },
+  {
+   "start": 2444.56,
+   "end": 2446.88,
+   "speaker": "Kalan",
+   "text": "我覺得這樣講有點不公平，"
+  },
+  {
+   "start": 2447.48,
+   "end": 2451.7,
+   "speaker": "Kalan",
+   "text": "因為如果你以前有課金在收集會員卡，"
+  },
+  {
+   "start": 2451.7,
+   "end": 2454.9,
+   "speaker": "Kalan",
+   "text": "這個可能也要攤平進去才公平。"
+  },
+  {
+   "start": 2454.9,
+   "end": 2456.4,
+   "speaker": "Mooly",
+   "text": "這個攤平其實，"
+  },
+  {
+   "start": 2457.56,
+   "end": 2460.74,
+   "speaker": "Mooly",
+   "text": "其實你攤下來其實不貴，"
+  },
+  {
+   "start": 2462.18,
+   "end": 2463.52,
+   "speaker": "Mooly",
+   "text": "如果你要攤平的話，"
+  },
+  {
+   "start": 2463.98,
+   "end": 2465.26,
+   "speaker": "Kalan",
+   "text": "好像不能這樣講，"
+  },
+  {
+   "start": 2465.68,
+   "end": 2466.46,
+   "speaker": "Kalan",
+   "text": "不能攤平，"
+  },
+  {
+   "start": 2466.46,
+   "end": 2469.72,
+   "speaker": "Kalan",
+   "text": "就是你前面課金的，你要先把課金總額，"
+  },
+  {
+   "start": 2469.72,
+   "end": 2472.88,
+   "speaker": "Mooly",
+   "text": "要先把前置成本加上去，"
+  },
+  {
+   "start": 2473.64,
+   "end": 2477.6,
+   "speaker": "Mooly",
+   "text": "那個會員卡本身大概"
+  },
+  {
+   "start": 2478.98,
+   "end": 2481.6,
+   "speaker": "Mooly",
+   "text": "應該 10 萬台幣左右吧。"
+  },
+  {
+   "start": 2481.6,
+   "end": 2483.32,
+   "speaker": "Mooly",
+   "text": "那個時候的取得成本，"
+  },
+  {
+   "start": 2483.32,
+   "end": 2486.22,
+   "speaker": "Mooly",
+   "text": "但它當然不是你直接花 10 萬就直接買到，"
+  },
+  {
+   "start": 2486.22,
+   "end": 2489.98,
+   "speaker": "Mooly",
+   "text": "它當然背後還是有，比如說你要去飛幾個地方，"
+  },
+  {
+   "start": 2489.98,
+   "end": 2490.94,
+   "speaker": "Mooly",
+   "text": "那飛幾個地方，"
+  },
+  {
+   "start": 2491.42,
+   "end": 2494.28,
+   "speaker": "Mooly",
+   "text": "它對你來說可以是一種附加價值，"
+  },
+  {
+   "start": 2494.66,
+   "end": 2495.5,
+   "speaker": "Kalan",
+   "text": "就看人，"
+  },
+  {
+   "start": 2495.5,
+   "end": 2501.96,
+   "speaker": "Mooly",
+   "text": "它對你來說也可以是一種，說我一定要飛那個地方才能……你能不能直接花 10 萬塊直接給我？這樣，這也是一種。"
+  },
+  {
+   "start": 2502.4,
+   "end": 2505.68,
+   "speaker": "Mooly",
+   "text": "那對我來說，因為我剛剛講我喜歡飛這件事情，"
+  },
+  {
+   "start": 2505.68,
+   "end": 2507.98,
+   "speaker": "Mooly",
+   "text": "所以是一種附加價值。"
+  },
+  {
+   "start": 2509.76,
+   "end": 2514.76,
+   "speaker": "Kalan",
+   "text": "所以對你來講就是花了 10 萬，加上飛來飛去，"
+  },
+  {
+   "start": 2516.04,
+   "end": 2519.02,
+   "speaker": "Mooly",
+   "text": "或是說你飛來飛去之外，你可能"
+  },
+  {
+   "start": 2520.0,
+   "end": 2522.16,
+   "speaker": "Mooly",
+   "text": "剛好又可以拿到會員卡。"
+  },
+  {
+   "start": 2522.88,
+   "end": 2524.84,
+   "speaker": "Mooly",
+   "text": "能這樣想的話，當然是這樣，"
+  },
+  {
+   "start": 2527.2,
+   "end": 2528.94,
+   "speaker": "Kalan",
+   "text": "取得成本 10 萬。"
+  },
+  {
+   "start": 2529.44,
+   "end": 2534.8,
+   "speaker": "Kalan",
+   "text": "但這樣如果是 10 萬的話，感覺也沒有到這麼的難以達成。"
+  },
+  {
+   "start": 2534.8,
+   "end": 2536.0,
+   "speaker": "Kalan",
+   "text": "但等於說，"
+  },
+  {
+   "start": 2536.54,
+   "end": 2538.28,
+   "speaker": "Kalan",
+   "text": "你花了多久啊？"
+  },
+  {
+   "start": 2538.28,
+   "end": 2539.12,
+   "speaker": "Kalan",
+   "text": "就 10 萬花下去，"
+  },
+  {
+   "start": 2539.12,
+   "end": 2542.12,
+   "speaker": "Kalan",
+   "text": "花了多久達到那個，"
+  },
+  {
+   "start": 2542.62,
+   "end": 2544.5,
+   "speaker": "Kalan",
+   "text": "就是可以拿到會員卡的？"
+  },
+  {
+   "start": 2544.5,
+   "end": 2546.56,
+   "speaker": "Mooly",
+   "text": "可以算大概一個月左右吧。"
+  },
+  {
+   "start": 2546.56,
+   "end": 2547.06,
+   "speaker": "Kalan",
+   "text": "一個月？"
+  },
+  {
+   "start": 2547.66,
+   "end": 2549.3,
+   "speaker": "Kalan",
+   "text": "一個月要加 10 萬。"
+  },
+  {
+   "start": 2549.3,
+   "end": 2554.48,
+   "speaker": "Kalan",
+   "text": "欸，現在的話也是一樣喔？還是它的機制已經其實是已經改動了？"
+  },
+  {
+   "start": 2554.48,
+   "end": 2555.16,
+   "speaker": "Mooly",
+   "text": "現在已經沒了。"
+  },
+  {
+   "start": 2555.16,
+   "end": 2558.84,
+   "speaker": "Mooly",
+   "text": "現在這個東西已經因為太多人去做這件事情，"
+  },
+  {
+   "start": 2559.66,
+   "end": 2563.08,
+   "speaker": "Mooly",
+   "text": "所以就已經把它封印住了，現在基本上，"
+  },
+  {
+   "start": 2563.7,
+   "end": 2566.34,
+   "speaker": "Mooly",
+   "text": "它的門檻變得很高，"
+  },
+  {
+   "start": 2567.0,
+   "end": 2568.88,
+   "speaker": "Mooly",
+   "text": "然後也不算都沒了，就是"
+  },
+  {
+   "start": 2569.38,
+   "end": 2571.84,
+   "speaker": "Mooly",
+   "text": "日本航空的沒了，"
+  },
+  {
+   "start": 2571.84,
+   "end": 2573.7,
+   "speaker": "Mooly",
+   "text": "但是 ANA 的還有，"
+  },
+  {
+   "start": 2573.7,
+   "end": 2575.5,
+   "speaker": "Kalan",
+   "text": "就是 M&M 的還有。"
+  },
+  {
+   "start": 2575.5,
+   "end": 2578.28,
+   "speaker": "Mooly",
+   "text": "對，就在 M&M 你還是可以做類似的事情。"
+  },
+  {
+   "start": 2578.84,
+   "end": 2580.0,
+   "speaker": "Kalan",
+   "text": "OK，了解。"
+  },
+  {
+   "start": 2581.86,
+   "end": 2584.72,
+   "speaker": "Kalan",
+   "text": "最後啊，就是我想要聊那個，"
+  },
+  {
+   "start": 2585.16,
+   "end": 2587.58,
+   "speaker": "Kalan",
+   "text": "就我們剛剛聊的旅遊，都是比較"
+  },
+  {
+   "start": 2588.08,
+   "end": 2590.76,
+   "speaker": "Kalan",
+   "text": "我自己覺得可能就是比較 general 的、"
+  },
+  {
+   "start": 2590.76,
+   "end": 2592.28,
+   "speaker": "Kalan",
+   "text": "一般人會去的。"
+  },
+  {
+   "start": 2592.28,
+   "end": 2598.98,
+   "speaker": "Kalan",
+   "text": "那其實我之前有在推特上面發了感想，就有人推薦說，"
+  },
+  {
+   "start": 2599.96,
+   "end": 2602.66,
+   "speaker": "Kalan",
+   "text": "這種一般的旅行之外呢，"
+  },
+  {
+   "start": 2602.66,
+   "end": 2606.34,
+   "speaker": "Kalan",
+   "text": "你也可以考慮嘗試一些比較帶有主題性的旅行，"
+  },
+  {
+   "start": 2606.86,
+   "end": 2609.76,
+   "speaker": "Kalan",
+   "text": "那它可能比如說是你去追星，"
+  },
+  {
+   "start": 2609.76,
+   "end": 2612.28,
+   "speaker": "Kalan",
+   "text": "或者是看演唱會的同時，"
+  },
+  {
+   "start": 2613.54,
+   "end": 2616.58,
+   "speaker": "Kalan",
+   "text": "去旅行，去當地，"
+  },
+  {
+   "start": 2616.58,
+   "end": 2619.08,
+   "speaker": "Kalan",
+   "text": "就可能去演唱會場地，"
+  },
+  {
+   "start": 2619.08,
+   "end": 2620.88,
+   "speaker": "Kalan",
+   "text": "附近走走晃晃這樣子，"
+  },
+  {
+   "start": 2621.42,
+   "end": 2624.16,
+   "speaker": "Kalan",
+   "text": "又或者是可能是某種聖地巡禮，"
+  },
+  {
+   "start": 2624.16,
+   "end": 2625.78,
+   "speaker": "Kalan",
+   "text": "比如說"
+  },
+  {
+   "start": 2625.78,
+   "end": 2630.8,
+   "speaker": "Kalan",
+   "text": "某個動畫裡面出現的一些場景，你去那邊走走看看這樣子。"
+  },
+  {
+   "start": 2630.8,
+   "end": 2631.48,
+   "speaker": "Mooly",
+   "text": "嗯。"
+  },
+  {
+   "start": 2632.64,
+   "end": 2633.92,
+   "speaker": "Kalan",
+   "text": "我想要問，"
+  },
+  {
+   "start": 2633.92,
+   "end": 2637.7,
+   "speaker": "Kalan",
+   "text": "Mooly 有嘗試過這樣的事情嗎？"
+  },
+  {
+   "start": 2637.7,
+   "end": 2639.18,
+   "speaker": "Mooly",
+   "text": "嘗試過。"
+  },
+  {
+   "start": 2639.18,
+   "end": 2640.98,
+   "speaker": "Mooly",
+   "text": "或者是說，"
+  },
+  {
+   "start": 2640.98,
+   "end": 2642.58,
+   "speaker": "Mooly",
+   "text": "對我來講，"
+  },
+  {
+   "start": 2642.58,
+   "end": 2650.44,
+   "speaker": "Mooly",
+   "text": "通常以前，現在最近比較少旅行，就至少在那個時候的旅行，"
+  },
+  {
+   "start": 2651.14,
+   "end": 2655.38,
+   "speaker": "Mooly",
+   "text": "大多數其實都是帶有目的性的，"
+  },
+  {
+   "start": 2655.38,
+   "end": 2659.32,
+   "speaker": "Mooly",
+   "text": "它不一定主題要這麼的明確，說一定是要怎樣怎樣，"
+  },
+  {
+   "start": 2659.32,
+   "end": 2659.58,
+   "speaker": "Mooly",
+   "text": "但是"
+  },
+  {
+   "start": 2659.58,
+   "end": 2662.94,
+   "speaker": "Mooly",
+   "text": "至少都一定會有一個目的。"
+  },
+  {
+   "start": 2663.44,
+   "end": 2666.84,
+   "speaker": "Mooly",
+   "text": "比如說我可能去德國好了，"
+  },
+  {
+   "start": 2666.84,
+   "end": 2671.32,
+   "speaker": "Mooly",
+   "text": "那是因為我想去柏林圍牆或什麼地方看看。"
+  },
+  {
+   "start": 2671.82,
+   "end": 2676.5,
+   "speaker": "Mooly",
+   "text": "那我可能去英國，可能想要去找某個朋友或什麼的，"
+  },
+  {
+   "start": 2676.5,
+   "end": 2679.7,
+   "speaker": "Mooly",
+   "text": "就是它可能都是帶有某個目的性，"
+  },
+  {
+   "start": 2679.7,
+   "end": 2682.86,
+   "speaker": "Mooly",
+   "text": "只是目的大或小，或完不完整而已。"
+  },
+  {
+   "start": 2682.86,
+   "end": 2685.6,
+   "speaker": "Mooly",
+   "text": "它可能不會像什麼聖地巡禮這麼完整，"
+  },
+  {
+   "start": 2685.6,
+   "end": 2685.9,
+   "speaker": "Mooly",
+   "text": "但是，"
+  },
+  {
+   "start": 2687.16,
+   "end": 2689.12,
+   "speaker": "Mooly",
+   "text": "至少都是帶有一個目的，才讓我想要"
+  },
+  {
+   "start": 2689.12,
+   "end": 2690.02,
+   "speaker": "Mooly",
+   "text": "去那邊。"
+  },
+  {
+   "start": 2690.02,
+   "end": 2695.26,
+   "speaker": "Mooly",
+   "text": "比如說可能去韓國首爾，可能就是想去那邊吃韓國料理啊什麼的，"
+  },
+  {
+   "start": 2695.26,
+   "end": 2696.52,
+   "speaker": "Mooly",
+   "text": "大概是這種。"
+  },
+  {
+   "start": 2696.52,
+   "end": 2697.2,
+   "speaker": "Kalan",
+   "text": "喔，"
+  },
+  {
+   "start": 2697.2,
+   "end": 2697.96,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 2697.96,
+   "end": 2698.4,
+   "speaker": "Mooly",
+   "text": "但，"
+  },
+  {
+   "start": 2698.4,
+   "end": 2700.52,
+   "speaker": "Mooly",
+   "text": "最近現在的話，"
+  },
+  {
+   "start": 2703.48,
+   "end": 2706.28,
+   "speaker": "Mooly",
+   "text": "目的有些變得不太一樣。"
+  },
+  {
+   "start": 2706.28,
+   "end": 2710.66,
+   "speaker": "Mooly",
+   "text": "比如說像是我太太很喜歡寶可夢，"
+  },
+  {
+   "start": 2710.66,
+   "end": 2715.26,
+   "speaker": "Mooly",
+   "text": "所以就是有那種以寶可夢中心為目的的旅行，"
+  },
+  {
+   "start": 2715.26,
+   "end": 2717.72,
+   "speaker": "Mooly",
+   "text": "就只要那邊有寶可夢中心的話，"
+  },
+  {
+   "start": 2717.72,
+   "end": 2718.6,
+   "speaker": "Mooly",
+   "text": "就會去那邊，"
+  },
+  {
+   "start": 2718.6,
+   "end": 2720.06,
+   "speaker": "Mooly",
+   "text": "朝聖寶可夢。"
+  },
+  {
+   "start": 2720.9,
+   "end": 2721.96,
+   "speaker": "Mooly",
+   "text": "我覺得這個也，"
+  },
+  {
+   "start": 2721.96,
+   "end": 2723.76,
+   "speaker": "Kalan",
+   "text": "我覺得這個其實挺讚的，"
+  },
+  {
+   "start": 2725.08,
+   "end": 2726.48,
+   "speaker": "Mooly",
+   "text": "這也蠻有趣的。"
+  },
+  {
+   "start": 2727.12,
+   "end": 2730.54,
+   "speaker": "Kalan",
+   "text": "我看過有人是會去蒐集那個，"
+  },
+  {
+   "start": 2730.54,
+   "end": 2732.92,
+   "speaker": "Kalan",
+   "text": "就是神社、寺廟的御朱印。"
+  },
+  {
+   "start": 2733.68,
+   "end": 2734.8,
+   "speaker": "Mooly",
+   "text": "這個也很常見。"
+  },
+  {
+   "start": 2734.8,
+   "end": 2737.0,
+   "speaker": "Kalan",
+   "text": "對，這個蠻常見的。"
+  },
+  {
+   "start": 2738.18,
+   "end": 2740.1,
+   "speaker": "Kalan",
+   "text": "不過對我自己來說，"
+  },
+  {
+   "start": 2740.1,
+   "end": 2742.68,
+   "speaker": "Kalan",
+   "text": "就比如說像演唱會好了，"
+  },
+  {
+   "start": 2742.68,
+   "end": 2746.56,
+   "speaker": "Kalan",
+   "text": "演唱會其實也是一種資本遊戲嗎？"
+  },
+  {
+   "start": 2747.7,
+   "end": 2749.68,
+   "speaker": "Mooly",
+   "text": "你說你要花很多錢，"
+  },
+  {
+   "start": 2749.68,
+   "end": 2751.94,
+   "speaker": "Kalan",
+   "text": "就買門票，然後搶門票什麼的。"
+  },
+  {
+   "start": 2752.74,
+   "end": 2754.88,
+   "speaker": "Kalan",
+   "text": "搶門票的話比較看運氣，"
+  },
+  {
+   "start": 2754.88,
+   "end": 2758.2,
+   "speaker": "Kalan",
+   "text": "它可能就跟資本比較少關係，"
+  },
+  {
+   "start": 2759.24,
+   "end": 2761.84,
+   "speaker": "Mooly",
+   "text": "但在很多黃牛的狀況下，"
+  },
+  {
+   "start": 2761.84,
+   "end": 2764.08,
+   "speaker": "Mooly",
+   "text": "它就變得不太一樣了。"
+  },
+  {
+   "start": 2767.58,
+   "end": 2770.42,
+   "speaker": "Kalan",
+   "text": "還有像聖地巡禮這件事情，"
+  },
+  {
+   "start": 2770.42,
+   "end": 2772.58,
+   "speaker": "Kalan",
+   "text": "聖地巡禮的話，"
+  },
+  {
+   "start": 2773.14,
+   "end": 2774.58,
+   "speaker": "Kalan",
+   "text": "的確就是看你的，"
+  },
+  {
+   "start": 2776.62,
+   "end": 2778.72,
+   "speaker": "Kalan",
+   "text": "你的資金到哪邊吧。"
+  },
+  {
+   "start": 2778.72,
+   "end": 2780.2,
+   "speaker": "Kalan",
+   "text": "它可以是很輕鬆，"
+  },
+  {
+   "start": 2780.2,
+   "end": 2781.54,
+   "speaker": "Kalan",
+   "text": "比如說你就搭計程車，"
+  },
+  {
+   "start": 2782.2,
+   "end": 2787.0,
+   "speaker": "Kalan",
+   "text": "那它也可以是相對比較辛苦一點，"
+  },
+  {
+   "start": 2787.0,
+   "end": 2792.4,
+   "speaker": "Kalan",
+   "text": "你可能就是用走路，或者搭公車什麼的，"
+  },
+  {
+   "start": 2793.03,
+   "end": 2795.04,
+   "speaker": "Kalan",
+   "text": "然後有些地方可能比較沒那麼好去。"
+  },
+  {
+   "start": 2795.04,
+   "end": 2797.66,
+   "speaker": "Kalan",
+   "text": "不過像是說到這個，"
+  },
+  {
+   "start": 2798.21,
+   "end": 2801.94,
+   "speaker": "Kalan",
+   "text": "你聖地巡禮可能要稍微選一下動畫。"
+  },
+  {
+   "start": 2801.94,
+   "end": 2803.04,
+   "speaker": "Kalan",
+   "text": "像我上次呢，"
+  },
+  {
+   "start": 2804.0,
+   "end": 2805.56,
+   "speaker": "Kalan",
+   "text": "就是孤獨搖滾，"
+  },
+  {
+   "start": 2805.56,
+   "end": 2806.38,
+   "speaker": "Kalan",
+   "text": "我去了"
+  },
+  {
+   "start": 2806.38,
+   "end": 2806.98,
+   "speaker": "Mooly",
+   "text": "御茶之水，"
+  },
+  {
+   "start": 2808.06,
+   "end": 2810.54,
+   "speaker": "Kalan",
+   "text": "就不小心買了幾把吉他，"
+  },
+  {
+   "start": 2810.54,
+   "end": 2812.38,
+   "speaker": "Kalan",
+   "text": "這樣子好像不太好。"
+  },
+  {
+   "start": 2814.6,
+   "end": 2815.56,
+   "speaker": "Kalan",
+   "text": "確實，"
+  },
+  {
+   "start": 2815.56,
+   "end": 2819.16,
+   "speaker": "Mooly",
+   "text": "這額外的花費有點太多了。"
+  },
+  {
+   "start": 2819.16,
+   "end": 2820.64,
+   "speaker": "Kalan",
+   "text": "額外的花費有點高。"
+  },
+  {
+   "start": 2823.46,
+   "end": 2823.94,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 2823.94,
+   "end": 2828.72,
+   "speaker": "Kalan",
+   "text": "那今天聊了蠻多的，就關於旅行這件事情。"
+  },
+  {
+   "start": 2829.2,
+   "end": 2831.28,
+   "speaker": "Kalan",
+   "text": "那對我來說，我可能"
+  },
+  {
+   "start": 2831.28,
+   "end": 2833.76,
+   "speaker": "Kalan",
+   "text": "下一次去旅行，"
+  },
+  {
+   "start": 2834.48,
+   "end": 2835.58,
+   "speaker": "Kalan",
+   "text": "就會是一個"
+  },
+  {
+   "start": 2836.26,
+   "end": 2837.8,
+   "speaker": "Kalan",
+   "text": "可能是完全不一樣的。"
+  },
+  {
+   "start": 2837.8,
+   "end": 2843.12,
+   "speaker": "Kalan",
+   "text": "因為經過這次旅行之後，就會讓我覺得，的確"
+  },
+  {
+   "start": 2843.84,
+   "end": 2848.42,
+   "speaker": "Kalan",
+   "text": "好像有更多比旅行 CP 值更高的事情。"
+  },
+  {
+   "start": 2849.0,
+   "end": 2852.68,
+   "speaker": "Kalan",
+   "text": "比如說像你這個什麼四天三夜、兩個人抓四萬台幣，"
+  },
+  {
+   "start": 2853.18,
+   "end": 2856.86,
+   "speaker": "Kalan",
+   "text": "他是不是就可以買一台還不錯的手機了？"
+  },
+  {
+   "start": 2856.86,
+   "end": 2860.56,
+   "speaker": "Kalan",
+   "text": "那可能一個新的手機帶給我的"
+  },
+  {
+   "start": 2861.1,
+   "end": 2862.84,
+   "speaker": "Mooly",
+   "text": "快樂程度，會"
+  },
+  {
+   "start": 2862.84,
+   "end": 2865.22,
+   "speaker": "Kalan",
+   "text": "比拿來旅行更高，"
+  },
+  {
+   "start": 2866.2,
+   "end": 2867.7,
+   "speaker": "Kalan",
+   "text": "大概是這樣的感覺。"
+  },
+  {
+   "start": 2869.52,
+   "end": 2880.42,
+   "speaker": "Mooly",
+   "text": "就還是要看每個人，就是該怎麼樣在有限的資源中，找到對自己快樂值最大的事情。"
+  },
+  {
+   "start": 2880.98,
+   "end": 2884.8,
+   "speaker": "Kalan",
+   "text": "以旅行這件事情來說，我發現我找不到了，"
+  },
+  {
+   "start": 2886.76,
+   "end": 2890.12,
+   "speaker": "Kalan",
+   "text": "所以我可能還要再花點時間去尋找，"
+  },
+  {
+   "start": 2890.12,
+   "end": 2890.96,
+   "speaker": "Mooly",
+   "text": "去探索這樣，"
+  },
+  {
+   "start": 2892.72,
+   "end": 2897.24,
+   "speaker": "Kalan",
+   "text": "屬於最適合我自己的"
+  },
+  {
+   "start": 2897.24,
+   "end": 2900.86,
+   "speaker": "Mooly",
+   "text": "旅行方式，外加你想去的地方。"
+  },
+  {
+   "start": 2901.88,
+   "end": 2908.76,
+   "speaker": "Kalan",
+   "text": "所以 Mooly，你會覺得現在這樣的旅行方式，對你來講是理想的嗎？"
+  },
+  {
+   "start": 2908.76,
+   "end": 2911.3,
+   "speaker": "Mooly",
+   "text": "我覺得蠻理想的，"
+  },
+  {
+   "start": 2911.3,
+   "end": 2913.2,
+   "speaker": "Mooly",
+   "text": "就基本上就是可以搭飛機，"
+  },
+  {
+   "start": 2913.2,
+   "end": 2914.78,
+   "speaker": "Mooly",
+   "text": "可以出國去其他地方，"
+  },
+  {
+   "start": 2915.38,
+   "end": 2918.1,
+   "speaker": "Mooly",
+   "text": "也不需要思考太多要去哪裡或什麼，"
+  },
+  {
+   "start": 2918.1,
+   "end": 2920.2,
+   "speaker": "Mooly",
+   "text": "反正就隨便找一找、隨便吃一吃。"
+  },
+  {
+   "start": 2920.78,
+   "end": 2924.2,
+   "speaker": "Mooly",
+   "text": "像我剛剛講的，我就只是想體驗氛圍嘛。"
+  },
+  {
+   "start": 2924.2,
+   "end": 2925.06,
+   "speaker": "Kalan",
+   "text": "嗯，了解。"
+  },
+  {
+   "start": 2926.26,
+   "end": 2934.12,
+   "speaker": "Kalan",
+   "text": "那麼最後就是希望大家都可以找到一個適合自己的、理想的旅行方式。"
+  },
+  {
+   "start": 2935.62,
+   "end": 2938.68,
+   "speaker": "Kalan",
+   "text": "好，那這集節目就到這邊結束啦。"
+  },
+  {
+   "start": 2938.68,
+   "end": 2943.86,
+   "speaker": "Kalan",
+   "text": "有問題的話，都歡迎在下方的表單連結當中回饋給我們喔。"
+  },
+  {
+   "start": 2943.86,
+   "end": 2945.02,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 2945.02,
+   "end": 2945.98,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2945.98,
+   "end": 2947.6,
+   "speaker": "Kalan",
+   "text": "我們下次見，"
+  },
+  {
+   "start": 2947.6,
+   "end": 2948.48,
+   "speaker": "Kalan",
+   "text": "Bye Bye！"
+  }
+ ]
+}

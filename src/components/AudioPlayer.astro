@@ -5,9 +5,10 @@ import { formatTime } from "../lib/time";
 
 interface Props {
   episode: Episode;
+  captions?: boolean;
 }
 
-const { episode } = Astro.props;
+const { episode, captions = false } = Astro.props;
 const total = formatTime(episode.durationSeconds);
 ---
 
@@ -40,6 +41,14 @@ const total = formatTime(episode.durationSeconds);
       </div>
     </div>
   </div>
+  {
+    captions && (
+      <p data-caption hidden class="mt-4 line-clamp-2 border-t border-line pt-3 leading-relaxed">
+        <span data-caption-speaker class="font-bold" />
+        <span data-caption-text class="ml-2" />
+      </p>
+    )
+  }
   <p data-error role="alert" hidden class="mt-3 text-sm text-ink-muted">
     <Icon name="ri:error-warning-line" class="mr-1 inline size-4 align-[-0.2em]" aria-hidden="true" />無法播放這集，請改到 <a href={episode.link} class="font-medium text-primary underline underline-offset-4">SoundOn</a> 收聽。
   </p>

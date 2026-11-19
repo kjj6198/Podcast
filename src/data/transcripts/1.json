@@ -1,0 +1,5520 @@
+{
+ "episode": 1,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 比較日本與台灣的稅金，指出兩地所得稅率相近，但日本的厚生年金、健保與住民稅讓整體負擔遠高於台灣。兩人也聊到資本利得稅、法人稅、103 萬円之壁，最後分享故鄉納稅、扶養與各項扣除額等合法節稅手段。",
+  "points": [
+   "討論可支配所得時，Kalan 與 Mooly 認為把社會保險和稅金合併計算是合理的。",
+   "台灣年薪 200 萬台幣的所得稅加勞健保約佔 11%，日本年薪 1000 萬日幣的總負擔約 27%，約為台灣的兩倍多。",
+   "日本所得稅與台灣差距不大，負擔高主要來自厚生年金、健保與約 10% 的住民稅（以東京為例，都民稅 4% 加區民稅 6%）。",
+   "厚生年金有級距上限，年薪約 1000 萬日幣時所得稅會超過厚生年金。",
+   "日本資本利得約被課 20%，台灣只課證券交易稅，日本則以 NISA 與 iDeCo 鼓勵投資。",
+   "日本稅負較高，所以值得善用扶養、醫療、生命保險與房貸等扣除額；故鄉納稅繳的稅不會變少，但可以換到回禮。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與稅金話題"
+   },
+   {
+    "start": 99.0,
+    "title": "稅金與社會保險怎麼算"
+   },
+   {
+    "start": 250.0,
+    "title": "日本與台灣的報稅方式"
+   },
+   {
+    "start": 422.0,
+    "title": "台灣稅負低得驚人"
+   },
+   {
+    "start": 703.0,
+    "title": "日本的年金與住民稅"
+   },
+   {
+    "start": 1504.0,
+    "title": "資本利得稅與 NISA"
+   },
+   {
+    "start": 1854.0,
+    "title": "法人稅與 103 萬円之壁"
+   },
+   {
+    "start": 2254.0,
+    "title": "合法節稅手段"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 10.94,
+   "speaker": "Kalan",
+   "text": "3、2、1，歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 13.76,
+   "end": 20.96,
+   "speaker": "Kalan",
+   "text": "八百屋 Boys，這是由兩個在日本工作的三十代軟體工程師 Kalan 與 Mooly 所設立的 podcast，"
+  },
+  {
+   "start": 20.96,
+   "end": 23.3,
+   "speaker": "Kalan",
+   "text": "與你分享各種日本生活、"
+  },
+  {
+   "start": 23.3,
+   "end": 24.02,
+   "speaker": "Kalan",
+   "text": "職涯、"
+  },
+  {
+   "start": 24.02,
+   "end": 24.82,
+   "speaker": "Kalan",
+   "text": "科技、"
+  },
+  {
+   "start": 24.82,
+   "end": 26.12,
+   "speaker": "Kalan",
+   "text": "人生的大小事。"
+  },
+  {
+   "start": 26.12,
+   "end": 29.74,
+   "speaker": "Kalan",
+   "text": "喜歡的話歡迎訂閱，分享給你身邊的好朋友知道唷。"
+  },
+  {
+   "start": 30.86,
+   "end": 32.08,
+   "speaker": "Kalan",
+   "text": "Mooly 啊 Mooly，"
+  },
+  {
+   "start": 32.74,
+   "end": 36.78,
+   "speaker": "Kalan",
+   "text": "我們在日本生活也算是有一段時間了吧？"
+  },
+  {
+   "start": 37.58,
+   "end": 38.32,
+   "speaker": "Mooly",
+   "text": "是的，沒錯。"
+  },
+  {
+   "start": 38.32,
+   "end": 42.52,
+   "speaker": "Kalan",
+   "text": "那不然我們今天來聊一聊比較大人一點的話題？"
+  },
+  {
+   "start": 43.24,
+   "end": 44.34,
+   "speaker": "Mooly",
+   "text": "可以，像是什麼？"
+  },
+  {
+   "start": 44.76,
+   "end": 47.38,
+   "speaker": "Kalan",
+   "text": "像是稅金。"
+  },
+  {
+   "start": 48.0,
+   "end": 49.58,
+   "speaker": "Mooly",
+   "text": "可以，這個非常大了。"
+  },
+  {
+   "start": 49.58,
+   "end": 50.22,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 51.86,
+   "end": 53.82,
+   "speaker": "Kalan",
+   "text": "那我想一下喔，"
+  },
+  {
+   "start": 53.82,
+   "end": 56.7,
+   "speaker": "Kalan",
+   "text": "Mooly 你在講到稅金的時候，"
+  },
+  {
+   "start": 56.7,
+   "end": 57.76,
+   "speaker": "Kalan",
+   "text": "通常"
+  },
+  {
+   "start": 60.02,
+   "end": 62.5,
+   "speaker": "Kalan",
+   "text": "你的腦中會想到怎樣的東西？"
+  },
+  {
+   "start": 64.78,
+   "end": 70.44,
+   "speaker": "Mooly",
+   "text": "你說類似每個月薪水都會被扣的這一種嗎？還是說你是更細節的那種？"
+  },
+  {
+   "start": 70.44,
+   "end": 72.64,
+   "speaker": "Kalan",
+   "text": "喔，對對對，就是會被扣的那一種。"
+  },
+  {
+   "start": 73.24,
+   "end": 78.06,
+   "speaker": "Mooly",
+   "text": "我覺得應該大部分來日本工作的人，其實都算是有比較深刻的感受吧，"
+  },
+  {
+   "start": 78.06,
+   "end": 83.14,
+   "speaker": "Mooly",
+   "text": "畢竟日本的稅整體加起來，確實是比台灣多了不少。"
+  },
+  {
+   "start": 83.14,
+   "end": 84.14,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 84.14,
+   "end": 89.02,
+   "speaker": "Mooly",
+   "text": "對，就是這個會印象還蠻深刻的，畢竟"
+  },
+  {
+   "start": 89.02,
+   "end": 94.12,
+   "speaker": "Mooly",
+   "text": "你每個月其實拿薪水的時候，你都會看到你可能被扣了多少錢，"
+  },
+  {
+   "start": 94.56,
+   "end": 98.5,
+   "speaker": "Mooly",
+   "text": "所以這個是非常印象深刻、感同身受的一件事情。"
+  },
+  {
+   "start": 99.14,
+   "end": 104.46,
+   "speaker": "Kalan",
+   "text": "那我就是，我常聽到就是我們在日本，"
+  },
+  {
+   "start": 105.16,
+   "end": 110.54,
+   "speaker": "Kalan",
+   "text": "你除了薪水有一大部分會被稅金扣掉之外，還有像是"
+  },
+  {
+   "start": 110.54,
+   "end": 112.34,
+   "speaker": "Kalan",
+   "text": "你覺得你會把這些，"
+  },
+  {
+   "start": 113.04,
+   "end": 114.72,
+   "speaker": "Kalan",
+   "text": "通常我們會叫做社會保險，"
+  },
+  {
+   "start": 114.72,
+   "end": 117.8,
+   "speaker": "Kalan",
+   "text": "你會把這些東西都當作稅來算嗎？"
+  },
+  {
+   "start": 119.0,
+   "end": 121.18,
+   "speaker": "Mooly",
+   "text": "我覺得我自己是會啦，"
+  },
+  {
+   "start": 121.18,
+   "end": 123.04,
+   "speaker": "Mooly",
+   "text": "雖然要嚴格分開也可以，"
+  },
+  {
+   "start": 123.04,
+   "end": 124.22,
+   "speaker": "Mooly",
+   "text": "但畢竟那個"
+  },
+  {
+   "start": 124.74,
+   "end": 127.44,
+   "speaker": "Mooly",
+   "text": "它也算是固定支出嘛，"
+  },
+  {
+   "start": 127.44,
+   "end": 128.78,
+   "speaker": "Mooly",
+   "text": "所以如果你以那個"
+  },
+  {
+   "start": 129.32,
+   "end": 132.74,
+   "speaker": "Mooly",
+   "text": "似乎以比較專業的術語來講，它算是那個可支配所得嘛，"
+  },
+  {
+   "start": 132.74,
+   "end": 136.36,
+   "speaker": "Mooly",
+   "text": "就是你每個月的收入扣掉固定的支出，"
+  },
+  {
+   "start": 136.36,
+   "end": 139.36,
+   "speaker": "Mooly",
+   "text": "那固定支出就包含你的那些稅金，加上"
+  },
+  {
+   "start": 139.36,
+   "end": 142.14,
+   "speaker": "Mooly",
+   "text": "勞保跟健保，也是一定要繳的嘛，"
+  },
+  {
+   "start": 142.14,
+   "end": 143.72,
+   "speaker": "Mooly",
+   "text": "所以我會把它當作那些，"
+  },
+  {
+   "start": 143.72,
+   "end": 147.82,
+   "speaker": "Mooly",
+   "text": "就全部一起看，當成稅的一部分，這樣比較好算一點。"
+  },
+  {
+   "start": 148.8,
+   "end": 156.88,
+   "speaker": "Kalan",
+   "text": "我其實之前有在 Threads 上面看到有人為了這個定義吵得蠻兇的，就是說"
+  },
+  {
+   "start": 156.88,
+   "end": 162.3,
+   "speaker": "Kalan",
+   "text": "欸，你這個年金啊、你這個保險啊、你這個健保啊，"
+  },
+  {
+   "start": 162.3,
+   "end": 163.16,
+   "speaker": "Kalan",
+   "text": "又不是稅，"
+  },
+  {
+   "start": 163.16,
+   "end": 165.52,
+   "speaker": "Kalan",
+   "text": "然後你一定要分開來這樣子。"
+  },
+  {
+   "start": 166.08,
+   "end": 167.78,
+   "speaker": "Kalan",
+   "text": "我之前有看過這樣的討論。"
+  },
+  {
+   "start": 167.78,
+   "end": 169.04,
+   "speaker": "Kalan",
+   "text": "那我想一下，"
+  },
+  {
+   "start": 169.6,
+   "end": 173.5,
+   "speaker": "Kalan",
+   "text": "我自己的看法是分開會比較好，"
+  },
+  {
+   "start": 173.5,
+   "end": 176.3,
+   "speaker": "Kalan",
+   "text": "就是稅跟社會保險這件事情。"
+  },
+  {
+   "start": 176.3,
+   "end": 181.38,
+   "speaker": "Kalan",
+   "text": "但是我們今天如果討論的脈絡是可支配所得的話，"
+  },
+  {
+   "start": 181.82,
+   "end": 184.92,
+   "speaker": "Kalan",
+   "text": "那當然你又不可能只繳稅不繳社會保險，"
+  },
+  {
+   "start": 184.92,
+   "end": 189.38,
+   "speaker": "Kalan",
+   "text": "所以把它算在一起，我覺得是沒有問題的。"
+  },
+  {
+   "start": 189.38,
+   "end": 190.82,
+   "speaker": "Mooly",
+   "text": "合理，合理。"
+  },
+  {
+   "start": 190.82,
+   "end": 192.14,
+   "speaker": "Kalan",
+   "text": "所以就是"
+  },
+  {
+   "start": 192.8,
+   "end": 194.92,
+   "speaker": "Kalan",
+   "text": "有時候就是要討論的東西不一樣，"
+  },
+  {
+   "start": 194.92,
+   "end": 196.64,
+   "speaker": "Kalan",
+   "text": "大家可以不用那麼兇，沒有關係。"
+  },
+  {
+   "start": 197.62,
+   "end": 199.88,
+   "speaker": "Mooly",
+   "text": "沒錯，就大家有個共識就可以了。"
+  },
+  {
+   "start": 200.58,
+   "end": 200.84,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 201.4,
+   "end": 204.24,
+   "speaker": "Kalan",
+   "text": "那我們就開始聊多一點吧。"
+  },
+  {
+   "start": 206.48,
+   "end": 209.12,
+   "speaker": "Kalan",
+   "text": "那 Mooly，你來日本多久了？"
+  },
+  {
+   "start": 209.76,
+   "end": 213.16,
+   "speaker": "Mooly",
+   "text": "來日本一年多左右。有繳，"
+  },
+  {
+   "start": 213.16,
+   "end": 216.16,
+   "speaker": "Mooly",
+   "text": "應該有繳過一次稅，但不多嘛，"
+  },
+  {
+   "start": 216.16,
+   "end": 219.34,
+   "speaker": "Mooly",
+   "text": "因為可能比如說去年 10 月才來的，"
+  },
+  {
+   "start": 219.34,
+   "end": 221.52,
+   "speaker": "Mooly",
+   "text": "所以去年其實也沒什麼收入。"
+  },
+  {
+   "start": 221.52,
+   "end": 222.4,
+   "speaker": "Kalan",
+   "text": "喔，就是，"
+  },
+  {
+   "start": 223.28,
+   "end": 225.1,
+   "speaker": "Kalan",
+   "text": "因為它是以年算嘛，"
+  },
+  {
+   "start": 225.1,
+   "end": 226.32,
+   "speaker": "Kalan",
+   "text": "所以你算是，"
+  },
+  {
+   "start": 226.32,
+   "end": 230.3,
+   "speaker": "Kalan",
+   "text": "今年開始才算是可以領一大包的那種。"
+  },
+  {
+   "start": 230.97,
+   "end": 235.82,
+   "speaker": "Mooly",
+   "text": "對，就今年才開始，1 月到 12 月都有收入嘛，"
+  },
+  {
+   "start": 235.82,
+   "end": 239.52,
+   "speaker": "Mooly",
+   "text": "所以明年繳稅的時候，就會知道有多痛。"
+  },
+  {
+   "start": 240.6,
+   "end": 243.06,
+   "speaker": "Kalan",
+   "text": "欸，可是明年繳稅，"
+  },
+  {
+   "start": 243.06,
+   "end": 247.34,
+   "speaker": "Kalan",
+   "text": "可是我記得日本稅金它不是全，"
+  },
+  {
+   "start": 247.34,
+   "end": 249.04,
+   "speaker": "Mooly",
+   "text": "要完全徵收。"
+  },
+  {
+   "start": 249.75,
+   "end": 255.0,
+   "speaker": "Mooly",
+   "text": "對，這個就要談到，日本稅金其實跟台灣也有點類似，"
+  },
+  {
+   "start": 255.0,
+   "end": 256.66,
+   "speaker": "Mooly",
+   "text": "雖然有些好像不太一樣。"
+  },
+  {
+   "start": 256.66,
+   "end": 258.94,
+   "speaker": "Mooly",
+   "text": "就是先講日本好了。"
+  },
+  {
+   "start": 258.94,
+   "end": 260.38,
+   "speaker": "Mooly",
+   "text": "日本繳稅，"
+  },
+  {
+   "start": 260.8,
+   "end": 262.8,
+   "speaker": "Mooly",
+   "text": "我自己知道就有兩種方式，"
+  },
+  {
+   "start": 262.8,
+   "end": 265.5,
+   "speaker": "Mooly",
+   "text": "源泉徴収跟確定申告。"
+  },
+  {
+   "start": 265.5,
+   "end": 270.26,
+   "speaker": "Mooly",
+   "text": "源泉徴収就是每個月直接從你薪水裡面扣掉你要繳的東西，"
+  },
+  {
+   "start": 270.84,
+   "end": 277.18,
+   "speaker": "Mooly",
+   "text": "然後在年末的時候有一個年末調整，會去看你有沒有一些東西要調整，然後加加減減，"
+  },
+  {
+   "start": 277.18,
+   "end": 279.76,
+   "speaker": "Mooly",
+   "text": "最後你自己可能不太需要做什麼，"
+  },
+  {
+   "start": 279.76,
+   "end": 282.78,
+   "speaker": "Mooly",
+   "text": "如果沒有要多繳稅的話就結束了。"
+  },
+  {
+   "start": 282.78,
+   "end": 284.62,
+   "speaker": "Mooly",
+   "text": "然後確定申告就是你什麼都要自己報。"
+  },
+  {
+   "start": 284.62,
+   "end": 286.16,
+   "speaker": "Mooly",
+   "text": "在台灣的話，"
+  },
+  {
+   "start": 286.78,
+   "end": 291.6,
+   "speaker": "Mooly",
+   "text": "我記得有些，比如說所得稅什麼的，很多也是直接扣嘛？"
+  },
+  {
+   "start": 291.6,
+   "end": 293.72,
+   "speaker": "Kalan",
+   "text": "所得稅也是直接扣？"
+  },
+  {
+   "start": 294.38,
+   "end": 296.94,
+   "speaker": "Kalan",
+   "text": "台灣所得稅應該不會直接扣，"
+  },
+  {
+   "start": 296.94,
+   "end": 299.1,
+   "speaker": "Kalan",
+   "text": "但是勞健保的話應該是直接扣，"
+  },
+  {
+   "start": 299.75,
+   "end": 300.62,
+   "speaker": "Kalan",
+   "text": "如果記得沒錯。"
+  },
+  {
+   "start": 300.62,
+   "end": 300.9,
+   "speaker": "Kalan",
+   "text": "勞健"
+  },
+  {
+   "start": 300.9,
+   "end": 302.44,
+   "speaker": "Mooly",
+   "text": "保直接扣。"
+  },
+  {
+   "start": 302.44,
+   "end": 302.72,
+   "speaker": "Mooly",
+   "text": "沒錯。"
+  },
+  {
+   "start": 302.72,
+   "end": 304.54,
+   "speaker": "Mooly",
+   "text": "然後所得稅，我記得，"
+  },
+  {
+   "start": 304.54,
+   "end": 306.44,
+   "speaker": "Mooly",
+   "text": "我不是很確定，但我記得好像可以，"
+  },
+  {
+   "start": 306.99,
+   "end": 308.02,
+   "speaker": "Mooly",
+   "text": "有些可以選。"
+  },
+  {
+   "start": 308.02,
+   "end": 308.86,
+   "speaker": "Mooly",
+   "text": "好像跟你，"
+  },
+  {
+   "start": 309.4,
+   "end": 312.08,
+   "speaker": "Mooly",
+   "text": "對，好像跟你收入的那個有關。"
+  },
+  {
+   "start": 312.08,
+   "end": 313.0,
+   "speaker": "Mooly",
+   "text": "你收入如果比較，"
+  },
+  {
+   "start": 314.1,
+   "end": 319.1,
+   "speaker": "Mooly",
+   "text": "好像低於某個數字底下，你可以選擇說你自己最後結算，"
+  },
+  {
+   "start": 319.1,
+   "end": 322.72,
+   "speaker": "Mooly",
+   "text": "那如果你收入高於某一個的話，似乎你就是，"
+  },
+  {
+   "start": 323.42,
+   "end": 325.58,
+   "speaker": "Mooly",
+   "text": "它都會直接扣完再給你。"
+  },
+  {
+   "start": 326.66,
+   "end": 329.46,
+   "speaker": "Kalan",
+   "text": "那有可能是因為我的薪水還不夠高，"
+  },
+  {
+   "start": 332.02,
+   "end": 336.38,
+   "speaker": "Mooly",
+   "text": "這我就不是很確定了，這也是有可能的。"
+  },
+  {
+   "start": 337.56,
+   "end": 342.1,
+   "speaker": "Kalan",
+   "text": "因為我覺得你剛好是來日本一年嘛，"
+  },
+  {
+   "start": 342.1,
+   "end": 347.32,
+   "speaker": "Kalan",
+   "text": "那我覺得你對稅這個部分，應該會有比較多研究嗎？"
+  },
+  {
+   "start": 347.32,
+   "end": 349.42,
+   "speaker": "Kalan",
+   "text": "那不然就來講一下，"
+  },
+  {
+   "start": 349.42,
+   "end": 353.52,
+   "speaker": "Kalan",
+   "text": "就是你覺得日本的稅跟台灣的稅有什麼不同？"
+  },
+  {
+   "start": 354.18,
+   "end": 355.2,
+   "speaker": "Mooly",
+   "text": "OK，沒問題。"
+  },
+  {
+   "start": 355.2,
+   "end": 356.98,
+   "speaker": "Mooly",
+   "text": "對，稅其實，"
+  },
+  {
+   "start": 358.2,
+   "end": 361.28,
+   "speaker": "Mooly",
+   "text": "我覺得跟來日本多久其實也比較沒有關聯啦，"
+  },
+  {
+   "start": 361.28,
+   "end": 365.36,
+   "speaker": "Mooly",
+   "text": "是我覺得要突然有個契機，讓你主動研究這件事情，"
+  },
+  {
+   "start": 365.36,
+   "end": 368.76,
+   "speaker": "Mooly",
+   "text": "你才會對稅這件事情有一個概念。"
+  },
+  {
+   "start": 368.76,
+   "end": 370.6,
+   "speaker": "Mooly",
+   "text": "比如說像我以前在台灣的時候，"
+  },
+  {
+   "start": 370.6,
+   "end": 372.62,
+   "speaker": "Mooly",
+   "text": "雖然工作了三，"
+  },
+  {
+   "start": 372.62,
+   "end": 375.44,
+   "speaker": "Mooly",
+   "text": "就我在工作大概三，"
+  },
+  {
+   "start": 375.44,
+   "end": 378.6,
+   "speaker": "Mooly",
+   "text": "大概五年左右之前，"
+  },
+  {
+   "start": 378.6,
+   "end": 381.42,
+   "speaker": "Mooly",
+   "text": "我其實對稅都不是很清楚它在幹嘛。"
+  },
+  {
+   "start": 381.42,
+   "end": 387.14,
+   "speaker": "Mooly",
+   "text": "我可能每當我要繳稅的時候，我就叫我媽幫我報稅，"
+  },
+  {
+   "start": 387.14,
+   "end": 389.4,
+   "speaker": "Mooly",
+   "text": "然後她可能也只是按個按鈕就結束了。"
+  },
+  {
+   "start": 389.4,
+   "end": 393.8,
+   "speaker": "Mooly",
+   "text": "因為像我剛剛講的那個，她可能所得稅是直接從薪水裡面扣的，"
+  },
+  {
+   "start": 393.8,
+   "end": 394.76,
+   "speaker": "Mooly",
+   "text": "所以基本上你，"
+  },
+  {
+   "start": 394.76,
+   "end": 399.4,
+   "speaker": "Mooly",
+   "text": "當年到你真的要報稅的時候，你是不需要自己再"
+  },
+  {
+   "start": 399.4,
+   "end": 400.78,
+   "speaker": "Mooly",
+   "text": "多去做一些什麼，"
+  },
+  {
+   "start": 400.78,
+   "end": 403.4,
+   "speaker": "Mooly",
+   "text": "就你還是要報，但是你可能已經繳完了，"
+  },
+  {
+   "start": 403.4,
+   "end": 407.44,
+   "speaker": "Mooly",
+   "text": "所以他可能不需要再多繳一些什麼東西。"
+  },
+  {
+   "start": 407.44,
+   "end": 409.16,
+   "speaker": "Mooly",
+   "text": "然後是後來，"
+  },
+  {
+   "start": 409.62,
+   "end": 411.42,
+   "speaker": "Mooly",
+   "text": "我突然好奇這塊，"
+  },
+  {
+   "start": 411.42,
+   "end": 412.38,
+   "speaker": "Mooly",
+   "text": "就突然好奇說，"
+  },
+  {
+   "start": 412.9,
+   "end": 414.78,
+   "speaker": "Mooly",
+   "text": "報稅是什麼樣的一個概念，"
+  },
+  {
+   "start": 414.78,
+   "end": 417.9,
+   "speaker": "Mooly",
+   "text": "然後我到底報了哪些東西，有哪些可以加、哪些可以扣，"
+  },
+  {
+   "start": 417.9,
+   "end": 421.76,
+   "speaker": "Mooly",
+   "text": "才開始比較認真在研究這塊。"
+  },
+  {
+   "start": 422.3,
+   "end": 425.62,
+   "speaker": "Mooly",
+   "text": "那先講台灣的部分好了。"
+  },
+  {
+   "start": 426.2,
+   "end": 428.62,
+   "speaker": "Mooly",
+   "text": "台灣的部分的話呢，"
+  },
+  {
+   "start": 428.62,
+   "end": 433.2,
+   "speaker": "Mooly",
+   "text": "基本上因為剛剛有講說，如果我們是討論那個可支配所得的話，"
+  },
+  {
+   "start": 433.64,
+   "end": 435.06,
+   "speaker": "Mooly",
+   "text": "包含勞健保，"
+  },
+  {
+   "start": 435.48,
+   "end": 438.88,
+   "speaker": "Mooly",
+   "text": "所以如果以台灣的東西來看的話，你每個月，"
+  },
+  {
+   "start": 438.88,
+   "end": 441.68,
+   "speaker": "Mooly",
+   "text": "我們先講如果每個月扣所得稅的話，"
+  },
+  {
+   "start": 441.68,
+   "end": 449.6,
+   "speaker": "Mooly",
+   "text": "但其實這個也差不多，你如果是報稅的時候報也是一樣，基本上你要扣的就是勞保、健保跟所得稅，"
+  },
+  {
+   "start": 449.6,
+   "end": 450.76,
+   "speaker": "Mooly",
+   "text": "就這三種嘛。"
+  },
+  {
+   "start": 450.76,
+   "end": 453.92,
+   "speaker": "Mooly",
+   "text": "我之前研究的一個結論是，"
+  },
+  {
+   "start": 453.92,
+   "end": 458.34,
+   "speaker": "Mooly",
+   "text": "勞保跟健保其實佔的比例非常非常的低，"
+  },
+  {
+   "start": 459.02,
+   "end": 463.42,
+   "speaker": "Mooly",
+   "text": "它基本上佔你整體薪水的佔比，"
+  },
+  {
+   "start": 463.94,
+   "end": 466.8,
+   "speaker": "Mooly",
+   "text": "勞保加健保可能 2% 左右而已，"
+  },
+  {
+   "start": 466.8,
+   "end": 468.92,
+   "speaker": "Mooly",
+   "text": "非常非常低的一個數字。"
+  },
+  {
+   "start": 469.36,
+   "end": 474.12,
+   "speaker": "Mooly",
+   "text": "然後所得稅其實也蠻低的，所得稅我之前算的，"
+  },
+  {
+   "start": 474.12,
+   "end": 475.12,
+   "speaker": "Mooly",
+   "text": "如果你是"
+  },
+  {
+   "start": 475.78,
+   "end": 479.4,
+   "speaker": "Mooly",
+   "text": "我之前是拿那個日幣年薪 1000 萬，"
+  },
+  {
+   "start": 479.4,
+   "end": 481.42,
+   "speaker": "Mooly",
+   "text": "跟台灣收入 200 萬來比，"
+  },
+  {
+   "start": 481.42,
+   "end": 486.48,
+   "speaker": "Mooly",
+   "text": "那時候匯率比較低的時候，想說這兩個剛好數字都蠻好算的，就直接拿這個作為標準，"
+  },
+  {
+   "start": 486.48,
+   "end": 491.38,
+   "speaker": "Mooly",
+   "text": "然後最後算出來，所得稅扣大概 9% 左右，"
+  },
+  {
+   "start": 491.38,
+   "end": 493.44,
+   "speaker": "Mooly",
+   "text": "就佔你整體薪水 9%，"
+  },
+  {
+   "start": 493.44,
+   "end": 495.26,
+   "speaker": "Mooly",
+   "text": "然後勞健保佔大概 2%，"
+  },
+  {
+   "start": 495.26,
+   "end": 499.3,
+   "speaker": "Mooly",
+   "text": "所以最後面扣起來，你總共只被扣了 11% 而已。"
+  },
+  {
+   "start": 499.3,
+   "end": 503.86,
+   "speaker": "Mooly",
+   "text": "但其實 200 萬已經算是台灣裡面比較高收入了，"
+  },
+  {
+   "start": 503.86,
+   "end": 505.46,
+   "speaker": "Mooly",
+   "text": "然後其實只扣 11%，"
+  },
+  {
+   "start": 505.46,
+   "end": 507.12,
+   "speaker": "Mooly",
+   "text": "所以其實是"
+  },
+  {
+   "start": 507.12,
+   "end": 510.26,
+   "speaker": "Mooly",
+   "text": "就，對，在工作的人算蠻划算的吧，"
+  },
+  {
+   "start": 510.26,
+   "end": 512.22,
+   "speaker": "Mooly",
+   "text": "你不需要被扣到太多稅。"
+  },
+  {
+   "start": 512.22,
+   "end": 513.84,
+   "speaker": "Kalan",
+   "text": "好，我補充一下，"
+  },
+  {
+   "start": 514.36,
+   "end": 519.14,
+   "speaker": "Kalan",
+   "text": "其實我之前也有做過類似的事情，"
+  },
+  {
+   "start": 520.18,
+   "end": 523.14,
+   "speaker": "Kalan",
+   "text": "畢竟大家在日本生活久了就會好奇。"
+  },
+  {
+   "start": 523.14,
+   "end": 528.3,
+   "speaker": "Kalan",
+   "text": "然後剛剛 Mooly 講的那個數字，11% 、200 萬台幣，"
+  },
+  {
+   "start": 528.84,
+   "end": 534.28,
+   "speaker": "Kalan",
+   "text": "社會保險，就是勞健保加所得稅，大概就是佔 11% 左右。"
+  },
+  {
+   "start": 535.04,
+   "end": 539.84,
+   "speaker": "Kalan",
+   "text": "那假設如果你是 50 萬的話呢，我其實也有做過類似的統計，"
+  },
+  {
+   "start": 539.84,
+   "end": 542.2,
+   "speaker": "Kalan",
+   "text": "假設你的年收入是 50 萬好了，"
+  },
+  {
+   "start": 542.2,
+   "end": 548.14,
+   "speaker": "Kalan",
+   "text": "那你的所得稅加勞健保的負擔就是 4% 多左右，"
+  },
+  {
+   "start": 548.14,
+   "end": 550.76,
+   "speaker": "Mooly",
+   "text": "那還真的是挺低"
+  },
+  {
+   "start": 550.76,
+   "end": 553.3,
+   "speaker": "Mooly",
+   "text": "的。"
+  },
+  {
+   "start": 553.3,
+   "end": 554.24,
+   "speaker": "Mooly",
+   "text": "那"
+  },
+  {
+   "start": 554.24,
+   "end": 560.32,
+   "speaker": "Kalan",
+   "text": "如果你是百萬年薪工程師的話呢，"
+  },
+  {
+   "start": 560.84,
+   "end": 564.4,
+   "speaker": "Kalan",
+   "text": "那算下來大概是 5% 左右，快 6%，"
+  },
+  {
+   "start": 564.98,
+   "end": 566.9,
+   "speaker": "Kalan",
+   "text": "那還是很低。"
+  },
+  {
+   "start": 566.9,
+   "end": 569.22,
+   "speaker": "Kalan",
+   "text": "不過就像我剛剛講到的嘛，"
+  },
+  {
+   "start": 569.22,
+   "end": 570.14,
+   "speaker": "Kalan",
+   "text": "就是有些人，"
+  },
+  {
+   "start": 570.14,
+   "end": 571.92,
+   "speaker": "Kalan",
+   "text": "因為我原本以為是一年，"
+  },
+  {
+   "start": 571.92,
+   "end": 572.98,
+   "speaker": "Kalan",
+   "text": "然後會一起繳，"
+  },
+  {
+   "start": 572.98,
+   "end": 576.4,
+   "speaker": "Kalan",
+   "text": "那 100 萬的 5% 的話，大概是多少？"
+  },
+  {
+   "start": 576.4,
+   "end": 578.68,
+   "speaker": "Kalan",
+   "text": "大概 5 萬多嘛，5 萬多，6 萬。"
+  },
+  {
+   "start": 578.68,
+   "end": 579.64,
+   "speaker": "Mooly",
+   "text": "5 萬多，對。"
+  },
+  {
+   "start": 579.64,
+   "end": 581.94,
+   "speaker": "Kalan",
+   "text": "那這個你要一次繳出去，"
+  },
+  {
+   "start": 581.94,
+   "end": 584.08,
+   "speaker": "Kalan",
+   "text": "其實還是會有點痛啊。"
+  },
+  {
+   "start": 585.06,
+   "end": 586.92,
+   "speaker": "Mooly",
+   "text": "喔，我懂了。"
+  },
+  {
+   "start": 586.92,
+   "end": 590.04,
+   "speaker": "Mooly",
+   "text": "因為我之前好像都是每個月薪水直接扣的，"
+  },
+  {
+   "start": 590.04,
+   "end": 592.04,
+   "speaker": "Mooly",
+   "text": "所以我繳稅的時候完全沒感覺，"
+  },
+  {
+   "start": 592.04,
+   "end": 595.66,
+   "speaker": "Mooly",
+   "text": "因為我就是每個月薪水已經都少拿一點，少拿一點。"
+  },
+  {
+   "start": 596.26,
+   "end": 598.36,
+   "speaker": "Mooly",
+   "text": "像有些人就是，"
+  },
+  {
+   "start": 598.36,
+   "end": 600.64,
+   "speaker": "Mooly",
+   "text": "他只是最後繳稅的時候才繳，"
+  },
+  {
+   "start": 600.64,
+   "end": 602.6,
+   "speaker": "Mooly",
+   "text": "那對他來說可能就會覺得有點痛，"
+  },
+  {
+   "start": 602.6,
+   "end": 606.16,
+   "speaker": "Mooly",
+   "text": "就是他一次就要付出 3 萬、5 萬這樣子的錢。"
+  },
+  {
+   "start": 606.16,
+   "end": 607.44,
+   "speaker": "Kalan",
+   "text": "對對對。"
+  },
+  {
+   "start": 607.44,
+   "end": 608.74,
+   "speaker": "Kalan",
+   "text": "所以你就會發現說，"
+  },
+  {
+   "start": 609.38,
+   "end": 612.3,
+   "speaker": "Kalan",
+   "text": "每次到了那個好像差不多 5 月份，"
+  },
+  {
+   "start": 612.3,
+   "end": 614.14,
+   "speaker": "Kalan",
+   "text": "5 月份是報稅的那個月份，"
+  },
+  {
+   "start": 615.02,
+   "end": 617.62,
+   "speaker": "Kalan",
+   "text": "就會聽到很多台灣人在抱怨。"
+  },
+  {
+   "start": 617.62,
+   "end": 620.56,
+   "speaker": "Kalan",
+   "text": "但其實根據這個統計下來，"
+  },
+  {
+   "start": 620.56,
+   "end": 623.46,
+   "speaker": "Kalan",
+   "text": "其實你的負擔沒有到很高，"
+  },
+  {
+   "start": 623.46,
+   "end": 626.52,
+   "speaker": "Kalan",
+   "text": "除非你有所得稅以外的東西。"
+  },
+  {
+   "start": 626.52,
+   "end": 629.3,
+   "speaker": "Mooly",
+   "text": "對，就我覺得其實你如果只論這個，"
+  },
+  {
+   "start": 629.3,
+   "end": 633.16,
+   "speaker": "Mooly",
+   "text": "就你固定要繳的，包含勞健保、家屬的稅的話，其實"
+  },
+  {
+   "start": 633.16,
+   "end": 634.64,
+   "speaker": "Mooly",
+   "text": "如果你放眼望去，"
+  },
+  {
+   "start": 635.13,
+   "end": 644.94,
+   "speaker": "Mooly",
+   "text": "基本上全世界，或甚至你只要看東亞、東南亞，台灣這整塊的話，台灣其實我覺得應該已經算是蠻低的了吧。"
+  },
+  {
+   "start": 644.94,
+   "end": 645.72,
+   "speaker": "Kalan",
+   "text": "該怎麼說呢，"
+  },
+  {
+   "start": 645.72,
+   "end": 651.54,
+   "speaker": "Kalan",
+   "text": "就是你可以在相對低的負擔裡面，享受到一個相對好的社會福利，"
+  },
+  {
+   "start": 651.54,
+   "end": 652.84,
+   "speaker": "Kalan",
+   "text": "以台灣社會來說。"
+  },
+  {
+   "start": 654.7,
+   "end": 656.84,
+   "speaker": "Kalan",
+   "text": "那我想，我有點好奇喔，"
+  },
+  {
+   "start": 656.84,
+   "end": 660.3,
+   "speaker": "Kalan",
+   "text": "你之前不是有在新加坡工作嗎？"
+  },
+  {
+   "start": 660.3,
+   "end": 662.74,
+   "speaker": "Kalan",
+   "text": "那你覺得大概的體感是怎麼樣？"
+  },
+  {
+   "start": 662.74,
+   "end": 664.3,
+   "speaker": "Mooly",
+   "text": "新加坡體感？"
+  },
+  {
+   "start": 664.3,
+   "end": 672.62,
+   "speaker": "Mooly",
+   "text": "我印象中它的所得稅似乎是會比台灣再更低一點。"
+  },
+  {
+   "start": 674.2,
+   "end": 677.1,
+   "speaker": "Mooly",
+   "text": "它的所得稅我記得，像我們剛算出來，"
+  },
+  {
+   "start": 677.1,
+   "end": 680.58,
+   "speaker": "Mooly",
+   "text": "年收 200 萬的話，可能是繳大概 9% 左右，"
+  },
+  {
+   "start": 681.64,
+   "end": 685.84,
+   "speaker": "Mooly",
+   "text": "然後新加坡的話，我記得搞不好是 5% 或再更少。"
+  },
+  {
+   "start": 685.84,
+   "end": 688.24,
+   "speaker": "Kalan",
+   "text": "你說一樣是 200 萬的 level 這樣？"
+  },
+  {
+   "start": 688.24,
+   "end": 694.18,
+   "speaker": "Mooly",
+   "text": "對對對，就以所得稅來說的話，我記得應該是比台灣還要再更低了，"
+  },
+  {
+   "start": 694.18,
+   "end": 698.54,
+   "speaker": "Mooly",
+   "text": "但因為我之前在新加坡的時候，我其實也沒有仔細研究過報稅繳了多少錢，"
+  },
+  {
+   "start": 698.54,
+   "end": 700.64,
+   "speaker": "Mooly",
+   "text": "所以我其實也不是很確定這件事情。"
+  },
+  {
+   "start": 701.28,
+   "end": 702.24,
+   "speaker": "Kalan",
+   "text": "OK，好。"
+  },
+  {
+   "start": 702.84,
+   "end": 705.0,
+   "speaker": "Kalan",
+   "text": "那我們講完台灣的，"
+  },
+  {
+   "start": 705.0,
+   "end": 706.58,
+   "speaker": "Kalan",
+   "text": "那我們來看看日本，"
+  },
+  {
+   "start": 706.58,
+   "end": 708.28,
+   "speaker": "Kalan",
+   "text": "來聽聽日本的吧。"
+  },
+  {
+   "start": 708.28,
+   "end": 709.9,
+   "speaker": "Mooly",
+   "text": "我就先來了。"
+  },
+  {
+   "start": 710.46,
+   "end": 710.94,
+   "speaker": "Kalan",
+   "text": "OK。"
+  },
+  {
+   "start": 710.94,
+   "end": 712.26,
+   "speaker": "Mooly",
+   "text": "日本的話，"
+  },
+  {
+   "start": 712.86,
+   "end": 714.1,
+   "speaker": "Mooly",
+   "text": "日本的話我覺得，"
+  },
+  {
+   "start": 714.84,
+   "end": 718.0,
+   "speaker": "Mooly",
+   "text": "之前其實我自己有一個誤解，是因為"
+  },
+  {
+   "start": 718.42,
+   "end": 724.78,
+   "speaker": "Mooly",
+   "text": "我相信應該很多人其實不管你有沒有來日本，都聽說過日本稅很高這件事情。"
+  },
+  {
+   "start": 725.32,
+   "end": 729.08,
+   "speaker": "Mooly",
+   "text": "那一般來講，講到稅的話，我們第一個就會直覺想到就是所得稅，"
+  },
+  {
+   "start": 729.64,
+   "end": 731.76,
+   "speaker": "Mooly",
+   "text": "因為對我們來說，在台灣的時候你其實"
+  },
+  {
+   "start": 732.74,
+   "end": 734.12,
+   "speaker": "Mooly",
+   "text": "你在報稅的時候，你就只有"
+  },
+  {
+   "start": 734.12,
+   "end": 736.32,
+   "speaker": "Mooly",
+   "text": "基本上可能就只有講所得稅而已，"
+  },
+  {
+   "start": 736.32,
+   "end": 739.56,
+   "speaker": "Mooly",
+   "text": "所以講到日本稅高，就會想到是不是所得稅很高。"
+  },
+  {
+   "start": 740.12,
+   "end": 742.28,
+   "speaker": "Mooly",
+   "text": "但我自己計算過之後發現，"
+  },
+  {
+   "start": 742.28,
+   "end": 743.7,
+   "speaker": "Mooly",
+   "text": "其實所得稅，"
+  },
+  {
+   "start": 743.7,
+   "end": 746.78,
+   "speaker": "Mooly",
+   "text": "就是如果光論所得稅這個項目的話，"
+  },
+  {
+   "start": 746.78,
+   "end": 749.1,
+   "speaker": "Mooly",
+   "text": "它其實跟台灣是差不多的，"
+  },
+  {
+   "start": 749.1,
+   "end": 752.46,
+   "speaker": "Mooly",
+   "text": "甚至還可以比台灣可能更低一點點，"
+  },
+  {
+   "start": 752.46,
+   "end": 755.88,
+   "speaker": "Mooly",
+   "text": "就是它可能差到 1% 以內，跟台灣的差別。"
+  },
+  {
+   "start": 755.88,
+   "end": 760.74,
+   "speaker": "Mooly",
+   "text": "那日本的稅之所以會那麼高呢？它其實高在另外幾個部分。"
+  },
+  {
+   "start": 760.74,
+   "end": 764.48,
+   "speaker": "Mooly",
+   "text": "第一個是一開始那個，愷開的時候，要不要去混進來談的那個保險。"
+  },
+  {
+   "start": 764.48,
+   "end": 767.56,
+   "speaker": "Mooly",
+   "text": "那個保險佔的比例超級高。"
+  },
+  {
+   "start": 768.16,
+   "end": 772.86,
+   "speaker": "Mooly",
+   "text": "因為像日本的話，一樣每個月要繳那個勞保跟健保嘛。"
+  },
+  {
+   "start": 772.86,
+   "end": 777.02,
+   "speaker": "Mooly",
+   "text": "那它的勞保就比較類似那個台灣的國民年金，"
+  },
+  {
+   "start": 777.02,
+   "end": 779.56,
+   "speaker": "Mooly",
+   "text": "日本有一個厚生年金的東西，"
+  },
+  {
+   "start": 780.6,
+   "end": 783.3,
+   "speaker": "Mooly",
+   "text": "然後還有一個那個雇用保險。"
+  },
+  {
+   "start": 783.3,
+   "end": 787.98,
+   "speaker": "Mooly",
+   "text": "雇用保險就是你一個月繳那個比例很低啦，好像我記得是零點幾 % 而已。"
+  },
+  {
+   "start": 787.98,
+   "end": 792.44,
+   "speaker": "Mooly",
+   "text": "然後你如果失業的時候，你就可以拿到那個失業補助，"
+  },
+  {
+   "start": 792.44,
+   "end": 794.38,
+   "speaker": "Mooly",
+   "text": "但你要先繳這個雇用保險。"
+  },
+  {
+   "start": 795.08,
+   "end": 796.26,
+   "speaker": "Mooly",
+   "text": "所以勞保，"
+  },
+  {
+   "start": 796.26,
+   "end": 800.34,
+   "speaker": "Mooly",
+   "text": "就厚生年金加雇用保險加健保的數字，"
+  },
+  {
+   "start": 800.34,
+   "end": 802.44,
+   "speaker": "Mooly",
+   "text": "以年薪 1000 萬日幣來看的話，"
+  },
+  {
+   "start": 802.44,
+   "end": 809.96,
+   "speaker": "Mooly",
+   "text": "加起來大概要將近 13%、14% 左右，"
+  },
+  {
+   "start": 810.84,
+   "end": 811.36,
+   "speaker": "Kalan",
+   "text": "差不多，"
+  },
+  {
+   "start": 812.34,
+   "end": 813.56,
+   "speaker": "Mooly",
+   "text": "大概 13% 左右。"
+  },
+  {
+   "start": 813.56,
+   "end": 817.44,
+   "speaker": "Mooly",
+   "text": "那你看我們剛剛講的那個台灣勞健保，大概是 2% 而已，"
+  },
+  {
+   "start": 817.44,
+   "end": 818.86,
+   "speaker": "Mooly",
+   "text": "然後日本 13%，"
+  },
+  {
+   "start": 818.86,
+   "end": 820.82,
+   "speaker": "Mooly",
+   "text": "它就直接變成 6 倍，"
+  },
+  {
+   "start": 820.82,
+   "end": 822.02,
+   "speaker": "Mooly",
+   "text": "差超級多。"
+  },
+  {
+   "start": 822.02,
+   "end": 823.26,
+   "speaker": "Kalan",
+   "text": "而且是，"
+  },
+  {
+   "start": 823.26,
+   "end": 827.98,
+   "speaker": "Kalan",
+   "text": "就是剛剛講的年金跟健康保險，"
+  },
+  {
+   "start": 827.98,
+   "end": 828.92,
+   "speaker": "Kalan",
+   "text": "還不包含，"
+  },
+  {
+   "start": 829.94,
+   "end": 831.84,
+   "speaker": "Kalan",
+   "text": "接下來要講的所得稅。"
+  },
+  {
+   "start": 831.84,
+   "end": 833.84,
+   "speaker": "Mooly",
+   "text": "喔，對對對對，所以，"
+  },
+  {
+   "start": 833.84,
+   "end": 836.8,
+   "speaker": "Mooly",
+   "text": "你看其實所得稅跟台灣差不多，"
+  },
+  {
+   "start": 837.3,
+   "end": 840.28,
+   "speaker": "Mooly",
+   "text": "但是它那個勞保健保比台灣，"
+  },
+  {
+   "start": 840.28,
+   "end": 841.92,
+   "speaker": "Mooly",
+   "text": "就是台灣的六倍，"
+  },
+  {
+   "start": 841.92,
+   "end": 844.24,
+   "speaker": "Mooly",
+   "text": "所以它這一個項目就佔很多。"
+  },
+  {
+   "start": 844.24,
+   "end": 848.48,
+   "speaker": "Mooly",
+   "text": "再加上還有另外一個東西台灣沒有的，叫做住民稅。"
+  },
+  {
+   "start": 848.48,
+   "end": 850.6,
+   "speaker": "Kalan",
+   "text": "對，住民稅。"
+  },
+  {
+   "start": 850.6,
+   "end": 852.96,
+   "speaker": "Mooly",
+   "text": "對，這是一個很有趣的東西。"
+  },
+  {
+   "start": 852.96,
+   "end": 857.54,
+   "speaker": "Mooly",
+   "text": "因為像我們一般繳的稅，可以分成國稅跟地方稅。"
+  },
+  {
+   "start": 857.54,
+   "end": 860.1,
+   "speaker": "Mooly",
+   "text": "比如說所得稅是繳給國家政府，"
+  },
+  {
+   "start": 860.1,
+   "end": 861.48,
+   "speaker": "Mooly",
+   "text": "那個就是國稅。"
+  },
+  {
+   "start": 861.94,
+   "end": 865.32,
+   "speaker": "Mooly",
+   "text": "那比如說你在台灣，如果你有一些房地產或什麼的話，"
+  },
+  {
+   "start": 865.32,
+   "end": 869.28,
+   "speaker": "Mooly",
+   "text": "你有一些什麼房屋稅或什麼有一些稅，"
+  },
+  {
+   "start": 869.28,
+   "end": 871.02,
+   "speaker": "Mooly",
+   "text": "它可能是交給地方政府的。"
+  },
+  {
+   "start": 871.02,
+   "end": 875.86,
+   "speaker": "Mooly",
+   "text": "比如說你可能房子買在新北市永和區，你就交給永和，"
+  },
+  {
+   "start": 876.3,
+   "end": 879.02,
+   "speaker": "Mooly",
+   "text": "那個就是所謂的地方稅。"
+  },
+  {
+   "start": 879.02,
+   "end": 884.2,
+   "speaker": "Mooly",
+   "text": "然後在日本的話，它有一個住民稅的東西，也是屬於地方稅的一種，是交給，"
+  },
+  {
+   "start": 884.2,
+   "end": 888.72,
+   "speaker": "Mooly",
+   "text": "基本上是交給你現在居住的所在地的那個區，"
+  },
+  {
+   "start": 888.72,
+   "end": 891.52,
+   "speaker": "Mooly",
+   "text": "所以它就叫住民稅。"
+  },
+  {
+   "start": 891.52,
+   "end": 895.5,
+   "speaker": "Mooly",
+   "text": "那它其實占整體的比例也是蠻高的，之前我算一下，"
+  },
+  {
+   "start": 895.5,
+   "end": 899.76,
+   "speaker": "Mooly",
+   "text": "它會占你整體收入的大概 6% 左右，"
+  },
+  {
+   "start": 899.76,
+   "end": 902.36,
+   "speaker": "Mooly",
+   "text": "如果以 1000 萬年薪來看的話，"
+  },
+  {
+   "start": 902.36,
+   "end": 904.36,
+   "speaker": "Mooly",
+   "text": "所以其實也是挺高的。"
+  },
+  {
+   "start": 904.96,
+   "end": 906.02,
+   "speaker": "Kalan",
+   "text": "對，的確。"
+  },
+  {
+   "start": 906.82,
+   "end": 908.74,
+   "speaker": "Kalan",
+   "text": "講到這邊，我想要補充一點，"
+  },
+  {
+   "start": 908.74,
+   "end": 914.18,
+   "speaker": "Kalan",
+   "text": "就是你剛剛有講到，所得稅其實日本跟台灣是有點相近的，"
+  },
+  {
+   "start": 914.18,
+   "end": 916.72,
+   "speaker": "Kalan",
+   "text": "不過我覺得在台灣這邊要加，"
+  },
+  {
+   "start": 916.72,
+   "end": 918.58,
+   "speaker": "Kalan",
+   "text": "加上一個東西，"
+  },
+  {
+   "start": 919.28,
+   "end": 920.3,
+   "speaker": "Kalan",
+   "text": "就是扣除額。"
+  },
+  {
+   "start": 920.3,
+   "end": 924.6,
+   "speaker": "Kalan",
+   "text": "台灣給的扣除額的額度其實是超級高的。"
+  },
+  {
+   "start": 924.6,
+   "end": 926.36,
+   "speaker": "Kalan",
+   "text": "我記得之前有人算過，"
+  },
+  {
+   "start": 926.36,
+   "end": 930.02,
+   "speaker": "Kalan",
+   "text": "如果你的年收好像在 50 萬附近，"
+  },
+  {
+   "start": 930.6,
+   "end": 934.2,
+   "speaker": "Kalan",
+   "text": "扣除額扣一扣，其實你是不用繳所得稅的。"
+  },
+  {
+   "start": 934.2,
+   "end": 936.3,
+   "speaker": "Mooly",
+   "text": "喔，我好像有聽過喔。"
+  },
+  {
+   "start": 936.86,
+   "end": 937.7,
+   "speaker": "Kalan",
+   "text": "那但是，"
+  },
+  {
+   "start": 938.56,
+   "end": 940.2,
+   "speaker": "Kalan",
+   "text": "日本的話呢？"
+  },
+  {
+   "start": 940.2,
+   "end": 943.9,
+   "speaker": "Kalan",
+   "text": "就算你的年薪，假設你是一個新卒好了，"
+  },
+  {
+   "start": 945.1,
+   "end": 947.56,
+   "speaker": "Kalan",
+   "text": "你的所得稅的確會很低，沒錯，"
+  },
+  {
+   "start": 948.24,
+   "end": 949.92,
+   "speaker": "Kalan",
+   "text": "但是就像剛剛講的，"
+  },
+  {
+   "start": 949.92,
+   "end": 952.94,
+   "speaker": "Kalan",
+   "text": "厚生年金跟健康保險加一加，"
+  },
+  {
+   "start": 952.94,
+   "end": 956.28,
+   "speaker": "Kalan",
+   "text": "可能也會佔你的整體的負擔，"
+  },
+  {
+   "start": 956.28,
+   "end": 959.42,
+   "speaker": "Kalan",
+   "text": "可能會遠遠超過台灣很多。"
+  },
+  {
+   "start": 960.18,
+   "end": 965.9,
+   "speaker": "Mooly",
+   "text": "你說就算年收沒有這麼多，它其實整體要繳的稅也蠻多的，這樣子嗎？"
+  },
+  {
+   "start": 966.5,
+   "end": 969.42,
+   "speaker": "Kalan",
+   "text": "我這邊計算出來的結果是 300 萬，"
+  },
+  {
+   "start": 969.42,
+   "end": 973.22,
+   "speaker": "Kalan",
+   "text": "假設你是年薪 300 萬，指的是 300 萬日幣，"
+  },
+  {
+   "start": 973.22,
+   "end": 977.32,
+   "speaker": "Kalan",
+   "text": "你的所得稅大概是 5 萬多，"
+  },
+  {
+   "start": 977.86,
+   "end": 980.7,
+   "speaker": "Kalan",
+   "text": "但是你的厚生年金要繳 28 萬多，"
+  },
+  {
+   "start": 980.7,
+   "end": 983.46,
+   "speaker": "Kalan",
+   "text": "然後健保要繳 17 萬多，"
+  },
+  {
+   "start": 984.16,
+   "end": 986.04,
+   "speaker": "Kalan",
+   "text": "整個加起來就超過你的，"
+  },
+  {
+   "start": 986.04,
+   "end": 988.62,
+   "speaker": "Kalan",
+   "text": "就差不多是佔五分之一左右，"
+  },
+  {
+   "start": 989.12,
+   "end": 993.84,
+   "speaker": "Mooly",
+   "text": "所以說全部要繳的加起來，其實就大概是 20% 左右。"
+  },
+  {
+   "start": 993.84,
+   "end": 995.72,
+   "speaker": "Kalan",
+   "text": "比什麼？"
+  },
+  {
+   "start": 995.72,
+   "end": 1002.1,
+   "speaker": "Kalan",
+   "text": "比在台灣你領 200 萬年薪還多的負擔率還多嘛，對不對？"
+  },
+  {
+   "start": 1002.1,
+   "end": 1002.62,
+   "speaker": "Kalan",
+   "text": "哦。"
+  },
+  {
+   "start": 1003.7,
+   "end": 1005.78,
+   "speaker": "Mooly",
+   "text": "對，那還確實是。"
+  },
+  {
+   "start": 1005.78,
+   "end": 1010.98,
+   "speaker": "Mooly",
+   "text": "就對整體來說，要繳稅，懂嗎，就它那個下限也很高啦，"
+  },
+  {
+   "start": 1010.98,
+   "end": 1014.66,
+   "speaker": "Mooly",
+   "text": "就是說你收入沒那麼多，但你要繳稅還是 24，"
+  },
+  {
+   "start": 1014.66,
+   "end": 1015.32,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 1016.0,
+   "end": 1017.12,
+   "speaker": "Kalan",
+   "text": "差不多是這種感覺。"
+  },
+  {
+   "start": 1017.66,
+   "end": 1019.96,
+   "speaker": "Kalan",
+   "text": "還有一點我想要講的是，"
+  },
+  {
+   "start": 1020.44,
+   "end": 1021.84,
+   "speaker": "Kalan",
+   "text": "就是好像很多人，"
+  },
+  {
+   "start": 1021.84,
+   "end": 1023.72,
+   "speaker": "Kalan",
+   "text": "就是剛開始他們就會覺得說，"
+  },
+  {
+   "start": 1024.3,
+   "end": 1027.18,
+   "speaker": "Kalan",
+   "text": "對啊，所得稅好像沒有到那麼多，"
+  },
+  {
+   "start": 1027.72,
+   "end": 1029.5,
+   "speaker": "Kalan",
+   "text": "然後真正多的是年金。"
+  },
+  {
+   "start": 1029.5,
+   "end": 1031.68,
+   "speaker": "Kalan",
+   "text": "那下一個有趣的問題就來了，"
+  },
+  {
+   "start": 1031.68,
+   "end": 1036.02,
+   "speaker": "Kalan",
+   "text": "什麼時候你的所得稅會大於你的年金？"
+  },
+  {
+   "start": 1036.62,
+   "end": 1038.7,
+   "speaker": "Mooly",
+   "text": "所得稅會大於你的年金，"
+  },
+  {
+   "start": 1038.7,
+   "end": 1043.44,
+   "speaker": "Mooly",
+   "text": "你說我繳的所得稅比我繳的年金還要多是吧？"
+  },
+  {
+   "start": 1043.44,
+   "end": 1045.48,
+   "speaker": "Kalan",
+   "text": "對，因為很多人都說，"
+  },
+  {
+   "start": 1046.11,
+   "end": 1047.9,
+   "speaker": "Kalan",
+   "text": "所得稅便宜啦，"
+  },
+  {
+   "start": 1047.9,
+   "end": 1050.46,
+   "speaker": "Kalan",
+   "text": "你看你的厚生年金比較貴，"
+  },
+  {
+   "start": 1050.46,
+   "end": 1052.96,
+   "speaker": "Kalan",
+   "text": "那什麼時候這件事情會不成立？"
+  },
+  {
+   "start": 1054.06,
+   "end": 1056.88,
+   "speaker": "Mooly",
+   "text": "莫非你有計算出了一個數字嗎？"
+  },
+  {
+   "start": 1056.88,
+   "end": 1058.68,
+   "speaker": "Kalan",
+   "text": "其實有，有有，"
+  },
+  {
+   "start": 1058.68,
+   "end": 1061.4,
+   "speaker": "Kalan",
+   "text": "其實就差不多是在年薪 1000 萬左右，"
+  },
+  {
+   "start": 1063.42,
+   "end": 1067.3,
+   "speaker": "Kalan",
+   "text": "因為厚生年金它的級距是有上限的，"
+  },
+  {
+   "start": 1068.02,
+   "end": 1071.62,
+   "speaker": "Kalan",
+   "text": "所以當你的年收超過一定的金額之後，"
+  },
+  {
+   "start": 1072.14,
+   "end": 1074.14,
+   "speaker": "Kalan",
+   "text": "你一年要繳的錢就是固定的，"
+  },
+  {
+   "start": 1074.14,
+   "end": 1075.84,
+   "speaker": "Kalan",
+   "text": "那以這邊來講的話，"
+  },
+  {
+   "start": 1075.84,
+   "end": 1081.66,
+   "speaker": "Kalan",
+   "text": "差不多會在年薪 1000 萬的時候，你的厚生年金的上限會是 68 萬左右，"
+  },
+  {
+   "start": 1082.46,
+   "end": 1083.22,
+   "speaker": "Mooly",
+   "text": "一年。"
+  },
+  {
+   "start": 1085.02,
+   "end": 1087.3,
+   "speaker": "Kalan",
+   "text": "那這個時候你的所得稅呢，"
+  },
+  {
+   "start": 1087.3,
+   "end": 1088.8,
+   "speaker": "Kalan",
+   "text": "因為所得稅沒有上限嘛，"
+  },
+  {
+   "start": 1088.8,
+   "end": 1093.48,
+   "speaker": "Kalan",
+   "text": "所以你的所得稅已經超過你的厚生年金，變成 81.69 萬，"
+  },
+  {
+   "start": 1094.58,
+   "end": 1096.14,
+   "speaker": "Mooly",
+   "text": "就會越來越高，"
+  },
+  {
+   "start": 1096.14,
+   "end": 1098.58,
+   "speaker": "Kalan",
+   "text": "這樣講會不會有點，"
+  },
+  {
+   "start": 1099.28,
+   "end": 1101.1,
+   "speaker": "Kalan",
+   "text": "所以說那些說什麼，"
+  },
+  {
+   "start": 1101.56,
+   "end": 1103.72,
+   "speaker": "Kalan",
+   "text": "厚生年金比所得稅高的人，"
+  },
+  {
+   "start": 1104.3,
+   "end": 1107.64,
+   "speaker": "Kalan",
+   "text": "你就可以知道他們的年收可能還沒破 1000 萬，"
+  },
+  {
+   "start": 1107.64,
+   "end": 1111.68,
+   "speaker": "Mooly",
+   "text": "就可以大概推測出他年收多少。"
+  },
+  {
+   "start": 1111.68,
+   "end": 1113.48,
+   "speaker": "Mooly",
+   "text": "這個叫那個 side channel 那種東西，"
+  },
+  {
+   "start": 1113.48,
+   "end": 1115.76,
+   "speaker": "Mooly",
+   "text": "就是旁路攻擊。"
+  },
+  {
+   "start": 1116.9,
+   "end": 1118.5,
+   "speaker": "Kalan",
+   "text": "對，差不多是這個意思，"
+  },
+  {
+   "start": 1120.32,
+   "end": 1120.76,
+   "speaker": "Kalan",
+   "text": "所以，"
+  },
+  {
+   "start": 1121.24,
+   "end": 1124.62,
+   "speaker": "Kalan",
+   "text": "對啦，這邊一個蠻重要的一點就是，"
+  },
+  {
+   "start": 1124.62,
+   "end": 1126.7,
+   "speaker": "Kalan",
+   "text": "厚生年金它是有級距上限的。"
+  },
+  {
+   "start": 1126.7,
+   "end": 1130.84,
+   "speaker": "Kalan",
+   "text": "所以到一定程度之後，你的雇用年金就會固定。"
+  },
+  {
+   "start": 1130.84,
+   "end": 1133.4,
+   "speaker": "Kalan",
+   "text": "那這時候，所得稅就會變得越來越高。"
+  },
+  {
+   "start": 1133.9,
+   "end": 1137.12,
+   "speaker": "Mooly",
+   "text": "對，就像那個勞健保其實也是嘛，對吧？"
+  },
+  {
+   "start": 1137.12,
+   "end": 1139.58,
+   "speaker": "Mooly",
+   "text": "它一樣有一個投保上限，"
+  },
+  {
+   "start": 1139.58,
+   "end": 1141.84,
+   "speaker": "Mooly",
+   "text": "你到那個之後，基本上就不會再增加了。"
+  },
+  {
+   "start": 1142.86,
+   "end": 1145.04,
+   "speaker": "Kalan",
+   "text": "台灣的那個真的太低了，"
+  },
+  {
+   "start": 1145.04,
+   "end": 1147.88,
+   "speaker": "Kalan",
+   "text": "真的低到你會忽略它這樣子。"
+  },
+  {
+   "start": 1147.88,
+   "end": 1150.12,
+   "speaker": "Mooly",
+   "text": "對對對，真的太低了。"
+  },
+  {
+   "start": 1150.12,
+   "end": 1151.46,
+   "speaker": "Mooly",
+   "text": "那再來談談那個，"
+  },
+  {
+   "start": 1152.04,
+   "end": 1153.88,
+   "speaker": "Mooly",
+   "text": "再來談談住民稅嗎？"
+  },
+  {
+   "start": 1153.88,
+   "end": 1155.16,
+   "speaker": "Mooly",
+   "text": "只有日本有，"
+  },
+  {
+   "start": 1155.16,
+   "end": 1158.02,
+   "speaker": "Mooly",
+   "text": "台灣沒有的一個非常神秘的項目。"
+  },
+  {
+   "start": 1159.2,
+   "end": 1160.94,
+   "speaker": "Mooly",
+   "text": "住民稅的話，"
+  },
+  {
+   "start": 1160.94,
+   "end": 1162.2,
+   "speaker": "Mooly",
+   "text": "基本上剛剛講的嘛，"
+  },
+  {
+   "start": 1162.2,
+   "end": 1164.26,
+   "speaker": "Mooly",
+   "text": "它就是繳給地方政府，"
+  },
+  {
+   "start": 1164.26,
+   "end": 1166.66,
+   "speaker": "Mooly",
+   "text": "然後它占的比例其實是很多的。"
+  },
+  {
+   "start": 1166.66,
+   "end": 1167.62,
+   "speaker": "Mooly",
+   "text": "所以像我剛剛講，"
+  },
+  {
+   "start": 1167.62,
+   "end": 1171.32,
+   "speaker": "Mooly",
+   "text": "以日幣年薪 1000 萬來講的話，"
+  },
+  {
+   "start": 1171.32,
+   "end": 1174.0,
+   "speaker": "Mooly",
+   "text": "它零零總總的全部加一加，"
+  },
+  {
+   "start": 1174.0,
+   "end": 1181.04,
+   "speaker": "Mooly",
+   "text": "基本上要繳的稅大概是薪水 27% 左右。"
+  },
+  {
+   "start": 1181.04,
+   "end": 1188.56,
+   "speaker": "Mooly",
+   "text": "那對應到剛剛台灣差不多的收入，只繳了 11%，"
+  },
+  {
+   "start": 1189.1,
+   "end": 1192.38,
+   "speaker": "Mooly",
+   "text": "其實就等於是台灣的兩倍再多一點，"
+  },
+  {
+   "start": 1194.44,
+   "end": 1197.64,
+   "speaker": "Mooly",
+   "text": "這個就是差很多的部分。"
+  },
+  {
+   "start": 1198.36,
+   "end": 1203.62,
+   "speaker": "Mooly",
+   "text": "然後住民稅它其實計算的方式蠻複雜的，"
+  },
+  {
+   "start": 1203.62,
+   "end": 1206.02,
+   "speaker": "Mooly",
+   "text": "如果你要仔細算的話，"
+  },
+  {
+   "start": 1206.02,
+   "end": 1208.06,
+   "speaker": "Mooly",
+   "text": "因為住民稅你要詳細看的話，"
+  },
+  {
+   "start": 1208.06,
+   "end": 1212.08,
+   "speaker": "Mooly",
+   "text": "它有分都民稅跟區民稅。"
+  },
+  {
+   "start": 1212.62,
+   "end": 1214.66,
+   "speaker": "Mooly",
+   "text": "就是比如說，如果你住那個，"
+  },
+  {
+   "start": 1215.08,
+   "end": 1217.2,
+   "speaker": "Mooly",
+   "text": "你剛剛講的案子，如果你住永和的話，"
+  },
+  {
+   "start": 1217.74,
+   "end": 1219.84,
+   "speaker": "Mooly",
+   "text": "就是你要交給永和區，"
+  },
+  {
+   "start": 1219.84,
+   "end": 1222.06,
+   "speaker": "Mooly",
+   "text": "你要交給新北市，"
+  },
+  {
+   "start": 1222.06,
+   "end": 1222.98,
+   "speaker": "Mooly",
+   "text": "兩個都要繳。"
+  },
+  {
+   "start": 1222.98,
+   "end": 1226.7,
+   "speaker": "Mooly",
+   "text": "然後它兩個的比例類似於各半，"
+  },
+  {
+   "start": 1226.7,
+   "end": 1228.64,
+   "speaker": "Mooly",
+   "text": "基本上它就是都民稅 4%，"
+  },
+  {
+   "start": 1228.64,
+   "end": 1230.32,
+   "speaker": "Mooly",
+   "text": "然後區民稅 6%，"
+  },
+  {
+   "start": 1230.32,
+   "end": 1234.86,
+   "speaker": "Mooly",
+   "text": "然後它一樣是根據所得總額來計算的，"
+  },
+  {
+   "start": 1234.86,
+   "end": 1237.36,
+   "speaker": "Mooly",
+   "text": "所以它加起來就是一個，"
+  },
+  {
+   "start": 1237.36,
+   "end": 1239.48,
+   "speaker": "Mooly",
+   "text": "反正就是一個還蠻高的數字。"
+  },
+  {
+   "start": 1240.2,
+   "end": 1241.24,
+   "speaker": "Kalan",
+   "text": "這兩個，"
+  },
+  {
+   "start": 1242.1,
+   "end": 1243.94,
+   "speaker": "Kalan",
+   "text": "喔，好，你先繼續。"
+  },
+  {
+   "start": 1243.94,
+   "end": 1245.84,
+   "speaker": "Mooly",
+   "text": "沒關係，你先好了。"
+  },
+  {
+   "start": 1246.38,
+   "end": 1251.92,
+   "speaker": "Kalan",
+   "text": "喔，其實我想要講的就是，所得稅跟住民稅這兩個加起來，"
+  },
+  {
+   "start": 1251.92,
+   "end": 1256.12,
+   "speaker": "Kalan",
+   "text": "的確會占你的薪資蠻大一部分的。"
+  },
+  {
+   "start": 1256.52,
+   "end": 1259.12,
+   "speaker": "Kalan",
+   "text": "喔對，這是我想要補充的部分。"
+  },
+  {
+   "start": 1259.72,
+   "end": 1262.38,
+   "speaker": "Mooly",
+   "text": "啊，OK OK OK，好，那我就先繼續講。"
+  },
+  {
+   "start": 1263.58,
+   "end": 1264.3,
+   "speaker": "Kalan",
+   "text": "然後那個，"
+  },
+  {
+   "start": 1264.8,
+   "end": 1267.68,
+   "speaker": "Mooly",
+   "text": "住民稅的話，基本上我剛剛講嘛，就是你可能，"
+  },
+  {
+   "start": 1267.68,
+   "end": 1270.32,
+   "speaker": "Mooly",
+   "text": "都民稅是 4%，然後區民稅是 6%，"
+  },
+  {
+   "start": 1270.32,
+   "end": 1271.82,
+   "speaker": "Mooly",
+   "text": "所以加起來是 10%。"
+  },
+  {
+   "start": 1272.38,
+   "end": 1277.04,
+   "speaker": "Mooly",
+   "text": "一講到這個比例、這個數字，就要來談累進稅率這個東西了。"
+  },
+  {
+   "start": 1277.04,
+   "end": 1280.58,
+   "speaker": "Mooly",
+   "text": "也不是一般人，所以很多人其實聽，當他聽到 10% 這個數字的時候，"
+  },
+  {
+   "start": 1280.58,
+   "end": 1281.66,
+   "speaker": "Mooly",
+   "text": "很多人會以為，"
+  },
+  {
+   "start": 1281.66,
+   "end": 1284.94,
+   "speaker": "Mooly",
+   "text": "欸，我這個 10%，是不是就是假設我年薪 1000 萬日幣，"
+  },
+  {
+   "start": 1284.94,
+   "end": 1286.3,
+   "speaker": "Mooly",
+   "text": "我就直接乘 10%，"
+  },
+  {
+   "start": 1286.3,
+   "end": 1288.58,
+   "speaker": "Mooly",
+   "text": "最後繳的就是 100 萬日幣？"
+  },
+  {
+   "start": 1288.58,
+   "end": 1290.58,
+   "speaker": "Mooly",
+   "text": "有些人會這樣講，"
+  },
+  {
+   "start": 1290.58,
+   "end": 1293.6,
+   "speaker": "Mooly",
+   "text": "就算你跟他講累進稅率這種東西，"
+  },
+  {
+   "start": 1293.6,
+   "end": 1295.86,
+   "speaker": "Mooly",
+   "text": "他可能還是會這樣認為。"
+  },
+  {
+   "start": 1295.86,
+   "end": 1298.36,
+   "speaker": "Mooly",
+   "text": "比如說，我可能累進稅率最後面，"
+  },
+  {
+   "start": 1298.36,
+   "end": 1302.26,
+   "speaker": "Mooly",
+   "text": "因為它年收越高，累進稅率也越高嘛。"
+  },
+  {
+   "start": 1302.26,
+   "end": 1305.0,
+   "speaker": "Mooly",
+   "text": "如果最後累進稅率算出來的數字是 20％，"
+  },
+  {
+   "start": 1305.0,
+   "end": 1308.12,
+   "speaker": "Mooly",
+   "text": "有些人就會想說，我是不是直接年收乘以 20％，"
+  },
+  {
+   "start": 1308.64,
+   "end": 1313.22,
+   "speaker": "Mooly",
+   "text": "但會這樣想的人，就是其實沒有很懂累進稅率這個東西是什麼。"
+  },
+  {
+   "start": 1313.64,
+   "end": 1317.44,
+   "speaker": "Mooly",
+   "text": "累進稅率的話呢，它就是把稅率分成"
+  },
+  {
+   "start": 1317.44,
+   "end": 1318.52,
+   "speaker": "Mooly",
+   "text": "幾個不同區間，"
+  },
+  {
+   "start": 1318.52,
+   "end": 1323.92,
+   "speaker": "Mooly",
+   "text": "然後你在那個區間裡面的收入，就是按照那個區間的比例來算。"
+  },
+  {
+   "start": 1323.92,
+   "end": 1324.98,
+   "speaker": "Mooly",
+   "text": "所以比如說，"
+  },
+  {
+   "start": 1324.98,
+   "end": 1327.26,
+   "speaker": "Mooly",
+   "text": "當你到 20％ 的級距之前，"
+  },
+  {
+   "start": 1327.26,
+   "end": 1329.26,
+   "speaker": "Mooly",
+   "text": "你可能會先到 5％、10％，"
+  },
+  {
+   "start": 1329.3,
+   "end": 1333.88,
+   "speaker": "Mooly",
+   "text": "你在 5％ 那裡面的稅金就是用 5％ 算，"
+  },
+  {
+   "start": 1333.88,
+   "end": 1338.7,
+   "speaker": "Mooly",
+   "text": "然後你在 5％ 到 10％ 那個區間的稅金就是用 10％ 來算。"
+  },
+  {
+   "start": 1338.7,
+   "end": 1342.14,
+   "speaker": "Mooly",
+   "text": "所以它其實不是直接你收入乘以 20％，"
+  },
+  {
+   "start": 1342.14,
+   "end": 1346.22,
+   "speaker": "Mooly",
+   "text": "它是你收入，然後先扣掉那個扣除額，扣完之後"
+  },
+  {
+   "start": 1346.22,
+   "end": 1353.32,
+   "speaker": "Mooly",
+   "text": "再根據這個累進稅率分成比例，個別算出來的總額，才是你最後繳的數字。"
+  },
+  {
+   "start": 1353.32,
+   "end": 1356.54,
+   "speaker": "Mooly",
+   "text": "所以以年薪 1000 萬日幣來講的話呢，"
+  },
+  {
+   "start": 1356.54,
+   "end": 1361.06,
+   "speaker": "Mooly",
+   "text": "它最後算出來的這個住民稅大概是 6％ 左右，"
+  },
+  {
+   "start": 1361.06,
+   "end": 1364.44,
+   "speaker": "Mooly",
+   "text": "所以其實沒有到真的收了 10％ 那麼多。"
+  },
+  {
+   "start": 1364.96,
+   "end": 1366.82,
+   "speaker": "Kalan",
+   "text": "我記得它是有一個公式嘛，對不對？"
+  },
+  {
+   "start": 1366.82,
+   "end": 1368.58,
+   "speaker": "Kalan",
+   "text": "你就不用一個一個慢慢扣。"
+  },
+  {
+   "start": 1369.14,
+   "end": 1370.32,
+   "speaker": "Mooly",
+   "text": "對對，因為它其實"
+  },
+  {
+   "start": 1370.9,
+   "end": 1373.08,
+   "speaker": "Mooly",
+   "text": "它其實你有另外一種算法，就是"
+  },
+  {
+   "start": 1373.08,
+   "end": 1375.68,
+   "speaker": "Mooly",
+   "text": "你直接拿你現在的薪水，"
+  },
+  {
+   "start": 1375.68,
+   "end": 1376.48,
+   "speaker": "Mooly",
+   "text": "比如說 1000 萬，"
+  },
+  {
+   "start": 1376.48,
+   "end": 1380.9,
+   "speaker": "Mooly",
+   "text": "然後去乘以最後的那個稅率 20％，"
+  },
+  {
+   "start": 1380.9,
+   "end": 1384.42,
+   "speaker": "Mooly",
+   "text": "然後再減掉你之前應該要扣的那一些。"
+  },
+  {
+   "start": 1384.42,
+   "end": 1387.24,
+   "speaker": "Mooly",
+   "text": "所以它會有一個什麼東西，"
+  },
+  {
+   "start": 1387.24,
+   "end": 1393.16,
+   "speaker": "Mooly",
+   "text": "反正它就會像愷愷講的，它就有一個公式，讓你用 20％ 乘完之後，直接扣一個固定數值，"
+  },
+  {
+   "start": 1393.16,
+   "end": 1394.72,
+   "speaker": "Mooly",
+   "text": "就是你要繳的稅金。"
+  },
+  {
+   "start": 1395.18,
+   "end": 1397.14,
+   "speaker": "Kalan",
+   "text": "對，那算就會比較方便。"
+  },
+  {
+   "start": 1397.64,
+   "end": 1401.16,
+   "speaker": "Mooly",
+   "text": "對對對，就你不用真的每個區間然後加減，"
+  },
+  {
+   "start": 1401.16,
+   "end": 1403.76,
+   "speaker": "Mooly",
+   "text": "你就直接拿一個最後的數字去乘，"
+  },
+  {
+   "start": 1403.76,
+   "end": 1404.98,
+   "speaker": "Mooly",
+   "text": "然後減掉就可以了，"
+  },
+  {
+   "start": 1404.98,
+   "end": 1405.54,
+   "speaker": "Mooly",
+   "text": "非常方便。"
+  },
+  {
+   "start": 1406.26,
+   "end": 1409.5,
+   "speaker": "Kalan",
+   "text": "好，那我們講到住民稅，"
+  },
+  {
+   "start": 1410.1,
+   "end": 1414.34,
+   "speaker": "Kalan",
+   "text": "我想要補充一下，就是剛剛講的那個年末調整。"
+  },
+  {
+   "start": 1414.34,
+   "end": 1416.62,
+   "speaker": "Kalan",
+   "text": "Mooly 你有做過年末調整了嗎？"
+  },
+  {
+   "start": 1416.62,
+   "end": 1420.22,
+   "speaker": "Mooly",
+   "text": "算是有做過，就是公司用的那個"
+  },
+  {
+   "start": 1420.8,
+   "end": 1424.66,
+   "speaker": "Mooly",
+   "text": "HR 系統會給你一個連結，然後讓你去填那些東西，"
+  },
+  {
+   "start": 1424.66,
+   "end": 1426.38,
+   "speaker": "Mooly",
+   "text": "然後看你有什麼需要報。"
+  },
+  {
+   "start": 1426.38,
+   "end": 1427.54,
+   "speaker": "Kalan",
+   "text": "那這個，這個"
+  },
+  {
+   "start": 1428.12,
+   "end": 1430.52,
+   "speaker": "Kalan",
+   "text": "這個我們等一下就一起聊聊好了。"
+  },
+  {
+   "start": 1430.52,
+   "end": 1433.78,
+   "speaker": "Kalan",
+   "text": "就講到日本的稅率，"
+  },
+  {
+   "start": 1433.78,
+   "end": 1437.46,
+   "speaker": "Kalan",
+   "text": "跟台灣比起來其實算是高很多的這件事情，"
+  },
+  {
+   "start": 1437.94,
+   "end": 1440.46,
+   "speaker": "Kalan",
+   "text": "有一個小分享。"
+  },
+  {
+   "start": 1440.46,
+   "end": 1443.3,
+   "speaker": "Kalan",
+   "text": "就是呢，我們公司有一個荷蘭同事，"
+  },
+  {
+   "start": 1443.3,
+   "end": 1447.88,
+   "speaker": "Kalan",
+   "text": "那個時候剛好就是年底啊，就是剛好要年末調整的季節，"
+  },
+  {
+   "start": 1448.5,
+   "end": 1451.88,
+   "speaker": "Kalan",
+   "text": "然後我就忙著在那邊準備資料啊什麼的，"
+  },
+  {
+   "start": 1452.31,
+   "end": 1455.42,
+   "speaker": "Kalan",
+   "text": "然後我就看這個荷蘭同事，他老神在在，"
+  },
+  {
+   "start": 1455.42,
+   "end": 1458.8,
+   "speaker": "Kalan",
+   "text": "好像就沒有要做年末調整的意思。"
+  },
+  {
+   "start": 1459.43,
+   "end": 1461.94,
+   "speaker": "Kalan",
+   "text": "然後我就問他，為什麼你不去做啊？"
+  },
+  {
+   "start": 1461.94,
+   "end": 1463.02,
+   "speaker": "Kalan",
+   "text": "然後他就跟我說，"
+  },
+  {
+   "start": 1463.86,
+   "end": 1469.48,
+   "speaker": "Kalan",
+   "text": "他在荷蘭稅率湊一湊大概有薪水的一半，"
+  },
+  {
+   "start": 1469.96,
+   "end": 1473.78,
+   "speaker": "Kalan",
+   "text": "然後他就說，比起來這個日本真的是太低了，"
+  },
+  {
+   "start": 1473.78,
+   "end": 1475.2,
+   "speaker": "Kalan",
+   "text": "所以他不 care，"
+  },
+  {
+   "start": 1477.02,
+   "end": 1479.06,
+   "speaker": "Kalan",
+   "text": "剩下的錢他不 care，"
+  },
+  {
+   "start": 1479.06,
+   "end": 1481.62,
+   "speaker": "Kalan",
+   "text": "就一起交給日本沒關係，"
+  },
+  {
+   "start": 1481.62,
+   "end": 1482.82,
+   "speaker": "Kalan",
+   "text": "就算了這樣子。"
+  },
+  {
+   "start": 1482.82,
+   "end": 1483.94,
+   "speaker": "Kalan",
+   "text": "然後我就想到說，"
+  },
+  {
+   "start": 1483.94,
+   "end": 1484.64,
+   "speaker": "Kalan",
+   "text": "欸，的確，"
+  },
+  {
+   "start": 1484.64,
+   "end": 1489.0,
+   "speaker": "Kalan",
+   "text": "跟台灣比起來，日本的確算是稅率蠻高的一個國家。"
+  },
+  {
+   "start": 1489.0,
+   "end": 1491.84,
+   "speaker": "Kalan",
+   "text": "但是跟那些歐美國家比起來，"
+  },
+  {
+   "start": 1491.84,
+   "end": 1494.48,
+   "speaker": "Kalan",
+   "text": "它又算是一個比較低的國家。"
+  },
+  {
+   "start": 1494.48,
+   "end": 1499.72,
+   "speaker": "Kalan",
+   "text": "我就覺得這個就是，你所有感受其實基本上都是比較出來的。"
+  },
+  {
+   "start": 1499.72,
+   "end": 1501.6,
+   "speaker": "Mooly",
+   "text": "對對，沒錯沒錯，真的。"
+  },
+  {
+   "start": 1502.58,
+   "end": 1503.18,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 1503.74,
+   "end": 1507.3,
+   "speaker": "Kalan",
+   "text": "那我們講完了所得稅跟住民稅，"
+  },
+  {
+   "start": 1507.88,
+   "end": 1512.0,
+   "speaker": "Kalan",
+   "text": "那我接下來來講一下一個資本利得稅，好。"
+  },
+  {
+   "start": 1512.92,
+   "end": 1516.08,
+   "speaker": "Kalan",
+   "text": "Mooly，你知道什麼是資本利得稅嗎？"
+  },
+  {
+   "start": 1516.68,
+   "end": 1519.76,
+   "speaker": "Mooly",
+   "text": "我大概聽過，但沒有很清楚。"
+  },
+  {
+   "start": 1519.76,
+   "end": 1520.52,
+   "speaker": "Kalan",
+   "text": "OK。"
+  },
+  {
+   "start": 1520.52,
+   "end": 1523.16,
+   "speaker": "Kalan",
+   "text": "那我也稍微講一下，"
+  },
+  {
+   "start": 1523.16,
+   "end": 1526.22,
+   "speaker": "Kalan",
+   "text": "就是你透過投資，"
+  },
+  {
+   "start": 1526.94,
+   "end": 1528.72,
+   "speaker": "Kalan",
+   "text": "或者是有一個叫 FX，"
+  },
+  {
+   "start": 1529.16,
+   "end": 1530.24,
+   "speaker": "Kalan",
+   "text": "它是外匯，"
+  },
+  {
+   "start": 1531.08,
+   "end": 1535.46,
+   "speaker": "Kalan",
+   "text": "這些經由資本利得得到的錢，"
+  },
+  {
+   "start": 1535.46,
+   "end": 1540.9,
+   "speaker": "Kalan",
+   "text": "它是在日本的話，你是需要扣 20% 左右的稅金的。"
+  },
+  {
+   "start": 1541.24,
+   "end": 1542.9,
+   "speaker": "Kalan",
+   "text": "那在台灣的話，"
+  },
+  {
+   "start": 1543.46,
+   "end": 1547.44,
+   "speaker": "Kalan",
+   "text": "你基本上只要繳證券交易稅，"
+  },
+  {
+   "start": 1548.9,
+   "end": 1553.3,
+   "speaker": "Kalan",
+   "text": "所以基本上你獲利是不會被課稅的。"
+  },
+  {
+   "start": 1553.89,
+   "end": 1557.22,
+   "speaker": "Kalan",
+   "text": "這點其實跟日本差滿多的。"
+  },
+  {
+   "start": 1557.22,
+   "end": 1561.08,
+   "speaker": "Kalan",
+   "text": "但是有時候我想想，我不確定這是不是一件好事，"
+  },
+  {
+   "start": 1561.08,
+   "end": 1564.64,
+   "speaker": "Kalan",
+   "text": "因為有錢人他可以用，"
+  },
+  {
+   "start": 1564.64,
+   "end": 1567.56,
+   "speaker": "Kalan",
+   "text": "比如說他就是一直炒股票，"
+  },
+  {
+   "start": 1567.56,
+   "end": 1572.42,
+   "speaker": "Kalan",
+   "text": "但是他獲利的錢不需要被課稅，"
+  },
+  {
+   "start": 1573.09,
+   "end": 1575.98,
+   "speaker": "Kalan",
+   "text": "我就在想這件事情到底是不是一件好事。"
+  },
+  {
+   "start": 1576.78,
+   "end": 1582.8,
+   "speaker": "Mooly",
+   "text": "你說就牽涉到一些社會正義或是財富分配的東西了，對吧？"
+  },
+  {
+   "start": 1583.62,
+   "end": 1589.7,
+   "speaker": "Mooly",
+   "text": "但如果你從另外一個角度來看的話，如果你是每個人都要課資本利得稅的話，"
+  },
+  {
+   "start": 1589.7,
+   "end": 1592.96,
+   "speaker": "Mooly",
+   "text": "感覺好像也有可能造成你本來就沒什麼錢了，"
+  },
+  {
+   "start": 1592.96,
+   "end": 1596.46,
+   "speaker": "Mooly",
+   "text": "然後你發憤圖強去學投資，"
+  },
+  {
+   "start": 1596.46,
+   "end": 1599.52,
+   "speaker": "Mooly",
+   "text": "然後你投資的錢最後你還是要被課稅，"
+  },
+  {
+   "start": 1601.86,
+   "end": 1604.26,
+   "speaker": "Kalan",
+   "text": "這好像也是一個考慮的點。"
+  },
+  {
+   "start": 1604.26,
+   "end": 1606.02,
+   "speaker": "Mooly",
+   "text": "所以它理論上來說，"
+  },
+  {
+   "start": 1606.58,
+   "end": 1610.1,
+   "speaker": "Mooly",
+   "text": "好像比較好的方式一樣是走那種累進稅率的，"
+  },
+  {
+   "start": 1610.1,
+   "end": 1612.62,
+   "speaker": "Mooly",
+   "text": "就基本上你賺越多繳越多，這樣。"
+  },
+  {
+   "start": 1612.62,
+   "end": 1614.9,
+   "speaker": "Kalan",
+   "text": "欸，好像可以耶。"
+  },
+  {
+   "start": 1614.9,
+   "end": 1616.98,
+   "speaker": "Kalan",
+   "text": "我不確定其他國家是不是，"
+  },
+  {
+   "start": 1617.6,
+   "end": 1622.16,
+   "speaker": "Kalan",
+   "text": "因為我記得美國好像也是有資本利得稅的，"
+  },
+  {
+   "start": 1622.16,
+   "end": 1623.94,
+   "speaker": "Kalan",
+   "text": "但是我有點忘記，"
+  },
+  {
+   "start": 1623.94,
+   "end": 1626.96,
+   "speaker": "Kalan",
+   "text": "我有點不確定它是不是有累進稅率。"
+  },
+  {
+   "start": 1626.96,
+   "end": 1629.7,
+   "speaker": "Kalan",
+   "text": "這個之後再來看看。"
+  },
+  {
+   "start": 1629.7,
+   "end": 1631.02,
+   "speaker": "Mooly",
+   "text": "之後可以再查一下。"
+  },
+  {
+   "start": 1631.02,
+   "end": 1632.12,
+   "speaker": "Kalan",
+   "text": "不過像台灣這種，"
+  },
+  {
+   "start": 1632.12,
+   "end": 1635.46,
+   "speaker": "Kalan",
+   "text": "只收交易稅的國家，"
+  },
+  {
+   "start": 1635.46,
+   "end": 1637.34,
+   "speaker": "Kalan",
+   "text": "我猜，"
+  },
+  {
+   "start": 1637.34,
+   "end": 1637.92,
+   "speaker": "Kalan",
+   "text": "我不確定，"
+  },
+  {
+   "start": 1637.92,
+   "end": 1639.56,
+   "speaker": "Kalan",
+   "text": "但我猜應該是少數，"
+  },
+  {
+   "start": 1639.56,
+   "end": 1641.18,
+   "speaker": "Kalan",
+   "text": "但有可能我猜錯了，"
+  },
+  {
+   "start": 1641.18,
+   "end": 1643.02,
+   "speaker": "Kalan",
+   "text": "等一下再做點功課。"
+  },
+  {
+   "start": 1643.02,
+   "end": 1644.02,
+   "speaker": "Mooly",
+   "text": "可以可以。"
+  },
+  {
+   "start": 1644.02,
+   "end": 1646.84,
+   "speaker": "Kalan",
+   "text": "那日本是需要繳資本利得稅的，"
+  },
+  {
+   "start": 1646.84,
+   "end": 1651.78,
+   "speaker": "Kalan",
+   "text": "所以這對蠻多台灣人會算是一個文化衝擊，"
+  },
+  {
+   "start": 1651.78,
+   "end": 1654.64,
+   "speaker": "Kalan",
+   "text": "或者是會感受到蠻不同的地方。"
+  },
+  {
+   "start": 1654.64,
+   "end": 1657.26,
+   "speaker": "Kalan",
+   "text": "就比如說你今天賺了 1000 塊，"
+  },
+  {
+   "start": 1657.96,
+   "end": 1660.18,
+   "speaker": "Kalan",
+   "text": "那有 200 塊你是要當作稅了，"
+  },
+  {
+   "start": 1660.18,
+   "end": 1662.84,
+   "speaker": "Kalan",
+   "text": "所以等於你的獲利就是 800 塊。"
+  },
+  {
+   "start": 1663.38,
+   "end": 1668.96,
+   "speaker": "Kalan",
+   "text": "不過在日本最近有一些算是政府在推的一些制度，"
+  },
+  {
+   "start": 1669.48,
+   "end": 1672.72,
+   "speaker": "Kalan",
+   "text": "日本其實算是一個儲蓄率蠻高的國家，"
+  },
+  {
+   "start": 1672.72,
+   "end": 1677.16,
+   "speaker": "Kalan",
+   "text": "所以政府為了鼓勵人民多多投資，"
+  },
+  {
+   "start": 1677.16,
+   "end": 1679.16,
+   "speaker": "Kalan",
+   "text": "他們有一些制度，"
+  },
+  {
+   "start": 1679.16,
+   "end": 1680.96,
+   "speaker": "Kalan",
+   "text": "比如說像是 NISA。"
+  },
+  {
+   "start": 1680.96,
+   "end": 1684.1,
+   "speaker": "Kalan",
+   "text": "NISA 這個命名蠻酷的。"
+  },
+  {
+   "start": 1684.1,
+   "end": 1688.36,
+   "speaker": "Kalan",
+   "text": "叫做 Nippon Individual Savings Account。"
+  },
+  {
+   "start": 1689.22,
+   "end": 1693.08,
+   "speaker": "Kalan",
+   "text": "我覺得聽到 Nippon 的時候，我就會覺得為什麼不是 Japan？"
+  },
+  {
+   "start": 1693.08,
+   "end": 1694.82,
+   "speaker": "Kalan",
+   "text": "他們為什麼使用 Nippon？"
+  },
+  {
+   "start": 1694.82,
+   "end": 1696.86,
+   "speaker": "Mooly",
+   "text": "喔，你說為什麼要 Nippon 啊？"
+  },
+  {
+   "start": 1697.34,
+   "end": 1699.36,
+   "speaker": "Kalan",
+   "text": "它這個制度呢，"
+  },
+  {
+   "start": 1699.36,
+   "end": 1703.16,
+   "speaker": "Kalan",
+   "text": "我們可能有機會的時候再另外開一集來講。"
+  },
+  {
+   "start": 1703.16,
+   "end": 1705.16,
+   "speaker": "Kalan",
+   "text": "不過它這個制度就是，你可以，"
+  },
+  {
+   "start": 1705.76,
+   "end": 1708.3,
+   "speaker": "Kalan",
+   "text": "它每年會有一些非課稅的額度，"
+  },
+  {
+   "start": 1708.3,
+   "end": 1709.8,
+   "speaker": "Kalan",
+   "text": "那在這個額度內，"
+  },
+  {
+   "start": 1710.5,
+   "end": 1712.96,
+   "speaker": "Kalan",
+   "text": "你所投資的獲利呢，"
+  },
+  {
+   "start": 1712.96,
+   "end": 1715.42,
+   "speaker": "Kalan",
+   "text": "不上限是免課稅的。"
+  },
+  {
+   "start": 1715.42,
+   "end": 1718.44,
+   "speaker": "Kalan",
+   "text": "那還有像是另外一個叫做 iDeCo，"
+  },
+  {
+   "start": 1718.44,
+   "end": 1724.52,
+   "speaker": "Kalan",
+   "text": "那 iDeCo 的話，它的機制也是類似的，就是也是非課稅的，"
+  },
+  {
+   "start": 1724.52,
+   "end": 1727.42,
+   "speaker": "Kalan",
+   "text": "不過它這個非課稅又更強大一點，"
+  },
+  {
+   "start": 1727.42,
+   "end": 1730.02,
+   "speaker": "Kalan",
+   "text": "它是直接所得稅全額，"
+  },
+  {
+   "start": 1730.02,
+   "end": 1732.24,
+   "speaker": "Kalan",
+   "text": "我記得是全額免課稅，"
+  },
+  {
+   "start": 1732.24,
+   "end": 1732.98,
+   "speaker": "Kalan",
+   "text": "全額扣除。"
+  },
+  {
+   "start": 1733.86,
+   "end": 1737.2,
+   "speaker": "Kalan",
+   "text": "就是你投到 iDeCo 裡面的錢是全額扣除的，"
+  },
+  {
+   "start": 1737.2,
+   "end": 1741.3,
+   "speaker": "Kalan",
+   "text": "只是它的缺點就是，你要等你退休了之後，"
+  },
+  {
+   "start": 1741.82,
+   "end": 1744.32,
+   "speaker": "Kalan",
+   "text": "好像是 60 歲還是 65 歲才可以拿出來，"
+  },
+  {
+   "start": 1744.32,
+   "end": 1745.68,
+   "speaker": "Kalan",
+   "text": "就是限制比較多。"
+  },
+  {
+   "start": 1745.68,
+   "end": 1750.24,
+   "speaker": "Mooly",
+   "text": "所以它算是一個退休金帳戶的一個概，"
+  },
+  {
+   "start": 1750.24,
+   "end": 1752.02,
+   "speaker": "Kalan",
+   "text": "類似退休金帳戶的概念。"
+  },
+  {
+   "start": 1752.02,
+   "end": 1753.16,
+   "speaker": "Kalan",
+   "text": "不過你可以拿來投，"
+  },
+  {
+   "start": 1753.16,
+   "end": 1756.6,
+   "speaker": "Kalan",
+   "text": "我記得是只能投投資信託。"
+  },
+  {
+   "start": 1758.94,
+   "end": 1760.26,
+   "speaker": "Kalan",
+   "text": "那透過這兩個，"
+  },
+  {
+   "start": 1760.26,
+   "end": 1763.4,
+   "speaker": "Mooly",
+   "text": "這個我可以補充一點是，那個"
+  },
+  {
+   "start": 1763.9,
+   "end": 1766.0,
+   "speaker": "Mooly",
+   "text": "iDeCo 這個東西，感覺是不是有點像那個，"
+  },
+  {
+   "start": 1766.52,
+   "end": 1768.14,
+   "speaker": "Mooly",
+   "text": "台灣其實也有一個那個，"
+  },
+  {
+   "start": 1768.14,
+   "end": 1771.78,
+   "speaker": "Mooly",
+   "text": "因為你不是每個月都要繳那個勞保嘛，對吧？"
+  },
+  {
+   "start": 1772.3,
+   "end": 1773.38,
+   "speaker": "Mooly",
+   "text": "然後你的勞保，你可以，"
+  },
+  {
+   "start": 1773.38,
+   "end": 1777.38,
+   "speaker": "Mooly",
+   "text": "你其實可以自己決定要繳多一點，"
+  },
+  {
+   "start": 1777.38,
+   "end": 1784.9,
+   "speaker": "Mooly",
+   "text": "就是你可以自己提撥你的一些錢，放到那個勞保的帳戶，叫做勞退，"
+  },
+  {
+   "start": 1784.9,
+   "end": 1786.12,
+   "speaker": "Mooly",
+   "text": "就是大家講的勞退。"
+  },
+  {
+   "start": 1786.12,
+   "end": 1791.98,
+   "speaker": "Mooly",
+   "text": "那你如果自己提撥你這個薪水到勞退帳戶的這個勞退自提的話，"
+  },
+  {
+   "start": 1792.48,
+   "end": 1796.54,
+   "speaker": "Mooly",
+   "text": "你提撥的這個部分，它是不列入所得稅的計算的，"
+  },
+  {
+   "start": 1796.54,
+   "end": 1801.14,
+   "speaker": "Mooly",
+   "text": "但它一樣就是，你可能要 60 歲退休之後，你才能把那裡面的錢給拿出來。"
+  },
+  {
+   "start": 1801.96,
+   "end": 1802.36,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 1802.36,
+   "end": 1807.0,
+   "speaker": "Kalan",
+   "text": "它這個是可以拿來投資，還是只能當存戶？"
+  },
+  {
+   "start": 1807.0,
+   "end": 1808.32,
+   "speaker": "Mooly",
+   "text": "它只能當存戶。"
+  },
+  {
+   "start": 1808.32,
+   "end": 1810.56,
+   "speaker": "Mooly",
+   "text": "它就是只能把錢放到，"
+  },
+  {
+   "start": 1810.56,
+   "end": 1813.52,
+   "speaker": "Mooly",
+   "text": "它等於說你有點像是你的勞保多繳一點，"
+  },
+  {
+   "start": 1813.52,
+   "end": 1815.78,
+   "speaker": "Mooly",
+   "text": "然後你多繳的那個部分不用扣稅，"
+  },
+  {
+   "start": 1815.78,
+   "end": 1816.9,
+   "speaker": "Mooly",
+   "text": "有點類似這樣子。"
+  },
+  {
+   "start": 1816.9,
+   "end": 1817.7,
+   "speaker": "Kalan",
+   "text": "喔，了解了解。"
+  },
+  {
+   "start": 1818.2,
+   "end": 1819.46,
+   "speaker": "Kalan",
+   "text": "嗯，大概是這樣。"
+  },
+  {
+   "start": 1820.96,
+   "end": 1822.24,
+   "speaker": "Kalan",
+   "text": "所以在日本，"
+  },
+  {
+   "start": 1822.92,
+   "end": 1825.44,
+   "speaker": "Kalan",
+   "text": "因為有資本利得稅的存在，"
+  },
+  {
+   "start": 1825.44,
+   "end": 1827.1,
+   "speaker": "Kalan",
+   "text": "所以有時候你獲利，"
+  },
+  {
+   "start": 1827.1,
+   "end": 1829.28,
+   "speaker": "Kalan",
+   "text": "你要被扣 20% 的稅這點，"
+  },
+  {
+   "start": 1829.28,
+   "end": 1832.16,
+   "speaker": "Kalan",
+   "text": "這一點其實算是蠻，"
+  },
+  {
+   "start": 1832.16,
+   "end": 1833.7,
+   "speaker": "Kalan",
+   "text": "也不能說蠻吃虧啦，就是，"
+  },
+  {
+   "start": 1834.24,
+   "end": 1836.98,
+   "speaker": "Kalan",
+   "text": "20% 算是一個蠻多的稅，"
+  },
+  {
+   "start": 1836.98,
+   "end": 1838.4,
+   "speaker": "Mooly",
+   "text": "蠻多的一個數字，"
+  },
+  {
+   "start": 1838.4,
+   "end": 1839.82,
+   "speaker": "Kalan",
+   "text": "所以可能在日本，"
+  },
+  {
+   "start": 1840.34,
+   "end": 1842.22,
+   "speaker": "Kalan",
+   "text": "你如果在日本可能炒股，"
+  },
+  {
+   "start": 1842.66,
+   "end": 1845.78,
+   "speaker": "Kalan",
+   "text": "也不能說炒股啦，就是投資股票會相對的不利一點，"
+  },
+  {
+   "start": 1845.78,
+   "end": 1846.82,
+   "speaker": "Kalan",
+   "text": "跟台灣比起來。"
+  },
+  {
+   "start": 1847.4,
+   "end": 1848.82,
+   "speaker": "Kalan",
+   "text": "那我們接下來"
+  },
+  {
+   "start": 1849.42,
+   "end": 1850.74,
+   "speaker": "Kalan",
+   "text": "再聊一個稅。"
+  },
+  {
+   "start": 1853.76,
+   "end": 1856.28,
+   "speaker": "Kalan",
+   "text": "欸，Mooly 你有聽過法人稅嗎？"
+  },
+  {
+   "start": 1856.92,
+   "end": 1857.16,
+   "speaker": "Mooly",
+   "text": "沒有。"
+  },
+  {
+   "start": 1857.16,
+   "end": 1859.0,
+   "speaker": "Mooly",
+   "text": "完全不知道這個是什麼。"
+  },
+  {
+   "start": 1859.0,
+   "end": 1862.8,
+   "speaker": "Kalan",
+   "text": "其實就是類似啦，"
+  },
+  {
+   "start": 1862.8,
+   "end": 1865.46,
+   "speaker": "Kalan",
+   "text": "類似公司裡面要繳的所得稅，"
+  },
+  {
+   "start": 1866.06,
+   "end": 1868.12,
+   "speaker": "Kalan",
+   "text": "就是身為公司要繳的所得稅。"
+  },
+  {
+   "start": 1868.72,
+   "end": 1870.6,
+   "speaker": "Kalan",
+   "text": "那我稍微查了一下喔，"
+  },
+  {
+   "start": 1870.6,
+   "end": 1874.84,
+   "speaker": "Kalan",
+   "text": "我記得之前我有看到一個新聞是說，"
+  },
+  {
+   "start": 1874.84,
+   "end": 1876.62,
+   "speaker": "Kalan",
+   "text": "日本的法人稅，"
+  },
+  {
+   "start": 1876.62,
+   "end": 1881.68,
+   "speaker": "Kalan",
+   "text": "它其實是世界排名蠻高的，"
+  },
+  {
+   "start": 1881.68,
+   "end": 1884.06,
+   "speaker": "Kalan",
+   "text": "就是稅率其實是蠻高的。"
+  },
+  {
+   "start": 1884.06,
+   "end": 1884.66,
+   "speaker": "Kalan",
+   "text": "不過，"
+  },
+  {
+   "start": 1885.22,
+   "end": 1887.6,
+   "speaker": "Kalan",
+   "text": "因為這件事情好像會造成，"
+  },
+  {
+   "start": 1887.6,
+   "end": 1889.96,
+   "speaker": "Kalan",
+   "text": "企業不想要在日本設廠，"
+  },
+  {
+   "start": 1890.42,
+   "end": 1896.48,
+   "speaker": "Kalan",
+   "text": "或者是在日本設廠的公司可能紛紛會考慮往國外遷移，"
+  },
+  {
+   "start": 1896.48,
+   "end": 1897.6,
+   "speaker": "Mooly",
+   "text": "其他地方這樣子。"
+  },
+  {
+   "start": 1897.6,
+   "end": 1899.22,
+   "speaker": "Kalan",
+   "text": "所以它其實，"
+  },
+  {
+   "start": 1899.78,
+   "end": 1901.92,
+   "speaker": "Kalan",
+   "text": "日本政府是有調整過，"
+  },
+  {
+   "start": 1901.92,
+   "end": 1904.02,
+   "speaker": "Kalan",
+   "text": "是有調降法人稅的。"
+  },
+  {
+   "start": 1904.02,
+   "end": 1906.08,
+   "speaker": "Kalan",
+   "text": "因為你想想喔，這件事情，"
+  },
+  {
+   "start": 1907.28,
+   "end": 1910.16,
+   "speaker": "Kalan",
+   "text": "其實會蠻恐怖的，如果，"
+  },
+  {
+   "start": 1910.66,
+   "end": 1913.78,
+   "speaker": "Kalan",
+   "text": "日本的企業都紛紛往國外跑的話，"
+  },
+  {
+   "start": 1913.78,
+   "end": 1916.9,
+   "speaker": "Kalan",
+   "text": "好，那日本政府可能就收不到他們的稅。"
+  },
+  {
+   "start": 1916.9,
+   "end": 1919.44,
+   "speaker": "Kalan",
+   "text": "日本政府收不到他們的稅的話，"
+  },
+  {
+   "start": 1919.44,
+   "end": 1920.88,
+   "speaker": "Kalan",
+   "text": "那他們要跟誰收？"
+  },
+  {
+   "start": 1921.66,
+   "end": 1925.94,
+   "speaker": "Mooly",
+   "text": "你說可能只能跟還在日本的人收。"
+  },
+  {
+   "start": 1925.94,
+   "end": 1929.24,
+   "speaker": "Kalan",
+   "text": "他們就只能跟在日本的人收，"
+  },
+  {
+   "start": 1929.24,
+   "end": 1934.38,
+   "speaker": "Kalan",
+   "text": "那它可能就會變相造成所得稅的增加，"
+  },
+  {
+   "start": 1934.38,
+   "end": 1935.92,
+   "speaker": "Kalan",
+   "text": "或者是，"
+  },
+  {
+   "start": 1936.32,
+   "end": 1940.36,
+   "speaker": "Kalan",
+   "text": "喔對，好像還有一個很重要的稅我們忘記提了，"
+  },
+  {
+   "start": 1940.36,
+   "end": 1942.4,
+   "speaker": "Kalan",
+   "text": "消費稅。"
+  },
+  {
+   "start": 1942.4,
+   "end": 1944.84,
+   "speaker": "Mooly",
+   "text": "喔對，消費稅。"
+  },
+  {
+   "start": 1944.84,
+   "end": 1945.78,
+   "speaker": "Kalan",
+   "text": "消費稅，"
+  },
+  {
+   "start": 1945.78,
+   "end": 1947.34,
+   "speaker": "Kalan",
+   "text": "不過消費稅，"
+  },
+  {
+   "start": 1947.34,
+   "end": 1951.16,
+   "speaker": "Kalan",
+   "text": "因為它已經算是一個蠻自然而然的東西了吧，"
+  },
+  {
+   "start": 1951.68,
+   "end": 1955.34,
+   "speaker": "Mooly",
+   "text": "你可能不會特別去注意到它，"
+  },
+  {
+   "start": 1955.82,
+   "end": 1957.16,
+   "speaker": "Mooly",
+   "text": "除非是那個啦，"
+  },
+  {
+   "start": 1957.16,
+   "end": 1958.12,
+   "speaker": "Mooly",
+   "text": "除非是來日本玩，"
+  },
+  {
+   "start": 1958.12,
+   "end": 1961.2,
+   "speaker": "Mooly",
+   "text": "因為來日本玩，有些那個消費稅可以退稅，"
+  },
+  {
+   "start": 1961.2,
+   "end": 1963.3,
+   "speaker": "Kalan",
+   "text": "那真的很羨慕。"
+  },
+  {
+   "start": 1963.3,
+   "end": 1968.04,
+   "speaker": "Mooly",
+   "text": "但如果你已經在日本，已經拿那個就勞簽證的話，"
+  },
+  {
+   "start": 1968.04,
+   "end": 1970.56,
+   "speaker": "Mooly",
+   "text": "其實是沒有辦法退稅的，"
+  },
+  {
+   "start": 1970.56,
+   "end": 1973.42,
+   "speaker": "Mooly",
+   "text": "所以久而久之，你就不會注意到有這個東西。"
+  },
+  {
+   "start": 1973.42,
+   "end": 1975.44,
+   "speaker": "Kalan",
+   "text": "所以就是剛剛提到的，"
+  },
+  {
+   "start": 1975.44,
+   "end": 1980.7,
+   "speaker": "Kalan",
+   "text": "如果今天日本沒辦法收法人稅，"
+  },
+  {
+   "start": 1980.7,
+   "end": 1982.92,
+   "speaker": "Kalan",
+   "text": "就是如果企業紛紛往外移的話，"
+  },
+  {
+   "start": 1982.92,
+   "end": 1987.12,
+   "speaker": "Kalan",
+   "text": "那他們就只能跟這些逃不走的人民們收錢。"
+  },
+  {
+   "start": 1987.12,
+   "end": 1989.3,
+   "speaker": "Kalan",
+   "text": "那他能收的手段就是所得稅、"
+  },
+  {
+   "start": 1989.3,
+   "end": 1991.62,
+   "speaker": "Kalan",
+   "text": "住民稅，或者是消費稅，"
+  },
+  {
+   "start": 1992.36,
+   "end": 1993.56,
+   "speaker": "Mooly",
+   "text": "變相加稅。"
+  },
+  {
+   "start": 1993.56,
+   "end": 1998.96,
+   "speaker": "Kalan",
+   "text": "那其實最近好像還有一些爭議，"
+  },
+  {
+   "start": 1998.96,
+   "end": 2001.06,
+   "speaker": "Kalan",
+   "text": "就最近在炒的東西，"
+  },
+  {
+   "start": 2001.7,
+   "end": 2007.22,
+   "speaker": "Kalan",
+   "text": "就他們有在想說要不要把金融所得稅給增加，"
+  },
+  {
+   "start": 2007.84,
+   "end": 2011.62,
+   "speaker": "Kalan",
+   "text": "那這件事情其實是有引起蠻大的反彈的。"
+  },
+  {
+   "start": 2011.62,
+   "end": 2016.48,
+   "speaker": "Mooly",
+   "text": "金融所得稅是跟一般所得稅不一樣嗎，還是？"
+  },
+  {
+   "start": 2016.48,
+   "end": 2018.5,
+   "speaker": "Kalan",
+   "text": "其實應該就是資本利得稅啦。"
+  },
+  {
+   "start": 2019.2,
+   "end": 2021.62,
+   "speaker": "Mooly",
+   "text": "喔喔喔，就資本利得稅是吧？"
+  },
+  {
+   "start": 2021.62,
+   "end": 2021.9,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 2021.9,
+   "end": 2023.78,
+   "speaker": "Kalan",
+   "text": "然後還有什麼啊？"
+  },
+  {
+   "start": 2023.78,
+   "end": 2024.42,
+   "speaker": "Kalan",
+   "text": "還有，"
+  },
+  {
+   "start": 2025.66,
+   "end": 2028.82,
+   "speaker": "Kalan",
+   "text": "就是日本有很多輔助嗎？"
+  },
+  {
+   "start": 2028.82,
+   "end": 2029.76,
+   "speaker": "Kalan",
+   "text": "它都是，"
+  },
+  {
+   "start": 2030.62,
+   "end": 2033.58,
+   "speaker": "Kalan",
+   "text": "比如說你要是非課稅世帶，"
+  },
+  {
+   "start": 2033.58,
+   "end": 2035.24,
+   "speaker": "Kalan",
+   "text": "你才可以用這樣子。"
+  },
+  {
+   "start": 2035.8,
+   "end": 2038.26,
+   "speaker": "Mooly",
+   "text": "喔，你說有點像是你可能，"
+  },
+  {
+   "start": 2039.04,
+   "end": 2045.18,
+   "speaker": "Mooly",
+   "text": "在台灣有那種低收入戶或是清寒家庭的那種嗎？"
+  },
+  {
+   "start": 2045.18,
+   "end": 2047.34,
+   "speaker": "Kalan",
+   "text": "對，類似。"
+  },
+  {
+   "start": 2047.34,
+   "end": 2051.06,
+   "speaker": "Kalan",
+   "text": "但非課稅世帶，"
+  },
+  {
+   "start": 2053.72,
+   "end": 2055.82,
+   "speaker": "Kalan",
+   "text": "好像你這麼一講好像是耶，"
+  },
+  {
+   "start": 2055.82,
+   "end": 2059.02,
+   "speaker": "Kalan",
+   "text": "其實就可以當作是中低收入戶來看。"
+  },
+  {
+   "start": 2060.18,
+   "end": 2064.26,
+   "speaker": "Mooly",
+   "text": "對，所以它那個非課稅是在定義它沒有到繳稅的那個門檻。"
+  },
+  {
+   "start": 2064.26,
+   "end": 2066.0,
+   "speaker": "Kalan",
+   "text": "對，它沒有到繳稅的門檻。"
+  },
+  {
+   "start": 2067.1,
+   "end": 2071.28,
+   "speaker": "Mooly",
+   "text": "講到這個，你有沒有聽過那個日本不是有個名詞叫什麼，"
+  },
+  {
+   "start": 2072.76,
+   "end": 2074.66,
+   "speaker": "Kalan",
+   "text": "103 萬円之"
+  },
+  {
+   "start": 2075.08,
+   "end": 2075.74,
+   "speaker": "Kalan",
+   "text": "の 壁？"
+  },
+  {
+   "start": 2075.74,
+   "end": 2076.06,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 2076.06,
+   "end": 2081.08,
+   "speaker": "Mooly",
+   "text": "就是 103 萬円之壁，"
+  },
+  {
+   "start": 2081.08,
+   "end": 2084.52,
+   "speaker": "Mooly",
+   "text": "牆壁的那個嗎？是不是就是在說這種東西啊？"
+  },
+  {
+   "start": 2084.52,
+   "end": 2086.96,
+   "speaker": "Kalan",
+   "text": "對，不過它講的東西又有點不一樣。"
+  },
+  {
+   "start": 2088.2,
+   "end": 2092.84,
+   "speaker": "Mooly",
+   "text": "那可以大概介紹一下這個名詞怎麼來的嗎？"
+  },
+  {
+   "start": 2093.37,
+   "end": 2096.38,
+   "speaker": "Kalan",
+   "text": "就是日本裡面有幾個檻，"
+  },
+  {
+   "start": 2099.09,
+   "end": 2101.18,
+   "speaker": "Kalan",
+   "text": "第一個檻是 103。"
+  },
+  {
+   "start": 2102.85,
+   "end": 2104.98,
+   "speaker": "Kalan",
+   "text": "那 103 這個的話，"
+  },
+  {
+   "start": 2105.9,
+   "end": 2107.72,
+   "speaker": "Kalan",
+   "text": "是所得稅，"
+  },
+  {
+   "start": 2107.72,
+   "end": 2116.5,
+   "speaker": "Kalan",
+   "text": "就是 103 萬円之壁，它是所得稅會發生的一個基準線，"
+  },
+  {
+   "start": 2116.5,
+   "end": 2120.22,
+   "speaker": "Kalan",
+   "text": "因為在日本有基本扣除額是 48 萬，"
+  },
+  {
+   "start": 2120.9,
+   "end": 2122.72,
+   "speaker": "Kalan",
+   "text": "薪水扣除額是 55 萬，"
+  },
+  {
+   "start": 2122.72,
+   "end": 2124.92,
+   "speaker": "Kalan",
+   "text": "那加起來的話就是 103 嘛。"
+  },
+  {
+   "start": 2124.92,
+   "end": 2126.96,
+   "speaker": "Kalan",
+   "text": "那所以如果你薪水，"
+  },
+  {
+   "start": 2126.96,
+   "end": 2129.24,
+   "speaker": "Kalan",
+   "text": "一整年的薪水是小於 103 萬的話，"
+  },
+  {
+   "start": 2129.24,
+   "end": 2131.12,
+   "speaker": "Kalan",
+   "text": "你就不會有所得稅。"
+  },
+  {
+   "start": 2131.12,
+   "end": 2133.9,
+   "speaker": "Kalan",
+   "text": "那這個是通常會發生在打工，"
+  },
+  {
+   "start": 2133.9,
+   "end": 2137.7,
+   "speaker": "Kalan",
+   "text": "因為 103 萬，你自己想年收是多少，"
+  },
+  {
+   "start": 2137.7,
+   "end": 2139.42,
+   "speaker": "Kalan",
+   "text": "年收是多少台幣？"
+  },
+  {
+   "start": 2140.7,
+   "end": 2142.56,
+   "speaker": "Mooly",
+   "text": "22、23 萬左右。"
+  },
+  {
+   "start": 2143.26,
+   "end": 2145.84,
+   "speaker": "Kalan",
+   "text": "基本上一個上班族是不太可能，"
+  },
+  {
+   "start": 2145.84,
+   "end": 2147.32,
+   "speaker": "Kalan",
+   "text": "只有這樣的薪水。"
+  },
+  {
+   "start": 2147.32,
+   "end": 2147.58,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 2148.16,
+   "end": 2152.76,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯，你去打工可能都比這個還多一點，如果你每天都打工的話。"
+  },
+  {
+   "start": 2153.46,
+   "end": 2156.56,
+   "speaker": "Kalan",
+   "text": "所以這個就是 103 的壁。"
+  },
+  {
+   "start": 2156.56,
+   "end": 2160.78,
+   "speaker": "Kalan",
+   "text": "那所以這件事情它不會發生，它比較不會發生在說，"
+  },
+  {
+   "start": 2160.78,
+   "end": 2162.24,
+   "speaker": "Kalan",
+   "text": "欸，我是一個小資族，"
+  },
+  {
+   "start": 2162.24,
+   "end": 2166.44,
+   "speaker": "Kalan",
+   "text": "我可能年收是 50 多萬台幣，"
+  },
+  {
+   "start": 2167.1,
+   "end": 2170.12,
+   "speaker": "Kalan",
+   "text": "它不太會發生在小資族身上。"
+  },
+  {
+   "start": 2170.74,
+   "end": 2174.78,
+   "speaker": "Kalan",
+   "text": "所以這個 103 萬通常是給那些比如說它是，"
+  },
+  {
+   "start": 2174.78,
+   "end": 2177.82,
+   "speaker": "Kalan",
+   "text": "它是某個上班族的配偶，"
+  },
+  {
+   "start": 2178.54,
+   "end": 2180.96,
+   "speaker": "Kalan",
+   "text": "那為了讓配偶不要超過，"
+  },
+  {
+   "start": 2181.58,
+   "end": 2183.9,
+   "speaker": "Kalan",
+   "text": "就是不要讓它發生所有的所得稅，"
+  },
+  {
+   "start": 2183.9,
+   "end": 2189.02,
+   "speaker": "Kalan",
+   "text": "他們會特意地把自己的年收限制在 103 萬以內，"
+  },
+  {
+   "start": 2189.56,
+   "end": 2191.62,
+   "speaker": "Mooly",
+   "text": "控制在那條線底下這樣。"
+  },
+  {
+   "start": 2192.34,
+   "end": 2196.48,
+   "speaker": "Kalan",
+   "text": "然後 178 萬的話，我記得就是，"
+  },
+  {
+   "start": 2197.24,
+   "end": 2198.72,
+   "speaker": "Kalan",
+   "text": "不是 178 萬，"
+  },
+  {
+   "start": 2199.52,
+   "end": 2202.0,
+   "speaker": "Kalan",
+   "text": "還有一個是 106。"
+  },
+  {
+   "start": 2203.48,
+   "end": 2206.4,
+   "speaker": "Mooly",
+   "text": "怎麼感覺跟剛剛那個好像還蠻近的？"
+  },
+  {
+   "start": 2206.4,
+   "end": 2210.72,
+   "speaker": "Kalan",
+   "text": "106 萬是最近在爭吵的一個點，"
+  },
+  {
+   "start": 2212.3,
+   "end": 2215.4,
+   "speaker": "Kalan",
+   "text": "因為你好像超過 106 萬的話，"
+  },
+  {
+   "start": 2215.4,
+   "end": 2218.8,
+   "speaker": "Kalan",
+   "text": "你就要加入厚生年金，"
+  },
+  {
+   "start": 2220.24,
+   "end": 2222.22,
+   "speaker": "Kalan",
+   "text": "這好像是最近在吵的東西。"
+  },
+  {
+   "start": 2222.86,
+   "end": 2224.36,
+   "speaker": "Kalan",
+   "text": "那假設你加入了之後，"
+  },
+  {
+   "start": 2224.9,
+   "end": 2226.26,
+   "speaker": "Kalan",
+   "text": "那你想一下喔，"
+  },
+  {
+   "start": 2226.26,
+   "end": 2228.94,
+   "speaker": "Kalan",
+   "text": "你年收超過 106 萬，"
+  },
+  {
+   "start": 2228.94,
+   "end": 2231.12,
+   "speaker": "Kalan",
+   "text": "然後你又扣了厚生年金跟健康保險，"
+  },
+  {
+   "start": 2231.64,
+   "end": 2237.34,
+   "speaker": "Kalan",
+   "text": "你反而打到的錢會比 103 萬的錢還少。"
+  },
+  {
+   "start": 2237.86,
+   "end": 2238.88,
+   "speaker": "Kalan",
+   "text": "懂那個意思嗎？"
+  },
+  {
+   "start": 2238.88,
+   "end": 2242.64,
+   "speaker": "Kalan",
+   "text": "就是你明明帳面上增加了，"
+  },
+  {
+   "start": 2242.64,
+   "end": 2247.28,
+   "speaker": "Kalan",
+   "text": "但是你的可支配所得是變少的狀態。"
+  },
+  {
+   "start": 2247.28,
+   "end": 2249.1,
+   "speaker": "Mooly",
+   "text": "對，扣完之後反而變少。"
+  },
+  {
+   "start": 2249.1,
+   "end": 2251.72,
+   "speaker": "Kalan",
+   "text": "所以這就是最近在吵的那個問題。"
+  },
+  {
+   "start": 2252.3,
+   "end": 2253.58,
+   "speaker": "Mooly",
+   "text": "啊，了解了。"
+  },
+  {
+   "start": 2254.26,
+   "end": 2259.6,
+   "speaker": "Kalan",
+   "text": "欸，那聊到這個，我們乾脆就稍微講一下節稅手段好了，"
+  },
+  {
+   "start": 2261.36,
+   "end": 2263.08,
+   "speaker": "Mooly",
+   "text": "可以合法節稅。"
+  },
+  {
+   "start": 2263.08,
+   "end": 2264.46,
+   "speaker": "Mooly",
+   "text": "不是逃稅喔，"
+  },
+  {
+   "start": 2264.46,
+   "end": 2265.42,
+   "speaker": "Mooly",
+   "text": "合法節稅。"
+  },
+  {
+   "start": 2265.42,
+   "end": 2265.8,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 2265.8,
+   "end": 2268.34,
+   "speaker": "Kalan",
+   "text": "那不然牡蠣你先來。"
+  },
+  {
+   "start": 2268.34,
+   "end": 2269.0,
+   "speaker": "Mooly",
+   "text": "可以。"
+  },
+  {
+   "start": 2270.14,
+   "end": 2275.16,
+   "speaker": "Mooly",
+   "text": "日本合法節稅手段的話，我知道的有兩個吧，"
+  },
+  {
+   "start": 2275.16,
+   "end": 2277.66,
+   "speaker": "Mooly",
+   "text": "然後有一個不太算的。"
+  },
+  {
+   "start": 2277.66,
+   "end": 2280.2,
+   "speaker": "Mooly",
+   "text": "就剛剛不是有談到那個住民稅那個東西嗎？"
+  },
+  {
+   "start": 2280.2,
+   "end": 2286.4,
+   "speaker": "Mooly",
+   "text": "住民稅基本上是繳給，剛剛講的，就是我現在住哪裡，就繳給我住的那個地方政府。"
+  },
+  {
+   "start": 2286.4,
+   "end": 2290.62,
+   "speaker": "Mooly",
+   "text": "那日本的話，他有推出一個制度叫做"
+  },
+  {
+   "start": 2290.62,
+   "end": 2292.8,
+   "speaker": "Mooly",
+   "text": "Furusato 故鄉納稅，"
+  },
+  {
+   "start": 2292.8,
+   "end": 2295.5,
+   "speaker": "Mooly",
+   "text": "你可以把你原本要繳的這個住民稅，"
+  },
+  {
+   "start": 2295.5,
+   "end": 2298.5,
+   "speaker": "Mooly",
+   "text": "你可以不一定要繳給你現在住的地方政府，"
+  },
+  {
+   "start": 2298.5,
+   "end": 2299.66,
+   "speaker": "Mooly",
+   "text": "它有一定的比例，"
+  },
+  {
+   "start": 2299.66,
+   "end": 2302.8,
+   "speaker": "Mooly",
+   "text": "你可以去繳給各地的地方政府。"
+  },
+  {
+   "start": 2302.8,
+   "end": 2306.74,
+   "speaker": "Mooly",
+   "text": "那它的用意是去提升一些，比如說"
+  },
+  {
+   "start": 2306.74,
+   "end": 2308.2,
+   "speaker": "Mooly",
+   "text": "沒有人關注的地方，"
+  },
+  {
+   "start": 2308.2,
+   "end": 2309.72,
+   "speaker": "Mooly",
+   "text": "他可能捐錢給他，"
+  },
+  {
+   "start": 2309.72,
+   "end": 2312.7,
+   "speaker": "Mooly",
+   "text": "那他就可以獲得更多的收益這樣子。"
+  },
+  {
+   "start": 2312.7,
+   "end": 2315.02,
+   "speaker": "Mooly",
+   "text": "有些人可能會問說，那為什麼你要捐錢給他？"
+  },
+  {
+   "start": 2315.02,
+   "end": 2316.86,
+   "speaker": "Mooly",
+   "text": "為什麼你不交給你現在住的地方就好了？"
+  },
+  {
+   "start": 2316.86,
+   "end": 2318.94,
+   "speaker": "Mooly",
+   "text": "那這個話，當然是有提供一些用意，"
+  },
+  {
+   "start": 2319.34,
+   "end": 2319.72,
+   "speaker": "Mooly",
+   "text": "就是說，"
+  },
+  {
+   "start": 2320.21,
+   "end": 2323.64,
+   "speaker": "Mooly",
+   "text": "你這個故鄉納稅，你如果繳錢，比如說我繳給佐賀好了，"
+  },
+  {
+   "start": 2323.64,
+   "end": 2328.76,
+   "speaker": "Mooly",
+   "text": "佐賀他就會送給我一個禮物來感謝我的捐贈。"
+  },
+  {
+   "start": 2328.76,
+   "end": 2330.5,
+   "speaker": "Mooly",
+   "text": "然後這個禮物還有規定，"
+  },
+  {
+   "start": 2330.5,
+   "end": 2335.58,
+   "speaker": "Mooly",
+   "text": "就是它的價值好像不能超過你捐款的 30% 吧。"
+  },
+  {
+   "start": 2335.58,
+   "end": 2340.62,
+   "speaker": "Mooly",
+   "text": "它之所以有些人不認為它是一個節稅手段，是因為你其實繳的稅還是一樣多的，"
+  },
+  {
+   "start": 2340.62,
+   "end": 2344.7,
+   "speaker": "Mooly",
+   "text": "就算我用了這個故鄉納稅的制度，我最後繳的住民稅"
+  },
+  {
+   "start": 2344.7,
+   "end": 2346.28,
+   "speaker": "Mooly",
+   "text": "還是一樣多。"
+  },
+  {
+   "start": 2346.28,
+   "end": 2350.14,
+   "speaker": "Mooly",
+   "text": "但是如果我有用了這個故鄉納稅之後，我可以拿到那些禮物，"
+  },
+  {
+   "start": 2350.14,
+   "end": 2351.42,
+   "speaker": "Mooly",
+   "text": "所以重點就是那些禮物。"
+  },
+  {
+   "start": 2351.42,
+   "end": 2356.06,
+   "speaker": "Mooly",
+   "text": "比如說我剛剛有提到說，如果我年收 1000 萬日幣的話，"
+  },
+  {
+   "start": 2356.58,
+   "end": 2363.26,
+   "speaker": "Mooly",
+   "text": "我可能要繳的那個住民稅，可能會有 60 萬左右吧，"
+  },
+  {
+   "start": 2363.26,
+   "end": 2363.94,
+   "speaker": "Mooly",
+   "text": "其實很多。"
+  },
+  {
+   "start": 2364.5,
+   "end": 2374.38,
+   "speaker": "Mooly",
+   "text": "那它其中就有一些部分，比如它可能就有 20 萬左右的部分，你可以拿去做這個故鄉納稅，你可以拿去捐給你想要的自治體，"
+  },
+  {
+   "start": 2374.38,
+   "end": 2378.0,
+   "speaker": "Mooly",
+   "text": "就是他們用「自治體」這個詞，就是說你想要的地方。"
+  },
+  {
+   "start": 2378.54,
+   "end": 2379.24,
+   "speaker": "Mooly",
+   "text": "所以比如說，"
+  },
+  {
+   "start": 2379.24,
+   "end": 2382.24,
+   "speaker": "Mooly",
+   "text": "今年的話，我就買了一些東西，比如說"
+  },
+  {
+   "start": 2382.24,
+   "end": 2385.6,
+   "speaker": "Mooly",
+   "text": "我知道很多人會買什麼水果、和牛、螃蟹，"
+  },
+  {
+   "start": 2386.2,
+   "end": 2389.0,
+   "speaker": "Mooly",
+   "text": "我是買了很多甜點，"
+  },
+  {
+   "start": 2389.0,
+   "end": 2391.88,
+   "speaker": "Mooly",
+   "text": "跟螃蟹和牛有買，"
+  },
+  {
+   "start": 2391.88,
+   "end": 2394.16,
+   "speaker": "Mooly",
+   "text": "然後我還買了一個很 cool 的東西，是那個"
+  },
+  {
+   "start": 2395.04,
+   "end": 2398.54,
+   "speaker": "Mooly",
+   "text": "日本人在那個年末的時候，不是都會吃那個"
+  },
+  {
+   "start": 2401.44,
+   "end": 2403.84,
+   "speaker": "Mooly",
+   "text": "高級便當的感覺嗎？"
+  },
+  {
+   "start": 2405.32,
+   "end": 2408.26,
+   "speaker": "Kalan",
+   "text": "你講高級便當也是啊，"
+  },
+  {
+   "start": 2409.34,
+   "end": 2412.4,
+   "speaker": "Mooly",
+   "text": "因為那個你自己花錢買，其實還蠻貴的，對吧？"
+  },
+  {
+   "start": 2412.4,
+   "end": 2412.92,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 2413.64,
+   "end": 2420.12,
+   "speaker": "Mooly",
+   "text": "然後那個自己花錢買，我記得可能要個一萬塊日幣以上嗎？"
+  },
+  {
+   "start": 2420.12,
+   "end": 2422.52,
+   "speaker": "Mooly",
+   "text": "它有分不同的層級的。"
+  },
+  {
+   "start": 2422.52,
+   "end": 2425.48,
+   "speaker": "Kalan",
+   "text": "每一家都有他們自己的特色，"
+  },
+  {
+   "start": 2425.48,
+   "end": 2427.2,
+   "speaker": "Kalan",
+   "text": "然後價格可能不太一樣。"
+  },
+  {
+   "start": 2428.64,
+   "end": 2432.62,
+   "speaker": "Mooly",
+   "text": "然後我就有用那個ふるさと納税買了這個，"
+  },
+  {
+   "start": 2432.62,
+   "end": 2434.2,
+   "speaker": "Mooly",
+   "text": "然後年底會到。"
+  },
+  {
+   "start": 2434.2,
+   "end": 2437.46,
+   "speaker": "Mooly",
+   "text": "但是昨天剛跟朋友聊，他們說，"
+  },
+  {
+   "start": 2437.46,
+   "end": 2440.56,
+   "speaker": "Mooly",
+   "text": "他們都吃過那個，然後覺得不好吃，"
+  },
+  {
+   "start": 2440.56,
+   "end": 2442.48,
+   "speaker": "Mooly",
+   "text": "所以我有點緊張。"
+  },
+  {
+   "start": 2443.54,
+   "end": 2446.48,
+   "speaker": "Kalan",
+   "text": "該怎麼講，因為他們都是冷菜啊。"
+  },
+  {
+   "start": 2446.48,
+   "end": 2448.02,
+   "speaker": "Mooly",
+   "text": "對，可能比較不習慣。"
+  },
+  {
+   "start": 2448.51,
+   "end": 2452.86,
+   "speaker": "Kalan",
+   "text": "不過這個聊下去又有蠻多可以講的東西，不過呢，"
+  },
+  {
+   "start": 2454.12,
+   "end": 2460.7,
+   "speaker": "Kalan",
+   "text": "它其實裡面有一些算是經典的東西是一定會出現的，"
+  },
+  {
+   "start": 2460.7,
+   "end": 2462.68,
+   "speaker": "Kalan",
+   "text": "是一定會出現的。"
+  },
+  {
+   "start": 2462.68,
+   "end": 2463.74,
+   "speaker": "Kalan",
+   "text": "然後有些我很喜歡，"
+  },
+  {
+   "start": 2463.74,
+   "end": 2468.48,
+   "speaker": "Kalan",
+   "text": "就是它有一些食材是有意義的，"
+  },
+  {
+   "start": 2468.48,
+   "end": 2471.04,
+   "speaker": "Kalan",
+   "text": "那我這邊講幾個好了。"
+  },
+  {
+   "start": 2471.36,
+   "end": 2474.06,
+   "speaker": "Kalan",
+   "text": "你會吃到一個栗きんとん，"
+  },
+  {
+   "start": 2474.06,
+   "end": 2478.42,
+   "speaker": "Kalan",
+   "text": "它算是栗子打成泥嗎？"
+  },
+  {
+   "start": 2479.08,
+   "end": 2480.9,
+   "speaker": "Kalan",
+   "text": "因為它是金黃色的，"
+  },
+  {
+   "start": 2480.9,
+   "end": 2484.16,
+   "speaker": "Kalan",
+   "text": "所以就是代表金錢，"
+  },
+  {
+   "start": 2484.66,
+   "end": 2486.88,
+   "speaker": "Kalan",
+   "text": "代表你金錢的好運，"
+  },
+  {
+   "start": 2486.88,
+   "end": 2489.28,
+   "speaker": "Mooly",
+   "text": "就有這些意思，對吧？"
+  },
+  {
+   "start": 2489.28,
+   "end": 2493.66,
+   "speaker": "Mooly",
+   "text": "先在這邊打住，我們其他剩下的，我們年底的話，"
+  },
+  {
+   "start": 2493.66,
+   "end": 2495.3,
+   "speaker": "Kalan",
+   "text": "喔，對對對，好好好，沒問題。"
+  },
+  {
+   "start": 2495.82,
+   "end": 2499.6,
+   "speaker": "Mooly",
+   "text": "我們先在這邊賣個關子，我們先只講一個就好了。"
+  },
+  {
+   "start": 2501.22,
+   "end": 2509.1,
+   "speaker": "Mooly",
+   "text": "就我剛剛講嘛，可以透過那個ふるさと納税的那個制度，去變相地幫你用稅金換一些禮品回來。"
+  },
+  {
+   "start": 2509.1,
+   "end": 2512.88,
+   "speaker": "Mooly",
+   "text": "愷愷那邊有用ふるさと納税買了什麼東西嗎？"
+  },
+  {
+   "start": 2512.88,
+   "end": 2515.12,
+   "speaker": "Kalan",
+   "text": "我其實也是跟你差不多，"
+  },
+  {
+   "start": 2516.34,
+   "end": 2517.74,
+   "speaker": "Kalan",
+   "text": "我有買過的。"
+  },
+  {
+   "start": 2517.74,
+   "end": 2519.24,
+   "speaker": "Kalan",
+   "text": "喔，我有買過果醬，"
+  },
+  {
+   "start": 2519.24,
+   "end": 2521.0,
+   "speaker": "Mooly",
+   "text": "果醬，"
+  },
+  {
+   "start": 2521.0,
+   "end": 2525.36,
+   "speaker": "Kalan",
+   "text": "跟，"
+  },
+  {
+   "start": 2525.36,
+   "end": 2527.72,
+   "speaker": "Kalan",
+   "text": "還有衛生紙。"
+  },
+  {
+   "start": 2528.48,
+   "end": 2530.84,
+   "speaker": "Kalan",
+   "text": "不過我後來就覺得，"
+  },
+  {
+   "start": 2531.35,
+   "end": 2535.78,
+   "speaker": "Kalan",
+   "text": "對啊，因為就像你剛剛講的，因為繳的稅不會變得比較少，"
+  },
+  {
+   "start": 2535.78,
+   "end": 2539.96,
+   "speaker": "Kalan",
+   "text": "然後又因為它不能超過一定的比例的關係，"
+  },
+  {
+   "start": 2540.41,
+   "end": 2546.02,
+   "speaker": "Kalan",
+   "text": "所以基本上就有點像是聊勝於無的心態吧。"
+  },
+  {
+   "start": 2547.06,
+   "end": 2550.78,
+   "speaker": "Mooly",
+   "text": "對，就是多少換一點東西回來那種感覺。"
+  },
+  {
+   "start": 2552.24,
+   "end": 2558.5,
+   "speaker": "Mooly",
+   "text": "還有另外一個節稅方式，也是台灣跟日本都是一樣的，或說搞不好其他國家應該也都有，"
+  },
+  {
+   "start": 2558.5,
+   "end": 2560.04,
+   "speaker": "Mooly",
+   "text": "就是報扶養。"
+  },
+  {
+   "start": 2560.04,
+   "end": 2563.24,
+   "speaker": "Mooly",
+   "text": "你扶養的人數越多，扣的稅也就越多。"
+  },
+  {
+   "start": 2563.24,
+   "end": 2566.44,
+   "speaker": "Mooly",
+   "text": "這一個愷愷那邊有什麼經驗嗎？"
+  },
+  {
+   "start": 2566.44,
+   "end": 2568.96,
+   "speaker": "Kalan",
+   "text": "喔，就是你要拿，"
+  },
+  {
+   "start": 2568.96,
+   "end": 2574.52,
+   "speaker": "Kalan",
+   "text": "你如果是以匯錢給國外家人來報扶養的話，"
+  },
+  {
+   "start": 2574.52,
+   "end": 2576.88,
+   "speaker": "Kalan",
+   "text": "準備一下那些文件，"
+  },
+  {
+   "start": 2576.88,
+   "end": 2578.56,
+   "speaker": "Kalan",
+   "text": "準備你有匯款的文件，"
+  },
+  {
+   "start": 2578.56,
+   "end": 2584.7,
+   "speaker": "Kalan",
+   "text": "然後我記得好像是情況可能要拿戶籍謄本或戶口名簿，"
+  },
+  {
+   "start": 2585.68,
+   "end": 2592.28,
+   "speaker": "Kalan",
+   "text": "去證明你們的父母關係之類的。"
+  },
+  {
+   "start": 2592.28,
+   "end": 2596.1,
+   "speaker": "Kalan",
+   "text": "如果你有走海外家屬的扶養的話，"
+  },
+  {
+   "start": 2596.7,
+   "end": 2598.18,
+   "speaker": "Kalan",
+   "text": "這點你可能要考慮一下。"
+  },
+  {
+   "start": 2598.18,
+   "end": 2602.34,
+   "speaker": "Kalan",
+   "text": "不過會蠻建議大家不要怕，"
+  },
+  {
+   "start": 2602.98,
+   "end": 2607.34,
+   "speaker": "Kalan",
+   "text": "因為扶養的扣除額其實還算蠻多的。"
+  },
+  {
+   "start": 2607.34,
+   "end": 2611.42,
+   "speaker": "Mooly",
+   "text": "那你有算過扶養一個人大概可以少多少稅嗎？"
+  },
+  {
+   "start": 2611.42,
+   "end": 2614.46,
+   "speaker": "Kalan",
+   "text": "這個我就沒有算了。"
+  },
+  {
+   "start": 2614.94,
+   "end": 2618.32,
+   "speaker": "Mooly",
+   "text": "這個我之前有算，其實確實差蠻多的，"
+  },
+  {
+   "start": 2618.32,
+   "end": 2623.52,
+   "speaker": "Mooly",
+   "text": "之前我算的，一樣是以那個 1000 萬日幣做一個基準的話，"
+  },
+  {
+   "start": 2623.52,
+   "end": 2627.4,
+   "speaker": "Mooly",
+   "text": "扶養一個人大概可以少大概 10 萬日幣左右的稅金。"
+  },
+  {
+   "start": 2627.4,
+   "end": 2629.9,
+   "speaker": "Kalan",
+   "text": "那的確是蠻多的。"
+  },
+  {
+   "start": 2630.6,
+   "end": 2632.42,
+   "speaker": "Mooly",
+   "text": "然後講到扶養這個，"
+  },
+  {
+   "start": 2632.42,
+   "end": 2634.74,
+   "speaker": "Mooly",
+   "text": "剛剛有講嘛，其實他扣的東西蠻多的。"
+  },
+  {
+   "start": 2634.74,
+   "end": 2636.82,
+   "speaker": "Mooly",
+   "text": "所以我記得在之前，"
+  },
+  {
+   "start": 2636.82,
+   "end": 2640.82,
+   "speaker": "Mooly",
+   "text": "現在比較不行了，在之前的時候他會被濫用。"
+  },
+  {
+   "start": 2640.82,
+   "end": 2643.8,
+   "speaker": "Mooly",
+   "text": "就比如說你一次扶養 10 個人，"
+  },
+  {
+   "start": 2643.8,
+   "end": 2647.2,
+   "speaker": "Mooly",
+   "text": "你每個兄弟姊妹，不管他怎樣，你全部都報扶養，"
+  },
+  {
+   "start": 2647.2,
+   "end": 2649.1,
+   "speaker": "Mooly",
+   "text": "然後你就扣一堆稅這樣子。"
+  },
+  {
+   "start": 2649.64,
+   "end": 2655.08,
+   "speaker": "Mooly",
+   "text": "但後來似乎是因為這樣子他被濫用，所以後來有補幾個資格，"
+  },
+  {
+   "start": 2655.08,
+   "end": 2657.78,
+   "speaker": "Mooly",
+   "text": "就像剛才講的，你要準備一些文件證明，"
+  },
+  {
+   "start": 2657.78,
+   "end": 2660.82,
+   "speaker": "Mooly",
+   "text": "包含說你可能會需要證明說那個，"
+  },
+  {
+   "start": 2661.5,
+   "end": 2661.9,
+   "speaker": "Mooly",
+   "text": "你，"
+  },
+  {
+   "start": 2661.9,
+   "end": 2663.98,
+   "speaker": "Mooly",
+   "text": "就因為你有報撫養嘛，"
+  },
+  {
+   "start": 2663.98,
+   "end": 2664.62,
+   "speaker": "Mooly",
+   "text": "就代表說，"
+  },
+  {
+   "start": 2664.62,
+   "end": 2667.12,
+   "speaker": "Mooly",
+   "text": "理論上你是真的要有撫養那個對象，"
+  },
+  {
+   "start": 2667.12,
+   "end": 2668.8,
+   "speaker": "Mooly",
+   "text": "所以你必須要有一個匯款證明，"
+  },
+  {
+   "start": 2668.8,
+   "end": 2674.3,
+   "speaker": "Mooly",
+   "text": "你需要匯款那個 38 萬日幣以上給那個被撫養的人，"
+  },
+  {
+   "start": 2674.3,
+   "end": 2676.54,
+   "speaker": "Mooly",
+   "text": "這樣才算你真的有撫養他。"
+  },
+  {
+   "start": 2676.54,
+   "end": 2678.22,
+   "speaker": "Mooly",
+   "text": "他就加了一個這個東西，"
+  },
+  {
+   "start": 2678.22,
+   "end": 2679.24,
+   "speaker": "Mooly",
+   "text": "讓你，"
+  },
+  {
+   "start": 2679.24,
+   "end": 2681.0,
+   "speaker": "Mooly",
+   "text": "我之前好像一樣有，"
+  },
+  {
+   "start": 2681.0,
+   "end": 2682.76,
+   "speaker": "Mooly",
+   "text": "只是那個額度沒那麼高，"
+  },
+  {
+   "start": 2682.76,
+   "end": 2684.6,
+   "speaker": "Mooly",
+   "text": "他把那個提高之後，"
+  },
+  {
+   "start": 2685.04,
+   "end": 2686.86,
+   "speaker": "Mooly",
+   "text": "就比較少能被這樣濫用。"
+  },
+  {
+   "start": 2686.86,
+   "end": 2689.14,
+   "speaker": "Mooly",
+   "text": "因為比如說你報一個人要 38 萬日幣，"
+  },
+  {
+   "start": 2689.14,
+   "end": 2692.3,
+   "speaker": "Mooly",
+   "text": "如果你要報 10 個人，你就要先有 380 萬日幣可以匯，"
+  },
+  {
+   "start": 2692.3,
+   "end": 2695.56,
+   "speaker": "Mooly",
+   "text": "那可能對有些人來說他沒辦法做到這件事情。"
+  },
+  {
+   "start": 2696.4,
+   "end": 2697.9,
+   "speaker": "Kalan",
+   "text": "這也其實也不算節稅，"
+  },
+  {
+   "start": 2697.9,
+   "end": 2700.92,
+   "speaker": "Kalan",
+   "text": "就是可以拿來當扣除的東西，"
+  },
+  {
+   "start": 2702.28,
+   "end": 2703.62,
+   "speaker": "Kalan",
+   "text": "可能知道的人知道，"
+  },
+  {
+   "start": 2703.62,
+   "end": 2705.58,
+   "speaker": "Kalan",
+   "text": "但如果不知道的話可以稍微聽一下。"
+  },
+  {
+   "start": 2705.58,
+   "end": 2706.88,
+   "speaker": "Kalan",
+   "text": "比如說像醫療保險，"
+  },
+  {
+   "start": 2707.62,
+   "end": 2708.14,
+   "speaker": "Kalan",
+   "text": "醫療，"
+  },
+  {
+   "start": 2708.62,
+   "end": 2711.72,
+   "speaker": "Kalan",
+   "text": "不是醫療保險，醫療扣除，醫療扣除的話是，"
+  },
+  {
+   "start": 2711.72,
+   "end": 2715.88,
+   "speaker": "Kalan",
+   "text": "你如果一年花了 10 萬以上在做醫療，"
+  },
+  {
+   "start": 2715.88,
+   "end": 2723.0,
+   "speaker": "Kalan",
+   "text": "不是那種醫美或者是非醫療性行為的話，它是可以當作扣除額的。"
+  },
+  {
+   "start": 2723.5,
+   "end": 2725.84,
+   "speaker": "Kalan",
+   "text": "然後還有像是生命保險，"
+  },
+  {
+   "start": 2725.84,
+   "end": 2733.74,
+   "speaker": "Kalan",
+   "text": "還有像是比如說你有房貸這些東西，其實它都可以當扣除額，房貸還有地震保險，或"
+  },
+  {
+   "start": 2733.74,
+   "end": 2736.76,
+   "speaker": "Kalan",
+   "text": "我忘記是地震保險還是火災保險了，"
+  },
+  {
+   "start": 2736.76,
+   "end": 2738.84,
+   "speaker": "Kalan",
+   "text": "這些東西是可以當扣除額的。"
+  },
+  {
+   "start": 2738.84,
+   "end": 2741.6,
+   "speaker": "Kalan",
+   "text": "剛好有符合這些東西的時候就稍微注意一下，"
+  },
+  {
+   "start": 2742.12,
+   "end": 2745.7,
+   "speaker": "Mooly",
+   "text": "有那些可以符合、可以報的，都可以去報一下，"
+  },
+  {
+   "start": 2745.7,
+   "end": 2748.18,
+   "speaker": "Kalan",
+   "text": "因為畢竟跟台灣比起來，"
+  },
+  {
+   "start": 2748.18,
+   "end": 2751.44,
+   "speaker": "Kalan",
+   "text": "日本的稅率就是相對比較高一點，"
+  },
+  {
+   "start": 2752.28,
+   "end": 2753.78,
+   "speaker": "Mooly",
+   "text": "能省則省。"
+  },
+  {
+   "start": 2753.78,
+   "end": 2756.46,
+   "speaker": "Kalan",
+   "text": "在台灣說實話，"
+  },
+  {
+   "start": 2756.46,
+   "end": 2759.14,
+   "speaker": "Kalan",
+   "text": "就是假設你是 100 萬，"
+  },
+  {
+   "start": 2759.8,
+   "end": 2761.66,
+   "speaker": "Kalan",
+   "text": "年薪 100 萬台幣好了，"
+  },
+  {
+   "start": 2761.66,
+   "end": 2763.7,
+   "speaker": "Kalan",
+   "text": "那你就是 6% 左右吧，"
+  },
+  {
+   "start": 2763.7,
+   "end": 2764.9,
+   "speaker": "Kalan",
+   "text": "說真的也不多，"
+  },
+  {
+   "start": 2765.54,
+   "end": 2766.28,
+   "speaker": "Kalan",
+   "text": "你可能，"
+  },
+  {
+   "start": 2766.28,
+   "end": 2769.82,
+   "speaker": "Kalan",
+   "text": "你就像我故事中的那個荷蘭人同事一樣，"
+  },
+  {
+   "start": 2770.4,
+   "end": 2772.44,
+   "speaker": "Kalan",
+   "text": "I don't care 這樣子。"
+  },
+  {
+   "start": 2773.18,
+   "end": 2773.86,
+   "speaker": "Kalan",
+   "text": "但如果今，"
+  },
+  {
+   "start": 2773.86,
+   "end": 2774.96,
+   "speaker": "Mooly",
+   "text": "連報都不想報。"
+  },
+  {
+   "start": 2774.96,
+   "end": 2775.22,
+   "speaker": "Mooly",
+   "text": "如果，"
+  },
+  {
+   "start": 2775.22,
+   "end": 2778.7,
+   "speaker": "Kalan",
+   "text": "今天你是要負擔比如說 1000 萬日幣，"
+  },
+  {
+   "start": 2778.7,
+   "end": 2781.0,
+   "speaker": "Kalan",
+   "text": "然後大概 30% 左右吧，"
+  },
+  {
+   "start": 2781.0,
+   "end": 2783.78,
+   "speaker": "Kalan",
+   "text": "那這時候可能就會開始斤斤計較了，"
+  },
+  {
+   "start": 2784.38,
+   "end": 2787.5,
+   "speaker": "Mooly",
+   "text": "真的就會把可以報的全部都報上去。"
+  },
+  {
+   "start": 2787.5,
+   "end": 2788.22,
+   "speaker": "Kalan",
+   "text": "好了，"
+  },
+  {
+   "start": 2788.22,
+   "end": 2791.54,
+   "speaker": "Kalan",
+   "text": "那我們今天聊的，聊的夠多了。"
+  },
+  {
+   "start": 2791.54,
+   "end": 2794.12,
+   "speaker": "Kalan",
+   "text": "那不然我們今天就到這邊好了。"
+  },
+  {
+   "start": 2794.82,
+   "end": 2795.34,
+   "speaker": "Kalan",
+   "text": "好啊。"
+  },
+  {
+   "start": 2795.34,
+   "end": 2797.7,
+   "speaker": "Kalan",
+   "text": "那今天的節目就到這邊啦。"
+  },
+  {
+   "start": 2797.7,
+   "end": 2800.16,
+   "speaker": "Kalan",
+   "text": "喜歡的話，歡迎訂閱跟分享。"
+  },
+  {
+   "start": 2800.16,
+   "end": 2801.92,
+   "speaker": "Kalan",
+   "text": "如果有任何回饋的話，"
+  },
+  {
+   "start": 2801.92,
+   "end": 2803.48,
+   "speaker": "Kalan",
+   "text": "可以透過說明的表單，"
+  },
+  {
+   "start": 2803.48,
+   "end": 2805.02,
+   "speaker": "Kalan",
+   "text": "或者是寄信給我們喔。"
+  },
+  {
+   "start": 2805.68,
+   "end": 2806.5,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 2807.22,
+   "end": 2807.94,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2807.94,
+   "end": 2810.14,
+   "speaker": "Mooly",
+   "text": "我們下次見。"
+  },
+  {
+   "start": 2810.14,
+   "end": 2810.5,
+   "speaker": "Kalan",
+   "text": "拜拜。"
+  }
+ ]
+}

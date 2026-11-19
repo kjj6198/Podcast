@@ -1,0 +1,3840 @@
+{
+ "episode": 3,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 從工程師角度聊 VPN 的原理，並檢視 NordVPN、Surfshark 等業者的宣傳說法是否精確。兩人討論 HTTPS、SNI、DNS 查詢與憑證機制，發現網路同時有去中心化與中心化的一面。最後談到 VPN 業者的組合包服務、獲利來源與母公司關係。",
+  "points": [
+   "VPN 的原理是先把封包加密並送到 VPN server，再由 VPN server 代為送出，所以對方看到的是 VPN 的 IP。",
+   "在已使用 HTTPS 的前提下，「用 VPN 才能在咖啡店或飯店 Wi-Fi 安全使用」的說法並不精確，有沒有 VPN 差別不大，且別人連進你開的 local port 也與 VPN 無關。",
+   "沒加密的 SNI 與 DNS query 會洩漏你連去哪個網站，其中 Kalan 認為 DNS query 是用 VPN 會有差的地方，不過 ESNI 與 DNS over HTTPS 也能補上這些缺口。",
+   "VPN 只是把信任從 ISP 轉移到 VPN 業者，而憑證與根憑證機構則是網路中很中心化的一環，根憑證機構被攻破，HTTPS 也不安全。",
+   "VPN 在使用者誤點未信任憑證時無法保護，但對非 HTTP 的服務流量有加密效果；若只想要加密轉送，自己在雲端架 server 也能做到。",
+   "現在的 VPN 已變成防毒、廣告阻擋、密碼管理等資安組合包，且 Surfshark 與 NordVPN 屬同一母公司，Mooly 聽朋友說流量成本很低所以利潤高。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與 VPN 使用經驗"
+   },
+   {
+    "start": 93.0,
+    "title": "VPN 的基本原理"
+   },
+   {
+    "start": 240.0,
+    "title": "不用 VPN 就不安全嗎？"
+   },
+   {
+    "start": 583.0,
+    "title": "DNS 查詢與 VPN 的差別"
+   },
+   {
+    "start": 681.0,
+    "title": "HTTPS 加密範圍與 SNI"
+   },
+   {
+    "start": 1002.0,
+    "title": "中心化與去中心化、憑證機制"
+   },
+   {
+    "start": 1298.0,
+    "title": "VPN 仍有用的情境與自架方案"
+   },
+   {
+    "start": 1499.0,
+    "title": "VPN 組合包與獲利來源"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.4,
+   "speaker": "Kalan",
+   "text": "大家好，我是 Kalan。"
+  },
+  {
+   "start": 1.4,
+   "end": 2.64,
+   "speaker": "Mooly",
+   "text": "大家好，我是 Mooly。"
+  },
+  {
+   "start": 3.4,
+   "end": 5.18,
+   "speaker": "Mooly",
+   "text": "歡迎收聽八百屋"
+  },
+  {
+   "start": 5.18,
+   "end": 6.7,
+   "speaker": "Kalan",
+   "text": "Boys。"
+  },
+  {
+   "start": 8.16,
+   "end": 11.4,
+   "speaker": "Mooly",
+   "text": "沒關係啦，這個就這樣吧。"
+  },
+  {
+   "start": 11.4,
+   "end": 12.76,
+   "speaker": "Kalan",
+   "text": "嗯，對，就這樣吧。"
+  },
+  {
+   "start": 12.76,
+   "end": 14.84,
+   "speaker": "Mooly",
+   "text": "這樣也蠻有趣的。"
+  },
+  {
+   "start": 34.55,
+   "end": 37.31,
+   "speaker": "Kalan",
+   "text": "欸，Mooly，我們今天要來聊一個，"
+  },
+  {
+   "start": 37.99,
+   "end": 41.87,
+   "speaker": "Kalan",
+   "text": "可能以後會讓我們都接不到 VPN 業配的"
+  },
+  {
+   "start": 43.51,
+   "end": 44.03,
+   "speaker": "Mooly",
+   "text": "話題。對。"
+  },
+  {
+   "start": 46.45,
+   "end": 48.73,
+   "speaker": "Kalan",
+   "text": "我們今天就是要講 VPN。"
+  },
+  {
+   "start": 48.73,
+   "end": 52.01,
+   "speaker": "Kalan",
+   "text": "Mooly，你有用過 VPN 嗎？"
+  },
+  {
+   "start": 52.57,
+   "end": 55.71,
+   "speaker": "Mooly",
+   "text": "有，我自己有買 NordVPN。"
+  },
+  {
+   "start": 56.43,
+   "end": 58.71,
+   "speaker": "Kalan",
+   "text": "NordVPN，那你都用在哪邊？"
+  },
+  {
+   "start": 60.35,
+   "end": 62.05,
+   "speaker": "Mooly",
+   "text": "主要是用在那個嘛，"
+  },
+  {
+   "start": 62.05,
+   "end": 63.89,
+   "speaker": "Mooly",
+   "text": "就比如說我現在在日本嘛，"
+  },
+  {
+   "start": 63.89,
+   "end": 69.45,
+   "speaker": "Mooly",
+   "text": "那我比如說我想看那個巴哈動畫瘋的時候，就必須要跳到台灣去，"
+  },
+  {
+   "start": 69.45,
+   "end": 71.69,
+   "speaker": "Kalan",
+   "text": "就是看動畫。"
+  },
+  {
+   "start": 71.69,
+   "end": 75.41,
+   "speaker": "Mooly",
+   "text": "這也是很多人用 VPN 最常見的目的，"
+  },
+  {
+   "start": 75.41,
+   "end": 77.59,
+   "speaker": "Mooly",
+   "text": "就是跨區看一些，"
+  },
+  {
+   "start": 77.59,
+   "end": 80.85,
+   "speaker": "Mooly",
+   "text": "比如說看 Netflix，或是看一些什麼東西的。"
+  },
+  {
+   "start": 80.85,
+   "end": 81.83,
+   "speaker": "Kalan",
+   "text": "喔，對。"
+  },
+  {
+   "start": 82.61,
+   "end": 86.15,
+   "speaker": "Kalan",
+   "text": "那剛好因為我們兩個都是工程師嘛，"
+  },
+  {
+   "start": 86.15,
+   "end": 90.97,
+   "speaker": "Kalan",
+   "text": "那我們今天就聊多一點，就是 VPN 的一些細節好了。"
+  },
+  {
+   "start": 90.97,
+   "end": 92.23,
+   "speaker": "Mooly",
+   "text": "好，沒問題。"
+  },
+  {
+   "start": 93.31,
+   "end": 95.23,
+   "speaker": "Kalan",
+   "text": "那 Kalan，你可以跟"
+  },
+  {
+   "start": 95.23,
+   "end": 98.33,
+   "speaker": "Kalan",
+   "text": "就是大概說明一下 VPN 是什麼東西嗎？"
+  },
+  {
+   "start": 98.33,
+   "end": 99.11,
+   "speaker": "Mooly",
+   "text": "好。"
+  },
+  {
+   "start": 99.11,
+   "end": 101.53,
+   "speaker": "Mooly",
+   "text": "那 VPN 的話呢，其實，"
+  },
+  {
+   "start": 102.13,
+   "end": 107.27,
+   "speaker": "Mooly",
+   "text": "我相信應該有很多聽眾看各大 YouTuber 介紹，可能大概都知道它是什麼。"
+  },
+  {
+   "start": 107.27,
+   "end": 110.67,
+   "speaker": "Mooly",
+   "text": "但以 VPN 這個東西本身的話，"
+  },
+  {
+   "start": 111.17,
+   "end": 115.91,
+   "speaker": "Mooly",
+   "text": "它其實就是，一般來說你上網的時候，從你家的這個網路，"
+  },
+  {
+   "start": 115.91,
+   "end": 120.99,
+   "speaker": "Mooly",
+   "text": "實際上把這個封包傳送到你要訪問的地方的時候，"
+  },
+  {
+   "start": 120.99,
+   "end": 123.21,
+   "speaker": "Mooly",
+   "text": "它其實中間會經過很多層的，"
+  },
+  {
+   "start": 123.21,
+   "end": 125.29,
+   "speaker": "Mooly",
+   "text": "比方說你可能家裡的 WiFi，"
+  },
+  {
+   "start": 125.59,
+   "end": 129.17,
+   "speaker": "Mooly",
+   "text": "然後再經過 ISP，就比如說你家是中華電信，"
+  },
+  {
+   "start": 129.17,
+   "end": 130.63,
+   "speaker": "Mooly",
+   "text": "中華電信的機房啊，"
+  },
+  {
+   "start": 130.63,
+   "end": 134.71,
+   "speaker": "Mooly",
+   "text": "然後再到比如說 Google 在美國的 server，或在台灣的 server 等等，"
+  },
+  {
+   "start": 134.71,
+   "end": 135.99,
+   "speaker": "Mooly",
+   "text": "中間經過很多層嘛。"
+  },
+  {
+   "start": 135.99,
+   "end": 142.23,
+   "speaker": "Mooly",
+   "text": "那 VPN 的話，其實就是在你的電腦，就是你最一開始的這一層這邊，"
+  },
+  {
+   "start": 142.75,
+   "end": 148.81,
+   "speaker": "Mooly",
+   "text": "它不是直接把你的封包傳送到對方那邊，"
+  },
+  {
+   "start": 148.81,
+   "end": 153.27,
+   "speaker": "Mooly",
+   "text": "它先把你的封包加密過後，傳到 VPN 的 server 那邊，"
+  },
+  {
+   "start": 153.27,
+   "end": 155.95,
+   "speaker": "Mooly",
+   "text": "然後再由 VPN 的 server 幫你送出去。"
+  },
+  {
+   "start": 155.95,
+   "end": 157.93,
+   "speaker": "Mooly",
+   "text": "所以這個就有點像是，"
+  },
+  {
+   "start": 157.93,
+   "end": 160.19,
+   "speaker": "Mooly",
+   "text": "比如說你可能在中國的網路，需要翻牆，"
+  },
+  {
+   "start": 160.69,
+   "end": 165.07,
+   "speaker": "Mooly",
+   "text": "那它之所以可以翻牆的原理，就是它先跳到一個中國之外的地方，"
+  },
+  {
+   "start": 165.07,
+   "end": 167.01,
+   "speaker": "Mooly",
+   "text": "再把那個封包傳送出去。"
+  },
+  {
+   "start": 167.01,
+   "end": 169.07,
+   "speaker": "Mooly",
+   "text": "所以對於對方的 server 來說，"
+  },
+  {
+   "start": 169.07,
+   "end": 171.15,
+   "speaker": "Mooly",
+   "text": "你就不是從中國來的 IP。"
+  },
+  {
+   "start": 171.15,
+   "end": 174.27,
+   "speaker": "Mooly",
+   "text": "這個就是 VPN 大概的原理啦。"
+  },
+  {
+   "start": 174.27,
+   "end": 175.83,
+   "speaker": "Mooly",
+   "text": "總之就是你中間先跳過一層，"
+  },
+  {
+   "start": 175.83,
+   "end": 179.41,
+   "speaker": "Mooly",
+   "text": "先去別人家，然後別人家再幫你把那個封包送出去，"
+  },
+  {
+   "start": 179.41,
+   "end": 181.73,
+   "speaker": "Mooly",
+   "text": "就很像從他家那邊送出去一樣。"
+  },
+  {
+   "start": 181.73,
+   "end": 185.19,
+   "speaker": "Mooly",
+   "text": "所以 VPN 的基本原理大概是這個樣子。"
+  },
+  {
+   "start": 185.19,
+   "end": 186.61,
+   "speaker": "Kalan",
+   "text": "喔，OK，好。"
+  },
+  {
+   "start": 186.61,
+   "end": 190.05,
+   "speaker": "Kalan",
+   "text": "那我們就針對這個一步一步聊好了。"
+  },
+  {
+   "start": 192.05,
+   "end": 192.45,
+   "speaker": "Kalan",
+   "text": "那，"
+  },
+  {
+   "start": 192.45,
+   "end": 194.65,
+   "speaker": "Kalan",
+   "text": "我想我有點好奇，就是"
+  },
+  {
+   "start": 195.33,
+   "end": 197.85,
+   "speaker": "Kalan",
+   "text": "你會遇到說，因為我知道"
+  },
+  {
+   "start": 198.49,
+   "end": 203.79,
+   "speaker": "Kalan",
+   "text": "Netflix，其實像 Netflix 之類的，或者是你剛剛講的那個巴哈動畫瘋，我不確定有沒有"
+  },
+  {
+   "start": 204.23,
+   "end": 207.75,
+   "speaker": "Kalan",
+   "text": "他們是會針對一些 VPN 的 IP，"
+  },
+  {
+   "start": 207.75,
+   "end": 211.71,
+   "speaker": "Kalan",
+   "text": "就是他知道這個 IP 是來自 VPN 的 server，"
+  },
+  {
+   "start": 211.71,
+   "end": 213.35,
+   "speaker": "Kalan",
+   "text": "他就直接鎖住，"
+  },
+  {
+   "start": 213.35,
+   "end": 213.91,
+   "speaker": "Kalan",
+   "text": "不讓你看。"
+  },
+  {
+   "start": 213.91,
+   "end": 216.37,
+   "speaker": "Kalan",
+   "text": "你有遇過這樣的情形嗎？"
+  },
+  {
+   "start": 216.37,
+   "end": 218.65,
+   "speaker": "Mooly",
+   "text": "我目前，"
+  },
+  {
+   "start": 220.03,
+   "end": 224.71,
+   "speaker": "Mooly",
+   "text": "對於這一些，比如說 Netflix 或什麼這種娛樂類的是沒有碰過，"
+  },
+  {
+   "start": 224.71,
+   "end": 225.79,
+   "speaker": "Mooly",
+   "text": "但是對一些，"
+  },
+  {
+   "start": 225.79,
+   "end": 230.63,
+   "speaker": "Mooly",
+   "text": "我記得對一些網站或什麼的好像有，"
+  },
+  {
+   "start": 230.63,
+   "end": 232.37,
+   "speaker": "Mooly",
+   "text": "就是一些服務，"
+  },
+  {
+   "start": 232.37,
+   "end": 237.01,
+   "speaker": "Mooly",
+   "text": "它可能會偵測到你是 VPN 的 IP，就不讓你進或什麼的。"
+  },
+  {
+   "start": 237.01,
+   "end": 238.25,
+   "speaker": "Kalan",
+   "text": "喔，OK。"
+  },
+  {
+   "start": 239.11,
+   "end": 239.59,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 239.59,
+   "end": 244.31,
+   "speaker": "Kalan",
+   "text": "那我相信很多那種，"
+  },
+  {
+   "start": 244.31,
+   "end": 248.03,
+   "speaker": "Kalan",
+   "text": "比如說剛剛講到的那個 NordVPN 或者是 Surfshark VPN，"
+  },
+  {
+   "start": 248.03,
+   "end": 250.35,
+   "speaker": "Kalan",
+   "text": "他們都會說什麼，"
+  },
+  {
+   "start": 250.35,
+   "end": 252.85,
+   "speaker": "Kalan",
+   "text": "欸，這個 VPN 是安全的，"
+  },
+  {
+   "start": 252.85,
+   "end": 255.77,
+   "speaker": "Kalan",
+   "text": "然後他們不會儲存你的資料。"
+  },
+  {
+   "start": 256.45,
+   "end": 258.93,
+   "speaker": "Kalan",
+   "text": "欸，那我就有點好奇啊，"
+  },
+  {
+   "start": 258.93,
+   "end": 262.47,
+   "speaker": "Kalan",
+   "text": "那不用 VPN 就不安全嗎？"
+  },
+  {
+   "start": 262.47,
+   "end": 265.45,
+   "speaker": "Mooly",
+   "text": "不用 VPN 就不安全嗎？"
+  },
+  {
+   "start": 265.45,
+   "end": 266.65,
+   "speaker": "Mooly",
+   "text": "我自己，"
+  },
+  {
+   "start": 267.19,
+   "end": 269.49,
+   "speaker": "Mooly",
+   "text": "就畢竟我們兩個都是工程師嘛，"
+  },
+  {
+   "start": 269.49,
+   "end": 271.65,
+   "speaker": "Mooly",
+   "text": "所以我們大概都知道，"
+  },
+  {
+   "start": 272.43,
+   "end": 276.15,
+   "speaker": "Mooly",
+   "text": "就是網路其實牽涉到很多的東西，"
+  },
+  {
+   "start": 276.73,
+   "end": 277.15,
+   "speaker": "Mooly",
+   "text": "然後，"
+  },
+  {
+   "start": 277.15,
+   "end": 279.63,
+   "speaker": "Mooly",
+   "text": "不用 VPN 就不夠安全嗎？"
+  },
+  {
+   "start": 279.63,
+   "end": 282.45,
+   "speaker": "Mooly",
+   "text": "這個議題還蠻有趣的，"
+  },
+  {
+   "start": 282.45,
+   "end": 285.29,
+   "speaker": "Mooly",
+   "text": "然後它應該牽涉到很多不同的場景。"
+  },
+  {
+   "start": 285.74,
+   "end": 291.05,
+   "speaker": "Mooly",
+   "text": "那比如說，我們先從上網這件事情開始談好了，"
+  },
+  {
+   "start": 294.05,
+   "end": 295.59,
+   "speaker": "Mooly",
+   "text": "那一般來說，"
+  },
+  {
+   "start": 296.23,
+   "end": 298.99,
+   "speaker": "Mooly",
+   "text": "現在連網路都是 HTTPS，"
+  },
+  {
+   "start": 298.99,
+   "end": 301.51,
+   "speaker": "Mooly",
+   "text": "那個 S 是 secure，"
+  },
+  {
+   "start": 303.19,
+   "end": 305.55,
+   "speaker": "Mooly",
+   "text": "它其實不一定算 secure，"
+  },
+  {
+   "start": 305.55,
+   "end": 307.83,
+   "speaker": "Mooly",
+   "text": "它是什麼 HTTP over TLS 的那個，"
+  },
+  {
+   "start": 307.83,
+   "end": 310.67,
+   "speaker": "Mooly",
+   "text": "但它基本上是一個會幫你，"
+  },
+  {
+   "start": 310.67,
+   "end": 312.33,
+   "speaker": "Mooly",
+   "text": "已經會幫你加密的一個東西，"
+  },
+  {
+   "start": 313.31,
+   "end": 318.13,
+   "speaker": "Mooly",
+   "text": "所以我認為在假設你都連到 HTTPS 的場景下，"
+  },
+  {
+   "start": 318.71,
+   "end": 322.71,
+   "speaker": "Mooly",
+   "text": "有沒有 VPN 其實差別應該不大嗎？"
+  },
+  {
+   "start": 322.71,
+   "end": 324.77,
+   "speaker": "Mooly",
+   "text": "你認同這個說法嗎？"
+  },
+  {
+   "start": 324.77,
+   "end": 326.99,
+   "speaker": "Kalan",
+   "text": "我其實是認同的，"
+  },
+  {
+   "start": 326.99,
+   "end": 330.09,
+   "speaker": "Kalan",
+   "text": "就是這又會牽扯到另外一個議題，就是說，"
+  },
+  {
+   "start": 330.77,
+   "end": 334.53,
+   "speaker": "Kalan",
+   "text": "我看到有些人在宣傳，"
+  },
+  {
+   "start": 336.75,
+   "end": 340.39,
+   "speaker": "Kalan",
+   "text": "比如說像 NordVPN 之類的 VPN 服務的時候，他們會說，"
+  },
+  {
+   "start": 341.37,
+   "end": 346.43,
+   "speaker": "Kalan",
+   "text": "這樣一來，你用飯店的 Wi-Fi 或者是咖啡店的 Wi-Fi，"
+  },
+  {
+   "start": 346.43,
+   "end": 349.69,
+   "speaker": "Kalan",
+   "text": "也不用擔心資料被看光光，"
+  },
+  {
+   "start": 349.69,
+   "end": 353.31,
+   "speaker": "Kalan",
+   "text": "你就算在那種 Wi-Fi 環境下也是可以很安全的，"
+  },
+  {
+   "start": 353.31,
+   "end": 355.15,
+   "speaker": "Kalan",
+   "text": "比如說用你的銀行帳戶等等。"
+  },
+  {
+   "start": 356.93,
+   "end": 359.97,
+   "speaker": "Kalan",
+   "text": "我想要先聊聊看這一個，"
+  },
+  {
+   "start": 360.45,
+   "end": 362.07,
+   "speaker": "Kalan",
+   "text": "你覺得這個說法如何？"
+  },
+  {
+   "start": 362.89,
+   "end": 367.03,
+   "speaker": "Mooly",
+   "text": "我覺得這個說法不是那麼精確，"
+  },
+  {
+   "start": 368.51,
+   "end": 372.09,
+   "speaker": "Mooly",
+   "text": "因為假設我們連網路，先假設，"
+  },
+  {
+   "start": 372.09,
+   "end": 374.55,
+   "speaker": "Mooly",
+   "text": "假設我們連網路都用了 HTTPS，"
+  },
+  {
+   "start": 375.45,
+   "end": 379.95,
+   "speaker": "Mooly",
+   "text": "那我自己認為其實你有沒有用 VPN 應該差別不大，"
+  },
+  {
+   "start": 379.95,
+   "end": 381.55,
+   "speaker": "Mooly",
+   "text": "就像我們剛剛討論出來的那個，"
+  },
+  {
+   "start": 381.55,
+   "end": 382.67,
+   "speaker": "Mooly",
+   "text": "它差別應該不大，"
+  },
+  {
+   "start": 382.67,
+   "end": 385.99,
+   "speaker": "Mooly",
+   "text": "就是就算你用了不安全的 Wi-Fi，"
+  },
+  {
+   "start": 385.99,
+   "end": 388.13,
+   "speaker": "Mooly",
+   "text": "你用了特別拿來攻擊你的 Wi-Fi，"
+  },
+  {
+   "start": 388.13,
+   "end": 389.61,
+   "speaker": "Mooly",
+   "text": "就你先連到它好了，"
+  },
+  {
+   "start": 389.61,
+   "end": 393.13,
+   "speaker": "Mooly",
+   "text": "只要你有 HTTPS 的前提之下，"
+  },
+  {
+   "start": 393.13,
+   "end": 396.87,
+   "speaker": "Mooly",
+   "text": "再加上你沒有去信任一些奇怪的憑證的狀況下的話，"
+  },
+  {
+   "start": 397.31,
+   "end": 401.41,
+   "speaker": "Mooly",
+   "text": "你應該是不會被拿到任何資料的。"
+  },
+  {
+   "start": 401.41,
+   "end": 403.39,
+   "speaker": "Mooly",
+   "text": "你認同這個說法嗎？"
+  },
+  {
+   "start": 403.39,
+   "end": 404.31,
+   "speaker": "Kalan",
+   "text": "嗯，"
+  },
+  {
+   "start": 404.31,
+   "end": 405.51,
+   "speaker": "Kalan",
+   "text": "我認同。"
+  },
+  {
+   "start": 405.51,
+   "end": 408.77,
+   "speaker": "Kalan",
+   "text": "不過有一件事我其實還蠻好奇的，"
+  },
+  {
+   "start": 408.77,
+   "end": 414.25,
+   "speaker": "Kalan",
+   "text": "就是如果那個 Wi-Fi 是同一個 local network 的情況下，"
+  },
+  {
+   "start": 414.25,
+   "end": 416.87,
+   "speaker": "Kalan",
+   "text": "然後我自己的電腦是有，"
+  },
+  {
+   "start": 416.87,
+   "end": 419.19,
+   "speaker": "Kalan",
+   "text": "比如說我有在 local 開一些 port 出來，"
+  },
+  {
+   "start": 420.07,
+   "end": 423.01,
+   "speaker": "Kalan",
+   "text": "然後對方知道我的 local IP，"
+  },
+  {
+   "start": 423.01,
+   "end": 424.17,
+   "speaker": "Kalan",
+   "text": "他可能就隨便 try，"
+  },
+  {
+   "start": 424.63,
+   "end": 425.91,
+   "speaker": "Kalan",
+   "text": "然後又知道我的 port 的話，"
+  },
+  {
+   "start": 425.91,
+   "end": 429.53,
+   "speaker": "Kalan",
+   "text": "他其實是可以存取到我的那個服務的。"
+  },
+  {
+   "start": 430.07,
+   "end": 431.43,
+   "speaker": "Kalan",
+   "text": "比如說我開了一個，"
+  },
+  {
+   "start": 432.07,
+   "end": 432.59,
+   "speaker": "Kalan",
+   "text": "哇，"
+  },
+  {
+   "start": 433.23,
+   "end": 434.59,
+   "speaker": "Kalan",
+   "text": "一時想可能還想不到，"
+  },
+  {
+   "start": 435.43,
+   "end": 437.23,
+   "speaker": "Kalan",
+   "text": "就一個小服務，"
+  },
+  {
+   "start": 437.23,
+   "end": 439.71,
+   "speaker": "Kalan",
+   "text": "然後我可能開在 8080 port 上面，"
+  },
+  {
+   "start": 440.91,
+   "end": 441.43,
+   "speaker": "Kalan",
+   "text": "然後，"
+  },
+  {
+   "start": 441.97,
+   "end": 446.61,
+   "speaker": "Kalan",
+   "text": "欸，剛好我的 local IP 是可能 192.168.11.4，"
+  },
+  {
+   "start": 447.19,
+   "end": 448.57,
+   "speaker": "Kalan",
+   "text": "然後對方就，"
+  },
+  {
+   "start": 448.57,
+   "end": 449.91,
+   "speaker": "Kalan",
+   "text": "欸，我們在同一個 Wi-Fi，"
+  },
+  {
+   "start": 449.91,
+   "end": 455.43,
+   "speaker": "Kalan",
+   "text": "然後我們就，對方就用那個 URL 連到我的 port 裡面，"
+  },
+  {
+   "start": 455.95,
+   "end": 461.39,
+   "speaker": "Kalan",
+   "text": "這在 Wi-Fi 是同一個 network 的情況下應該是可以成的。"
+  },
+  {
+   "start": 461.39,
+   "end": 461.93,
+   "speaker": "Mooly",
+   "text": "可以可以。"
+  },
+  {
+   "start": 461.93,
+   "end": 465.77,
+   "speaker": "Mooly",
+   "text": "講到這個突然分享一個類似的好了，"
+  },
+  {
+   "start": 465.77,
+   "end": 470.29,
+   "speaker": "Mooly",
+   "text": "就是剛才講這個，就是反正假設我們有連同一個 Wi-Fi 的話，"
+  },
+  {
+   "start": 470.29,
+   "end": 471.15,
+   "speaker": "Mooly",
+   "text": "我們就可以，"
+  },
+  {
+   "start": 471.73,
+   "end": 476.37,
+   "speaker": "Mooly",
+   "text": "就是在同一個，基本上在同一個網路裡面你就不需要走到外面，"
+  },
+  {
+   "start": 476.37,
+   "end": 478.55,
+   "speaker": "Mooly",
+   "text": "比如說你就不需要走到中華電信的網路，"
+  },
+  {
+   "start": 478.55,
+   "end": 482.31,
+   "speaker": "Mooly",
+   "text": "因為你可以透過你的那個 Wi-Fi router，你就可以連到其他電腦，"
+  },
+  {
+   "start": 482.31,
+   "end": 484.41,
+   "speaker": "Mooly",
+   "text": "因為你們是同一個 local network 嘛。"
+  },
+  {
+   "start": 484.41,
+   "end": 488.09,
+   "speaker": "Mooly",
+   "text": "所以之前在工作上的時候，我還發現有些同事他會，"
+  },
+  {
+   "start": 488.83,
+   "end": 491.79,
+   "speaker": "Mooly",
+   "text": "比如說他可能有些人會習慣開發完之後，"
+  },
+  {
+   "start": 492.77,
+   "end": 495.87,
+   "speaker": "Mooly",
+   "text": "把目前的進度上到測試環境，"
+  },
+  {
+   "start": 495.87,
+   "end": 499.15,
+   "speaker": "Mooly",
+   "text": "然後你就可以直接去測試環境去叫那個 API 或什麼，"
+  },
+  {
+   "start": 499.57,
+   "end": 502.87,
+   "speaker": "Mooly",
+   "text": "然後我發現有些同事他會在他的 local 起一個服務，"
+  },
+  {
+   "start": 502.87,
+   "end": 505.49,
+   "speaker": "Mooly",
+   "text": "然後跟我講他的 local 的 IP，"
+  },
+  {
+   "start": 505.49,
+   "end": 508.09,
+   "speaker": "Mooly",
+   "text": "然後讓我直接去調他 local 的 API，"
+  },
+  {
+   "start": 508.09,
+   "end": 512.31,
+   "speaker": "Mooly",
+   "text": "這樣可以直接本地一起測試，"
+  },
+  {
+   "start": 512.31,
+   "end": 514.05,
+   "speaker": "Mooly",
+   "text": "我覺得蠻有趣的。"
+  },
+  {
+   "start": 514.05,
+   "end": 515.05,
+   "speaker": "Kalan",
+   "text": "但基本上，"
+  },
+  {
+   "start": 515.05,
+   "end": 516.59,
+   "speaker": "Kalan",
+   "text": "就如果你不是開發者的話，"
+  },
+  {
+   "start": 516.59,
+   "end": 519.87,
+   "speaker": "Kalan",
+   "text": "通常你不會每次在你的電腦裡面開 port，"
+  },
+  {
+   "start": 519.87,
+   "end": 523.15,
+   "speaker": "Kalan",
+   "text": "但其實有些服務它可能會偷偷開 port，或，"
+  },
+  {
+   "start": 523.15,
+   "end": 525.87,
+   "speaker": "Kalan",
+   "text": "然後你不知道的情況下，"
+  },
+  {
+   "start": 525.87,
+   "end": 529.69,
+   "speaker": "Kalan",
+   "text": "其實用 Wi-Fi 不管有沒有用 VPN 喔，"
+  },
+  {
+   "start": 529.69,
+   "end": 531.53,
+   "speaker": "Kalan",
+   "text": "都是有風險存在的。"
+  },
+  {
+   "start": 531.53,
+   "end": 534.29,
+   "speaker": "Kalan",
+   "text": "所以最好的建議就是，"
+  },
+  {
+   "start": 534.79,
+   "end": 536.41,
+   "speaker": "Kalan",
+   "text": "你要做這些事情的時候，"
+  },
+  {
+   "start": 536.41,
+   "end": 537.75,
+   "speaker": "Kalan",
+   "text": "不管有沒有 VPN，"
+  },
+  {
+   "start": 537.75,
+   "end": 542.73,
+   "speaker": "Kalan",
+   "text": "都不要用飯店的 Wi-Fi，或者是咖啡店、咖啡廳的 Wi-Fi。"
+  },
+  {
+   "start": 543.49,
+   "end": 545.93,
+   "speaker": "Mooly",
+   "text": "那這個我就好奇問一點，"
+  },
+  {
+   "start": 545.93,
+   "end": 550.05,
+   "speaker": "Mooly",
+   "text": "那如果有用 VPN 的話會有差別嗎？"
+  },
+  {
+   "start": 550.05,
+   "end": 550.81,
+   "speaker": "Kalan",
+   "text": "應該是，"
+  },
+  {
+   "start": 551.29,
+   "end": 552.09,
+   "speaker": "Kalan",
+   "text": "我想一下喔，"
+  },
+  {
+   "start": 552.09,
+   "end": 554.85,
+   "speaker": "Kalan",
+   "text": "別人如果連進來的話應該是沒有差別，"
+  },
+  {
+   "start": 554.85,
+   "end": 556.85,
+   "speaker": "Kalan",
+   "text": "但如果是你連出去的話，"
+  },
+  {
+   "start": 556.85,
+   "end": 557.91,
+   "speaker": "Kalan",
+   "text": "因為畢竟你的，"
+  },
+  {
+   "start": 558.63,
+   "end": 561.03,
+   "speaker": "Kalan",
+   "text": "你的 packet 都已經先被加密過了。"
+  },
+  {
+   "start": 561.03,
+   "end": 561.37,
+   "speaker": "Kalan",
+   "text": "所以，"
+  },
+  {
+   "start": 561.37,
+   "end": 566.83,
+   "speaker": "Kalan",
+   "text": "別人想看你的資料是看不到的，再加上剛剛講的 HTTPS 的部分，"
+  },
+  {
+   "start": 566.83,
+   "end": 568.37,
+   "speaker": "Kalan",
+   "text": "所以你也是看不到。"
+  },
+  {
+   "start": 568.37,
+   "end": 568.75,
+   "speaker": "Kalan",
+   "text": "所以，"
+  },
+  {
+   "start": 568.75,
+   "end": 571.13,
+   "speaker": "Kalan",
+   "text": "對啊，不管有沒有 VPN 應該都沒差，"
+  },
+  {
+   "start": 571.13,
+   "end": 573.27,
+   "speaker": "Kalan",
+   "text": "別人還是可以存取到你的 port，"
+  },
+  {
+   "start": 573.27,
+   "end": 576.07,
+   "speaker": "Mooly",
+   "text": "因為 VPN 是連出去嘛。"
+  },
+  {
+   "start": 576.07,
+   "end": 578.99,
+   "speaker": "Mooly",
+   "text": "但剛剛講的情境是別人連進來，"
+  },
+  {
+   "start": 578.99,
+   "end": 580.63,
+   "speaker": "Mooly",
+   "text": "這個好像有沒有用 VPN，"
+  },
+  {
+   "start": 581.13,
+   "end": 582.49,
+   "speaker": "Mooly",
+   "text": "就沒有太大差別。"
+  },
+  {
+   "start": 582.49,
+   "end": 583.07,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 583.07,
+   "end": 584.59,
+   "speaker": "Kalan",
+   "text": "然後另外一個，"
+  },
+  {
+   "start": 585.41,
+   "end": 590.31,
+   "speaker": "Kalan",
+   "text": "可能用 VPN 會有差別的就是 DNS query。"
+  },
+  {
+   "start": 591.37,
+   "end": 596.65,
+   "speaker": "Kalan",
+   "text": "DNS query 其實是網路上一種查詢電話簿的動作，"
+  },
+  {
+   "start": 596.65,
+   "end": 598.13,
+   "speaker": "Kalan",
+   "text": "比如說我要打電話給 Mooly，"
+  },
+  {
+   "start": 598.13,
+   "end": 600.83,
+   "speaker": "Kalan",
+   "text": "那你不需要記得他的電話號碼，"
+  },
+  {
+   "start": 600.83,
+   "end": 602.83,
+   "speaker": "Kalan",
+   "text": "你只要查電話簿，"
+  },
+  {
+   "start": 602.83,
+   "end": 605.75,
+   "speaker": "Kalan",
+   "text": "然後你就會看到 Mooly 這個名字。"
+  },
+  {
+   "start": 605.75,
+   "end": 608.81,
+   "speaker": "Kalan",
+   "text": "那其實網頁也是一樣的，"
+  },
+  {
+   "start": 608.81,
+   "end": 611.73,
+   "speaker": "Kalan",
+   "text": "就是我們通常都會去記得一個網址，"
+  },
+  {
+   "start": 611.73,
+   "end": 613.39,
+   "speaker": "Kalan",
+   "text": "而不會去記得它的 IP。"
+  },
+  {
+   "start": 613.39,
+   "end": 617.35,
+   "speaker": "Kalan",
+   "text": "那其實在傳封包的時候，我們需要的是 IP，"
+  },
+  {
+   "start": 617.35,
+   "end": 620.53,
+   "speaker": "Kalan",
+   "text": "那這個時候電腦就會幫你做一個叫做"
+  },
+  {
+   "start": 620.53,
+   "end": 621.87,
+   "speaker": "Kalan",
+   "text": "DNS query 的動作，"
+  },
+  {
+   "start": 621.87,
+   "end": 625.75,
+   "speaker": "Kalan",
+   "text": "那它有點像是去問 DNS 伺服器說，"
+  },
+  {
+   "start": 625.75,
+   "end": 628.63,
+   "speaker": "Kalan",
+   "text": "請問這個網址的 IP 是多少？"
+  },
+  {
+   "start": 628.63,
+   "end": 632.13,
+   "speaker": "Kalan",
+   "text": "他們收到這個請求之後，就會回傳對應的 IP，"
+  },
+  {
+   "start": 632.13,
+   "end": 636.17,
+   "speaker": "Kalan",
+   "text": "那你就可以連到正確的網站。"
+  },
+  {
+   "start": 637.23,
+   "end": 639.13,
+   "speaker": "Kalan",
+   "text": "那據我所知啦，"
+  },
+  {
+   "start": 639.13,
+   "end": 640.69,
+   "speaker": "Kalan",
+   "text": "DNS query 應該是，"
+  },
+  {
+   "start": 640.69,
+   "end": 643.97,
+   "speaker": "Kalan",
+   "text": "通常是沒有加密、沒有 HTTPS 的，"
+  },
+  {
+   "start": 643.97,
+   "end": 646.49,
+   "speaker": "Mooly",
+   "text": "但通常似乎是沒有，沒錯。"
+  },
+  {
+   "start": 647.17,
+   "end": 649.03,
+   "speaker": "Kalan",
+   "text": "現在好像很流行，"
+  },
+  {
+   "start": 649.03,
+   "end": 649.97,
+   "speaker": "Kalan",
+   "text": "也不是很流行，"
+  },
+  {
+   "start": 649.97,
+   "end": 654.31,
+   "speaker": "Kalan",
+   "text": "就是有那個 DNS query 然後 over HTTPS 的。"
+  },
+  {
+   "start": 654.31,
+   "end": 655.51,
+   "speaker": "Mooly",
+   "text": "對對，沒錯沒錯。"
+  },
+  {
+   "start": 656.69,
+   "end": 662.67,
+   "speaker": "Kalan",
+   "text": "那這部分的話，就會是一個你用 VPN 有差的地方，"
+  },
+  {
+   "start": 662.67,
+   "end": 668.03,
+   "speaker": "Kalan",
+   "text": "就如果你的那個 DNS query 的那個 server 是想要監控你，"
+  },
+  {
+   "start": 668.03,
+   "end": 670.67,
+   "speaker": "Kalan",
+   "text": "想要監控，或者它有記錄的話呢，"
+  },
+  {
+   "start": 670.67,
+   "end": 676.17,
+   "speaker": "Kalan",
+   "text": "那有用 VPN 的確還是有差，因為它如果在沒有用 HTTPS 的情況下，"
+  },
+  {
+   "start": 676.89,
+   "end": 677.77,
+   "speaker": "Kalan",
+   "text": "你的那個"
+  },
+  {
+   "start": 678.35,
+   "end": 681.31,
+   "speaker": "Kalan",
+   "text": "封包的資訊基本上就是裸奔的，沒錯。"
+  },
+  {
+   "start": 681.31,
+   "end": 683.99,
+   "speaker": "Mooly",
+   "text": "對，這個這個我覺得我們可以聊詳細一點，"
+  },
+  {
+   "start": 683.99,
+   "end": 687.09,
+   "speaker": "Mooly",
+   "text": "因為這個我昨天有做了一下功課，覺得"
+  },
+  {
+   "start": 687.09,
+   "end": 688.79,
+   "speaker": "Mooly",
+   "text": "它是一個蠻有趣的議題。"
+  },
+  {
+   "start": 688.79,
+   "end": 692.55,
+   "speaker": "Mooly",
+   "text": "因為我們可以先從那個 HTTPS 開始，"
+  },
+  {
+   "start": 693.85,
+   "end": 699.31,
+   "speaker": "Mooly",
+   "text": "那剛剛其實一直有提到，這個 HTTPS 是一個基本上很安全的東西，"
+  },
+  {
+   "start": 699.31,
+   "end": 701.21,
+   "speaker": "Mooly",
+   "text": "你如果有走這個協定的話，"
+  },
+  {
+   "start": 701.21,
+   "end": 703.27,
+   "speaker": "Mooly",
+   "text": "你的封包就都是加密的。"
+  },
+  {
+   "start": 703.27,
+   "end": 706.41,
+   "speaker": "Mooly",
+   "text": "那我不知道愷愷有沒有研究過它的加密，"
+  },
+  {
+   "start": 706.41,
+   "end": 709.15,
+   "speaker": "Mooly",
+   "text": "是真的整個封包都加密嗎？"
+  },
+  {
+   "start": 709.15,
+   "end": 712.43,
+   "speaker": "Mooly",
+   "text": "還是其實還是有一些資訊可以透露出去？"
+  },
+  {
+   "start": 712.43,
+   "end": 714.73,
+   "speaker": "Mooly",
+   "text": "或是我們直接舉一個情境好了，"
+  },
+  {
+   "start": 714.73,
+   "end": 715.91,
+   "speaker": "Mooly",
+   "text": "假設現在，"
+  },
+  {
+   "start": 715.91,
+   "end": 719.15,
+   "speaker": "Mooly",
+   "text": "你發一個 GET 的請求，"
+  },
+  {
+   "start": 719.65,
+   "end": 728.01,
+   "speaker": "Mooly",
+   "text": "然後你發到 google.com 的，你的 Gmail 地址好了，比如說它可能就是 google.com，然後 slash，然後什麼你的 Gmail，"
+  },
+  {
+   "start": 728.51,
+   "end": 730.03,
+   "speaker": "Mooly",
+   "text": "Gmail 的地址，"
+  },
+  {
+   "start": 730.03,
+   "end": 734.81,
+   "speaker": "Mooly",
+   "text": "先假設它是這樣子好了，它可能帶在 query string，就是 gmail.com，"
+  },
+  {
+   "start": 734.81,
+   "end": 737.33,
+   "speaker": "Mooly",
+   "text": "然後問號 email 等於什麼什麼什麼，"
+  },
+  {
+   "start": 737.33,
+   "end": 740.71,
+   "speaker": "Mooly",
+   "text": "假設這個是一個 HTTPS 的 request。"
+  },
+  {
+   "start": 741.21,
+   "end": 744.45,
+   "speaker": "Mooly",
+   "text": "那你今天傳這個封包的時候，"
+  },
+  {
+   "start": 745.21,
+   "end": 752.03,
+   "speaker": "Mooly",
+   "text": "它哪一些部分是加密的，哪一些部分可能是沒有加密的，還是全部都有加密的？"
+  },
+  {
+   "start": 752.03,
+   "end": 755.87,
+   "speaker": "Kalan",
+   "text": "喔，這個問題問得真好。"
+  },
+  {
+   "start": 755.87,
+   "end": 762.77,
+   "speaker": "Mooly",
+   "text": "沒關係，你可以憑直覺回答，這個不一定要答對，因為我大概知道正確答案可能是什麼。"
+  },
+  {
+   "start": 762.77,
+   "end": 763.73,
+   "speaker": "Kalan",
+   "text": "OK，好。"
+  },
+  {
+   "start": 764.39,
+   "end": 768.47,
+   "speaker": "Kalan",
+   "text": "以我目前的理解，是因為封包它本身會，"
+  },
+  {
+   "start": 769.21,
+   "end": 771.63,
+   "speaker": "Kalan",
+   "text": "最後會變成 IP 嘛，"
+  },
+  {
+   "start": 771.63,
+   "end": 772.25,
+   "speaker": "Kalan",
+   "text": "所以，"
+  },
+  {
+   "start": 773.21,
+   "end": 774.83,
+   "speaker": "Kalan",
+   "text": "欸，不對啊，那這樣一來，"
+  },
+  {
+   "start": 775.53,
+   "end": 777.69,
+   "speaker": "Kalan",
+   "text": "其實都是加密的。"
+  },
+  {
+   "start": 777.69,
+   "end": 785.19,
+   "speaker": "Mooly",
+   "text": "就是說，如果有人攔截到這個封包，它其實也看不到我剛剛講的那些資訊嘛。"
+  },
+  {
+   "start": 785.19,
+   "end": 785.93,
+   "speaker": "Mooly",
+   "text": "它，"
+  },
+  {
+   "start": 785.93,
+   "end": 790.29,
+   "speaker": "Kalan",
+   "text": "應該會看得到要送去哪個 IP 位置，"
+  },
+  {
+   "start": 790.29,
+   "end": 790.61,
+   "speaker": "Kalan",
+   "text": "跟，"
+  },
+  {
+   "start": 790.61,
+   "end": 792.83,
+   "speaker": "Kalan",
+   "text": "就是接收方跟，"
+  },
+  {
+   "start": 792.83,
+   "end": 794.63,
+   "speaker": "Kalan",
+   "text": "發送方的 IP 位置。"
+  },
+  {
+   "start": 794.63,
+   "end": 795.97,
+   "speaker": "Mooly",
+   "text": "對，然後其他都看不到。"
+  },
+  {
+   "start": 796.99,
+   "end": 797.39,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 798.05,
+   "end": 800.27,
+   "speaker": "Mooly",
+   "text": "對，這個大致上對了。"
+  },
+  {
+   "start": 800.27,
+   "end": 801.97,
+   "speaker": "Mooly",
+   "text": "但是有一個東西，"
+  },
+  {
+   "start": 803.07,
+   "end": 804.55,
+   "speaker": "Mooly",
+   "text": "要特別注意的是，"
+  },
+  {
+   "start": 805.77,
+   "end": 810.55,
+   "speaker": "Mooly",
+   "text": "因為 HTTPS 它有一個情境是，假設，"
+  },
+  {
+   "start": 810.55,
+   "end": 814.01,
+   "speaker": "Mooly",
+   "text": "因為剛剛說我們可以知道它的 IP 位置嘛，對吧？"
+  },
+  {
+   "start": 815.63,
+   "end": 820.01,
+   "speaker": "Mooly",
+   "text": "那 HTTPS 的那個憑證，它不是以那個 domain 來分的嗎？"
+  },
+  {
+   "start": 820.01,
+   "end": 822.25,
+   "speaker": "Mooly",
+   "text": "就比如說你 google.com 可能是一個憑證，"
+  },
+  {
+   "start": 822.25,
+   "end": 823.17,
+   "speaker": "Mooly",
+   "text": "你可能，"
+  },
+  {
+   "start": 823.61,
+   "end": 828.31,
+   "speaker": "Mooly",
+   "text": "比如說像 google 還有什麼 gstatic.com 或什麼 gmail.com，如果有的話，"
+  },
+  {
+   "start": 828.31,
+   "end": 831.75,
+   "speaker": "Mooly",
+   "text": "它也會是不同的憑證嘛。"
+  },
+  {
+   "start": 832.99,
+   "end": 834.39,
+   "speaker": "Mooly",
+   "text": "那今天假設，"
+  },
+  {
+   "start": 835.31,
+   "end": 836.79,
+   "speaker": "Mooly",
+   "text": "它都放到同一個 IP，"
+  },
+  {
+   "start": 838.93,
+   "end": 842.99,
+   "speaker": "Mooly",
+   "text": "那它在那個 IP 上面有不同的 service，"
+  },
+  {
+   "start": 843.67,
+   "end": 847.19,
+   "speaker": "Mooly",
+   "text": "那它要怎麼知道你現在用的是哪一個 service？"
+  },
+  {
+   "start": 847.93,
+   "end": 851.75,
+   "speaker": "Mooly",
+   "text": "就是它要怎麼知道，你 server 端那邊要怎麼知道你現在哪，"
+  },
+  {
+   "start": 851.75,
+   "end": 854.39,
+   "speaker": "Mooly",
+   "text": "要拿的是哪一個 domain 的憑證？"
+  },
+  {
+   "start": 854.39,
+   "end": 858.55,
+   "speaker": "Mooly",
+   "text": "所以它其實在 HTTPS 一開始的階段的時候，"
+  },
+  {
+   "start": 859.15,
+   "end": 865.07,
+   "speaker": "Mooly",
+   "text": "它會有一個叫做 SNI，好像叫什麼 server name indication 之類的，"
+  },
+  {
+   "start": 865.07,
+   "end": 870.93,
+   "speaker": "Mooly",
+   "text": "然後它這個欄位裡面會帶一個 domain 的 host，"
+  },
+  {
+   "start": 872.59,
+   "end": 874.47,
+   "speaker": "Mooly",
+   "text": "所以它可能帶的是 google.com，"
+  },
+  {
+   "start": 874.47,
+   "end": 879.11,
+   "speaker": "Mooly",
+   "text": "那這樣子 server 那邊就可以知道說，你是要來跟 google.com 做這個"
+  },
+  {
+   "start": 879.75,
+   "end": 882.89,
+   "speaker": "Mooly",
+   "text": "TLS 的這個連線。"
+  },
+  {
+   "start": 883.45,
+   "end": 885.63,
+   "speaker": "Mooly",
+   "text": "所以你如果有抓到那個封包的話，"
+  },
+  {
+   "start": 885.63,
+   "end": 888.17,
+   "speaker": "Mooly",
+   "text": "它可能會在封包裡面，你可能看得到，"
+  },
+  {
+   "start": 888.17,
+   "end": 890.45,
+   "speaker": "Mooly",
+   "text": "你現在要連線的 domain 是哪一個。"
+  },
+  {
+   "start": 891.31,
+   "end": 892.51,
+   "speaker": "Kalan",
+   "text": "喔，了解。"
+  },
+  {
+   "start": 892.51,
+   "end": 894.81,
+   "speaker": "Mooly",
+   "text": "但是這個東西呢，"
+  },
+  {
+   "start": 894.81,
+   "end": 896.99,
+   "speaker": "Mooly",
+   "text": "它後來因為它沒有加密嘛，"
+  },
+  {
+   "start": 896.99,
+   "end": 901.93,
+   "speaker": "Mooly",
+   "text": "所以這個東西後來又有了一個叫做 ESNI，就是 encrypted SNI，"
+  },
+  {
+   "start": 901.93,
+   "end": 904.67,
+   "speaker": "Mooly",
+   "text": "就是它會把這個東西也給加密。"
+  },
+  {
+   "start": 904.67,
+   "end": 908.81,
+   "speaker": "Mooly",
+   "text": "那它整個加密完之後，你如果拿到封包，你確實什麼都看不到。"
+  },
+  {
+   "start": 908.81,
+   "end": 913.79,
+   "speaker": "Mooly",
+   "text": "所以 HTTPS 的細節大概是這樣。"
+  },
+  {
+   "start": 913.79,
+   "end": 917.63,
+   "speaker": "Mooly",
+   "text": "就是說，假設你如果沒有那個 ESNI 的那個東西的話，"
+  },
+  {
+   "start": 918.27,
+   "end": 921.53,
+   "speaker": "Mooly",
+   "text": "如果被攔截到的封包，它可能可以看到你連去哪裡，"
+  },
+  {
+   "start": 921.53,
+   "end": 927.79,
+   "speaker": "Mooly",
+   "text": "那看到你連去哪裡，這個其實就是一個，也算是資料蒐集的一部分，"
+  },
+  {
+   "start": 927.79,
+   "end": 932.13,
+   "speaker": "Mooly",
+   "text": "就是說，它就可以針對這個去做一些資料的蒐集。"
+  },
+  {
+   "start": 932.13,
+   "end": 933.03,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 934.13,
+   "end": 935.39,
+   "speaker": "Kalan",
+   "text": "原來是這樣，這個，"
+  },
+  {
+   "start": 936.15,
+   "end": 937.43,
+   "speaker": "Kalan",
+   "text": "我之前不知道。"
+  },
+  {
+   "start": 937.91,
+   "end": 941.81,
+   "speaker": "Mooly",
+   "text": "對，這個我之前也是好像大致有聽過，但，"
+  },
+  {
+   "start": 942.35,
+   "end": 944.71,
+   "speaker": "Mooly",
+   "text": "後來去稍微查一下才更懂。"
+  },
+  {
+   "start": 944.71,
+   "end": 945.93,
+   "speaker": "Mooly",
+   "text": "所以其實，"
+  },
+  {
+   "start": 945.93,
+   "end": 948.91,
+   "speaker": "Mooly",
+   "text": "但也還有一個類似的是，其實就算你"
+  },
+  {
+   "start": 949.33,
+   "end": 950.19,
+   "speaker": "Mooly",
+   "text": "HTTPS"
+  },
+  {
+   "start": 950.61,
+   "end": 952.29,
+   "speaker": "Mooly",
+   "text": "有做這樣子的加密了，"
+  },
+  {
+   "start": 952.29,
+   "end": 954.83,
+   "speaker": "Mooly",
+   "text": "但剛剛愷愷還有講一個那個 DNS 嘛。"
+  },
+  {
+   "start": 954.83,
+   "end": 958.09,
+   "speaker": "Mooly",
+   "text": "DNS 基本上就是，比如說我要訪問 google.com 的時候，我其實"
+  },
+  {
+   "start": 958.81,
+   "end": 961.15,
+   "speaker": "Mooly",
+   "text": "真的去連線的是，發到，發"
+  },
+  {
+   "start": 961.15,
+   "end": 962.87,
+   "speaker": "Mooly",
+   "text": "發封包到它的 IP 位置，"
+  },
+  {
+   "start": 962.87,
+   "end": 964.25,
+   "speaker": "Mooly",
+   "text": "那這個時候呢，"
+  },
+  {
+   "start": 964.25,
+   "end": 966.25,
+   "speaker": "Mooly",
+   "text": "我就會需要先讓，知道它的 IP 位置，"
+  },
+  {
+   "start": 966.25,
+   "end": 968.59,
+   "speaker": "Mooly",
+   "text": "我就會需要先用 DNS 去查詢說，"
+  },
+  {
+   "start": 969.07,
+   "end": 970.59,
+   "speaker": "Mooly",
+   "text": "google.com 的 IP 位置是什麼。"
+  },
+  {
+   "start": 970.59,
+   "end": 972.59,
+   "speaker": "Mooly",
+   "text": "那如果這個東西沒有加密的話，"
+  },
+  {
+   "start": 973.17,
+   "end": 975.99,
+   "speaker": "Mooly",
+   "text": "中間有攔截到封包的，一樣會知道"
+  },
+  {
+   "start": 976.71,
+   "end": 978.91,
+   "speaker": "Mooly",
+   "text": "我要訪問哪一個網頁。"
+  },
+  {
+   "start": 978.91,
+   "end": 986.25,
+   "speaker": "Mooly",
+   "text": "所以確實也像愷愷講的，後來也有什麼 DNS over HTTPS、over TLS 等等的東西，把"
+  },
+  {
+   "start": 986.25,
+   "end": 987.95,
+   "speaker": "Mooly",
+   "text": "這一段的加密也做起來。"
+  },
+  {
+   "start": 987.95,
+   "end": 992.49,
+   "speaker": "Mooly",
+   "text": "所以如果全部都有做的話，理論上確實你在中間，"
+  },
+  {
+   "start": 993.15,
+   "end": 998.49,
+   "speaker": "Mooly",
+   "text": "中間經過的那個網路裡面，它確實拿不到你任何東西。"
+  },
+  {
+   "start": 999.09,
+   "end": 1000.45,
+   "speaker": "Kalan",
+   "text": "喔，了解。"
+  },
+  {
+   "start": 1001.55,
+   "end": 1005.07,
+   "speaker": "Kalan",
+   "text": "這讓我覺得蠻有趣的一點是，"
+  },
+  {
+   "start": 1005.66,
+   "end": 1014.23,
+   "speaker": "Kalan",
+   "text": "就是我們的網路其實是蠻有意識地在做去中心化這件事情，"
+  },
+  {
+   "start": 1015.35,
+   "end": 1019.81,
+   "speaker": "Kalan",
+   "text": "然後 VPN service 的感覺反而又有點像是"
+  },
+  {
+   "start": 1019.81,
+   "end": 1025.03,
+   "speaker": "Kalan",
+   "text": "想要把那個去中心化的信任把它放，"
+  },
+  {
+   "start": 1025.03,
+   "end": 1029.05,
+   "speaker": "Kalan",
+   "text": "就原本你的信任是信任說這一群，"
+  },
+  {
+   "start": 1029.65,
+   "end": 1031.49,
+   "speaker": "Kalan",
+   "text": "就是我相信 HTTPS，"
+  },
+  {
+   "start": 1032.37,
+   "end": 1038.79,
+   "speaker": "Kalan",
+   "text": "然後我可能就不相信那些我傳送的封包的那些路由器等等，"
+  },
+  {
+   "start": 1039.29,
+   "end": 1040.49,
+   "speaker": "Kalan",
+   "text": "因為有可能會被監聽，"
+  },
+  {
+   "start": 1040.49,
+   "end": 1044.37,
+   "speaker": "Kalan",
+   "text": "那現在我們是相信一個這個中心化的服務，"
+  },
+  {
+   "start": 1044.37,
+   "end": 1045.75,
+   "speaker": "Kalan",
+   "text": "就相信 VPN 嘛，"
+  },
+  {
+   "start": 1045.75,
+   "end": 1047.29,
+   "speaker": "Kalan",
+   "text": "那相信 VPN 不會亂搞。"
+  },
+  {
+   "start": 1047.73,
+   "end": 1048.17,
+   "speaker": "Kalan",
+   "text": "那，"
+  },
+  {
+   "start": 1048.17,
+   "end": 1050.91,
+   "speaker": "Kalan",
+   "text": "我想要問一下 Mooly，你的看法是什麼？"
+  },
+  {
+   "start": 1051.45,
+   "end": 1053.99,
+   "speaker": "Mooly",
+   "text": "我覺得剛剛講的有一點蠻對的，"
+  },
+  {
+   "start": 1054.53,
+   "end": 1063.77,
+   "speaker": "Mooly",
+   "text": "其實我覺得用 VPN，它其實某種程度上它只是把你的信任從你的 ISP，"
+  },
+  {
+   "start": 1063.77,
+   "end": 1065.63,
+   "speaker": "Mooly",
+   "text": "就是 Internet Service Provider，"
+  },
+  {
+   "start": 1065.63,
+   "end": 1068.21,
+   "speaker": "Mooly",
+   "text": "比如說把我的信任從中華電信或什麼，"
+  },
+  {
+   "start": 1068.21,
+   "end": 1070.65,
+   "speaker": "Mooly",
+   "text": "轉移到 VPN 上面去，"
+  },
+  {
+   "start": 1070.65,
+   "end": 1072.67,
+   "speaker": "Mooly",
+   "text": "就我可能更相信 VPN，"
+  },
+  {
+   "start": 1072.67,
+   "end": 1076.39,
+   "speaker": "Mooly",
+   "text": "因為 VPN 不會亂搞我的資料或什麼的。"
+  },
+  {
+   "start": 1076.39,
+   "end": 1077.69,
+   "speaker": "Mooly",
+   "text": "這個可能是一點，"
+  },
+  {
+   "start": 1079.03,
+   "end": 1081.29,
+   "speaker": "Mooly",
+   "text": "然後去中心化這個的話，"
+  },
+  {
+   "start": 1081.81,
+   "end": 1087.31,
+   "speaker": "Mooly",
+   "text": "我覺得就要再想一下去中心化的定義是什麼。"
+  },
+  {
+   "start": 1087.31,
+   "end": 1089.07,
+   "speaker": "Mooly",
+   "text": "這我剛剛有稍微想了一下，"
+  },
+  {
+   "start": 1089.07,
+   "end": 1092.35,
+   "speaker": "Mooly",
+   "text": "就是怎樣可以叫做去中心化，"
+  },
+  {
+   "start": 1093.73,
+   "end": 1100.59,
+   "speaker": "Mooly",
+   "text": "就是如果是網路建設的這個部分的話，感覺是蠻去中心化的，"
+  },
+  {
+   "start": 1100.59,
+   "end": 1102.69,
+   "speaker": "Mooly",
+   "text": "就你有很多不同的節點存在，"
+  },
+  {
+   "start": 1103.35,
+   "end": 1106.15,
+   "speaker": "Mooly",
+   "text": "但是因為我剛剛突然想到，網路的其中一些環節"
+  },
+  {
+   "start": 1106.15,
+   "end": 1107.29,
+   "speaker": "Mooly",
+   "text": "其實是很中心化的，"
+  },
+  {
+   "start": 1107.29,
+   "end": 1108.93,
+   "speaker": "Mooly",
+   "text": "像是那個憑證的部分。"
+  },
+  {
+   "start": 1109.39,
+   "end": 1111.65,
+   "speaker": "Mooly",
+   "text": "憑證部分就很中心化。"
+  },
+  {
+   "start": 1112.41,
+   "end": 1113.21,
+   "speaker": "Kalan",
+   "text": "喔，欸，"
+  },
+  {
+   "start": 1114.35,
+   "end": 1117.69,
+   "speaker": "Kalan",
+   "text": "對欸，憑證的部分很中心化。"
+  },
+  {
+   "start": 1117.69,
+   "end": 1120.67,
+   "speaker": "Kalan",
+   "text": "欸，那你要不要稍微講一下這個就是憑證？"
+  },
+  {
+   "start": 1121.85,
+   "end": 1123.69,
+   "speaker": "Mooly",
+   "text": "憑證的話，就是剛有提到說，"
+  },
+  {
+   "start": 1123.69,
+   "end": 1126.75,
+   "speaker": "Mooly",
+   "text": "HTTPS 它之所以可以加密，"
+  },
+  {
+   "start": 1126.75,
+   "end": 1129.11,
+   "speaker": "Mooly",
+   "text": "它最主要就是靠那個憑證，"
+  },
+  {
+   "start": 1129.11,
+   "end": 1130.09,
+   "speaker": "Mooly",
+   "text": "就是說你的，"
+  },
+  {
+   "start": 1130.09,
+   "end": 1134.35,
+   "speaker": "Mooly",
+   "text": "它的加密就是你要連線的 server 會提供一個證書，"
+  },
+  {
+   "start": 1134.35,
+   "end": 1138.81,
+   "speaker": "Mooly",
+   "text": "然後那個證書上面會有它那些加密的 key，"
+  },
+  {
+   "start": 1138.81,
+   "end": 1141.13,
+   "speaker": "Mooly",
+   "text": "然後它可以用那些東西去加密解密。"
+  },
+  {
+   "start": 1141.13,
+   "end": 1143.91,
+   "speaker": "Mooly",
+   "text": "所以你只要沒有那個 secret key 的話，"
+  },
+  {
+   "start": 1143.91,
+   "end": 1145.21,
+   "speaker": "Mooly",
+   "text": "你就不會，"
+  },
+  {
+   "start": 1145.67,
+   "end": 1148.53,
+   "speaker": "Mooly",
+   "text": "就算你攔截到流量，你也解不開那個加密的封包，"
+  },
+  {
+   "start": 1148.53,
+   "end": 1149.81,
+   "speaker": "Mooly",
+   "text": "所以你就不會知道內容是什麼。"
+  },
+  {
+   "start": 1150.57,
+   "end": 1151.91,
+   "speaker": "Mooly",
+   "text": "那下一個問題就是，"
+  },
+  {
+   "start": 1151.91,
+   "end": 1153.89,
+   "speaker": "Mooly",
+   "text": "那我的電腦要怎麼知道，"
+  },
+  {
+   "start": 1155.27,
+   "end": 1158.47,
+   "speaker": "Mooly",
+   "text": "這個 server 傳給我的憑證是真的，"
+  },
+  {
+   "start": 1158.47,
+   "end": 1160.25,
+   "speaker": "Mooly",
+   "text": "不是中間人？"
+  },
+  {
+   "start": 1160.25,
+   "end": 1160.67,
+   "speaker": "Mooly",
+   "text": "就是說，"
+  },
+  {
+   "start": 1160.67,
+   "end": 1163.19,
+   "speaker": "Mooly",
+   "text": "假設有 hacker 竊聽網路，"
+  },
+  {
+   "start": 1163.19,
+   "end": 1165.05,
+   "speaker": "Mooly",
+   "text": "他就傳給你一個假的封包說，"
+  },
+  {
+   "start": 1165.05,
+   "end": 1166.17,
+   "speaker": "Mooly",
+   "text": "我是 Google，"
+  },
+  {
+   "start": 1166.17,
+   "end": 1168.65,
+   "speaker": "Mooly",
+   "text": "然後這個是我的憑證，那請相信他，"
+  },
+  {
+   "start": 1168.65,
+   "end": 1171.17,
+   "speaker": "Mooly",
+   "text": "那我電腦要怎麼知道這件事情？"
+  },
+  {
+   "start": 1171.17,
+   "end": 1174.63,
+   "speaker": "Mooly",
+   "text": "那他的那個原因其實就是，"
+  },
+  {
+   "start": 1174.63,
+   "end": 1178.17,
+   "speaker": "Mooly",
+   "text": "你的電腦裡面已經有內建好一些，"
+  },
+  {
+   "start": 1178.71,
+   "end": 1182.45,
+   "speaker": "Mooly",
+   "text": "我們叫做 root certificate，就是根憑證。"
+  },
+  {
+   "start": 1182.45,
+   "end": 1185.01,
+   "speaker": "Mooly",
+   "text": "就是他的憑證其實是一層一層的，"
+  },
+  {
+   "start": 1185.01,
+   "end": 1190.03,
+   "speaker": "Mooly",
+   "text": "就是他有一個最高的憑證管理組織，"
+  },
+  {
+   "start": 1190.03,
+   "end": 1192.73,
+   "speaker": "Mooly",
+   "text": "然後他會簽一批憑證，"
+  },
+  {
+   "start": 1192.73,
+   "end": 1194.47,
+   "speaker": "Mooly",
+   "text": "給你可以講成第二層，"
+  },
+  {
+   "start": 1194.47,
+   "end": 1196.49,
+   "speaker": "Mooly",
+   "text": "然後第二層再簽發給第三層，"
+  },
+  {
+   "start": 1196.49,
+   "end": 1200.73,
+   "speaker": "Mooly",
+   "text": "這幾層是可以那種算是互相驗證的關係吧。"
+  },
+  {
+   "start": 1200.73,
+   "end": 1203.55,
+   "speaker": "Mooly",
+   "text": "所以你的電腦當收到某一個憑證的時候，"
+  },
+  {
+   "start": 1203.55,
+   "end": 1207.95,
+   "speaker": "Mooly",
+   "text": "它就可以去電腦裡面的那些根憑證查詢說，"
+  },
+  {
+   "start": 1207.95,
+   "end": 1209.51,
+   "speaker": "Mooly",
+   "text": "欸，這個憑證是不是真的，"
+  },
+  {
+   "start": 1209.97,
+   "end": 1212.75,
+   "speaker": "Mooly",
+   "text": "然後是真的話就讓它過，這樣子。"
+  },
+  {
+   "start": 1212.75,
+   "end": 1215.75,
+   "speaker": "Mooly",
+   "text": "所以這為什麼是很中心化的一件事情？"
+  },
+  {
+   "start": 1215.75,
+   "end": 1221.13,
+   "speaker": "Mooly",
+   "text": "就是假設你最原始的那個發這個憑證的組織如果被攻破的話，"
+  },
+  {
+   "start": 1221.13,
+   "end": 1221.87,
+   "speaker": "Mooly",
+   "text": "那基本上，"
+  },
+  {
+   "start": 1221.87,
+   "end": 1224.23,
+   "speaker": "Mooly",
+   "text": "HTTPS 也不安全。"
+  },
+  {
+   "start": 1226.01,
+   "end": 1226.89,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 1227.53,
+   "end": 1229.09,
+   "speaker": "Kalan",
+   "text": "就是你用 Chrome 的時候，"
+  },
+  {
+   "start": 1229.65,
+   "end": 1233.11,
+   "speaker": "Kalan",
+   "text": "比如說你去存取某個網站，比如說維基百科好了，"
+  },
+  {
+   "start": 1233.67,
+   "end": 1236.37,
+   "speaker": "Kalan",
+   "text": "那你的那個鎖頭基本上就是綠綠的，"
+  },
+  {
+   "start": 1236.87,
+   "end": 1238.31,
+   "speaker": "Kalan",
+   "text": "不知道大家有沒有注意到。"
+  },
+  {
+   "start": 1238.31,
+   "end": 1242.29,
+   "speaker": "Kalan",
+   "text": "但有時候你可能存取到一些網站，它的鎖頭就是紅紅的，"
+  },
+  {
+   "start": 1242.75,
+   "end": 1244.81,
+   "speaker": "Kalan",
+   "text": "但是它確實是 HTTPS，"
+  },
+  {
+   "start": 1245.21,
+   "end": 1248.53,
+   "speaker": "Kalan",
+   "text": "然後它跟你說這個憑證是，"
+  },
+  {
+   "start": 1250.11,
+   "end": 1252.33,
+   "speaker": "Kalan",
+   "text": "不是來自那些權威機構的，"
+  },
+  {
+   "start": 1252.33,
+   "end": 1256.65,
+   "speaker": "Kalan",
+   "text": "然後他就會叫你說，你真的確定要瀏覽這個網站嗎？"
+  },
+  {
+   "start": 1256.65,
+   "end": 1261.13,
+   "speaker": "Kalan",
+   "text": "那這個驗證的方式就是，的確就是像剛剛 Mooly 講的，"
+  },
+  {
+   "start": 1261.13,
+   "end": 1264.99,
+   "speaker": "Kalan",
+   "text": "它是有一個認證機構在管理這件事情的。"
+  },
+  {
+   "start": 1264.99,
+   "end": 1270.87,
+   "speaker": "Kalan",
+   "text": "所以這樣想想，網路的確是一個中心化與去中心化並存的部分。"
+  },
+  {
+   "start": 1270.87,
+   "end": 1273.65,
+   "speaker": "Kalan",
+   "text": "一方面是任何人，"
+  },
+  {
+   "start": 1274.19,
+   "end": 1276.45,
+   "speaker": "Kalan",
+   "text": "只要你可以拿到網域，"
+  },
+  {
+   "start": 1276.45,
+   "end": 1277.53,
+   "speaker": "Kalan",
+   "text": "你甚至不需要網域，"
+  },
+  {
+   "start": 1277.53,
+   "end": 1278.57,
+   "speaker": "Kalan",
+   "text": "你有 IP 位置，"
+  },
+  {
+   "start": 1279.21,
+   "end": 1281.07,
+   "speaker": "Kalan",
+   "text": "然後你寫了 HTML，"
+  },
+  {
+   "start": 1281.07,
+   "end": 1282.45,
+   "speaker": "Kalan",
+   "text": "裡面的內容是什麼，"
+  },
+  {
+   "start": 1282.45,
+   "end": 1283.83,
+   "speaker": "Kalan",
+   "text": "別人管不了。"
+  },
+  {
+   "start": 1285.27,
+   "end": 1287.35,
+   "speaker": "Kalan",
+   "text": "但是另外一個部分就是，"
+  },
+  {
+   "start": 1288.61,
+   "end": 1291.27,
+   "speaker": "Kalan",
+   "text": "我們這些剛剛我們講到的一些機制，"
+  },
+  {
+   "start": 1291.27,
+   "end": 1295.45,
+   "speaker": "Kalan",
+   "text": "它的確還是有一些信任的部分存在。"
+  },
+  {
+   "start": 1296.05,
+   "end": 1296.57,
+   "speaker": "Mooly",
+   "text": "沒錯。"
+  },
+  {
+   "start": 1297.65,
+   "end": 1299.81,
+   "speaker": "Mooly",
+   "text": "那這樣一講的話，其實，"
+  },
+  {
+   "start": 1300.49,
+   "end": 1302.09,
+   "speaker": "Mooly",
+   "text": "其實我覺得 VPN，"
+  },
+  {
+   "start": 1302.87,
+   "end": 1305.77,
+   "speaker": "Mooly",
+   "text": "就在拉回 VPN 這件事情本身，我覺得其實在，"
+  },
+  {
+   "start": 1305.77,
+   "end": 1318.15,
+   "speaker": "Mooly",
+   "text": "某些情境下其實還是有點用處的，比如說第一個情境是，因為我們剛一直提到，如果你有用 HTTPS 的話，基本上就是蠻安全的嘛，"
+  },
+  {
+   "start": 1319.71,
+   "end": 1323.21,
+   "speaker": "Mooly",
+   "text": "但是我剛突然想到，可能有些 user 好了，比如說他連了飯店 Wi-Fi，"
+  },
+  {
+   "start": 1323.21,
+   "end": 1324.67,
+   "speaker": "Mooly",
+   "text": "然後假設真的有一個，"
+  },
+  {
+   "start": 1325.09,
+   "end": 1329.77,
+   "speaker": "Mooly",
+   "text": "比如說他真的連到了駭客的 wifi，或是駭客去做攻擊，他傳了一個假的憑證，"
+  },
+  {
+   "start": 1330.23,
+   "end": 1334.43,
+   "speaker": "Mooly",
+   "text": "那理論上你的瀏覽器不是會跳出一個提示說，什麼這個憑證是什麼，"
+  },
+  {
+   "start": 1334.87,
+   "end": 1339.13,
+   "speaker": "Mooly",
+   "text": "未信任的憑證，或這個憑證有錯，你要不要繼續？"
+  },
+  {
+   "start": 1339.13,
+   "end": 1343.33,
+   "speaker": "Mooly",
+   "text": "就它有可能會給你一個選項，是強制繼續瀏覽網頁，對吧？"
+  },
+  {
+   "start": 1343.33,
+   "end": 1344.25,
+   "speaker": "Kalan",
+   "text": "對，有。"
+  },
+  {
+   "start": 1344.79,
+   "end": 1349.45,
+   "speaker": "Mooly",
+   "text": "那我覺得我們應該都可以想像，有些使用者就會點那顆按鈕，"
+  },
+  {
+   "start": 1349.45,
+   "end": 1353.53,
+   "speaker": "Mooly",
+   "text": "然後想說他不知道發生什麼事，但他就是想去那個網頁，他就點了，"
+  },
+  {
+   "start": 1353.53,
+   "end": 1358.05,
+   "speaker": "Mooly",
+   "text": "然後他就連到駭客假造的網頁了。"
+  },
+  {
+   "start": 1359.61,
+   "end": 1362.09,
+   "speaker": "Mooly",
+   "text": "好像有可能發生這種事嗎？"
+  },
+  {
+   "start": 1362.09,
+   "end": 1362.99,
+   "speaker": "Kalan",
+   "text": "喔，的確。"
+  },
+  {
+   "start": 1363.59,
+   "end": 1365.41,
+   "speaker": "Kalan",
+   "text": "的確還是有可能發生。"
+  },
+  {
+   "start": 1365.41,
+   "end": 1369.83,
+   "speaker": "Kalan",
+   "text": "就是 VPN 雖然它可以幫你把東西加密，"
+  },
+  {
+   "start": 1370.39,
+   "end": 1371.81,
+   "speaker": "Kalan",
+   "text": "但是就像剛剛講的，"
+  },
+  {
+   "start": 1371.81,
+   "end": 1375.89,
+   "speaker": "Kalan",
+   "text": "最終還是由 VPN server 把那些請求傳出去，"
+  },
+  {
+   "start": 1375.89,
+   "end": 1379.63,
+   "speaker": "Kalan",
+   "text": "所以剛剛你講的那件事情，它的確是有可能發生，"
+  },
+  {
+   "start": 1379.63,
+   "end": 1381.11,
+   "speaker": "Kalan",
+   "text": "就算你使用 VPN。"
+  },
+  {
+   "start": 1382.63,
+   "end": 1384.91,
+   "speaker": "Mooly",
+   "text": "然後第二個情境是，其實，"
+  },
+  {
+   "start": 1384.91,
+   "end": 1388.17,
+   "speaker": "Mooly",
+   "text": "因為我們剛剛是提到 HTTPS 了，"
+  },
+  {
+   "start": 1388.17,
+   "end": 1390.97,
+   "speaker": "Mooly",
+   "text": "但是還有另外一個情境是，"
+  },
+  {
+   "start": 1391.55,
+   "end": 1397.09,
+   "speaker": "Mooly",
+   "text": "你的電腦上可能有一些別的服務，它不是走 HTTP 相關的協定的，"
+  },
+  {
+   "start": 1397.09,
+   "end": 1399.11,
+   "speaker": "Mooly",
+   "text": "它甚至不是 HTTP。"
+  },
+  {
+   "start": 1399.71,
+   "end": 1404.49,
+   "speaker": "Mooly",
+   "text": "那因為它 VPN 的那個層級是網路的層級，"
+  },
+  {
+   "start": 1404.49,
+   "end": 1411.43,
+   "speaker": "Mooly",
+   "text": "就基本上你整個網路的東西，應該都是先過 VPN 那邊，然後才去真的目的地，"
+  },
+  {
+   "start": 1411.43,
+   "end": 1418.39,
+   "speaker": "Mooly",
+   "text": "但是 HTTPS 僅限於這個網頁，或是 HTTP 這個協定，"
+  },
+  {
+   "start": 1418.39,
+   "end": 1420.07,
+   "speaker": "Mooly",
+   "text": "所以其實在這個情境下的話，"
+  },
+  {
+   "start": 1420.07,
+   "end": 1423.15,
+   "speaker": "Mooly",
+   "text": "你有用 VPN，如果是幫整個網路加密的話，"
+  },
+  {
+   "start": 1423.67,
+   "end": 1426.49,
+   "speaker": "Mooly",
+   "text": "似乎會更安全一點嗎？"
+  },
+  {
+   "start": 1427.69,
+   "end": 1430.25,
+   "speaker": "Kalan",
+   "text": "這點也的確是這樣沒有錯。"
+  },
+  {
+   "start": 1430.87,
+   "end": 1431.25,
+   "speaker": "Kalan",
+   "text": "不過，"
+  },
+  {
+   "start": 1432.43,
+   "end": 1435.27,
+   "speaker": "Kalan",
+   "text": "就是我們剛剛講 VPN，VPN 啊，"
+  },
+  {
+   "start": 1435.79,
+   "end": 1438.67,
+   "speaker": "Kalan",
+   "text": "你其實不用去買這些服務，"
+  },
+  {
+   "start": 1438.67,
+   "end": 1442.65,
+   "speaker": "Kalan",
+   "text": "你也可以做到 VPN 在做的事情，"
+  },
+  {
+   "start": 1443.63,
+   "end": 1444.43,
+   "speaker": "Kalan",
+   "text": "就比如說，"
+  },
+  {
+   "start": 1445.33,
+   "end": 1447.51,
+   "speaker": "Kalan",
+   "text": "我可以去 Amazon，"
+  },
+  {
+   "start": 1447.51,
+   "end": 1449.63,
+   "speaker": "Kalan",
+   "text": "我就去開一台 server，"
+  },
+  {
+   "start": 1450.39,
+   "end": 1452.41,
+   "speaker": "Kalan",
+   "text": "那個不是 Amazon，AWS。"
+  },
+  {
+   "start": 1452.41,
+   "end": 1453.81,
+   "speaker": "Kalan",
+   "text": "那是 Amazon 沒錯。"
+  },
+  {
+   "start": 1454.87,
+   "end": 1458.49,
+   "speaker": "Kalan",
+   "text": "我可以在 AWS 上面開 server，或是 GCP，"
+  },
+  {
+   "start": 1458.49,
+   "end": 1465.23,
+   "speaker": "Kalan",
+   "text": "或者是任何你想得到的這個雲端伺服器的供應商，去開一個 server，"
+  },
+  {
+   "start": 1465.23,
+   "end": 1470.09,
+   "speaker": "Kalan",
+   "text": "然後把這個 server 分別架在不同的區域，"
+  },
+  {
+   "start": 1470.09,
+   "end": 1472.73,
+   "speaker": "Kalan",
+   "text": "的確它的確是一個比較麻煩的事情，"
+  },
+  {
+   "start": 1472.73,
+   "end": 1475.87,
+   "speaker": "Kalan",
+   "text": "所以 VPN 把這個麻煩的事情做掉了。"
+  },
+  {
+   "start": 1475.87,
+   "end": 1476.21,
+   "speaker": "Kalan",
+   "text": "但是，"
+  },
+  {
+   "start": 1476.75,
+   "end": 1482.77,
+   "speaker": "Kalan",
+   "text": "這邊也是想要分享一下，說如果你單純是要得到這種 VPN 的好處，"
+  },
+  {
+   "start": 1483.29,
+   "end": 1485.73,
+   "speaker": "Kalan",
+   "text": "你想要先把你做請求的時候，"
+  },
+  {
+   "start": 1485.73,
+   "end": 1488.35,
+   "speaker": "Kalan",
+   "text": "先把你的資料加密，"
+  },
+  {
+   "start": 1488.35,
+   "end": 1493.93,
+   "speaker": "Kalan",
+   "text": "然後再把封包送出去，這件事情的話，你是可以不用買現有的 VPN 的。"
+  },
+  {
+   "start": 1495.13,
+   "end": 1497.15,
+   "speaker": "Kalan",
+   "text": "我想要再問一下，就是，"
+  },
+  {
+   "start": 1497.61,
+   "end": 1498.87,
+   "speaker": "Kalan",
+   "text": "因為我有看到什麼，"
+  },
+  {
+   "start": 1499.45,
+   "end": 1503.69,
+   "speaker": "Kalan",
+   "text": "現在 VPN 好像越做越多服務嗎？"
+  },
+  {
+   "start": 1504.13,
+   "end": 1505.55,
+   "speaker": "Kalan",
+   "text": "就是除了 VPN 這個，"
+  },
+  {
+   "start": 1505.55,
+   "end": 1508.13,
+   "speaker": "Kalan",
+   "text": "本業之外，還有做很多服務，"
+  },
+  {
+   "start": 1508.13,
+   "end": 1511.27,
+   "speaker": "Kalan",
+   "text": "那我想要問一下 Mooly 這邊，你有什麼心得？"
+  },
+  {
+   "start": 1511.89,
+   "end": 1514.87,
+   "speaker": "Mooly",
+   "text": "這個我覺得也是一個很有趣的話題，是，"
+  },
+  {
+   "start": 1514.87,
+   "end": 1518.23,
+   "speaker": "Mooly",
+   "text": "因為你看到那些 YouTuber 在宣傳 VPN 的時候，通常都會跟你說什麼，"
+  },
+  {
+   "start": 1518.23,
+   "end": 1520.47,
+   "speaker": "Mooly",
+   "text": "你用了這個什麼 Surfshark VPN，"
+  },
+  {
+   "start": 1520.47,
+   "end": 1523.67,
+   "speaker": "Mooly",
+   "text": "那你可能就可以防止網路攻擊，"
+  },
+  {
+   "start": 1523.67,
+   "end": 1527.27,
+   "speaker": "Mooly",
+   "text": "然後什麼可以偵測惡意軟體什麼的，"
+  },
+  {
+   "start": 1527.27,
+   "end": 1528.35,
+   "speaker": "Mooly",
+   "text": "然後你聽到的時候，"
+  },
+  {
+   "start": 1528.99,
+   "end": 1534.11,
+   "speaker": "Mooly",
+   "text": "身為一個知道 VPN 這個字代表什麼意思的人，聽到就會覺得很荒謬，想說，"
+  },
+  {
+   "start": 1534.11,
+   "end": 1539.37,
+   "speaker": "Mooly",
+   "text": "VPN 到底跟這件事情有什麼關係？它不就是一個網路相關的東西嗎？"
+  },
+  {
+   "start": 1539.37,
+   "end": 1540.41,
+   "speaker": "Mooly",
+   "text": "但事實上，如果，"
+  },
+  {
+   "start": 1540.99,
+   "end": 1544.65,
+   "speaker": "Mooly",
+   "text": "後來比如說我真的去看過他們那些產品之後，我才發現，"
+  },
+  {
+   "start": 1545.01,
+   "end": 1550.11,
+   "speaker": "Mooly",
+   "text": "現在的 VPN 已經做到不只有我們剛剛講的那個傳統技術上的 VPN，"
+  },
+  {
+   "start": 1550.11,
+   "end": 1556.41,
+   "speaker": "Mooly",
+   "text": "他們的這個，比如說什麼無論是 Surfshark 也好，或是 NordVPN 或別的也好，"
+  },
+  {
+   "start": 1556.41,
+   "end": 1559.45,
+   "speaker": "Mooly",
+   "text": "他們現在其實都做成是一個組合包的概念，"
+  },
+  {
+   "start": 1559.45,
+   "end": 1562.09,
+   "speaker": "Mooly",
+   "text": "他們那個服務裡面，除了 VPN 之外，"
+  },
+  {
+   "start": 1562.09,
+   "end": 1563.55,
+   "speaker": "Mooly",
+   "text": "通常還會提供一個，比如說，"
+  },
+  {
+   "start": 1563.55,
+   "end": 1566.17,
+   "speaker": "Mooly",
+   "text": "一個簡易的防毒軟體吧，"
+  },
+  {
+   "start": 1566.17,
+   "end": 1570.35,
+   "speaker": "Mooly",
+   "text": "然後再加一個，比如說內建的 ad blocker，"
+  },
+  {
+   "start": 1570.35,
+   "end": 1571.77,
+   "speaker": "Mooly",
+   "text": "或是有些再加一些什麼，"
+  },
+  {
+   "start": 1572.85,
+   "end": 1579.37,
+   "speaker": "Mooly",
+   "text": "暗網偵測、偵測你的密碼洩漏什麼之類的東西，它已經變成一個資安組合包的概念了，"
+  },
+  {
+   "start": 1579.37,
+   "end": 1581.93,
+   "speaker": "Mooly",
+   "text": "它已經不是一個單純的 VPN 了。"
+  },
+  {
+   "start": 1581.93,
+   "end": 1582.39,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 1583.31,
+   "end": 1583.73,
+   "speaker": "Kalan",
+   "text": "嗯，"
+  },
+  {
+   "start": 1583.73,
+   "end": 1585.13,
+   "speaker": "Kalan",
+   "text": "這個蠻有趣的，"
+  },
+  {
+   "start": 1585.13,
+   "end": 1586.17,
+   "speaker": "Kalan",
+   "text": "所以如果，"
+  },
+  {
+   "start": 1586.8,
+   "end": 1588.41,
+   "speaker": "Kalan",
+   "text": "啊，我記得好像還有那個喔，"
+  },
+  {
+   "start": 1588.41,
+   "end": 1590.19,
+   "speaker": "Kalan",
+   "text": "密碼管理喔。"
+  },
+  {
+   "start": 1590.19,
+   "end": 1592.63,
+   "speaker": "Mooly",
+   "text": "喔對，有些可能甚至有這些功能，"
+  },
+  {
+   "start": 1593.61,
+   "end": 1603.73,
+   "speaker": "Kalan",
+   "text": "所以如果你是那種除了這個 VPN 以外的東西你也很感興趣的話，那或許就可以考慮用這些現成的 VPN。"
+  },
+  {
+   "start": 1604.99,
+   "end": 1614.23,
+   "speaker": "Mooly",
+   "text": "對，我覺得這個其實有趣的點在於說，它已經把 VPN 昇華到是一個你只要裝這個之後，"
+  },
+  {
+   "start": 1615.17,
+   "end": 1619.99,
+   "speaker": "Mooly",
+   "text": "它有點取代以前防毒軟體的這種地位了，就是比如說，"
+  },
+  {
+   "start": 1620.59,
+   "end": 1621.35,
+   "speaker": "Mooly",
+   "text": "以前比如說在，"
+  },
+  {
+   "start": 1621.35,
+   "end": 1623.37,
+   "speaker": "Mooly",
+   "text": "十幾年前的時候，"
+  },
+  {
+   "start": 1623.37,
+   "end": 1628.65,
+   "speaker": "Mooly",
+   "text": "可能灌完 Windows 系統之後，第一件事情就是找一個免費防毒軟體來裝，"
+  },
+  {
+   "start": 1628.65,
+   "end": 1634.29,
+   "speaker": "Mooly",
+   "text": "無論是什麼小紅傘，或是什麼卡巴斯基，"
+  },
+  {
+   "start": 1634.29,
+   "end": 1641.39,
+   "speaker": "Mooly",
+   "text": "或是在更久以前的什麼別的，我忘記名字了，你就會裝一個防毒軟體，"
+  },
+  {
+   "start": 1641.39,
+   "end": 1643.71,
+   "speaker": "Mooly",
+   "text": "然後就裝著放那裡。"
+  },
+  {
+   "start": 1643.71,
+   "end": 1649.51,
+   "speaker": "Mooly",
+   "text": "但我其實現在還不太確定，是不是現在大家還是會這樣做，"
+  },
+  {
+   "start": 1649.51,
+   "end": 1649.99,
+   "speaker": "Mooly",
+   "text": "就是會，"
+  },
+  {
+   "start": 1649.99,
+   "end": 1652.65,
+   "speaker": "Mooly",
+   "text": "直接載一個防毒軟體放著，"
+  },
+  {
+   "start": 1652.65,
+   "end": 1655.43,
+   "speaker": "Mooly",
+   "text": "還是其實大家現在都改裝 VPN 了。"
+  },
+  {
+   "start": 1655.43,
+   "end": 1660.51,
+   "speaker": "Mooly",
+   "text": "雖然我覺得 VPN 其實它內建的那個防禦效力可能沒有這麼好吧，"
+  },
+  {
+   "start": 1660.51,
+   "end": 1662.27,
+   "speaker": "Mooly",
+   "text": "但我也不太確定啊。"
+  },
+  {
+   "start": 1662.27,
+   "end": 1662.43,
+   "speaker": "Kalan",
+   "text": "欸，"
+  },
+  {
+   "start": 1662.43,
+   "end": 1664.23,
+   "speaker": "Kalan",
+   "text": "不過我們在，"
+  },
+  {
+   "start": 1664.99,
+   "end": 1667.73,
+   "speaker": "Kalan",
+   "text": "就像剛剛我們講的那些 Surfshark、"
+  },
+  {
+   "start": 1669.41,
+   "end": 1672.03,
+   "speaker": "Kalan",
+   "text": "Surfshark VPN 跟 NordVPN，"
+  },
+  {
+   "start": 1672.75,
+   "end": 1674.95,
+   "speaker": "Kalan",
+   "text": "他們其實花了蠻多，"
+  },
+  {
+   "start": 1675.73,
+   "end": 1676.53,
+   "speaker": "Kalan",
+   "text": "怎麼講，"
+  },
+  {
+   "start": 1676.53,
+   "end": 1677.91,
+   "speaker": "Kalan",
+   "text": "可以說他們的，"
+  },
+  {
+   "start": 1677.91,
+   "end": 1679.87,
+   "speaker": "Kalan",
+   "text": "宣傳非常成功，"
+  },
+  {
+   "start": 1679.87,
+   "end": 1683.89,
+   "speaker": "Kalan",
+   "text": "你看他們到處找 YouTuber 在那邊宣傳這些東西。"
+  },
+  {
+   "start": 1684.81,
+   "end": 1688.63,
+   "speaker": "Kalan",
+   "text": "那我覺得第一個很好奇的就會是，"
+  },
+  {
+   "start": 1689.11,
+   "end": 1690.45,
+   "speaker": "Kalan",
+   "text": "這個錢從哪裡來？"
+  },
+  {
+   "start": 1691.01,
+   "end": 1694.41,
+   "speaker": "Kalan",
+   "text": "因為你去看那些 VPN 的 service 喔，"
+  },
+  {
+   "start": 1694.41,
+   "end": 1697.03,
+   "speaker": "Kalan",
+   "text": "它們的價格其實是相對便宜的，"
+  },
+  {
+   "start": 1697.91,
+   "end": 1701.77,
+   "speaker": "Kalan",
+   "text": "但是如果我們從這個 VPN 的原理來想，"
+  },
+  {
+   "start": 1701.77,
+   "end": 1704.07,
+   "speaker": "Kalan",
+   "text": "它其實就是網路流量嘛，"
+  },
+  {
+   "start": 1704.07,
+   "end": 1709.69,
+   "speaker": "Kalan",
+   "text": "那其實網路流量這件事情是很貴的，"
+  },
+  {
+   "start": 1709.69,
+   "end": 1712.85,
+   "speaker": "Kalan",
+   "text": "然後再來，因為你要維護大量的 server，"
+  },
+  {
+   "start": 1712.85,
+   "end": 1714.75,
+   "speaker": "Kalan",
+   "text": "因為通常會有很多人用嘛，"
+  },
+  {
+   "start": 1714.75,
+   "end": 1716.29,
+   "speaker": "Kalan",
+   "text": "你要維護這個大量的 server，"
+  },
+  {
+   "start": 1717.07,
+   "end": 1719.31,
+   "speaker": "Kalan",
+   "text": "也是需要人力跟維護成本的，"
+  },
+  {
+   "start": 1719.91,
+   "end": 1724.19,
+   "speaker": "Kalan",
+   "text": "所以就會很好奇說，那你收這樣的錢，"
+  },
+  {
+   "start": 1724.67,
+   "end": 1726.81,
+   "speaker": "Kalan",
+   "text": "那你的錢到底從哪裡來？"
+  },
+  {
+   "start": 1726.81,
+   "end": 1732.47,
+   "speaker": "Kalan",
+   "text": "然後我之前有看到一個很有趣的陰謀論的說法。"
+  },
+  {
+   "start": 1732.47,
+   "end": 1733.75,
+   "speaker": "Mooly",
+   "text": "請說，請說。"
+  },
+  {
+   "start": 1733.75,
+   "end": 1735.67,
+   "speaker": "Kalan",
+   "text": "分享給你，就是，"
+  },
+  {
+   "start": 1736.17,
+   "end": 1736.83,
+   "speaker": "Kalan",
+   "text": "它會，"
+  },
+  {
+   "start": 1736.83,
+   "end": 1741.07,
+   "speaker": "Kalan",
+   "text": "那些 VPN 廠商會暗中蒐集你的資料，"
+  },
+  {
+   "start": 1741.07,
+   "end": 1742.39,
+   "speaker": "Kalan",
+   "text": "然後賣給暗網。"
+  },
+  {
+   "start": 1746.31,
+   "end": 1747.75,
+   "speaker": "Mooly",
+   "text": "你怎麼想？"
+  },
+  {
+   "start": 1747.75,
+   "end": 1749.27,
+   "speaker": "Mooly",
+   "text": "靠賣資料維生，是不是？"
+  },
+  {
+   "start": 1751.29,
+   "end": 1754.31,
+   "speaker": "Mooly",
+   "text": "這個我略知一二，"
+  },
+  {
+   "start": 1754.31,
+   "end": 1757.69,
+   "speaker": "Mooly",
+   "text": "我似乎大概知道是怎麼一回事，"
+  },
+  {
+   "start": 1758.65,
+   "end": 1761.63,
+   "speaker": "Mooly",
+   "text": "因為之前聽過一些朋友的說法，"
+  },
+  {
+   "start": 1761.63,
+   "end": 1764.61,
+   "speaker": "Mooly",
+   "text": "但我自己沒辦法驗證是不是真的，"
+  },
+  {
+   "start": 1764.61,
+   "end": 1767.49,
+   "speaker": "Mooly",
+   "text": "但我可以大概分享一下。"
+  },
+  {
+   "start": 1767.49,
+   "end": 1768.85,
+   "speaker": "Mooly",
+   "text": "OK，那就是，"
+  },
+  {
+   "start": 1768.85,
+   "end": 1770.87,
+   "speaker": "Mooly",
+   "text": "我剛講的那些賣資料的，"
+  },
+  {
+   "start": 1770.87,
+   "end": 1772.71,
+   "speaker": "Mooly",
+   "text": "這個我有聽過啦，"
+  },
+  {
+   "start": 1772.71,
+   "end": 1773.73,
+   "speaker": "Mooly",
+   "text": "但我不確定，"
+  },
+  {
+   "start": 1773.73,
+   "end": 1775.19,
+   "speaker": "Mooly",
+   "text": "這個我也不確定真實性，"
+  },
+  {
+   "start": 1775.19,
+   "end": 1777.39,
+   "speaker": "Mooly",
+   "text": "但這個不是我主要要講的。"
+  },
+  {
+   "start": 1777.39,
+   "end": 1783.23,
+   "speaker": "Mooly",
+   "text": "我主要講的是，其實 VPN 對那些廠商來說，那個網路費用是很便宜的。"
+  },
+  {
+   "start": 1784.03,
+   "end": 1787.93,
+   "speaker": "Mooly",
+   "text": "我不確定是因為他們已經規模化到一個程度，還是說，"
+  },
+  {
+   "start": 1788.41,
+   "end": 1790.73,
+   "speaker": "Mooly",
+   "text": "他們有特定合作的一些，"
+  },
+  {
+   "start": 1791.47,
+   "end": 1793.19,
+   "speaker": "Mooly",
+   "text": "網路流量相關的廠商，"
+  },
+  {
+   "start": 1793.19,
+   "end": 1795.59,
+   "speaker": "Mooly",
+   "text": "但他們那個網路費用其實是很便宜的。"
+  },
+  {
+   "start": 1795.59,
+   "end": 1801.89,
+   "speaker": "Mooly",
+   "text": "可能你一個月，你可能付那些 VPN 廠商可能 150 台幣或 300 塊台幣好了，"
+  },
+  {
+   "start": 1802.37,
+   "end": 1803.87,
+   "speaker": "Mooly",
+   "text": "但可能對他們來說，"
+  },
+  {
+   "start": 1804.47,
+   "end": 1809.85,
+   "speaker": "Mooly",
+   "text": "你那個月的使用量可能才 10 塊台幣，或是再更少。"
+  },
+  {
+   "start": 1811.39,
+   "end": 1818.03,
+   "speaker": "Mooly",
+   "text": "所以其實對那些 VPN 廠商來說，之前聽朋友說，他們的網路費用似乎其實是很便宜的，"
+  },
+  {
+   "start": 1818.51,
+   "end": 1820.13,
+   "speaker": "Mooly",
+   "text": "所以他們才可以有這麼大的"
+  },
+  {
+   "start": 1820.13,
+   "end": 1824.45,
+   "speaker": "Mooly",
+   "text": "營利空間，去找各個紅的不紅的 YouTuber 去下廣告，"
+  },
+  {
+   "start": 1824.45,
+   "end": 1827.29,
+   "speaker": "Mooly",
+   "text": "因為他們不管怎樣都在賺錢，"
+  },
+  {
+   "start": 1827.29,
+   "end": 1828.67,
+   "speaker": "Mooly",
+   "text": "而且很賺。"
+  },
+  {
+   "start": 1829.51,
+   "end": 1829.93,
+   "speaker": "Kalan",
+   "text": "OK，"
+  },
+  {
+   "start": 1830.37,
+   "end": 1831.31,
+   "speaker": "Kalan",
+   "text": "原來是這樣。"
+  },
+  {
+   "start": 1831.31,
+   "end": 1831.73,
+   "speaker": "Kalan",
+   "text": "然後，"
+  },
+  {
+   "start": 1831.73,
+   "end": 1833.79,
+   "speaker": "Mooly",
+   "text": "順便再講一個好了，"
+  },
+  {
+   "start": 1833.79,
+   "end": 1839.45,
+   "speaker": "Mooly",
+   "text": "就是當初會有 VPN 這一集，可能很大的原因是，我之前問愷愷說，"
+  },
+  {
+   "start": 1839.45,
+   "end": 1844.61,
+   "speaker": "Mooly",
+   "text": "假設我們 podcast 有一天做到有接 VPN 業配的話，"
+  },
+  {
+   "start": 1844.61,
+   "end": 1846.43,
+   "speaker": "Mooly",
+   "text": "如果是 Surfshark VPN 的話，"
+  },
+  {
+   "start": 1846.43,
+   "end": 1847.57,
+   "speaker": "Mooly",
+   "text": "你要接嗎？"
+  },
+  {
+   "start": 1847.57,
+   "end": 1848.05,
+   "speaker": "Mooly",
+   "text": "愷愷說，"
+  },
+  {
+   "start": 1849.01,
+   "end": 1850.37,
+   "speaker": "Mooly",
+   "text": "可能考慮一下，"
+  },
+  {
+   "start": 1850.37,
+   "end": 1852.73,
+   "speaker": "Mooly",
+   "text": "那如果是 NordVPN，"
+  },
+  {
+   "start": 1853.19,
+   "end": 1855.29,
+   "speaker": "Mooly",
+   "text": "愷愷的意願就比較高一點，"
+  },
+  {
+   "start": 1855.29,
+   "end": 1856.07,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 1858.55,
+   "end": 1862.67,
+   "speaker": "Mooly",
+   "text": "但是其實 Surfshark VPN 跟 NordVPN 背後是同一個母公司，"
+  },
+  {
+   "start": 1863.63,
+   "end": 1865.25,
+   "speaker": "Kalan",
+   "text": "我當時先前不知道，"
+  },
+  {
+   "start": 1865.25,
+   "end": 1870.75,
+   "speaker": "Mooly",
+   "text": "他們在兩三年前算是合併了，"
+  },
+  {
+   "start": 1870.75,
+   "end": 1873.85,
+   "speaker": "Mooly",
+   "text": "就如果你去 Google 上搜尋 Surfshark VPN、NordVPN 合併，"
+  },
+  {
+   "start": 1873.85,
+   "end": 1875.79,
+   "speaker": "Mooly",
+   "text": "就會找到一些新聞。"
+  },
+  {
+   "start": 1876.47,
+   "end": 1876.93,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 1877.85,
+   "end": 1880.79,
+   "speaker": "Mooly",
+   "text": "看起來是不管你選用哪一間，可能，"
+  },
+  {
+   "start": 1881.38,
+   "end": 1886.27,
+   "speaker": "Mooly",
+   "text": "雖然他們說他們現在還是各自公司，然後節點不同、設備不同，"
+  },
+  {
+   "start": 1886.27,
+   "end": 1888.23,
+   "speaker": "Mooly",
+   "text": "但畢竟背後是屬於，"
+  },
+  {
+   "start": 1888.23,
+   "end": 1893.81,
+   "speaker": "Mooly",
+   "text": "假設如果是屬於同一個母公司的話，其實用哪一間應該差別也沒有到這麼大。"
+  },
+  {
+   "start": 1895.47,
+   "end": 1898.49,
+   "speaker": "Kalan",
+   "text": "你講到這個，倒是讓我想到一個，"
+  },
+  {
+   "start": 1899.01,
+   "end": 1902.07,
+   "speaker": "Kalan",
+   "text": "就是，是不是這類型的 VPN，"
+  },
+  {
+   "start": 1902.07,
+   "end": 1906.67,
+   "speaker": "Kalan",
+   "text": "他們都已經不是一個獨立的公司在做嗎？"
+  },
+  {
+   "start": 1906.67,
+   "end": 1908.35,
+   "speaker": "Kalan",
+   "text": "就是它比較像是一個，"
+  },
+  {
+   "start": 1908.99,
+   "end": 1910.71,
+   "speaker": "Kalan",
+   "text": "它有母公司的存在，"
+  },
+  {
+   "start": 1910.71,
+   "end": 1913.51,
+   "speaker": "Kalan",
+   "text": "然後這個母公司的一個企業，"
+  },
+  {
+   "start": 1913.51,
+   "end": 1917.27,
+   "speaker": "Kalan",
+   "text": "一個事業就是專門做 VPN 這樣子。"
+  },
+  {
+   "start": 1918.19,
+   "end": 1919.85,
+   "speaker": "Mooly",
+   "text": "如果你是這樣講的話，"
+  },
+  {
+   "start": 1919.85,
+   "end": 1923.01,
+   "speaker": "Mooly",
+   "text": "至少我知道 Nord VPN 是這樣啦。"
+  },
+  {
+   "start": 1923.01,
+   "end": 1925.49,
+   "speaker": "Mooly",
+   "text": "它其實背後是 Nord Security，"
+  },
+  {
+   "start": 1925.49,
+   "end": 1928.75,
+   "speaker": "Mooly",
+   "text": "然後它有做各種跟資安相關的東西，"
+  },
+  {
+   "start": 1928.75,
+   "end": 1932.25,
+   "speaker": "Mooly",
+   "text": "然後 Nord VPN 只是底下其中一個而已。"
+  },
+  {
+   "start": 1932.25,
+   "end": 1936.09,
+   "speaker": "Kalan",
+   "text": "那這樣講的話就會是，"
+  },
+  {
+   "start": 1937.09,
+   "end": 1938.29,
+   "speaker": "Kalan",
+   "text": "比較合理嗎？"
+  },
+  {
+   "start": 1938.29,
+   "end": 1939.87,
+   "speaker": "Kalan",
+   "text": "就是錢從哪裡來這件事情，"
+  },
+  {
+   "start": 1940.37,
+   "end": 1941.47,
+   "speaker": "Mooly",
+   "text": "可能就是靠其"
+  },
+  {
+   "start": 1941.47,
+   "end": 1943.27,
+   "speaker": "Kalan",
+   "text": "他事業的 info。"
+  },
+  {
+   "start": 1943.93,
+   "end": 1947.03,
+   "speaker": "Mooly",
+   "text": "但我剛剛講的是，其實你光做 VPN 這件事情，"
+  },
+  {
+   "start": 1947.03,
+   "end": 1951.35,
+   "speaker": "Mooly",
+   "text": "你似乎只要找到有配合的網路廠商或什麼，"
+  },
+  {
+   "start": 1951.35,
+   "end": 1953.99,
+   "speaker": "Mooly",
+   "text": "它其實是可以很賺錢的一件事情，"
+  },
+  {
+   "start": 1953.99,
+   "end": 1956.59,
+   "speaker": "Mooly",
+   "text": "它不需要靠別的事業來補。"
+  },
+  {
+   "start": 1956.59,
+   "end": 1958.27,
+   "speaker": "Mooly",
+   "text": "因為剛剛講的是，"
+  },
+  {
+   "start": 1958.79,
+   "end": 1962.65,
+   "speaker": "Mooly",
+   "text": "它如果很燒錢，前提是基於在網路費用很貴這件事情，"
+  },
+  {
+   "start": 1963.01,
+   "end": 1965.19,
+   "speaker": "Mooly",
+   "text": "但如果你的網路費用可以被壓下來的話，"
+  },
+  {
+   "start": 1965.19,
+   "end": 1967.51,
+   "speaker": "Mooly",
+   "text": "它其實就是一個很賺錢的東西。"
+  },
+  {
+   "start": 1967.51,
+   "end": 1970.65,
+   "speaker": "Mooly",
+   "text": "這是之前聽朋友說過的說法。"
+  },
+  {
+   "start": 1970.65,
+   "end": 1972.37,
+   "speaker": "Mooly",
+   "text": "他說那些網路費用其實很便宜，"
+  },
+  {
+   "start": 1972.37,
+   "end": 1975.59,
+   "speaker": "Mooly",
+   "text": "所以不管怎麼樣，VPN 都賺這樣子。"
+  },
+  {
+   "start": 1976.83,
+   "end": 1977.27,
+   "speaker": "Kalan",
+   "text": "OK。"
+  },
+  {
+   "start": 1978.01,
+   "end": 1978.45,
+   "speaker": "Kalan",
+   "text": "哇。"
+  },
+  {
+   "start": 1978.45,
+   "end": 1982.39,
+   "speaker": "Kalan",
+   "text": "那非常感謝 Mooly 的分享，"
+  },
+  {
+   "start": 1983.25,
+   "end": 1985.51,
+   "speaker": "Kalan",
+   "text": "今天的節目就先到這邊啦。"
+  },
+  {
+   "start": 1985.51,
+   "end": 1987.57,
+   "speaker": "Kalan",
+   "text": "喜歡的話歡迎訂閱、分享，"
+  },
+  {
+   "start": 1987.57,
+   "end": 1991.87,
+   "speaker": "Kalan",
+   "text": "如果有任何回饋的話，也可以透過說明的表單或寄信給我們喔。"
+  },
+  {
+   "start": 1991.87,
+   "end": 1992.71,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 1992.71,
+   "end": 1993.63,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 1993.63,
+   "end": 1995.55,
+   "speaker": "Kalan",
+   "text": "我們下次見，"
+  },
+  {
+   "start": 1995.89,
+   "end": 1996.59,
+   "speaker": "Kalan",
+   "text": "拜拜。"
+  }
+ ]
+}

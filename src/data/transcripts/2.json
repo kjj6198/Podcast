@@ -1,0 +1,3548 @@
+{
+ "episode": 2,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 在節目開頭祝聽眾新年快樂，聊了在日本過年的經驗，包括おせち、紅白、跨年倒數與新年參拜，以及年末年始許多店家休息的情況。接著兩人回顧 2024 年，Kalan 是變動很多的一年，Mooly 則偏向沉思與穩定。最後各自分享 2025 年的目標，Mooly 想學好日文並嘗試戒除社群媒體，Kalan 想嘗試更多內容形式並探索新方向。",
+  "points": [
+   "Mooly 今年用故鄉納稅訂了京都的三層おせち，但覺得味道相近、吃到後面容易膩；Kalan 則介紹黑豆、ごまめ、栗きんとん、數の子等菜色的寓意，也提到伊達卷等經典菜色。",
+   "Mooly 跨年夜到家附近的小寺廟，因為排隊人太多沒有參拜，但發現日本人會小聲倒數、輕輕拍手；Kalan 住福岡，1 月 2 號去太宰府天滿宮參拜，人雖然多，但因為參拜點多，排隊還算順暢。",
+   "年末年始許多店家、連鎖餐廳與百貨公司都會休息，兩人不建議想逛街的旅客這時來日本玩。",
+   "Kalan 的 2024 年變化很大，包括玩泰拉瑞亞、買房、離職、買電吉他、辦讀書會，以及主動私訊認識新朋友；Mooly 則形容自己像在打坐冥想，偏平淡穩定。",
+   "兩人談到 2024 年最困難的事：Mooly 受簽證身份限制且一直拖延學日文，Kalan 則擔心買房後的存款水位與離職後收入不穩。",
+   "2025 年 Mooly 計畫請線上家教學日文，並試著一個月不碰社群媒體；Kalan 想嘗試短影片、長影片、直播等形式，並找到不必回去上班的生活方式。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與新年祝福"
+   },
+   {
+    "start": 43.0,
+    "title": "日本新年便當おせち"
+   },
+   {
+    "start": 380.0,
+    "title": "紅白歌合戰與跨年參拜"
+   },
+   {
+    "start": 617.0,
+    "title": "年末年始的店休與福袋"
+   },
+   {
+    "start": 831.0,
+    "title": "回顧 2024 年的亮點"
+   },
+   {
+    "start": 1379.0,
+    "title": "2024 年最困難的事"
+   },
+   {
+    "start": 1543.0,
+    "title": "2025 年的展望與目標"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.54,
+   "speaker": "Kalan",
+   "text": "哈囉，大家好，我是 Kalan。"
+  },
+  {
+   "start": 2.08,
+   "end": 2.72,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 3.34,
+   "end": 5.22,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 5.22,
+   "end": 7.08,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 7.08,
+   "end": 13.08,
+   "speaker": "Kalan",
+   "text": "這是由兩個在日本工作的三十代軟體工程師 Kalan 與 Mooly 所設立的 podcast，"
+  },
+  {
+   "start": 13.46,
+   "end": 15.4,
+   "speaker": "Kalan",
+   "text": "與你分享各種日本生活、"
+  },
+  {
+   "start": 15.4,
+   "end": 18.22,
+   "speaker": "Kalan",
+   "text": "職涯、科技、人生的大小事。"
+  },
+  {
+   "start": 18.8,
+   "end": 22.1,
+   "speaker": "Kalan",
+   "text": "今天我們來跟大家聊聊日本的新年，"
+  },
+  {
+   "start": 22.72,
+   "end": 25.44,
+   "speaker": "Kalan",
+   "text": "以及我們對 2024 年的回首，"
+  },
+  {
+   "start": 25.44,
+   "end": 27.98,
+   "speaker": "Kalan",
+   "text": "還有對 2025 年的展望。"
+  },
+  {
+   "start": 27.98,
+   "end": 28.96,
+   "speaker": "Kalan",
+   "text": "如果喜歡的話呢，"
+  },
+  {
+   "start": 28.96,
+   "end": 32.02,
+   "speaker": "Kalan",
+   "text": "歡迎訂閱，分享給你身邊的好朋友知道唷。"
+  },
+  {
+   "start": 33.24,
+   "end": 36.84,
+   "speaker": "Kalan",
+   "text": "那首先，我們節目開頭先祝大家"
+  },
+  {
+   "start": 36.84,
+   "end": 38.82,
+   "speaker": "Kalan",
+   "text": "2025 新年快樂！"
+  },
+  {
+   "start": 38.82,
+   "end": 40.32,
+   "speaker": "Mooly",
+   "text": "新年快樂！"
+  },
+  {
+   "start": 43.34,
+   "end": 47.26,
+   "speaker": "Kalan",
+   "text": "Mooly，你應該是第一次在日本過年吧？"
+  },
+  {
+   "start": 47.26,
+   "end": 48.36,
+   "speaker": "Mooly",
+   "text": "算第二次。"
+  },
+  {
+   "start": 48.36,
+   "end": 50.64,
+   "speaker": "Mooly",
+   "text": "因為前年 10 月來的嘛，"
+  },
+  {
+   "start": 50.64,
+   "end": 52.02,
+   "speaker": "Mooly",
+   "text": "所以前年有過過一次。"
+  },
+  {
+   "start": 52.02,
+   "end": 53.08,
+   "speaker": "Kalan",
+   "text": "OK OK，好。"
+  },
+  {
+   "start": 53.74,
+   "end": 55.78,
+   "speaker": "Kalan",
+   "text": "沒關係，畢竟有兩次的經驗，"
+  },
+  {
+   "start": 55.78,
+   "end": 57.8,
+   "speaker": "Kalan",
+   "text": "所以我們今天就來聊聊，"
+  },
+  {
+   "start": 57.8,
+   "end": 61.9,
+   "speaker": "Kalan",
+   "text": "在日本過年的感受大概是怎樣好了。"
+  },
+  {
+   "start": 62.64,
+   "end": 65.88,
+   "speaker": "Kalan",
+   "text": "好，那不然 Mooly 你先分享一下好了。"
+  },
+  {
+   "start": 66.36,
+   "end": 66.96,
+   "speaker": "Mooly",
+   "text": "好啊。"
+  },
+  {
+   "start": 66.96,
+   "end": 67.98,
+   "speaker": "Mooly",
+   "text": "過年的話，"
+  },
+  {
+   "start": 68.66,
+   "end": 74.1,
+   "speaker": "Mooly",
+   "text": "其實今年的過年跟去年算差不多，"
+  },
+  {
+   "start": 74.1,
+   "end": 76.64,
+   "speaker": "Mooly",
+   "text": "做的事情今年再更多一些。"
+  },
+  {
+   "start": 76.64,
+   "end": 78.52,
+   "speaker": "Mooly",
+   "text": "先講今年跟去年都有的好了，"
+  },
+  {
+   "start": 78.52,
+   "end": 80.58,
+   "speaker": "Mooly",
+   "text": "今年跟去年都有看那個紅白，"
+  },
+  {
+   "start": 81.7,
+   "end": 86.36,
+   "speaker": "Mooly",
+   "text": "然後今年有多吃了一個那個日本的新年便當。"
+  },
+  {
+   "start": 86.36,
+   "end": 87.4,
+   "speaker": "Kalan",
+   "text": "新年便當？"
+  },
+  {
+   "start": 87.4,
+   "end": 90.88,
+   "speaker": "Mooly",
+   "text": "對，就是叫那個おせち嘛，它就是"
+  },
+  {
+   "start": 91.82,
+   "end": 95.68,
+   "speaker": "Mooly",
+   "text": "那個是那個，之前我就知道這東西，"
+  },
+  {
+   "start": 95.68,
+   "end": 97.68,
+   "speaker": "Mooly",
+   "text": "然後原本想要"
+  },
+  {
+   "start": 97.68,
+   "end": 102.52,
+   "speaker": "Mooly",
+   "text": "因為它其實不管在超市或那個便利商店，你都可以先預購嘛，"
+  },
+  {
+   "start": 102.52,
+   "end": 106.06,
+   "speaker": "Mooly",
+   "text": "就很像台灣預購年菜的那種感覺。"
+  },
+  {
+   "start": 106.68,
+   "end": 109.42,
+   "speaker": "Mooly",
+   "text": "那它基本上那個便當會是，"
+  },
+  {
+   "start": 109.98,
+   "end": 111.72,
+   "speaker": "Mooly",
+   "text": "通常是兩層或三層啦，"
+  },
+  {
+   "start": 111.72,
+   "end": 116.14,
+   "speaker": "Mooly",
+   "text": "就是很多層的一個便當，然後裡面超級多菜，就是它"
+  },
+  {
+   "start": 116.14,
+   "end": 120.2,
+   "speaker": "Mooly",
+   "text": "那一層可能有 9 道不同的菜左右吧，"
+  },
+  {
+   "start": 120.2,
+   "end": 122.48,
+   "speaker": "Mooly",
+   "text": "然後都一小格一小格的這樣子，"
+  },
+  {
+   "start": 123.0,
+   "end": 127.12,
+   "speaker": "Mooly",
+   "text": "然後裡面通常是以海鮮為主。"
+  },
+  {
+   "start": 127.78,
+   "end": 134.06,
+   "speaker": "Mooly",
+   "text": "然後今年的話，我是用那個故鄉納稅買了一個京都的那個便當，"
+  },
+  {
+   "start": 134.52,
+   "end": 138.28,
+   "speaker": "Mooly",
+   "text": "然後他就是 12 月 31 號那天會送到，"
+  },
+  {
+   "start": 138.28,
+   "end": 141.6,
+   "speaker": "Mooly",
+   "text": "然後讓你在那天晚上可以吃這樣子。"
+  },
+  {
+   "start": 142.22,
+   "end": 144.48,
+   "speaker": "Kalan",
+   "text": "我其實也蠻喜歡おせち的，"
+  },
+  {
+   "start": 144.48,
+   "end": 147.54,
+   "speaker": "Kalan",
+   "text": "就是我這兩年也有買這樣子。"
+  },
+  {
+   "start": 147.54,
+   "end": 151.14,
+   "speaker": "Kalan",
+   "text": "雖然說嚴格說起來，它其實價格有點偏貴，"
+  },
+  {
+   "start": 151.14,
+   "end": 153.74,
+   "speaker": "Kalan",
+   "text": "但我覺得蠻好吃的。"
+  },
+  {
+   "start": 153.74,
+   "end": 157.08,
+   "speaker": "Kalan",
+   "text": "你在裡面會遇到一些經典菜色，"
+  },
+  {
+   "start": 157.98,
+   "end": 160.62,
+   "speaker": "Kalan",
+   "text": "它們其實是有一些意義的。"
+  },
+  {
+   "start": 160.62,
+   "end": 161.74,
+   "speaker": "Kalan",
+   "text": "我問一下好了，"
+  },
+  {
+   "start": 161.74,
+   "end": 165.1,
+   "speaker": "Kalan",
+   "text": "Mooly 裡面有你最喜歡吃的東西嗎？"
+  },
+  {
+   "start": 165.1,
+   "end": 166.14,
+   "speaker": "Mooly",
+   "text": "我最喜歡吃的嗎？"
+  },
+  {
+   "start": 167.7,
+   "end": 171.9,
+   "speaker": "Mooly",
+   "text": "剛剛沒有講感想，但老實說，我沒有很喜歡整個便當。"
+  },
+  {
+   "start": 174.74,
+   "end": 175.26,
+   "speaker": "Kalan",
+   "text": "OK。"
+  },
+  {
+   "start": 175.26,
+   "end": 175.9,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 175.9,
+   "end": 179.1,
+   "speaker": "Kalan",
+   "text": "沒關係，那我們就稍微講一下，"
+  },
+  {
+   "start": 179.1,
+   "end": 180.12,
+   "speaker": "Kalan",
+   "text": "帶過去。"
+  },
+  {
+   "start": 180.12,
+   "end": 181.98,
+   "speaker": "Kalan",
+   "text": "首先就是黑豆。"
+  },
+  {
+   "start": 182.84,
+   "end": 184.94,
+   "speaker": "Mooly",
+   "text": "黑豆會灑金箔。"
+  },
+  {
+   "start": 184.94,
+   "end": 187.34,
+   "speaker": "Kalan",
+   "text": "對，會灑金箔的那個黑色的豆子，"
+  },
+  {
+   "start": 187.34,
+   "end": 190.56,
+   "speaker": "Kalan",
+   "text": "它的含義有勤勉工作的意思。"
+  },
+  {
+   "start": 190.56,
+   "end": 193.04,
+   "speaker": "Kalan",
+   "text": "然後還有像是那個小魚乾，"
+  },
+  {
+   "start": 193.04,
+   "end": 194.54,
+   "speaker": "Mooly",
+   "text": "喔，有，小魚乾，有。"
+  },
+  {
+   "start": 194.54,
+   "end": 197.86,
+   "speaker": "Kalan",
+   "text": "小魚乾那個，在日文叫做 ごまめ，"
+  },
+  {
+   "start": 197.86,
+   "end": 201.3,
+   "speaker": "Kalan",
+   "text": "它因為好像會被當作肥料，"
+  },
+  {
+   "start": 201.3,
+   "end": 206.86,
+   "speaker": "Kalan",
+   "text": "的原因，所以它也會有豐收的那個意味在裡面。"
+  },
+  {
+   "start": 207.78,
+   "end": 211.96,
+   "speaker": "Kalan",
+   "text": "然後還有像是我自己蠻喜歡吃的一個，叫做栗きんとん，"
+  },
+  {
+   "start": 211.96,
+   "end": 213.26,
+   "speaker": "Kalan",
+   "text": "栗子的泥，"
+  },
+  {
+   "start": 213.92,
+   "end": 215.2,
+   "speaker": "Mooly",
+   "text": "甜甜的那個嗎？"
+  },
+  {
+   "start": 215.2,
+   "end": 216.84,
+   "speaker": "Kalan",
+   "text": "對對對，這個應該也有。"
+  },
+  {
+   "start": 216.84,
+   "end": 218.18,
+   "speaker": "Kalan",
+   "text": "不對，這個也是。"
+  },
+  {
+   "start": 218.6,
+   "end": 219.88,
+   "speaker": "Kalan",
+   "text": "它是財運。"
+  },
+  {
+   "start": 219.88,
+   "end": 223.06,
+   "speaker": "Kalan",
+   "text": "然後還有像是伊達卷，"
+  },
+  {
+   "start": 223.06,
+   "end": 224.56,
+   "speaker": "Kalan",
+   "text": "伊達卷它很像，"
+  },
+  {
+   "start": 224.56,
+   "end": 225.64,
+   "speaker": "Kalan",
+   "text": "就一個卷，"
+  },
+  {
+   "start": 226.46,
+   "end": 228.68,
+   "speaker": "Kalan",
+   "text": "然後吃起來有點甜甜的。"
+  },
+  {
+   "start": 228.68,
+   "end": 229.62,
+   "speaker": "Mooly",
+   "text": "有，有，有。"
+  },
+  {
+   "start": 229.62,
+   "end": 234.58,
+   "speaker": "Mooly",
+   "text": "它那個是用什麼做的？是蛋還是什麼，就很像玉子燒那種嗎？"
+  },
+  {
+   "start": 234.58,
+   "end": 239.6,
+   "speaker": "Kalan",
+   "text": "對，有一點像玉子燒，它是用蝦子，然後蛋，"
+  },
+  {
+   "start": 239.6,
+   "end": 242.04,
+   "speaker": "Kalan",
+   "text": "然後還有魚板的感覺。"
+  },
+  {
+   "start": 243.6,
+   "end": 248.02,
+   "speaker": "Kalan",
+   "text": "然後還有一些可能會出現的，"
+  },
+  {
+   "start": 248.67,
+   "end": 249.5,
+   "speaker": "Kalan",
+   "text": "數の子，"
+  },
+  {
+   "start": 250.76,
+   "end": 255.32,
+   "speaker": "Kalan",
+   "text": "就是某個魚的卵，黃黃的。"
+  },
+  {
+   "start": 255.32,
+   "end": 256.22,
+   "speaker": "Mooly",
+   "text": "有，有，有，有，有，有。"
+  },
+  {
+   "start": 256.22,
+   "end": 257.66,
+   "speaker": "Kalan",
+   "text": "那個你喜歡嗎？"
+  },
+  {
+   "start": 257.66,
+   "end": 258.5,
+   "speaker": "Kalan",
+   "text": "還是你覺得還好？"
+  },
+  {
+   "start": 258.5,
+   "end": 260.2,
+   "speaker": "Mooly",
+   "text": "還好。"
+  },
+  {
+   "start": 260.94,
+   "end": 262.6,
+   "speaker": "Kalan",
+   "text": "那它這個呢，是"
+  },
+  {
+   "start": 262.6,
+   "end": 266.68,
+   "speaker": "Kalan",
+   "text": "因為它就是軟嘛，所以就屬於那個子孫繁榮啊。"
+  },
+  {
+   "start": 268.62,
+   "end": 270.82,
+   "speaker": "Kalan",
+   "text": "然後還有像是，"
+  },
+  {
+   "start": 270.82,
+   "end": 272.76,
+   "speaker": "Kalan",
+   "text": "它好像會有一些，"
+  },
+  {
+   "start": 272.76,
+   "end": 274.7,
+   "speaker": "Kalan",
+   "text": "那其實叫什麼？竹籤，竹，喔，"
+  },
+  {
+   "start": 274.7,
+   "end": 278.12,
+   "speaker": "Kalan",
+   "text": "就是它會有一些，比如說像什麼蒟蒻，"
+  },
+  {
+   "start": 278.12,
+   "end": 282.14,
+   "speaker": "Kalan",
+   "text": "會有蓮藕啊，或者是這個香菇，"
+  },
+  {
+   "start": 282.14,
+   "end": 283.34,
+   "speaker": "Kalan",
+   "text": "然後它會給你一包，"
+  },
+  {
+   "start": 283.34,
+   "end": 284.78,
+   "speaker": "Kalan",
+   "text": "喔，對對對對，那個，"
+  },
+  {
+   "start": 285.68,
+   "end": 287.56,
+   "speaker": "Kalan",
+   "text": "那個它的含義就是，"
+  },
+  {
+   "start": 289.22,
+   "end": 292.94,
+   "speaker": "Kalan",
+   "text": "家族可以友好地一起生活這樣子，"
+  },
+  {
+   "start": 293.64,
+   "end": 295.2,
+   "speaker": "Kalan",
+   "text": "它有這樣的寓意在裡面。"
+  },
+  {
+   "start": 295.2,
+   "end": 298.02,
+   "speaker": "Kalan",
+   "text": "大概是比較經典的，大概是這些，"
+  },
+  {
+   "start": 298.02,
+   "end": 300.72,
+   "speaker": "Kalan",
+   "text": "然後剩下就是看店家有什麼客製化。"
+  },
+  {
+   "start": 300.72,
+   "end": 303.52,
+   "speaker": "Kalan",
+   "text": "像我今年買的有龍蝦。"
+  },
+  {
+   "start": 304.52,
+   "end": 305.92,
+   "speaker": "Mooly",
+   "text": "這麼厲害的嗎？"
+  },
+  {
+   "start": 307.82,
+   "end": 308.82,
+   "speaker": "Mooly",
+   "text": "有龍蝦。"
+  },
+  {
+   "start": 308.82,
+   "end": 311.4,
+   "speaker": "Mooly",
+   "text": "因為我吃那個，就只覺得它裡面，"
+  },
+  {
+   "start": 311.94,
+   "end": 313.54,
+   "speaker": "Mooly",
+   "text": "因為畢竟是以海鮮為主，"
+  },
+  {
+   "start": 313.54,
+   "end": 315.82,
+   "speaker": "Mooly",
+   "text": "然後它裡面就都是海鮮，"
+  },
+  {
+   "start": 315.82,
+   "end": 317.54,
+   "speaker": "Mooly",
+   "text": "基本上全部都是海鮮，"
+  },
+  {
+   "start": 317.54,
+   "end": 323.78,
+   "speaker": "Mooly",
+   "text": "但有可能只有一小格是雞肉，另外一小格是鴨肉，但其他都海鮮。"
+  },
+  {
+   "start": 323.78,
+   "end": 329.24,
+   "speaker": "Mooly",
+   "text": "然後我沒有那麼喜歡的原因是，我覺得吃到後面其實有點膩，"
+  },
+  {
+   "start": 329.24,
+   "end": 331.52,
+   "speaker": "Mooly",
+   "text": "因為它的調味都蠻像的。"
+  },
+  {
+   "start": 331.52,
+   "end": 332.72,
+   "speaker": "Kalan",
+   "text": "喔，對啊，畢竟要"
+  },
+  {
+   "start": 332.72,
+   "end": 335.26,
+   "speaker": "Kalan",
+   "text": "應該要蠻早就開始準備。"
+  },
+  {
+   "start": 335.26,
+   "end": 335.96,
+   "speaker": "Mooly",
+   "text": "對，對，"
+  },
+  {
+   "start": 336.5,
+   "end": 338.82,
+   "speaker": "Kalan",
+   "text": "所以為了怕它壞掉，所以"
+  },
+  {
+   "start": 338.82,
+   "end": 345.34,
+   "speaker": "Mooly",
+   "text": "對，所以就有一些，就是基本上都是類似醃漬物的感覺，就可能味道沒有到真的這麼重，"
+  },
+  {
+   "start": 345.34,
+   "end": 350.24,
+   "speaker": "Mooly",
+   "text": "但就是會有一點，比如說有酸酸的、甜甜的、鹹鹹的。"
+  },
+  {
+   "start": 350.24,
+   "end": 350.74,
+   "speaker": "Mooly",
+   "text": "然後就是……"
+  },
+  {
+   "start": 350.74,
+   "end": 354.22,
+   "speaker": "Mooly",
+   "text": "但也有可能是因為我買那個便當實在是太大盒了。"
+  },
+  {
+   "start": 354.22,
+   "end": 356.98,
+   "speaker": "Mooly",
+   "text": "我買了一個三層的便當，兩個人吃，"
+  },
+  {
+   "start": 356.98,
+   "end": 361.02,
+   "speaker": "Mooly",
+   "text": "然後大概吃了一層就差不多了，"
+  },
+  {
+   "start": 361.02,
+   "end": 362.56,
+   "speaker": "Mooly",
+   "text": "然後其他就放隔天吃。"
+  },
+  {
+   "start": 363.22,
+   "end": 367.12,
+   "speaker": "Kalan",
+   "text": "喔對，我自己習慣也是就是放很多天這樣子，"
+  },
+  {
+   "start": 367.12,
+   "end": 368.36,
+   "speaker": "Mooly",
+   "text": "慢慢吃。"
+  },
+  {
+   "start": 368.36,
+   "end": 370.12,
+   "speaker": "Mooly",
+   "text": "對，因為那個真的分……"
+  },
+  {
+   "start": 370.12,
+   "end": 372.38,
+   "speaker": "Mooly",
+   "text": "其實看起來分量沒那麼多，"
+  },
+  {
+   "start": 372.38,
+   "end": 374.24,
+   "speaker": "Mooly",
+   "text": "但真的吃起來，吃一吃也是會覺得"
+  },
+  {
+   "start": 374.24,
+   "end": 375.68,
+   "speaker": "Mooly",
+   "text": "好像蠻多的。"
+  },
+  {
+   "start": 375.68,
+   "end": 379.7,
+   "speaker": "Mooly",
+   "text": "但也有可能是因為太容易膩了，所以你沒辦法一直吃一直吃。"
+  },
+  {
+   "start": 379.7,
+   "end": 383.0,
+   "speaker": "Kalan",
+   "text": "那問題我問你了，你有去吃那個嗎？"
+  },
+  {
+   "start": 383.62,
+   "end": 385.08,
+   "speaker": "Kalan",
+   "text": "年越しそば，"
+  },
+  {
+   "start": 385.8,
+   "end": 388.18,
+   "speaker": "Kalan",
+   "text": "就是跨年蕎麥麵？"
+  },
+  {
+   "start": 388.18,
+   "end": 389.88,
+   "speaker": "Mooly",
+   "text": "沒有耶。"
+  },
+  {
+   "start": 389.88,
+   "end": 392.22,
+   "speaker": "Kalan",
+   "text": "基本上就是在跨年的時候，"
+  },
+  {
+   "start": 392.88,
+   "end": 395.96,
+   "speaker": "Kalan",
+   "text": "超市裡面都會賣這些蕎麥麵，"
+  },
+  {
+   "start": 395.96,
+   "end": 399.3,
+   "speaker": "Kalan",
+   "text": "不過超市裡面的話可能要看一下，"
+  },
+  {
+   "start": 399.3,
+   "end": 402.88,
+   "speaker": "Kalan",
+   "text": "因為基本上味道就是超市，"
+  },
+  {
+   "start": 402.88,
+   "end": 405.64,
+   "speaker": "Mooly",
+   "text": "超市的感覺。"
+  },
+  {
+   "start": 406.66,
+   "end": 409.02,
+   "speaker": "Kalan",
+   "text": "我們來講一下紅白好了。"
+  },
+  {
+   "start": 409.02,
+   "end": 411.48,
+   "speaker": "Kalan",
+   "text": "我自己是蠻喜歡看紅白的，"
+  },
+  {
+   "start": 411.48,
+   "end": 413.08,
+   "speaker": "Kalan",
+   "text": "然後我今年，"
+  },
+  {
+   "start": 413.08,
+   "end": 415.08,
+   "speaker": "Kalan",
+   "text": "就 2024 2025 那一個，"
+  },
+  {
+   "start": 415.08,
+   "end": 421.66,
+   "speaker": "Kalan",
+   "text": "我一個蠻喜歡的表演是藤井風的，"
+  },
+  {
+   "start": 421.66,
+   "end": 423.18,
+   "speaker": "Mooly",
+   "text": "這個我有看到。"
+  },
+  {
+   "start": 423.18,
+   "end": 424.1,
+   "speaker": "Kalan",
+   "text": "這個你有看到？"
+  },
+  {
+   "start": 424.1,
+   "end": 424.9,
+   "speaker": "Kalan",
+   "text": "我覺得他的"
+  },
+  {
+   "start": 425.63,
+   "end": 427.52,
+   "speaker": "Kalan",
+   "text": "那個 MV 真的拍得很讚，"
+  },
+  {
+   "start": 427.52,
+   "end": 430.36,
+   "speaker": "Kalan",
+   "text": "然後我很喜歡他的那首歌，"
+  },
+  {
+   "start": 430.36,
+   "end": 430.72,
+   "speaker": "Kalan",
+   "text": "那個"
+  },
+  {
+   "start": 430.72,
+   "end": 434.16,
+   "speaker": "Kalan",
+   "text": "「満ちてゆく」裡面的，"
+  },
+  {
+   "start": 434.16,
+   "end": 437.38,
+   "speaker": "Kalan",
+   "text": "不管是歌詞也好還是音樂也好，"
+  },
+  {
+   "start": 437.89,
+   "end": 441.36,
+   "speaker": "Kalan",
+   "text": "還有藤井風這個人也好，他真的是超厲害的，"
+  },
+  {
+   "start": 441.36,
+   "end": 443.76,
+   "speaker": "Kalan",
+   "text": "而且就是很灑脫的一個人。"
+  },
+  {
+   "start": 446.44,
+   "end": 448.46,
+   "speaker": "Kalan",
+   "text": "那問你，我問你喔，"
+  },
+  {
+   "start": 449.4,
+   "end": 452.86,
+   "speaker": "Kalan",
+   "text": "你有去做參拜嗎？"
+  },
+  {
+   "start": 452.86,
+   "end": 453.54,
+   "speaker": "Mooly",
+   "text": "有耶，那個"
+  },
+  {
+   "start": 453.54,
+   "end": 455.7,
+   "speaker": "Mooly",
+   "text": "去年的……"
+  },
+  {
+   "start": 455.7,
+   "end": 457.54,
+   "speaker": "Mooly",
+   "text": "就我第一年來日本的時候還沒有，"
+  },
+  {
+   "start": 457.54,
+   "end": 460.18,
+   "speaker": "Mooly",
+   "text": "然後前幾天的"
+  },
+  {
+   "start": 460.18,
+   "end": 462.1,
+   "speaker": "Mooly",
+   "text": "今年的那個跨年有去。"
+  },
+  {
+   "start": 462.1,
+   "end": 465.36,
+   "speaker": "Mooly",
+   "text": "然後人比我想像中的多蠻多的，"
+  },
+  {
+   "start": 465.36,
+   "end": 470.56,
+   "speaker": "Mooly",
+   "text": "就我們是去家裡附近的一個算是小寺廟吧，"
+  },
+  {
+   "start": 470.56,
+   "end": 472.64,
+   "speaker": "Mooly",
+   "text": "然後平常路過也都沒什麼人，"
+  },
+  {
+   "start": 473.1,
+   "end": 475.52,
+   "speaker": "Mooly",
+   "text": "但那天跨年去的時候人超多，"
+  },
+  {
+   "start": 475.52,
+   "end": 478.36,
+   "speaker": "Mooly",
+   "text": "然後很多人在排隊排那個參拜。"
+  },
+  {
+   "start": 478.36,
+   "end": 480.38,
+   "speaker": "Kalan",
+   "text": "那你們大概排了多久啊？"
+  },
+  {
+   "start": 480.38,
+   "end": 480.94,
+   "speaker": "Mooly",
+   "text": "我們沒有排，"
+  },
+  {
+   "start": 480.94,
+   "end": 483.04,
+   "speaker": "Mooly",
+   "text": "就是我們看到人太多就沒有排。"
+  },
+  {
+   "start": 483.04,
+   "end": 485.28,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 485.78,
+   "end": 488.92,
+   "speaker": "Mooly",
+   "text": "對，就只是去那邊晃一晃，"
+  },
+  {
+   "start": 488.92,
+   "end": 496.56,
+   "speaker": "Mooly",
+   "text": "然後因為我們去的時候還沒有真的跨年嘛，就可能是 11:55 左右的時候到的，"
+  },
+  {
+   "start": 496.56,
+   "end": 499.3,
+   "speaker": "Mooly",
+   "text": "然後我們那時候就在想說，"
+  },
+  {
+   "start": 499.3,
+   "end": 501.28,
+   "speaker": "Mooly",
+   "text": "日本人到底會不會跨年，"
+  },
+  {
+   "start": 501.28,
+   "end": 503.06,
+   "speaker": "Mooly",
+   "text": "就是他們會不會倒數這件事情。"
+  },
+  {
+   "start": 503.06,
+   "end": 506.88,
+   "speaker": "Mooly",
+   "text": "最後得到的答案是，有，他們有倒數，"
+  },
+  {
+   "start": 506.88,
+   "end": 510.5,
+   "speaker": "Mooly",
+   "text": "5 秒開始有很日本人的小小聲的倒數，"
+  },
+  {
+   "start": 510.5,
+   "end": 517.46,
+   "speaker": "Mooly",
+   "text": "然後就不像你去什麼 101 倒數看過，會有那種全場大倒數：5、4、3、2、1，新年快樂！"
+  },
+  {
+   "start": 517.46,
+   "end": 517.92,
+   "speaker": "Mooly",
+   "text": "它就是，"
+  },
+  {
+   "start": 517.92,
+   "end": 520.64,
+   "speaker": "Mooly",
+   "text": "小小聲的，大家都小小聲倒數，"
+  },
+  {
+   "start": 520.64,
+   "end": 524.52,
+   "speaker": "Mooly",
+   "text": "然後倒數完之後，就簡單地拍個手，"
+  },
+  {
+   "start": 524.52,
+   "end": 527.24,
+   "speaker": "Mooly",
+   "text": "然後小小聲講個新年快樂。"
+  },
+  {
+   "start": 527.24,
+   "end": 530.66,
+   "speaker": "Mooly",
+   "text": "我才是，可能怕吵到附近的鄰居。"
+  },
+  {
+   "start": 532.02,
+   "end": 535.68,
+   "speaker": "Kalan",
+   "text": "的確，日本過年的跨年，"
+  },
+  {
+   "start": 535.68,
+   "end": 539.08,
+   "speaker": "Kalan",
+   "text": "跨年的方式的確跟台灣蠻不一樣的。"
+  },
+  {
+   "start": 539.62,
+   "end": 540.52,
+   "speaker": "Mooly",
+   "text": "確實。"
+  },
+  {
+   "start": 541.54,
+   "end": 544.46,
+   "speaker": "Kalan",
+   "text": "我的話呢，我是去，因為我是住在福岡嘛，"
+  },
+  {
+   "start": 544.46,
+   "end": 547.5,
+   "speaker": "Kalan",
+   "text": "那我們是去太宰府天滿宮，"
+  },
+  {
+   "start": 547.5,
+   "end": 548.7,
+   "speaker": "Kalan",
+   "text": "參拜。"
+  },
+  {
+   "start": 548.7,
+   "end": 552.9,
+   "speaker": "Kalan",
+   "text": "那它是一個應該算是蠻有名的參拜的地方，"
+  },
+  {
+   "start": 553.84,
+   "end": 556.98,
+   "speaker": "Kalan",
+   "text": "那因為我們是 1 月 2 號去的，"
+  },
+  {
+   "start": 556.98,
+   "end": 559.74,
+   "speaker": "Mooly",
+   "text": "所以不是跨年的那時候就去，"
+  },
+  {
+   "start": 559.74,
+   "end": 564.16,
+   "speaker": "Kalan",
+   "text": "因為一定會人很多，然後會塞車啊什麼的，"
+  },
+  {
+   "start": 564.16,
+   "end": 567.26,
+   "speaker": "Kalan",
+   "text": "所以就想說晚一點去其實也沒差。"
+  },
+  {
+   "start": 567.98,
+   "end": 569.46,
+   "speaker": "Kalan",
+   "text": "那當然人還是很多，"
+  },
+  {
+   "start": 570.38,
+   "end": 572.48,
+   "speaker": "Kalan",
+   "text": "但蠻好排的啦，就是，"
+  },
+  {
+   "start": 573.02,
+   "end": 574.86,
+   "speaker": "Kalan",
+   "text": "因為它好像這些，"
+  },
+  {
+   "start": 576.34,
+   "end": 582.3,
+   "speaker": "Kalan",
+   "text": "這些廟、這些宮，他們都會一次放很多可以參拜的點，"
+  },
+  {
+   "start": 582.3,
+   "end": 585.26,
+   "speaker": "Kalan",
+   "text": "就是頭前的地方，原本可能只有一個，"
+  },
+  {
+   "start": 585.26,
+   "end": 587.92,
+   "speaker": "Kalan",
+   "text": "然後他可能會設好幾個這樣子，"
+  },
+  {
+   "start": 587.92,
+   "end": 589.2,
+   "speaker": "Mooly",
+   "text": "他會多開幾個點這樣子。"
+  },
+  {
+   "start": 589.2,
+   "end": 593.2,
+   "speaker": "Kalan",
+   "text": "對，所以你可以一次是可以 parallel，"
+  },
+  {
+   "start": 595.04,
+   "end": 596.76,
+   "speaker": "Kalan",
+   "text": "可以並行去做。"
+  },
+  {
+   "start": 596.76,
+   "end": 597.0,
+   "speaker": "Mooly",
+   "text": "對，"
+  },
+  {
+   "start": 597.46,
+   "end": 598.98,
+   "speaker": "Mooly",
+   "text": "並行運算的概念。"
+  },
+  {
+   "start": 599.72,
+   "end": 603.06,
+   "speaker": "Kalan",
+   "text": "對，所以整個速度就會比較快這樣子。"
+  },
+  {
+   "start": 603.06,
+   "end": 605.52,
+   "speaker": "Kalan",
+   "text": "當然人還是蠻多的，"
+  },
+  {
+   "start": 606.96,
+   "end": 610.18,
+   "speaker": "Kalan",
+   "text": "所以大家如果是不喜歡這樣子，"
+  },
+  {
+   "start": 610.66,
+   "end": 612.16,
+   "speaker": "Kalan",
+   "text": "就是人擠人這種的話，"
+  },
+  {
+   "start": 613.44,
+   "end": 617.8,
+   "speaker": "Kalan",
+   "text": "那就盡量不要在年末年始的時候來日本玩。"
+  },
+  {
+   "start": 618.48,
+   "end": 621.16,
+   "speaker": "Kalan",
+   "text": "而且年末年始的時候來日本玩，"
+  },
+  {
+   "start": 621.16,
+   "end": 621.84,
+   "speaker": "Kalan",
+   "text": "通常，"
+  },
+  {
+   "start": 622.7,
+   "end": 624.9,
+   "speaker": "Kalan",
+   "text": "因為通常都會店休，"
+  },
+  {
+   "start": 624.9,
+   "end": 628.72,
+   "speaker": "Kalan",
+   "text": "所以你能逛的東西其實很少，"
+  },
+  {
+   "start": 628.72,
+   "end": 631.92,
+   "speaker": "Kalan",
+   "text": "你就可能就是去逛神社這樣子。"
+  },
+  {
+   "start": 632.62,
+   "end": 637.6,
+   "speaker": "Mooly",
+   "text": "對，這個也是我第一年來日本覺得跟台灣很不一樣的一點。"
+  },
+  {
+   "start": 637.6,
+   "end": 639.68,
+   "speaker": "Mooly",
+   "text": "先簡單講一下什麼是年末年始。"
+  },
+  {
+   "start": 639.68,
+   "end": 644.2,
+   "speaker": "Mooly",
+   "text": "基本上日本在年底的時候，"
+  },
+  {
+   "start": 644.2,
+   "end": 647.0,
+   "speaker": "Mooly",
+   "text": "就是都會有一個休假，"
+  },
+  {
+   "start": 647.0,
+   "end": 650.14,
+   "speaker": "Mooly",
+   "text": "應該是這個休假就叫做年末年始，在年底的時候，"
+  },
+  {
+   "start": 650.14,
+   "end": 656.28,
+   "speaker": "Mooly",
+   "text": "它好像，我記得應該不算是國定假日的一種嗎？"
+  },
+  {
+   "start": 656.28,
+   "end": 659.64,
+   "speaker": "Mooly",
+   "text": "但是通常公司都會放這個假，"
+  },
+  {
+   "start": 659.64,
+   "end": 660.46,
+   "speaker": "Mooly",
+   "text": "然後，"
+  },
+  {
+   "start": 661.0,
+   "end": 664.44,
+   "speaker": "Mooly",
+   "text": "今年的話是奇蹟的九連休吧，"
+  },
+  {
+   "start": 664.44,
+   "end": 668.08,
+   "speaker": "Mooly",
+   "text": "就是它剛好是過年，1 月 1 號是禮拜三，"
+  },
+  {
+   "start": 668.08,
+   "end": 670.84,
+   "speaker": "Mooly",
+   "text": "然後它是禮拜一、二跟禮拜四、五都放了，"
+  },
+  {
+   "start": 670.84,
+   "end": 674.78,
+   "speaker": "Mooly",
+   "text": "所以就是你前面假日加後面假日，加五天加起來九天，"
+  },
+  {
+   "start": 674.78,
+   "end": 676.46,
+   "speaker": "Mooly",
+   "text": "就是九連休，"
+  },
+  {
+   "start": 676.46,
+   "end": 678.6,
+   "speaker": "Mooly",
+   "text": "九天全部都休息。"
+  },
+  {
+   "start": 678.6,
+   "end": 684.54,
+   "speaker": "Mooly",
+   "text": "然後一個蠻特別的地方是，日本在這個年末年始這個假期的時候，"
+  },
+  {
+   "start": 685.0,
+   "end": 687.66,
+   "speaker": "Mooly",
+   "text": "它有些店是不會開的，"
+  },
+  {
+   "start": 687.66,
+   "end": 689.08,
+   "speaker": "Mooly",
+   "text": "甚至是百貨公司也不會開，"
+  },
+  {
+   "start": 689.08,
+   "end": 691.52,
+   "speaker": "Mooly",
+   "text": "甚至是有一些連鎖店或什麼的，"
+  },
+  {
+   "start": 691.52,
+   "end": 692.26,
+   "speaker": "Mooly",
+   "text": "它也不會開。"
+  },
+  {
+   "start": 692.26,
+   "end": 695.74,
+   "speaker": "Mooly",
+   "text": "比如說我家附近的什麼松屋啊，"
+  },
+  {
+   "start": 695.74,
+   "end": 699.16,
+   "speaker": "Mooly",
+   "text": "吉野家啊什麼的，他們在比如說可能 1 月 1 號、"
+  },
+  {
+   "start": 699.16,
+   "end": 702.82,
+   "speaker": "Mooly",
+   "text": "2 號、3 號，可能這幾天都是不開的，"
+  },
+  {
+   "start": 702.82,
+   "end": 705.32,
+   "speaker": "Mooly",
+   "text": "就是它這種店也是會休息。"
+  },
+  {
+   "start": 705.32,
+   "end": 706.7,
+   "speaker": "Mooly",
+   "text": "然後百貨公司也會休息。"
+  },
+  {
+   "start": 706.7,
+   "end": 709.56,
+   "speaker": "Mooly",
+   "text": "所以你想逛的話，是真的沒有什麼地方去，"
+  },
+  {
+   "start": 709.56,
+   "end": 710.54,
+   "speaker": "Mooly",
+   "text": "因為大家都在休假。"
+  },
+  {
+   "start": 710.54,
+   "end": 716.52,
+   "speaker": "Kalan",
+   "text": "蠻特別的部分是，連這些連鎖的東西跟有些百貨公司，可能也不開。"
+  },
+  {
+   "start": 716.52,
+   "end": 717.54,
+   "speaker": "Kalan",
+   "text": "欸，不過呢，"
+  },
+  {
+   "start": 717.54,
+   "end": 720.36,
+   "speaker": "Kalan",
+   "text": "有個好消息就是，如果你來福岡的話，"
+  },
+  {
+   "start": 720.76,
+   "end": 722.06,
+   "speaker": "Kalan",
+   "text": "Lanarkode 有開。"
+  },
+  {
+   "start": 722.54,
+   "end": 724.64,
+   "speaker": "Mooly",
+   "text": "喔，就可以去裡面逛街。"
+  },
+  {
+   "start": 724.64,
+   "end": 727.12,
+   "speaker": "Kalan",
+   "text": "對，可以去裡面逛街，只是人蠻多的，就是，"
+  },
+  {
+   "start": 727.12,
+   "end": 729.84,
+   "speaker": "Kalan",
+   "text": "喔對，再來就是新年嘛，"
+  },
+  {
+   "start": 729.84,
+   "end": 731.52,
+   "speaker": "Kalan",
+   "text": "所以總是會有一些特價，"
+  },
+  {
+   "start": 731.52,
+   "end": 734.4,
+   "speaker": "Kalan",
+   "text": "那大家也可以趁這個時間去撿便宜，"
+  },
+  {
+   "start": 734.4,
+   "end": 739.88,
+   "speaker": "Kalan",
+   "text": "只是可能事先要查好哪些百貨公司有開、哪些可能沒有開這樣子，"
+  },
+  {
+   "start": 739.88,
+   "end": 742.68,
+   "speaker": "Mooly",
+   "text": "或是有什麼新年福袋什麼的，"
+  },
+  {
+   "start": 742.68,
+   "end": 743.62,
+   "speaker": "Mooly",
+   "text": "就是一些，"
+  },
+  {
+   "start": 744.22,
+   "end": 747.16,
+   "speaker": "Mooly",
+   "text": "就買福袋，然後抽裡面有什麼東西的那種。"
+  },
+  {
+   "start": 747.16,
+   "end": 751.22,
+   "speaker": "Kalan",
+   "text": "喔對，福袋的確也是一個大坑，"
+  },
+  {
+   "start": 751.22,
+   "end": 753.06,
+   "speaker": "Kalan",
+   "text": "所以我都不會碰這樣。"
+  },
+  {
+   "start": 753.06,
+   "end": 754.2,
+   "speaker": "Mooly",
+   "text": "這個我也沒有碰，"
+  },
+  {
+   "start": 754.2,
+   "end": 755.86,
+   "speaker": "Mooly",
+   "text": "我只是剛好看到有一些，"
+  },
+  {
+   "start": 755.86,
+   "end": 758.44,
+   "speaker": "Mooly",
+   "text": "就有一些，好像蠻多店也都有。"
+  },
+  {
+   "start": 758.44,
+   "end": 763.46,
+   "speaker": "Mooly",
+   "text": "比如說我有看到什麼 Donki Donki，那個唐吉訶德好像也有一個福袋，"
+  },
+  {
+   "start": 763.46,
+   "end": 768.12,
+   "speaker": "Mooly",
+   "text": "然後什麼 Uniqlo，記得好像之前也有一個福袋還是什麼的，"
+  },
+  {
+   "start": 768.12,
+   "end": 770.24,
+   "speaker": "Mooly",
+   "text": "反正各個店都有福袋。"
+  },
+  {
+   "start": 770.24,
+   "end": 772.96,
+   "speaker": "Mooly",
+   "text": "如果有興趣想要試試手氣，"
+  },
+  {
+   "start": 772.96,
+   "end": 775.14,
+   "speaker": "Mooly",
+   "text": "抽抽獎的話，可以去買買看。"
+  },
+  {
+   "start": 775.14,
+   "end": 776.12,
+   "speaker": "Kalan",
+   "text": "對對對。"
+  },
+  {
+   "start": 776.12,
+   "end": 779.06,
+   "speaker": "Kalan",
+   "text": "那畢竟我們是這個開發者出身，"
+  },
+  {
+   "start": 779.06,
+   "end": 781.56,
+   "speaker": "Kalan",
+   "text": "所以我們可能不太喜歡隨機性。"
+  },
+  {
+   "start": 785.22,
+   "end": 785.74,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 787.22,
+   "end": 789.62,
+   "speaker": "Kalan",
+   "text": "對，所以總之呢，"
+  },
+  {
+   "start": 790.6,
+   "end": 795.72,
+   "speaker": "Kalan",
+   "text": "大家或許會對這個日本新年有一些想像，"
+  },
+  {
+   "start": 795.72,
+   "end": 798.9,
+   "speaker": "Kalan",
+   "text": "但我們在這邊的感受是呢，"
+  },
+  {
+   "start": 798.9,
+   "end": 804.56,
+   "speaker": "Kalan",
+   "text": "除非你真的非常非常想體驗這個店都沒有開、百貨也沒有開的這個氣氛，"
+  },
+  {
+   "start": 804.56,
+   "end": 807.6,
+   "speaker": "Kalan",
+   "text": "不然的話，我們其實不太建議你來，"
+  },
+  {
+   "start": 807.6,
+   "end": 810.36,
+   "speaker": "Kalan",
+   "text": "在日本新年的時候過來玩。"
+  },
+  {
+   "start": 810.96,
+   "end": 815.14,
+   "speaker": "Mooly",
+   "text": "對，就除非你想要體驗跟農曆過年一樣的台北市的感覺，"
+  },
+  {
+   "start": 815.14,
+   "end": 818.28,
+   "speaker": "Mooly",
+   "text": "不然不建議你年末年始的時候來東京玩。"
+  },
+  {
+   "start": 818.28,
+   "end": 824.16,
+   "speaker": "Kalan",
+   "text": "對啊，畢竟可能你都想出來玩了，那當然會是希望挑一個，"
+  },
+  {
+   "start": 824.16,
+   "end": 827.36,
+   "speaker": "Mooly",
+   "text": "店都有開的時候來玩。"
+  },
+  {
+   "start": 827.36,
+   "end": 828.94,
+   "speaker": "Kalan",
+   "text": "關於日本新年的部分，"
+  },
+  {
+   "start": 829.52,
+   "end": 830.92,
+   "speaker": "Kalan",
+   "text": "大概是到這邊。"
+  },
+  {
+   "start": 830.92,
+   "end": 832.84,
+   "speaker": "Kalan",
+   "text": "那我們今年，"
+  },
+  {
+   "start": 833.54,
+   "end": 834.64,
+   "speaker": "Kalan",
+   "text": "2025 年，"
+  },
+  {
+   "start": 835.4,
+   "end": 839.98,
+   "speaker": "Kalan",
+   "text": "那我們不免俗的，也來回首一下 2024 年好了，"
+  },
+  {
+   "start": 840.76,
+   "end": 843.24,
+   "speaker": "Mooly",
+   "text": "簡單回顧一下。"
+  },
+  {
+   "start": 844.12,
+   "end": 846.04,
+   "speaker": "Kalan",
+   "text": "那不然我先問問你，"
+  },
+  {
+   "start": 847.84,
+   "end": 850.78,
+   "speaker": "Kalan",
+   "text": "你過去一年當中，有哪一些，"
+  },
+  {
+   "start": 851.46,
+   "end": 853.98,
+   "speaker": "Kalan",
+   "text": "你覺得印象深刻的事情，"
+  },
+  {
+   "start": 853.98,
+   "end": 856.46,
+   "speaker": "Kalan",
+   "text": "或者是說亮點好了？"
+  },
+  {
+   "start": 856.46,
+   "end": 857.06,
+   "speaker": "Kalan",
+   "text": "Highlight。"
+  },
+  {
+   "start": 857.78,
+   "end": 859.8,
+   "speaker": "Mooly",
+   "text": "印象深刻的事情嗎？"
+  },
+  {
+   "start": 859.8,
+   "end": 860.66,
+   "speaker": "Mooly",
+   "text": "我想一下，"
+  },
+  {
+   "start": 863.04,
+   "end": 864.12,
+   "speaker": "Mooly",
+   "text": "我覺得其實，"
+  },
+  {
+   "start": 864.82,
+   "end": 867.28,
+   "speaker": "Mooly",
+   "text": "比起之前好了，"
+  },
+  {
+   "start": 867.28,
+   "end": 868.66,
+   "speaker": "Mooly",
+   "text": "比起前幾年好了，"
+  },
+  {
+   "start": 868.66,
+   "end": 875.7,
+   "speaker": "Mooly",
+   "text": "今年反倒，就 2024 這一整年，反倒沒有太多這種亮點的東西。"
+  },
+  {
+   "start": 875.7,
+   "end": 882.56,
+   "speaker": "Mooly",
+   "text": "就對我來說，2024 比較像是一個比較平淡穩定的一年，"
+  },
+  {
+   "start": 882.56,
+   "end": 884.14,
+   "speaker": "Mooly",
+   "text": "就比起，比如說，"
+  },
+  {
+   "start": 884.14,
+   "end": 887.14,
+   "speaker": "Mooly",
+   "text": "因為像可能之前還更年輕的時候，"
+  },
+  {
+   "start": 887.14,
+   "end": 889.24,
+   "speaker": "Mooly",
+   "text": "二十幾歲的時候，你可能會覺得說，"
+  },
+  {
+   "start": 889.72,
+   "end": 897.22,
+   "speaker": "Mooly",
+   "text": "就你可能每年，比如說每年新年你都要寫一下去年的回顧啊，然後寫下自己稍微做什麼事情，稍微做個整理，"
+  },
+  {
+   "start": 897.22,
+   "end": 900.96,
+   "speaker": "Mooly",
+   "text": "然後可能都有一些事情是你覺得有什麼突破或什麼的。"
+  },
+  {
+   "start": 900.96,
+   "end": 911.7,
+   "speaker": "Mooly",
+   "text": "但反倒是去年，或甚至今年一直延續到今年，對我來說比較像是一個有點像在打坐冥想的那種感覺嗎？"
+  },
+  {
+   "start": 911.7,
+   "end": 914.08,
+   "speaker": "Mooly",
+   "text": "就是會去思考一些東西，"
+  },
+  {
+   "start": 914.08,
+   "end": 918.14,
+   "speaker": "Mooly",
+   "text": "但是暫時沒有太多的突破，有種那種"
+  },
+  {
+   "start": 918.14,
+   "end": 920.62,
+   "speaker": "Mooly",
+   "text": "閉關修煉打坐的那種感覺，"
+  },
+  {
+   "start": 921.82,
+   "end": 924.6,
+   "speaker": "Kalan",
+   "text": "所以比較多是在沉思的部分，"
+  },
+  {
+   "start": 925.58,
+   "end": 927.38,
+   "speaker": "Mooly",
+   "text": "在反思的部分。"
+  },
+  {
+   "start": 927.38,
+   "end": 931.32,
+   "speaker": "Mooly",
+   "text": "愷愷那邊有什麼過去年的 highlight？"
+  },
+  {
+   "start": 932.1,
+   "end": 932.54,
+   "speaker": "Kalan",
+   "text": "有。"
+  },
+  {
+   "start": 932.54,
+   "end": 935.74,
+   "speaker": "Kalan",
+   "text": "我覺得 2024 年對我來說，"
+  },
+  {
+   "start": 936.31,
+   "end": 938.62,
+   "speaker": "Kalan",
+   "text": "我可能跟 Mooly 比較相反，"
+  },
+  {
+   "start": 938.62,
+   "end": 944.9,
+   "speaker": "Kalan",
+   "text": "我可能是在更前幾年是比較偏穩定，"
+  },
+  {
+   "start": 945.6,
+   "end": 949.02,
+   "speaker": "Kalan",
+   "text": "然後也算是沉思了幾年，"
+  },
+  {
+   "start": 949.74,
+   "end": 951.28,
+   "speaker": "Kalan",
+   "text": "甚至有點迷惘，"
+  },
+  {
+   "start": 952.18,
+   "end": 954.24,
+   "speaker": "Kalan",
+   "text": "這個時候再有空再來聊。"
+  },
+  {
+   "start": 954.24,
+   "end": 958.22,
+   "speaker": "Kalan",
+   "text": "那 2024 年對我來說是改變蠻多的一年，"
+  },
+  {
+   "start": 958.22,
+   "end": 960.28,
+   "speaker": "Kalan",
+   "text": "那我就稍微分享一下。"
+  },
+  {
+   "start": 960.28,
+   "end": 962.16,
+   "speaker": "Kalan",
+   "text": "那首先呢是，"
+  },
+  {
+   "start": 962.72,
+   "end": 965.26,
+   "speaker": "Kalan",
+   "text": "因為其實我還蠻喜歡玩遊戲的，"
+  },
+  {
+   "start": 966.06,
+   "end": 971.36,
+   "speaker": "Kalan",
+   "text": "那我在二月份的時候，有遇見一個叫做泰拉瑞亞（Terraria）這個遊戲，"
+  },
+  {
+   "start": 971.36,
+   "end": 973.12,
+   "speaker": "Kalan",
+   "text": "不知道 Mooly 有沒有聽過？"
+  },
+  {
+   "start": 973.12,
+   "end": 974.22,
+   "speaker": "Mooly",
+   "text": "沒有欸，它是"
+  },
+  {
+   "start": 974.22,
+   "end": 977.74,
+   "speaker": "Mooly",
+   "text": "電腦遊戲、手機遊戲還是 Switch 的遊戲嗎？"
+  },
+  {
+   "start": 977.74,
+   "end": 978.72,
+   "speaker": "Kalan",
+   "text": "它在 Switch。"
+  },
+  {
+   "start": 979.74,
+   "end": 983.36,
+   "speaker": "Kalan",
+   "text": "喔，它很厲害喔，它幾乎每個平台都有上耶。"
+  },
+  {
+   "start": 983.36,
+   "end": 987.18,
+   "speaker": "Mooly",
+   "text": "喔，是喔，那它是單機的還是連線的？"
+  },
+  {
+   "start": 987.18,
+   "end": 989.78,
+   "speaker": "Kalan",
+   "text": "它單機跟連線都可以，"
+  },
+  {
+   "start": 991.14,
+   "end": 994.04,
+   "speaker": "Kalan",
+   "text": "雖然說這樣講有些玩家可能會生氣，"
+  },
+  {
+   "start": 994.04,
+   "end": 998.48,
+   "speaker": "Kalan",
+   "text": "但有人把它比喻成這個 2D 版的 Minecraft。"
+  },
+  {
+   "start": 999.6,
+   "end": 1001.44,
+   "speaker": "Mooly",
+   "text": "喔，這種感覺是不是？"
+  },
+  {
+   "start": 1001.44,
+   "end": 1006.24,
+   "speaker": "Kalan",
+   "text": "那我自己很喜歡它的遊戲風格，"
+  },
+  {
+   "start": 1006.24,
+   "end": 1009.3,
+   "speaker": "Kalan",
+   "text": "然後還有音樂跟遊玩方式，"
+  },
+  {
+   "start": 1010.38,
+   "end": 1013.08,
+   "speaker": "Kalan",
+   "text": "所以那個時候我其實有點沉迷，"
+  },
+  {
+   "start": 1014.82,
+   "end": 1018.08,
+   "speaker": "Kalan",
+   "text": "那我很高興我遇到這款遊戲，"
+  },
+  {
+   "start": 1018.08,
+   "end": 1021.54,
+   "speaker": "Kalan",
+   "text": "所以大家如果有興趣的話，也可以約自己的朋友，"
+  },
+  {
+   "start": 1021.54,
+   "end": 1023.82,
+   "speaker": "Kalan",
+   "text": "因為自己一個人玩其實會有點無聊，"
+  },
+  {
+   "start": 1023.82,
+   "end": 1026.54,
+   "speaker": "Kalan",
+   "text": "可以約一堆自己的朋友一起玩。"
+  },
+  {
+   "start": 1026.54,
+   "end": 1029.36,
+   "speaker": "Kalan",
+   "text": "不過就真的玩下去會燒時間，"
+  },
+  {
+   "start": 1029.36,
+   "end": 1030.78,
+   "speaker": "Kalan",
+   "text": "所以要謹慎。"
+  },
+  {
+   "start": 1031.8,
+   "end": 1036.82,
+   "speaker": "Mooly",
+   "text": "那所以這個遊戲，它就是像 Minecraft，那可以自己蓋東西還是什麼的嗎？"
+  },
+  {
+   "start": 1036.82,
+   "end": 1038.02,
+   "speaker": "Kalan",
+   "text": "對，可以自己蓋東西，"
+  },
+  {
+   "start": 1038.02,
+   "end": 1044.26,
+   "speaker": "Kalan",
+   "text": "然後它有一個大概的劇情，跟一個大概的這個主線在。"
+  },
+  {
+   "start": 1044.7,
+   "end": 1046.66,
+   "speaker": "Mooly",
+   "text": "喔，所以它還是有主線任務的？"
+  },
+  {
+   "start": 1046.66,
+   "end": 1049.88,
+   "speaker": "Kalan",
+   "text": "對，只是它這個主線任務沒有到那麼明確，"
+  },
+  {
+   "start": 1049.88,
+   "end": 1052.94,
+   "speaker": "Kalan",
+   "text": "你甚至不去做這件事情也沒差。"
+  },
+  {
+   "start": 1053.42,
+   "end": 1055.14,
+   "speaker": "Mooly",
+   "text": "喔，然後自由度很高這樣子。"
+  },
+  {
+   "start": 1055.14,
+   "end": 1056.36,
+   "speaker": "Kalan",
+   "text": "對對對。"
+  },
+  {
+   "start": 1056.36,
+   "end": 1057.66,
+   "speaker": "Mooly",
+   "text": "嗯，了解了解。"
+  },
+  {
+   "start": 1057.66,
+   "end": 1063.8,
+   "speaker": "Kalan",
+   "text": "然後我在 3 月份的時候，就開始思考要不要買房子，"
+  },
+  {
+   "start": 1064.4,
+   "end": 1067.22,
+   "speaker": "Kalan",
+   "text": "然後就決定買下去了，"
+  },
+  {
+   "start": 1067.22,
+   "end": 1068.86,
+   "speaker": "Mooly",
+   "text": "對，買了。"
+  },
+  {
+   "start": 1068.86,
+   "end": 1075.08,
+   "speaker": "Kalan",
+   "text": "那再來是 7 月份的時候，我加入公司已經 5 年了，"
+  },
+  {
+   "start": 1075.08,
+   "end": 1076.4,
+   "speaker": "Kalan",
+   "text": "那我們這個，"
+  },
+  {
+   "start": 1077.06,
+   "end": 1079.44,
+   "speaker": "Kalan",
+   "text": "就我們公司 5 年的時候，"
+  },
+  {
+   "start": 1080.1,
+   "end": 1082.7,
+   "speaker": "Kalan",
+   "text": "他會給你一個 refresh 的休假，"
+  },
+  {
+   "start": 1083.68,
+   "end": 1085.4,
+   "speaker": "Kalan",
+   "text": "會有 10 天的空，"
+  },
+  {
+   "start": 1085.96,
+   "end": 1087.02,
+   "speaker": "Mooly",
+   "text": "還蠻久的其實，"
+  },
+  {
+   "start": 1087.02,
+   "end": 1090.1,
+   "speaker": "Kalan",
+   "text": "所以我們就利用這個時間去東京玩。"
+  },
+  {
+   "start": 1091.04,
+   "end": 1093.3,
+   "speaker": "Kalan",
+   "text": "然後我在樂器，"
+  },
+  {
+   "start": 1093.3,
+   "end": 1099.12,
+   "speaker": "Kalan",
+   "text": "就是買電吉他的人都會知道一條街，它叫御茶ノ水。"
+  },
+  {
+   "start": 1100.2,
+   "end": 1102.36,
+   "speaker": "Mooly",
+   "text": "我看動畫好像也是去那邊買，"
+  },
+  {
+   "start": 1102.36,
+   "end": 1106.36,
+   "speaker": "Kalan",
+   "text": "去御茶ノ水買了人生中的第一把電吉他，"
+  },
+  {
+   "start": 1107.1,
+   "end": 1110.44,
+   "speaker": "Kalan",
+   "text": "然後我就開始學電吉他這樣子。"
+  },
+  {
+   "start": 1110.96,
+   "end": 1113.5,
+   "speaker": "Kalan",
+   "text": "然後我大概是在 10 月份的時候，"
+  },
+  {
+   "start": 1114.04,
+   "end": 1117.0,
+   "speaker": "Kalan",
+   "text": "我就想說不然就去跟一些朋友聊聊，"
+  },
+  {
+   "start": 1117.0,
+   "end": 1121.28,
+   "speaker": "Kalan",
+   "text": "看看好了，然後我就去東京跟一些朋友聊天這樣子。"
+  },
+  {
+   "start": 1122.01,
+   "end": 1127.22,
+   "speaker": "Kalan",
+   "text": "那我覺得這是我 2024 年做過一個蠻棒的決定，"
+  },
+  {
+   "start": 1127.22,
+   "end": 1130.76,
+   "speaker": "Kalan",
+   "text": "因為我因為這樣的原因認識了蠻多，"
+  },
+  {
+   "start": 1130.76,
+   "end": 1133.9,
+   "speaker": "Kalan",
+   "text": "不管是新朋友或是老朋友也好，"
+  },
+  {
+   "start": 1133.9,
+   "end": 1138.24,
+   "speaker": "Kalan",
+   "text": "認識了一群我自己覺得蠻溫暖，然後又充滿能量，"
+  },
+  {
+   "start": 1138.24,
+   "end": 1141.26,
+   "speaker": "Kalan",
+   "text": "然後又實力很堅強的朋友。"
+  },
+  {
+   "start": 1142.68,
+   "end": 1145.74,
+   "speaker": "Kalan",
+   "text": "然後再來就是我辦了一個讀書會，"
+  },
+  {
+   "start": 1145.74,
+   "end": 1149.24,
+   "speaker": "Kalan",
+   "text": "那這個讀書會它不是寫程式相關的，"
+  },
+  {
+   "start": 1149.24,
+   "end": 1154.26,
+   "speaker": "Kalan",
+   "text": "就是它是一個跟寫程式比較沒有關係的讀書會。"
+  },
+  {
+   "start": 1154.26,
+   "end": 1159.12,
+   "speaker": "Kalan",
+   "text": "那也是因為這樣的關係，認識了一群新的朋友這樣子。"
+  },
+  {
+   "start": 1159.12,
+   "end": 1162.26,
+   "speaker": "Mooly",
+   "text": "嗯，就是那個什麼，做你生命的設計師。"
+  },
+  {
+   "start": 1162.26,
+   "end": 1165.44,
+   "speaker": "Kalan",
+   "text": "對對對，做自己的生命設計師讀書會的那個。"
+  },
+  {
+   "start": 1166.06,
+   "end": 1167.58,
+   "speaker": "Kalan",
+   "text": "然後還有呢，"
+  },
+  {
+   "start": 1168.24,
+   "end": 1172.72,
+   "speaker": "Kalan",
+   "text": "我認識了蠻多創辦人的，"
+  },
+  {
+   "start": 1172.72,
+   "end": 1174.1,
+   "speaker": "Kalan",
+   "text": "那其中一位就是，"
+  },
+  {
+   "start": 1174.1,
+   "end": 1176.6,
+   "speaker": "Kalan",
+   "text": "是 Siever 的那個創辦人。"
+  },
+  {
+   "start": 1177.12,
+   "end": 1179.76,
+   "speaker": "Kalan",
+   "text": "然後因為我在推特上發文的關係，"
+  },
+  {
+   "start": 1179.76,
+   "end": 1181.46,
+   "speaker": "Kalan",
+   "text": "然後他剛好那天也在福岡，"
+  },
+  {
+   "start": 1181.46,
+   "end": 1182.24,
+   "speaker": "Kalan",
+   "text": "然後我們就"
+  },
+  {
+   "start": 1182.92,
+   "end": 1183.68,
+   "speaker": "Mooly",
+   "text": "約出來吃飯，"
+  },
+  {
+   "start": 1183.68,
+   "end": 1187.5,
+   "speaker": "Kalan",
+   "text": "很意外的就在福岡一起吃水炊。"
+  },
+  {
+   "start": 1188.08,
+   "end": 1190.34,
+   "speaker": "Kalan",
+   "text": "但那個經歷其實還蠻酷的，"
+  },
+  {
+   "start": 1190.34,
+   "end": 1193.26,
+   "speaker": "Kalan",
+   "text": "我記得那時候我們聊蠻多的，"
+  },
+  {
+   "start": 1193.26,
+   "end": 1196.16,
+   "speaker": "Kalan",
+   "text": "然後也是因為那樣的關係，我就開始去用 Siever，"
+  },
+  {
+   "start": 1196.16,
+   "end": 1198.38,
+   "speaker": "Kalan",
+   "text": "然後比我想像中的還棒，"
+  },
+  {
+   "start": 1198.38,
+   "end": 1199.8,
+   "speaker": "Kalan",
+   "text": "然後又便宜這樣子。"
+  },
+  {
+   "start": 1199.8,
+   "end": 1201.04,
+   "speaker": "Kalan",
+   "text": "所以各位網友，"
+  },
+  {
+   "start": 1201.52,
+   "end": 1202.98,
+   "speaker": "Kalan",
+   "text": "想要自己"
+  },
+  {
+   "start": 1202.98,
+   "end": 1204.58,
+   "speaker": "Kalan",
+   "text": "架小服務，"
+  },
+  {
+   "start": 1204.58,
+   "end": 1206.48,
+   "speaker": "Kalan",
+   "text": "好像又不想要花太多錢的話，"
+  },
+  {
+   "start": 1206.48,
+   "end": 1208.1,
+   "speaker": "Kalan",
+   "text": "歡迎參考看看，"
+  },
+  {
+   "start": 1208.74,
+   "end": 1210.08,
+   "speaker": "Mooly",
+   "text": "歡迎試試看。"
+  },
+  {
+   "start": 1210.68,
+   "end": 1212.36,
+   "speaker": "Kalan",
+   "text": "欸，Mooly 好像也有用過嘛？"
+  },
+  {
+   "start": 1212.36,
+   "end": 1219.12,
+   "speaker": "Mooly",
+   "text": "我有稍微用過一點，確實是蠻方便的啦。"
+  },
+  {
+   "start": 1219.12,
+   "end": 1221.34,
+   "speaker": "Mooly",
+   "text": "然後因為那個時候是，"
+  },
+  {
+   "start": 1222.26,
+   "end": 1225.54,
+   "speaker": "Mooly",
+   "text": "就是那個時候是有種找我業配的感覺，"
+  },
+  {
+   "start": 1225.54,
+   "end": 1227.28,
+   "speaker": "Mooly",
+   "text": "所以我有試一下。"
+  },
+  {
+   "start": 1227.28,
+   "end": 1229.5,
+   "speaker": "Mooly",
+   "text": "但是因為比如說，"
+  },
+  {
+   "start": 1229.98,
+   "end": 1231.2,
+   "speaker": "Mooly",
+   "text": "如果我有接到這種"
+  },
+  {
+   "start": 1231.2,
+   "end": 1232.72,
+   "speaker": "Mooly",
+   "text": "比較小的，"
+  },
+  {
+   "start": 1232.72,
+   "end": 1233.86,
+   "speaker": "Mooly",
+   "text": "算是比較小，"
+  },
+  {
+   "start": 1233.86,
+   "end": 1237.24,
+   "speaker": "Mooly",
+   "text": "就比較小業配的話，通常我都會不想拿錢，"
+  },
+  {
+   "start": 1237.24,
+   "end": 1240.2,
+   "speaker": "Mooly",
+   "text": "就是我覺得那錢可能沒有到很多，"
+  },
+  {
+   "start": 1240.2,
+   "end": 1242.24,
+   "speaker": "Mooly",
+   "text": "不拿也沒有什麼差，"
+  },
+  {
+   "start": 1242.24,
+   "end": 1244.02,
+   "speaker": "Mooly",
+   "text": "然後我就會想要換成別種方式。"
+  },
+  {
+   "start": 1244.02,
+   "end": 1245.16,
+   "speaker": "Mooly",
+   "text": "所以比如說像這種，我都是"
+  },
+  {
+   "start": 1245.16,
+   "end": 1247.62,
+   "speaker": "Mooly",
+   "text": "那一個東西我最後就換成比如說"
+  },
+  {
+   "start": 1248.22,
+   "end": 1254.36,
+   "speaker": "Mooly",
+   "text": "2、3 個月的優惠券，然後送給有用的人還什麼的。"
+  },
+  {
+   "start": 1254.36,
+   "end": 1258.0,
+   "speaker": "Kalan",
+   "text": "喔，我覺得這樣子還蠻讚的，"
+  },
+  {
+   "start": 1258.0,
+   "end": 1260.62,
+   "speaker": "Kalan",
+   "text": "只是他這個價格真的已經"
+  },
+  {
+   "start": 1260.62,
+   "end": 1262.22,
+   "speaker": "Kalan",
+   "text": "蠻便宜的。"
+  },
+  {
+   "start": 1262.22,
+   "end": 1263.94,
+   "speaker": "Mooly",
+   "text": "對對對對，確實。"
+  },
+  {
+   "start": 1264.62,
+   "end": 1267.44,
+   "speaker": "Kalan",
+   "text": "好，然後還有像是"
+  },
+  {
+   "start": 1268.12,
+   "end": 1274.78,
+   "speaker": "Kalan",
+   "text": "我其實會蠻常去私訊別人，"
+  },
+  {
+   "start": 1274.78,
+   "end": 1280.46,
+   "speaker": "Kalan",
+   "text": "不管是 IG 也好，或者是 Threads 上面也好。"
+  },
+  {
+   "start": 1281.5,
+   "end": 1286.98,
+   "speaker": "Kalan",
+   "text": "那當然被拒絕的次數，或者是無聲卡的次數也蠻多的，"
+  },
+  {
+   "start": 1286.98,
+   "end": 1288.2,
+   "speaker": "Kalan",
+   "text": "但我覺得對我來說，"
+  },
+  {
+   "start": 1288.2,
+   "end": 1295.0,
+   "speaker": "Kalan",
+   "text": "我如果有聊成功的話，那說不定就是一個很棒的交流。"
+  },
+  {
+   "start": 1295.0,
+   "end": 1299.3,
+   "speaker": "Kalan",
+   "text": "那我也的確因為這樣子認識了一些有趣的人。"
+  },
+  {
+   "start": 1299.96,
+   "end": 1305.16,
+   "speaker": "Mooly",
+   "text": "那通常被拒絕的時候，都是怎麼被拒絕的？就是說不太方便、沒有空，還是？"
+  },
+  {
+   "start": 1305.16,
+   "end": 1310.22,
+   "speaker": "Kalan",
+   "text": "對，不太方便、沒有空，或者就是完全不回這樣子。"
+  },
+  {
+   "start": 1312.3,
+   "end": 1317.5,
+   "speaker": "Kalan",
+   "text": "那我覺得當然也沒關係，就是可能我們的緣分還沒有到。"
+  },
+  {
+   "start": 1317.5,
+   "end": 1324.82,
+   "speaker": "Kalan",
+   "text": "但我覺得也是因為我做了這件事情的關係，讓我意外地認識了蠻多新朋友。"
+  },
+  {
+   "start": 1324.82,
+   "end": 1325.96,
+   "speaker": "Kalan",
+   "text": "所以我可能會，"
+  },
+  {
+   "start": 1325.96,
+   "end": 1329.92,
+   "speaker": "Kalan",
+   "text": "就是 2025 年我可能也會繼續這樣子做下去。"
+  },
+  {
+   "start": 1330.32,
+   "end": 1338.72,
+   "speaker": "Mooly",
+   "text": "但我覺得確實對你來說，2024 是蠻特別的一年，畢竟光是買房跟離職這兩件事情，其實就是一件"
+  },
+  {
+   "start": 1339.86,
+   "end": 1341.2,
+   "speaker": "Mooly",
+   "text": "其實就是一件大事。"
+  },
+  {
+   "start": 1341.2,
+   "end": 1346.9,
+   "speaker": "Mooly",
+   "text": "買房可能在前 30 歲，可能就這麼一次，"
+  },
+  {
+   "start": 1346.9,
+   "end": 1349.06,
+   "speaker": "Mooly",
+   "text": "最多兩次什麼的。"
+  },
+  {
+   "start": 1349.06,
+   "end": 1352.06,
+   "speaker": "Mooly",
+   "text": "然後離職超過五年的公司，這個是"
+  },
+  {
+   "start": 1353.12,
+   "end": 1355.04,
+   "speaker": "Mooly",
+   "text": "五年才一次啊。"
+  },
+  {
+   "start": 1355.04,
+   "end": 1356.84,
+   "speaker": "Mooly",
+   "text": "這個不是年年都有的。"
+  },
+  {
+   "start": 1357.41,
+   "end": 1358.66,
+   "speaker": "Kalan",
+   "text": "喔，對，沒錯。"
+  },
+  {
+   "start": 1358.66,
+   "end": 1364.14,
+   "speaker": "Kalan",
+   "text": "所以的確對我來說，是一個改變很多的一年這樣子。"
+  },
+  {
+   "start": 1365.62,
+   "end": 1366.24,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 1366.24,
+   "end": 1368.82,
+   "speaker": "Kalan",
+   "text": "那我一年的亮點大概是這樣，"
+  },
+  {
+   "start": 1369.67,
+   "end": 1373.06,
+   "speaker": "Kalan",
+   "text": "就是有蠻多東西可以分享給大家的。"
+  },
+  {
+   "start": 1373.06,
+   "end": 1375.0,
+   "speaker": "Kalan",
+   "text": "那個我想要帶到的就是"
+  },
+  {
+   "start": 1375.78,
+   "end": 1377.46,
+   "speaker": "Kalan",
+   "text": "最困難的部分。"
+  },
+  {
+   "start": 1379.14,
+   "end": 1382.44,
+   "speaker": "Kalan",
+   "text": "那 Mooly 你既然說你過去一年都比較平穩，"
+  },
+  {
+   "start": 1383.22,
+   "end": 1387.08,
+   "speaker": "Kalan",
+   "text": "你有想到這一年中最困難的一些事情嗎？"
+  },
+  {
+   "start": 1387.08,
+   "end": 1388.38,
+   "speaker": "Mooly",
+   "text": "最困難的一些事情？"
+  },
+  {
+   "start": 1388.38,
+   "end": 1392.94,
+   "speaker": "Mooly",
+   "text": "我覺得算是困難，但有沒有到最困難我不是很確定，"
+  },
+  {
+   "start": 1392.94,
+   "end": 1394.56,
+   "speaker": "Mooly",
+   "text": "因為像比如說，"
+  },
+  {
+   "start": 1394.56,
+   "end": 1399.4,
+   "speaker": "Mooly",
+   "text": "剛剛愷愷有說，比如說你去年可能買房子、離職或什麼的，"
+  },
+  {
+   "start": 1399.4,
+   "end": 1402.46,
+   "speaker": "Mooly",
+   "text": "但比如說對我來說，因為我才來日本沒有很久，"
+  },
+  {
+   "start": 1402.46,
+   "end": 1403.64,
+   "speaker": "Mooly",
+   "text": "那通常"
+  },
+  {
+   "start": 1403.64,
+   "end": 1405.48,
+   "speaker": "Mooly",
+   "text": "就算真的想要買房子，"
+  },
+  {
+   "start": 1405.48,
+   "end": 1411.22,
+   "speaker": "Mooly",
+   "text": "通常大概也是會等到要嘛開始申請永住，或是永住拿到了之後才會買房子。"
+  },
+  {
+   "start": 1411.22,
+   "end": 1417.16,
+   "speaker": "Mooly",
+   "text": "所以對我來說比較困難的點是，我有些東西就被這個身份給卡住。"
+  },
+  {
+   "start": 1417.16,
+   "end": 1417.88,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 1417.88,
+   "end": 1420.9,
+   "speaker": "Mooly",
+   "text": "就算想換工作，你可能也比較麻煩，"
+  },
+  {
+   "start": 1420.9,
+   "end": 1422.86,
+   "speaker": "Mooly",
+   "text": "想買房子也不太可能，"
+  },
+  {
+   "start": 1422.86,
+   "end": 1426.34,
+   "speaker": "Mooly",
+   "text": "變成說你有很多東西有點綁手綁腳的，"
+  },
+  {
+   "start": 1426.9,
+   "end": 1431.32,
+   "speaker": "Mooly",
+   "text": "那這個可能對我來說就會是一個需要適應的點，"
+  },
+  {
+   "start": 1431.32,
+   "end": 1434.66,
+   "speaker": "Mooly",
+   "text": "它同時也是一個困難的部分。"
+  },
+  {
+   "start": 1435.18,
+   "end": 1440.54,
+   "speaker": "Mooly",
+   "text": "那另外一個真的比較困難的，可能是日文這件事情，"
+  },
+  {
+   "start": 1440.54,
+   "end": 1443.34,
+   "speaker": "Mooly",
+   "text": "就是之前討論到別的時候，好像也有講過，"
+  },
+  {
+   "start": 1443.34,
+   "end": 1447.32,
+   "speaker": "Mooly",
+   "text": "就是想學日文，但是一直拖延著，"
+  },
+  {
+   "start": 1447.32,
+   "end": 1450.14,
+   "speaker": "Mooly",
+   "text": "所以這也算是一個困難的部分。"
+  },
+  {
+   "start": 1450.14,
+   "end": 1451.0,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 1451.62,
+   "end": 1452.22,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 1452.22,
+   "end": 1454.5,
+   "speaker": "Kalan",
+   "text": "這個我們之前有聊過。"
+  },
+  {
+   "start": 1455.1,
+   "end": 1458.68,
+   "speaker": "Kalan",
+   "text": "關於身份那個，我覺得的確"
+  },
+  {
+   "start": 1458.68,
+   "end": 1460.98,
+   "speaker": "Kalan",
+   "text": "它是一個硬門檻，"
+  },
+  {
+   "start": 1460.98,
+   "end": 1464.86,
+   "speaker": "Kalan",
+   "text": "除非你今天就是有其他管道，"
+  },
+  {
+   "start": 1464.86,
+   "end": 1467.5,
+   "speaker": "Kalan",
+   "text": "可以讓你更早拿到永住。"
+  },
+  {
+   "start": 1468.14,
+   "end": 1470.22,
+   "speaker": "Kalan",
+   "text": "我覺得我自己也蠻幸運的是，"
+  },
+  {
+   "start": 1470.22,
+   "end": 1473.76,
+   "speaker": "Kalan",
+   "text": "我在還沒有拿到永住之前的時候，"
+  },
+  {
+   "start": 1473.76,
+   "end": 1476.94,
+   "speaker": "Kalan",
+   "text": "我其實沒有那麼"
+  },
+  {
+   "start": 1476.94,
+   "end": 1480.0,
+   "speaker": "Kalan",
+   "text": "那個時候其實沒有到那麼迷惘，"
+  },
+  {
+   "start": 1480.0,
+   "end": 1481.48,
+   "speaker": "Kalan",
+   "text": "就說我一定要離職，"
+  },
+  {
+   "start": 1481.48,
+   "end": 1482.8,
+   "speaker": "Kalan",
+   "text": "就那時候我的心態還是"
+  },
+  {
+   "start": 1482.8,
+   "end": 1485.08,
+   "speaker": "Kalan",
+   "text": "OK，我就繼續帶來公司這樣子。"
+  },
+  {
+   "start": 1485.6,
+   "end": 1489.52,
+   "speaker": "Kalan",
+   "text": "但我不確定它是不是有因果關係，"
+  },
+  {
+   "start": 1490.16,
+   "end": 1490.7,
+   "speaker": "Kalan",
+   "text": "就是，"
+  },
+  {
+   "start": 1490.7,
+   "end": 1493.78,
+   "speaker": "Kalan",
+   "text": "是因為我拿到了永住這個身份，"
+  },
+  {
+   "start": 1493.78,
+   "end": 1495.5,
+   "speaker": "Kalan",
+   "text": "所以我才開始去想，"
+  },
+  {
+   "start": 1495.5,
+   "end": 1497.66,
+   "speaker": "Kalan",
+   "text": "欸，我要不要離職這件事情。"
+  },
+  {
+   "start": 1497.66,
+   "end": 1498.76,
+   "speaker": "Mooly",
+   "text": "我懂你的意思。"
+  },
+  {
+   "start": 1499.31,
+   "end": 1500.84,
+   "speaker": "Kalan",
+   "text": "好，那對我來說的話，"
+  },
+  {
+   "start": 1500.84,
+   "end": 1504.22,
+   "speaker": "Kalan",
+   "text": "可能就會回歸到我剛剛講的嘛，"
+  },
+  {
+   "start": 1504.22,
+   "end": 1505.34,
+   "speaker": "Kalan",
+   "text": "因為畢竟買房，"
+  },
+  {
+   "start": 1505.34,
+   "end": 1509.06,
+   "speaker": "Kalan",
+   "text": "那它其實是要花錢出去的，"
+  },
+  {
+   "start": 1509.06,
+   "end": 1509.5,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 1510.19,
+   "end": 1512.36,
+   "speaker": "Kalan",
+   "text": "其實我的存款的水位，"
+  },
+  {
+   "start": 1513.04,
+   "end": 1516.76,
+   "speaker": "Kalan",
+   "text": "是會讓我有點擔心的狀況，"
+  },
+  {
+   "start": 1516.76,
+   "end": 1519.0,
+   "speaker": "Kalan",
+   "text": "以及離職之後，"
+  },
+  {
+   "start": 1519.0,
+   "end": 1523.16,
+   "speaker": "Kalan",
+   "text": "畢竟薪水它會變得蠻不穩定的，"
+  },
+  {
+   "start": 1523.16,
+   "end": 1526.16,
+   "speaker": "Kalan",
+   "text": "甚至是可能就拿不到薪水等等。"
+  },
+  {
+   "start": 1526.78,
+   "end": 1530.96,
+   "speaker": "Kalan",
+   "text": "那這樣子也是一個對我來說蠻困難的地方，"
+  },
+  {
+   "start": 1530.96,
+   "end": 1532.84,
+   "speaker": "Kalan",
+   "text": "就是會讓我蠻不安的。"
+  },
+  {
+   "start": 1534.62,
+   "end": 1536.36,
+   "speaker": "Kalan",
+   "text": "所以這可能是我，"
+  },
+  {
+   "start": 1537.0,
+   "end": 1541.4,
+   "speaker": "Kalan",
+   "text": "就 2024 年當中比較困難的一個部分。"
+  },
+  {
+   "start": 1542.6,
+   "end": 1545.66,
+   "speaker": "Kalan",
+   "text": "聊完 2024 年之後，我們不妨就來聊一下，"
+  },
+  {
+   "start": 1545.66,
+   "end": 1549.12,
+   "speaker": "Kalan",
+   "text": "2025 年想要開始做的事情好了。"
+  },
+  {
+   "start": 1549.12,
+   "end": 1549.86,
+   "speaker": "Mooly",
+   "text": "好，"
+  },
+  {
+   "start": 1549.86,
+   "end": 1551.68,
+   "speaker": "Mooly",
+   "text": "對未來的一個展望。"
+  },
+  {
+   "start": 1553.46,
+   "end": 1556.1,
+   "speaker": "Kalan",
+   "text": "那一樣我們從 Mooly 先開始。"
+  },
+  {
+   "start": 1556.1,
+   "end": 1556.84,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 1556.84,
+   "end": 1560.54,
+   "speaker": "Mooly",
+   "text": "首要目標應該是學習日文，"
+  },
+  {
+   "start": 1561.1,
+   "end": 1566.14,
+   "speaker": "Mooly",
+   "text": "那針對我的拖延症，我已經有一套對策正在準備中，"
+  },
+  {
+   "start": 1566.7,
+   "end": 1573.34,
+   "speaker": "Mooly",
+   "text": "就是應該會直接買那種線上家教的感覺，"
+  },
+  {
+   "start": 1573.34,
+   "end": 1574.14,
+   "speaker": "Mooly",
+   "text": "就那種，"
+  },
+  {
+   "start": 1574.14,
+   "end": 1576.02,
+   "speaker": "Mooly",
+   "text": "一對一，就像那種，"
+  },
+  {
+   "start": 1576.42,
+   "end": 1578.22,
+   "speaker": "Mooly",
+   "text": "就這種很多服務現在都有嘛，"
+  },
+  {
+   "start": 1578.22,
+   "end": 1582.84,
+   "speaker": "Mooly",
+   "text": "就是不特別講是哪個牌子，反正就有很多網站都有提供這種服務，"
+  },
+  {
+   "start": 1582.84,
+   "end": 1585.4,
+   "speaker": "Mooly",
+   "text": "你可以線上找一個語言家教，"
+  },
+  {
+   "start": 1585.4,
+   "end": 1588.8,
+   "speaker": "Mooly",
+   "text": "可能會用這種方式下手，"
+  },
+  {
+   "start": 1589.38,
+   "end": 1590.52,
+   "speaker": "Mooly",
+   "text": "然後去試試看。"
+  },
+  {
+   "start": 1590.52,
+   "end": 1591.18,
+   "speaker": "Kalan",
+   "text": "喔，"
+  },
+  {
+   "start": 1591.94,
+   "end": 1593.58,
+   "speaker": "Kalan",
+   "text": "我覺得這樣不錯啊。"
+  },
+  {
+   "start": 1593.58,
+   "end": 1596.1,
+   "speaker": "Kalan",
+   "text": "那你是打算直接找日文老師喔？"
+  },
+  {
+   "start": 1596.1,
+   "end": 1598.82,
+   "speaker": "Mooly",
+   "text": "我有，我還在想耶，"
+  },
+  {
+   "start": 1598.82,
+   "end": 1599.74,
+   "speaker": "Mooly",
+   "text": "我還在想。"
+  },
+  {
+   "start": 1599.74,
+   "end": 1600.48,
+   "speaker": "Kalan",
+   "text": "OK，"
+  },
+  {
+   "start": 1600.48,
+   "end": 1602.68,
+   "speaker": "Kalan",
+   "text": "那我就來 push，"
+  },
+  {
+   "start": 1602.68,
+   "end": 1604.36,
+   "speaker": "Kalan",
+   "text": "負責督促你的一環。"
+  },
+  {
+   "start": 1604.36,
+   "end": 1604.7,
+   "speaker": "Mooly",
+   "text": "可以。"
+  },
+  {
+   "start": 1605.3,
+   "end": 1608.52,
+   "speaker": "Mooly",
+   "text": "每個禮拜見到我都問一次最近學得怎麼樣，"
+  },
+  {
+   "start": 1609.9,
+   "end": 1614.98,
+   "speaker": "Kalan",
+   "text": "請你每個禮拜講一個你學到的新的句子、"
+  },
+  {
+   "start": 1614.98,
+   "end": 1617.48,
+   "speaker": "Mooly",
+   "text": "新的單字或是新的用法什麼的。"
+  },
+  {
+   "start": 1618.34,
+   "end": 1624.06,
+   "speaker": "Kalan",
+   "text": "所以對 Mooly 來說，你最大的目標就是把日文學好這件事情。"
+  },
+  {
+   "start": 1624.06,
+   "end": 1624.9,
+   "speaker": "Mooly",
+   "text": "這個，"
+  },
+  {
+   "start": 1625.98,
+   "end": 1626.46,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1626.46,
+   "end": 1630.62,
+   "speaker": "Mooly",
+   "text": "基本上應該是這個，當然還有別的，是比如說，"
+  },
+  {
+   "start": 1630.62,
+   "end": 1631.42,
+   "speaker": "Mooly",
+   "text": "我有在想是不是，"
+  },
+  {
+   "start": 1631.42,
+   "end": 1635.86,
+   "speaker": "Mooly",
+   "text": "就是也可以去嘗試一些東西，比如說，"
+  },
+  {
+   "start": 1636.59,
+   "end": 1638.94,
+   "speaker": "Mooly",
+   "text": "我最近想嘗試的是可能，"
+  },
+  {
+   "start": 1639.55,
+   "end": 1641.58,
+   "speaker": "Mooly",
+   "text": "看能不能比如說找某一個月，"
+  },
+  {
+   "start": 1641.58,
+   "end": 1646.1,
+   "speaker": "Mooly",
+   "text": "然後那個月都不碰社群媒體或什麼的，"
+  },
+  {
+   "start": 1646.1,
+   "end": 1649.7,
+   "speaker": "Mooly",
+   "text": "對，就是戒除多巴胺或什麼的那種感覺。"
+  },
+  {
+   "start": 1650.38,
+   "end": 1653.56,
+   "speaker": "Kalan",
+   "text": "喔，這個我們之後也可以來聊聊。"
+  },
+  {
+   "start": 1653.56,
+   "end": 1654.62,
+   "speaker": "Mooly",
+   "text": "可以可以。"
+  },
+  {
+   "start": 1654.62,
+   "end": 1657.96,
+   "speaker": "Kalan",
+   "text": "那我覺得對我來說的話，我會希望，"
+  },
+  {
+   "start": 1657.96,
+   "end": 1659.88,
+   "speaker": "Kalan",
+   "text": "其實我想要做的事情，"
+  },
+  {
+   "start": 1659.88,
+   "end": 1663.18,
+   "speaker": "Kalan",
+   "text": "就不管是我們現在在做的這個 podcast 也好，"
+  },
+  {
+   "start": 1663.18,
+   "end": 1666.88,
+   "speaker": "Kalan",
+   "text": "我會想要多嘗試更多不同形式的，"
+  },
+  {
+   "start": 1667.8,
+   "end": 1671.12,
+   "speaker": "Kalan",
+   "text": "我其實不確定能不能把它叫做自媒體經營。"
+  },
+  {
+   "start": 1671.12,
+   "end": 1674.58,
+   "speaker": "Kalan",
+   "text": "我覺得有時候我們在寫部落格的時候，"
+  },
+  {
+   "start": 1674.58,
+   "end": 1677.2,
+   "speaker": "Kalan",
+   "text": "我們會說自己是一個自媒體嗎？"
+  },
+  {
+   "start": 1677.2,
+   "end": 1678.4,
+   "speaker": "Kalan",
+   "text": "好像也不太會。"
+  },
+  {
+   "start": 1679.04,
+   "end": 1679.48,
+   "speaker": "Kalan",
+   "text": "所以，"
+  },
+  {
+   "start": 1679.96,
+   "end": 1683.8,
+   "speaker": "Kalan",
+   "text": "但是我這邊講的不同形式的部分是想說，"
+  },
+  {
+   "start": 1684.32,
+   "end": 1688.18,
+   "speaker": "Kalan",
+   "text": "我可能會想嘗試除了文章以外的輸出，"
+  },
+  {
+   "start": 1688.18,
+   "end": 1690.4,
+   "speaker": "Kalan",
+   "text": "可能它會是短影片、長影片，"
+  },
+  {
+   "start": 1690.92,
+   "end": 1692.92,
+   "speaker": "Kalan",
+   "text": "或者是直播等等這樣子。"
+  },
+  {
+   "start": 1693.6,
+   "end": 1698.46,
+   "speaker": "Kalan",
+   "text": "可能在某一部分的角度來看，它可能是一種自媒體，"
+  },
+  {
+   "start": 1698.46,
+   "end": 1704.28,
+   "speaker": "Kalan",
+   "text": "但因為畢竟開發者寫部落格這件事情，我們好像不太會說自己是自媒體這樣。"
+  },
+  {
+   "start": 1704.74,
+   "end": 1707.16,
+   "speaker": "Mooly",
+   "text": "對，通常不太會。"
+  },
+  {
+   "start": 1708.0,
+   "end": 1710.0,
+   "speaker": "Kalan",
+   "text": "希望最大的目標就是，"
+  },
+  {
+   "start": 1710.64,
+   "end": 1712.7,
+   "speaker": "Kalan",
+   "text": "可以不要再回去上班，"
+  },
+  {
+   "start": 1713.54,
+   "end": 1716.44,
+   "speaker": "Kalan",
+   "text": "就是找到可以維持生活的一個，"
+  },
+  {
+   "start": 1717.28,
+   "end": 1718.88,
+   "speaker": "Kalan",
+   "text": "方式這樣子。"
+  },
+  {
+   "start": 1718.88,
+   "end": 1719.44,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1721.42,
+   "end": 1721.9,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 1721.9,
+   "end": 1724.24,
+   "speaker": "Mooly",
+   "text": "反正簡單來講就是一個，"
+  },
+  {
+   "start": 1725.74,
+   "end": 1727.48,
+   "speaker": "Mooly",
+   "text": "開展未來的一年，"
+  },
+  {
+   "start": 1727.48,
+   "end": 1730.16,
+   "speaker": "Mooly",
+   "text": "就是尋找之後的道路，"
+  },
+  {
+   "start": 1730.16,
+   "end": 1733.98,
+   "speaker": "Mooly",
+   "text": "然後開拓很多不同的方向。"
+  },
+  {
+   "start": 1733.98,
+   "end": 1734.46,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 1734.96,
+   "end": 1735.2,
+   "speaker": "Kalan",
+   "text": "就是，"
+  },
+  {
+   "start": 1735.68,
+   "end": 1739.28,
+   "speaker": "Kalan",
+   "text": "這一年會是一個多方探索的一年，"
+  },
+  {
+   "start": 1740.06,
+   "end": 1741.7,
+   "speaker": "Kalan",
+   "text": "那希望我可以找到一個，"
+  },
+  {
+   "start": 1742.76,
+   "end": 1745.0,
+   "speaker": "Kalan",
+   "text": "下一個我想要專注的方向這樣子。"
+  },
+  {
+   "start": 1745.0,
+   "end": 1746.1,
+   "speaker": "Mooly",
+   "text": "嗯。"
+  },
+  {
+   "start": 1747.82,
+   "end": 1751.5,
+   "speaker": "Kalan",
+   "text": "好，那我們今天也聊的蠻多東西了，"
+  },
+  {
+   "start": 1751.5,
+   "end": 1754.24,
+   "speaker": "Kalan",
+   "text": "那不然我們就先到這邊好了。"
+  },
+  {
+   "start": 1754.24,
+   "end": 1754.82,
+   "speaker": "Mooly",
+   "text": "好。"
+  },
+  {
+   "start": 1755.62,
+   "end": 1757.42,
+   "speaker": "Kalan",
+   "text": "今天的節目就到這邊啦，"
+  },
+  {
+   "start": 1757.42,
+   "end": 1759.42,
+   "speaker": "Kalan",
+   "text": "喜歡的話歡迎訂閱分享，"
+  },
+  {
+   "start": 1759.42,
+   "end": 1763.9,
+   "speaker": "Kalan",
+   "text": "如果有任何回饋的話，可以透過說明的表單或寄信給我們喔。"
+  },
+  {
+   "start": 1763.9,
+   "end": 1764.66,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 1765.24,
+   "end": 1765.84,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 1765.84,
+   "end": 1767.14,
+   "speaker": "Kalan",
+   "text": "我們下次見，"
+  },
+  {
+   "start": 1767.14,
+   "end": 1768.14,
+   "speaker": "Kalan",
+   "text": "掰掰。"
+  }
+ ]
+}
