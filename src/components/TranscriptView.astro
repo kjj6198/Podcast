@@ -33,7 +33,7 @@ const { transcript } = Astro.props;
           </div>
           <p class="mt-1.5 leading-loose">
             {turn.lines.map((line) => (
-              <a href={`#t=${Math.floor(line.start)}`} data-line data-start={line.start} data-speaker={line.speaker} data-tone={speakerTone(transcript, line.speaker)} class="transcript-line">{line.text}</a>
+              <a href={`#t=${line.start}`} data-line data-start={line.start} data-speaker={line.speaker} data-tone={speakerTone(transcript, line.speaker)} class="transcript-line">{line.text}</a>
             ))}
           </p>
         </section>
@@ -92,7 +92,8 @@ const { transcript } = Astro.props;
 
       let autoScrollUntil = 0;
 
-      const reveal = (line: HTMLElement, force = false) => {
+      const reveal = (line: HTMLElement | undefined, force = false) => {
+        if (!line) return;
         if (!force && !inView(body.getBoundingClientRect())) return;
         const rect = line.getBoundingClientRect();
         const top = player.getBoundingClientRect().bottom + 24;
@@ -132,8 +133,8 @@ const { transcript } = Astro.props;
 
       audio.addEventListener("timeupdate", update);
       audio.addEventListener("play", () => {
-        const line = lines[Math.max(current, 0)];
-        setFollowing(following || inView(line.getBoundingClientRect()));
+        const firstPlay = audio.played.length === 0;
+        setFollowing(following || (firstPlay && inView(lines[Math.max(current, 0)].getBoundingClientRect())));
       });
       audio.addEventListener("pause", () => setFollowing(following));
       addEventListener(
@@ -148,12 +149,13 @@ const { transcript } = Astro.props;
         if (lines[current]) reveal(lines[current], true);
       });
       document.addEventListener("click", (event) => {
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
         const target = (event.target as HTMLElement).closest<HTMLElement>("[data-seek-to], [data-line]");
         if (!target) return;
         event.preventDefault();
         seekTo(Number(target.dataset.seekTo ?? target.dataset.start));
       });
-      const linked = location.hash.match(/^#t=(\d+)$/);
+      const linked = location.hash.match(/^#t=(\d+(?:\.\d+)?)$/);
       if (linked) {
         audio.currentTime = Number(linked[1]);
         update();

@@ -1,5 +1,6 @@
 import argparse
 import ctypes
+import fcntl
 import importlib.util
 import json
 import os
@@ -415,21 +416,16 @@ def gpu_idle() -> bool:
     return all(util < 15 and free > 4500 for util, free in readings)
 
 
-def claim(n: int) -> bool:
-    path = CACHE / "claims" / str(n)
+def claim(n: int):
+    path = CACHE / "claims" / f"{n}.lock"
     path.parent.mkdir(parents=True, exist_ok=True)
+    lock = open(path, "w")
     try:
-        owner = int(path.read_text())
-        os.kill(owner, 0)
-        return owner == os.getpid()
-    except (FileNotFoundError, ValueError, ProcessLookupError):
-        path.unlink(missing_ok=True)
-    try:
-        with open(path, "x") as file:
-            file.write(str(os.getpid()))
-        return True
-    except FileExistsError:
-        return False
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        return lock
+    except BlockingIOError:
+        lock.close()
+        return None
 
 
 def process(episode: Episode, device: str) -> None:
@@ -463,14 +459,14 @@ def main():
         while args.device == "cuda" and not args.no_wait and not (CACHE / "asr" / f"{n}.json").exists() and not gpu_idle():
             print("  GPU busy, waiting", file=sys.stderr)
             time.sleep(240)
-        if not claim(n):
+        lock = claim(n)
+        if lock is None or (CACHE / "summary" / f"{n}.json").exists():
             continue
-        try:
-            process(episodes[n], args.device)
-        except Exception as error:
-            print(f"EP{n} failed: {error!r}", file=sys.stderr)
-        finally:
-            (CACHE / "claims" / str(n)).unlink(missing_ok=True)
+        with lock:
+            try:
+                process(episodes[n], args.device)
+            except Exception as error:
+                print(f"EP{n} failed: {error!r}", file=sys.stderr)
 
     done = sorted(n for n in episodes if (CACHE / "summary" / f"{n}.json").exists())
     names = name_speakers(done)
