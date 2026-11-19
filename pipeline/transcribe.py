@@ -295,7 +295,7 @@ def ask_claude(prompt: str) -> dict:
     raise RuntimeError("Claude did not return JSON")
 
 
-CORRECT_PROMPT = """你是台灣中文 Podcast 逐字稿校對編輯。節目是「八百屋 Boys」，主持人是 Kalan（也叫愷開、愷愷）與 Mooly，兩位在日本東京、福岡工作的台灣軟體工程師。
+CORRECT_PROMPT = """你是台灣中文 Podcast 逐字稿校對編輯。節目是「八百屋 Boys」，主持人是 Kalan（也叫愷開、愷愷）與 Mooly，兩位在日本東京、福岡工作的台灣軟體工程師。節目官網是 yaoyaboys.com。
 
 本集標題：{title}
 本集簡介：{notes}

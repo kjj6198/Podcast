@@ -9,7 +9,7 @@
   "points": [
    "VPN 的原理是先把封包加密並送到 VPN server，再由 VPN server 代為送出，所以對方看到的是 VPN 的 IP。",
    "在已使用 HTTPS 的前提下，「用 VPN 才能在咖啡店或飯店 Wi-Fi 安全使用」的說法並不精確，有沒有 VPN 差別不大，且別人連進你開的 local port 也與 VPN 無關。",
-   "沒加密的 SNI 與 DNS query 會洩漏你連去哪個網站，這是 VPN 真正有差的地方，不過 ESNI 與 DNS over HTTPS 也能補上這個缺口。",
+   "沒加密的 SNI 與 DNS query 會洩漏你連去哪個網站，其中 Kalan 認為 DNS query 是用 VPN 會有差的地方，不過 ESNI 與 DNS over HTTPS 也能補上這些缺口。",
    "VPN 只是把信任從 ISP 轉移到 VPN 業者，而憑證與根憑證機構則是網路中很中心化的一環，根憑證機構被攻破，HTTPS 也不安全。",
    "VPN 在使用者誤點未信任憑證時無法保護，但對非 HTTP 的服務流量有加密效果；若只想要加密轉送，自己在雲端架 server 也能做到。",
    "現在的 VPN 已變成防毒、廣告阻擋、密碼管理等資安組合包，且 Surfshark 與 NordVPN 屬同一母公司，Mooly 聽朋友說流量成本很低所以利潤高。"
