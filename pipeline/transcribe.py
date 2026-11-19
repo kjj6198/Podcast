@@ -183,11 +183,17 @@ def load_embedding_model():
     return Model.from_pretrained(EMBEDDING_MODEL).eval()
 
 
+def window_at(audio: np.ndarray, center: float, half: int) -> np.ndarray:
+    start = max(0, int(center * SAMPLE_RATE) - half)
+    clip = audio[start : start + 2 * half]
+    return np.pad(clip, (0, 2 * half - len(clip)))
+
+
 def embed(model, audio: np.ndarray, centers: list[float]) -> np.ndarray:
     import torch
 
     half = int(WINDOW * SAMPLE_RATE / 2)
-    chunks = np.stack([audio[int(c * SAMPLE_RATE) - half : int(c * SAMPLE_RATE) + half] for c in centers])
+    chunks = np.stack([window_at(audio, c, half) for c in centers])
     embeddings = []
     with torch.inference_mode():
         for batch in np.array_split(chunks, max(1, len(chunks) // 64)):
@@ -199,9 +205,9 @@ def embed(model, audio: np.ndarray, centers: list[float]) -> np.ndarray:
 
 def cluster(vectors: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     from scipy.ndimage import median_filter
-    from sklearn.cluster import AgglomerativeClustering
+    from sklearn.cluster import KMeans
 
-    labels = AgglomerativeClustering(n_clusters=2, metric="cosine", linkage="average").fit_predict(vectors)
+    labels = KMeans(n_clusters=2, n_init=10, random_state=0).fit_predict(vectors)
     for _ in range(5):
         centroids = np.stack([vectors[labels == k].mean(axis=0) for k in (0, 1)])
         centroids /= np.linalg.norm(centroids, axis=1, keepdims=True)
@@ -447,13 +453,14 @@ def main():
     parser = argparse.ArgumentParser(description="Transcribe 八百屋 Boys episodes with Breeze-ASR-25")
     parser.add_argument("episodes", nargs="*", type=int, help="episode numbers, all when omitted")
     parser.add_argument("--device", choices=["cuda", "cpu"], default="cuda")
+    parser.add_argument("--no-wait", action="store_true", help="use the GPU even when other work is running on it")
     args = parser.parse_args()
 
     episodes = {e.number: e for e in read_feed()}
     for n in args.episodes or sorted(episodes, reverse=True):
         if (CACHE / "summary" / f"{n}.json").exists():
             continue
-        while args.device == "cuda" and not (CACHE / "asr" / f"{n}.json").exists() and not gpu_idle():
+        while args.device == "cuda" and not args.no_wait and not (CACHE / "asr" / f"{n}.json").exists() and not gpu_idle():
             print("  GPU busy, waiting", file=sys.stderr)
             time.sleep(240)
         if not claim(n):
