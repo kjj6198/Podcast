@@ -1,0 +1,4384 @@
+{
+ "episode": 11,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 從 vibe coding 常產出「JWT + local storage」的現象出發，把網頁登入拆成「驗證方式」（Session ID 或 JWT）與「儲存方式」（cookie 或 local storage）兩個維度來討論。他們比較了 XSS、CSRF、token 撤銷與 Refresh Token 的取捨，並強調資安沒有標準答案，要在成本、效能與風險之間權衡。Kalan 傾向多數情況用 Session Cookie，Mooly 則認為小型產品用 JWT 實作更方便。",
+  "points": [
+   "認證可分成驗證方式（隨機 Session ID 或簽章的 JWT）與儲存方式（HttpOnly cookie 或 local storage），共四種組合。",
+   "local storage 的主要風險是 XSS 會讓 token 被偷走，HttpOnly cookie 則無法被 JavaScript 讀取，但 XSS 發生時攻擊者仍能借用瀏覽器發請求。",
+   "JWT 無狀態，適合大流量與分散式系統，但難以即時撤銷；Refresh Token 只是縮短風險時間窗，要即時撤銷仍需伺服器端查表。",
+   "CSRF 是 cookie 自動帶上的副作用，2026 年有 SameSite 後風險已小很多，但同 site 的 subdomain 被攻破時仍可能發生；JWT 放 Authorization header 則天然避開 CSRF。",
+   "防禦要多層思考，例如改密碼需輸入舊密碼，讓 XSS 發生時也能限縮損害；把 token 放在 worker 記憶體雖更安全，但會犧牲使用體驗。",
+   "Kalan 認為單一 domain 的服務多半用 Session Cookie 較省事，Mooly 認為小型產品用 JWT 更好實作，但身為使用者會偏好 Session Cookie。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場：AI 愛用 JWT + local storage"
+   },
+   {
+    "start": 51.0,
+    "title": "驗證方式與儲存方式的四種組合"
+   },
+   {
+    "start": 269.0,
+    "title": "local storage 與 HttpOnly cookie 的 XSS 差異"
+   },
+   {
+    "start": 797.0,
+    "title": "JWT 的撤銷難題與 Refresh Token"
+   },
+   {
+    "start": 1056.0,
+    "title": "JWT 與 Session 的取捨"
+   },
+   {
+    "start": 1126.0,
+    "title": "CSRF 與 SameSite 的保護"
+   },
+   {
+    "start": 1479.0,
+    "title": "in memory 儲存與安全換 UX"
+   },
+   {
+    "start": 1685.0,
+    "title": "XSS 後如何降低損害"
+   },
+   {
+    "start": 1959.0,
+    "title": "各自的選擇與結語"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.8,
+   "speaker": "Kalan",
+   "text": "Hello，我是 Kalan。"
+  },
+  {
+   "start": 1.8,
+   "end": 2.58,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2.58,
+   "end": 5.3,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 6.2,
+   "end": 16.58,
+   "speaker": "Kalan",
+   "text": "今天我們要聊的主題是，最近我在日本的社群上面看到很常被討論的話題，我想說那不然我們就來討論看看。"
+  },
+  {
+   "start": 17.12,
+   "end": 19.8,
+   "speaker": "Kalan",
+   "text": "就是在用 vibe coding 的時候，"
+  },
+  {
+   "start": 21.1,
+   "end": 27.3,
+   "speaker": "Kalan",
+   "text": "發現好像 AI 產出的 code 都會用這個 JWT 加 local storage，"
+  },
+  {
+   "start": 27.3,
+   "end": 30.42,
+   "speaker": "Kalan",
+   "text": "就直接存在 local storage 的方式。"
+  },
+  {
+   "start": 30.42,
+   "end": 33.46,
+   "speaker": "Kalan",
+   "text": "果然這個 vibe coding 還是不能信任，"
+  },
+  {
+   "start": 33.46,
+   "end": 35.9,
+   "speaker": "Kalan",
+   "text": "你要在這些地方注意等等。"
+  },
+  {
+   "start": 36.36,
+   "end": 40.04,
+   "speaker": "Kalan",
+   "text": "然後想說好，那我們就趁這個機會來好好討論一下，"
+  },
+  {
+   "start": 40.04,
+   "end": 47.64,
+   "speaker": "Kalan",
+   "text": "就是 JWT 存在 local storage 這一個認證方式，以及"
+  },
+  {
+   "start": 47.64,
+   "end": 51.14,
+   "speaker": "Kalan",
+   "text": "你在做登入的時候，你可能要注意哪些事情，這樣子。"
+  },
+  {
+   "start": 51.14,
+   "end": 55.68,
+   "speaker": "Mooly",
+   "text": "它主要就是我們現在解決那個 authentication，"
+  },
+  {
+   "start": 55.68,
+   "end": 58.58,
+   "speaker": "Mooly",
+   "text": "反正就是身份驗證的那個機制嘛，"
+  },
+  {
+   "start": 58.58,
+   "end": 58.98,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 59.94,
+   "end": 62.4,
+   "speaker": "Mooly",
+   "text": "然後它其實分兩個層次來看，"
+  },
+  {
+   "start": 62.4,
+   "end": 63.52,
+   "speaker": "Mooly",
+   "text": "第一個其實是，"
+  },
+  {
+   "start": 63.52,
+   "end": 65.62,
+   "speaker": "Mooly",
+   "text": "在你 server 端驗證完身份之後，"
+  },
+  {
+   "start": 65.62,
+   "end": 69.46,
+   "speaker": "Mooly",
+   "text": "下一次 client 端要怎麼證明他是剛剛那個人？"
+  },
+  {
+   "start": 69.46,
+   "end": 71.68,
+   "speaker": "Mooly",
+   "text": "那所以 server 就會有兩個做法，"
+  },
+  {
+   "start": 71.68,
+   "end": 74.7,
+   "speaker": "Mooly",
+   "text": "第一個做法是 server 就只給你一串 ID，"
+  },
+  {
+   "start": 75.36,
+   "end": 76.74,
+   "speaker": "Mooly",
+   "text": "它可以是任何東西，"
+  },
+  {
+   "start": 76.74,
+   "end": 79.54,
+   "speaker": "Mooly",
+   "text": "那這就是我們常講的類似 session 那個概念，"
+  },
+  {
+   "start": 79.54,
+   "end": 82.4,
+   "speaker": "Mooly",
+   "text": "它可能給你一串看起來像亂碼的 ID，"
+  },
+  {
+   "start": 82.4,
+   "end": 83.48,
+   "speaker": "Mooly",
+   "text": "好，它給你，"
+  },
+  {
+   "start": 83.48,
+   "end": 88.22,
+   "speaker": "Mooly",
+   "text": "然後給你之後，你下次再把這個 ID 帶上去，讓 server 在後端去查表格，"
+  },
+  {
+   "start": 88.22,
+   "end": 90.84,
+   "speaker": "Mooly",
+   "text": "不管是查 Redis 或 MySQL，反正它去查一個表格，"
+  },
+  {
+   "start": 90.84,
+   "end": 91.92,
+   "speaker": "Mooly",
+   "text": "知道你是誰，"
+  },
+  {
+   "start": 91.92,
+   "end": 92.96,
+   "speaker": "Mooly",
+   "text": "這是第一種。"
+  },
+  {
+   "start": 93.38,
+   "end": 94.3,
+   "speaker": "Mooly",
+   "text": "第二種是，"
+  },
+  {
+   "start": 94.7,
+   "end": 97.6,
+   "speaker": "Mooly",
+   "text": "你在 server 認證完之後，server 回傳一個，"
+  },
+  {
+   "start": 98.02,
+   "end": 100.78,
+   "speaker": "Mooly",
+   "text": "就它直接把你是誰這個資訊回傳給你，"
+  },
+  {
+   "start": 100.78,
+   "end": 102.82,
+   "speaker": "Mooly",
+   "text": "但它用了一些，不管是加密，"
+  },
+  {
+   "start": 102.82,
+   "end": 106.3,
+   "speaker": "Mooly",
+   "text": "或是那種 signature，就是 sign，"
+  },
+  {
+   "start": 106.3,
+   "end": 108.88,
+   "speaker": "Mooly",
+   "text": "就是反正它就會用密碼學，"
+  },
+  {
+   "start": 109.38,
+   "end": 110.76,
+   "speaker": "Mooly",
+   "text": "讓這個東西沒辦法被偽造。"
+  },
+  {
+   "start": 110.76,
+   "end": 113.38,
+   "speaker": "Mooly",
+   "text": "所以當你下次再帶這個東西上來的時候，"
+  },
+  {
+   "start": 113.38,
+   "end": 117.64,
+   "speaker": "Mooly",
+   "text": "你只要這個東西沒有被偽造、被驗證通過，他就知道說，喔，你是這個人。"
+  },
+  {
+   "start": 117.64,
+   "end": 119.5,
+   "speaker": "Mooly",
+   "text": "第一種方式來說，他就只給你一個 ID，"
+  },
+  {
+   "start": 119.5,
+   "end": 125.08,
+   "speaker": "Mooly",
+   "text": "然後下次你把這個 ID 帶上去，然後他在後端裡面用這個 ID 去查說你是誰，"
+  },
+  {
+   "start": 125.08,
+   "end": 128.72,
+   "speaker": "Mooly",
+   "text": "然後第二種方式是，你下一次來的時候跟他說，喔，我是 Mooly，"
+  },
+  {
+   "start": 128.72,
+   "end": 132.78,
+   "speaker": "Mooly",
+   "text": "然後他確認說，喔，你這個 signature 是對的，"
+  },
+  {
+   "start": 132.78,
+   "end": 134.34,
+   "speaker": "Mooly",
+   "text": "那你就是 Mooly，這樣。"
+  },
+  {
+   "start": 134.34,
+   "end": 135.36,
+   "speaker": "Mooly",
+   "text": "他有分這兩種。"
+  },
+  {
+   "start": 135.36,
+   "end": 139.04,
+   "speaker": "Mooly",
+   "text": "在前端你怎麼存的時候，又有不同的選擇，"
+  },
+  {
+   "start": 139.04,
+   "end": 141.78,
+   "speaker": "Mooly",
+   "text": "它其實可以，比如說你把這個東西放在 cookie 裡面，"
+  },
+  {
+   "start": 141.78,
+   "end": 144.84,
+   "speaker": "Mooly",
+   "text": "你把這個東西放在 local storage 裡面，或是放在別的地方，"
+  },
+  {
+   "start": 144.84,
+   "end": 149.62,
+   "speaker": "Mooly",
+   "text": "它其實是可以，理論上是可以混著搭配使用的。"
+  },
+  {
+   "start": 149.62,
+   "end": 152.44,
+   "speaker": "Mooly",
+   "text": "就是說你可以把這個 ID 存在 cookie 裡面，"
+  },
+  {
+   "start": 152.44,
+   "end": 153.6,
+   "speaker": "Mooly",
+   "text": "這是最常見的做法，"
+  },
+  {
+   "start": 153.6,
+   "end": 156.56,
+   "speaker": "Mooly",
+   "text": "那當然你也可以把這個 ID 存在 local storage 裡面，"
+  },
+  {
+   "start": 156.56,
+   "end": 158.18,
+   "speaker": "Mooly",
+   "text": "因為沒有人限制你不能這樣做。"
+  },
+  {
+   "start": 158.66,
+   "end": 160.88,
+   "speaker": "Mooly",
+   "text": "那當然以第二種來說，你可以把這個"
+  },
+  {
+   "start": 161.54,
+   "end": 166.7,
+   "speaker": "Mooly",
+   "text": "就是你是誰的這個資訊，或是通常最常的說法就是 JWT，"
+  },
+  {
+   "start": 166.7,
+   "end": 168.14,
+   "speaker": "Mooly",
+   "text": "你可以把這個 JWT，"
+  },
+  {
+   "start": 168.14,
+   "end": 169.8,
+   "speaker": "Mooly",
+   "text": "你也可以存在 cookie 裡面，"
+  },
+  {
+   "start": 169.8,
+   "end": 171.86,
+   "speaker": "Mooly",
+   "text": "或是你也可以存在 local storage 裡面，"
+  },
+  {
+   "start": 171.86,
+   "end": 175.8,
+   "speaker": "Mooly",
+   "text": "它其實是四種的那個排列組合，"
+  },
+  {
+   "start": 175.8,
+   "end": 179.16,
+   "speaker": "Mooly",
+   "text": "但最常見的是 ID 的那個加 cookie，"
+  },
+  {
+   "start": 179.16,
+   "end": 180.6,
+   "speaker": "Mooly",
+   "text": "就是所謂的 session cookie。"
+  },
+  {
+   "start": 180.6,
+   "end": 184.18,
+   "speaker": "Mooly",
+   "text": "然後 JWT 通常最常見的是存在 local storage 裡面，"
+  },
+  {
+   "start": 184.18,
+   "end": 187.04,
+   "speaker": "Mooly",
+   "text": "所以它常見的方法是這樣。"
+  },
+  {
+   "start": 187.04,
+   "end": 193.8,
+   "speaker": "Mooly",
+   "text": "但其實你仔細看會發現，也會有把 JWT token 存在 cookie 裡面的實作，"
+  },
+  {
+   "start": 193.8,
+   "end": 194.92,
+   "speaker": "Mooly",
+   "text": "這個也是有的，"
+  },
+  {
+   "start": 194.92,
+   "end": 197.78,
+   "speaker": "Mooly",
+   "text": "所以它其實是可以混搭使用的，這樣。"
+  },
+  {
+   "start": 197.78,
+   "end": 198.18,
+   "speaker": "Kalan",
+   "text": "嗯。"
+  },
+  {
+   "start": 198.18,
+   "end": 201.58,
+   "speaker": "Kalan",
+   "text": "我覺得 Mooly 這個整理蠻不錯的，"
+  },
+  {
+   "start": 201.58,
+   "end": 205.0,
+   "speaker": "Kalan",
+   "text": "好像聽起來就是可以分成兩個分類嘛，"
+  },
+  {
+   "start": 205.0,
+   "end": 208.84,
+   "speaker": "Kalan",
+   "text": "第一個是驗證方式，然後第二個是保存方法。"
+  },
+  {
+   "start": 209.7,
+   "end": 219.38,
+   "speaker": "Kalan",
+   "text": "然後我們今天會討論的，就是驗證方式是 JWT，or 你有一組存在你 backend side 的 ID，"
+  },
+  {
+   "start": 220.5,
+   "end": 225.98,
+   "speaker": "Kalan",
+   "text": "然後保存方法的話呢，是存在 cookie 裡面，或者是存在一個"
+  },
+  {
+   "start": 227.14,
+   "end": 228.24,
+   "speaker": "Kalan",
+   "text": "browser side，"
+  },
+  {
+   "start": 228.24,
+   "end": 230.06,
+   "speaker": "Kalan",
+   "text": "就是可以 access 的地方。"
+  },
+  {
+   "start": 230.58,
+   "end": 231.78,
+   "speaker": "Kalan",
+   "text": "大概可以這樣，OK。"
+  },
+  {
+   "start": 231.78,
+   "end": 234.4,
+   "speaker": "Kalan",
+   "text": "好，這樣就會有四個排列組合。"
+  },
+  {
+   "start": 235.58,
+   "end": 237.84,
+   "speaker": "Kalan",
+   "text": "好，那剛剛有提到說，"
+  },
+  {
+   "start": 237.84,
+   "end": 244.22,
+   "speaker": "Kalan",
+   "text": "我們通常在用第一種驗證方式，就是 ID 的方式的時候，會搭配的是 session cookie，"
+  },
+  {
+   "start": 244.22,
+   "end": 246.78,
+   "speaker": "Kalan",
+   "text": "然後用 JWT 的時候呢，"
+  },
+  {
+   "start": 246.78,
+   "end": 251.26,
+   "speaker": "Kalan",
+   "text": "蠻常見的會是存在一個，比如說 local storage 等等的。"
+  },
+  {
+   "start": 251.26,
+   "end": 254.12,
+   "speaker": "Kalan",
+   "text": "不然我們就先從這邊往下延伸好了。"
+  },
+  {
+   "start": 254.12,
+   "end": 255.18,
+   "speaker": "Kalan",
+   "text": "假設"
+  },
+  {
+   "start": 255.18,
+   "end": 258.36,
+   "speaker": "Kalan",
+   "text": "我用 ID 的方式，"
+  },
+  {
+   "start": 258.36,
+   "end": 260.64,
+   "speaker": "Kalan",
+   "text": "就是隨機 ID 的方式，"
+  },
+  {
+   "start": 260.64,
+   "end": 261.54,
+   "speaker": "Kalan",
+   "text": "但是呢，"
+  },
+  {
+   "start": 261.54,
+   "end": 263.4,
+   "speaker": "Kalan",
+   "text": "常見不是用 cookie 嗎？"
+  },
+  {
+   "start": 263.4,
+   "end": 266.46,
+   "speaker": "Kalan",
+   "text": "那假設我如果直接存在 local storage，"
+  },
+  {
+   "start": 266.46,
+   "end": 268.7,
+   "speaker": "Kalan",
+   "text": "這會造成什麼問題嗎？"
+  },
+  {
+   "start": 268.7,
+   "end": 271.1,
+   "speaker": "Mooly",
+   "text": "會造成什麼問題嗎？"
+  },
+  {
+   "start": 271.1,
+   "end": 272.9,
+   "speaker": "Mooly",
+   "text": "存在 local storage，"
+  },
+  {
+   "start": 273.33,
+   "end": 275.24,
+   "speaker": "Mooly",
+   "text": "它其實以保存方法來說嘛，"
+  },
+  {
+   "start": 275.24,
+   "end": 276.78,
+   "speaker": "Mooly",
+   "text": "你存在 cookie，"
+  },
+  {
+   "start": 276.78,
+   "end": 278.82,
+   "speaker": "Mooly",
+   "text": "或是我們把它局限在那個"
+  },
+  {
+   "start": 278.82,
+   "end": 281.32,
+   "speaker": "Mooly",
+   "text": "HTTP only 的 cookie 好了。"
+  },
+  {
+   "start": 281.32,
+   "end": 281.76,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 281.76,
+   "end": 284.92,
+   "speaker": "Mooly",
+   "text": "最大差別就是當你存在 HTTP only cookie 的時候，"
+  },
+  {
+   "start": 285.32,
+   "end": 286.64,
+   "speaker": "Mooly",
+   "text": "你從瀏覽器裡面，"
+  },
+  {
+   "start": 287.6,
+   "end": 290.04,
+   "speaker": "Mooly",
+   "text": "你是用 JavaScript 拿不到這個東西的。"
+  },
+  {
+   "start": 290.04,
+   "end": 295.0,
+   "speaker": "Mooly",
+   "text": "那如果你存在 local storage 裡面，就是你從瀏覽器裡面，你可以用 JavaScript 拿到這個東西，"
+  },
+  {
+   "start": 295.0,
+   "end": 296.22,
+   "speaker": "Mooly",
+   "text": "不管它裡面存的是什麼，"
+  },
+  {
+   "start": 296.22,
+   "end": 297.84,
+   "speaker": "Mooly",
+   "text": "你是可以拿得到的，"
+  },
+  {
+   "start": 297.84,
+   "end": 300.34,
+   "speaker": "Mooly",
+   "text": "就是它能不能被 access。"
+  },
+  {
+   "start": 301.78,
+   "end": 305.74,
+   "speaker": "Mooly",
+   "text": "那能不能被 access，它後面關乎到就是比如說，"
+  },
+  {
+   "start": 306.14,
+   "end": 309.38,
+   "speaker": "Mooly",
+   "text": "通常會搭配別的東西來一起使用，"
+  },
+  {
+   "start": 309.38,
+   "end": 310.26,
+   "speaker": "Mooly",
+   "text": "比如說它的前提是，"
+  },
+  {
+   "start": 310.26,
+   "end": 313.46,
+   "speaker": "Mooly",
+   "text": "假設你的網站有一個 cross-site scripting 的攻擊，"
+  },
+  {
+   "start": 313.46,
+   "end": 317.0,
+   "speaker": "Mooly",
+   "text": "當攻擊者可以在你的網站上執行 JavaScript 的時候呢，"
+  },
+  {
+   "start": 317.0,
+   "end": 320.32,
+   "speaker": "Mooly",
+   "text": "如果你是存在 local storage 裡面，你的這個 token 就會被偷走，"
+  },
+  {
+   "start": 320.8,
+   "end": 324.56,
+   "speaker": "Mooly",
+   "text": "那如果你是用 HTTP only 的 cookie 的話，這些 token 你就偷不走。"
+  },
+  {
+   "start": 324.56,
+   "end": 328.34,
+   "speaker": "Mooly",
+   "text": "這個是一個最常見的差別。"
+  },
+  {
+   "start": 328.34,
+   "end": 329.06,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 329.06,
+   "end": 330.08,
+   "speaker": "Kalan",
+   "text": "欸，不過"
+  },
+  {
+   "start": 330.58,
+   "end": 331.88,
+   "speaker": "Kalan",
+   "text": "我可以這樣理解嗎？"
+  },
+  {
+   "start": 331.88,
+   "end": 332.68,
+   "speaker": "Kalan",
+   "text": "就是呢，"
+  },
+  {
+   "start": 333.4,
+   "end": 335.78,
+   "speaker": "Kalan",
+   "text": "ID 存在 local storage，"
+  },
+  {
+   "start": 336.52,
+   "end": 339.74,
+   "speaker": "Kalan",
+   "text": "其實跟 JWT 存在 local storage，"
+  },
+  {
+   "start": 340.24,
+   "end": 342.1,
+   "speaker": "Kalan",
+   "text": "是可以互換的，或者是說，"
+  },
+  {
+   "start": 342.1,
+   "end": 345.26,
+   "speaker": "Kalan",
+   "text": "它們兩個造成的風險是一模一樣的嗎？"
+  },
+  {
+   "start": 345.26,
+   "end": 347.66,
+   "speaker": "Mooly",
+   "text": "我自己覺得應該是，"
+  },
+  {
+   "start": 347.66,
+   "end": 351.52,
+   "speaker": "Mooly",
+   "text": "對吧，就是都是把你的那個身份證明的東西給偷走，"
+  },
+  {
+   "start": 351.52,
+   "end": 354.64,
+   "speaker": "Mooly",
+   "text": "所以不管後端用什麼機制來證明你的身份，"
+  },
+  {
+   "start": 354.64,
+   "end": 357.12,
+   "speaker": "Mooly",
+   "text": "只要你證明身份的那個東西被偷走，"
+  },
+  {
+   "start": 357.12,
+   "end": 361.22,
+   "speaker": "Mooly",
+   "text": "它就有點像是，比如說前端的東西，它就是一個通行證，"
+  },
+  {
+   "start": 361.22,
+   "end": 363.5,
+   "speaker": "Mooly",
+   "text": "你進大樓之後，它發給你的通行證。"
+  },
+  {
+   "start": 363.5,
+   "end": 364.62,
+   "speaker": "Mooly",
+   "text": "那這個通行證上面，"
+  },
+  {
+   "start": 365.14,
+   "end": 366.24,
+   "speaker": "Mooly",
+   "text": "有的可能寫的是 ID，"
+  },
+  {
+   "start": 366.62,
+   "end": 368.54,
+   "speaker": "Mooly",
+   "text": "有的可能直接寫是這樣，"
+  },
+  {
+   "start": 368.54,
+   "end": 370.26,
+   "speaker": "Mooly",
+   "text": "Mooly 就是我是 Mooly 這樣。"
+  },
+  {
+   "start": 370.26,
+   "end": 373.26,
+   "speaker": "Mooly",
+   "text": "那不管是用什麼，反正你的東西都被偷走，那就是，"
+  },
+  {
+   "start": 373.26,
+   "end": 375.7,
+   "speaker": "Mooly",
+   "text": "你這個人的身份就被偷走了。"
+  },
+  {
+   "start": 375.7,
+   "end": 377.78,
+   "speaker": "Kalan",
+   "text": "嗯，OK，了解。"
+  },
+  {
+   "start": 377.78,
+   "end": 381.24,
+   "speaker": "Kalan",
+   "text": "到這邊我們已經有一些前提概念了，就是呢，"
+  },
+  {
+   "start": 381.24,
+   "end": 383.9,
+   "speaker": "Kalan",
+   "text": "你只要是放在 local storage，"
+  },
+  {
+   "start": 384.58,
+   "end": 388.6,
+   "speaker": "Kalan",
+   "text": "或者是任何 client side 可以 access 的方法呢，"
+  },
+  {
+   "start": 388.6,
+   "end": 398.1,
+   "speaker": "Kalan",
+   "text": "就有可能因為 cross-site scripting 的攻擊，而把這個 token 或 ID 給洩漏出去。"
+  },
+  {
+   "start": 398.1,
+   "end": 401.54,
+   "speaker": "Kalan",
+   "text": "那一般來說我們有什麼，"
+  },
+  {
+   "start": 402.19,
+   "end": 407.24,
+   "speaker": "Kalan",
+   "text": "我們就先以 cookie 這個保存方式來說好了，"
+  },
+  {
+   "start": 407.24,
+   "end": 410.1,
+   "speaker": "Kalan",
+   "text": "目前有什麼常見的防範方式嗎？"
+  },
+  {
+   "start": 410.1,
+   "end": 412.02,
+   "speaker": "Mooly",
+   "text": "你說防止它不被偷走嗎？"
+  },
+  {
+   "start": 412.02,
+   "end": 414.6,
+   "speaker": "Kalan",
+   "text": "對，防止它不被偷走的方式。"
+  },
+  {
+   "start": 414.6,
+   "end": 417.38,
+   "speaker": "Mooly",
+   "text": "就是 HTTP only cookie 了。"
+  },
+  {
+   "start": 417.38,
+   "end": 419.34,
+   "speaker": "Kalan",
+   "text": "喔，HTTP only cookie。"
+  },
+  {
+   "start": 419.79,
+   "end": 422.0,
+   "speaker": "Mooly",
+   "text": "對，就是當你設置了這個之後，"
+  },
+  {
+   "start": 422.57,
+   "end": 424.7,
+   "speaker": "Mooly",
+   "text": "前端就完全拿不到這個 cookie。"
+  },
+  {
+   "start": 424.7,
+   "end": 426.06,
+   "speaker": "Mooly",
+   "text": "對前端來說，這個 cookie 就，"
+  },
+  {
+   "start": 426.77,
+   "end": 427.86,
+   "speaker": "Mooly",
+   "text": "你可以當它不存在，"
+  },
+  {
+   "start": 427.86,
+   "end": 429.82,
+   "speaker": "Mooly",
+   "text": "或是說他根本不知道存不存在，"
+  },
+  {
+   "start": 429.82,
+   "end": 431.26,
+   "speaker": "Mooly",
+   "text": "因為你就拿不到。"
+  },
+  {
+   "start": 431.26,
+   "end": 432.8,
+   "speaker": "Mooly",
+   "text": "他存在，但是你拿不到。"
+  },
+  {
+   "start": 432.8,
+   "end": 436.72,
+   "speaker": "Kalan",
+   "text": "那我想這應該也就是大家常見的，"
+  },
+  {
+   "start": 436.72,
+   "end": 439.24,
+   "speaker": "Kalan",
+   "text": "就大家常說的說，"
+  },
+  {
+   "start": 439.9,
+   "end": 447.46,
+   "speaker": "Kalan",
+   "text": "你放在 local storage 被這個 cross-site scripting 給偷走。"
+  },
+  {
+   "start": 448.5,
+   "end": 450.48,
+   "speaker": "Kalan",
+   "text": "我就想問另外一個問題，"
+  },
+  {
+   "start": 451.06,
+   "end": 457.14,
+   "speaker": "Kalan",
+   "text": "所以我如果放在 HTTP only cookie 的話，我就不會有 cross-"
+  },
+  {
+   "start": 457.14,
+   "end": 460.02,
+   "speaker": "Kalan",
+   "text": "site scripting 的疑慮了嗎？"
+  },
+  {
+   "start": 460.02,
+   "end": 464.04,
+   "speaker": "Kalan",
+   "text": "這個是我看到大家寫說，"
+  },
+  {
+   "start": 464.04,
+   "end": 471.94,
+   "speaker": "Kalan",
+   "text": "或者大家說放 local storage 會有被 cross-site scripting 的風險的時候，想到的一個問題。"
+  },
+  {
+   "start": 472.84,
+   "end": 474.84,
+   "speaker": "Mooly",
+   "text": "這個就問得好了。"
+  },
+  {
+   "start": 474.84,
+   "end": 476.76,
+   "speaker": "Mooly",
+   "text": "這個其實下一個要思考的問題是，"
+  },
+  {
+   "start": 476.76,
+   "end": 482.14,
+   "speaker": "Mooly",
+   "text": "既然我們已經知道，他們的差別是你的 token 能夠偷走或不能被偷走，"
+  },
+  {
+   "start": 482.14,
+   "end": 486.02,
+   "speaker": "Mooly",
+   "text": "那他能不能被偷走的這個差別，或他的風險在哪裡，"
+  },
+  {
+   "start": 486.02,
+   "end": 486.42,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 486.42,
+   "end": 490.0,
+   "speaker": "Mooly",
+   "text": "那首先第一個前提是，不管你 token 有沒有被偷走，"
+  },
+  {
+   "start": 490.0,
+   "end": 493.06,
+   "speaker": "Mooly",
+   "text": "只要能被執行 JavaScript 就已經 game over，"
+  },
+  {
+   "start": 493.28,
+   "end": 493.86,
+   "speaker": "Mooly",
+   "text": "理論上。"
+  },
+  {
+   "start": 494.7,
+   "end": 495.5,
+   "speaker": "Mooly",
+   "text": "為什麼呢？"
+  },
+  {
+   "start": 495.5,
+   "end": 497.92,
+   "speaker": "Mooly",
+   "text": "因為先講如果你被偷走，"
+  },
+  {
+   "start": 497.92,
+   "end": 503.96,
+   "speaker": "Mooly",
+   "text": "那你被偷走之後，比如說 token 被偷走，攻擊者就可以在他的電腦上用你的身份去進行攻擊嗎？"
+  },
+  {
+   "start": 503.96,
+   "end": 504.36,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 504.36,
+   "end": 509.28,
+   "speaker": "Mooly",
+   "text": "就他可以用這個 token 去call 任何的 API 什麼的，都可以。"
+  },
+  {
+   "start": 509.76,
+   "end": 509.96,
+   "speaker": "Mooly",
+   "text": "好，"
+  },
+  {
+   "start": 509.96,
+   "end": 512.14,
+   "speaker": "Mooly",
+   "text": "那今天就算你沒有被偷走，"
+  },
+  {
+   "start": 512.14,
+   "end": 515.14,
+   "speaker": "Mooly",
+   "text": "也就是說你用了這個 HTTP only cookie 好了，"
+  },
+  {
+   "start": 515.14,
+   "end": 516.24,
+   "speaker": "Mooly",
+   "text": "那就算你沒有被偷走，"
+  },
+  {
+   "start": 516.24,
+   "end": 518.06,
+   "speaker": "Mooly",
+   "text": "但因為你的瀏覽器上面，"
+  },
+  {
+   "start": 518.48,
+   "end": 520.08,
+   "speaker": "Mooly",
+   "text": "攻擊者還是可以執行 JavaScript，"
+  },
+  {
+   "start": 520.94,
+   "end": 523.72,
+   "speaker": "Mooly",
+   "text": "所以呢，它其實還是可以用你的瀏覽器發出請求。"
+  },
+  {
+   "start": 523.72,
+   "end": 528.26,
+   "speaker": "Mooly",
+   "text": "那 cookie 的這個概念就是，你發出請求的時候，瀏覽器會自己幫你一起帶上去嘛，"
+  },
+  {
+   "start": 528.26,
+   "end": 530.94,
+   "speaker": "Mooly",
+   "text": "所以它還是可以用你的身份去發起請求。"
+  },
+  {
+   "start": 530.94,
+   "end": 533.4,
+   "speaker": "Mooly",
+   "text": "所以你不管有沒有被偷走，"
+  },
+  {
+   "start": 533.4,
+   "end": 535.2,
+   "speaker": "Mooly",
+   "text": "它還是可以發起請求。"
+  },
+  {
+   "start": 535.2,
+   "end": 538.22,
+   "speaker": "Mooly",
+   "text": "只是有一些這個非常細節上的差別。"
+  },
+  {
+   "start": 538.22,
+   "end": 541.1,
+   "speaker": "Mooly",
+   "text": "比如說第一個是攻擊的時間，"
+  },
+  {
+   "start": 541.72,
+   "end": 544.68,
+   "speaker": "Mooly",
+   "text": "假設他把你的 token 偷走的話，那在你發現之前，"
+  },
+  {
+   "start": 545.2,
+   "end": 548.84,
+   "speaker": "Mooly",
+   "text": "他可以從他的電腦上，在任何時間都發起攻擊，"
+  },
+  {
+   "start": 548.84,
+   "end": 550.4,
+   "speaker": "Mooly",
+   "text": "因為 token 就在他那裡。"
+  },
+  {
+   "start": 550.86,
+   "end": 552.7,
+   "speaker": "Mooly",
+   "text": "那如果 token 偷不走的話，"
+  },
+  {
+   "start": 552.7,
+   "end": 555.12,
+   "speaker": "Mooly",
+   "text": "在你把瀏覽器關閉之前，"
+  },
+  {
+   "start": 555.12,
+   "end": 557.76,
+   "speaker": "Mooly",
+   "text": "他都可以用你的瀏覽器發起攻擊。"
+  },
+  {
+   "start": 557.76,
+   "end": 561.06,
+   "speaker": "Mooly",
+   "text": "所以他發起攻擊的那個來源是不一樣的，"
+  },
+  {
+   "start": 561.06,
+   "end": 563.12,
+   "speaker": "Mooly",
+   "text": "一個是你的瀏覽器，一個是他的瀏覽器。"
+  },
+  {
+   "start": 563.12,
+   "end": 566.1,
+   "speaker": "Mooly",
+   "text": "那你的瀏覽器如果關掉的話，他就沒辦法攻擊了，"
+  },
+  {
+   "start": 566.1,
+   "end": 567.72,
+   "speaker": "Mooly",
+   "text": "就像你關機那樣子。"
+  },
+  {
+   "start": 567.72,
+   "end": 571.2,
+   "speaker": "Mooly",
+   "text": "如果他把你的 token 偷走，那你關機也不關他的事，他還可以繼續攻擊。"
+  },
+  {
+   "start": 571.2,
+   "end": 572.28,
+   "speaker": "Mooly",
+   "text": "所以有這個時間，"
+  },
+  {
+   "start": 572.28,
+   "end": 573.84,
+   "speaker": "Mooly",
+   "text": "第一個是這個時間的差別。"
+  },
+  {
+   "start": 573.84,
+   "end": 575.48,
+   "speaker": "Mooly",
+   "text": "第二個的話是，"
+  },
+  {
+   "start": 575.48,
+   "end": 580.18,
+   "speaker": "Mooly",
+   "text": "這一個 token 本身可以用在哪裡的差別，"
+  },
+  {
+   "start": 580.18,
+   "end": 582.72,
+   "speaker": "Mooly",
+   "text": "但這個就很 case by case。"
+  },
+  {
+   "start": 582.72,
+   "end": 583.9,
+   "speaker": "Mooly",
+   "text": "舉個例子好了，"
+  },
+  {
+   "start": 583.9,
+   "end": 586.2,
+   "speaker": "Mooly",
+   "text": "以最簡單的例子來說，"
+  },
+  {
+   "start": 586.2,
+   "end": 587.82,
+   "speaker": "Mooly",
+   "text": "如果你就是這一個系統的話，"
+  },
+  {
+   "start": 587.82,
+   "end": 590.86,
+   "speaker": "Mooly",
+   "text": "你這個 token 只有用在這個系統，那就沒差。"
+  },
+  {
+   "start": 591.44,
+   "end": 594.44,
+   "speaker": "Mooly",
+   "text": "但有一些比較複雜的 case，假設你這個 token 好了，"
+  },
+  {
+   "start": 594.44,
+   "end": 597.18,
+   "speaker": "Mooly",
+   "text": "你這個 token 可以用在三個不同的系統，"
+  },
+  {
+   "start": 597.18,
+   "end": 598.54,
+   "speaker": "Mooly",
+   "text": "比如說它可能是，"
+  },
+  {
+   "start": 599.06,
+   "end": 602.04,
+   "speaker": "Mooly",
+   "text": "比如說內部系統、對外的系統，"
+  },
+  {
+   "start": 602.04,
+   "end": 602.94,
+   "speaker": "Mooly",
+   "text": "跟一個，"
+  },
+  {
+   "start": 602.94,
+   "end": 606.08,
+   "speaker": "Mooly",
+   "text": "跟一個給 partner 用的系統好了，"
+  },
+  {
+   "start": 606.08,
+   "end": 609.34,
+   "speaker": "Mooly",
+   "text": "然後我們假設它可能是三個不同的 subdomain，"
+  },
+  {
+   "start": 610.6,
+   "end": 611.32,
+   "speaker": "Mooly",
+   "text": "然後它，"
+  },
+  {
+   "start": 611.84,
+   "end": 613.04,
+   "speaker": "Mooly",
+   "text": "但它用的是同一個 token，"
+  },
+  {
+   "start": 613.54,
+   "end": 615.7,
+   "speaker": "Mooly",
+   "text": "然後這個 cookie 它可能是存在，"
+  },
+  {
+   "start": 616.16,
+   "end": 618.1,
+   "speaker": "Mooly",
+   "text": "它可能存在這個 subdomain 底下的，"
+  },
+  {
+   "start": 618.1,
+   "end": 624.68,
+   "speaker": "Mooly",
+   "text": "就是說你 a.subdomain.com 跟 b.subdomain.com、c.subdomain.com，它們的 cookie 是不共享的，"
+  },
+  {
+   "start": 624.68,
+   "end": 626.26,
+   "speaker": "Mooly",
+   "text": "它們是用三個不同的 cookie。"
+  },
+  {
+   "start": 626.78,
+   "end": 628.86,
+   "speaker": "Mooly",
+   "text": "那假設今天如果 token 偷不走的話，"
+  },
+  {
+   "start": 629.22,
+   "end": 631.32,
+   "speaker": "Mooly",
+   "text": "那你今天是在內部系統被發現，"
+  },
+  {
+   "start": 631.32,
+   "end": 633.0,
+   "speaker": "Mooly",
+   "text": "這個 cross-site scripting 的問題，"
+  },
+  {
+   "start": 633.0,
+   "end": 637.2,
+   "speaker": "Mooly",
+   "text": "那他就是只能對這個內部系統的 API 發起請求，"
+  },
+  {
+   "start": 637.2,
+   "end": 641.26,
+   "speaker": "Mooly",
+   "text": "因為他的 cookie 就是綁定在這一個 domain 上面。"
+  },
+  {
+   "start": 641.26,
+   "end": 644.42,
+   "speaker": "Mooly",
+   "text": "那假設今天你 token 可以被偷走的話，"
+  },
+  {
+   "start": 645.02,
+   "end": 648.96,
+   "speaker": "Mooly",
+   "text": "攻擊者就可以用你這個 a 系統的 token 去打 c 系統，"
+  },
+  {
+   "start": 648.96,
+   "end": 651.32,
+   "speaker": "Mooly",
+   "text": "因為他把你 token 直接偷到，"
+  },
+  {
+   "start": 651.32,
+   "end": 652.52,
+   "speaker": "Mooly",
+   "text": "然後 token 是共用的，"
+  },
+  {
+   "start": 652.52,
+   "end": 655.94,
+   "speaker": "Mooly",
+   "text": "所以他就不受這個 cookie 綁定 domain 的限制。"
+  },
+  {
+   "start": 656.44,
+   "end": 659.26,
+   "speaker": "Mooly",
+   "text": "但像我剛剛講這個就是 case by case，"
+  },
+  {
+   "start": 659.26,
+   "end": 662.02,
+   "speaker": "Mooly",
+   "text": "因為大多數情形可能不會發生這種狀況，"
+  },
+  {
+   "start": 662.02,
+   "end": 664.98,
+   "speaker": "Mooly",
+   "text": "你沒有弄到這麼複雜的一個系統。"
+  },
+  {
+   "start": 664.98,
+   "end": 665.78,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 665.78,
+   "end": 667.88,
+   "speaker": "Kalan",
+   "text": "這樣聽起來，"
+  },
+  {
+   "start": 669.02,
+   "end": 670.22,
+   "speaker": "Kalan",
+   "text": "那我，"
+  },
+  {
+   "start": 671.08,
+   "end": 678.76,
+   "speaker": "Kalan",
+   "text": "等一下，我們剛剛已經把 JWT 跟 local storage 可能會造成的風險講過了，"
+  },
+  {
+   "start": 678.76,
+   "end": 681.96,
+   "speaker": "Kalan",
+   "text": "那假設我今天是 ID，"
+  },
+  {
+   "start": 681.96,
+   "end": 687.7,
+   "speaker": "Kalan",
+   "text": "就是我們用這個 session ID 類似 session cookie 的方式的話，"
+  },
+  {
+   "start": 687.7,
+   "end": 692.2,
+   "speaker": "Kalan",
+   "text": "然後也遇到了 cross-site scripting 的話呢，"
+  },
+  {
+   "start": 692.7,
+   "end": 696.58,
+   "speaker": "Kalan",
+   "text": "它跟 JWT 放在 cookie 的差別會是什麼啊？"
+  },
+  {
+   "start": 696.58,
+   "end": 697.4,
+   "speaker": "Mooly",
+   "text": "跟你說，"
+  },
+  {
+   "start": 697.4,
+   "end": 699.16,
+   "speaker": "Mooly",
+   "text": "你就把它反過來嗎？"
+  },
+  {
+   "start": 699.16,
+   "end": 700.9,
+   "speaker": "Mooly",
+   "text": "就是 session ID 放 local storage，"
+  },
+  {
+   "start": 700.9,
+   "end": 702.66,
+   "speaker": "Mooly",
+   "text": "vs JWT 放"
+  },
+  {
+   "start": 702.66,
+   "end": 706.66,
+   "speaker": "Kalan",
+   "text": "不是，我的意思是 session cookie 放在"
+  },
+  {
+   "start": 706.66,
+   "end": 708.92,
+   "speaker": "Kalan",
+   "text": "session ID 放在 cookie 裡面，"
+  },
+  {
+   "start": 708.92,
+   "end": 711.54,
+   "speaker": "Kalan",
+   "text": "跟 JWT 放在 cookie 裡面，"
+  },
+  {
+   "start": 711.54,
+   "end": 713.74,
+   "speaker": "Kalan",
+   "text": "兩者都是 HttpOnly 的情況下，"
+  },
+  {
+   "start": 713.74,
+   "end": 716.04,
+   "speaker": "Kalan",
+   "text": "那它們兩個帶來的差距是什麼？"
+  },
+  {
+   "start": 716.04,
+   "end": 719.22,
+   "speaker": "Mooly",
+   "text": "它們的差距基本上很小。"
+  },
+  {
+   "start": 719.22,
+   "end": 723.64,
+   "speaker": "Mooly",
+   "text": "第一個是對攻擊者來說，它兩個就都偷不到嘛，"
+  },
+  {
+   "start": 723.64,
+   "end": 724.02,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 724.86,
+   "end": 727.94,
+   "speaker": "Mooly",
+   "text": "所以對於 client-side 來說是一樣的，"
+  },
+  {
+   "start": 727.94,
+   "end": 729.72,
+   "speaker": "Mooly",
+   "text": "因為它放在同一個位置嘛。"
+  },
+  {
+   "start": 730.14,
+   "end": 731.9,
+   "speaker": "Mooly",
+   "text": "那它唯一的差別是，"
+  },
+  {
+   "start": 731.9,
+   "end": 735.96,
+   "speaker": "Mooly",
+   "text": "這兩個認證方法的本質是不同的。"
+  },
+  {
+   "start": 735.96,
+   "end": 737.14,
+   "speaker": "Mooly",
+   "text": "它本質不同在於說，"
+  },
+  {
+   "start": 737.14,
+   "end": 739.0,
+   "speaker": "Mooly",
+   "text": "第一個方案它只給你 ID，"
+  },
+  {
+   "start": 739.42,
+   "end": 741.52,
+   "speaker": "Mooly",
+   "text": "然後假設這個 ID 是不可預測的話，"
+  },
+  {
+   "start": 742.06,
+   "end": 744.64,
+   "speaker": "Mooly",
+   "text": "那你不管怎麼樣都不可能憑空生出一個 ID，"
+  },
+  {
+   "start": 745.12,
+   "end": 745.52,
+   "speaker": "Mooly",
+   "text": "對吧？"
+  },
+  {
+   "start": 745.52,
+   "end": 749.12,
+   "speaker": "Mooly",
+   "text": "因為它就是記載 server 的一個關係，"
+  },
+  {
+   "start": 749.12,
+   "end": 752.94,
+   "speaker": "Mooly",
+   "text": "一個你重新產生的亂數跟你這個 user 的關係，"
+  },
+  {
+   "start": 752.94,
+   "end": 755.4,
+   "speaker": "Mooly",
+   "text": "這個東西你如果不動到 server 的話，你是動不到的。"
+  },
+  {
+   "start": 755.78,
+   "end": 760.8,
+   "speaker": "Mooly",
+   "text": "但如果你是 JWT 的話，JWT 它背後依賴的是那個密碼學嘛，"
+  },
+  {
+   "start": 760.8,
+   "end": 762.68,
+   "speaker": "Mooly",
+   "text": "就是它背後有一個 JWT 的那個 key，"
+  },
+  {
+   "start": 763.2,
+   "end": 766.08,
+   "speaker": "Mooly",
+   "text": "它有可能是一組 key 或一個 key 都有可能，"
+  },
+  {
+   "start": 766.08,
+   "end": 767.52,
+   "speaker": "Mooly",
+   "text": "它可能是單一一個 key，"
+  },
+  {
+   "start": 767.52,
+   "end": 771.92,
+   "speaker": "Mooly",
+   "text": "或是它是一組 private key 跟 public key，一組公鑰私鑰，"
+  },
+  {
+   "start": 771.92,
+   "end": 775.58,
+   "speaker": "Mooly",
+   "text": "那它今天在 server 就是靠這個 key 去驗證說，"
+  },
+  {
+   "start": 775.58,
+   "end": 780.2,
+   "speaker": "Mooly",
+   "text": "你帶來的這個 JWT 是不是可以相信的。"
+  },
+  {
+   "start": 780.2,
+   "end": 785.66,
+   "speaker": "Mooly",
+   "text": "所以它本質上就會有一個新的問題，是假設你這個 key 被偷走了，"
+  },
+  {
+   "start": 785.66,
+   "end": 790.5,
+   "speaker": "Mooly",
+   "text": "那攻擊者就可以在他的電腦上偽造任何人的身份，"
+  },
+  {
+   "start": 790.5,
+   "end": 791.8,
+   "speaker": "Mooly",
+   "text": "因為你 key 被偷走了，"
+  },
+  {
+   "start": 791.8,
+   "end": 793.52,
+   "speaker": "Mooly",
+   "text": "所以他只要把這個 key 給偷走，"
+  },
+  {
+   "start": 794.02,
+   "end": 796.82,
+   "speaker": "Mooly",
+   "text": "他就可以做到偽造任何人的身份去登入。"
+  },
+  {
+   "start": 797.66,
+   "end": 798.1,
+   "speaker": "Kalan",
+   "text": "哦，"
+  },
+  {
+   "start": 798.7,
+   "end": 799.32,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 800.66,
+   "end": 801.5,
+   "speaker": "Kalan",
+   "text": "另外一點，"
+  },
+  {
+   "start": 801.5,
+   "end": 803.34,
+   "speaker": "Kalan",
+   "text": "我想要補充的是，"
+  },
+  {
+   "start": 804.36,
+   "end": 809.34,
+   "speaker": "Kalan",
+   "text": "因為 JWT 它本身是算是 stateless 的嘛，"
+  },
+  {
+   "start": 809.82,
+   "end": 812.54,
+   "speaker": "Kalan",
+   "text": "它是無狀態的，就等於說我只看 token，"
+  },
+  {
+   "start": 812.54,
+   "end": 814.7,
+   "speaker": "Kalan",
+   "text": "我不會再去問資料庫了，"
+  },
+  {
+   "start": 815.28,
+   "end": 817.52,
+   "speaker": "Kalan",
+   "text": "假設你只是要驗證它的合法性的話。"
+  },
+  {
+   "start": 817.52,
+   "end": 820.78,
+   "speaker": "Kalan",
+   "text": "假設是 session 的話呢，session ID 的話，"
+  },
+  {
+   "start": 820.78,
+   "end": 825.46,
+   "speaker": "Kalan",
+   "text": "你可能會有一個資料庫，那有可能是像剛剛提到的，可能是有個 Redis，"
+  },
+  {
+   "start": 825.46,
+   "end": 828.26,
+   "speaker": "Kalan",
+   "text": "那我們建議，我們就先以資料庫為主好了，"
+  },
+  {
+   "start": 828.72,
+   "end": 830.88,
+   "speaker": "Kalan",
+   "text": "那你一定會跑去查資料庫。"
+  },
+  {
+   "start": 830.88,
+   "end": 835.28,
+   "speaker": "Kalan",
+   "text": "所以我覺得另外一個可以補充的差異點是說，"
+  },
+  {
+   "start": 835.78,
+   "end": 837.88,
+   "speaker": "Kalan",
+   "text": "今天當危險發生了，"
+  },
+  {
+   "start": 837.88,
+   "end": 842.8,
+   "speaker": "Kalan",
+   "text": "我可以馬上把我的資料庫裡面的 session 馬上 revoke 掉，"
+  },
+  {
+   "start": 843.38,
+   "end": 845.86,
+   "speaker": "Kalan",
+   "text": "但是如果你是用 JWT 的話，你就"
+  },
+  {
+   "start": 846.42,
+   "end": 847.14,
+   "speaker": "Mooly",
+   "text": "沒辦法，"
+  },
+  {
+   "start": 847.14,
+   "end": 848.64,
+   "speaker": "Kalan",
+   "text": "毫無他法，"
+  },
+  {
+   "start": 849.24,
+   "end": 853.14,
+   "speaker": "Kalan",
+   "text": "你只能等到它過期，或者是你緊急換，"
+  },
+  {
+   "start": 853.14,
+   "end": 855.64,
+   "speaker": "Kalan",
+   "text": "假設你緊急去做一個 rotation，"
+  },
+  {
+   "start": 855.64,
+   "end": 857.8,
+   "speaker": "Kalan",
+   "text": "有辦法防得住嗎？"
+  },
+  {
+   "start": 857.8,
+   "end": 860.46,
+   "speaker": "Mooly",
+   "text": "可以，但就是所有人的所有人都要重新登入，"
+  },
+  {
+   "start": 860.46,
+   "end": 861.22,
+   "speaker": "Mooly",
+   "text": "就不只那個人，"
+  },
+  {
+   "start": 861.22,
+   "end": 863.52,
+   "speaker": "Mooly",
+   "text": "它只能 global 的 revoke，"
+  },
+  {
+   "start": 864.72,
+   "end": 866.96,
+   "speaker": "Kalan",
+   "text": "那大概也會有這樣的差異。"
+  },
+  {
+   "start": 867.5,
+   "end": 870.3,
+   "speaker": "Mooly",
+   "text": "這是 JWT 一個常見的問題，"
+  },
+  {
+   "start": 870.3,
+   "end": 874.34,
+   "speaker": "Mooly",
+   "text": "所以為了解決這個問題，就會發現有些人做了一個機制是，"
+  },
+  {
+   "start": 874.34,
+   "end": 877.96,
+   "speaker": "Mooly",
+   "text": "你就算用 JWT，你在 server 還是要再去查一次"
+  },
+  {
+   "start": 878.5,
+   "end": 881.64,
+   "speaker": "Mooly",
+   "text": "不管是去 Redis 還是去資料庫好了，"
+  },
+  {
+   "start": 881.64,
+   "end": 883.64,
+   "speaker": "Mooly",
+   "text": "他會再查一次這個 token 是不是合法。"
+  },
+  {
+   "start": 883.64,
+   "end": 885.14,
+   "speaker": "Mooly",
+   "text": "你必須要實作一個，"
+  },
+  {
+   "start": 885.64,
+   "end": 890.16,
+   "speaker": "Mooly",
+   "text": "自己重新實作一個 token 立刻過期的 revoke 機制。"
+  },
+  {
+   "start": 891.58,
+   "end": 894.64,
+   "speaker": "Kalan",
+   "text": "這個是不是可以用，"
+  },
+  {
+   "start": 894.64,
+   "end": 901.24,
+   "speaker": "Kalan",
+   "text": "比如說我們在實作 JWT 機制的時候，是不是很常有這個 refresh 的機制？"
+  },
+  {
+   "start": 901.24,
+   "end": 904.38,
+   "speaker": "Mooly",
+   "text": "喔，對，這個解決方式有兩種。"
+  },
+  {
+   "start": 904.38,
+   "end": 908.46,
+   "speaker": "Mooly",
+   "text": "第一種不是真的解決，它只是靠把那個時間拉短，"
+  },
+  {
+   "start": 909.1,
+   "end": 911.02,
+   "speaker": "Mooly",
+   "text": "就是說你的 token 變成兩個，"
+  },
+  {
+   "start": 911.02,
+   "end": 914.26,
+   "speaker": "Mooly",
+   "text": "你變成有這個 access token 跟 refresh token。"
+  },
+  {
+   "start": 914.26,
+   "end": 918.54,
+   "speaker": "Mooly",
+   "text": "然後你這個 access token 你可能過期，你可能 10 分鐘就過期了，"
+  },
+  {
+   "start": 918.54,
+   "end": 921.0,
+   "speaker": "Mooly",
+   "text": "那就代表說你 10 分鐘過期之後，"
+  },
+  {
+   "start": 921.0,
+   "end": 928.2,
+   "speaker": "Mooly",
+   "text": "你要再拿另外一個叫做 refresh token 的東西，然後來到 server 端去換你新的 access token 過來。"
+  },
+  {
+   "start": 928.74,
+   "end": 940.02,
+   "speaker": "Mooly",
+   "text": "然後那個 refresh token 它本身其實也類似 session cookie 那樣，它是一個不可偽造的、類似亂數的一個東西或什麼的，"
+  },
+  {
+   "start": 940.02,
+   "end": 940.62,
+   "speaker": "Mooly",
+   "text": "然後，"
+  },
+  {
+   "start": 941.82,
+   "end": 945.14,
+   "speaker": "Mooly",
+   "text": "你 token 如果每 10 分鐘就會過期的話，你就要每 10 分鐘去換嘛，"
+  },
+  {
+   "start": 945.14,
+   "end": 946.72,
+   "speaker": "Mooly",
+   "text": "那比如說如果你把 token revoke 掉，"
+  },
+  {
+   "start": 946.72,
+   "end": 948.74,
+   "speaker": "Mooly",
+   "text": "你把那個 refresh token revoke 掉的話，"
+  },
+  {
+   "start": 948.74,
+   "end": 951.2,
+   "speaker": "Mooly",
+   "text": "它會說你這個 token 10 分鐘後就會過期，"
+  },
+  {
+   "start": 951.2,
+   "end": 956.48,
+   "speaker": "Mooly",
+   "text": "所以你只要把 refresh token 給 revoke 掉，它 10 分鐘內必定會失效，"
+  },
+  {
+   "start": 956.48,
+   "end": 961.92,
+   "speaker": "Mooly",
+   "text": "但你就是還是有那個 10 分鐘的時間 gap 在。"
+  },
+  {
+   "start": 961.92,
+   "end": 965.4,
+   "speaker": "Mooly",
+   "text": "那第二種就是你在伺服器端做一些機制，"
+  },
+  {
+   "start": 965.4,
+   "end": 969.02,
+   "speaker": "Mooly",
+   "text": "你每次拿 access token 來的時候，你都重新做一次什麼檢查，"
+  },
+  {
+   "start": 969.02,
+   "end": 971.92,
+   "speaker": "Mooly",
+   "text": "那你就可以即時把它 revoke 掉。"
+  },
+  {
+   "start": 972.36,
+   "end": 974.28,
+   "speaker": "Kalan",
+   "text": "OK，了解了。"
+  },
+  {
+   "start": 975.16,
+   "end": 978.1,
+   "speaker": "Kalan",
+   "text": "我們先從 refresh 的機制來討論好了。"
+  },
+  {
+   "start": 978.1,
+   "end": 982.84,
+   "speaker": "Kalan",
+   "text": "我的 refresh token 這個機制的實作，通常也會需要有一個，"
+  },
+  {
+   "start": 983.5,
+   "end": 985.36,
+   "speaker": "Kalan",
+   "text": "我們叫什麼，bookkeeping 的概念，"
+  },
+  {
+   "start": 985.36,
+   "end": 988.04,
+   "speaker": "Kalan",
+   "text": "就是說我要有一個地方可以去存說，"
+  },
+  {
+   "start": 988.04,
+   "end": 993.74,
+   "speaker": "Kalan",
+   "text": "欸，這一組 refresh token 有沒有用過啊，或者是，"
+  },
+  {
+   "start": 993.74,
+   "end": 996.02,
+   "speaker": "Kalan",
+   "text": "反正就是它會存在某個地方就對了。"
+  },
+  {
+   "start": 996.02,
+   "end": 997.9,
+   "speaker": "Mooly",
+   "text": "對對對，沒錯沒錯。"
+  },
+  {
+   "start": 997.9,
+   "end": 998.6,
+   "speaker": "Kalan",
+   "text": "OK，好。"
+  },
+  {
+   "start": 998.6,
+   "end": 999.12,
+   "speaker": "Kalan",
+   "text": "然後，"
+  },
+  {
+   "start": 999.58,
+   "end": 1000.76,
+   "speaker": "Kalan",
+   "text": "另外一個方式就是呢，"
+  },
+  {
+   "start": 1000.76,
+   "end": 1002.32,
+   "speaker": "Kalan",
+   "text": "雖然你用了 JWT token，"
+  },
+  {
+   "start": 1002.32,
+   "end": 1005.44,
+   "speaker": "Kalan",
+   "text": "但你還是要想辦法把它存在某一個地方，"
+  },
+  {
+   "start": 1005.94,
+   "end": 1008.86,
+   "speaker": "Kalan",
+   "text": "以去驗證，這樣子，用來驗證這樣子。"
+  },
+  {
+   "start": 1009.74,
+   "end": 1011.72,
+   "speaker": "Kalan",
+   "text": "OK，好，有這兩種解法。"
+  },
+  {
+   "start": 1012.42,
+   "end": 1014.38,
+   "speaker": "Mooly",
+   "text": "有一派就認為，你既然，"
+  },
+  {
+   "start": 1014.38,
+   "end": 1020.96,
+   "speaker": "Mooly",
+   "text": "剛聽那麼多，你既然 JWT 做一做，你要做到那些東西，比如說什麼機制 revoke 啊什麼的話，"
+  },
+  {
+   "start": 1020.96,
+   "end": 1027.44,
+   "speaker": "Mooly",
+   "text": "那你勢必要在 server 存東西的話，那你剛好不一開始就 session cookie 存個 ID 就好？"
+  },
+  {
+   "start": 1027.44,
+   "end": 1030.1,
+   "speaker": "Mooly",
+   "text": "你都 server 查不到有沒有 error rate，"
+  },
+  {
+   "start": 1030.1,
+   "end": 1030.9,
+   "speaker": "Mooly",
+   "text": "既然，"
+  },
+  {
+   "start": 1030.9,
+   "end": 1036.26,
+   "speaker": "Mooly",
+   "text": "因為用 JWT 最大的好處是剛才講的那個 stateless 嘛，"
+  },
+  {
+   "start": 1036.26,
+   "end": 1039.46,
+   "speaker": "Mooly",
+   "text": "就是說你這個 state 你就是存在 client 端，"
+  },
+  {
+   "start": 1039.46,
+   "end": 1041.42,
+   "speaker": "Mooly",
+   "text": "你帶上來之後我就不用再查表，"
+  },
+  {
+   "start": 1041.42,
+   "end": 1045.7,
+   "speaker": "Mooly",
+   "text": "我就可以比較好去做那個分散式的系統，"
+  },
+  {
+   "start": 1045.7,
+   "end": 1048.24,
+   "speaker": "Mooly",
+   "text": "你就不需要一個中央地方去處理這個東西，"
+  },
+  {
+   "start": 1048.24,
+   "end": 1050.08,
+   "speaker": "Mooly",
+   "text": "但如果你最後做一做發現，"
+  },
+  {
+   "start": 1050.08,
+   "end": 1052.86,
+   "speaker": "Mooly",
+   "text": "喔，原來我還是需要去查東西啊，"
+  },
+  {
+   "start": 1052.86,
+   "end": 1054.94,
+   "speaker": "Mooly",
+   "text": "那是不是一開始用 session cookie 就好？"
+  },
+  {
+   "start": 1054.94,
+   "end": 1055.62,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 1055.62,
+   "end": 1058.3,
+   "speaker": "Kalan",
+   "text": "喔，我覺得這一點其實還蠻重要的喔，"
+  },
+  {
+   "start": 1058.3,
+   "end": 1059.56,
+   "speaker": "Kalan",
+   "text": "就是假設你的"
+  },
+  {
+   "start": 1059.56,
+   "end": 1062.12,
+   "speaker": "Kalan",
+   "text": "規模是非常巨大的話，"
+  },
+  {
+   "start": 1062.12,
+   "end": 1063.94,
+   "speaker": "Kalan",
+   "text": "就是你的流量是非常大的話，"
+  },
+  {
+   "start": 1063.94,
+   "end": 1067.72,
+   "speaker": "Kalan",
+   "text": "用 JWT 帶來的好處其實是非常多的，"
+  },
+  {
+   "start": 1067.72,
+   "end": 1072.44,
+   "speaker": "Kalan",
+   "text": "剛剛講到那一點，就是你可以完全地省略掉這個查資"
+  },
+  {
+   "start": 1073.23,
+   "end": 1075.96,
+   "speaker": "Kalan",
+   "text": "去下 query 的這個成本。"
+  },
+  {
+   "start": 1075.96,
+   "end": 1080.38,
+   "speaker": "Kalan",
+   "text": "那這個其實對大流量的系統來講是非常高興，或是說，"
+  },
+  {
+   "start": 1080.97,
+   "end": 1082.88,
+   "speaker": "Kalan",
+   "text": "就是非常美味的一件事情。"
+  },
+  {
+   "start": 1084.44,
+   "end": 1087.92,
+   "speaker": "Mooly",
+   "text": "所以它其實某種程度上也是做了個取捨，"
+  },
+  {
+   "start": 1087.92,
+   "end": 1092.34,
+   "speaker": "Mooly",
+   "text": "畢竟如果你以風險來看，它風險就是比 session cookie 還要多，"
+  },
+  {
+   "start": 1092.34,
+   "end": 1096.82,
+   "speaker": "Mooly",
+   "text": "但就是技術本來就不是說你這個風險比較多，你就不能用，"
+  },
+  {
+   "start": 1096.82,
+   "end": 1098.64,
+   "speaker": "Mooly",
+   "text": "就本來就有很多種方法給你選，"
+  },
+  {
+   "start": 1098.64,
+   "end": 1100.32,
+   "speaker": "Mooly",
+   "text": "你勢必要在這個，"
+  },
+  {
+   "start": 1100.92,
+   "end": 1106.8,
+   "speaker": "Mooly",
+   "text": "比如說剛剛講的這條路線，可能比較省一些這個成本，或它性能在某些場景下可能比較高，"
+  },
+  {
+   "start": 1107.32,
+   "end": 1110.86,
+   "speaker": "Mooly",
+   "text": "那它就是一個整個系統綜合之下的一個選擇。"
+  },
+  {
+   "start": 1110.86,
+   "end": 1114.6,
+   "speaker": "Mooly",
+   "text": "它就是評估各個風險跟效益之後做出來的一個選擇。"
+  },
+  {
+   "start": 1115.48,
+   "end": 1116.9,
+   "speaker": "Kalan",
+   "text": "不過我覺得我聽完，"
+  },
+  {
+   "start": 1116.9,
+   "end": 1118.52,
+   "speaker": "Kalan",
+   "text": "就剛剛的分析的話，"
+  },
+  {
+   "start": 1118.52,
+   "end": 1124.7,
+   "speaker": "Kalan",
+   "text": "我可能還是大部分的情況，我可能會選擇走 session cookie、session ID。"
+  },
+  {
+   "start": 1126.42,
+   "end": 1127.46,
+   "speaker": "Kalan",
+   "text": "欸，不過，"
+  },
+  {
+   "start": 1128.12,
+   "end": 1135.22,
+   "speaker": "Kalan",
+   "text": "不是之前常常也會討論說用 cookie 也需要注意各種就是有的沒的東西嗎？"
+  },
+  {
+   "start": 1135.22,
+   "end": 1136.8,
+   "speaker": "Mooly",
+   "text": "你說 cookie 獨有的問題，"
+  },
+  {
+   "start": 1136.8,
+   "end": 1143.94,
+   "speaker": "Kalan",
+   "text": "比如說會不會遇到這個 CSRF 的攻擊等等的，"
+  },
+  {
+   "start": 1143.94,
+   "end": 1145.44,
+   "speaker": "Kalan",
+   "text": "可以大概講一下嗎？"
+  },
+  {
+   "start": 1145.44,
+   "end": 1147.34,
+   "speaker": "Mooly",
+   "text": "你說 CSRF 這個東西嗎？"
+  },
+  {
+   "start": 1148.42,
+   "end": 1149.76,
+   "speaker": "Mooly",
+   "text": "CSRF 基本上就是，"
+  },
+  {
+   "start": 1150.4,
+   "end": 1155.08,
+   "speaker": "Mooly",
+   "text": "因為瀏覽器的特性，它就是你在發請求的時候，會把 cookie 一起帶上去嘛，"
+  },
+  {
+   "start": 1155.08,
+   "end": 1158.68,
+   "speaker": "Mooly",
+   "text": "那帶 cookie 這件事情是看你 cookie 配在哪一個 domain。"
+  },
+  {
+   "start": 1158.68,
+   "end": 1163.04,
+   "speaker": "Mooly",
+   "text": "比如說現在有一個 google.com 的 cookie 好了，"
+  },
+  {
+   "start": 1163.04,
+   "end": 1169.22,
+   "speaker": "Mooly",
+   "text": "那在瀏覽器的世界裡面，比如說我有一個我自己的網頁好了，"
+  },
+  {
+   "start": 1169.22,
+   "end": 1171.7,
+   "speaker": "Mooly",
+   "text": "它可能叫做 example.com，"
+  },
+  {
+   "start": 1171.7,
+   "end": 1175.12,
+   "speaker": "Mooly",
+   "text": "那這個 example.com 我就可以寫一個表單，"
+  },
+  {
+   "start": 1175.12,
+   "end": 1177.28,
+   "speaker": "Mooly",
+   "text": "然後我自動把東西填入，"
+  },
+  {
+   "start": 1177.28,
+   "end": 1180.52,
+   "speaker": "Mooly",
+   "text": "比如說它可能是什麼修改密碼，或什麼修改 email，"
+  },
+  {
+   "start": 1180.52,
+   "end": 1187.4,
+   "speaker": "Mooly",
+   "text": "然後我可以把這個表單發送到 google.com 修改密碼的這個 API 去。"
+  },
+  {
+   "start": 1187.82,
+   "end": 1193.12,
+   "speaker": "Mooly",
+   "text": "那今天當我在 example.com 送出這個表單的時候呢，"
+  },
+  {
+   "start": 1193.12,
+   "end": 1194.98,
+   "speaker": "Mooly",
+   "text": "它的目的地其實是 google.com，"
+  },
+  {
+   "start": 1194.98,
+   "end": 1197.6,
+   "speaker": "Mooly",
+   "text": "所以它會把這個資料送到 google.com。"
+  },
+  {
+   "start": 1197.6,
+   "end": 1203.84,
+   "speaker": "Mooly",
+   "text": "那瀏覽器的特性是，我把這個東西送到 google.com 的時候，它會把 cookie 一起順便幫我帶上去，"
+  },
+  {
+   "start": 1203.84,
+   "end": 1207.92,
+   "speaker": "Mooly",
+   "text": "那我是不是就變成說，你來我的這個網站，"
+  },
+  {
+   "start": 1207.92,
+   "end": 1210.86,
+   "speaker": "Mooly",
+   "text": "可是我卻改了你 Google 的資料？"
+  },
+  {
+   "start": 1210.86,
+   "end": 1213.34,
+   "speaker": "Mooly",
+   "text": "就是因為 cookie 自動帶的這個特性，"
+  },
+  {
+   "start": 1213.34,
+   "end": 1218.02,
+   "speaker": "Mooly",
+   "text": "這個就叫做 CSRF，cross-site request forgery，"
+  },
+  {
+   "start": 1218.02,
+   "end": 1220.36,
+   "speaker": "Mooly",
+   "text": "就是跨站請求偽造，"
+  },
+  {
+   "start": 1220.36,
+   "end": 1221.6,
+   "speaker": "Mooly",
+   "text": "就是說你來這個站，"
+  },
+  {
+   "start": 1221.6,
+   "end": 1224.96,
+   "speaker": "Mooly",
+   "text": "但其實是把請求發送到另外一個網站，"
+  },
+  {
+   "start": 1224.96,
+   "end": 1226.24,
+   "speaker": "Mooly",
+   "text": "然後去改到你的資料。"
+  },
+  {
+   "start": 1226.92,
+   "end": 1231.5,
+   "speaker": "Mooly",
+   "text": "那這個東西其實在現在 2026 年，"
+  },
+  {
+   "start": 1231.5,
+   "end": 1233.86,
+   "speaker": "Mooly",
+   "text": "基本上風險小了很多，"
+  },
+  {
+   "start": 1234.82,
+   "end": 1239.24,
+   "speaker": "Mooly",
+   "text": "因為前幾年多了一個 cookie 的屬性叫做 SameSite，"
+  },
+  {
+   "start": 1239.78,
+   "end": 1243.12,
+   "speaker": "Mooly",
+   "text": "SameSite 的意思就是說，今天當你不是同一個 site 的時候，"
+  },
+  {
+   "start": 1243.8,
+   "end": 1245.7,
+   "speaker": "Mooly",
+   "text": "剛剛那個攻擊就不起作用。"
+  },
+  {
+   "start": 1245.7,
+   "end": 1248.74,
+   "speaker": "Mooly",
+   "text": "瀏覽器會知道說，你今天在 example.com，"
+  },
+  {
+   "start": 1249.3,
+   "end": 1252.32,
+   "speaker": "Mooly",
+   "text": "你要發送一個表單的請求到 google.com，"
+  },
+  {
+   "start": 1252.32,
+   "end": 1254.34,
+   "speaker": "Mooly",
+   "text": "但你們明明不是同一個網站，"
+  },
+  {
+   "start": 1254.34,
+   "end": 1257.18,
+   "speaker": "Mooly",
+   "text": "那我這個 cookie 我就不幫你自動帶上去，"
+  },
+  {
+   "start": 1257.18,
+   "end": 1260.76,
+   "speaker": "Mooly",
+   "text": "瀏覽器就多了一個內建的保護機制去處理這個問題。"
+  },
+  {
+   "start": 1260.76,
+   "end": 1263.2,
+   "speaker": "Mooly",
+   "text": "所以這個風險現在小了很多，但，"
+  },
+  {
+   "start": 1263.62,
+   "end": 1265.46,
+   "speaker": "Mooly",
+   "text": "但你可以再進一步討論說，"
+  },
+  {
+   "start": 1265.9,
+   "end": 1266.88,
+   "speaker": "Mooly",
+   "text": "那這個 SameSite，"
+  },
+  {
+   "start": 1266.88,
+   "end": 1269.36,
+   "speaker": "Mooly",
+   "text": "SameSite 這個 site 的定義呢，"
+  },
+  {
+   "start": 1269.36,
+   "end": 1270.88,
+   "speaker": "Mooly",
+   "text": "它其實你可以把它簡單強調是，"
+  },
+  {
+   "start": 1271.36,
+   "end": 1274.08,
+   "speaker": "Mooly",
+   "text": "不同的 subdomain 算是同一個 site，"
+  },
+  {
+   "start": 1274.56,
+   "end": 1276.4,
+   "speaker": "Mooly",
+   "text": "所以假設你有一個 google.com，"
+  },
+  {
+   "start": 1276.86,
+   "end": 1279.32,
+   "speaker": "Mooly",
+   "text": "跟一個什麼 developers.google.com，"
+  },
+  {
+   "start": 1280.4,
+   "end": 1282.46,
+   "speaker": "Mooly",
+   "text": "它們屬於同一個 site。"
+  },
+  {
+   "start": 1282.46,
+   "end": 1284.16,
+   "speaker": "Mooly",
+   "text": "我在 developer.com，"
+  },
+  {
+   "start": 1284.16,
+   "end": 1288.88,
+   "speaker": "Mooly",
+   "text": "假設我今天在 developer.google.com 發現一個 cross-site scripting 的漏洞，"
+  },
+  {
+   "start": 1288.88,
+   "end": 1289.92,
+   "speaker": "Mooly",
+   "text": "那我就可以，"
+  },
+  {
+   "start": 1290.5,
+   "end": 1294.78,
+   "speaker": "Mooly",
+   "text": "把它結合這個 CSRF，我在 developers.google.com 發送的表單，"
+  },
+  {
+   "start": 1294.78,
+   "end": 1296.2,
+   "speaker": "Mooly",
+   "text": "發到 google.com，"
+  },
+  {
+   "start": 1296.72,
+   "end": 1298.8,
+   "speaker": "Mooly",
+   "text": "它還是會把 cookie 自動帶上去，"
+  },
+  {
+   "start": 1298.8,
+   "end": 1301.6,
+   "speaker": "Mooly",
+   "text": "因為我們是同一個網站，"
+  },
+  {
+   "start": 1302.2,
+   "end": 1305.72,
+   "speaker": "Mooly",
+   "text": "所以這個問題在這個情境底下還是會有的。"
+  },
+  {
+   "start": 1306.32,
+   "end": 1310.1,
+   "speaker": "Kalan",
+   "text": "所以可能會建立在說你有一些 subdomain，然後你的 subdomain，"
+  },
+  {
+   "start": 1310.62,
+   "end": 1312.2,
+   "speaker": "Kalan",
+   "text": "被攻擊了，"
+  },
+  {
+   "start": 1312.2,
+   "end": 1314.22,
+   "speaker": "Mooly",
+   "text": "對它的攻擊情境就不一樣。"
+  },
+  {
+   "start": 1314.22,
+   "end": 1315.36,
+   "speaker": "Mooly",
+   "text": "就你可以簡單分的是，"
+  },
+  {
+   "start": 1315.36,
+   "end": 1317.22,
+   "speaker": "Mooly",
+   "text": "我有一個完全不相干的網站，"
+  },
+  {
+   "start": 1317.22,
+   "end": 1318.96,
+   "speaker": "Mooly",
+   "text": "跟你有很多小的 domain，"
+  },
+  {
+   "start": 1318.96,
+   "end": 1322.8,
+   "speaker": "Mooly",
+   "text": "然後我有其中一個小 domain 的掌控權，我可以再延續下去做什麼，"
+  },
+  {
+   "start": 1323.38,
+   "end": 1325.26,
+   "speaker": "Mooly",
+   "text": "所以它的攻擊前提是比較高的。"
+  },
+  {
+   "start": 1325.86,
+   "end": 1330.2,
+   "speaker": "Kalan",
+   "text": "在這個機制還沒有出現之前，我們以往是怎麼防範它的呢？"
+  },
+  {
+   "start": 1330.2,
+   "end": 1333.54,
+   "speaker": "Mooly",
+   "text": "以往我們會有一個東西叫做 CSRF token，"
+  },
+  {
+   "start": 1333.54,
+   "end": 1337.4,
+   "speaker": "Mooly",
+   "text": "就我們再多一個 token 去專門保護這個行為，"
+  },
+  {
+   "start": 1337.4,
+   "end": 1340.46,
+   "speaker": "Mooly",
+   "text": "我們讓其他網站發請求的時候，"
+  },
+  {
+   "start": 1340.46,
+   "end": 1341.96,
+   "speaker": "Mooly",
+   "text": "拿不到這個 token，"
+  },
+  {
+   "start": 1342.56,
+   "end": 1344.14,
+   "speaker": "Mooly",
+   "text": "那我們就可以做到這個事情。"
+  },
+  {
+   "start": 1344.14,
+   "end": 1346.26,
+   "speaker": "Kalan",
+   "text": "喔，了解了。"
+  },
+  {
+   "start": 1346.74,
+   "end": 1347.38,
+   "speaker": "Kalan",
+   "text": "那感覺，"
+  },
+  {
+   "start": 1347.38,
+   "end": 1350.58,
+   "speaker": "Kalan",
+   "text": "我們假設是在 SameSite 還沒有出現的時候，"
+  },
+  {
+   "start": 1351.08,
+   "end": 1352.38,
+   "speaker": "Kalan",
+   "text": "就是你用 JWT，"
+  },
+  {
+   "start": 1352.38,
+   "end": 1358.6,
+   "speaker": "Kalan",
+   "text": "然後用 local storage，就是前端可以存取的方式，會不會一部分是想要省掉這個麻煩？"
+  },
+  {
+   "start": 1358.6,
+   "end": 1362.36,
+   "speaker": "Mooly",
+   "text": "我猜可能不是，他們可能沒有想到這個 benefit，"
+  },
+  {
+   "start": 1362.36,
+   "end": 1364.18,
+   "speaker": "Mooly",
+   "text": "但這個 benefit 是存在的，"
+  },
+  {
+   "start": 1364.18,
+   "end": 1366.94,
+   "speaker": "Mooly",
+   "text": "他們只是不小心避掉了這個風險。"
+  },
+  {
+   "start": 1366.94,
+   "end": 1367.32,
+   "speaker": "Mooly",
+   "text": "OK。"
+  },
+  {
+   "start": 1367.82,
+   "end": 1372.46,
+   "speaker": "Kalan",
+   "text": "說到這個，我就也想到說，"
+  },
+  {
+   "start": 1373.08,
+   "end": 1376.04,
+   "speaker": "Kalan",
+   "text": "像假設我們用 JWT，"
+  },
+  {
+   "start": 1376.04,
+   "end": 1380.26,
+   "speaker": "Kalan",
+   "text": "然後加 local storage 的方式來看好了，"
+  },
+  {
+   "start": 1380.26,
+   "end": 1384.12,
+   "speaker": "Kalan",
+   "text": "它其實是可以天然 beat 掉 CSRF token 的問題。"
+  },
+  {
+   "start": 1384.12,
+   "end": 1387.52,
+   "speaker": "Kalan",
+   "text": "假設你的 HTTP 的請求是，"
+  },
+  {
+   "start": 1387.98,
+   "end": 1392.6,
+   "speaker": "Kalan",
+   "text": "你要把你的 JWT token 放在 Authorization header，"
+  },
+  {
+   "start": 1393.16,
+   "end": 1394.6,
+   "speaker": "Kalan",
+   "text": "才可以運作的話，"
+  },
+  {
+   "start": 1394.6,
+   "end": 1396.94,
+   "speaker": "Kalan",
+   "text": "那它天然就 beat 掉 CSRF token，"
+  },
+  {
+   "start": 1396.94,
+   "end": 1401.26,
+   "speaker": "Kalan",
+   "text": "CSRF 因為你必須要透過 JavaScript，"
+  },
+  {
+   "start": 1401.26,
+   "end": 1403.72,
+   "speaker": "Kalan",
+   "text": "然後你可能要用 fetch 之類的 API，"
+  },
+  {
+   "start": 1403.72,
+   "end": 1405.1,
+   "speaker": "Kalan",
+   "text": "自己手動塞進去，"
+  },
+  {
+   "start": 1406.34,
+   "end": 1409.62,
+   "speaker": "Kalan",
+   "text": "那它就天然避掉這樣的事情。"
+  },
+  {
+   "start": 1409.62,
+   "end": 1410.48,
+   "speaker": "Kalan",
+   "text": "那只是說，"
+  },
+  {
+   "start": 1410.48,
+   "end": 1412.22,
+   "speaker": "Kalan",
+   "text": "剛剛我們已經有提到的，"
+  },
+  {
+   "start": 1412.22,
+   "end": 1418.84,
+   "speaker": "Kalan",
+   "text": "它可能會受到這個 cross-site scripting 的攻擊。"
+  },
+  {
+   "start": 1418.84,
+   "end": 1422.82,
+   "speaker": "Kalan",
+   "text": "那我覺得這邊可以另外討論的一個問題就是說，"
+  },
+  {
+   "start": 1422.82,
+   "end": 1427.12,
+   "speaker": "Kalan",
+   "text": "好，我知道我放在 local storage 會有這樣的風險了，"
+  },
+  {
+   "start": 1427.6,
+   "end": 1428.64,
+   "speaker": "Kalan",
+   "text": "我還要這樣做嗎？"
+  },
+  {
+   "start": 1428.64,
+   "end": 1431.98,
+   "speaker": "Mooly",
+   "text": "對，這就看大家自己的選擇嘛。"
+  },
+  {
+   "start": 1431.98,
+   "end": 1435.08,
+   "speaker": "Mooly",
+   "text": "那很多人的做法是，"
+  },
+  {
+   "start": 1435.1,
+   "end": 1437.68,
+   "speaker": "Mooly",
+   "text": "它依舊選擇了這個 JWT 加 local storage，"
+  },
+  {
+   "start": 1437.68,
+   "end": 1440.44,
+   "speaker": "Mooly",
+   "text": "因為它就是不想去碰 cookie 這個東西，"
+  },
+  {
+   "start": 1441.36,
+   "end": 1443.76,
+   "speaker": "Mooly",
+   "text": "所以它就會選擇這個做法。"
+  },
+  {
+   "start": 1443.76,
+   "end": 1447.96,
+   "speaker": "Mooly",
+   "text": "那當然另外一個 JWT 存 local storage 的好處是，"
+  },
+  {
+   "start": 1447.96,
+   "end": 1450.44,
+   "speaker": "Mooly",
+   "text": "對於 client 端來說它很方便，"
+  },
+  {
+   "start": 1450.96,
+   "end": 1452.9,
+   "speaker": "Mooly",
+   "text": "它不需要發任何請求，"
+  },
+  {
+   "start": 1452.9,
+   "end": 1455.84,
+   "speaker": "Mooly",
+   "text": "就可以從 JWT token 裡面知道自己是誰，"
+  },
+  {
+   "start": 1456.38,
+   "end": 1459.94,
+   "speaker": "Mooly",
+   "text": "對吧？因為以往傳統 session cookie 的做法，你前端第一件事情，"
+  },
+  {
+   "start": 1459.94,
+   "end": 1463.14,
+   "speaker": "Mooly",
+   "text": "是去，比如說你可能去 call 一個 API 到什麼 /me，"
+  },
+  {
+   "start": 1463.14,
+   "end": 1465.18,
+   "speaker": "Mooly",
+   "text": "你就可以知道說我是誰、"
+  },
+  {
+   "start": 1465.18,
+   "end": 1468.14,
+   "speaker": "Mooly",
+   "text": "我的 email 是什麼、我的名字是什麼，我才能顯示出來。"
+  },
+  {
+   "start": 1468.14,
+   "end": 1471.48,
+   "speaker": "Mooly",
+   "text": "但是如果你是 JWT 的話，你就直接從 JWT，"
+  },
+  {
+   "start": 1471.48,
+   "end": 1473.34,
+   "speaker": "Mooly",
+   "text": "那個 local storage 裡面拿，"
+  },
+  {
+   "start": 1473.34,
+   "end": 1474.86,
+   "speaker": "Mooly",
+   "text": "把 token 拿出來解出來，"
+  },
+  {
+   "start": 1474.86,
+   "end": 1476.18,
+   "speaker": "Mooly",
+   "text": "你就可以顯示出來了，"
+  },
+  {
+   "start": 1476.18,
+   "end": 1478.2,
+   "speaker": "Mooly",
+   "text": "你就不需要額外再發一次請求，"
+  },
+  {
+   "start": 1478.9,
+   "end": 1481.46,
+   "speaker": "Kalan",
+   "text": "這點也是挺不錯的。"
+  },
+  {
+   "start": 1481.46,
+   "end": 1482.5,
+   "speaker": "Kalan",
+   "text": "我想一下喔，"
+  },
+  {
+   "start": 1482.5,
+   "end": 1487.1,
+   "speaker": "Kalan",
+   "text": "假設今天我把 JWT 不放在 client-side，"
+  },
+  {
+   "start": 1487.62,
+   "end": 1488.88,
+   "speaker": "Kalan",
+   "text": "可以存取的地方了，"
+  },
+  {
+   "start": 1488.88,
+   "end": 1491.32,
+   "speaker": "Kalan",
+   "text": "但是我是把它存在 in memory，"
+  },
+  {
+   "start": 1491.32,
+   "end": 1492.04,
+   "speaker": "Kalan",
+   "text": "好啦，"
+  },
+  {
+   "start": 1492.04,
+   "end": 1495.42,
+   "speaker": "Kalan",
+   "text": "可能最終收起來它也算是 client side 可以存取的，"
+  },
+  {
+   "start": 1495.94,
+   "end": 1498.1,
+   "speaker": "Kalan",
+   "text": "那其實風險也是一樣的嗎？"
+  },
+  {
+   "start": 1498.1,
+   "end": 1500.3,
+   "speaker": "Kalan",
+   "text": "存在 local storage 之類的，"
+  },
+  {
+   "start": 1500.3,
+   "end": 1502.08,
+   "speaker": "Mooly",
+   "text": "風險不太一樣喔。"
+  },
+  {
+   "start": 1502.08,
+   "end": 1504.16,
+   "speaker": "Mooly",
+   "text": "因為確實有一種流派就是，"
+  },
+  {
+   "start": 1505.18,
+   "end": 1507.54,
+   "speaker": "Mooly",
+   "text": "我先講一個大前提，是我們現在聊的是，"
+  },
+  {
+   "start": 1508.08,
+   "end": 1510.72,
+   "speaker": "Mooly",
+   "text": "就盡可能再去把那個風險給降低，"
+  },
+  {
+   "start": 1511.82,
+   "end": 1515.8,
+   "speaker": "Mooly",
+   "text": "但是你每降低一點，它付出的成本就會大很多很多，"
+  },
+  {
+   "start": 1516.36,
+   "end": 1517.78,
+   "speaker": "Mooly",
+   "text": "所以實際在選的時候，"
+  },
+  {
+   "start": 1517.78,
+   "end": 1521.36,
+   "speaker": "Mooly",
+   "text": "很少人會選擇這種做法，除非你想要極致的"
+  },
+  {
+   "start": 1521.36,
+   "end": 1522.48,
+   "speaker": "Mooly",
+   "text": "安全性。"
+  },
+  {
+   "start": 1522.48,
+   "end": 1524.74,
+   "speaker": "Mooly",
+   "text": "那就有一種做法是，"
+  },
+  {
+   "start": 1525.22,
+   "end": 1530.38,
+   "speaker": "Mooly",
+   "text": "既然這個 JWT 放在 local storage 的話，"
+  },
+  {
+   "start": 1530.38,
+   "end": 1532.28,
+   "speaker": "Mooly",
+   "text": "你如果被 cross-site scripting 會被拿走，"
+  },
+  {
+   "start": 1533.3,
+   "end": 1535.5,
+   "speaker": "Mooly",
+   "text": "那我們是不是可以想出一個方法，"
+  },
+  {
+   "start": 1535.5,
+   "end": 1539.76,
+   "speaker": "Mooly",
+   "text": "駭客就算可以在我們的網站上執行 JavaScript，"
+  },
+  {
+   "start": 1540.26,
+   "end": 1544.26,
+   "speaker": "Mooly",
+   "text": "他也拿不走我們的這個 JWT token，"
+  },
+  {
+   "start": 1544.26,
+   "end": 1547.18,
+   "speaker": "Mooly",
+   "text": "但這個 JWT token 又不是存在 cookie 裡？"
+  },
+  {
+   "start": 1547.18,
+   "end": 1549.96,
+   "speaker": "Mooly",
+   "text": "假設真的有這種做法，那是不是就能降低風險呢？"
+  },
+  {
+   "start": 1549.96,
+   "end": 1551.42,
+   "speaker": "Mooly",
+   "text": "那實際上，"
+  },
+  {
+   "start": 1551.42,
+   "end": 1556.2,
+   "speaker": "Mooly",
+   "text": "還真的有一種，他是用那個類似 service worker，"
+  },
+  {
+   "start": 1556.2,
+   "end": 1558.8,
+   "speaker": "Mooly",
+   "text": "他就是新建一個 worker，"
+  },
+  {
+   "start": 1559.37,
+   "end": 1562.92,
+   "speaker": "Mooly",
+   "text": "然後把 token 放在那個 worker 的 memory 裡面，"
+  },
+  {
+   "start": 1562.92,
+   "end": 1566.28,
+   "speaker": "Mooly",
+   "text": "就你可能只是開頭或什麼，你就你登入完之後，你把那個"
+  },
+  {
+   "start": 1566.28,
+   "end": 1571.28,
+   "speaker": "Mooly",
+   "text": "你把那個 token 放在那個 worker 裡面，"
+  },
+  {
+   "start": 1571.28,
+   "end": 1575.12,
+   "speaker": "Mooly",
+   "text": "那今天當 hacker 拿到這個 cross-site scripting 可以執行 JavaScript 的時候，"
+  },
+  {
+   "start": 1575.12,
+   "end": 1578.02,
+   "speaker": "Mooly",
+   "text": "他可能只能在 main thread 裡面執行 JavaScript，"
+  },
+  {
+   "start": 1578.02,
+   "end": 1580.06,
+   "speaker": "Mooly",
+   "text": "它是碰不到那個 worker 的那個 thread，"
+  },
+  {
+   "start": 1581.14,
+   "end": 1584.8,
+   "speaker": "Mooly",
+   "text": "那這個時候你就沒辦法讓 worker 裡面的 token，"
+  },
+  {
+   "start": 1584.8,
+   "end": 1586.68,
+   "speaker": "Mooly",
+   "text": "然後因為它也不存在 local storage 嘛，"
+  },
+  {
+   "start": 1586.68,
+   "end": 1588.36,
+   "speaker": "Mooly",
+   "text": "所以你就沒辦法做任何事情。"
+  },
+  {
+   "start": 1588.36,
+   "end": 1594.38,
+   "speaker": "Mooly",
+   "text": "那當然，你如果 token 只保存在 memory 裡面的話，它就會有一個這個 user experience 的問題，"
+  },
+  {
+   "start": 1594.38,
+   "end": 1595.44,
+   "speaker": "Mooly",
+   "text": "所以你瀏覽器關了，"
+  },
+  {
+   "start": 1595.44,
+   "end": 1596.3,
+   "speaker": "Mooly",
+   "text": "再打開，"
+  },
+  {
+   "start": 1596.3,
+   "end": 1597.54,
+   "speaker": "Mooly",
+   "text": "你就要重新登入，"
+  },
+  {
+   "start": 1597.54,
+   "end": 1599.6,
+   "speaker": "Mooly",
+   "text": "因為你這個狀態並沒有被存下來。"
+  },
+  {
+   "start": 1601.1,
+   "end": 1605.08,
+   "speaker": "Mooly",
+   "text": "所以你是可以用這種很極端的方式，去換更強的安全性，"
+  },
+  {
+   "start": 1605.08,
+   "end": 1607.26,
+   "speaker": "Mooly",
+   "text": "但你要付出的東西就會蠻多的。"
+  },
+  {
+   "start": 1607.98,
+   "end": 1612.34,
+   "speaker": "Kalan",
+   "text": "那我覺得可能你還要跟你的，"
+  },
+  {
+   "start": 1613.08,
+   "end": 1617.84,
+   "speaker": "Kalan",
+   "text": "怎麼講，算是商業戰略去做綁定，"
+  },
+  {
+   "start": 1617.84,
+   "end": 1620.12,
+   "speaker": "Kalan",
+   "text": "就像比如說 UX 這種東西，"
+  },
+  {
+   "start": 1620.12,
+   "end": 1621.94,
+   "speaker": "Kalan",
+   "text": "有時候這樣子是，"
+  },
+  {
+   "start": 1621.94,
+   "end": 1625.4,
+   "speaker": "Kalan",
+   "text": "就剛剛講的每次打開都要重新登入，"
+  },
+  {
+   "start": 1625.4,
+   "end": 1629.24,
+   "speaker": "Kalan",
+   "text": "是 OK 的，甚至是我們希望這麼做的，"
+  },
+  {
+   "start": 1629.24,
+   "end": 1631.04,
+   "speaker": "Kalan",
+   "text": "比如說，"
+  },
+  {
+   "start": 1631.48,
+   "end": 1633.62,
+   "speaker": "Kalan",
+   "text": "就金融或者是銀行，"
+  },
+  {
+   "start": 1633.62,
+   "end": 1635.62,
+   "speaker": "Kalan",
+   "text": "你想要有一個更高的安全性。"
+  },
+  {
+   "start": 1635.62,
+   "end": 1637.22,
+   "speaker": "Kalan",
+   "text": "那你是用 UX 來換的。"
+  },
+  {
+   "start": 1637.22,
+   "end": 1640.06,
+   "speaker": "Kalan",
+   "text": "但有些場景是可能我們不想要的，"
+  },
+  {
+   "start": 1640.06,
+   "end": 1642.44,
+   "speaker": "Kalan",
+   "text": "比如說購物網站好了，"
+  },
+  {
+   "start": 1642.44,
+   "end": 1644.3,
+   "speaker": "Kalan",
+   "text": "你每次打開來都要重新登入一次，"
+  },
+  {
+   "start": 1644.3,
+   "end": 1645.74,
+   "speaker": "Kalan",
+   "text": "那我就不要用你家了，"
+  },
+  {
+   "start": 1646.76,
+   "end": 1648.54,
+   "speaker": "Kalan",
+   "text": "我就去用別人家了。"
+  },
+  {
+   "start": 1648.54,
+   "end": 1651.04,
+   "speaker": "Kalan",
+   "text": "所以的確是會遇到一些，"
+  },
+  {
+   "start": 1651.04,
+   "end": 1656.0,
+   "speaker": "Kalan",
+   "text": "你可能會為了 UX 而犧牲掉了一點點的安全性。"
+  },
+  {
+   "start": 1657.26,
+   "end": 1659.66,
+   "speaker": "Kalan",
+   "text": "但就像我們剛剛開頭有說了，"
+  },
+  {
+   "start": 1659.66,
+   "end": 1662.38,
+   "speaker": "Kalan",
+   "text": "就是你遇到了 XSS，"
+  },
+  {
+   "start": 1663.02,
+   "end": 1664.94,
+   "speaker": "Kalan",
+   "text": "那基本上就是有，"
+  },
+  {
+   "start": 1664.94,
+   "end": 1670.6,
+   "speaker": "Kalan",
+   "text": "takeover 的狀態，只是說你 takeover 的狀態後呢，有一些可以控制的，"
+  },
+  {
+   "start": 1670.6,
+   "end": 1675.04,
+   "speaker": "Kalan",
+   "text": "可以控制你的損失範圍，或者是，"
+  },
+  {
+   "start": 1675.04,
+   "end": 1679.72,
+   "speaker": "Kalan",
+   "text": "就是在駭客的家打，或是只能在你家打這樣子。"
+  },
+  {
+   "start": 1679.72,
+   "end": 1684.56,
+   "speaker": "Mooly",
+   "text": "對，對，你可以去多少控制它的 scope，它的可以影響的範圍。"
+  },
+  {
+   "start": 1684.56,
+   "end": 1689.48,
+   "speaker": "Kalan",
+   "text": "那是不是我們在討論這些事情的時候，也要把這個東西考慮進來？"
+  },
+  {
+   "start": 1689.48,
+   "end": 1692.08,
+   "speaker": "Kalan",
+   "text": "就是說我們要討論的不是說，"
+  },
+  {
+   "start": 1692.98,
+   "end": 1699.1,
+   "speaker": "Kalan",
+   "text": "因為放在 local storage 會有 XSS 風險，所以我們就不要這麼做，而是說，"
+  },
+  {
+   "start": 1699.72,
+   "end": 1706.48,
+   "speaker": "Kalan",
+   "text": "好，我們今天發生了 XSS，怎麼做才能把我們的損害降低，或者說，"
+  },
+  {
+   "start": 1706.48,
+   "end": 1709.5,
+   "speaker": "Kalan",
+   "text": "好，那降到這個程度大概是我們可以接受的。"
+  },
+  {
+   "start": 1709.5,
+   "end": 1712.2,
+   "speaker": "Mooly",
+   "text": "對，它通常是一個全盤的選擇。"
+  },
+  {
+   "start": 1712.2,
+   "end": 1714.7,
+   "speaker": "Mooly",
+   "text": "就是資安這種事情並不是說，"
+  },
+  {
+   "start": 1714.7,
+   "end": 1718.26,
+   "speaker": "Mooly",
+   "text": "你這東西很嚴重，你就是必定要修。"
+  },
+  {
+   "start": 1718.26,
+   "end": 1719.88,
+   "speaker": "Mooly",
+   "text": "甚至對有些廠商來說，"
+  },
+  {
+   "start": 1720.42,
+   "end": 1720.86,
+   "speaker": "Mooly",
+   "text": "有漏，"
+  },
+  {
+   "start": 1721.24,
+   "end": 1724.1,
+   "speaker": "Mooly",
+   "text": "有一個被公開的漏洞，就不代表，"
+  },
+  {
+   "start": 1724.1,
+   "end": 1725.74,
+   "speaker": "Mooly",
+   "text": "不代表它是需要被修復的，"
+  },
+  {
+   "start": 1725.74,
+   "end": 1728.8,
+   "speaker": "Mooly",
+   "text": "因為第一個是可能廠商不覺得這是一個問題。"
+  },
+  {
+   "start": 1728.8,
+   "end": 1730.94,
+   "speaker": "Mooly",
+   "text": "有些廠商會覺得說這個是 by design，"
+  },
+  {
+   "start": 1730.94,
+   "end": 1733.24,
+   "speaker": "Mooly",
+   "text": "你的攻擊條件可能太嚴苛了，"
+  },
+  {
+   "start": 1733.24,
+   "end": 1736.12,
+   "speaker": "Mooly",
+   "text": "你要達到前提 A、前提 B、前提 C，"
+  },
+  {
+   "start": 1736.12,
+   "end": 1738.58,
+   "speaker": "Mooly",
+   "text": "雖然這三個前提達成，它確實可以攻擊，"
+  },
+  {
+   "start": 1738.58,
+   "end": 1740.04,
+   "speaker": "Mooly",
+   "text": "但是廠商可能覺得，"
+  },
+  {
+   "start": 1740.04,
+   "end": 1741.84,
+   "speaker": "Mooly",
+   "text": "這個不光我們是，"
+  },
+  {
+   "start": 1741.84,
+   "end": 1745.06,
+   "speaker": "Mooly",
+   "text": "這個 A、B、C 如果都達成，它可以做更多其他事情，"
+  },
+  {
+   "start": 1745.06,
+   "end": 1746.06,
+   "speaker": "Mooly",
+   "text": "所以這個不光我們是，"
+  },
+  {
+   "start": 1746.5,
+   "end": 1748.46,
+   "speaker": "Mooly",
+   "text": "那也有可能是因為成本問題去考量，"
+  },
+  {
+   "start": 1748.46,
+   "end": 1749.9,
+   "speaker": "Mooly",
+   "text": "比如說有些舊的機器，"
+  },
+  {
+   "start": 1749.9,
+   "end": 1753.44,
+   "speaker": "Mooly",
+   "text": "它就算被發現漏洞，廠商也會說這個我不維護了，"
+  },
+  {
+   "start": 1753.44,
+   "end": 1755.8,
+   "speaker": "Mooly",
+   "text": "它這個 end of life，我不維修了，"
+  },
+  {
+   "start": 1755.8,
+   "end": 1756.74,
+   "speaker": "Mooly",
+   "text": "因為成本太高了，"
+  },
+  {
+   "start": 1756.74,
+   "end": 1759.24,
+   "speaker": "Mooly",
+   "text": "所以你客戶就自己負責，"
+  },
+  {
+   "start": 1759.24,
+   "end": 1761.26,
+   "speaker": "Mooly",
+   "text": "自己要換新的東西。"
+  },
+  {
+   "start": 1761.26,
+   "end": 1765.92,
+   "speaker": "Mooly",
+   "text": "所以它本來就是一個全盤考慮過後的一個考量。"
+  },
+  {
+   "start": 1765.92,
+   "end": 1767.98,
+   "speaker": "Mooly",
+   "text": "廠商明知道有這個風險，"
+  },
+  {
+   "start": 1767.98,
+   "end": 1769.72,
+   "speaker": "Mooly",
+   "text": "但它會跟它的那個成本去比較。"
+  },
+  {
+   "start": 1770.24,
+   "end": 1771.86,
+   "speaker": "Mooly",
+   "text": "所以在網頁上也是一樣的，"
+  },
+  {
+   "start": 1771.86,
+   "end": 1776.46,
+   "speaker": "Mooly",
+   "text": "我們明知道說你 JWT token 放 local storage，就是有可能 token 被偷，"
+  },
+  {
+   "start": 1777.0,
+   "end": 1778.68,
+   "speaker": "Mooly",
+   "text": "但是為了解決這個問題，"
+  },
+  {
+   "start": 1778.68,
+   "end": 1781.62,
+   "speaker": "Mooly",
+   "text": "我們可能需要把整個系統的架構都換掉，"
+  },
+  {
+   "start": 1781.62,
+   "end": 1782.64,
+   "speaker": "Mooly",
+   "text": "換成 session cookie，"
+  },
+  {
+   "start": 1782.64,
+   "end": 1786.32,
+   "speaker": "Mooly",
+   "text": "或是再引入一些各種方法去防止它的，"
+  },
+  {
+   "start": 1786.32,
+   "end": 1787.8,
+   "speaker": "Mooly",
+   "text": "那我覺得那個成本太高了，"
+  },
+  {
+   "start": 1787.8,
+   "end": 1788.72,
+   "speaker": "Mooly",
+   "text": "所以我們可以，"
+  },
+  {
+   "start": 1788.72,
+   "end": 1790.2,
+   "speaker": "Mooly",
+   "text": "可能可以考慮一些折衷方案，"
+  },
+  {
+   "start": 1790.2,
+   "end": 1790.52,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 1790.52,
+   "end": 1792.64,
+   "speaker": "Mooly",
+   "text": "就算我這條 JWT token 被拿到，"
+  },
+  {
+   "start": 1792.64,
+   "end": 1796.26,
+   "speaker": "Mooly",
+   "text": "但我的這個 access token 的過期時間很短，"
+  },
+  {
+   "start": 1796.26,
+   "end": 1798.48,
+   "speaker": "Mooly",
+   "text": "所以我可能只會有 10 分鐘的時間可以被打，"
+  },
+  {
+   "start": 1798.48,
+   "end": 1800.46,
+   "speaker": "Mooly",
+   "text": "那我就願意接受這個風險。"
+  },
+  {
+   "start": 1800.46,
+   "end": 1805.32,
+   "speaker": "Mooly",
+   "text": "因為它相較起來是總成本最低的，"
+  },
+  {
+   "start": 1805.32,
+   "end": 1808.44,
+   "speaker": "Mooly",
+   "text": "所以它是一個全盤考慮過的選擇。"
+  },
+  {
+   "start": 1808.44,
+   "end": 1810.48,
+   "speaker": "Mooly",
+   "text": "它並不是說你這個東西會被打，"
+  },
+  {
+   "start": 1810.48,
+   "end": 1812.18,
+   "speaker": "Mooly",
+   "text": "那你就是必定要被 show。"
+  },
+  {
+   "start": 1812.18,
+   "end": 1813.92,
+   "speaker": "Kalan",
+   "text": "喔，了解。"
+  },
+  {
+   "start": 1813.92,
+   "end": 1815.28,
+   "speaker": "Kalan",
+   "text": "那是不是等於說，"
+  },
+  {
+   "start": 1815.28,
+   "end": 1820.22,
+   "speaker": "Kalan",
+   "text": "我就算今天選擇了 session ID 加 HttpOnly，"
+  },
+  {
+   "start": 1820.22,
+   "end": 1825.16,
+   "speaker": "Kalan",
+   "text": "我也要去考量說，我今天被 cross-site scripting 攻擊了，"
+  },
+  {
+   "start": 1825.8,
+   "end": 1826.9,
+   "speaker": "Kalan",
+   "text": "會造成什麼影響，"
+  },
+  {
+   "start": 1826.9,
+   "end": 1828.88,
+   "speaker": "Kalan",
+   "text": "然後我要控制在什麼程度？"
+  },
+  {
+   "start": 1828.88,
+   "end": 1829.4,
+   "speaker": "Mooly",
+   "text": "對，"
+  },
+  {
+   "start": 1829.4,
+   "end": 1830.9,
+   "speaker": "Mooly",
+   "text": "基本上就是，"
+  },
+  {
+   "start": 1831.44,
+   "end": 1833.74,
+   "speaker": "Mooly",
+   "text": "就算被 cross-site scripting 攻擊，"
+  },
+  {
+   "start": 1833.74,
+   "end": 1835.56,
+   "speaker": "Mooly",
+   "text": "你也可以盡量去"
+  },
+  {
+   "start": 1836.02,
+   "end": 1838.3,
+   "speaker": "Mooly",
+   "text": "避免它能夠造成影響的範圍。"
+  },
+  {
+   "start": 1838.68,
+   "end": 1840.72,
+   "speaker": "Mooly",
+   "text": "舉個最好的例子就是，"
+  },
+  {
+   "start": 1841.12,
+   "end": 1844.02,
+   "speaker": "Mooly",
+   "text": "像是改密碼這個東西好了，"
+  },
+  {
+   "start": 1844.44,
+   "end": 1847.16,
+   "speaker": "Mooly",
+   "text": "改密碼這個東西，一個最簡單的實作就是，"
+  },
+  {
+   "start": 1847.16,
+   "end": 1849.28,
+   "speaker": "Mooly",
+   "text": "你就是發一個請求，"
+  },
+  {
+   "start": 1849.28,
+   "end": 1851.26,
+   "speaker": "Mooly",
+   "text": "然後就是你的新的密碼，"
+  },
+  {
+   "start": 1851.26,
+   "end": 1854.98,
+   "speaker": "Mooly",
+   "text": "然後你發請求給我新的密碼之後，我就在後端幫你把密碼改掉。"
+  },
+  {
+   "start": 1855.4,
+   "end": 1857.1,
+   "speaker": "Mooly",
+   "text": "那這個做法的問題就是說，"
+  },
+  {
+   "start": 1857.1,
+   "end": 1860.16,
+   "speaker": "Mooly",
+   "text": "假設今天你被 cross-site scripting 攻擊了，"
+  },
+  {
+   "start": 1860.16,
+   "end": 1863.66,
+   "speaker": "Mooly",
+   "text": "那 hacker 就可以直接發一個這個請求，換新的密碼，"
+  },
+  {
+   "start": 1863.66,
+   "end": 1865.16,
+   "speaker": "Mooly",
+   "text": "他就可以把你的密碼換掉，"
+  },
+  {
+   "start": 1865.16,
+   "end": 1869.26,
+   "speaker": "Mooly",
+   "text": "把你的密碼換掉之後，他就可以在自己電腦上登入你的帳號了，"
+  },
+  {
+   "start": 1869.26,
+   "end": 1871.04,
+   "speaker": "Mooly",
+   "text": "因為他知道你的帳號跟密碼，"
+  },
+  {
+   "start": 1871.46,
+   "end": 1873.42,
+   "speaker": "Mooly",
+   "text": "他就直接把你的帳號整個給拿過來。"
+  },
+  {
+   "start": 1873.76,
+   "end": 1875.2,
+   "speaker": "Mooly",
+   "text": "那顯然是不安全的。"
+  },
+  {
+   "start": 1875.2,
+   "end": 1877.0,
+   "speaker": "Mooly",
+   "text": "那這東西要怎麼降低風險呢？"
+  },
+  {
+   "start": 1877.0,
+   "end": 1878.5,
+   "speaker": "Mooly",
+   "text": "有一個最常見的做法就是，"
+  },
+  {
+   "start": 1878.5,
+   "end": 1881.8,
+   "speaker": "Mooly",
+   "text": "今天當你改密碼的時候，你要輸入現在的密碼，"
+  },
+  {
+   "start": 1882.22,
+   "end": 1883.74,
+   "speaker": "Mooly",
+   "text": "所以他的請求裡面就有兩個，"
+  },
+  {
+   "start": 1883.74,
+   "end": 1885.5,
+   "speaker": "Mooly",
+   "text": "一個是你現在的密碼，跟新的密碼。"
+  },
+  {
+   "start": 1885.5,
+   "end": 1888.08,
+   "speaker": "Mooly",
+   "text": "那今天 hacker 就算可以執行 JavaScript，"
+  },
+  {
+   "start": 1888.08,
+   "end": 1889.96,
+   "speaker": "Mooly",
+   "text": "他也不知道你現在的密碼，"
+  },
+  {
+   "start": 1890.34,
+   "end": 1891.94,
+   "speaker": "Mooly",
+   "text": "所以他也沒辦法幫你改密碼，"
+  },
+  {
+   "start": 1891.94,
+   "end": 1893.52,
+   "speaker": "Mooly",
+   "text": "他也沒辦法把你帳號奪走。"
+  },
+  {
+   "start": 1893.52,
+   "end": 1894.78,
+   "speaker": "Mooly",
+   "text": "那這個就是一個，"
+  },
+  {
+   "start": 1894.78,
+   "end": 1898.86,
+   "speaker": "Mooly",
+   "text": "儘管你的這個網頁被打、被執行 JavaScript，"
+  },
+  {
+   "start": 1898.86,
+   "end": 1904.1,
+   "speaker": "Mooly",
+   "text": "你也依然可以避免這個最壞的結果的方式。"
+  },
+  {
+   "start": 1904.1,
+   "end": 1906.08,
+   "speaker": "Kalan",
+   "text": "喔，了解。"
+  },
+  {
+   "start": 1906.08,
+   "end": 1911.78,
+   "speaker": "Kalan",
+   "text": "那我覺得現在好像就出現的討論方向是說，好，"
+  },
+  {
+   "start": 1912.3,
+   "end": 1914.12,
+   "speaker": "Kalan",
+   "text": "local storage 會有問題，"
+  },
+  {
+   "start": 1914.12,
+   "end": 1917.34,
+   "speaker": "Kalan",
+   "text": "那我們就用 session ID 加 HttpOnly，"
+  },
+  {
+   "start": 1917.34,
+   "end": 1919.42,
+   "speaker": "Kalan",
+   "text": "然後就安全了。"
+  },
+  {
+   "start": 1919.42,
+   "end": 1922.74,
+   "speaker": "Kalan",
+   "text": "好像討論通常就會停在這邊，然後就結束了，"
+  },
+  {
+   "start": 1922.74,
+   "end": 1929.22,
+   "speaker": "Kalan",
+   "text": "而不會去討論說，好，那我今天 session ID 加 HttpOnly 被攻擊了，"
+  },
+  {
+   "start": 1929.22,
+   "end": 1931.32,
+   "speaker": "Kalan",
+   "text": "那我應該要做怎樣的防範，"
+  },
+  {
+   "start": 1931.32,
+   "end": 1933.22,
+   "speaker": "Kalan",
+   "text": "而是會假設說，"
+  },
+  {
+   "start": 1933.22,
+   "end": 1936.58,
+   "speaker": "Kalan",
+   "text": "我只要用 session ID 加 HttpOnly 就不會出事。"
+  },
+  {
+   "start": 1938.04,
+   "end": 1941.32,
+   "speaker": "Kalan",
+   "text": "好像最近看到的風向好像是會像是這樣。"
+  },
+  {
+   "start": 1941.32,
+   "end": 1946.18,
+   "speaker": "Mooly",
+   "text": "那就是整個全盤沒有考慮好，"
+  },
+  {
+   "start": 1946.18,
+   "end": 1947.82,
+   "speaker": "Mooly",
+   "text": "就變成說你只注重某一個點，"
+  },
+  {
+   "start": 1948.32,
+   "end": 1952.08,
+   "speaker": "Mooly",
+   "text": "但並不是說那個點解決就全部都解決了，並沒有這麼簡單。"
+  },
+  {
+   "start": 1952.08,
+   "end": 1954.32,
+   "speaker": "Mooly",
+   "text": "通常我們是有很多層的防禦在裡面，"
+  },
+  {
+   "start": 1954.32,
+   "end": 1957.2,
+   "speaker": "Mooly",
+   "text": "你每一層都可能要選一個方法去做，"
+  },
+  {
+   "start": 1957.66,
+   "end": 1959.26,
+   "speaker": "Mooly",
+   "text": "這樣是更安全的。"
+  },
+  {
+   "start": 1959.26,
+   "end": 1961.42,
+   "speaker": "Kalan",
+   "text": "不過我覺得討論到這邊，"
+  },
+  {
+   "start": 1961.42,
+   "end": 1965.2,
+   "speaker": "Kalan",
+   "text": "我好像有一些比較大的方向"
+  },
+  {
+   "start": 1965.2,
+   "end": 1970.26,
+   "speaker": "Kalan",
+   "text": "一種就是大多數的情況下，"
+  },
+  {
+   "start": 1970.26,
+   "end": 1974.28,
+   "speaker": "Kalan",
+   "text": "你可能不會需要走 JWT 加 local storage。"
+  },
+  {
+   "start": 1974.28,
+   "end": 1976.54,
+   "speaker": "Mooly",
+   "text": "你說大部分狀況下嗎？"
+  },
+  {
+   "start": 1976.54,
+   "end": 1977.18,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 1977.18,
+   "end": 1978.88,
+   "speaker": "Kalan",
+   "text": "我會這麼說的原因是，"
+  },
+  {
+   "start": 1980.22,
+   "end": 1984.34,
+   "speaker": "Kalan",
+   "text": "假設你的服務通常都只有一個 domain，"
+  },
+  {
+   "start": 1984.34,
+   "end": 1988.04,
+   "speaker": "Kalan",
+   "text": "或者說就是你的前後端可能都是在同一個 domain，"
+  },
+  {
+   "start": 1988.64,
+   "end": 1991.08,
+   "speaker": "Kalan",
+   "text": "然後你做了這個前後端分離，"
+  },
+  {
+   "start": 1991.08,
+   "end": 1992.94,
+   "speaker": "Kalan",
+   "text": "就是你的後端有一個 API server，"
+  },
+  {
+   "start": 1992.94,
+   "end": 1996.26,
+   "speaker": "Kalan",
+   "text": "你的前端可能是一個單頁式的應用，"
+  },
+  {
+   "start": 1996.26,
+   "end": 1997.44,
+   "speaker": "Kalan",
+   "text": "那這種情況下，"
+  },
+  {
+   "start": 1997.44,
+   "end": 1999.56,
+   "speaker": "Kalan",
+   "text": "然後假設你們又是同一個 domain 的話，"
+  },
+  {
+   "start": 2000.04,
+   "end": 2004.14,
+   "speaker": "Kalan",
+   "text": "我會覺得大部分的情況下都可以走 session cookie。"
+  },
+  {
+   "start": 2004.14,
+   "end": 2006.2,
+   "speaker": "Mooly",
+   "text": "我反而覺得蠻新鮮的。"
+  },
+  {
+   "start": 2006.2,
+   "end": 2008.24,
+   "speaker": "Kalan",
+   "text": "原因是因為呢，"
+  },
+  {
+   "start": 2008.24,
+   "end": 2010.6,
+   "speaker": "Kalan",
+   "text": "假設你用 JWT 的話呢，"
+  },
+  {
+   "start": 2010.6,
+   "end": 2014.08,
+   "speaker": "Kalan",
+   "text": "等於說你還要再去考慮 refresh token 的機制，"
+  },
+  {
+   "start": 2014.08,
+   "end": 2016.42,
+   "speaker": "Kalan",
+   "text": "那最終你還是要碰到資料庫。"
+  },
+  {
+   "start": 2016.42,
+   "end": 2018.24,
+   "speaker": "Kalan",
+   "text": "等於說你用了 JWT，"
+  },
+  {
+   "start": 2018.24,
+   "end": 2020.46,
+   "speaker": "Kalan",
+   "text": "那個好處大概就降了一半。"
+  },
+  {
+   "start": 2021.0,
+   "end": 2021.58,
+   "speaker": "Kalan",
+   "text": "然後再來，"
+  },
+  {
+   "start": 2022.08,
+   "end": 2024.74,
+   "speaker": "Kalan",
+   "text": "你還要再去想那個 key 的 rotation，"
+  },
+  {
+   "start": 2024.74,
+   "end": 2027.62,
+   "speaker": "Kalan",
+   "text": "然後演算法的設計等等，"
+  },
+  {
+   "start": 2028.08,
+   "end": 2029.24,
+   "speaker": "Kalan",
+   "text": "那這些加起來的話，"
+  },
+  {
+   "start": 2029.24,
+   "end": 2031.98,
+   "speaker": "Kalan",
+   "text": "我覺得就不如直接用 session cookie，"
+  },
+  {
+   "start": 2032.48,
+   "end": 2034.12,
+   "speaker": "Kalan",
+   "text": "會來的方便很多。"
+  },
+  {
+   "start": 2034.12,
+   "end": 2037.62,
+   "speaker": "Mooly",
+   "text": "我反而覺得對大部分產品來講，"
+  },
+  {
+   "start": 2038.2,
+   "end": 2039.82,
+   "speaker": "Mooly",
+   "text": "就一些比較小的東西來講，"
+  },
+  {
+   "start": 2039.82,
+   "end": 2041.76,
+   "speaker": "Mooly",
+   "text": "JWT 是更方便實作的。"
+  },
+  {
+   "start": 2041.76,
+   "end": 2045.04,
+   "speaker": "Mooly",
+   "text": "它在登入或什麼上，它可能不需要用到資料庫。"
+  },
+  {
+   "start": 2045.04,
+   "end": 2047.92,
+   "speaker": "Mooly",
+   "text": "我說如果你只有 JWT 的 access token 的話，"
+  },
+  {
+   "start": 2049.3,
+   "end": 2051.96,
+   "speaker": "Mooly",
+   "text": "你可能根本不需要這些東西，"
+  },
+  {
+   "start": 2051.96,
+   "end": 2052.66,
+   "speaker": "Mooly",
+   "text": "你可能就，"
+  },
+  {
+   "start": 2053.42,
+   "end": 2054.72,
+   "speaker": "Mooly",
+   "text": "甚至你可能不需要，"
+  },
+  {
+   "start": 2054.72,
+   "end": 2056.74,
+   "speaker": "Mooly",
+   "text": "就你不需要專門有一個 table 去存"
+  },
+  {
+   "start": 2056.74,
+   "end": 2058.44,
+   "speaker": "Mooly",
+   "text": "這個 session 的對應關係，"
+  },
+  {
+   "start": 2058.44,
+   "end": 2062.9,
+   "speaker": "Mooly",
+   "text": "然後每次請求來的時候，你就只要看 JWT token 是不是對的，"
+  },
+  {
+   "start": 2062.9,
+   "end": 2065.62,
+   "speaker": "Mooly",
+   "text": "然後把裡面 user id 給撈出來，就可以去做事情，"
+  },
+  {
+   "start": 2066.04,
+   "end": 2067.94,
+   "speaker": "Mooly",
+   "text": "它成本一定是最低的，"
+  },
+  {
+   "start": 2067.94,
+   "end": 2071.18,
+   "speaker": "Mooly",
+   "text": "就看你對那個資安的防護怎麼想了。"
+  },
+  {
+   "start": 2071.7,
+   "end": 2072.92,
+   "speaker": "Mooly",
+   "text": "因為畢竟剛剛有講嘛，"
+  },
+  {
+   "start": 2072.92,
+   "end": 2074.92,
+   "speaker": "Mooly",
+   "text": "你就算是用 session cookie 的話，"
+  },
+  {
+   "start": 2074.92,
+   "end": 2076.98,
+   "speaker": "Mooly",
+   "text": "通常你用 cross-site scripting，"
+  },
+  {
+   "start": 2076.98,
+   "end": 2083.4,
+   "speaker": "Mooly",
+   "text": "就你被發現 cross-site scripting 之後，它造成的後果其實跟你 token 直接被拿走是差不多的，"
+  },
+  {
+   "start": 2083.4,
+   "end": 2084.98,
+   "speaker": "Mooly",
+   "text": "通常是差不多的，"
+  },
+  {
+   "start": 2084.98,
+   "end": 2086.84,
+   "speaker": "Mooly",
+   "text": "就是它可以做的事情是差不多，"
+  },
+  {
+   "start": 2086.84,
+   "end": 2091.58,
+   "speaker": "Mooly",
+   "text": "不管你那個 token 可以存續多久，它可能某種程度是差不多的，"
+  },
+  {
+   "start": 2091.58,
+   "end": 2091.8,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 2091.8,
+   "end": 2095.84,
+   "speaker": "Mooly",
+   "text": "我自己其實是覺得都可以，"
+  },
+  {
+   "start": 2095.84,
+   "end": 2102.3,
+   "speaker": "Mooly",
+   "text": "但身為使用者，我當然是會更喜歡用 session cookie 的產品，因為會更安全一點。"
+  },
+  {
+   "start": 2104.48,
+   "end": 2105.98,
+   "speaker": "Kalan",
+   "text": "OK，了解。"
+  },
+  {
+   "start": 2106.66,
+   "end": 2111.26,
+   "speaker": "Kalan",
+   "text": "這其實也是我一個當時有點猶豫的點，"
+  },
+  {
+   "start": 2111.26,
+   "end": 2116.04,
+   "speaker": "Kalan",
+   "text": "就是以一個 front-end engineer 的角度來看，"
+  },
+  {
+   "start": 2116.04,
+   "end": 2118.82,
+   "speaker": "Kalan",
+   "text": "我會很喜歡 JWT 加 local storage，"
+  },
+  {
+   "start": 2120.44,
+   "end": 2125.3,
+   "speaker": "Kalan",
+   "text": "因為不用顧 cookie 是一個很開心的事情，"
+  },
+  {
+   "start": 2125.3,
+   "end": 2131.02,
+   "speaker": "Kalan",
+   "text": "但的確從剛剛講的各個層面來看的話，我反而現在會覺得好，"
+  },
+  {
+   "start": 2131.02,
+   "end": 2137.32,
+   "speaker": "Kalan",
+   "text": "至少以後端的實作的麻煩性來講的話，可能我還是會選 session cookie 啦。"
+  },
+  {
+   "start": 2138.8,
+   "end": 2147.68,
+   "speaker": "Kalan",
+   "text": "好，那我們這一集就先到這邊囉，如果喜歡的話，歡迎訂閱或分享，如果有任何問題的話，歡迎透過下方的表單連結來聯絡我們。"
+  },
+  {
+   "start": 2147.68,
+   "end": 2148.74,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 2148.74,
+   "end": 2149.62,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2150.2,
+   "end": 2151.9,
+   "speaker": "Kalan",
+   "text": "我們下次見，拜拜。"
+  }
+ ]
+}

@@ -252,7 +252,7 @@ def refine_speakers(model, audio: np.ndarray, lines: list[dict], centroids: np.n
     changed = 0
     with torch.inference_mode():
         for line in lines:
-            if line["end"] - line["start"] < 0.8:
+            if line["end"] - line["start"] < 0.3:
                 continue
             clip = audio[int(line["start"] * SAMPLE_RATE) : int(min(line["end"], line["start"] + 12) * SAMPLE_RATE)]
             vector = model(torch.from_numpy(np.ascontiguousarray(clip))[None, None]).numpy()[0]

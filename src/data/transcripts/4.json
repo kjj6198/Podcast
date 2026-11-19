@@ -1,0 +1,4278 @@
+{
+ "episode": 4,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 聊軟體開發領域常見的冒牌者症候群。Kalan 分享自己在台科大、實習與日本工作時被高手環繞而自我懷疑，後來靠專注過程、與厲害的人交朋友來緩解。Mooly 則從高中資訊競賽與求職經驗談起，說明透過與周遭人比較、看過更多不同程度的人，能找到自己的客觀定位。",
+  "points": [
+   "Kalan 從大學到日本工作一路被強者環繞，長期覺得自己很差，後來因讀了《做自己生命的設計師》而改為只和自己比較。",
+   "Kalan 的轉念是：只看到別人的強而看不到其成長背景與資源，並不公平，因此改為專注過程並主動與厲害的人交朋友。",
+   "Mooly 認為真正讓人焦慮的是背景與自己相近卻更成功的人，而不是十歲神童這類遙不可及的對象。",
+   "Mooly 從高中資訊競賽與求職定薪的經驗發現，與同儕交流才能知道真實的薪資範圍與自己的定位。",
+   "Mooly 認為在職場上見過更多不同程度的人，能把自己的下限往上拉，但比較對象必須同時包含比自己強和比自己弱的人，否則會有認知偏誤。",
+   "面對嫉妒，Mooly 選擇封鎖自覺德不配位的人，Kalan 則指出收入回報的是提供價值而非技術，兩人都強調沒有標準答案。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與冒牌者症候群的話題"
+   },
+   {
+    "start": 72.0,
+    "title": "Kalan 的經歷：被高手環繞"
+   },
+   {
+    "start": 497.0,
+    "title": "轉念：只跟自己比、與強者做朋友"
+   },
+   {
+    "start": 813.0,
+    "title": "社群媒體焦慮與嫉妒心態"
+   },
+   {
+    "start": 1041.0,
+    "title": "Mooly 的故事：資訊競賽與求職定位"
+   },
+   {
+    "start": 1454.0,
+    "title": "職場經驗與同事強弱的看法"
+   },
+   {
+    "start": 1774.0,
+    "title": "透過比較認識自己的位置"
+   },
+   {
+    "start": 1927.0,
+    "title": "封鎖他人、價值與能力的討論"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.02,
+   "end": 2.28,
+   "speaker": "Kalan",
+   "text": "Hello 大家好，我是 Kalan。"
+  },
+  {
+   "start": 2.82,
+   "end": 3.9,
+   "speaker": "Mooly",
+   "text": "大家好，我是 Mooly。"
+  },
+  {
+   "start": 4.54,
+   "end": 7.22,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 19.57,
+   "end": 20.99,
+   "speaker": "Kalan",
+   "text": "那今天呢，"
+  },
+  {
+   "start": 20.99,
+   "end": 23.73,
+   "speaker": "Kalan",
+   "text": "想要來聊一個我覺得啦，"
+  },
+  {
+   "start": 23.73,
+   "end": 28.47,
+   "speaker": "Kalan",
+   "text": "在軟體開發這個領域當中，"
+  },
+  {
+   "start": 28.47,
+   "end": 31.35,
+   "speaker": "Kalan",
+   "text": "蠻常出現的一個症狀，"
+  },
+  {
+   "start": 31.35,
+   "end": 32.79,
+   "speaker": "Kalan",
+   "text": "冒牌者症候群。"
+  },
+  {
+   "start": 33.31,
+   "end": 34.89,
+   "speaker": "Mooly",
+   "text": "沒錯，冒牌者症候群。"
+  },
+  {
+   "start": 34.89,
+   "end": 38.93,
+   "speaker": "Kalan",
+   "text": "好，那我想先問問 Mooly 好了，"
+  },
+  {
+   "start": 38.93,
+   "end": 40.99,
+   "speaker": "Kalan",
+   "text": "你覺得你有這樣的症狀嗎？"
+  },
+  {
+   "start": 40.99,
+   "end": 43.55,
+   "speaker": "Mooly",
+   "text": "有啊，這是一定的。"
+  },
+  {
+   "start": 43.55,
+   "end": 50.81,
+   "speaker": "Mooly",
+   "text": "我覺得每個人應該多多少少都有一點，只是嚴重程度不同。"
+  },
+  {
+   "start": 51.06,
+   "end": 54.37,
+   "speaker": "Mooly",
+   "text": "那愷開本身也有這個問題嗎？"
+  },
+  {
+   "start": 54.37,
+   "end": 57.03,
+   "speaker": "Kalan",
+   "text": "有，而且我覺得，"
+  },
+  {
+   "start": 57.4,
+   "end": 61.21,
+   "speaker": "Kalan",
+   "text": "可能我覺得我現在算是好很多，"
+  },
+  {
+   "start": 61.21,
+   "end": 65.49,
+   "speaker": "Kalan",
+   "text": "但其實之前還蠻嚴重的。"
+  },
+  {
+   "start": 65.49,
+   "end": 67.61,
+   "speaker": "Mooly",
+   "text": "那要稍微分享一下，"
+  },
+  {
+   "start": 67.61,
+   "end": 70.85,
+   "speaker": "Mooly",
+   "text": "大概整體走來的心路歷程。"
+  },
+  {
+   "start": 71.51,
+   "end": 75.49,
+   "speaker": "Kalan",
+   "text": "我大學的時候是在一個相對，"
+  },
+  {
+   "start": 75.49,
+   "end": 80.07,
+   "speaker": "Kalan",
+   "text": "相對比較學歷比較高的地方。"
+  },
+  {
+   "start": 80.07,
+   "end": 82.19,
+   "speaker": "Kalan",
+   "text": "算了沒關係，我就直接講好了。"
+  },
+  {
+   "start": 82.19,
+   "end": 85.39,
+   "speaker": "Kalan",
+   "text": "我大學的時候在台科大，"
+  },
+  {
+   "start": 86.61,
+   "end": 91.37,
+   "speaker": "Kalan",
+   "text": "那台科大雖然它跟台大比起來，當然還是有一段差距，"
+  },
+  {
+   "start": 92.01,
+   "end": 94.51,
+   "speaker": "Kalan",
+   "text": "不過其實台科大裡面，"
+  },
+  {
+   "start": 94.97,
+   "end": 97.03,
+   "speaker": "Kalan",
+   "text": "你其實很容易遇到那些，"
+  },
+  {
+   "start": 97.03,
+   "end": 100.41,
+   "speaker": "Kalan",
+   "text": "技術面很強的高手。"
+  },
+  {
+   "start": 100.8,
+   "end": 105.55,
+   "speaker": "Kalan",
+   "text": "那他們可能在那個時候就已經開始自己接案，"
+  },
+  {
+   "start": 105.55,
+   "end": 107.67,
+   "speaker": "Kalan",
+   "text": "然後有非常強的開發能力，"
+  },
+  {
+   "start": 107.67,
+   "end": 110.09,
+   "speaker": "Kalan",
+   "text": "然後參加各種社群，"
+  },
+  {
+   "start": 110.09,
+   "end": 112.79,
+   "speaker": "Kalan",
+   "text": "或者是已經自己開始做社群，"
+  },
+  {
+   "start": 112.79,
+   "end": 116.55,
+   "speaker": "Kalan",
+   "text": "就是這些人幾乎到處都看得到，"
+  },
+  {
+   "start": 116.94,
+   "end": 117.99,
+   "speaker": "Kalan",
+   "text": "在台科大裡面。"
+  },
+  {
+   "start": 118.91,
+   "end": 123.39,
+   "speaker": "Kalan",
+   "text": "那那個時候我其實還是一個相對小白的情況，"
+  },
+  {
+   "start": 123.39,
+   "end": 126.27,
+   "speaker": "Kalan",
+   "text": "那個時候我才剛開始學程式不久。"
+  },
+  {
+   "start": 127.23,
+   "end": 128.77,
+   "speaker": "Kalan",
+   "text": "那個時候我就會覺得，"
+  },
+  {
+   "start": 129.35,
+   "end": 133.59,
+   "speaker": "Kalan",
+   "text": "我們明明是兩種等級落差這麼遠的人，"
+  },
+  {
+   "start": 133.59,
+   "end": 136.87,
+   "speaker": "Kalan",
+   "text": "我竟然跟他是在唸同一個學校，"
+  },
+  {
+   "start": 137.29,
+   "end": 140.71,
+   "speaker": "Kalan",
+   "text": "然後我就覺得自己很差，"
+  },
+  {
+   "start": 140.71,
+   "end": 142.69,
+   "speaker": "Kalan",
+   "text": "自己很爛這樣子。"
+  },
+  {
+   "start": 144.25,
+   "end": 146.89,
+   "speaker": "Kalan",
+   "text": "然後還有像是學科的部分，"
+  },
+  {
+   "start": 147.41,
+   "end": 152.85,
+   "speaker": "Kalan",
+   "text": "就是我有一位朋友，他大學的時候，他的數學跟，"
+  },
+  {
+   "start": 153.29,
+   "end": 155.11,
+   "speaker": "Kalan",
+   "text": "他的數學能力非常強，"
+  },
+  {
+   "start": 155.11,
+   "end": 162.95,
+   "speaker": "Kalan",
+   "text": "就是你給他一個公式，他可以講得很清楚說它是怎麼被推導出來的，"
+  },
+  {
+   "start": 162.95,
+   "end": 165.89,
+   "speaker": "Kalan",
+   "text": "就是像微積分跟線性代數等等，"
+  },
+  {
+   "start": 166.49,
+   "end": 171.43,
+   "speaker": "Kalan",
+   "text": "這些東西其實你要把它學好的話，是需要牽扯到一些理論跟推導的，"
+  },
+  {
+   "start": 171.43,
+   "end": 175.67,
+   "speaker": "Kalan",
+   "text": "他不僅是在計算方面很強，他連這些推導的東西也很厲害。"
+  },
+  {
+   "start": 175.67,
+   "end": 177.05,
+   "speaker": "Kalan",
+   "text": "我的話我是，"
+  },
+  {
+   "start": 177.59,
+   "end": 179.09,
+   "speaker": "Kalan",
+   "text": "我覺得算是普普，"
+  },
+  {
+   "start": 179.09,
+   "end": 182.51,
+   "speaker": "Kalan",
+   "text": "所以我就會覺得，哇，這群人真的超強超厲害，"
+  },
+  {
+   "start": 182.51,
+   "end": 184.59,
+   "speaker": "Kalan",
+   "text": "然後我們竟然是在同一所學校，"
+  },
+  {
+   "start": 184.59,
+   "end": 188.97,
+   "speaker": "Kalan",
+   "text": "然後就會很容易就會覺得自己過得很差這樣子。"
+  },
+  {
+   "start": 189.67,
+   "end": 191.85,
+   "speaker": "Kalan",
+   "text": "很容易就會覺得自己很差這樣子。"
+  },
+  {
+   "start": 191.85,
+   "end": 192.53,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 192.53,
+   "end": 197.85,
+   "speaker": "Kalan",
+   "text": "然後後來我到一家公司裡面實習，"
+  },
+  {
+   "start": 199.05,
+   "end": 202.07,
+   "speaker": "Mooly",
+   "text": "剛剛那個我想問一下，那比如說你在大學的時候，"
+  },
+  {
+   "start": 202.63,
+   "end": 209.17,
+   "speaker": "Mooly",
+   "text": "整體成績來說，是大概在哪個位置？是在比較差那段嗎？還是其實也沒有這麼差？"
+  },
+  {
+   "start": 211.11,
+   "end": 214.51,
+   "speaker": "Kalan",
+   "text": "我覺得用四個字來講就是慘不忍睹。"
+  },
+  {
+   "start": 214.51,
+   "end": 217.61,
+   "speaker": "Mooly",
+   "text": "慘不忍睹，OK，那我懂了。"
+  },
+  {
+   "start": 218.43,
+   "end": 221.87,
+   "speaker": "Kalan",
+   "text": "基本上我除了程式以外的課，"
+  },
+  {
+   "start": 222.33,
+   "end": 225.11,
+   "speaker": "Kalan",
+   "text": "都算是滿表現普普。"
+  },
+  {
+   "start": 225.11,
+   "end": 226.81,
+   "speaker": "Kalan",
+   "text": "然後甚至還有被當過，"
+  },
+  {
+   "start": 226.81,
+   "end": 229.83,
+   "speaker": "Kalan",
+   "text": "所以大概就是慘不忍睹的感覺。"
+  },
+  {
+   "start": 230.47,
+   "end": 233.13,
+   "speaker": "Mooly",
+   "text": "但是程式的課還行，是嗎？"
+  },
+  {
+   "start": 233.13,
+   "end": 235.29,
+   "speaker": "Kalan",
+   "text": "程式的課都有過。"
+  },
+  {
+   "start": 236.83,
+   "end": 240.17,
+   "speaker": "Mooly",
+   "text": "就是有過而已，還是有比較前面？"
+  },
+  {
+   "start": 240.79,
+   "end": 244.31,
+   "speaker": "Kalan",
+   "text": "就有一堂寫網頁的課有比較高而已，"
+  },
+  {
+   "start": 244.31,
+   "end": 251.81,
+   "speaker": "Kalan",
+   "text": "剩下的話都算是普通成績飛過去這樣子。"
+  },
+  {
+   "start": 252.37,
+   "end": 253.33,
+   "speaker": "Mooly",
+   "text": "了解了解，好。"
+  },
+  {
+   "start": 253.33,
+   "end": 256.45,
+   "speaker": "Mooly",
+   "text": "那可以再回到那個實習的故事了。"
+  },
+  {
+   "start": 256.45,
+   "end": 256.67,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 256.67,
+   "end": 260.73,
+   "speaker": "Kalan",
+   "text": "因為我大二的時候，大二下的時候就開始實習，"
+  },
+  {
+   "start": 261.31,
+   "end": 265.03,
+   "speaker": "Kalan",
+   "text": "那個時候我是相對沒有餘裕的狀態。"
+  },
+  {
+   "start": 265.03,
+   "end": 268.69,
+   "speaker": "Kalan",
+   "text": "當然我不想要把這件事情當成我學業不佳的藉口，"
+  },
+  {
+   "start": 268.69,
+   "end": 272.43,
+   "speaker": "Kalan",
+   "text": "因為那個時候我其實是要一直打工才可以去"
+  },
+  {
+   "start": 272.43,
+   "end": 274.49,
+   "speaker": "Kalan",
+   "text": "維持自己的生活，"
+  },
+  {
+   "start": 275.17,
+   "end": 280.17,
+   "speaker": "Kalan",
+   "text": "那就會相對比較少時間去念書，"
+  },
+  {
+   "start": 280.91,
+   "end": 284.73,
+   "speaker": "Kalan",
+   "text": "但我不想把它當作我學業差的藉口，"
+  },
+  {
+   "start": 284.73,
+   "end": 285.79,
+   "speaker": "Kalan",
+   "text": "因為不管怎樣，"
+  },
+  {
+   "start": 285.79,
+   "end": 287.83,
+   "speaker": "Kalan",
+   "text": "你如果真的想要做，就會想找辦法。"
+  },
+  {
+   "start": 287.83,
+   "end": 291.65,
+   "speaker": "Kalan",
+   "text": "那個時候我主要比較會專注在實習，"
+  },
+  {
+   "start": 291.65,
+   "end": 293.43,
+   "speaker": "Kalan",
+   "text": "然後學寫程式上面。"
+  },
+  {
+   "start": 293.43,
+   "end": 295.57,
+   "speaker": "Kalan",
+   "text": "那我加入的時候也是一樣，"
+  },
+  {
+   "start": 296.11,
+   "end": 296.43,
+   "speaker": "Kalan",
+   "text": "就是，"
+  },
+  {
+   "start": 296.99,
+   "end": 300.27,
+   "speaker": "Kalan",
+   "text": "我覺得我那時候參加的開發部門的團隊，"
+  },
+  {
+   "start": 300.27,
+   "end": 301.95,
+   "speaker": "Kalan",
+   "text": "他們的實力是相對"
+  },
+  {
+   "start": 301.95,
+   "end": 303.65,
+   "speaker": "Kalan",
+   "text": "不錯的，"
+  },
+  {
+   "start": 303.65,
+   "end": 305.51,
+   "speaker": "Kalan",
+   "text": "甚至是"
+  },
+  {
+   "start": 305.89,
+   "end": 308.21,
+   "speaker": "Kalan",
+   "text": "比我後晚來的那個實習生，"
+  },
+  {
+   "start": 308.21,
+   "end": 309.53,
+   "speaker": "Kalan",
+   "text": "他也是大學，"
+  },
+  {
+   "start": 309.53,
+   "end": 312.27,
+   "speaker": "Kalan",
+   "text": "然後也是累積了很多那種程式結案，"
+  },
+  {
+   "start": 312.27,
+   "end": 314.53,
+   "speaker": "Kalan",
+   "text": "然後開發能力超強這樣子，"
+  },
+  {
+   "start": 315.01,
+   "end": 316.57,
+   "speaker": "Mooly",
+   "text": "累積很多經驗了這樣。"
+  },
+  {
+   "start": 317.25,
+   "end": 317.51,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 318.13,
+   "end": 320.91,
+   "speaker": "Kalan",
+   "text": "那個時候我就是第一份實習，"
+  },
+  {
+   "start": 320.91,
+   "end": 322.03,
+   "speaker": "Kalan",
+   "text": "所以基本上我就是"
+  },
+  {
+   "start": 322.83,
+   "end": 327.39,
+   "speaker": "Kalan",
+   "text": "也處於那種不懂的事情還很多的那種狀態下，"
+  },
+  {
+   "start": 327.39,
+   "end": 328.65,
+   "speaker": "Kalan",
+   "text": "所以你看，"
+  },
+  {
+   "start": 328.65,
+   "end": 330.17,
+   "speaker": "Kalan",
+   "text": "又是一群"
+  },
+  {
+   "start": 330.17,
+   "end": 332.09,
+   "speaker": "Kalan",
+   "text": "閃亮亮的人，"
+  },
+  {
+   "start": 332.09,
+   "end": 334.33,
+   "speaker": "Kalan",
+   "text": "然後我就在這個環境下，"
+  },
+  {
+   "start": 334.33,
+   "end": 336.83,
+   "speaker": "Kalan",
+   "text": "然後就會又開始那種"
+  },
+  {
+   "start": 336.83,
+   "end": 338.79,
+   "speaker": "Kalan",
+   "text": "欸，為什麼我在這裡？"
+  },
+  {
+   "start": 338.79,
+   "end": 340.59,
+   "speaker": "Kalan",
+   "text": "然後我覺得自己好爛喔什麼的。"
+  },
+  {
+   "start": 340.59,
+   "end": 345.59,
+   "speaker": "Kalan",
+   "text": "然後就在我實習的那段期間，"
+  },
+  {
+   "start": 346.09,
+   "end": 349.77,
+   "speaker": "Kalan",
+   "text": "我因為是專注在寫前端這件事情上面，"
+  },
+  {
+   "start": 349.77,
+   "end": 354.53,
+   "speaker": "Kalan",
+   "text": "其實蠻常看到有一個叫做 Hoodie 的人的文章。"
+  },
+  {
+   "start": 354.53,
+   "end": 358.21,
+   "speaker": "Kalan",
+   "text": "那我覺得他寫的文章，"
+  },
+  {
+   "start": 358.21,
+   "end": 360.65,
+   "speaker": "Kalan",
+   "text": "就是因為那時候我也開始有在做一些，"
+  },
+  {
+   "start": 361.15,
+   "end": 365.25,
+   "speaker": "Kalan",
+   "text": "就是寫部落格，然後寫自己前端想法的輸出，"
+  },
+  {
+   "start": 365.25,
+   "end": 366.65,
+   "speaker": "Kalan",
+   "text": "然後我就覺得哇，"
+  },
+  {
+   "start": 366.65,
+   "end": 367.85,
+   "speaker": "Kalan",
+   "text": "Hoodie 寫的，"
+  },
+  {
+   "start": 368.33,
+   "end": 371.87,
+   "speaker": "Kalan",
+   "text": "他其實寫了很多前端相關的文章，我覺得寫得超讚。"
+  },
+  {
+   "start": 372.41,
+   "end": 373.69,
+   "speaker": "Kalan",
+   "text": "然後就會覺得哇，"
+  },
+  {
+   "start": 373.69,
+   "end": 374.83,
+   "speaker": "Kalan",
+   "text": "寫成這樣，"
+  },
+  {
+   "start": 374.83,
+   "end": 378.23,
+   "speaker": "Kalan",
+   "text": "然後我好像也沒有辦法把一件事情講得很明白，"
+  },
+  {
+   "start": 378.91,
+   "end": 379.61,
+   "speaker": "Kalan",
+   "text": "然後又會"
+  },
+  {
+   "start": 379.61,
+   "end": 379.89,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 379.89,
+   "end": 382.53,
+   "speaker": "Kalan",
+   "text": "然後又會開始陷入那個迴圈，就會覺得哇，"
+  },
+  {
+   "start": 382.53,
+   "end": 383.51,
+   "speaker": "Kalan",
+   "text": "自己好爛這樣。"
+  },
+  {
+   "start": 383.51,
+   "end": 385.03,
+   "speaker": "Kalan",
+   "text": "到後來嗎？"
+  },
+  {
+   "start": 385.71,
+   "end": 387.45,
+   "speaker": "Kalan",
+   "text": "我又換一間公司，"
+  },
+  {
+   "start": 387.45,
+   "end": 388.73,
+   "speaker": "Kalan",
+   "text": "然後也是一樣，"
+  },
+  {
+   "start": 388.73,
+   "end": 391.79,
+   "speaker": "Kalan",
+   "text": "身邊的同事也是超強等級的那一種。"
+  },
+  {
+   "start": 391.79,
+   "end": 395.61,
+   "speaker": "Kalan",
+   "text": "然後我被 code review 的時候，也是怎麼講，"
+  },
+  {
+   "start": 395.61,
+   "end": 396.87,
+   "speaker": "Kalan",
+   "text": "常常會是"
+  },
+  {
+   "start": 396.87,
+   "end": 397.65,
+   "speaker": "Mooly",
+   "text": "被饅頭包這樣，"
+  },
+  {
+   "start": 397.65,
+   "end": 400.35,
+   "speaker": "Kalan",
+   "text": "被墊的饅頭包的那種狀態。"
+  },
+  {
+   "start": 400.35,
+   "end": 403.87,
+   "speaker": "Kalan",
+   "text": "然後就會覺得，哇，他們都很厲害這樣子。"
+  },
+  {
+   "start": 404.61,
+   "end": 406.05,
+   "speaker": "Kalan",
+   "text": "然後後來呢，"
+  },
+  {
+   "start": 407.13,
+   "end": 409.01,
+   "speaker": "Kalan",
+   "text": "到了日本工作，"
+  },
+  {
+   "start": 409.71,
+   "end": 413.75,
+   "speaker": "Kalan",
+   "text": "那這個公司裡面也是高手一堆。"
+  },
+  {
+   "start": 413.75,
+   "end": 416.55,
+   "speaker": "Kalan",
+   "text": "我舉一個例子，像是"
+  },
+  {
+   "start": 416.55,
+   "end": 419.95,
+   "speaker": "Kalan",
+   "text": "我原本以為我的日文能力，"
+  },
+  {
+   "start": 419.95,
+   "end": 423.99,
+   "speaker": "Kalan",
+   "text": "以平均值來講應該算是還不錯的，"
+  },
+  {
+   "start": 425.41,
+   "end": 427.69,
+   "speaker": "Kalan",
+   "text": "然後像口說那些什麼的，"
+  },
+  {
+   "start": 427.69,
+   "end": 431.83,
+   "speaker": "Kalan",
+   "text": "都算是有自信的，但是我加入這間公司之後發現，"
+  },
+  {
+   "start": 432.39,
+   "end": 434.43,
+   "speaker": "Kalan",
+   "text": "其實我現在的水平，"
+  },
+  {
+   "start": 434.43,
+   "end": 436.69,
+   "speaker": "Kalan",
+   "text": "就以日文這件事情來說的話，"
+  },
+  {
+   "start": 436.69,
+   "end": 438.07,
+   "speaker": "Kalan",
+   "text": "其實算是平均。"
+  },
+  {
+   "start": 438.65,
+   "end": 441.41,
+   "speaker": "Kalan",
+   "text": "就是這邊寫程式寫得很強，"
+  },
+  {
+   "start": 441.41,
+   "end": 445.19,
+   "speaker": "Kalan",
+   "text": "然後日文講得嚇嚇叫的人實在太多了，"
+  },
+  {
+   "start": 445.69,
+   "end": 446.77,
+   "speaker": "Mooly",
+   "text": "高手雲集。"
+  },
+  {
+   "start": 448.91,
+   "end": 450.83,
+   "speaker": "Kalan",
+   "text": "開發上也是一樣，"
+  },
+  {
+   "start": 450.83,
+   "end": 452.87,
+   "speaker": "Kalan",
+   "text": "我身邊有幾個，"
+  },
+  {
+   "start": 453.28,
+   "end": 454.67,
+   "speaker": "Kalan",
+   "text": "我自己覺得，當然，"
+  },
+  {
+   "start": 454.67,
+   "end": 457.37,
+   "speaker": "Kalan",
+   "text": "那個公司人也多嘛，所以當然也會有一些，"
+  },
+  {
+   "start": 457.37,
+   "end": 459.75,
+   "speaker": "Kalan",
+   "text": "你覺得他怎麼會在這裡的人，"
+  },
+  {
+   "start": 460.91,
+   "end": 463.81,
+   "speaker": "Kalan",
+   "text": "但是我遇到的合作的同事們，"
+  },
+  {
+   "start": 463.81,
+   "end": 467.05,
+   "speaker": "Kalan",
+   "text": "有些開發實力也超強，"
+  },
+  {
+   "start": 467.05,
+   "end": 471.45,
+   "speaker": "Kalan",
+   "text": "然後他非常懂一些底層運作的原理，"
+  },
+  {
+   "start": 471.45,
+   "end": 472.63,
+   "speaker": "Kalan",
+   "text": "然後他是了解，"
+  },
+  {
+   "start": 473.25,
+   "end": 475.03,
+   "speaker": "Kalan",
+   "text": "了解到非常深的人。"
+  },
+  {
+   "start": 475.03,
+   "end": 479.15,
+   "speaker": "Kalan",
+   "text": "那這時候我就會又開始陷入那個迴圈裡面，"
+  },
+  {
+   "start": 479.15,
+   "end": 480.23,
+   "speaker": "Kalan",
+   "text": "就會覺得，哇，"
+  },
+  {
+   "start": 480.81,
+   "end": 482.43,
+   "speaker": "Kalan",
+   "text": "這些人都好厲害喔。"
+  },
+  {
+   "start": 482.43,
+   "end": 485.71,
+   "speaker": "Kalan",
+   "text": "然後我自己可能是一個相對，"
+  },
+  {
+   "start": 486.17,
+   "end": 487.07,
+   "speaker": "Kalan",
+   "text": "第一個，學歷可能，"
+  },
+  {
+   "start": 487.07,
+   "end": 489.03,
+   "speaker": "Kalan",
+   "text": "可能這些人都有拿到碩士，"
+  },
+  {
+   "start": 489.57,
+   "end": 490.93,
+   "speaker": "Kalan",
+   "text": "或者是唸到博士等等，"
+  },
+  {
+   "start": 490.93,
+   "end": 492.65,
+   "speaker": "Kalan",
+   "text": "那自己相對只有大學。"
+  },
+  {
+   "start": 493.11,
+   "end": 497.31,
+   "speaker": "Mooly",
+   "text": "對，那後來這整個狀況是怎麼樣比較好轉的？"
+  },
+  {
+   "start": 497.31,
+   "end": 500.49,
+   "speaker": "Kalan",
+   "text": "我覺得緩解的契機是在於，我之前看了一本書，"
+  },
+  {
+   "start": 500.49,
+   "end": 501.61,
+   "speaker": "Kalan",
+   "text": "它叫做"
+  },
+  {
+   "start": 501.61,
+   "end": 503.35,
+   "speaker": "Kalan",
+   "text": "《做自己生命的設計師》。"
+  },
+  {
+   "start": 503.35,
+   "end": 509.57,
+   "speaker": "Kalan",
+   "text": "那當然它並沒有講到怎麼緩解冒牌者症候群這件事情，"
+  },
+  {
+   "start": 509.57,
+   "end": 513.85,
+   "speaker": "Kalan",
+   "text": "但是我覺得它讓我改變很多想法，是說"
+  },
+  {
+   "start": 513.85,
+   "end": 515.11,
+   "speaker": "Kalan",
+   "text": "其實很多時候，"
+  },
+  {
+   "start": 515.73,
+   "end": 518.47,
+   "speaker": "Kalan",
+   "text": "我們只要跟自己比就好。"
+  },
+  {
+   "start": 518.47,
+   "end": 522.23,
+   "speaker": "Kalan",
+   "text": "然後比如說，我看到的這些人這麼強，"
+  },
+  {
+   "start": 522.69,
+   "end": 523.61,
+   "speaker": "Kalan",
+   "text": "然後這麼厲害，"
+  },
+  {
+   "start": 524.23,
+   "end": 527.65,
+   "speaker": "Kalan",
+   "text": "但是如果我們把他的全部的人生，"
+  },
+  {
+   "start": 528.23,
+   "end": 529.19,
+   "speaker": "Kalan",
+   "text": "全部的人生，"
+  },
+  {
+   "start": 529.19,
+   "end": 531.81,
+   "speaker": "Kalan",
+   "text": "他怎麼走到這裡的過程，"
+  },
+  {
+   "start": 532.33,
+   "end": 533.39,
+   "speaker": "Kalan",
+   "text": "給你看完的話，"
+  },
+  {
+   "start": 533.39,
+   "end": 535.59,
+   "speaker": "Kalan",
+   "text": "然後只看到這個人這麼強，"
+  },
+  {
+   "start": 536.03,
+   "end": 540.15,
+   "speaker": "Kalan",
+   "text": "這件事情的話其實是有點不公平的。"
+  },
+  {
+   "start": 540.75,
+   "end": 542.55,
+   "speaker": "Kalan",
+   "text": "比如說這個人他可能，"
+  },
+  {
+   "start": 543.03,
+   "end": 544.71,
+   "speaker": "Kalan",
+   "text": "我們以環境來講好了，"
+  },
+  {
+   "start": 544.71,
+   "end": 550.33,
+   "speaker": "Kalan",
+   "text": "他可能在一個相對有資源的環境下長大，"
+  },
+  {
+   "start": 550.33,
+   "end": 555.11,
+   "speaker": "Kalan",
+   "text": "再加上他自己又很喜歡，比如說軟體開發這件事情，"
+  },
+  {
+   "start": 555.11,
+   "end": 558.39,
+   "speaker": "Kalan",
+   "text": "那當然自然而然他會變得比較，"
+  },
+  {
+   "start": 558.39,
+   "end": 559.39,
+   "speaker": "Kalan",
+   "text": "比較厲害。"
+  },
+  {
+   "start": 559.39,
+   "end": 562.55,
+   "speaker": "Kalan",
+   "text": "就如果他的身邊都是這樣的人存在的話，"
+  },
+  {
+   "start": 562.55,
+   "end": 564.25,
+   "speaker": "Kalan",
+   "text": "那我不是啊。"
+  },
+  {
+   "start": 564.25,
+   "end": 571.47,
+   "speaker": "Kalan",
+   "text": "我從小到大，大學才比較開始有那種頻繁密集接觸軟體開發的知識，"
+  },
+  {
+   "start": 571.47,
+   "end": 574.71,
+   "speaker": "Kalan",
+   "text": "再加上我大學有很大一部分在打工，"
+  },
+  {
+   "start": 574.71,
+   "end": 579.21,
+   "speaker": "Kalan",
+   "text": "那這件事情它就造就了一個決定性的差距。"
+  },
+  {
+   "start": 579.21,
+   "end": 582.27,
+   "speaker": "Mooly",
+   "text": "你剛剛講的有一些讓我想到一句話，"
+  },
+  {
+   "start": 582.27,
+   "end": 584.39,
+   "speaker": "Mooly",
+   "text": "就是之前聽過一句話是，"
+  },
+  {
+   "start": 584.39,
+   "end": 586.51,
+   "speaker": "Mooly",
+   "text": "你必須用盡全力，"
+  },
+  {
+   "start": 586.51,
+   "end": 588.39,
+   "speaker": "Mooly",
+   "text": "才能看起來毫不費力。"
+  },
+  {
+   "start": 588.39,
+   "end": 590.09,
+   "speaker": "Mooly",
+   "text": "就你可能看到那些人，"
+  },
+  {
+   "start": 590.09,
+   "end": 594.29,
+   "speaker": "Mooly",
+   "text": "他們看起來沒什麼，但其實背後花了很多努力。"
+  },
+  {
+   "start": 594.29,
+   "end": 599.51,
+   "speaker": "Kalan",
+   "text": "對，所以如果我只看到了這個人怎麼這麼強，"
+  },
+  {
+   "start": 599.99,
+   "end": 601.93,
+   "speaker": "Kalan",
+   "text": "這件事情而已的話呢，"
+  },
+  {
+   "start": 601.93,
+   "end": 604.17,
+   "speaker": "Kalan",
+   "text": "那他其實是不公平的，"
+  },
+  {
+   "start": 604.17,
+   "end": 605.75,
+   "speaker": "Kalan",
+   "text": "就像我剛剛講的那樣子。"
+  },
+  {
+   "start": 606.27,
+   "end": 608.49,
+   "speaker": "Kalan",
+   "text": "然後另外一個就是，"
+  },
+  {
+   "start": 608.97,
+   "end": 612.31,
+   "speaker": "Kalan",
+   "text": "我如果遇到比自己更厲害、然後更強的人，"
+  },
+  {
+   "start": 612.31,
+   "end": 614.21,
+   "speaker": "Kalan",
+   "text": "然後我覺得好羨慕他的話呢，"
+  },
+  {
+   "start": 614.65,
+   "end": 615.79,
+   "speaker": "Kalan",
+   "text": "我以前的想法會是，"
+  },
+  {
+   "start": 615.79,
+   "end": 618.25,
+   "speaker": "Kalan",
+   "text": "欸，他怎麼那麼厲害，我很羨慕。"
+  },
+  {
+   "start": 618.25,
+   "end": 621.75,
+   "speaker": "Kalan",
+   "text": "但我現在的想法會逐漸轉變為，這個人好厲害喔，"
+  },
+  {
+   "start": 621.75,
+   "end": 623.97,
+   "speaker": "Kalan",
+   "text": "那我來跟他當好朋友好了。"
+  },
+  {
+   "start": 623.97,
+   "end": 627.83,
+   "speaker": "Kalan",
+   "text": "我覺得蠻有趣的，就是我以前不會有這種想法，"
+  },
+  {
+   "start": 627.83,
+   "end": 629.53,
+   "speaker": "Kalan",
+   "text": "但現在會是這樣子。"
+  },
+  {
+   "start": 630.07,
+   "end": 631.11,
+   "speaker": "Mooly",
+   "text": "心態上的轉變，"
+  },
+  {
+   "start": 631.11,
+   "end": 633.07,
+   "speaker": "Mooly",
+   "text": "打不過就加入他，這種感覺。"
+  },
+  {
+   "start": 634.77,
+   "end": 636.57,
+   "speaker": "Kalan",
+   "text": "的確是有點像。"
+  },
+  {
+   "start": 636.57,
+   "end": 640.83,
+   "speaker": "Kalan",
+   "text": "然後我覺得一旦我這個心態轉過來之後，"
+  },
+  {
+   "start": 640.83,
+   "end": 644.91,
+   "speaker": "Kalan",
+   "text": "很多事情就變得蠻順利的。"
+  },
+  {
+   "start": 644.91,
+   "end": 649.45,
+   "speaker": "Kalan",
+   "text": "我之前會在 Twitter 上，或者是在 IG 上，"
+  },
+  {
+   "start": 649.45,
+   "end": 653.81,
+   "speaker": "Kalan",
+   "text": "我就會開始，比如說我覺得這個人感覺很不錯，欸，可以聊聊，"
+  },
+  {
+   "start": 653.81,
+   "end": 656.95,
+   "speaker": "Kalan",
+   "text": "啊，我就會直接問，然後，"
+  },
+  {
+   "start": 656.95,
+   "end": 659.59,
+   "speaker": "Kalan",
+   "text": "那通常得到的結果是好的，"
+  },
+  {
+   "start": 659.59,
+   "end": 661.47,
+   "speaker": "Kalan",
+   "text": "當然也會被拒絕。"
+  },
+  {
+   "start": 661.47,
+   "end": 663.05,
+   "speaker": "Kalan",
+   "text": "這件事情當然不可否認，"
+  },
+  {
+   "start": 663.05,
+   "end": 666.07,
+   "speaker": "Kalan",
+   "text": "但我覺得反正被拒絕多了，"
+  },
+  {
+   "start": 666.07,
+   "end": 669.65,
+   "speaker": "Kalan",
+   "text": "就會不在意這件事情。"
+  },
+  {
+   "start": 669.65,
+   "end": 674.35,
+   "speaker": "Kalan",
+   "text": "而且比起被拒絕的那種不舒服的感覺嗎，"
+  },
+  {
+   "start": 674.91,
+   "end": 679.51,
+   "speaker": "Kalan",
+   "text": "假設我因為這樣子去認識了一個很棒的人的話，對我來說，"
+  },
+  {
+   "start": 679.91,
+   "end": 681.67,
+   "speaker": "Kalan",
+   "text": "我能賺到的是更多的，"
+  },
+  {
+   "start": 681.67,
+   "end": 683.43,
+   "speaker": "Kalan",
+   "text": "我能得到的是更多的。"
+  },
+  {
+   "start": 683.43,
+   "end": 686.93,
+   "speaker": "Mooly",
+   "text": "就這件事情其實被拒絕也沒什麼損失吧。"
+  },
+  {
+   "start": 686.93,
+   "end": 687.15,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 687.97,
+   "end": 692.21,
+   "speaker": "Kalan",
+   "text": "然後再來就是我發現累積這件事情，"
+  },
+  {
+   "start": 693.01,
+   "end": 696.13,
+   "speaker": "Kalan",
+   "text": "也讓我慢慢地產生變化，"
+  },
+  {
+   "start": 696.71,
+   "end": 702.39,
+   "speaker": "Kalan",
+   "text": "因為我一直以來都有在維持寫部落格的這個習慣，"
+  },
+  {
+   "start": 703.21,
+   "end": 705.25,
+   "speaker": "Kalan",
+   "text": "文章累積多了，"
+  },
+  {
+   "start": 705.25,
+   "end": 706.65,
+   "speaker": "Kalan",
+   "text": "那它其實是有，"
+  },
+  {
+   "start": 706.65,
+   "end": 710.13,
+   "speaker": "Kalan",
+   "text": "它其實是可以產生一些效應的。"
+  },
+  {
+   "start": 710.13,
+   "end": 715.25,
+   "speaker": "Kalan",
+   "text": "比如說你去跟別人問說可以跟你聊天，"
+  },
+  {
+   "start": 715.25,
+   "end": 718.11,
+   "speaker": "Kalan",
+   "text": "那這就是你一個很好的 pitch 的材料，"
+  },
+  {
+   "start": 718.11,
+   "end": 719.71,
+   "speaker": "Kalan",
+   "text": "就說我有在經營這個 blog，"
+  },
+  {
+   "start": 720.3,
+   "end": 723.39,
+   "speaker": "Kalan",
+   "text": "然後我發現我跟你的 XX 想法還蠻像的，"
+  },
+  {
+   "start": 723.39,
+   "end": 725.79,
+   "speaker": "Kalan",
+   "text": "或者是我跟你其實是同一個領域的人，"
+  },
+  {
+   "start": 725.79,
+   "end": 727.47,
+   "speaker": "Kalan",
+   "text": "那有機會要不要一起聊聊天？"
+  },
+  {
+   "start": 727.47,
+   "end": 730.29,
+   "speaker": "Kalan",
+   "text": "然後就把這個 blog 連結貼上去，"
+  },
+  {
+   "start": 730.29,
+   "end": 731.69,
+   "speaker": "Kalan",
+   "text": "這樣總比一個"
+  },
+  {
+   "start": 731.69,
+   "end": 734.85,
+   "speaker": "Kalan",
+   "text": "一個沒有放頭貼的帳號，"
+  },
+  {
+   "start": 735.39,
+   "end": 738.31,
+   "speaker": "Mooly",
+   "text": "看起來像詐騙集團的帳號，"
+  },
+  {
+   "start": 738.31,
+   "end": 740.09,
+   "speaker": "Kalan",
+   "text": "應該是好很多沒錯。"
+  },
+  {
+   "start": 741.01,
+   "end": 742.65,
+   "speaker": "Kalan",
+   "text": "專注過程，"
+  },
+  {
+   "start": 742.65,
+   "end": 745.43,
+   "speaker": "Kalan",
+   "text": "就是像剛剛我講到的那些東西，"
+  },
+  {
+   "start": 746.11,
+   "end": 748.39,
+   "speaker": "Kalan",
+   "text": "這些人很強啊什麼的。"
+  },
+  {
+   "start": 748.39,
+   "end": 750.37,
+   "speaker": "Kalan",
+   "text": "還有一件事情是，"
+  },
+  {
+   "start": 750.37,
+   "end": 755.07,
+   "speaker": "Kalan",
+   "text": "我會開始越來越專注在過程，而不是跟別人比較，"
+  },
+  {
+   "start": 755.07,
+   "end": 758.43,
+   "speaker": "Kalan",
+   "text": "那我發現這是一件我可以控制的事情。"
+  },
+  {
+   "start": 758.43,
+   "end": 760.79,
+   "speaker": "Kalan",
+   "text": "所以我覺得對我影響，"
+  },
+  {
+   "start": 760.79,
+   "end": 764.37,
+   "speaker": "Kalan",
+   "text": "對我心態轉變最大的還是那個，"
+  },
+  {
+   "start": 764.37,
+   "end": 765.45,
+   "speaker": "Kalan",
+   "text": "如果這個人，"
+  },
+  {
+   "start": 766.93,
+   "end": 769.67,
+   "speaker": "Kalan",
+   "text": "那本書是一點，然後再來就是，"
+  },
+  {
+   "start": 769.67,
+   "end": 773.27,
+   "speaker": "Kalan",
+   "text": "如果那個人很厲害，我就試著跟他當朋友這件事情，"
+  },
+  {
+   "start": 773.27,
+   "end": 774.21,
+   "speaker": "Kalan",
+   "text": "這個心態，"
+  },
+  {
+   "start": 774.21,
+   "end": 779.69,
+   "speaker": "Mooly",
+   "text": "就抱持這種虛心學習、跟任何人都可以學習的心態。"
+  },
+  {
+   "start": 779.69,
+   "end": 784.41,
+   "speaker": "Kalan",
+   "text": "當然我覺得有時候我還是會被影響到啦，"
+  },
+  {
+   "start": 784.41,
+   "end": 785.01,
+   "speaker": "Kalan",
+   "text": "像那個，"
+  },
+  {
+   "start": 785.69,
+   "end": 787.67,
+   "speaker": "Kalan",
+   "text": "有時候社群媒體上面真的，"
+  },
+  {
+   "start": 788.35,
+   "end": 789.27,
+   "speaker": "Kalan",
+   "text": "你看到太多人，"
+  },
+  {
+   "start": 789.27,
+   "end": 790.77,
+   "speaker": "Kalan",
+   "text": "太亮眼了，"
+  },
+  {
+   "start": 790.77,
+   "end": 791.59,
+   "speaker": "Kalan",
+   "text": "太耀眼了，"
+  },
+  {
+   "start": 791.59,
+   "end": 797.01,
+   "speaker": "Kalan",
+   "text": "比如說什麼很年輕的時候就已經到這個 MIT 裡面去學東西，"
+  },
+  {
+   "start": 797.59,
+   "end": 801.45,
+   "speaker": "Kalan",
+   "text": "然後可能很早就拿了一個 CS 的碩士，"
+  },
+  {
+   "start": 801.45,
+   "end": 804.99,
+   "speaker": "Kalan",
+   "text": "然後進入一家很厲害的公司裡面去工作這樣子。"
+  },
+  {
+   "start": 805.67,
+   "end": 812.07,
+   "speaker": "Kalan",
+   "text": "社群媒體上很多這種經驗分享，有時候看了看還是會有一點焦慮的感覺吧。"
+  },
+  {
+   "start": 812.67,
+   "end": 814.43,
+   "speaker": "Mooly",
+   "text": "但我覺得這個反而，"
+  },
+  {
+   "start": 814.43,
+   "end": 818.13,
+   "speaker": "Mooly",
+   "text": "我自己覺得這種反而不是主因，"
+  },
+  {
+   "start": 818.13,
+   "end": 820.49,
+   "speaker": "Mooly",
+   "text": "就是這種類型的人反而不是主因，"
+  },
+  {
+   "start": 820.95,
+   "end": 821.77,
+   "speaker": "Mooly",
+   "text": "我自己認為，"
+  },
+  {
+   "start": 822.27,
+   "end": 824.09,
+   "speaker": "Mooly",
+   "text": "通常你看到會焦慮的那種都是，"
+  },
+  {
+   "start": 824.79,
+   "end": 828.33,
+   "speaker": "Mooly",
+   "text": "你覺得你好像演的那樣子的。"
+  },
+  {
+   "start": 828.33,
+   "end": 834.33,
+   "speaker": "Mooly",
+   "text": "像比如說你剛講的，比如說我今天看到一個什麼十歲神童去 MIT 念大學，"
+  },
+  {
+   "start": 834.33,
+   "end": 836.15,
+   "speaker": "Mooly",
+   "text": "我可能就會覺得他好厲害，"
+  },
+  {
+   "start": 836.15,
+   "end": 840.47,
+   "speaker": "Mooly",
+   "text": "然後我就會說服自己說，但我就不是那麼厲害的人，"
+  },
+  {
+   "start": 840.47,
+   "end": 842.01,
+   "speaker": "Mooly",
+   "text": "可能就僅此而已。"
+  },
+  {
+   "start": 842.01,
+   "end": 846.83,
+   "speaker": "Mooly",
+   "text": "但比如說你今天看到一個你以前的大學同學，成績跟你差不多的，"
+  },
+  {
+   "start": 846.83,
+   "end": 847.57,
+   "speaker": "Mooly",
+   "text": "然後可能，"
+  },
+  {
+   "start": 847.57,
+   "end": 852.75,
+   "speaker": "Mooly",
+   "text": "比如說去 Google 上班，然後成為高級主管，"
+  },
+  {
+   "start": 852.75,
+   "end": 855.69,
+   "speaker": "Mooly",
+   "text": "你就會覺得說，原來就是他，"
+  },
+  {
+   "start": 855.69,
+   "end": 857.93,
+   "speaker": "Mooly",
+   "text": "他這麼已經在那裡了，我還在這裡，"
+  },
+  {
+   "start": 857.93,
+   "end": 861.85,
+   "speaker": "Mooly",
+   "text": "就可能是跟你背景類似的，你才會比較有這種共鳴。"
+  },
+  {
+   "start": 863.85,
+   "end": 866.27,
+   "speaker": "Kalan",
+   "text": "你這樣講好像蠻有道理的耶。"
+  },
+  {
+   "start": 868.21,
+   "end": 871.45,
+   "speaker": "Kalan",
+   "text": "那我覺得這個 insight 很棒，"
+  },
+  {
+   "start": 871.45,
+   "end": 875.59,
+   "speaker": "Mooly",
+   "text": "就是說對某些人來講，你可能就是崇拜，"
+  },
+  {
+   "start": 875.59,
+   "end": 884.67,
+   "speaker": "Mooly",
+   "text": "但可能對某些人來講，你可能會有一點嫉妒，或是甚至是對自己的一種憤怒嗎？"
+  },
+  {
+   "start": 884.67,
+   "end": 889.49,
+   "speaker": "Mooly",
+   "text": "因為它跟你背景相近這件事情，讓你覺得你好像也能到那個位置，"
+  },
+  {
+   "start": 889.49,
+   "end": 890.69,
+   "speaker": "Mooly",
+   "text": "但是你沒有。"
+  },
+  {
+   "start": 891.59,
+   "end": 895.49,
+   "speaker": "Mooly",
+   "text": "這個是我覺得有時候看到社群媒體什麼會焦慮的原因。"
+  },
+  {
+   "start": 895.49,
+   "end": 898.65,
+   "speaker": "Kalan",
+   "text": "你剛剛講的那個例子的確我蠻有感觸的，"
+  },
+  {
+   "start": 898.65,
+   "end": 901.11,
+   "speaker": "Kalan",
+   "text": "就那個十歲神童，"
+  },
+  {
+   "start": 901.11,
+   "end": 902.89,
+   "speaker": "Kalan",
+   "text": "PhD 大學同學。"
+  },
+  {
+   "start": 902.89,
+   "end": 903.75,
+   "speaker": "Mooly",
+   "text": "對啊，對啊，對吧。"
+  },
+  {
+   "start": 903.75,
+   "end": 908.95,
+   "speaker": "Kalan",
+   "text": "這件事情我要怎麼比較好說服自己呢？"
+  },
+  {
+   "start": 908.95,
+   "end": 913.29,
+   "speaker": "Mooly",
+   "text": "嗯，我覺得有一種方法可能就是像你剛講的那樣吧，"
+  },
+  {
+   "start": 913.29,
+   "end": 924.61,
+   "speaker": "Mooly",
+   "text": "如果你抱持的心態是海納百川，對每個人都可以學習的話，你可能不去管那個你怎麼會做不到的那個心情，你可能就是把它轉變成說，"
+  },
+  {
+   "start": 925.13,
+   "end": 930.59,
+   "speaker": "Mooly",
+   "text": "那既然他可以做到，他可能是背後有做一些什麼努力，那我就跟他繼續虛心學習。"
+  },
+  {
+   "start": 930.59,
+   "end": 932.41,
+   "speaker": "Mooly",
+   "text": "這個可能是一種做法。"
+  },
+  {
+   "start": 932.41,
+   "end": 934.33,
+   "speaker": "Kalan",
+   "text": "好像有時候也會出現那種，"
+  },
+  {
+   "start": 934.85,
+   "end": 940.53,
+   "speaker": "Kalan",
+   "text": "我覺得也是我自己最近想要改善的心態。"
+  },
+  {
+   "start": 940.53,
+   "end": 942.03,
+   "speaker": "Kalan",
+   "text": "我想要把它說出來。"
+  },
+  {
+   "start": 942.85,
+   "end": 945.01,
+   "speaker": "Kalan",
+   "text": "就是我希望別人好，"
+  },
+  {
+   "start": 945.01,
+   "end": 947.25,
+   "speaker": "Kalan",
+   "text": "但是他不能比我好。"
+  },
+  {
+   "start": 947.25,
+   "end": 949.11,
+   "speaker": "Mooly",
+   "text": "喔，我懂那種感覺。"
+  },
+  {
+   "start": 949.59,
+   "end": 952.41,
+   "speaker": "Kalan",
+   "text": "就可能你給了他一個建議，"
+  },
+  {
+   "start": 952.41,
+   "end": 954.45,
+   "speaker": "Kalan",
+   "text": "結果你最後發現，哇，"
+  },
+  {
+   "start": 954.45,
+   "end": 957.25,
+   "speaker": "Kalan",
+   "text": "然後他就開始變得很成功這樣子，"
+  },
+  {
+   "start": 957.25,
+   "end": 961.47,
+   "speaker": "Mooly",
+   "text": "就還是會有一點羨慕嫉妒的成分在。"
+  },
+  {
+   "start": 963.39,
+   "end": 966.27,
+   "speaker": "Kalan",
+   "text": "所以我在努力克服這件事情，"
+  },
+  {
+   "start": 966.27,
+   "end": 972.03,
+   "speaker": "Kalan",
+   "text": "然後我覺得我克服的方式，就像剛剛講到的專注過程，"
+  },
+  {
+   "start": 972.03,
+   "end": 976.89,
+   "speaker": "Kalan",
+   "text": "然後學習跟比自己厲害的人交朋友。"
+  },
+  {
+   "start": 976.89,
+   "end": 980.11,
+   "speaker": "Kalan",
+   "text": "我後來覺得這件事情很重要，"
+  },
+  {
+   "start": 980.11,
+   "end": 983.33,
+   "speaker": "Kalan",
+   "text": "跟厲害的人交朋友這件事情很重要。"
+  },
+  {
+   "start": 983.89,
+   "end": 985.57,
+   "speaker": "Kalan",
+   "text": "可能這群優秀的人，"
+  },
+  {
+   "start": 985.57,
+   "end": 988.55,
+   "speaker": "Kalan",
+   "text": "他們也沒有想什麼吧，"
+  },
+  {
+   "start": 988.55,
+   "end": 989.47,
+   "speaker": "Kalan",
+   "text": "可能他們在，"
+  },
+  {
+   "start": 989.47,
+   "end": 991.51,
+   "speaker": "Kalan",
+   "text": "某些人的心中，"
+  },
+  {
+   "start": 991.93,
+   "end": 995.15,
+   "speaker": "Kalan",
+   "text": "就是他們可能自己也有冒牌者症候群的想法。"
+  },
+  {
+   "start": 995.15,
+   "end": 996.07,
+   "speaker": "Kalan",
+   "text": "就是你，"
+  },
+  {
+   "start": 996.07,
+   "end": 997.71,
+   "speaker": "Kalan",
+   "text": "你覺得那些厲害的人，"
+  },
+  {
+   "start": 998.27,
+   "end": 1002.13,
+   "speaker": "Kalan",
+   "text": "那如果我們更願意去做這種，"
+  },
+  {
+   "start": 1002.13,
+   "end": 1004.53,
+   "speaker": "Kalan",
+   "text": "我們就一起交個朋友，然後聊聊天，"
+  },
+  {
+   "start": 1005.01,
+   "end": 1007.97,
+   "speaker": "Kalan",
+   "text": "這件事情的話，我覺得它對緩解，"
+  },
+  {
+   "start": 1007.97,
+   "end": 1012.35,
+   "speaker": "Kalan",
+   "text": "甚至是治療這個症狀，其實是非常有幫助的，"
+  },
+  {
+   "start": 1013.75,
+   "end": 1015.79,
+   "speaker": "Kalan",
+   "text": "就會開始漸漸發現說，"
+  },
+  {
+   "start": 1016.27,
+   "end": 1017.69,
+   "speaker": "Kalan",
+   "text": "或許你所，"
+  },
+  {
+   "start": 1017.69,
+   "end": 1022.49,
+   "speaker": "Kalan",
+   "text": "羨慕崇拜的那個人，他們也有他們自己的煩惱，"
+  },
+  {
+   "start": 1022.49,
+   "end": 1026.41,
+   "speaker": "Kalan",
+   "text": "或者是他們自己生活上，或者是工作上的困難，"
+  },
+  {
+   "start": 1026.41,
+   "end": 1029.13,
+   "speaker": "Kalan",
+   "text": "只是一般你是看不到的。"
+  },
+  {
+   "start": 1029.13,
+   "end": 1030.97,
+   "speaker": "Kalan",
+   "text": "那這個時候你就會開始，"
+  },
+  {
+   "start": 1030.97,
+   "end": 1035.79,
+   "speaker": "Kalan",
+   "text": "可能就會開始覺得，自己現在的狀態好像也不錯。"
+  },
+  {
+   "start": 1036.87,
+   "end": 1038.93,
+   "speaker": "Mooly",
+   "text": "沒錯，確實可能會有那種感覺。"
+  },
+  {
+   "start": 1038.93,
+   "end": 1041.19,
+   "speaker": "Kalan",
+   "text": "欸，對對對。"
+  },
+  {
+   "start": 1041.19,
+   "end": 1041.47,
+   "speaker": "Kalan",
+   "text": "那，"
+  },
+  {
+   "start": 1041.47,
+   "end": 1044.33,
+   "speaker": "Kalan",
+   "text": "Mooly 這邊你有一些故事可以分享嗎？"
+  },
+  {
+   "start": 1044.33,
+   "end": 1047.31,
+   "speaker": "Mooly",
+   "text": "可以，我這邊的故事的版本應該跟你，"
+  },
+  {
+   "start": 1047.31,
+   "end": 1048.47,
+   "speaker": "Mooly",
+   "text": "蠻不一樣的，"
+  },
+  {
+   "start": 1048.47,
+   "end": 1050.91,
+   "speaker": "Mooly",
+   "text": "應該是完全不同的視角。"
+  },
+  {
+   "start": 1052.97,
+   "end": 1054.17,
+   "speaker": "Mooly",
+   "text": "我這邊的話，"
+  },
+  {
+   "start": 1054.17,
+   "end": 1059.35,
+   "speaker": "Mooly",
+   "text": "因為我可能就是剛剛在故事裡面講的那種比較早開始接觸程式的人，"
+  },
+  {
+   "start": 1059.35,
+   "end": 1063.19,
+   "speaker": "Mooly",
+   "text": "所以其實從以前，"
+  },
+  {
+   "start": 1064.11,
+   "end": 1065.21,
+   "speaker": "Mooly",
+   "text": "該怎麼說呢，"
+  },
+  {
+   "start": 1065.21,
+   "end": 1066.51,
+   "speaker": "Mooly",
+   "text": "就可能從以前到現在，"
+  },
+  {
+   "start": 1067.07,
+   "end": 1069.49,
+   "speaker": "Mooly",
+   "text": "在工作上或在學校的時候，"
+  },
+  {
+   "start": 1069.49,
+   "end": 1073.77,
+   "speaker": "Mooly",
+   "text": "本來就是屬於程式能力相對來講比較好的那群人。"
+  },
+  {
+   "start": 1073.77,
+   "end": 1076.35,
+   "speaker": "Mooly",
+   "text": "但是冒牌者症候群，"
+  },
+  {
+   "start": 1076.35,
+   "end": 1077.65,
+   "speaker": "Mooly",
+   "text": "當然還是有。"
+  },
+  {
+   "start": 1077.65,
+   "end": 1082.49,
+   "speaker": "Mooly",
+   "text": "它體現在於，比如說我一開始出去找工作的時候，"
+  },
+  {
+   "start": 1082.49,
+   "end": 1083.81,
+   "speaker": "Mooly",
+   "text": "那個時候，"
+  },
+  {
+   "start": 1084.31,
+   "end": 1088.33,
+   "speaker": "Mooly",
+   "text": "雖然我不是本科系，就不是資工系畢業的，"
+  },
+  {
+   "start": 1088.33,
+   "end": 1090.99,
+   "speaker": "Mooly",
+   "text": "但其實我一直覺得自己的能力，"
+  },
+  {
+   "start": 1090.99,
+   "end": 1093.55,
+   "speaker": "Mooly",
+   "text": "就如果只看寫程式這件事情上的話，"
+  },
+  {
+   "start": 1093.55,
+   "end": 1097.13,
+   "speaker": "Mooly",
+   "text": "其實這個應該是跟資工系沒有太大的差異。"
+  },
+  {
+   "start": 1097.13,
+   "end": 1099.65,
+   "speaker": "Mooly",
+   "text": "那之所以會給我這樣子的自信，可能是因為，"
+  },
+  {
+   "start": 1099.65,
+   "end": 1100.49,
+   "speaker": "Mooly",
+   "text": "之前，"
+  },
+  {
+   "start": 1100.49,
+   "end": 1105.27,
+   "speaker": "Mooly",
+   "text": "這個就要追溯到更早前，比如說高中的時候，我有打一些資訊比賽。"
+  },
+  {
+   "start": 1105.27,
+   "end": 1106.71,
+   "speaker": "Mooly",
+   "text": "資訊比賽這件事情，"
+  },
+  {
+   "start": 1107.11,
+   "end": 1109.15,
+   "speaker": "Mooly",
+   "text": "雖然它現在已經變成一個比較，"
+  },
+  {
+   "start": 1109.83,
+   "end": 1112.53,
+   "speaker": "Mooly",
+   "text": "偏知識化的一個東西嗎，或是一個很多人，"
+  },
+  {
+   "start": 1112.53,
+   "end": 1114.51,
+   "speaker": "Mooly",
+   "text": "更多人會當作一個升學管道的東西。"
+  },
+  {
+   "start": 1114.51,
+   "end": 1119.77,
+   "speaker": "Mooly",
+   "text": "但反正在那個時候，基本上會去打那個的，很多都是因為有興趣所以去打的。"
+  },
+  {
+   "start": 1119.77,
+   "end": 1120.77,
+   "speaker": "Mooly",
+   "text": "那那個時候，"
+  },
+  {
+   "start": 1120.77,
+   "end": 1124.23,
+   "speaker": "Mooly",
+   "text": "我的成績算是還 OK 嗎？"
+  },
+  {
+   "start": 1124.23,
+   "end": 1125.57,
+   "speaker": "Mooly",
+   "text": "就它那個制度是，"
+  },
+  {
+   "start": 1125.99,
+   "end": 1130.05,
+   "speaker": "Mooly",
+   "text": "最重要的比賽其實就是每一年的那個資訊奧林匹亞，"
+  },
+  {
+   "start": 1130.51,
+   "end": 1133.63,
+   "speaker": "Mooly",
+   "text": "它就是選四個國手出去打比賽，"
+  },
+  {
+   "start": 1133.63,
+   "end": 1134.29,
+   "speaker": "Mooly",
+   "text": "然後，"
+  },
+  {
+   "start": 1134.79,
+   "end": 1135.59,
+   "speaker": "Mooly",
+   "text": "大概是這樣。"
+  },
+  {
+   "start": 1135.59,
+   "end": 1137.93,
+   "speaker": "Mooly",
+   "text": "那他在選四個國手之前，"
+  },
+  {
+   "start": 1137.93,
+   "end": 1141.15,
+   "speaker": "Mooly",
+   "text": "他會先有一個選訓營，"
+  },
+  {
+   "start": 1141.15,
+   "end": 1143.53,
+   "speaker": "Mooly",
+   "text": "一年大概 30 個人吧，"
+  },
+  {
+   "start": 1143.53,
+   "end": 1145.93,
+   "speaker": "Mooly",
+   "text": "其中有 10 個，"
+  },
+  {
+   "start": 1146.45,
+   "end": 1153.09,
+   "speaker": "Mooly",
+   "text": "我記得應該是有 10 個名額是來自於資訊全國競賽的一等獎、二等獎，"
+  },
+  {
+   "start": 1153.09,
+   "end": 1154.37,
+   "speaker": "Mooly",
+   "text": "大概是 10 個人，"
+  },
+  {
+   "start": 1154.37,
+   "end": 1156.91,
+   "speaker": "Mooly",
+   "text": "然後另外 20 個人是要通過一個考試，"
+  },
+  {
+   "start": 1156.91,
+   "end": 1160.33,
+   "speaker": "Mooly",
+   "text": "然後去進入那個營隊的，"
+  },
+  {
+   "start": 1160.33,
+   "end": 1162.37,
+   "speaker": "Mooly",
+   "text": "那加起來 30 個人，"
+  },
+  {
+   "start": 1162.37,
+   "end": 1164.03,
+   "speaker": "Mooly",
+   "text": "然後 30 個人裡面呢，"
+  },
+  {
+   "start": 1164.03,
+   "end": 1165.85,
+   "speaker": "Mooly",
+   "text": "會去師大，"
+  },
+  {
+   "start": 1165.85,
+   "end": 1170.99,
+   "speaker": "Mooly",
+   "text": "那個國立臺灣師範大學那邊直接去住兩個禮拜，"
+  },
+  {
+   "start": 1170.99,
+   "end": 1172.49,
+   "speaker": "Mooly",
+   "text": "去集訓兩個禮拜，"
+  },
+  {
+   "start": 1172.49,
+   "end": 1175.67,
+   "speaker": "Mooly",
+   "text": "然後兩個禮拜之間會有幾次考試，"
+  },
+  {
+   "start": 1176.09,
+   "end": 1180.19,
+   "speaker": "Mooly",
+   "text": "然後考完之後篩大概 12 個人出來進入第二階段，"
+  },
+  {
+   "start": 1180.19,
+   "end": 1181.95,
+   "speaker": "Mooly",
+   "text": "然後第二階段，"
+  },
+  {
+   "start": 1181.95,
+   "end": 1182.83,
+   "speaker": "Mooly",
+   "text": "一樣再兩個禮拜，"
+  },
+  {
+   "start": 1182.83,
+   "end": 1186.19,
+   "speaker": "Mooly",
+   "text": "然後最後篩 4 個人出來變成國手，"
+  },
+  {
+   "start": 1186.19,
+   "end": 1187.07,
+   "speaker": "Mooly",
+   "text": "然後去比賽。"
+  },
+  {
+   "start": 1187.57,
+   "end": 1188.05,
+   "speaker": "Mooly",
+   "text": "所以呢，"
+  },
+  {
+   "start": 1188.65,
+   "end": 1190.39,
+   "speaker": "Mooly",
+   "text": "以這個來說的話呢，其實"
+  },
+  {
+   "start": 1190.39,
+   "end": 1193.19,
+   "speaker": "Mooly",
+   "text": "你只要有進到第二階段，"
+  },
+  {
+   "start": 1193.19,
+   "end": 1194.51,
+   "speaker": "Mooly",
+   "text": "然後名次不要太差，"
+  },
+  {
+   "start": 1194.51,
+   "end": 1195.87,
+   "speaker": "Mooly",
+   "text": "比如說你可能是前 10 名的話，"
+  },
+  {
+   "start": 1196.39,
+   "end": 1198.55,
+   "speaker": "Mooly",
+   "text": "基本上你就可以保送臺大資工，"
+  },
+  {
+   "start": 1198.55,
+   "end": 1200.17,
+   "speaker": "Mooly",
+   "text": "你就不需要再念書了，"
+  },
+  {
+   "start": 1200.17,
+   "end": 1202.77,
+   "speaker": "Mooly",
+   "text": "就是你就不需要再靠指考或學測，"
+  },
+  {
+   "start": 1202.77,
+   "end": 1204.99,
+   "speaker": "Mooly",
+   "text": "你可以靠著這條路保送臺大資工。"
+  },
+  {
+   "start": 1204.99,
+   "end": 1206.69,
+   "speaker": "Mooly",
+   "text": "那那個時候呢，"
+  },
+  {
+   "start": 1206.69,
+   "end": 1211.83,
+   "speaker": "Mooly",
+   "text": "我是高一的時候有進去那 30 個人的那個選訓營，"
+  },
+  {
+   "start": 1213.23,
+   "end": 1213.63,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1213.63,
+   "end": 1217.63,
+   "speaker": "Mooly",
+   "text": "所以雖然高一有四個保障名額，"
+  },
+  {
+   "start": 1217.63,
+   "end": 1222.13,
+   "speaker": "Mooly",
+   "text": "但反正以成績來說，好像差不多就是 29、30 左右，"
+  },
+  {
+   "start": 1222.13,
+   "end": 1223.67,
+   "speaker": "Mooly",
+   "text": "所以高一的時候有進去，"
+  },
+  {
+   "start": 1223.67,
+   "end": 1228.25,
+   "speaker": "Mooly",
+   "text": "所以那個時候就覺得說，自己這方面好像層次能力算不錯了吧。"
+  },
+  {
+   "start": 1228.25,
+   "end": 1231.09,
+   "speaker": "Mooly",
+   "text": "畢竟你可以高一就進去，確實一個客觀角度來說，"
+  },
+  {
+   "start": 1231.51,
+   "end": 1232.95,
+   "speaker": "Kalan",
+   "text": "看起來應該算不錯的。"
+  },
+  {
+   "start": 1232.95,
+   "end": 1239.25,
+   "speaker": "Mooly",
+   "text": "但這個也是我自己的一個缺點，或是一個通病，"
+  },
+  {
+   "start": 1240.09,
+   "end": 1243.25,
+   "speaker": "Mooly",
+   "text": "就是說我有時候做事有點半吊子。"
+  },
+  {
+   "start": 1243.25,
+   "end": 1246.15,
+   "speaker": "Mooly",
+   "text": "就整個高中歷程可以講的大概就這一段了。"
+  },
+  {
+   "start": 1246.15,
+   "end": 1250.83,
+   "speaker": "Mooly",
+   "text": "就之後第一階段進去之後，然後就被刷掉，"
+  },
+  {
+   "start": 1250.83,
+   "end": 1256.49,
+   "speaker": "Mooly",
+   "text": "然後高二高三就也再也沒有玩這個資訊競賽了，"
+  },
+  {
+   "start": 1256.49,
+   "end": 1258.77,
+   "speaker": "Mooly",
+   "text": "後來就有點懶得做這件事情，"
+  },
+  {
+   "start": 1258.77,
+   "end": 1259.39,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 1261.37,
+   "end": 1264.17,
+   "speaker": "Mooly",
+   "text": "但是寫別的程式還是一直有在寫，"
+  },
+  {
+   "start": 1264.17,
+   "end": 1267.61,
+   "speaker": "Mooly",
+   "text": "就是自己想做的一些專案什麼的。"
+  },
+  {
+   "start": 1267.61,
+   "end": 1270.25,
+   "speaker": "Mooly",
+   "text": "高中這一段的話，大概就是讓我認識到，"
+  },
+  {
+   "start": 1270.25,
+   "end": 1273.23,
+   "speaker": "Mooly",
+   "text": "就是自己寫程式的人應該算還 OK。"
+  },
+  {
+   "start": 1273.23,
+   "end": 1275.55,
+   "speaker": "Mooly",
+   "text": "然後之後大學，"
+  },
+  {
+   "start": 1275.55,
+   "end": 1277.25,
+   "speaker": "Mooly",
+   "text": "反而後來就出去找工作，"
+  },
+  {
+   "start": 1277.79,
+   "end": 1279.29,
+   "speaker": "Mooly",
+   "text": "那找工作的時候呢，"
+  },
+  {
+   "start": 1279.29,
+   "end": 1281.83,
+   "speaker": "Mooly",
+   "text": "雖然我自己覺得可能能力不會太差，"
+  },
+  {
+   "start": 1281.83,
+   "end": 1286.67,
+   "speaker": "Mooly",
+   "text": "可是我那時候可能 PTT 或是社群網路看太多了嗎？"
+  },
+  {
+   "start": 1286.67,
+   "end": 1291.05,
+   "speaker": "Mooly",
+   "text": "那個時候的 PTT 主流風氣是 22k 是一件很普遍的事情，"
+  },
+  {
+   "start": 1291.05,
+   "end": 1295.29,
+   "speaker": "Mooly",
+   "text": "就是甚至軟體工程師的薪水可能也沒那麼高，"
+  },
+  {
+   "start": 1295.29,
+   "end": 1296.09,
+   "speaker": "Mooly",
+   "text": "在那個時候，"
+  },
+  {
+   "start": 1296.09,
+   "end": 1297.47,
+   "speaker": "Mooly",
+   "text": "那個時候的風氣是這樣，"
+  },
+  {
+   "start": 1297.47,
+   "end": 1300.57,
+   "speaker": "Mooly",
+   "text": "所以那時候我一開始去找工作的時候，可能薪水開個，"
+  },
+  {
+   "start": 1301.03,
+   "end": 1303.59,
+   "speaker": "Mooly",
+   "text": "在台北開個月薪 4 萬塊左右。"
+  },
+  {
+   "start": 1303.59,
+   "end": 1306.95,
+   "speaker": "Mooly",
+   "text": "但是其實如果我是真的認為，"
+  },
+  {
+   "start": 1306.95,
+   "end": 1308.09,
+   "speaker": "Mooly",
+   "text": "我是比如說，"
+  },
+  {
+   "start": 1308.09,
+   "end": 1310.91,
+   "speaker": "Mooly",
+   "text": "台清交資工、BSN 那個等級的話，"
+  },
+  {
+   "start": 1310.91,
+   "end": 1313.85,
+   "speaker": "Mooly",
+   "text": "他其實薪水當然遠遠不止這樣，"
+  },
+  {
+   "start": 1313.85,
+   "end": 1317.19,
+   "speaker": "Mooly",
+   "text": "他可能是一個月 8 萬、10 萬，或再更多的。"
+  },
+  {
+   "start": 1317.19,
+   "end": 1319.13,
+   "speaker": "Kalan",
+   "text": "喔，了解。"
+  },
+  {
+   "start": 1319.13,
+   "end": 1320.77,
+   "speaker": "Mooly",
+   "text": "對，那這其實就牽涉到兩件事情，"
+  },
+  {
+   "start": 1320.77,
+   "end": 1323.91,
+   "speaker": "Mooly",
+   "text": "第一個是我可能對自己的定位還沒那麼明確，"
+  },
+  {
+   "start": 1323.91,
+   "end": 1328.79,
+   "speaker": "Mooly",
+   "text": "然後第二個是我能力究竟有沒有跟那些人一樣好，"
+  },
+  {
+   "start": 1328.79,
+   "end": 1330.79,
+   "speaker": "Mooly",
+   "text": "這個也是有待論證的。"
+  },
+  {
+   "start": 1330.79,
+   "end": 1332.57,
+   "speaker": "Mooly",
+   "text": "然後再加上第三個是，其實我覺得"
+  },
+  {
+   "start": 1333.07,
+   "end": 1337.33,
+   "speaker": "Mooly",
+   "text": "跟一些相同背景的人如果多交流的話，得到的那個資訊，"
+  },
+  {
+   "start": 1337.33,
+   "end": 1339.19,
+   "speaker": "Mooly",
+   "text": "對你來說是很有幫助的。"
+  },
+  {
+   "start": 1339.19,
+   "end": 1342.49,
+   "speaker": "Mooly",
+   "text": "比如說假設你現在都在台清交資工好了，"
+  },
+  {
+   "start": 1342.49,
+   "end": 1349.09,
+   "speaker": "Mooly",
+   "text": "然後你如果不跟同學交流的話，你出去求職，你可能就會只知道自己看到的那些範圍，說大概薪水是這樣子。"
+  },
+  {
+   "start": 1349.09,
+   "end": 1353.37,
+   "speaker": "Mooly",
+   "text": "但如果你有跟同學交流的話，你可能就會知道每個人找到的薪水大概是怎樣，"
+  },
+  {
+   "start": 1353.37,
+   "end": 1357.39,
+   "speaker": "Mooly",
+   "text": "然後你可能就會知道說，有些人一畢業可能就年薪兩百萬，"
+  },
+  {
+   "start": 1357.39,
+   "end": 1360.41,
+   "speaker": "Mooly",
+   "text": "那原來這個是可以達成的，"
+  },
+  {
+   "start": 1360.41,
+   "end": 1365.11,
+   "speaker": "Mooly",
+   "text": "你得到那個資訊，會某種程度上影響了你的"
+  },
+  {
+   "start": 1365.63,
+   "end": 1367.13,
+   "speaker": "Mooly",
+   "text": "整個世界觀。"
+  },
+  {
+   "start": 1367.59,
+   "end": 1370.59,
+   "speaker": "Kalan",
+   "text": "喔，我覺得這個蠻有感的，"
+  },
+  {
+   "start": 1370.59,
+   "end": 1376.65,
+   "speaker": "Kalan",
+   "text": "你所認知的薪水 range 會來自於你問的對象是誰，"
+  },
+  {
+   "start": 1377.09,
+   "end": 1378.29,
+   "speaker": "Mooly",
+   "text": "這個真的差蠻多的。"
+  },
+  {
+   "start": 1378.29,
+   "end": 1383.51,
+   "speaker": "Kalan",
+   "text": "假設你身邊的朋友都是可能領中位數的薪水，"
+  },
+  {
+   "start": 1383.51,
+   "end": 1385.95,
+   "speaker": "Kalan",
+   "text": "那你可能就會下意識地認為，"
+  },
+  {
+   "start": 1385.95,
+   "end": 1389.45,
+   "speaker": "Kalan",
+   "text": "喔，那我大概也就是領中位數的薪水。"
+  },
+  {
+   "start": 1389.93,
+   "end": 1392.87,
+   "speaker": "Kalan",
+   "text": "但如果你身邊的朋友都是相對可以領高薪的話，"
+  },
+  {
+   "start": 1392.87,
+   "end": 1394.29,
+   "speaker": "Kalan",
+   "text": "那你就會有那種，"
+  },
+  {
+   "start": 1394.29,
+   "end": 1396.75,
+   "speaker": "Kalan",
+   "text": "喔，原來達到他們那樣的程度，"
+  },
+  {
+   "start": 1397.31,
+   "end": 1399.37,
+   "speaker": "Kalan",
+   "text": "就可以有那樣的薪水這樣子。"
+  },
+  {
+   "start": 1399.37,
+   "end": 1402.85,
+   "speaker": "Mooly",
+   "text": "對對，就這個真的是環境差蠻多，"
+  },
+  {
+   "start": 1402.85,
+   "end": 1411.35,
+   "speaker": "Mooly",
+   "text": "就像我剛剛講，我那個時期，大概十幾年前的時候，那個 PTT 的風氣可能是你有 22k 就大家都是 D 型，"
+  },
+  {
+   "start": 1411.89,
+   "end": 1417.87,
+   "speaker": "Mooly",
+   "text": "但現在比如說你去軟工版什麼的，已經變成是你沒有年薪兩三百萬，你已經不敢出來 PO 文的那種，"
+  },
+  {
+   "start": 1419.03,
+   "end": 1421.31,
+   "speaker": "Mooly",
+   "text": "那整個就差超多的，"
+  },
+  {
+   "start": 1421.31,
+   "end": 1423.13,
+   "speaker": "Mooly",
+   "text": "這是非常極端的一個變化。"
+  },
+  {
+   "start": 1423.55,
+   "end": 1428.01,
+   "speaker": "Kalan",
+   "text": "那個感覺比較像是一個梗嗎？或者是"
+  },
+  {
+   "start": 1428.01,
+   "end": 1431.43,
+   "speaker": "Kalan",
+   "text": "其實也大家也沒有到那麼多，只是"
+  },
+  {
+   "start": 1432.03,
+   "end": 1433.67,
+   "speaker": "Mooly",
+   "text": "對，它有些可能是一個梗，"
+  },
+  {
+   "start": 1433.67,
+   "end": 1435.07,
+   "speaker": "Mooly",
+   "text": "但它有些是，"
+  },
+  {
+   "start": 1435.07,
+   "end": 1439.29,
+   "speaker": "Mooly",
+   "text": "我相信那有些帳號它是真的處於那個背景底下，"
+  },
+  {
+   "start": 1439.29,
+   "end": 1443.05,
+   "speaker": "Mooly",
+   "text": "它可能正統清交資工前幾大的志工系畢業，"
+  },
+  {
+   "start": 1443.57,
+   "end": 1446.97,
+   "speaker": "Mooly",
+   "text": "然後他同學大部分都在台積電、聯發科的那種，"
+  },
+  {
+   "start": 1446.97,
+   "end": 1452.19,
+   "speaker": "Mooly",
+   "text": "他可能就是身邊真的是沒有兩三百不要出來講話的那種世界。"
+  },
+  {
+   "start": 1452.19,
+   "end": 1453.59,
+   "speaker": "Kalan",
+   "text": "了解了解。"
+  },
+  {
+   "start": 1453.59,
+   "end": 1458.83,
+   "speaker": "Mooly",
+   "text": "再說回來，我自己的話，我的工作歷程其實跟愷愷的有點相反。"
+  },
+  {
+   "start": 1458.83,
+   "end": 1460.93,
+   "speaker": "Mooly",
+   "text": "我早期的工作歷程比較像是，"
+  },
+  {
+   "start": 1460.93,
+   "end": 1465.67,
+   "speaker": "Mooly",
+   "text": "我覺得我的同事寫程式的能力都沒有我好，"
+  },
+  {
+   "start": 1468.69,
+   "end": 1474.81,
+   "speaker": "Mooly",
+   "text": "或是說不一定是寫程式啦，可能是一些基礎觀念的東西沒有我好，"
+  },
+  {
+   "start": 1474.81,
+   "end": 1478.39,
+   "speaker": "Mooly",
+   "text": "因為我本來就是比較喜歡研究一些基礎觀念的人，"
+  },
+  {
+   "start": 1478.39,
+   "end": 1485.69,
+   "speaker": "Mooly",
+   "text": "我自己把那個觀念紮實這件事情看得比較重要，雖然還是有很多不足的地方，"
+  },
+  {
+   "start": 1485.69,
+   "end": 1487.73,
+   "speaker": "Mooly",
+   "text": "但是我自己會比較注重這個事情，"
+  },
+  {
+   "start": 1487.73,
+   "end": 1488.75,
+   "speaker": "Mooly",
+   "text": "所以可能"
+  },
+  {
+   "start": 1488.75,
+   "end": 1493.99,
+   "speaker": "Mooly",
+   "text": "今天在工作的時候，我就會覺得好像同事就都差了這麼一點。"
+  },
+  {
+   "start": 1493.99,
+   "end": 1496.37,
+   "speaker": "Mooly",
+   "text": "可能你真的想要仔細聊什麼東西的時候，"
+  },
+  {
+   "start": 1496.37,
+   "end": 1505.03,
+   "speaker": "Mooly",
+   "text": "他們不太知道更細節的東西嗎？或是說他們沒有那麼熱愛寫程式這件事情本身。"
+  },
+  {
+   "start": 1505.03,
+   "end": 1506.27,
+   "speaker": "Mooly",
+   "text": "這我覺得很正常。"
+  },
+  {
+   "start": 1506.27,
+   "end": 1508.73,
+   "speaker": "Mooly",
+   "text": "我覺得我是比較異常的一個，"
+  },
+  {
+   "start": 1508.73,
+   "end": 1511.63,
+   "speaker": "Mooly",
+   "text": "就是我對寫程式這件事情本身是喜歡的，"
+  },
+  {
+   "start": 1511.63,
+   "end": 1514.73,
+   "speaker": "Mooly",
+   "text": "不是因為它可以拿來當工作，也不是因為什麼，"
+  },
+  {
+   "start": 1514.73,
+   "end": 1516.55,
+   "speaker": "Mooly",
+   "text": "就只是我喜歡這件事情。"
+  },
+  {
+   "start": 1516.55,
+   "end": 1518.73,
+   "speaker": "Kalan",
+   "text": "我想要補充一點，"
+  },
+  {
+   "start": 1518.73,
+   "end": 1523.07,
+   "speaker": "Kalan",
+   "text": "就是我覺得我跟 Mooly 有一點類似的想法是，"
+  },
+  {
+   "start": 1523.07,
+   "end": 1528.53,
+   "speaker": "Kalan",
+   "text": "我其實以前也是蠻喜歡寫程式的，"
+  },
+  {
+   "start": 1528.53,
+   "end": 1533.61,
+   "speaker": "Kalan",
+   "text": "然後也算是會比較去看基礎的一些東西，"
+  },
+  {
+   "start": 1533.61,
+   "end": 1535.11,
+   "speaker": "Kalan",
+   "text": "然後我甚至會覺得，"
+  },
+  {
+   "start": 1535.65,
+   "end": 1539.53,
+   "speaker": "Kalan",
+   "text": "其他人如果沒有像我這樣子做的話，"
+  },
+  {
+   "start": 1539.95,
+   "end": 1542.31,
+   "speaker": "Kalan",
+   "text": "他就不算是一個合格的工程師。"
+  },
+  {
+   "start": 1542.31,
+   "end": 1545.45,
+   "speaker": "Kalan",
+   "text": "那當然現在這個想法已經改變了，"
+  },
+  {
+   "start": 1545.45,
+   "end": 1548.83,
+   "speaker": "Kalan",
+   "text": "就是其實每個人都有他們自己想要的生活方式，"
+  },
+  {
+   "start": 1548.83,
+   "end": 1554.43,
+   "speaker": "Kalan",
+   "text": "所以你不應該用這種方式去評價一個工程師他的……"
+  },
+  {
+   "start": 1555.03,
+   "end": 1555.55,
+   "speaker": "Kalan",
+   "text": "怎麼講？"
+  },
+  {
+   "start": 1555.55,
+   "end": 1556.69,
+   "speaker": "Kalan",
+   "text": "他的能力好不好。"
+  },
+  {
+   "start": 1556.69,
+   "end": 1559.73,
+   "speaker": "Mooly",
+   "text": "確實，這個我後來想法有點轉變，"
+  },
+  {
+   "start": 1559.73,
+   "end": 1560.81,
+   "speaker": "Mooly",
+   "text": "到後來變成說，"
+  },
+  {
+   "start": 1561.29,
+   "end": 1563.53,
+   "speaker": "Mooly",
+   "text": "你有些你可能基礎不太紮實，但"
+  },
+  {
+   "start": 1563.53,
+   "end": 1565.77,
+   "speaker": "Mooly",
+   "text": "反正以解決問題為優先，"
+  },
+  {
+   "start": 1565.77,
+   "end": 1567.51,
+   "speaker": "Mooly",
+   "text": "你如果可以把問題解決了，"
+  },
+  {
+   "start": 1567.51,
+   "end": 1571.49,
+   "speaker": "Mooly",
+   "text": "那他其實就是一個好的工程師，"
+  },
+  {
+   "start": 1571.49,
+   "end": 1573.15,
+   "speaker": "Mooly",
+   "text": "以某種角度來看的話。"
+  },
+  {
+   "start": 1573.15,
+   "end": 1573.93,
+   "speaker": "Kalan",
+   "text": "認同。"
+  },
+  {
+   "start": 1573.93,
+   "end": 1574.77,
+   "speaker": "Kalan",
+   "text": "那，"
+  },
+  {
+   "start": 1574.77,
+   "end": 1577.79,
+   "speaker": "Mooly",
+   "text": "後來的話呢，"
+  },
+  {
+   "start": 1577.79,
+   "end": 1580.03,
+   "speaker": "Mooly",
+   "text": "總之我自己算是個人偏好吧，"
+  },
+  {
+   "start": 1580.03,
+   "end": 1583.73,
+   "speaker": "Mooly",
+   "text": "我還是會比較喜歡跟基礎紮實的同事在一起。"
+  },
+  {
+   "start": 1583.73,
+   "end": 1587.55,
+   "speaker": "Mooly",
+   "text": "所以之前我上一份工作，我在求職的時候，"
+  },
+  {
+   "start": 1588.17,
+   "end": 1590.59,
+   "speaker": "Mooly",
+   "text": "我的求職標準有一個是定為，"
+  },
+  {
+   "start": 1590.59,
+   "end": 1593.11,
+   "speaker": "Mooly",
+   "text": "我需要在前端團隊裡面，"
+  },
+  {
+   "start": 1593.11,
+   "end": 1594.67,
+   "speaker": "Mooly",
+   "text": "有一個比我強的人，"
+  },
+  {
+   "start": 1595.23,
+   "end": 1596.51,
+   "speaker": "Mooly",
+   "text": "我的求職標準是這個。"
+  },
+  {
+   "start": 1596.51,
+   "end": 1598.05,
+   "speaker": "Mooly",
+   "text": "後來也有找到啦，"
+  },
+  {
+   "start": 1598.05,
+   "end": 1602.59,
+   "speaker": "Mooly",
+   "text": "後來找到一個公司，覺得同事都蠻不錯的，"
+  },
+  {
+   "start": 1603.07,
+   "end": 1604.01,
+   "speaker": "Kalan",
+   "text": "都比你強，"
+  },
+  {
+   "start": 1604.01,
+   "end": 1606.93,
+   "speaker": "Mooly",
+   "text": "跟我差不多，或是在某個領域上比我強，"
+  },
+  {
+   "start": 1608.73,
+   "end": 1612.89,
+   "speaker": "Mooly",
+   "text": "因為我覺得其實你要論強弱這件事情，它有分很多層次，"
+  },
+  {
+   "start": 1612.89,
+   "end": 1613.63,
+   "speaker": "Mooly",
+   "text": "包含說，"
+  },
+  {
+   "start": 1614.33,
+   "end": 1617.87,
+   "speaker": "Mooly",
+   "text": "因為其實軟體公司本身就包含很多不同的項目，"
+  },
+  {
+   "start": 1617.87,
+   "end": 1620.11,
+   "speaker": "Mooly",
+   "text": "包含說你可能特定領域，"
+  },
+  {
+   "start": 1620.11,
+   "end": 1621.67,
+   "speaker": "Mooly",
+   "text": "比如說你寫測試啊，"
+  },
+  {
+   "start": 1621.67,
+   "end": 1626.57,
+   "speaker": "Mooly",
+   "text": "你可能某一個，比如說架構、某一個框架，它都是某一個特定領域，"
+  },
+  {
+   "start": 1626.57,
+   "end": 1631.23,
+   "speaker": "Mooly",
+   "text": "或是說你整體的概念，或是說你的網路知識、你的作業系統知識，那個都是，"
+  },
+  {
+   "start": 1631.23,
+   "end": 1637.27,
+   "speaker": "Mooly",
+   "text": "那你很難找到一個每一個領域都很強的人，或是你要平均下來看也很難看。"
+  },
+  {
+   "start": 1637.27,
+   "end": 1641.27,
+   "speaker": "Mooly",
+   "text": "就是我希望理想中的同事是，你可以在某些地方讓我發現說，"
+  },
+  {
+   "start": 1641.87,
+   "end": 1646.01,
+   "speaker": "Mooly",
+   "text": "原來還有這樣子的東西，或是說原來這個地方是這樣子，"
+  },
+  {
+   "start": 1646.01,
+   "end": 1648.93,
+   "speaker": "Mooly",
+   "text": "它可以帶給我一些新的幫助。"
+  },
+  {
+   "start": 1648.93,
+   "end": 1650.35,
+   "speaker": "Mooly",
+   "text": "冒牌者症候群的話，"
+  },
+  {
+   "start": 1650.35,
+   "end": 1652.57,
+   "speaker": "Mooly",
+   "text": "雖然我剛剛講成這個樣子，"
+  },
+  {
+   "start": 1652.57,
+   "end": 1656.35,
+   "speaker": "Mooly",
+   "text": "就是講成我好像自己寫 code 好像是寫得很厲害這樣子，"
+  },
+  {
+   "start": 1656.35,
+   "end": 1658.73,
+   "speaker": "Mooly",
+   "text": "但其實我也是在……"
+  },
+  {
+   "start": 1659.39,
+   "end": 1663.89,
+   "speaker": "Mooly",
+   "text": "就是它也算是在某一個程度之間在擺盪嗎？"
+  },
+  {
+   "start": 1663.89,
+   "end": 1669.73,
+   "speaker": "Mooly",
+   "text": "畢竟我覺得冒牌者症候群的影響程度，它算是一個光譜，"
+  },
+  {
+   "start": 1669.73,
+   "end": 1672.85,
+   "speaker": "Mooly",
+   "text": "就是它有很多細微的部分。"
+  },
+  {
+   "start": 1673.45,
+   "end": 1675.91,
+   "speaker": "Mooly",
+   "text": "雖然我剛剛講的好像自己好像很厲害，"
+  },
+  {
+   "start": 1675.91,
+   "end": 1679.39,
+   "speaker": "Mooly",
+   "text": "但我自己有時候也會覺得說，"
+  },
+  {
+   "start": 1679.39,
+   "end": 1680.71,
+   "speaker": "Mooly",
+   "text": "比如說，我看到更厲害的人的時候，"
+  },
+  {
+   "start": 1681.11,
+   "end": 1685.17,
+   "speaker": "Mooly",
+   "text": "我也會覺得說，雖然我覺得自己很厲害，可是他講這些我好像都不會，"
+  },
+  {
+   "start": 1685.17,
+   "end": 1690.33,
+   "speaker": "Mooly",
+   "text": "那我是不是其實也根本沒什麼，只是我自以為自己很厲害而已？"
+  },
+  {
+   "start": 1691.37,
+   "end": 1694.01,
+   "speaker": "Mooly",
+   "text": "就會有這個想法出現。"
+  },
+  {
+   "start": 1694.01,
+   "end": 1699.79,
+   "speaker": "Kalan",
+   "text": "喔，我覺得我好像也偶爾會有這樣的想法，"
+  },
+  {
+   "start": 1699.79,
+   "end": 1702.19,
+   "speaker": "Kalan",
+   "text": "會覺得說自己可能，"
+  },
+  {
+   "start": 1702.19,
+   "end": 1703.47,
+   "speaker": "Kalan",
+   "text": "就像你剛剛講的，"
+  },
+  {
+   "start": 1703.47,
+   "end": 1706.67,
+   "speaker": "Kalan",
+   "text": "某個知識點可能不太清楚，"
+  },
+  {
+   "start": 1706.67,
+   "end": 1708.45,
+   "speaker": "Kalan",
+   "text": "然後就會回到說，"
+  },
+  {
+   "start": 1708.45,
+   "end": 1708.67,
+   "speaker": "Kalan",
+   "text": "欸，"
+  },
+  {
+   "start": 1708.67,
+   "end": 1712.27,
+   "speaker": "Kalan",
+   "text": "對啊，自己是不是根本沒有這麼厲害這樣子。"
+  },
+  {
+   "start": 1712.75,
+   "end": 1713.15,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1713.15,
+   "end": 1718.73,
+   "speaker": "Mooly",
+   "text": "而且這件事情有時候蠻常發生的，比如說你可能覺得你前端已經寫很多年、寫很厲害了，"
+  },
+  {
+   "start": 1718.73,
+   "end": 1719.81,
+   "speaker": "Mooly",
+   "text": "然後這個時候你可能，"
+  },
+  {
+   "start": 1719.81,
+   "end": 1721.11,
+   "speaker": "Mooly",
+   "text": "比如說要做一個新功能，"
+  },
+  {
+   "start": 1721.11,
+   "end": 1721.91,
+   "speaker": "Mooly",
+   "text": "可能是，"
+  },
+  {
+   "start": 1721.91,
+   "end": 1724.39,
+   "speaker": "Mooly",
+   "text": "你可能要自己實作一個那個，"
+  },
+  {
+   "start": 1724.93,
+   "end": 1730.13,
+   "speaker": "Mooly",
+   "text": "比如說是首頁輪播圖片，那種會自己切換下一張圖片的，"
+  },
+  {
+   "start": 1730.13,
+   "end": 1731.69,
+   "speaker": "Mooly",
+   "text": "然後要有一個 debounce，"
+  },
+  {
+   "start": 1731.69,
+   "end": 1732.87,
+   "speaker": "Mooly",
+   "text": "對對對，"
+  },
+  {
+   "start": 1732.87,
+   "end": 1734.55,
+   "speaker": "Mooly",
+   "text": "debounce 的那個東西，"
+  },
+  {
+   "start": 1734.55,
+   "end": 1736.27,
+   "speaker": "Mooly",
+   "text": "那可能我沒有做過，"
+  },
+  {
+   "start": 1736.27,
+   "end": 1737.19,
+   "speaker": "Mooly",
+   "text": "然後我就會想說，"
+  },
+  {
+   "start": 1737.19,
+   "end": 1737.35,
+   "speaker": "Mooly",
+   "text": "欸，"
+  },
+  {
+   "start": 1737.35,
+   "end": 1742.55,
+   "speaker": "Mooly",
+   "text": "但我居然寫這麼久，我居然沒有做過這個好像很基礎的東西，我沒有自己刻過，其實是不是，"
+  },
+  {
+   "start": 1743.03,
+   "end": 1744.47,
+   "speaker": "Mooly",
+   "text": "我也沒有那麼厲害，"
+  },
+  {
+   "start": 1744.47,
+   "end": 1745.43,
+   "speaker": "Kalan",
+   "text": "這種感覺。"
+  },
+  {
+   "start": 1747.23,
+   "end": 1749.71,
+   "speaker": "Mooly",
+   "text": "但冒牌者症候群，我自己是有，"
+  },
+  {
+   "start": 1749.71,
+   "end": 1753.51,
+   "speaker": "Mooly",
+   "text": "後來有比較好的一個改善是，"
+  },
+  {
+   "start": 1753.93,
+   "end": 1760.13,
+   "speaker": "Mooly",
+   "text": "就我覺得你其實在職場上，如果有看過更多不怎麼樣的人的話，"
+  },
+  {
+   "start": 1760.13,
+   "end": 1763.67,
+   "speaker": "Mooly",
+   "text": "你可能就會相對來說知道自己的定位，"
+  },
+  {
+   "start": 1765.41,
+   "end": 1767.85,
+   "speaker": "Mooly",
+   "text": "你會把自己的下限往上拉，"
+  },
+  {
+   "start": 1767.85,
+   "end": 1773.63,
+   "speaker": "Mooly",
+   "text": "因為你看過更多下限比較低的人的話，你可能就會知道這一點。"
+  },
+  {
+   "start": 1773.63,
+   "end": 1775.13,
+   "speaker": "Kalan",
+   "text": "這點我覺得，"
+  },
+  {
+   "start": 1775.69,
+   "end": 1778.33,
+   "speaker": "Kalan",
+   "text": "我其實有體會過一點點，"
+  },
+  {
+   "start": 1778.71,
+   "end": 1784.49,
+   "speaker": "Kalan",
+   "text": "我大概在上一份公司的時候，有擔任一陣子的面試官，"
+  },
+  {
+   "start": 1784.49,
+   "end": 1786.53,
+   "speaker": "Kalan",
+   "text": "因為我們公司比較大，"
+  },
+  {
+   "start": 1786.53,
+   "end": 1790.89,
+   "speaker": "Kalan",
+   "text": "所以會面試來自世界各地的開發者，"
+  },
+  {
+   "start": 1790.89,
+   "end": 1792.85,
+   "speaker": "Kalan",
+   "text": "那的確會，"
+  },
+  {
+   "start": 1792.85,
+   "end": 1795.91,
+   "speaker": "Kalan",
+   "text": "其實會遇到剛剛 Mooly 講的狀況，就是說，"
+  },
+  {
+   "start": 1795.91,
+   "end": 1800.19,
+   "speaker": "Kalan",
+   "text": "的確會把下限拉高，然後你會看到很多，"
+  },
+  {
+   "start": 1800.19,
+   "end": 1802.45,
+   "speaker": "Kalan",
+   "text": "喔，原來這樣也可以來面試的，"
+  },
+  {
+   "start": 1802.97,
+   "end": 1804.99,
+   "speaker": "Kalan",
+   "text": "這種感覺的人存在。"
+  },
+  {
+   "start": 1804.99,
+   "end": 1806.61,
+   "speaker": "Mooly",
+   "text": "對對，就我覺得有時候，"
+  },
+  {
+   "start": 1806.61,
+   "end": 1811.07,
+   "speaker": "Mooly",
+   "text": "這個自己的定位是藉由一連串的比較，"
+  },
+  {
+   "start": 1811.07,
+   "end": 1820.57,
+   "speaker": "Mooly",
+   "text": "大概把你定位在一個位置，它就有點像是那個嘛，有點像是一些排序的演算法，對吧？它會一直做比較之後，把你排到一個"
+  },
+  {
+   "start": 1820.57,
+   "end": 1821.95,
+   "speaker": "Mooly",
+   "text": "你應該在的位置，"
+  },
+  {
+   "start": 1821.95,
+   "end": 1826.55,
+   "speaker": "Mooly",
+   "text": "然後你再比較個幾輪之後，可能把你再往後移，或再往前移什麼的，"
+  },
+  {
+   "start": 1826.55,
+   "end": 1829.29,
+   "speaker": "Mooly",
+   "text": "我覺得它就有點像是這個樣子。"
+  },
+  {
+   "start": 1829.29,
+   "end": 1832.33,
+   "speaker": "Mooly",
+   "text": "你會藉由看過越來越多的人，"
+  },
+  {
+   "start": 1832.33,
+   "end": 1837.69,
+   "speaker": "Mooly",
+   "text": "然後經歷越來越多之後，你會大概知道說自己可能處於哪一個位置，"
+  },
+  {
+   "start": 1837.69,
+   "end": 1838.89,
+   "speaker": "Mooly",
+   "text": "你的能力大概在哪裡，"
+  },
+  {
+   "start": 1838.89,
+   "end": 1841.19,
+   "speaker": "Mooly",
+   "text": "就像剛剛愷愷講的，"
+  },
+  {
+   "start": 1841.19,
+   "end": 1842.73,
+   "speaker": "Mooly",
+   "text": "你可能有時候面試的時候碰到說，"
+  },
+  {
+   "start": 1842.73,
+   "end": 1848.89,
+   "speaker": "Mooly",
+   "text": "欸，怎麼這個來面試的人 live coding 連一個簡單的 to do list 都寫不出來，"
+  },
+  {
+   "start": 1848.89,
+   "end": 1853.55,
+   "speaker": "Mooly",
+   "text": "只要 fetch 某個資料、render 出來，然後居然寫不出來，"
+  },
+  {
+   "start": 1853.55,
+   "end": 1854.63,
+   "speaker": "Mooly",
+   "text": "你就會知道，"
+  },
+  {
+   "start": 1855.11,
+   "end": 1857.75,
+   "speaker": "Mooly",
+   "text": "就是你會根據這一些 feedback，"
+  },
+  {
+   "start": 1857.75,
+   "end": 1859.95,
+   "speaker": "Mooly",
+   "text": "根據你自己的經歷不同，"
+  },
+  {
+   "start": 1859.95,
+   "end": 1862.99,
+   "speaker": "Mooly",
+   "text": "你會更清楚自己的定位大概在哪個位置。"
+  },
+  {
+   "start": 1862.99,
+   "end": 1868.27,
+   "speaker": "Mooly",
+   "text": "我覺得這個對我來說，對冒牌者症候群比較有改善的一個方法，"
+  },
+  {
+   "start": 1868.27,
+   "end": 1870.73,
+   "speaker": "Kalan",
+   "text": "就是認識這個世界，"
+  },
+  {
+   "start": 1871.45,
+   "end": 1876.21,
+   "speaker": "Mooly",
+   "text": "藉由跟其他人比較，你會比較知道自己的客觀定位在哪裡。"
+  },
+  {
+   "start": 1876.21,
+   "end": 1878.49,
+   "speaker": "Kalan",
+   "text": "感覺這件事情有風險耶。"
+  },
+  {
+   "start": 1878.49,
+   "end": 1886.03,
+   "speaker": "Kalan",
+   "text": "如果你跟你比較的人，結果每個都比你厲害，你發現你是排名最後那個的話，"
+  },
+  {
+   "start": 1886.71,
+   "end": 1888.13,
+   "speaker": "Kalan",
+   "text": "那會怎麼樣？"
+  },
+  {
+   "start": 1888.73,
+   "end": 1894.11,
+   "speaker": "Mooly",
+   "text": "這個確實是，可能會有認知偏誤，或是你的樣本差異，"
+  },
+  {
+   "start": 1894.11,
+   "end": 1901.35,
+   "speaker": "Mooly",
+   "text": "如果你的樣本的技術不夠平均的話，你可能就會有個認知偏誤在。"
+  },
+  {
+   "start": 1901.35,
+   "end": 1903.37,
+   "speaker": "Mooly",
+   "text": "這個確實好像是這樣。"
+  },
+  {
+   "start": 1903.95,
+   "end": 1905.71,
+   "speaker": "Kalan",
+   "text": "確實有風險。"
+  },
+  {
+   "start": 1905.71,
+   "end": 1906.73,
+   "speaker": "Mooly",
+   "text": "所以要用這個方法，"
+  },
+  {
+   "start": 1906.73,
+   "end": 1909.67,
+   "speaker": "Mooly",
+   "text": "你可能要在職場上，"
+  },
+  {
+   "start": 1909.67,
+   "end": 1915.95,
+   "speaker": "Mooly",
+   "text": "你可能要有覺得比你厲害的人，跟覺得比你不厲害的人，你才能夠做一個比較，"
+  },
+  {
+   "start": 1916.75,
+   "end": 1919.37,
+   "speaker": "Kalan",
+   "text": "要同時存在比你厲害跟不厲害的人。"
+  },
+  {
+   "start": 1919.97,
+   "end": 1920.41,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1920.41,
+   "end": 1925.39,
+   "speaker": "Mooly",
+   "text": "如果你只有其中一邊的話，那可能比較出來的結果就不準了。"
+  },
+  {
+   "start": 1925.39,
+   "end": 1925.83,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 1926.63,
+   "end": 1928.71,
+   "speaker": "Mooly",
+   "text": "然後另外一個想分享的是，"
+  },
+  {
+   "start": 1929.45,
+   "end": 1936.11,
+   "speaker": "Mooly",
+   "text": "剛剛 Kalan 講到說他有時候跟那些比自己厲害的人共存的一個方法，"
+  },
+  {
+   "start": 1936.11,
+   "end": 1938.43,
+   "speaker": "Mooly",
+   "text": "是可能去跟他們做朋友，"
+  },
+  {
+   "start": 1938.43,
+   "end": 1942.29,
+   "speaker": "Mooly",
+   "text": "或是說去欣賞他們的厲害之處什麼的。"
+  },
+  {
+   "start": 1942.29,
+   "end": 1943.39,
+   "speaker": "Mooly",
+   "text": "我自己的話，"
+  },
+  {
+   "start": 1943.95,
+   "end": 1945.33,
+   "speaker": "Mooly",
+   "text": "有些也會這樣，"
+  },
+  {
+   "start": 1945.33,
+   "end": 1948.83,
+   "speaker": "Mooly",
+   "text": "但有些我採取的是一個比較極端的做法。"
+  },
+  {
+   "start": 1948.83,
+   "end": 1954.11,
+   "speaker": "Mooly",
+   "text": "比如說，如果有些人我覺得他好像看起來不怎麼樣，"
+  },
+  {
+   "start": 1954.11,
+   "end": 1959.59,
+   "speaker": "Mooly",
+   "text": "但是又取得了比較高的成就或什麼的話，"
+  },
+  {
+   "start": 1959.59,
+   "end": 1959.87,
+   "speaker": "Mooly",
+   "text": "就是說，"
+  },
+  {
+   "start": 1959.87,
+   "end": 1964.79,
+   "speaker": "Mooly",
+   "text": "我主觀地覺得他德不配位的那種感覺的話，"
+  },
+  {
+   "start": 1964.79,
+   "end": 1969.53,
+   "speaker": "Mooly",
+   "text": "我可能就會直接把他的消息封鎖，都不看。"
+  },
+  {
+   "start": 1969.53,
+   "end": 1971.39,
+   "speaker": "Kalan",
+   "text": "你會直接 block 掉？"
+  },
+  {
+   "start": 1971.39,
+   "end": 1972.57,
+   "speaker": "Kalan",
+   "text": "OK，OK，OK。"
+  },
+  {
+   "start": 1972.57,
+   "end": 1975.27,
+   "speaker": "Mooly",
+   "text": "因為我可能每次看到都會覺得說，"
+  },
+  {
+   "start": 1975.27,
+   "end": 1978.07,
+   "speaker": "Mooly",
+   "text": "這個人沒料或什麼的，"
+  },
+  {
+   "start": 1978.07,
+   "end": 1980.31,
+   "speaker": "Mooly",
+   "text": "然後就會自己覺得，"
+  },
+  {
+   "start": 1980.79,
+   "end": 1982.49,
+   "speaker": "Mooly",
+   "text": "我覺得這種心態不太好，"
+  },
+  {
+   "start": 1982.49,
+   "end": 1989.41,
+   "speaker": "Mooly",
+   "text": "就是說這種負面情緒，或是說我知道我自己的這個想法其實是主觀的，"
+  },
+  {
+   "start": 1989.41,
+   "end": 1990.89,
+   "speaker": "Mooly",
+   "text": "而且它不一定是真的。"
+  },
+  {
+   "start": 1990.89,
+   "end": 1992.97,
+   "speaker": "Mooly",
+   "text": "就像我剛剛講的，我可能覺得他沒料，"
+  },
+  {
+   "start": 1992.97,
+   "end": 1994.45,
+   "speaker": "Mooly",
+   "text": "但可能背後其實付出了"
+  },
+  {
+   "start": 1994.45,
+   "end": 1995.47,
+   "speaker": "Mooly",
+   "text": "很多努力，"
+  },
+  {
+   "start": 1995.47,
+   "end": 1998.63,
+   "speaker": "Mooly",
+   "text": "或說他其實真的有那個程度，"
+  },
+  {
+   "start": 1998.63,
+   "end": 2001.97,
+   "speaker": "Mooly",
+   "text": "只是我因為個人的一些偏見或什麼，去做這件事情，"
+  },
+  {
+   "start": 2001.97,
+   "end": 2004.09,
+   "speaker": "Mooly",
+   "text": "所以我不覺得這是一件對的事情，"
+  },
+  {
+   "start": 2004.09,
+   "end": 2005.77,
+   "speaker": "Mooly",
+   "text": "但它是我想做的事情，"
+  },
+  {
+   "start": 2005.77,
+   "end": 2011.61,
+   "speaker": "Mooly",
+   "text": "所以我會選擇把那個人的消息全部都不要看到，"
+  },
+  {
+   "start": 2011.61,
+   "end": 2013.61,
+   "speaker": "Mooly",
+   "text": "我就不會去思考這件事情。"
+  },
+  {
+   "start": 2013.61,
+   "end": 2015.17,
+   "speaker": "Kalan",
+   "text": "哦，了解。"
+  },
+  {
+   "start": 2015.17,
+   "end": 2016.89,
+   "speaker": "Mooly",
+   "text": "這個是我自己的一個做法。"
+  },
+  {
+   "start": 2018.67,
+   "end": 2021.05,
+   "speaker": "Kalan",
+   "text": "我覺得的確是一個，"
+  },
+  {
+   "start": 2021.43,
+   "end": 2023.09,
+   "speaker": "Kalan",
+   "text": "那反過來的話你就不會了，"
+  },
+  {
+   "start": 2023.09,
+   "end": 2026.05,
+   "speaker": "Kalan",
+   "text": "就是如果你看到一個比你厲害的人，"
+  },
+  {
+   "start": 2026.05,
+   "end": 2029.23,
+   "speaker": "Kalan",
+   "text": "一直發一些文章，"
+  },
+  {
+   "start": 2029.23,
+   "end": 2031.47,
+   "speaker": "Kalan",
+   "text": "然後都會讓你覺得「喔，好羨慕喔，"
+  },
+  {
+   "start": 2031.47,
+   "end": 2033.19,
+   "speaker": "Kalan",
+   "text": "我也好想要變得跟他一樣」的話，"
+  },
+  {
+   "start": 2033.19,
+   "end": 2035.15,
+   "speaker": "Kalan",
+   "text": "那你會把這種人封鎖掉嗎？"
+  },
+  {
+   "start": 2035.15,
+   "end": 2037.45,
+   "speaker": "Mooly",
+   "text": "這種不會啊，就是他有點像我剛剛講的，"
+  },
+  {
+   "start": 2038.35,
+   "end": 2042.63,
+   "speaker": "Mooly",
+   "text": "通常你會有點嫉妒成分在，或不想看到的，都是"
+  },
+  {
+   "start": 2042.63,
+   "end": 2046.79,
+   "speaker": "Mooly",
+   "text": "你覺得你可以到達跟他一樣的位置，"
+  },
+  {
+   "start": 2046.79,
+   "end": 2047.35,
+   "speaker": "Mooly",
+   "text": "或是說，"
+  },
+  {
+   "start": 2047.81,
+   "end": 2052.49,
+   "speaker": "Mooly",
+   "text": "除了之前在 Twitter 上看到的那個 Danny 還是誰講的，就是有一種心態是"
+  },
+  {
+   "start": 2052.49,
+   "end": 2055.69,
+   "speaker": "Mooly",
+   "text": "他過得比你好，但你不覺得他比你厲害，"
+  },
+  {
+   "start": 2057.83,
+   "end": 2060.21,
+   "speaker": "Mooly",
+   "text": "你就會覺得心裡不太是滋味。"
+  },
+  {
+   "start": 2060.21,
+   "end": 2062.87,
+   "speaker": "Mooly",
+   "text": "但比如說，如果你今天看到某一個，"
+  },
+  {
+   "start": 2062.87,
+   "end": 2067.69,
+   "speaker": "Mooly",
+   "text": "你本來就覺得你到不了他那種程度的大神或什麼，"
+  },
+  {
+   "start": 2067.69,
+   "end": 2070.53,
+   "speaker": "Mooly",
+   "text": "你就只會用崇拜的心情看著他，"
+  },
+  {
+   "start": 2070.53,
+   "end": 2072.13,
+   "speaker": "Mooly",
+   "text": "不會有嫉妒的成分在。"
+  },
+  {
+   "start": 2072.13,
+   "end": 2074.97,
+   "speaker": "Kalan",
+   "text": "我對這個有不同的想法，"
+  },
+  {
+   "start": 2074.97,
+   "end": 2077.83,
+   "speaker": "Kalan",
+   "text": "就是我會想要，"
+  },
+  {
+   "start": 2077.83,
+   "end": 2081.09,
+   "speaker": "Kalan",
+   "text": "就是覺得比自己不厲害的人，"
+  },
+  {
+   "start": 2081.09,
+   "end": 2084.19,
+   "speaker": "Kalan",
+   "text": "有一個更好的位置這件事情，"
+  },
+  {
+   "start": 2084.79,
+   "end": 2089.15,
+   "speaker": "Kalan",
+   "text": "它雖然很常是違背人性的，"
+  },
+  {
+   "start": 2089.15,
+   "end": 2094.95,
+   "speaker": "Kalan",
+   "text": "但是如果把它放到整個社會運作的方式來看的話，"
+  },
+  {
+   "start": 2095.53,
+   "end": 2097.37,
+   "speaker": "Kalan",
+   "text": "它的確是很常存在的。"
+  },
+  {
+   "start": 2097.37,
+   "end": 2102.01,
+   "speaker": "Kalan",
+   "text": "因為像比如說你拿到的薪水好了，"
+  },
+  {
+   "start": 2102.01,
+   "end": 2103.79,
+   "speaker": "Kalan",
+   "text": "用薪水可能不太好，"
+  },
+  {
+   "start": 2103.79,
+   "end": 2107.85,
+   "speaker": "Kalan",
+   "text": "賺錢的多寡可能會跟你的技能，"
+  },
+  {
+   "start": 2107.85,
+   "end": 2109.41,
+   "speaker": "Kalan",
+   "text": "以及你付出的努力，"
+  },
+  {
+   "start": 2109.41,
+   "end": 2111.43,
+   "speaker": "Kalan",
+   "text": "是沒有太大關聯的。"
+  },
+  {
+   "start": 2111.97,
+   "end": 2112.87,
+   "speaker": "Kalan",
+   "text": "因為我覺得，"
+  },
+  {
+   "start": 2113.39,
+   "end": 2124.87,
+   "speaker": "Kalan",
+   "text": "我們就以錢來講好了，錢是會獎勵給提供價值的人，而不是獎勵給有技術或者是付出很多的人，"
+  },
+  {
+   "start": 2124.87,
+   "end": 2128.99,
+   "speaker": "Kalan",
+   "text": "就是他的付出跟回報不一定是成正比的。"
+  },
+  {
+   "start": 2129.57,
+   "end": 2137.51,
+   "speaker": "Mooly",
+   "text": "大概懂那個意思，確實，我覺得剛剛原話講得不錯，就是那些是給提供價值的，不是能力比較好的人。"
+  },
+  {
+   "start": 2137.51,
+   "end": 2139.13,
+   "speaker": "Mooly",
+   "text": "這兩個有可能是，"
+  },
+  {
+   "start": 2139.53,
+   "end": 2141.57,
+   "speaker": "Kalan",
+   "text": "對，它有可能是不等價的。"
+  },
+  {
+   "start": 2141.57,
+   "end": 2142.07,
+   "speaker": "Kalan",
+   "text": "那當然，"
+  },
+  {
+   "start": 2142.07,
+   "end": 2145.81,
+   "speaker": "Kalan",
+   "text": "每個人要怎麼處理這件事情，當然就是，"
+  },
+  {
+   "start": 2146.51,
+   "end": 2147.69,
+   "speaker": "Kalan",
+   "text": "沒有正確答案。"
+  },
+  {
+   "start": 2147.69,
+   "end": 2151.71,
+   "speaker": "Kalan",
+   "text": "所以大家也是聽了我們兩個方法，覺得不錯，"
+  },
+  {
+   "start": 2151.71,
+   "end": 2152.91,
+   "speaker": "Kalan",
+   "text": "那也可以採用；"
+  },
+  {
+   "start": 2152.91,
+   "end": 2154.51,
+   "speaker": "Kalan",
+   "text": "覺得不好的話呢，"
+  },
+  {
+   "start": 2154.51,
+   "end": 2156.35,
+   "speaker": "Kalan",
+   "text": "也可以來信給我們，"
+  },
+  {
+   "start": 2156.99,
+   "end": 2159.27,
+   "speaker": "Mooly",
+   "text": "或是可能聽聽就算了，"
+  },
+  {
+   "start": 2159.27,
+   "end": 2162.99,
+   "speaker": "Mooly",
+   "text": "就當作耳邊風，聽聽就算了，"
+  },
+  {
+   "start": 2162.99,
+   "end": 2163.33,
+   "speaker": "Mooly",
+   "text": "也可以。"
+  },
+  {
+   "start": 2164.05,
+   "end": 2164.31,
+   "speaker": "Kalan",
+   "text": "好啦，"
+  },
+  {
+   "start": 2165.33,
+   "end": 2170.33,
+   "speaker": "Kalan",
+   "text": "那我們關於冒牌者症候群這個話題，我們也聊了蠻多的，"
+  },
+  {
+   "start": 2170.33,
+   "end": 2172.97,
+   "speaker": "Kalan",
+   "text": "那我們今天的節目就先到這邊好了。"
+  },
+  {
+   "start": 2172.97,
+   "end": 2175.61,
+   "speaker": "Kalan",
+   "text": "那喜歡的話，歡迎訂閱分享，"
+  },
+  {
+   "start": 2175.61,
+   "end": 2177.05,
+   "speaker": "Kalan",
+   "text": "如果有任何回饋的話，"
+  },
+  {
+   "start": 2177.05,
+   "end": 2180.41,
+   "speaker": "Kalan",
+   "text": "可以透過說明欄的表單或寄信給我們唷。"
+  },
+  {
+   "start": 2180.41,
+   "end": 2181.19,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 2181.19,
+   "end": 2182.09,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 2182.8,
+   "end": 2184.05,
+   "speaker": "Kalan",
+   "text": "我們下次見，"
+  },
+  {
+   "start": 2184.59,
+   "end": 2185.09,
+   "speaker": "Kalan",
+   "text": "掰掰。"
+  }
+ ]
+}

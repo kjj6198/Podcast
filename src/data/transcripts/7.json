@@ -1,0 +1,5676 @@
+{
+ "episode": 7,
+ "speakers": [
+  "Kalan",
+  "Mooly"
+ ],
+ "summary": {
+  "overview": "Kalan 與 Mooly 在這集分享各自學習英文、日文與其他語言的經驗，包含成績、工作中使用外語的實際狀況，以及口音與片語的觀察。兩人也討論 AI 對語言學習的影響，認為 AI 能降低門檻，但刻意練習仍不可少。節目尾聲還預告官網 yayaboys.com 上線，之後會放 show notes、逐字稿與摘要。",
+  "points": [
+   "Mooly 的多益約 855 分，高中前英文偏弱，入學台大時被強制排進英文補救課；Kalan 多益 830 分，高中後開始喜歡英文，並靠全英文課程與英文演講課練口說。",
+   "在新加坡與日本工作時，Mooly 與 Kalan 發現印度、越南等腔調需要時間適應，省略尾音會影響理解，而口音本身不如詞彙與片語重要。",
+   "Mooly 覺得職場英文最大的缺口是 push back、get back to you 這類片語，以及電影、人名、地名的英文說法。",
+   "Kalan 因為喜歡動畫與小說自學日文，用交換日記平台練習寫作，並創辦電子報「日語八百屋」，從 2016 年持續到 2020 年初。",
+   "Mooly 學過德文與滿文各半年，Kalan 為出差學過韓文四十音，兩人也談到先背一千句再學文法等不同學習方法。",
+   "兩人認為 AI 能讓客製化學習資源與對話練習更容易取得，但無法取代自己背誦與練習，語言也承載文化，即使翻譯成熟仍值得學。"
+  ],
+  "chapters": [
+   {
+    "start": 0.0,
+    "title": "開場與主題介紹"
+   },
+   {
+    "start": 42.0,
+    "title": "自評英文程度與成績"
+   },
+   {
+    "start": 397.0,
+    "title": "大學英文課與工作中的英文"
+   },
+   {
+    "start": 783.0,
+    "title": "腔調、片語與人名地名"
+   },
+   {
+    "start": 1187.0,
+    "title": "語言與文化、AI 翻譯的影響"
+   },
+   {
+    "start": 1576.0,
+    "title": "Kalan 的日文學習與電子報"
+   },
+   {
+    "start": 2088.0,
+    "title": "Mooly 的日文、韓文、德文與滿文"
+   },
+   {
+    "start": 2862.0,
+    "title": "AI 時代的語言學習與官網預告"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.78,
+   "speaker": "Kalan",
+   "text": "哈囉大家好，我是 Kalan。"
+  },
+  {
+   "start": 1.78,
+   "end": 2.7,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 3.28,
+   "end": 5.26,
+   "speaker": "Kalan",
+   "text": "歡迎收聽八百屋 Boys。"
+  },
+  {
+   "start": 5.8,
+   "end": 13.02,
+   "speaker": "Kalan",
+   "text": "你之前有提到說，你有在新加坡工作，跟現在是在日本工作的經驗嘛。"
+  },
+  {
+   "start": 13.88,
+   "end": 19.28,
+   "speaker": "Kalan",
+   "text": "所以我想我們這集就來聊聊語言學習的經驗好了。"
+  },
+  {
+   "start": 19.28,
+   "end": 21.08,
+   "speaker": "Mooly",
+   "text": "好，沒問題。"
+  },
+  {
+   "start": 21.08,
+   "end": 25.4,
+   "speaker": "Kalan",
+   "text": "好，那我覺得首先我們就先從英文開始吧，"
+  },
+  {
+   "start": 25.4,
+   "end": 29.14,
+   "speaker": "Kalan",
+   "text": "因為畢竟英文應該是台灣人吧，"
+  },
+  {
+   "start": 29.14,
+   "end": 30.7,
+   "speaker": "Kalan",
+   "text": "至少以台灣人來說，"
+  },
+  {
+   "start": 30.7,
+   "end": 33.66,
+   "speaker": "Kalan",
+   "text": "通常會是第一個接觸到的外文。"
+  },
+  {
+   "start": 34.16,
+   "end": 35.56,
+   "speaker": "Mooly",
+   "text": "對，基本上是。"
+  },
+  {
+   "start": 36.26,
+   "end": 38.14,
+   "speaker": "Kalan",
+   "text": "Mooly，你要不要來分享一下，"
+  },
+  {
+   "start": 38.7,
+   "end": 41.72,
+   "speaker": "Kalan",
+   "text": "你學英文的各種歷程好了？"
+  },
+  {
+   "start": 42.42,
+   "end": 43.38,
+   "speaker": "Mooly",
+   "text": "可以可以。"
+  },
+  {
+   "start": 43.38,
+   "end": 44.84,
+   "speaker": "Mooly",
+   "text": "那我想一下喔。"
+  },
+  {
+   "start": 44.84,
+   "end": 53.32,
+   "speaker": "Mooly",
+   "text": "在分享那個學習歷程之前，我們先來各自講一下自己英文程度大概到哪邊好了，"
+  },
+  {
+   "start": 53.32,
+   "end": 57.0,
+   "speaker": "Mooly",
+   "text": "因為我覺得有時候有些討論嘛，"
+  },
+  {
+   "start": 57.0,
+   "end": 58.4,
+   "speaker": "Mooly",
+   "text": "比如說你講一些學，"
+  },
+  {
+   "start": 58.94,
+   "end": 60.6,
+   "speaker": "Mooly",
+   "text": "就是語言學習或什麼東西，"
+  },
+  {
+   "start": 61.08,
+   "end": 62.16,
+   "speaker": "Mooly",
+   "text": "我覺得如果讓大家，"
+  },
+  {
+   "start": 62.16,
+   "end": 66.54,
+   "speaker": "Mooly",
+   "text": "就是讓聽眾朋友知道我們的英文程度各自大概到哪裡，"
+  },
+  {
+   "start": 66.54,
+   "end": 68.56,
+   "speaker": "Mooly",
+   "text": "他們可能會更有一些想像，"
+  },
+  {
+   "start": 68.56,
+   "end": 72.14,
+   "speaker": "Mooly",
+   "text": "或是說拿一些客觀的東西出來，"
+  },
+  {
+   "start": 72.14,
+   "end": 74.18,
+   "speaker": "Mooly",
+   "text": "他會比較知道，就比如說，"
+  },
+  {
+   "start": 74.18,
+   "end": 78.4,
+   "speaker": "Mooly",
+   "text": "就是可能大家也很常會看到，比如說一些學習文章，比如說也有那種"
+  },
+  {
+   "start": 78.4,
+   "end": 81.98,
+   "speaker": "Mooly",
+   "text": "日文什麼半年到 N1 或半年到 N2，"
+  },
+  {
+   "start": 81.98,
+   "end": 85.72,
+   "speaker": "Mooly",
+   "text": "但有些它可能是真的是從零開始，"
+  },
+  {
+   "start": 85.72,
+   "end": 87.8,
+   "speaker": "Mooly",
+   "text": "然後有些它可能，比如說，"
+  },
+  {
+   "start": 87.8,
+   "end": 92.8,
+   "speaker": "Mooly",
+   "text": "他其實那個之前本來他就有接觸過一些，他只是沒有這麼正式地學過這個日文，"
+  },
+  {
+   "start": 92.8,
+   "end": 94.6,
+   "speaker": "Mooly",
+   "text": "然後他，"
+  },
+  {
+   "start": 95.06,
+   "end": 101.06,
+   "speaker": "Mooly",
+   "text": "就是自評語言程度這個，他其實有時候也會受到你自己的自信或是什麼的想法，比如說，"
+  },
+  {
+   "start": 101.62,
+   "end": 102.72,
+   "speaker": "Mooly",
+   "text": "可能我覺得我英文很爛，"
+  },
+  {
+   "start": 102.72,
+   "end": 108.16,
+   "speaker": "Mooly",
+   "text": "但其實事實上可能以成績來說，看起來不是這麼爛，"
+  },
+  {
+   "start": 108.16,
+   "end": 111.58,
+   "speaker": "Mooly",
+   "text": "所以可以先從這個部分去下手分享一下。"
+  },
+  {
+   "start": 112.36,
+   "end": 114.82,
+   "speaker": "Kalan",
+   "text": "喔，你說的蠻有道理的耶。"
+  },
+  {
+   "start": 114.82,
+   "end": 116.84,
+   "speaker": "Mooly",
+   "text": "那我就先講一下好了。"
+  },
+  {
+   "start": 117.46,
+   "end": 119.52,
+   "speaker": "Mooly",
+   "text": "英文程度的話，"
+  },
+  {
+   "start": 120.16,
+   "end": 124.22,
+   "speaker": "Mooly",
+   "text": "大概 10 年前有考過多益嗎？"
+  },
+  {
+   "start": 124.22,
+   "end": 128.22,
+   "speaker": "Mooly",
+   "text": "然後那個時候考是 855，"
+  },
+  {
+   "start": 128.9,
+   "end": 131.32,
+   "speaker": "Mooly",
+   "text": "然後 860 有那個什麼金色證書，"
+  },
+  {
+   "start": 131.32,
+   "end": 134.58,
+   "speaker": "Mooly",
+   "text": "所以就是差一點金色證書。"
+  },
+  {
+   "start": 134.58,
+   "end": 134.82,
+   "speaker": "Mooly",
+   "text": "對，"
+  },
+  {
+   "start": 134.82,
+   "end": 136.76,
+   "speaker": "Mooly",
+   "text": "那個也是很久以前考的。"
+  },
+  {
+   "start": 136.76,
+   "end": 143.84,
+   "speaker": "Mooly",
+   "text": "然後英文在高中之前都是偏爛的狀況，"
+  },
+  {
+   "start": 143.84,
+   "end": 145.86,
+   "speaker": "Mooly",
+   "text": "然後後來高中又要考大學嘛，"
+  },
+  {
+   "start": 145.86,
+   "end": 148.26,
+   "speaker": "Mooly",
+   "text": "那個時候認真念，所以有變好一點。"
+  },
+  {
+   "start": 148.26,
+   "end": 148.92,
+   "speaker": "Mooly",
+   "text": "但是，"
+  },
+  {
+   "start": 149.78,
+   "end": 151.42,
+   "speaker": "Mooly",
+   "text": "以整體來看的話，"
+  },
+  {
+   "start": 151.42,
+   "end": 156.06,
+   "speaker": "Mooly",
+   "text": "就是以大學來看，我算是英文很爛的那一群。"
+  },
+  {
+   "start": 156.06,
+   "end": 161.5,
+   "speaker": "Mooly",
+   "text": "那他這個爛客觀成績的表現，就是剛入學台大的時候，"
+  },
+  {
+   "start": 161.5,
+   "end": 163.54,
+   "speaker": "Mooly",
+   "text": "就收到學校寄了一封信，"
+  },
+  {
+   "start": 163.54,
+   "end": 172.82,
+   "speaker": "Mooly",
+   "text": "他說你的台大的那個入學成績的英文，是在全學校的好像最後 10% 還是什麼。"
+  },
+  {
+   "start": 172.82,
+   "end": 174.9,
+   "speaker": "Mooly",
+   "text": "所以我的英文課已經被選好了，"
+  },
+  {
+   "start": 174.9,
+   "end": 176.98,
+   "speaker": "Mooly",
+   "text": "我不用自己選英文課，"
+  },
+  {
+   "start": 176.98,
+   "end": 178.98,
+   "speaker": "Kalan",
+   "text": "還會強制幫你選。"
+  },
+  {
+   "start": 178.98,
+   "end": 185.14,
+   "speaker": "Mooly",
+   "text": "對，他強制幫你選好某一個，就是專門給英文爛的人去上的英文課。"
+  },
+  {
+   "start": 185.8,
+   "end": 188.92,
+   "speaker": "Mooly",
+   "text": "但後來我沒有上，這個可以等一下再聊。"
+  },
+  {
+   "start": 188.92,
+   "end": 194.46,
+   "speaker": "Mooly",
+   "text": "總之，目前的英文程度大概是工作要用的話可以，"
+  },
+  {
+   "start": 194.46,
+   "end": 195.98,
+   "speaker": "Mooly",
+   "text": "但是不會完全聽懂，"
+  },
+  {
+   "start": 195.98,
+   "end": 198.9,
+   "speaker": "Mooly",
+   "text": "大概聽懂七八成左右。"
+  },
+  {
+   "start": 198.9,
+   "end": 202.74,
+   "speaker": "Mooly",
+   "text": "然後文法基本上都是錯的。"
+  },
+  {
+   "start": 202.74,
+   "end": 206.3,
+   "speaker": "Mooly",
+   "text": "所以我自己覺得我的英文程度大概是這樣。"
+  },
+  {
+   "start": 206.8,
+   "end": 213.08,
+   "speaker": "Kalan",
+   "text": "你剛剛講到一點，就是每個人的評判標準不太一樣，"
+  },
+  {
+   "start": 213.6,
+   "end": 216.08,
+   "speaker": "Kalan",
+   "text": "或是每個人的認知可能不太一樣。"
+  },
+  {
+   "start": 216.64,
+   "end": 218.54,
+   "speaker": "Kalan",
+   "text": "然後你又講到說，"
+  },
+  {
+   "start": 219.06,
+   "end": 220.28,
+   "speaker": "Kalan",
+   "text": "入學台大的時候，"
+  },
+  {
+   "start": 220.28,
+   "end": 222.1,
+   "speaker": "Kalan",
+   "text": "英文課已經幫你選好了，"
+  },
+  {
+   "start": 222.1,
+   "end": 223.34,
+   "speaker": "Kalan",
+   "text": "就可能就會覺得說，"
+  },
+  {
+   "start": 223.94,
+   "end": 231.44,
+   "speaker": "Kalan",
+   "text": "台大的就算是倒數，客觀上看起來可能也會是一個偏好的族群。"
+  },
+  {
+   "start": 233.34,
+   "end": 235.98,
+   "speaker": "Mooly",
+   "text": "我想講其實就類似這種，就像比如說我，"
+  },
+  {
+   "start": 235.98,
+   "end": 242.34,
+   "speaker": "Mooly",
+   "text": "就你剛看嘛，我這樣講說，我就是進台大的時候英文課被選好，所以我在"
+  },
+  {
+   "start": 242.34,
+   "end": 247.76,
+   "speaker": "Mooly",
+   "text": "這個，我確實在這個台大這整個群體裡面，我的英文是算最爛的那一群，"
+  },
+  {
+   "start": 247.76,
+   "end": 255.94,
+   "speaker": "Mooly",
+   "text": "但你如果放眼整個，比如說整個全部大學生來看的話，他可能在中間或中間偏上，他其實沒有這麼爛。"
+  },
+  {
+   "start": 256.96,
+   "end": 261.0,
+   "speaker": "Mooly",
+   "text": "那愷愷目前的自評英文程度大概到那個"
+  },
+  {
+   "start": 261.0,
+   "end": 262.22,
+   "speaker": "Mooly",
+   "text": "階段？"
+  },
+  {
+   "start": 262.22,
+   "end": 270.48,
+   "speaker": "Kalan",
+   "text": "我覺得我的自評英文程度，先從一些比較客觀的數字來看好了，就是我也有去考過多益，"
+  },
+  {
+   "start": 270.48,
+   "end": 274.16,
+   "speaker": "Kalan",
+   "text": "然後我那個時候的分數是 830。"
+  },
+  {
+   "start": 274.7,
+   "end": 275.7,
+   "speaker": "Mooly",
+   "text": "喔，830。"
+  },
+  {
+   "start": 275.7,
+   "end": 277.26,
+   "speaker": "Kalan",
+   "text": "對，應該是 830。"
+  },
+  {
+   "start": 278.08,
+   "end": 281.26,
+   "speaker": "Kalan",
+   "text": "然後其實那個時候我是為了要，"
+  },
+  {
+   "start": 281.82,
+   "end": 286.74,
+   "speaker": "Kalan",
+   "text": "因為大學你如果去考多益，可以抵一些那個英文課，"
+  },
+  {
+   "start": 286.74,
+   "end": 288.32,
+   "speaker": "Kalan",
+   "text": "所以我有去考。"
+  },
+  {
+   "start": 288.84,
+   "end": 289.54,
+   "speaker": "Kalan",
+   "text": "然後我覺得，"
+  },
+  {
+   "start": 289.54,
+   "end": 291.0,
+   "speaker": "Kalan",
+   "text": "相對啦，"
+  },
+  {
+   "start": 291.54,
+   "end": 295.84,
+   "speaker": "Kalan",
+   "text": "相對可能跟台大比起來沒有那麼嚴，"
+  },
+  {
+   "start": 295.84,
+   "end": 297.1,
+   "speaker": "Kalan",
+   "text": "也不是說沒有那麼嚴，"
+  },
+  {
+   "start": 297.1,
+   "end": 299.72,
+   "speaker": "Kalan",
+   "text": "就是你可以用相對比較低的分數，"
+  },
+  {
+   "start": 300.34,
+   "end": 302.3,
+   "speaker": "Kalan",
+   "text": "可以抵到比較多的課，"
+  },
+  {
+   "start": 302.3,
+   "end": 303.44,
+   "speaker": "Kalan",
+   "text": "大概是這種感覺。"
+  },
+  {
+   "start": 305.16,
+   "end": 308.16,
+   "speaker": "Kalan",
+   "text": "那我自己評價起來的話呢，"
+  },
+  {
+   "start": 308.16,
+   "end": 311.78,
+   "speaker": "Kalan",
+   "text": "我是國中的時候我超級討厭英文，"
+  },
+  {
+   "start": 312.48,
+   "end": 314.66,
+   "speaker": "Kalan",
+   "text": "然後我英文也是很爛的情況，"
+  },
+  {
+   "start": 316.0,
+   "end": 318.08,
+   "speaker": "Kalan",
+   "text": "但是在高中之後，"
+  },
+  {
+   "start": 318.08,
+   "end": 322.78,
+   "speaker": "Kalan",
+   "text": "我發現我好像逐漸喜歡上英文這件事情了。"
+  },
+  {
+   "start": 325.98,
+   "end": 328.54,
+   "speaker": "Kalan",
+   "text": "主要原因應該是因為，"
+  },
+  {
+   "start": 329.08,
+   "end": 333.92,
+   "speaker": "Kalan",
+   "text": "我覺得學英文這件事情其實比想像中的開心，"
+  },
+  {
+   "start": 333.92,
+   "end": 339.6,
+   "speaker": "Kalan",
+   "text": "跟學到另外一個語言，可以帶來我蠻有成就感的一件事情。"
+  },
+  {
+   "start": 341.86,
+   "end": 345.38,
+   "speaker": "Mooly",
+   "text": "那那個時候怎麼會突然有這個轉變？"
+  },
+  {
+   "start": 345.38,
+   "end": 346.88,
+   "speaker": "Kalan",
+   "text": "突然有這個轉變，"
+  },
+  {
+   "start": 347.7,
+   "end": 350.44,
+   "speaker": "Kalan",
+   "text": "我其實也不確定為什麼耶，"
+  },
+  {
+   "start": 350.44,
+   "end": 354.22,
+   "speaker": "Mooly",
+   "text": "就沒有特別發生什麼事情讓你突然覺得這樣？"
+  },
+  {
+   "start": 356.54,
+   "end": 358.98,
+   "speaker": "Kalan",
+   "text": "但那時候是有意識到說，"
+  },
+  {
+   "start": 358.98,
+   "end": 362.56,
+   "speaker": "Kalan",
+   "text": "英文原本是我非常不喜歡的科目，"
+  },
+  {
+   "start": 362.56,
+   "end": 365.6,
+   "speaker": "Kalan",
+   "text": "變成了一個我會期待去上的東西。"
+  },
+  {
+   "start": 367.12,
+   "end": 369.12,
+   "speaker": "Kalan",
+   "text": "然後從那個時候開始，"
+  },
+  {
+   "start": 369.58,
+   "end": 376.02,
+   "speaker": "Kalan",
+   "text": "不管是聽力也好，或者是口說的話，可能那時候因為能講的"
+  },
+  {
+   "start": 376.02,
+   "end": 378.18,
+   "speaker": "Kalan",
+   "text": "時機還是算比較少，"
+  },
+  {
+   "start": 378.18,
+   "end": 381.76,
+   "speaker": "Kalan",
+   "text": "所以並沒有到非常多口說的機會，"
+  },
+  {
+   "start": 381.76,
+   "end": 385.7,
+   "speaker": "Kalan",
+   "text": "但是像是聽力或者是閱讀等等，"
+  },
+  {
+   "start": 385.7,
+   "end": 387.56,
+   "speaker": "Kalan",
+   "text": "我覺得都有蠻大的進步的。"
+  },
+  {
+   "start": 388.14,
+   "end": 390.16,
+   "speaker": "Mooly",
+   "text": "我覺得口說這個非常正常，"
+  },
+  {
+   "start": 390.16,
+   "end": 393.78,
+   "speaker": "Mooly",
+   "text": "所有台灣學生的通病就是只會考試不會講，"
+  },
+  {
+   "start": 394.56,
+   "end": 396.8,
+   "speaker": "Kalan",
+   "text": "大概是這樣的情形。"
+  },
+  {
+   "start": 396.8,
+   "end": 398.28,
+   "speaker": "Kalan",
+   "text": "然後到大學之後，"
+  },
+  {
+   "start": 398.82,
+   "end": 400.78,
+   "speaker": "Kalan",
+   "text": "我其實有修一些"
+  },
+  {
+   "start": 402.52,
+   "end": 404.78,
+   "speaker": "Kalan",
+   "text": "比較不一樣的英文課，"
+  },
+  {
+   "start": 404.78,
+   "end": 405.92,
+   "speaker": "Mooly",
+   "text": "像是，"
+  },
+  {
+   "start": 406.58,
+   "end": 409.66,
+   "speaker": "Kalan",
+   "text": "像是我去修美國歷史，"
+  },
+  {
+   "start": 411.8,
+   "end": 416.76,
+   "speaker": "Kalan",
+   "text": "然後他那個美國歷史是完全外國籍的老師上課，"
+  },
+  {
+   "start": 416.76,
+   "end": 419.52,
+   "speaker": "Kalan",
+   "text": "所以你一進去就是你一定要用英文"
+  },
+  {
+   "start": 419.98,
+   "end": 421.3,
+   "speaker": "Mooly",
+   "text": "全英文的。"
+  },
+  {
+   "start": 423.0,
+   "end": 427.22,
+   "speaker": "Kalan",
+   "text": "然後那時候還要做辯論什麼的，"
+  },
+  {
+   "start": 427.22,
+   "end": 429.2,
+   "speaker": "Kalan",
+   "text": "所以那個時候有學了，"
+  },
+  {
+   "start": 429.2,
+   "end": 433.54,
+   "speaker": "Kalan",
+   "text": "算是強迫學了一些口說，跟強迫自己去"
+  },
+  {
+   "start": 433.54,
+   "end": 439.36,
+   "speaker": "Kalan",
+   "text": "閱讀那些美國歷史，雖然說現在都忘得差不多了。"
+  },
+  {
+   "start": 439.36,
+   "end": 445.24,
+   "speaker": "Mooly",
+   "text": "這課聽起來很不錯耶，就是全英文的課，然後還需要辯論，就會讓你一直需要講話。"
+  },
+  {
+   "start": 445.24,
+   "end": 445.86,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 446.38,
+   "end": 451.24,
+   "speaker": "Kalan",
+   "text": "然後後來我還有去修英文演講的課，"
+  },
+  {
+   "start": 451.24,
+   "end": 454.64,
+   "speaker": "Kalan",
+   "text": "只是那個英文演講的課就相對"
+  },
+  {
+   "start": 454.64,
+   "end": 456.58,
+   "speaker": "Kalan",
+   "text": "因為那個老師是"
+  },
+  {
+   "start": 457.08,
+   "end": 458.18,
+   "speaker": "Kalan",
+   "text": "就是也是台灣人，"
+  },
+  {
+   "start": 458.18,
+   "end": 461.64,
+   "speaker": "Kalan",
+   "text": "所以有一部分是可以用中文溝通的。沒錯，"
+  },
+  {
+   "start": 462.74,
+   "end": 467.9,
+   "speaker": "Kalan",
+   "text": "但也是會需要上台，那上台去演講的時候就需要用英文這樣子。"
+  },
+  {
+   "start": 469.08,
+   "end": 474.16,
+   "speaker": "Kalan",
+   "text": "所以大概是那個時候有磨練了一些口說的機會。"
+  },
+  {
+   "start": 474.68,
+   "end": 478.2,
+   "speaker": "Mooly",
+   "text": "那他那個上台演講是每一堂課都需要上去，還是"
+  },
+  {
+   "start": 478.2,
+   "end": 480.9,
+   "speaker": "Kalan",
+   "text": "每一堂課都會有。"
+  },
+  {
+   "start": 482.36,
+   "end": 484.62,
+   "speaker": "Mooly",
+   "text": "就是每一個人都需要上去嗎？"
+  },
+  {
+   "start": 484.62,
+   "end": 488.96,
+   "speaker": "Kalan",
+   "text": "他是，對，每個人都需要上去，他會讓你每個人都講到這樣。"
+  },
+  {
+   "start": 488.96,
+   "end": 491.36,
+   "speaker": "Mooly",
+   "text": "這樣聽起來確實是訓練口說，"
+  },
+  {
+   "start": 491.36,
+   "end": 493.5,
+   "speaker": "Mooly",
+   "text": "蠻好的一個課程。"
+  },
+  {
+   "start": 494.34,
+   "end": 496.2,
+   "speaker": "Mooly",
+   "text": "那之後，比如說"
+  },
+  {
+   "start": 496.78,
+   "end": 499.4,
+   "speaker": "Mooly",
+   "text": "學生畢業之後，比如說去工作之後，"
+  },
+  {
+   "start": 500.12,
+   "end": 504.5,
+   "speaker": "Mooly",
+   "text": "就是在工作上，你覺得你的英文程度大概在哪個位置？"
+  },
+  {
+   "start": 504.5,
+   "end": 506.44,
+   "speaker": "Kalan",
+   "text": "出去工作後，"
+  },
+  {
+   "start": 507.06,
+   "end": 509.62,
+   "speaker": "Kalan",
+   "text": "因為我剛開始工作是在台灣嘛，"
+  },
+  {
+   "start": 509.62,
+   "end": 512.84,
+   "speaker": "Kalan",
+   "text": "所以其實用英文的機會，"
+  },
+  {
+   "start": 513.4,
+   "end": 514.98,
+   "speaker": "Kalan",
+   "text": "口說一樣偏少，"
+  },
+  {
+   "start": 514.98,
+   "end": 518.48,
+   "speaker": "Kalan",
+   "text": "但是有些，我知道有些公司，"
+  },
+  {
+   "start": 519.42,
+   "end": 522.1,
+   "speaker": "Kalan",
+   "text": "包含我之前在工作的一些公司，"
+  },
+  {
+   "start": 522.68,
+   "end": 525.34,
+   "speaker": "Kalan",
+   "text": "我們在寫 pull request 或者是 comment message，"
+  },
+  {
+   "start": 525.88,
+   "end": 526.88,
+   "speaker": "Mooly",
+   "text": "都用英文，"
+  },
+  {
+   "start": 526.88,
+   "end": 529.1,
+   "speaker": "Kalan",
+   "text": "程式碼裡面的 comment，"
+  },
+  {
+   "start": 529.1,
+   "end": 531.74,
+   "speaker": "Kalan",
+   "text": "都會用英文。"
+  },
+  {
+   "start": 533.02,
+   "end": 534.06,
+   "speaker": "Kalan",
+   "text": "那個時候，"
+  },
+  {
+   "start": 535.7,
+   "end": 537.44,
+   "speaker": "Kalan",
+   "text": "我覺得偏中等耶，"
+  },
+  {
+   "start": 538.8,
+   "end": 544.18,
+   "speaker": "Kalan",
+   "text": "但也有可能是因為我工作的一些公司，它是相對，"
+  },
+  {
+   "start": 544.18,
+   "end": 547.5,
+   "speaker": "Kalan",
+   "text": "怎麼講，身邊都會是一些相對優秀的同事，"
+  },
+  {
+   "start": 547.5,
+   "end": 552.24,
+   "speaker": "Kalan",
+   "text": "所以我覺得這樣客觀看起來，我覺得會是偏中等的。"
+  },
+  {
+   "start": 552.7,
+   "end": 553.14,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 553.9,
+   "end": 557.02,
+   "speaker": "Mooly",
+   "text": "所以這個中等指的是，就是剛剛那些，"
+  },
+  {
+   "start": 557.52,
+   "end": 561.66,
+   "speaker": "Mooly",
+   "text": "比如說你發 pull request 什麼的，那些敘述寫英文，它也指的是說"
+  },
+  {
+   "start": 561.66,
+   "end": 562.38,
+   "speaker": "Mooly",
+   "text": "之後，"
+  },
+  {
+   "start": 562.38,
+   "end": 566.46,
+   "speaker": "Mooly",
+   "text": "因為你之後在日本的工作上也會需要用到英文嘛，"
+  },
+  {
+   "start": 566.46,
+   "end": 571.38,
+   "speaker": "Mooly",
+   "text": "那在日本工作上用到英文跟其他同事溝通交談的時候，也是中等，"
+  },
+  {
+   "start": 571.38,
+   "end": 572.38,
+   "speaker": "Mooly",
+   "text": "這個感覺嗎？"
+  },
+  {
+   "start": 574.32,
+   "end": 575.2,
+   "speaker": "Kalan",
+   "text": "可能要分，"
+  },
+  {
+   "start": 575.2,
+   "end": 577.98,
+   "speaker": "Kalan",
+   "text": "這個蠻有趣的，可以分開來看。"
+  },
+  {
+   "start": 578.74,
+   "end": 581.16,
+   "speaker": "Kalan",
+   "text": "在台灣工作的時候，我覺得是中等，"
+  },
+  {
+   "start": 583.14,
+   "end": 585.56,
+   "speaker": "Kalan",
+   "text": "然後到日本工作後，"
+  },
+  {
+   "start": 586.18,
+   "end": 589.18,
+   "speaker": "Kalan",
+   "text": "就是你要主要是講英文還是日文，"
+  },
+  {
+   "start": 589.18,
+   "end": 593.48,
+   "speaker": "Kalan",
+   "text": "這件事情主要會根據你的專案。"
+  },
+  {
+   "start": 594.08,
+   "end": 598.54,
+   "speaker": "Kalan",
+   "text": "所以比如說，如果你的專案可能是外國人比較多的話，"
+  },
+  {
+   "start": 598.54,
+   "end": 600.88,
+   "speaker": "Kalan",
+   "text": "那可能你的這個專案裡面，"
+  },
+  {
+   "start": 601.52,
+   "end": 603.96,
+   "speaker": "Kalan",
+   "text": "主要的溝通語言就會是英文。"
+  },
+  {
+   "start": 604.72,
+   "end": 605.16,
+   "speaker": "Mooly",
+   "text": "對，"
+  },
+  {
+   "start": 605.64,
+   "end": 611.34,
+   "speaker": "Kalan",
+   "text": "那如果都是日本人居多的話，那自然而然會用日文來溝通。"
+  },
+  {
+   "start": 611.86,
+   "end": 615.24,
+   "speaker": "Kalan",
+   "text": "外國人偏多跟日本人偏多的專案，我都待過。"
+  },
+  {
+   "start": 615.24,
+   "end": 618.16,
+   "speaker": "Kalan",
+   "text": "那我先講外國人偏多的這個狀況好了。"
+  },
+  {
+   "start": 619.5,
+   "end": 621.46,
+   "speaker": "Kalan",
+   "text": "我覺得跟歐美比起來的話，"
+  },
+  {
+   "start": 621.46,
+   "end": 625.84,
+   "speaker": "Kalan",
+   "text": "台灣人的英文程度可能就只能排比較後面了吧。"
+  },
+  {
+   "start": 625.84,
+   "end": 626.52,
+   "speaker": "Mooly",
+   "text": "當然。"
+  },
+  {
+   "start": 626.52,
+   "end": 632.24,
+   "speaker": "Kalan",
+   "text": "因為畢竟他們的語系是會比較符合英文的。"
+  },
+  {
+   "start": 632.24,
+   "end": 633.54,
+   "speaker": "Mooly",
+   "text": "對，比較相近一點。"
+  },
+  {
+   "start": 634.58,
+   "end": 638.92,
+   "speaker": "Kalan",
+   "text": "那當然這會造成另外一個狀況，就是他們可能學日文的時候就會比較"
+  },
+  {
+   "start": 638.92,
+   "end": 640.84,
+   "speaker": "Kalan",
+   "text": "相對比較辛苦一點。"
+  },
+  {
+   "start": 642.44,
+   "end": 646.36,
+   "speaker": "Kalan",
+   "text": "那日本人講英文的話，可能又是另外一個世界。"
+  },
+  {
+   "start": 647.02,
+   "end": 648.06,
+   "speaker": "Kalan",
+   "text": "就是呢，"
+  },
+  {
+   "start": 648.06,
+   "end": 651.24,
+   "speaker": "Kalan",
+   "text": "你可能不管怎麼講都會，"
+  },
+  {
+   "start": 651.24,
+   "end": 654.08,
+   "speaker": "Kalan",
+   "text": "至少都會比日本人好。"
+  },
+  {
+   "start": 656.06,
+   "end": 657.2,
+   "speaker": "Kalan",
+   "text": "當然我們要，"
+  },
+  {
+   "start": 657.2,
+   "end": 659.58,
+   "speaker": "Kalan",
+   "text": "我們就不是要往下比嘛，"
+  },
+  {
+   "start": 659.58,
+   "end": 661.12,
+   "speaker": "Kalan",
+   "text": "我們要往上看。"
+  },
+  {
+   "start": 662.94,
+   "end": 663.5,
+   "speaker": "Kalan",
+   "text": "但是，"
+  },
+  {
+   "start": 664.24,
+   "end": 668.26,
+   "speaker": "Kalan",
+   "text": "對，你跟日本人講英文的時候，大概就會遇到這樣的狀況。"
+  },
+  {
+   "start": 668.26,
+   "end": 671.26,
+   "speaker": "Kalan",
+   "text": "不過如果你自己有學日文的話，"
+  },
+  {
+   "start": 671.26,
+   "end": 676.88,
+   "speaker": "Kalan",
+   "text": "你可能相對地會比較懂這些日本人在講什麼東西。"
+  },
+  {
+   "start": 677.64,
+   "end": 680.78,
+   "speaker": "Kalan",
+   "text": "而且因為日本人他們在講英文的時候，"
+  },
+  {
+   "start": 681.24,
+   "end": 683.68,
+   "speaker": "Kalan",
+   "text": "已經會受到蠻多日文的影響，"
+  },
+  {
+   "start": 683.68,
+   "end": 690.24,
+   "speaker": "Kalan",
+   "text": "所以如果那些日本人是沒有特別去做過口語訓練的話，"
+  },
+  {
+   "start": 690.24,
+   "end": 691.16,
+   "speaker": "Kalan",
+   "text": "他們可能，"
+  },
+  {
+   "start": 691.7,
+   "end": 696.9,
+   "speaker": "Kalan",
+   "text": "我覺得體感上會比台灣人更難拼湊出一個完整的句子，這樣。"
+  },
+  {
+   "start": 697.52,
+   "end": 699.86,
+   "speaker": "Mooly",
+   "text": "對，尤其是他們有些，"
+  },
+  {
+   "start": 699.86,
+   "end": 703.5,
+   "speaker": "Mooly",
+   "text": "就像你講的，他們很多東西其實已經是日文，"
+  },
+  {
+   "start": 703.5,
+   "end": 706.12,
+   "speaker": "Mooly",
+   "text": "很多英文已經是日文外來語的一部分，"
+  },
+  {
+   "start": 706.12,
+   "end": 711.06,
+   "speaker": "Mooly",
+   "text": "所以他們的發音可能就是直接照日文的發音，"
+  },
+  {
+   "start": 711.06,
+   "end": 715.18,
+   "speaker": "Mooly",
+   "text": "然後有些發得比較像，有些可能沒那麼像，"
+  },
+  {
+   "start": 715.18,
+   "end": 716.92,
+   "speaker": "Mooly",
+   "text": "但因為他們就習慣了。"
+  },
+  {
+   "start": 716.92,
+   "end": 718.12,
+   "speaker": "Mooly",
+   "text": "比如說什麼 Google，"
+  },
+  {
+   "start": 718.92,
+   "end": 722.0,
+   "speaker": "Kalan",
+   "text": "然後還有什麼，那個 d 嘛，"
+  },
+  {
+   "start": 722.0,
+   "end": 723.44,
+   "speaker": "Kalan",
+   "text": "d 都會變成 do。"
+  },
+  {
+   "start": 724.18,
+   "end": 724.66,
+   "speaker": "Kalan",
+   "text": "所以，"
+  },
+  {
+   "start": 725.14,
+   "end": 725.62,
+   "speaker": "Mooly",
+   "text": "所以，"
+  },
+  {
+   "start": 725.62,
+   "end": 729.26,
+   "speaker": "Mooly",
+   "text": "他們有一套自己的轉換規則，"
+  },
+  {
+   "start": 729.26,
+   "end": 730.78,
+   "speaker": "Mooly",
+   "text": "然後有些規則不是那麼像，"
+  },
+  {
+   "start": 731.4,
+   "end": 732.84,
+   "speaker": "Mooly",
+   "text": "所以發音起來就會變得，"
+  },
+  {
+   "start": 733.7,
+   "end": 737.02,
+   "speaker": "Mooly",
+   "text": "你第一次聽到後，會不是那麼好辨識。"
+  },
+  {
+   "start": 737.02,
+   "end": 740.92,
+   "speaker": "Kalan",
+   "text": "對，可是聽久了可能也習慣了。"
+  },
+  {
+   "start": 740.92,
+   "end": 741.78,
+   "speaker": "Mooly",
+   "text": "聽久就習慣了。"
+  },
+  {
+   "start": 742.2,
+   "end": 743.76,
+   "speaker": "Kalan",
+   "text": "聽久了可能就習慣了。"
+  },
+  {
+   "start": 743.76,
+   "end": 745.08,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯。"
+  },
+  {
+   "start": 745.08,
+   "end": 746.9,
+   "speaker": "Kalan",
+   "text": "我之前好像還有，因為"
+  },
+  {
+   "start": 747.48,
+   "end": 749.46,
+   "speaker": "Kalan",
+   "text": "已經習慣了日文的，"
+  },
+  {
+   "start": 749.46,
+   "end": 755.34,
+   "speaker": "Kalan",
+   "text": "所以反而你要講英文的時候，突然被那個發音影響。"
+  },
+  {
+   "start": 755.34,
+   "end": 755.86,
+   "speaker": "Mooly",
+   "text": "喔，對。"
+  },
+  {
+   "start": 755.86,
+   "end": 756.72,
+   "speaker": "Mooly",
+   "text": "這個聽說，"
+  },
+  {
+   "start": 756.72,
+   "end": 762.38,
+   "speaker": "Mooly",
+   "text": "通常是聽說你日文學越久，你的英文程度可能會有點下降，"
+  },
+  {
+   "start": 762.38,
+   "end": 764.96,
+   "speaker": "Mooly",
+   "text": "因為可能會被連帶影響到。"
+  },
+  {
+   "start": 764.96,
+   "end": 766.76,
+   "speaker": "Kalan",
+   "text": "像電梯，"
+  },
+  {
+   "start": 767.52,
+   "end": 769.64,
+   "speaker": "Kalan",
+   "text": "英文不是 elevator 嗎？"
+  },
+  {
+   "start": 770.26,
+   "end": 772.64,
+   "speaker": "Kalan",
+   "text": "那日文的話叫エレベーター，"
+  },
+  {
+   "start": 773.12,
+   "end": 775.68,
+   "speaker": "Kalan",
+   "text": "所以你可能就會不小心講一講，就那個，"
+  },
+  {
+   "start": 775.68,
+   "end": 777.92,
+   "speaker": "Kalan",
+   "text": "エレベーター的那個「ター」就講出來了。"
+  },
+  {
+   "start": 780.44,
+   "end": 781.76,
+   "speaker": "Kalan",
+   "text": "大概是這種感覺。"
+  },
+  {
+   "start": 783.42,
+   "end": 787.18,
+   "speaker": "Kalan",
+   "text": "Mooly，你在工作上用英文之後，"
+  },
+  {
+   "start": 787.18,
+   "end": 792.58,
+   "speaker": "Kalan",
+   "text": "不管是新加坡也好，或是在日本也好，你感受到的真實狀況會是怎樣？"
+  },
+  {
+   "start": 793.16,
+   "end": 794.48,
+   "speaker": "Mooly",
+   "text": "真實狀況嗎？"
+  },
+  {
+   "start": 794.48,
+   "end": 800.08,
+   "speaker": "Mooly",
+   "text": "我覺得有幾個部分蠻有趣，可以聊的。"
+  },
+  {
+   "start": 800.08,
+   "end": 803.64,
+   "speaker": "Mooly",
+   "text": "第一個是先聊，"
+  },
+  {
+   "start": 803.64,
+   "end": 807.68,
+   "speaker": "Mooly",
+   "text": "我想先聊英文程度好了。"
+  },
+  {
+   "start": 807.68,
+   "end": 808.44,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 809.0,
+   "end": 812.08,
+   "speaker": "Mooly",
+   "text": "在那時候，在新加坡跟其他同事工作的時候，"
+  },
+  {
+   "start": 812.74,
+   "end": 818.2,
+   "speaker": "Mooly",
+   "text": "我基本上可能只有一半左右是聽得懂的，"
+  },
+  {
+   "start": 818.2,
+   "end": 822.16,
+   "speaker": "Mooly",
+   "text": "然後講的話其實也不太會講。"
+  },
+  {
+   "start": 822.16,
+   "end": 824.74,
+   "speaker": "Mooly",
+   "text": "大部分都是聽同事聊天，"
+  },
+  {
+   "start": 824.74,
+   "end": 827.94,
+   "speaker": "Mooly",
+   "text": "然後我就把它當作免費的英文課在學習。"
+  },
+  {
+   "start": 827.94,
+   "end": 831.6,
+   "speaker": "Mooly",
+   "text": "其他同事的英文程度都很明顯再更好一點。"
+  },
+  {
+   "start": 831.6,
+   "end": 832.82,
+   "speaker": "Mooly",
+   "text": "再來可以聊一下，"
+  },
+  {
+   "start": 832.82,
+   "end": 834.8,
+   "speaker": "Mooly",
+   "text": "那腔調這件事情好了。"
+  },
+  {
+   "start": 834.8,
+   "end": 835.68,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 835.68,
+   "end": 838.48,
+   "speaker": "Mooly",
+   "text": "因為新加坡本來就是一個很多元的地方，"
+  },
+  {
+   "start": 838.48,
+   "end": 847.36,
+   "speaker": "Mooly",
+   "text": "那我同事可能有印度人、中國人、俄羅斯人、韓國人、印尼人等等，反正就是各種地方的人都有。"
+  },
+  {
+   "start": 847.82,
+   "end": 852.72,
+   "speaker": "Mooly",
+   "text": "那當然如果你論腔調的話，是印度那邊的腔調是蠻重的，"
+  },
+  {
+   "start": 852.72,
+   "end": 853.56,
+   "speaker": "Mooly",
+   "text": "就他們有一個，"
+  },
+  {
+   "start": 853.56,
+   "end": 855.82,
+   "speaker": "Mooly",
+   "text": "一樣有一個自己的那個腔調嘛。"
+  },
+  {
+   "start": 855.82,
+   "end": 858.62,
+   "speaker": "Mooly",
+   "text": "然後當然新加坡有自己的新加坡腔，"
+  },
+  {
+   "start": 858.62,
+   "end": 861.54,
+   "speaker": "Mooly",
+   "text": "他的英文也是那個腔調，也不太一樣。"
+  },
+  {
+   "start": 861.54,
+   "end": 866.04,
+   "speaker": "Mooly",
+   "text": "那就會需要一點時間去熟悉這些腔調。"
+  },
+  {
+   "start": 866.48,
+   "end": 870.26,
+   "speaker": "Mooly",
+   "text": "那既然講到腔調跟口音這個問題，也可以順便來談談一個問題，"
+  },
+  {
+   "start": 870.26,
+   "end": 874.82,
+   "speaker": "Mooly",
+   "text": "就是在我自己的學習歷程中，會覺得其實，"
+  },
+  {
+   "start": 875.36,
+   "end": 876.54,
+   "speaker": "Mooly",
+   "text": "比如說在新加坡好了，"
+  },
+  {
+   "start": 876.54,
+   "end": 879.06,
+   "speaker": "Mooly",
+   "text": "就雖然有這麼多種口音什麼的，"
+  },
+  {
+   "start": 879.06,
+   "end": 882.9,
+   "speaker": "Mooly",
+   "text": "但我也從來沒有聽他們自己聽不懂過。"
+  },
+  {
+   "start": 882.9,
+   "end": 886.86,
+   "speaker": "Mooly",
+   "text": "就是說只有我一個英文比較爛的人，可能聽不懂那些腔調在講什麼，"
+  },
+  {
+   "start": 886.86,
+   "end": 888.18,
+   "speaker": "Mooly",
+   "text": "但他們英文比較好的人，"
+  },
+  {
+   "start": 888.18,
+   "end": 890.24,
+   "speaker": "Mooly",
+   "text": "他們是各種腔調感覺，"
+  },
+  {
+   "start": 890.24,
+   "end": 893.26,
+   "speaker": "Mooly",
+   "text": "可能都有接觸過，都知道大概在講什麼。"
+  },
+  {
+   "start": 893.26,
+   "end": 894.58,
+   "speaker": "Mooly",
+   "text": "所以我覺得，"
+  },
+  {
+   "start": 894.58,
+   "end": 895.72,
+   "speaker": "Mooly",
+   "text": "腔調在，"
+  },
+  {
+   "start": 895.72,
+   "end": 902.9,
+   "speaker": "Mooly",
+   "text": "它可能會在那個台灣是被很強調的一個部分，說你的英文要講得跟所謂的"
+  },
+  {
+   "start": 903.5,
+   "end": 906.4,
+   "speaker": "Mooly",
+   "text": "標準美腔很像。"
+  },
+  {
+   "start": 906.4,
+   "end": 915.14,
+   "speaker": "Mooly",
+   "text": "但畢竟標準這種東西，你甚至光是美國的英文跟英國的英文就是兩個不同的腔調，"
+  },
+  {
+   "start": 915.14,
+   "end": 918.12,
+   "speaker": "Mooly",
+   "text": "第一個是你很難去定義出一個標準，但反正，"
+  },
+  {
+   "start": 918.12,
+   "end": 922.88,
+   "speaker": "Mooly",
+   "text": "台灣人會崇尚的確實就是美國人講話的那種方式。"
+  },
+  {
+   "start": 923.4,
+   "end": 928.44,
+   "speaker": "Mooly",
+   "text": "那我自己是覺得其實在學英文的過程中，"
+  },
+  {
+   "start": 928.44,
+   "end": 931.38,
+   "speaker": "Mooly",
+   "text": "口音反而是比較不重要的一個，"
+  },
+  {
+   "start": 931.38,
+   "end": 935.52,
+   "speaker": "Mooly",
+   "text": "因為你真的到國外去之後，其實也沒人會在乎你的口音重不重，"
+  },
+  {
+   "start": 935.52,
+   "end": 942.62,
+   "speaker": "Mooly",
+   "text": "尤其當你溝通的對象如果他是一個英文程度本來就很好的人來說的話，他其實基本上也都聽得懂。"
+  },
+  {
+   "start": 942.62,
+   "end": 945.76,
+   "speaker": "Kalan",
+   "text": "對，這件事情我滿同意的。"
+  },
+  {
+   "start": 945.76,
+   "end": 948.08,
+   "speaker": "Kalan",
+   "text": "然後你剛剛講到腔調那件事情，"
+  },
+  {
+   "start": 948.84,
+   "end": 949.34,
+   "speaker": "Kalan",
+   "text": "的確，"
+  },
+  {
+   "start": 949.96,
+   "end": 952.48,
+   "speaker": "Kalan",
+   "text": "印度的腔調真的是，"
+  },
+  {
+   "start": 953.4,
+   "end": 955.1,
+   "speaker": "Kalan",
+   "text": "對我來說蠻難的。"
+  },
+  {
+   "start": 955.1,
+   "end": 960.02,
+   "speaker": "Kalan",
+   "text": "然後我那時候好像還有遇過越南的同事，"
+  },
+  {
+   "start": 960.02,
+   "end": 963.38,
+   "speaker": "Kalan",
+   "text": "我覺得越南的腔調更難。"
+  },
+  {
+   "start": 963.38,
+   "end": 965.62,
+   "speaker": "Mooly",
+   "text": "喔對，也蠻難的。"
+  },
+  {
+   "start": 965.62,
+   "end": 966.78,
+   "speaker": "Kalan",
+   "text": "對，因為他們會，"
+  },
+  {
+   "start": 966.78,
+   "end": 972.12,
+   "speaker": "Kalan",
+   "text": "我不確定是因為他們本身語言特性還是怎樣，他們會省略尾音。"
+  },
+  {
+   "start": 972.62,
+   "end": 974.56,
+   "speaker": "Kalan",
+   "text": "那比如說一個例子是，"
+  },
+  {
+   "start": 975.3,
+   "end": 976.6,
+   "speaker": "Kalan",
+   "text": "我們講 test，"
+  },
+  {
+   "start": 976.6,
+   "end": 981.8,
+   "speaker": "Kalan",
+   "text": "那那個 test 後面那個 st 其實是蠻重要的，"
+  },
+  {
+   "start": 981.8,
+   "end": 982.38,
+   "speaker": "Kalan",
+   "text": "但是，"
+  },
+  {
+   "start": 983.08,
+   "end": 985.64,
+   "speaker": "Kalan",
+   "text": "那越南的同事就會講 tag。"
+  },
+  {
+   "start": 985.64,
+   "end": 987.52,
+   "speaker": "Mooly",
+   "text": "喔，他就直接 tag 這樣子。"
+  },
+  {
+   "start": 987.52,
+   "end": 988.44,
+   "speaker": "Kalan",
+   "text": "就是一個 tag，可是，"
+  },
+  {
+   "start": 988.44,
+   "end": 990.86,
+   "speaker": "Kalan",
+   "text": "你講一個 tag，我根本就不知道是什麼。"
+  },
+  {
+   "start": 991.78,
+   "end": 993.56,
+   "speaker": "Kalan",
+   "text": "對啊，所以有可能，"
+  },
+  {
+   "start": 994.16,
+   "end": 996.0,
+   "speaker": "Kalan",
+   "text": "你可能是想要講 text，"
+  },
+  {
+   "start": 996.48,
+   "end": 997.84,
+   "speaker": "Kalan",
+   "text": "就是文字的那個 text。"
+  },
+  {
+   "start": 998.66,
+   "end": 1001.3,
+   "speaker": "Kalan",
+   "text": "所以你把尾音省略掉的話，會，"
+  },
+  {
+   "start": 1001.3,
+   "end": 1005.18,
+   "speaker": "Kalan",
+   "text": "就是對理解其實是會出現蠻大的影響的。"
+  },
+  {
+   "start": 1005.82,
+   "end": 1008.94,
+   "speaker": "Mooly",
+   "text": "對對對，沒錯沒錯，然後基本上。"
+  },
+  {
+   "start": 1008.94,
+   "end": 1012.98,
+   "speaker": "Mooly",
+   "text": "其實我覺得除了口音之外，還有幾個比較有趣的是，"
+  },
+  {
+   "start": 1013.98,
+   "end": 1022.58,
+   "speaker": "Mooly",
+   "text": "我覺得那個時候之所以英文覺得不夠好，或是口語上不夠用的時候，其實還有兩個狀況，第一個是，"
+  },
+  {
+   "start": 1022.58,
+   "end": 1028.78,
+   "speaker": "Mooly",
+   "text": "我發現真的，你在職場上或什麼，你在溝通的時候，用的詞很多都是那種"
+  },
+  {
+   "start": 1029.46,
+   "end": 1031.7,
+   "speaker": "Mooly",
+   "text": "簡單的片語組合。"
+  },
+  {
+   "start": 1031.7,
+   "end": 1033.66,
+   "speaker": "Mooly",
+   "text": "比如說那個時候就會聽到，比如說，"
+  },
+  {
+   "start": 1034.12,
+   "end": 1038.38,
+   "speaker": "Mooly",
+   "text": "我們要把我們的專案或什麼的時程 push back，"
+  },
+  {
+   "start": 1038.38,
+   "end": 1040.42,
+   "speaker": "Mooly",
+   "text": "它可能是延後或什麼的。"
+  },
+  {
+   "start": 1040.42,
+   "end": 1043.48,
+   "speaker": "Mooly",
+   "text": "然後光是 push 加上什麼，它就有很多，"
+  },
+  {
+   "start": 1044.02,
+   "end": 1047.38,
+   "speaker": "Mooly",
+   "text": "超級多種，比如說 push up 是伏地挺身嗎？"
+  },
+  {
+   "start": 1047.38,
+   "end": 1054.72,
+   "speaker": "Mooly",
+   "text": "然後還有什麼 push out，就是你 push 後面基本上你接任何一個簡單的東西，它都可以成為一個新的意義。"
+  },
+  {
+   "start": 1054.72,
+   "end": 1058.24,
+   "speaker": "Mooly",
+   "text": "然後這些東西非常非常常用，"
+  },
+  {
+   "start": 1058.24,
+   "end": 1060.96,
+   "speaker": "Mooly",
+   "text": "但有些東西雖然你可能大概可以猜，但是"
+  },
+  {
+   "start": 1061.46,
+   "end": 1062.84,
+   "speaker": "Mooly",
+   "text": "你如果沒有用過的話，"
+  },
+  {
+   "start": 1063.24,
+   "end": 1066.76,
+   "speaker": "Mooly",
+   "text": "你可能第一次聽到還是要去熟悉這東西。"
+  },
+  {
+   "start": 1066.76,
+   "end": 1069.06,
+   "speaker": "Mooly",
+   "text": "然後之前我在台灣，"
+  },
+  {
+   "start": 1069.52,
+   "end": 1071.08,
+   "speaker": "Mooly",
+   "text": "比如說在學校學英文的時候，"
+  },
+  {
+   "start": 1071.54,
+   "end": 1076.0,
+   "speaker": "Mooly",
+   "text": "這種東西我記得可能沒有到這麼多嗎？"
+  },
+  {
+   "start": 1076.0,
+   "end": 1077.88,
+   "speaker": "Mooly",
+   "text": "就是教的沒有這麼多。"
+  },
+  {
+   "start": 1077.88,
+   "end": 1083.36,
+   "speaker": "Kalan",
+   "text": "對，你這樣一講的確，片語真的蠻重要的，尤其是像這種什麼"
+  },
+  {
+   "start": 1083.36,
+   "end": 1085.64,
+   "speaker": "Kalan",
+   "text": "什麼 push back、push up，"
+  },
+  {
+   "start": 1086.66,
+   "end": 1088.3,
+   "speaker": "Mooly",
+   "text": "或是比如說，"
+  },
+  {
+   "start": 1088.86,
+   "end": 1093.0,
+   "speaker": "Mooly",
+   "text": "假設你要回一封信說我會盡快回覆你，"
+  },
+  {
+   "start": 1093.0,
+   "end": 1098.12,
+   "speaker": "Mooly",
+   "text": "那比如說以前在台灣，我們叫回覆可能就是 reply 或什麼，你就很"
+  },
+  {
+   "start": 1098.12,
+   "end": 1103.22,
+   "speaker": "Mooly",
+   "text": "你就會很直覺想到，那是不是什麼 I will reply you soon 或什麼的，"
+  },
+  {
+   "start": 1103.22,
+   "end": 1108.2,
+   "speaker": "Mooly",
+   "text": "但其實比較常用的是什麼 I will get back to you soon。"
+  },
+  {
+   "start": 1108.2,
+   "end": 1111.6,
+   "speaker": "Mooly",
+   "text": "它是 get back，它一樣是一個片語的組合。"
+  },
+  {
+   "start": 1112.2,
+   "end": 1112.64,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 1112.64,
+   "end": 1114.02,
+   "speaker": "Kalan",
+   "text": "喔，對。"
+  },
+  {
+   "start": 1114.68,
+   "end": 1119.98,
+   "speaker": "Mooly",
+   "text": "就是會有這種片語是比較常用的狀況，但就是需要時間去熟悉。"
+  },
+  {
+   "start": 1120.44,
+   "end": 1125.8,
+   "speaker": "Mooly",
+   "text": "第二個我感受到很不足的地方是，在那個人名跟地名的英文。"
+  },
+  {
+   "start": 1125.8,
+   "end": 1131.42,
+   "speaker": "Mooly",
+   "text": "比如說可能同時在討論哪一個電影、哪一個明星，他們可能講一個電影的名稱，"
+  },
+  {
+   "start": 1131.42,
+   "end": 1133.08,
+   "speaker": "Mooly",
+   "text": "然後其實那個電影我看過，"
+  },
+  {
+   "start": 1133.08,
+   "end": 1136.16,
+   "speaker": "Mooly",
+   "text": "但問題是我不知道它的英文名字是什麼。"
+  },
+  {
+   "start": 1136.16,
+   "end": 1140.76,
+   "speaker": "Mooly",
+   "text": "比如說有些比較相近的或什麼，你甚至還可以猜，比如說什麼，"
+  },
+  {
+   "start": 1142.36,
+   "end": 1143.12,
+   "speaker": "Mooly",
+   "text": "比如說，"
+  },
+  {
+   "start": 1143.62,
+   "end": 1152.08,
+   "speaker": "Mooly",
+   "text": "基努李維或什麼，他勉強算相近，或是有些更相近的，比如說他們討論網球選手，你說什麼納達爾、費德勒什麼那種，"
+  },
+  {
+   "start": 1152.08,
+   "end": 1152.92,
+   "speaker": "Mooly",
+   "text": "倒是比較相近。"
+  },
+  {
+   "start": 1152.92,
+   "end": 1159.28,
+   "speaker": "Mooly",
+   "text": "但有些比如說，是因為翻譯導致它英文跟中文完全不一樣的，或是那種電影名稱，"
+  },
+  {
+   "start": 1159.71,
+   "end": 1162.76,
+   "speaker": "Mooly",
+   "text": "電影名稱的話就真的差很多，他們講一個東西，"
+  },
+  {
+   "start": 1163.18,
+   "end": 1166.54,
+   "speaker": "Mooly",
+   "text": "因為台灣人通常也不一定會知道那個英語的片名，"
+  },
+  {
+   "start": 1166.54,
+   "end": 1168.78,
+   "speaker": "Mooly",
+   "text": "所以他們是在討論一個你知道的東西，"
+  },
+  {
+   "start": 1168.78,
+   "end": 1170.3,
+   "speaker": "Mooly",
+   "text": "但你沒辦法講話。"
+  },
+  {
+   "start": 1170.3,
+   "end": 1173.6,
+   "speaker": "Mooly",
+   "text": "我覺得這種感覺是最難受的。"
+  },
+  {
+   "start": 1173.6,
+   "end": 1174.08,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 1174.7,
+   "end": 1179.78,
+   "speaker": "Kalan",
+   "text": "人名地名的確也是我自己蠻苦手的一部分。"
+  },
+  {
+   "start": 1181.76,
+   "end": 1186.7,
+   "speaker": "Kalan",
+   "text": "然後你剛剛講這個，還有讓我想到一點就是，"
+  },
+  {
+   "start": 1186.7,
+   "end": 1193.26,
+   "speaker": "Kalan",
+   "text": "你去講那一個語言的時候，會自然而然地去認識到這一個語言的文化嗎？"
+  },
+  {
+   "start": 1193.26,
+   "end": 1197.82,
+   "speaker": "Kalan",
+   "text": "比如說當我在用英文開會的時候，"
+  },
+  {
+   "start": 1198.6,
+   "end": 1199.54,
+   "speaker": "Kalan",
+   "text": "或者是開，"
+  },
+  {
+   "start": 1199.54,
+   "end": 1201.48,
+   "speaker": "Kalan",
+   "text": "尤其是開例會的時候，"
+  },
+  {
+   "start": 1202.2,
+   "end": 1204.04,
+   "speaker": "Kalan",
+   "text": "或是 daily stand-up 的時候，"
+  },
+  {
+   "start": 1204.8,
+   "end": 1209.84,
+   "speaker": "Kalan",
+   "text": "我們會很自然而然地去說 have a good day、have a nice day 這樣子。"
+  },
+  {
+   "start": 1210.96,
+   "end": 1215.84,
+   "speaker": "Kalan",
+   "text": "但是如果你今天是用日文來講的時候，你可能語尾就會是"
+  },
+  {
+   "start": 1215.84,
+   "end": 1217.46,
+   "speaker": "Kalan",
+   "text": "お疲れ様です，這樣子。"
+  },
+  {
+   "start": 1218.4,
+   "end": 1219.32,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯。"
+  },
+  {
+   "start": 1219.32,
+   "end": 1227.46,
+   "speaker": "Kalan",
+   "text": "然後我自己會滿喜歡那個 have a good one 這樣的文化。"
+  },
+  {
+   "start": 1227.46,
+   "end": 1237.32,
+   "speaker": "Mooly",
+   "text": "畢竟它語言背後就是代表著一整個文化嘛，就很常有人會講說，很多人是講不同語言的時候，就會表現出不同的人格的感覺，"
+  },
+  {
+   "start": 1237.32,
+   "end": 1243.9,
+   "speaker": "Mooly",
+   "text": "就它整個氣氛、表現、態度什麼，其實在不同語言上都會有不同的樣子。"
+  },
+  {
+   "start": 1243.9,
+   "end": 1244.88,
+   "speaker": "Mooly",
+   "text": "這個滿有趣的。"
+  },
+  {
+   "start": 1246.34,
+   "end": 1249.92,
+   "speaker": "Kalan",
+   "text": "這個我之前有被朋友講過。"
+  },
+  {
+   "start": 1249.92,
+   "end": 1250.62,
+   "speaker": "Mooly",
+   "text": "喔，是喔。"
+  },
+  {
+   "start": 1250.62,
+   "end": 1253.12,
+   "speaker": "Kalan",
+   "text": "就說，欸，你怎麼那麼像日本人這樣子。"
+  },
+  {
+   "start": 1253.68,
+   "end": 1255.4,
+   "speaker": "Mooly",
+   "text": "你說在講日文的時候嗎？還是？"
+  },
+  {
+   "start": 1255.4,
+   "end": 1255.92,
+   "speaker": "Kalan",
+   "text": "不是，就是"
+  },
+  {
+   "start": 1255.92,
+   "end": 1258.04,
+   "speaker": "Kalan",
+   "text": "比較像是行為舉止吧。"
+  },
+  {
+   "start": 1259.44,
+   "end": 1262.1,
+   "speaker": "Kalan",
+   "text": "但不確定是不是件好事就是了。"
+  },
+  {
+   "start": 1262.1,
+   "end": 1269.36,
+   "speaker": "Mooly",
+   "text": "應該算是吧，就代表說你的日文學得很深入，已經被人家影響到你的日常行為。"
+  },
+  {
+   "start": 1270.74,
+   "end": 1271.22,
+   "speaker": "Kalan",
+   "text": "Maybe。"
+  },
+  {
+   "start": 1272.24,
+   "end": 1275.76,
+   "speaker": "Kalan",
+   "text": "像我那個時候啊，有一位法國同事，"
+  },
+  {
+   "start": 1276.26,
+   "end": 1278.48,
+   "speaker": "Kalan",
+   "text": "雖然說他的口音是有點重沒有錯，"
+  },
+  {
+   "start": 1278.48,
+   "end": 1281.72,
+   "speaker": "Kalan",
+   "text": "但是我很喜歡跟他用英文對話，"
+  },
+  {
+   "start": 1281.72,
+   "end": 1285.86,
+   "speaker": "Kalan",
+   "text": "而且他的日文也學得滿不錯的，"
+  },
+  {
+   "start": 1285.86,
+   "end": 1287.86,
+   "speaker": "Kalan",
+   "text": "就是以外國人來講。"
+  },
+  {
+   "start": 1288.8,
+   "end": 1290.3,
+   "speaker": "Kalan",
+   "text": "所以我就覺得說，"
+  },
+  {
+   "start": 1290.3,
+   "end": 1295.34,
+   "speaker": "Kalan",
+   "text": "英文的確它可能每個人學習的目的不一樣，"
+  },
+  {
+   "start": 1295.34,
+   "end": 1299.26,
+   "speaker": "Kalan",
+   "text": "所以會進而展現出你的程度可能也會不一樣，"
+  },
+  {
+   "start": 1299.76,
+   "end": 1301.6,
+   "speaker": "Kalan",
+   "text": "但是把英文學好這件事情，"
+  },
+  {
+   "start": 1302.34,
+   "end": 1307.62,
+   "speaker": "Kalan",
+   "text": "它帶來的效益可能不是只有說我認識了新的語言，"
+  },
+  {
+   "start": 1308.68,
+   "end": 1309.72,
+   "speaker": "Kalan",
+   "text": "這樣子而已，"
+  },
+  {
+   "start": 1309.72,
+   "end": 1313.1,
+   "speaker": "Kalan",
+   "text": "它可以帶來的一些間接影響可能是蠻大的。"
+  },
+  {
+   "start": 1313.1,
+   "end": 1313.68,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 1314.16,
+   "end": 1314.92,
+   "speaker": "Mooly",
+   "text": "包含說，"
+  },
+  {
+   "start": 1314.92,
+   "end": 1315.78,
+   "speaker": "Mooly",
+   "text": "你其實，"
+  },
+  {
+   "start": 1315.78,
+   "end": 1321.46,
+   "speaker": "Mooly",
+   "text": "因為像我們做 engineer 的，他其實很多東西都是英文來源嘛。"
+  },
+  {
+   "start": 1321.46,
+   "end": 1322.38,
+   "speaker": "Mooly",
+   "text": "那當然，"
+  },
+  {
+   "start": 1322.38,
+   "end": 1325.42,
+   "speaker": "Mooly",
+   "text": "現在這個時代可能又變得不太一樣了，"
+  },
+  {
+   "start": 1325.42,
+   "end": 1328.12,
+   "speaker": "Mooly",
+   "text": "當你的那個 AI 變得越來越快，"
+  },
+  {
+   "start": 1328.12,
+   "end": 1330.38,
+   "speaker": "Mooly",
+   "text": "甚至我希望有一天可以有那種，"
+  },
+  {
+   "start": 1331.58,
+   "end": 1337.58,
+   "speaker": "Mooly",
+   "text": "其實現在就有了，只是還沒有很普遍，比如說你戴個眼鏡，然後那個眼鏡上面就會有那個直接，"
+  },
+  {
+   "start": 1338.54,
+   "end": 1344.56,
+   "speaker": "Mooly",
+   "text": "直接收附近的音，然後直接幫你翻譯，讓你講出來的話直接幫你翻譯，然後播出去，什麼的，就還有這種"
+  },
+  {
+   "start": 1344.98,
+   "end": 1346.68,
+   "speaker": "Mooly",
+   "text": "即時可以交流的，他其實"
+  },
+  {
+   "start": 1347.34,
+   "end": 1352.16,
+   "speaker": "Mooly",
+   "text": "我覺得對語言的那個門檻來說會再低一點，"
+  },
+  {
+   "start": 1352.16,
+   "end": 1355.66,
+   "speaker": "Mooly",
+   "text": "就是他假設有一個科技的東西可以幫你做這件事情的話。"
+  },
+  {
+   "start": 1355.66,
+   "end": 1356.28,
+   "speaker": "Mooly",
+   "text": "但畢竟，"
+  },
+  {
+   "start": 1356.28,
+   "end": 1361.24,
+   "speaker": "Mooly",
+   "text": "比如說你可能在五年前、十年前，雖然你有 Google Translate，但它可能翻得不夠準確，"
+  },
+  {
+   "start": 1361.24,
+   "end": 1364.58,
+   "speaker": "Mooly",
+   "text": "或是你要口語交談的時候，你還是要就是自己，"
+  },
+  {
+   "start": 1364.58,
+   "end": 1367.58,
+   "speaker": "Mooly",
+   "text": "自己利用自己會的語言知識這件事情。"
+  },
+  {
+   "start": 1367.58,
+   "end": 1369.94,
+   "speaker": "Mooly",
+   "text": "所以就是學英文，"
+  },
+  {
+   "start": 1369.94,
+   "end": 1372.98,
+   "speaker": "Mooly",
+   "text": "學一個新的語言可以帶你看見一個新的世界。"
+  },
+  {
+   "start": 1373.5,
+   "end": 1378.76,
+   "speaker": "Kalan",
+   "text": "對，我蠻認同的。然後我之前有看過一個影片喔，"
+  },
+  {
+   "start": 1378.76,
+   "end": 1382.54,
+   "speaker": "Kalan",
+   "text": "他是在講說學習語言這個東西，"
+  },
+  {
+   "start": 1384.02,
+   "end": 1392.48,
+   "speaker": "Kalan",
+   "text": "他不是只單純學語言而已，你會進而知道這個國家的背後代表的一些文化跟故事，"
+  },
+  {
+   "start": 1392.48,
+   "end": 1397.42,
+   "speaker": "Kalan",
+   "text": "甚至是可能相同的文化，然後你學了這門語言，"
+  },
+  {
+   "start": 1397.42,
+   "end": 1400.36,
+   "speaker": "Kalan",
+   "text": "之後你發現，原來在這個國家，"
+  },
+  {
+   "start": 1400.36,
+   "end": 1407.24,
+   "speaker": "Kalan",
+   "text": "這個國家裡面也有類似的可能傳統啊，或者是一些習俗存在這樣子。"
+  },
+  {
+   "start": 1407.24,
+   "end": 1412.74,
+   "speaker": "Kalan",
+   "text": "所以這的確是一些學語言可以附加帶來的好處。"
+  },
+  {
+   "start": 1412.74,
+   "end": 1419.16,
+   "speaker": "Kalan",
+   "text": "那如果你剛剛講到了這個 AI 的進化，的確我覺得這件事情超讚，"
+  },
+  {
+   "start": 1419.16,
+   "end": 1422.34,
+   "speaker": "Kalan",
+   "text": "就是 AI 已經可以進化到說，"
+  },
+  {
+   "start": 1422.34,
+   "end": 1424.6,
+   "speaker": "Kalan",
+   "text": "翻譯可以非常準確，"
+  },
+  {
+   "start": 1425.44,
+   "end": 1429.72,
+   "speaker": "Kalan",
+   "text": "然後可以以越來越快的速度，把這個語言"
+  },
+  {
+   "start": 1430.32,
+   "end": 1434.0,
+   "speaker": "Kalan",
+   "text": "翻譯成你可以快速理解的母語等等。"
+  },
+  {
+   "start": 1435.84,
+   "end": 1436.72,
+   "speaker": "Kalan",
+   "text": "所以當然，"
+  },
+  {
+   "start": 1437.36,
+   "end": 1440.46,
+   "speaker": "Kalan",
+   "text": "學語言這件事情，不管 AI 今天進化成怎麼樣，"
+  },
+  {
+   "start": 1440.46,
+   "end": 1443.72,
+   "speaker": "Kalan",
+   "text": "我覺得都是一件蠻值得去做的。"
+  },
+  {
+   "start": 1444.9,
+   "end": 1448.5,
+   "speaker": "Mooly",
+   "text": "確實，畢竟像你剛剛講的，它其實學語言，"
+  },
+  {
+   "start": 1448.5,
+   "end": 1451.0,
+   "speaker": "Mooly",
+   "text": "它的目的不一定只是溝通，"
+  },
+  {
+   "start": 1451.0,
+   "end": 1455.14,
+   "speaker": "Mooly",
+   "text": "它背後代表了一整個文化累積下來的東西。"
+  },
+  {
+   "start": 1455.14,
+   "end": 1458.3,
+   "speaker": "Mooly",
+   "text": "你只有翻譯的話，你其實是沒有辦法理解到"
+  },
+  {
+   "start": 1458.3,
+   "end": 1465.78,
+   "speaker": "Mooly",
+   "text": "背後那些文化相關的東西，你就只是把它當成一個很純粹的工具。"
+  },
+  {
+   "start": 1465.78,
+   "end": 1468.32,
+   "speaker": "Mooly",
+   "text": "一個溝通的東西來使用而已。"
+  },
+  {
+   "start": 1468.94,
+   "end": 1469.8,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 1469.8,
+   "end": 1472.76,
+   "speaker": "Kalan",
+   "text": "那我覺得可以講，"
+  },
+  {
+   "start": 1473.56,
+   "end": 1477.06,
+   "speaker": "Kalan",
+   "text": "那我想要問一個問題，就是"
+  },
+  {
+   "start": 1477.74,
+   "end": 1484.4,
+   "speaker": "Kalan",
+   "text": "如果今天 AI 已經進化到，學語言這件事情可以變得非常簡單，"
+  },
+  {
+   "start": 1484.4,
+   "end": 1485.46,
+   "speaker": "Kalan",
+   "text": "或者甚至是，"
+  },
+  {
+   "start": 1485.46,
+   "end": 1490.02,
+   "speaker": "Kalan",
+   "text": "你不需要去學一門語言的話，"
+  },
+  {
+   "start": 1491.52,
+   "end": 1496.88,
+   "speaker": "Kalan",
+   "text": "那麼語言學習的目的應該會是什麼呢？"
+  },
+  {
+   "start": 1496.88,
+   "end": 1500.54,
+   "speaker": "Kalan",
+   "text": "或者是換另外一個角度來講好了，"
+  },
+  {
+   "start": 1501.34,
+   "end": 1504.8,
+   "speaker": "Kalan",
+   "text": "語言學習應該要是有用的嗎？"
+  },
+  {
+   "start": 1504.8,
+   "end": 1506.64,
+   "speaker": "Mooly",
+   "text": "我想一下喔。"
+  },
+  {
+   "start": 1507.1,
+   "end": 1510.06,
+   "speaker": "Mooly",
+   "text": "語言學習應該要是有用的嗎？"
+  },
+  {
+   "start": 1510.72,
+   "end": 1512.46,
+   "speaker": "Mooly",
+   "text": "它應該是這個方向，"
+  },
+  {
+   "start": 1512.46,
+   "end": 1514.02,
+   "speaker": "Mooly",
+   "text": "就是假設好了，"
+  },
+  {
+   "start": 1514.02,
+   "end": 1514.48,
+   "speaker": "Mooly",
+   "text": "我覺得，"
+  },
+  {
+   "start": 1514.98,
+   "end": 1520.12,
+   "speaker": "Mooly",
+   "text": "假設真的到了那一天，就是 AI 可以幫你搞定所有一切東西，"
+  },
+  {
+   "start": 1520.12,
+   "end": 1520.66,
+   "speaker": "Mooly",
+   "text": "你只要，"
+  },
+  {
+   "start": 1520.66,
+   "end": 1524.18,
+   "speaker": "Mooly",
+   "text": "就像那種科幻電影裡面，你只要講話，然後你就會一個"
+  },
+  {
+   "start": 1524.72,
+   "end": 1530.08,
+   "speaker": "Mooly",
+   "text": "大腦裡內建翻譯系統，可以自己輸入輸出幫你處理好的話，我覺得"
+  },
+  {
+   "start": 1530.7,
+   "end": 1534.86,
+   "speaker": "Mooly",
+   "text": "那個時候的語言學習就不會是標準課程的一部分，"
+  },
+  {
+   "start": 1535.82,
+   "end": 1537.24,
+   "speaker": "Mooly",
+   "text": "但是它會，"
+  },
+  {
+   "start": 1537.9,
+   "end": 1542.22,
+   "speaker": "Mooly",
+   "text": "就是它還是會有這個東西，讓想要學習的人去學習，"
+  },
+  {
+   "start": 1542.22,
+   "end": 1543.5,
+   "speaker": "Mooly",
+   "text": "只是它就不會變成"
+  },
+  {
+   "start": 1543.5,
+   "end": 1544.9,
+   "speaker": "Mooly",
+   "text": "必學的一個部分。"
+  },
+  {
+   "start": 1546.56,
+   "end": 1549.02,
+   "speaker": "Kalan",
+   "text": "的確，就是它會變成一個"
+  },
+  {
+   "start": 1550.66,
+   "end": 1551.42,
+   "speaker": "Kalan",
+   "text": "怎麼講，"
+  },
+  {
+   "start": 1551.88,
+   "end": 1553.36,
+   "speaker": "Kalan",
+   "text": "變成一種興趣嗎？"
+  },
+  {
+   "start": 1553.86,
+   "end": 1557.68,
+   "speaker": "Mooly",
+   "text": "它可能就是比較變成像是一個選修的課程，"
+  },
+  {
+   "start": 1557.68,
+   "end": 1562.54,
+   "speaker": "Mooly",
+   "text": "你想選就選，不想選也不會加入那個必修清單裡面，這種感覺。"
+  },
+  {
+   "start": 1563.88,
+   "end": 1565.38,
+   "speaker": "Kalan",
+   "text": "總之呢，"
+  },
+  {
+   "start": 1565.38,
+   "end": 1567.2,
+   "speaker": "Kalan",
+   "text": "就是語言學習，"
+  },
+  {
+   "start": 1568.3,
+   "end": 1572.58,
+   "speaker": "Kalan",
+   "text": "可能到那一天還要一段時間啦，"
+  },
+  {
+   "start": 1572.58,
+   "end": 1574.5,
+   "speaker": "Kalan",
+   "text": "所以學起來總是好的。"
+  },
+  {
+   "start": 1575.98,
+   "end": 1579.14,
+   "speaker": "Kalan",
+   "text": "那我們英文講了這麼多，要不要來講一下"
+  },
+  {
+   "start": 1579.5,
+   "end": 1580.08,
+   "speaker": "Mooly",
+   "text": "日文？"
+  },
+  {
+   "start": 1581.52,
+   "end": 1581.86,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 1582.54,
+   "end": 1585.14,
+   "speaker": "Kalan",
+   "text": "那我先分享我的好了。"
+  },
+  {
+   "start": 1587.7,
+   "end": 1594.94,
+   "speaker": "Kalan",
+   "text": "我日文是因為高中的時候，我很喜歡看動畫跟小說，"
+  },
+  {
+   "start": 1595.92,
+   "end": 1598.68,
+   "speaker": "Kalan",
+   "text": "所以我開始學日文這樣子。"
+  },
+  {
+   "start": 1599.32,
+   "end": 1601.04,
+   "speaker": "Kalan",
+   "text": "然後到大學之後，"
+  },
+  {
+   "start": 1601.68,
+   "end": 1602.4,
+   "speaker": "Kalan",
+   "text": "就一樣，"
+  },
+  {
+   "start": 1602.4,
+   "end": 1604.4,
+   "speaker": "Kalan",
+   "text": "繼續自學。"
+  },
+  {
+   "start": 1606.11,
+   "end": 1607.54,
+   "speaker": "Kalan",
+   "text": "我還記得那個時候，因為"
+  },
+  {
+   "start": 1608.21,
+   "end": 1611.76,
+   "speaker": "Kalan",
+   "text": "我那時候在準備的是統測，"
+  },
+  {
+   "start": 1613.53,
+   "end": 1620.0,
+   "speaker": "Kalan",
+   "text": "然後我準備得很辛苦，就是那種高中，然後 K 書的那段日子，"
+  },
+  {
+   "start": 1620.89,
+   "end": 1623.84,
+   "speaker": "Kalan",
+   "text": "所以我就會拿五十音出來看這樣。"
+  },
+  {
+   "start": 1626.2,
+   "end": 1629.96,
+   "speaker": "Kalan",
+   "text": "然後大學之後就一樣是繼續學，"
+  },
+  {
+   "start": 1629.96,
+   "end": 1635.92,
+   "speaker": "Kalan",
+   "text": "後來就是想說看能不能到日本打工度假，"
+  },
+  {
+   "start": 1635.92,
+   "end": 1640.02,
+   "speaker": "Kalan",
+   "text": "但發現好像經濟上面有點困難，"
+  },
+  {
+   "start": 1640.02,
+   "end": 1642.44,
+   "speaker": "Kalan",
+   "text": "所以那時候就放棄了這樣的念頭，"
+  },
+  {
+   "start": 1642.44,
+   "end": 1646.2,
+   "speaker": "Kalan",
+   "text": "就想說我就先把日文學好，"
+  },
+  {
+   "start": 1646.2,
+   "end": 1649.42,
+   "speaker": "Kalan",
+   "text": "那以後再看有沒有可以去日本工作的機會。"
+  },
+  {
+   "start": 1650.72,
+   "end": 1652.36,
+   "speaker": "Kalan",
+   "text": "所以那個時候，"
+  },
+  {
+   "start": 1653.08,
+   "end": 1657.74,
+   "speaker": "Kalan",
+   "text": "我日檢也是沒有說馬上就去考這樣子，"
+  },
+  {
+   "start": 1657.74,
+   "end": 1659.78,
+   "speaker": "Kalan",
+   "text": "而是大概學了幾年，"
+  },
+  {
+   "start": 1659.78,
+   "end": 1663.7,
+   "speaker": "Kalan",
+   "text": "然後確定自己相對有把握了之後才去考。"
+  },
+  {
+   "start": 1664.34,
+   "end": 1668.06,
+   "speaker": "Mooly",
+   "text": "那那時候你學都是自學嗎？"
+  },
+  {
+   "start": 1668.06,
+   "end": 1669.62,
+   "speaker": "Kalan",
+   "text": "對，我主要都是自學。"
+  },
+  {
+   "start": 1670.14,
+   "end": 1676.32,
+   "speaker": "Kalan",
+   "text": "那那個時候我其實是滿認真在學這個語言的，"
+  },
+  {
+   "start": 1676.32,
+   "end": 1678.36,
+   "speaker": "Kalan",
+   "text": "像我有用一個"
+  },
+  {
+   "start": 1679.92,
+   "end": 1684.42,
+   "speaker": "Kalan",
+   "text": "它類似交換日記的一個服務。"
+  },
+  {
+   "start": 1687.46,
+   "end": 1689.22,
+   "speaker": "Kalan",
+   "text": "它的規則是這樣，"
+  },
+  {
+   "start": 1689.22,
+   "end": 1689.92,
+   "speaker": "Kalan",
+   "text": "它的方，"
+  },
+  {
+   "start": 1691.84,
+   "end": 1694.5,
+   "speaker": "Kalan",
+   "text": "就它平台上面的運作方式是這樣的，"
+  },
+  {
+   "start": 1694.5,
+   "end": 1696.12,
+   "speaker": "Kalan",
+   "text": "你可以用日文，"
+  },
+  {
+   "start": 1696.12,
+   "end": 1699.26,
+   "speaker": "Kalan",
+   "text": "或者是你想要學習的語言去發一篇文章，"
+  },
+  {
+   "start": 1699.72,
+   "end": 1705.86,
+   "speaker": "Kalan",
+   "text": "然後底下會有那個語言的母語者來幫你修改文章。"
+  },
+  {
+   "start": 1707.34,
+   "end": 1708.22,
+   "speaker": "Kalan",
+   "text": "然後呢，"
+  },
+  {
+   "start": 1708.98,
+   "end": 1710.24,
+   "speaker": "Kalan",
+   "text": "你只要，"
+  },
+  {
+   "start": 1710.24,
+   "end": 1714.18,
+   "speaker": "Kalan",
+   "text": "比如說你可能去幫別人修改的話，它就會給你一些點數，"
+  },
+  {
+   "start": 1714.18,
+   "end": 1715.24,
+   "speaker": "Kalan",
+   "text": "那這個點數，"
+  },
+  {
+   "start": 1715.24,
+   "end": 1719.08,
+   "speaker": "Kalan",
+   "text": "它可以幫你提高你的文章的曝光率，"
+  },
+  {
+   "start": 1719.08,
+   "end": 1725.04,
+   "speaker": "Kalan",
+   "text": "所以對想要學習的人來說，它是有動力可以去做這些事情的。"
+  },
+  {
+   "start": 1725.04,
+   "end": 1726.66,
+   "speaker": "Mooly",
+   "text": "嗯嗯，滿有趣的。"
+  },
+  {
+   "start": 1726.66,
+   "end": 1729.72,
+   "speaker": "Kalan",
+   "text": "那時候我就是一直寫這些日記這樣子，"
+  },
+  {
+   "start": 1730.9,
+   "end": 1733.44,
+   "speaker": "Kalan",
+   "text": "然後就從此認識了一些，"
+  },
+  {
+   "start": 1735.86,
+   "end": 1740.88,
+   "speaker": "Kalan",
+   "text": "我覺得可能你在教科書上比較不會去認識到一些文法，"
+  },
+  {
+   "start": 1740.88,
+   "end": 1743.34,
+   "speaker": "Kalan",
+   "text": "或者是比較，"
+  },
+  {
+   "start": 1743.34,
+   "end": 1745.2,
+   "speaker": "Kalan",
+   "text": "可能它文法是對的，"
+  },
+  {
+   "start": 1745.2,
+   "end": 1748.62,
+   "speaker": "Kalan",
+   "text": "可是在日本人的耳裡，"
+  },
+  {
+   "start": 1748.62,
+   "end": 1750.76,
+   "speaker": "Kalan",
+   "text": "聽起來可能比較沒有那麼通順。"
+  },
+  {
+   "start": 1751.43,
+   "end": 1754.02,
+   "speaker": "Mooly",
+   "text": "我懂你意思，或它不是常見的用法。"
+  },
+  {
+   "start": 1754.72,
+   "end": 1755.26,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 1755.89,
+   "end": 1758.68,
+   "speaker": "Kalan",
+   "text": "然後大概就大量學到了這些東西。"
+  },
+  {
+   "start": 1759.25,
+   "end": 1761.78,
+   "speaker": "Kalan",
+   "text": "那其實後來我是有去報，"
+  },
+  {
+   "start": 1762.4,
+   "end": 1762.94,
+   "speaker": "Kalan",
+   "text": "這個，"
+  },
+  {
+   "start": 1763.54,
+   "end": 1768.42,
+   "speaker": "Kalan",
+   "text": "一個叫 JPTIP 的，算是日文的補習班嗎？"
+  },
+  {
+   "start": 1768.42,
+   "end": 1771.04,
+   "speaker": "Kalan",
+   "text": "那我是報一些繪畫課的東西，"
+  },
+  {
+   "start": 1771.6,
+   "end": 1773.44,
+   "speaker": "Kalan",
+   "text": "那它的特色是，"
+  },
+  {
+   "start": 1774.23,
+   "end": 1775.54,
+   "speaker": "Kalan",
+   "text": "裡面有日籍老師，"
+  },
+  {
+   "start": 1775.54,
+   "end": 1778.0,
+   "speaker": "Kalan",
+   "text": "所以都是全日文的這樣子。"
+  },
+  {
+   "start": 1780.5,
+   "end": 1782.7,
+   "speaker": "Kalan",
+   "text": "那個時候其實有發現到說，"
+  },
+  {
+   "start": 1783.22,
+   "end": 1790.02,
+   "speaker": "Kalan",
+   "text": "自己的日文的程度大概是相對比較好一點點了，"
+  },
+  {
+   "start": 1790.02,
+   "end": 1792.76,
+   "speaker": "Kalan",
+   "text": "不過其實也蠻難講的，"
+  },
+  {
+   "start": 1792.76,
+   "end": 1796.08,
+   "speaker": "Kalan",
+   "text": "因為台灣人好像蠻喜歡學日文的，"
+  },
+  {
+   "start": 1796.08,
+   "end": 1800.02,
+   "speaker": "Mooly",
+   "text": "台灣人應該除了英文之外，下一個就是日文，"
+  },
+  {
+   "start": 1800.02,
+   "end": 1802.82,
+   "speaker": "Mooly",
+   "text": "甚至很多人日文程度可能比英文還要好。"
+  },
+  {
+   "start": 1804.56,
+   "end": 1806.52,
+   "speaker": "Kalan",
+   "text": "然後就那個時候我大概，"
+  },
+  {
+   "start": 1807.26,
+   "end": 1812.02,
+   "speaker": "Kalan",
+   "text": "我大概學了三四年，"
+  },
+  {
+   "start": 1812.02,
+   "end": 1815.72,
+   "speaker": "Kalan",
+   "text": "大概是大學三年級、四年級左右。"
+  },
+  {
+   "start": 1815.72,
+   "end": 1816.84,
+   "speaker": "Kalan",
+   "text": "我想說，"
+  },
+  {
+   "start": 1818.04,
+   "end": 1823.3,
+   "speaker": "Kalan",
+   "text": "不是以前在學技術的時候，都有所謂的一些技術週刊的東西嗎？"
+  },
+  {
+   "start": 1823.3,
+   "end": 1827.26,
+   "speaker": "Kalan",
+   "text": "那我想說日文如果也可以用一個的話，會不會很有趣？"
+  },
+  {
+   "start": 1827.26,
+   "end": 1830.9,
+   "speaker": "Kalan",
+   "text": "然後就自己寫一些網站，"
+  },
+  {
+   "start": 1830.9,
+   "end": 1832.96,
+   "speaker": "Kalan",
+   "text": "然後設計一下電子報，"
+  },
+  {
+   "start": 1833.41,
+   "end": 1835.64,
+   "speaker": "Kalan",
+   "text": "然後就做出了這個「日語八百屋」。"
+  },
+  {
+   "start": 1835.64,
+   "end": 1837.74,
+   "speaker": "Kalan",
+   "text": "不曉得 Mooly 有沒有聽過？"
+  },
+  {
+   "start": 1837.74,
+   "end": 1838.0,
+   "speaker": "Mooly",
+   "text": "有，"
+  },
+  {
+   "start": 1838.0,
+   "end": 1839.64,
+   "speaker": "Mooly",
+   "text": "我有聽過，雖然我沒有訂閱，"
+  },
+  {
+   "start": 1839.64,
+   "end": 1841.36,
+   "speaker": "Mooly",
+   "text": "我知道有這個東西。"
+  },
+  {
+   "start": 1841.36,
+   "end": 1841.94,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 1841.94,
+   "end": 1842.98,
+   "speaker": "Kalan",
+   "text": "那那個時候其實，"
+  },
+  {
+   "start": 1843.62,
+   "end": 1845.36,
+   "speaker": "Kalan",
+   "text": "我也有嘗試做 podcast，"
+  },
+  {
+   "start": 1846.5,
+   "end": 1847.66,
+   "speaker": "Kalan",
+   "text": "但我發現，"
+  },
+  {
+   "start": 1848.24,
+   "end": 1849.64,
+   "speaker": "Kalan",
+   "text": "一個人做太難了，"
+  },
+  {
+   "start": 1849.64,
+   "end": 1851.54,
+   "speaker": "Kalan",
+   "text": "而且我那時候其實口條，"
+  },
+  {
+   "start": 1852.04,
+   "end": 1853.8,
+   "speaker": "Kalan",
+   "text": "我自己覺得還蠻爛的，"
+  },
+  {
+   "start": 1853.8,
+   "end": 1857.2,
+   "speaker": "Kalan",
+   "text": "所以大概做了一集就放棄了。"
+  },
+  {
+   "start": 1857.2,
+   "end": 1860.02,
+   "speaker": "Kalan",
+   "text": "說到這個，"
+  },
+  {
+   "start": 1860.62,
+   "end": 1861.68,
+   "speaker": "Kalan",
+   "text": "Mooly，你知道嗎？"
+  },
+  {
+   "start": 1861.68,
+   "end": 1864.54,
+   "speaker": "Kalan",
+   "text": "Podcast 好像你只要做超過 14 集，"
+  },
+  {
+   "start": 1864.54,
+   "end": 1867.1,
+   "speaker": "Kalan",
+   "text": "你就贏過 90% 的人了。"
+  },
+  {
+   "start": 1867.1,
+   "end": 1868.08,
+   "speaker": "Mooly",
+   "text": "真的假的？"
+  },
+  {
+   "start": 1868.08,
+   "end": 1868.4,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 1869.28,
+   "end": 1870.32,
+   "speaker": "Kalan",
+   "text": "所以我們，"
+  },
+  {
+   "start": 1870.32,
+   "end": 1871.4,
+   "speaker": "Mooly",
+   "text": "我們應該快了。"
+  },
+  {
+   "start": 1871.4,
+   "end": 1871.68,
+   "speaker": "Kalan",
+   "text": "我們，"
+  },
+  {
+   "start": 1871.68,
+   "end": 1873.24,
+   "speaker": "Kalan",
+   "text": "努力做到 14 集。"
+  },
+  {
+   "start": 1873.24,
+   "end": 1876.54,
+   "speaker": "Mooly",
+   "text": "努力再多做個一兩個月應該就可以了。"
+  },
+  {
+   "start": 1877.02,
+   "end": 1877.28,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 1877.82,
+   "end": 1880.16,
+   "speaker": "Kalan",
+   "text": "然後我那時候就發現說，"
+  },
+  {
+   "start": 1880.9,
+   "end": 1885.62,
+   "speaker": "Kalan",
+   "text": "日本週刊這件事情其實是蠻多人有興趣的。"
+  },
+  {
+   "start": 1885.62,
+   "end": 1888.88,
+   "speaker": "Kalan",
+   "text": "就那時候我的訂閱人數大概有 2000 多個人，"
+  },
+  {
+   "start": 1888.88,
+   "end": 1892.42,
+   "speaker": "Kalan",
+   "text": "然後開信率至少也有 40% 左右。"
+  },
+  {
+   "start": 1892.42,
+   "end": 1894.5,
+   "speaker": "Mooly",
+   "text": "那都還不錯耶。"
+  },
+  {
+   "start": 1894.5,
+   "end": 1894.72,
+   "speaker": "Kalan",
+   "text": "對，"
+  },
+  {
+   "start": 1894.72,
+   "end": 1896.22,
+   "speaker": "Kalan",
+   "text": "我自己覺得還不錯。"
+  },
+  {
+   "start": 1897.06,
+   "end": 1901.4,
+   "speaker": "Kalan",
+   "text": "然後也有一些比較溫暖的讀者回饋，"
+  },
+  {
+   "start": 1901.4,
+   "end": 1904.68,
+   "speaker": "Kalan",
+   "text": "這也是我後來觀察到蠻有趣的地方，就是"
+  },
+  {
+   "start": 1904.68,
+   "end": 1910.56,
+   "speaker": "Kalan",
+   "text": "會訂的人有蠻多其實都是女生。"
+  },
+  {
+   "start": 1912.48,
+   "end": 1916.7,
+   "speaker": "Kalan",
+   "text": "然後像我那時候發了一些，比如說明信片的，"
+  },
+  {
+   "start": 1916.7,
+   "end": 1919.24,
+   "speaker": "Kalan",
+   "text": "就是寄明信片的一些活動等等的，"
+  },
+  {
+   "start": 1919.24,
+   "end": 1922.32,
+   "speaker": "Kalan",
+   "text": "好像也是女生會來，"
+  },
+  {
+   "start": 1922.42,
+   "end": 1925.0,
+   "speaker": "Kalan",
+   "text": "參加的居多。"
+  },
+  {
+   "start": 1926.44,
+   "end": 1929.24,
+   "speaker": "Kalan",
+   "text": "就蠻有趣的一個觀察。"
+  },
+  {
+   "start": 1929.96,
+   "end": 1932.32,
+   "speaker": "Kalan",
+   "text": "但那個就後來因為，"
+  },
+  {
+   "start": 1933.04,
+   "end": 1935.22,
+   "speaker": "Kalan",
+   "text": "我覺得寫久了就是會遇到倦怠嘛，"
+  },
+  {
+   "start": 1935.22,
+   "end": 1936.4,
+   "speaker": "Mooly",
+   "text": "然後就逐"
+  },
+  {
+   "start": 1936.4,
+   "end": 1937.7,
+   "speaker": "Kalan",
+   "text": "漸停刊了這樣子。"
+  },
+  {
+   "start": 1938.36,
+   "end": 1943.16,
+   "speaker": "Mooly",
+   "text": "那這個日語八百屋總共就是它存活的時間大概有多久？"
+  },
+  {
+   "start": 1943.66,
+   "end": 1950.52,
+   "speaker": "Kalan",
+   "text": "大概存活了從 2016 年開始到 2020 年初，"
+  },
+  {
+   "start": 1951.82,
+   "end": 1954.04,
+   "speaker": "Mooly",
+   "text": "也還蠻久，4 年多。"
+  },
+  {
+   "start": 1954.72,
+   "end": 1958.96,
+   "speaker": "Kalan",
+   "text": "但後期其實我來日本之後就有點荒廢了，"
+  },
+  {
+   "start": 1958.96,
+   "end": 1961.28,
+   "speaker": "Kalan",
+   "text": "荒廢到沒有一直發送了。"
+  },
+  {
+   "start": 1962.84,
+   "end": 1965.04,
+   "speaker": "Kalan",
+   "text": "然後我後來想到說，"
+  },
+  {
+   "start": 1965.62,
+   "end": 1969.18,
+   "speaker": "Kalan",
+   "text": "這可能是另外一個題目，但可能就先聊一下，"
+  },
+  {
+   "start": 1969.18,
+   "end": 1970.7,
+   "speaker": "Kalan",
+   "text": "就是我後來有發現說，"
+  },
+  {
+   "start": 1970.7,
+   "end": 1972.28,
+   "speaker": "Kalan",
+   "text": "就疫情那段時間，"
+  },
+  {
+   "start": 1972.82,
+   "end": 1976.82,
+   "speaker": "Kalan",
+   "text": "我自己體感上就是，疫情發生之前，"
+  },
+  {
+   "start": 1977.44,
+   "end": 1979.8,
+   "speaker": "Kalan",
+   "text": "台灣雖然有一些電子報有趨勢，"
+  },
+  {
+   "start": 1979.8,
+   "end": 1984.0,
+   "speaker": "Kalan",
+   "text": "但是好像主要都是聚焦在技術居多，"
+  },
+  {
+   "start": 1984.6,
+   "end": 1985.62,
+   "speaker": "Kalan",
+   "text": "我自己的體感。"
+  },
+  {
+   "start": 1986.22,
+   "end": 1988.32,
+   "speaker": "Kalan",
+   "text": "然後在疫情之後，"
+  },
+  {
+   "start": 1988.78,
+   "end": 1995.0,
+   "speaker": "Kalan",
+   "text": "有一些這種非技術的電子報才慢慢的開始跑出來，或者是開始"
+  },
+  {
+   "start": 1995.82,
+   "end": 1996.64,
+   "speaker": "Mooly",
+   "text": "流行起來。"
+  },
+  {
+   "start": 1996.64,
+   "end": 1997.54,
+   "speaker": "Kalan",
+   "text": "流行起來。"
+  },
+  {
+   "start": 1998.42,
+   "end": 2001.04,
+   "speaker": "Kalan",
+   "text": "不知道 Mooly 有沒有這樣的感受？"
+  },
+  {
+   "start": 2001.74,
+   "end": 2006.08,
+   "speaker": "Mooly",
+   "text": "嗯，我覺得好像有。"
+  },
+  {
+   "start": 2006.08,
+   "end": 2008.52,
+   "speaker": "Mooly",
+   "text": "而且有些電子報它，"
+  },
+  {
+   "start": 2009.5,
+   "end": 2014.36,
+   "speaker": "Mooly",
+   "text": "或是說我覺得可能跟那個課程平台興起有關嗎？"
+  },
+  {
+   "start": 2014.36,
+   "end": 2016.74,
+   "speaker": "Mooly",
+   "text": "就大概從什麼時候啊？"
+  },
+  {
+   "start": 2016.74,
+   "end": 2021.04,
+   "speaker": "Mooly",
+   "text": "但他也是從，可能七八年前就開始了，"
+  },
+  {
+   "start": 2021.04,
+   "end": 2021.92,
+   "speaker": "Mooly",
+   "text": "正式開始。"
+  },
+  {
+   "start": 2022.44,
+   "end": 2026.18,
+   "speaker": "Mooly",
+   "text": "算是慢慢開始那個開課的風潮，就是人人都可以開課，"
+  },
+  {
+   "start": 2026.18,
+   "end": 2030.0,
+   "speaker": "Mooly",
+   "text": "你不一定是要什麼很厲害的，你只要有可以教的就可以開課。"
+  },
+  {
+   "start": 2030.0,
+   "end": 2031.32,
+   "speaker": "Mooly",
+   "text": "然後這個東西，"
+  },
+  {
+   "start": 2031.84,
+   "end": 2036.44,
+   "speaker": "Mooly",
+   "text": "一開始只要過了兩三年之後，就變成說有些平台開始做那種"
+  },
+  {
+   "start": 2036.96,
+   "end": 2045.76,
+   "speaker": "Mooly",
+   "text": "訂閱制的那種服務，然後是電子報文章的，當然它一開始就都跟那種股市投資或什麼有關，這種最多人訂的。"
+  },
+  {
+   "start": 2045.76,
+   "end": 2047.86,
+   "speaker": "Mooly",
+   "text": "然後再到後面，比如說，"
+  },
+  {
+   "start": 2047.86,
+   "end": 2052.68,
+   "speaker": "Mooly",
+   "text": "尤其在最近幾年，比如說最近五六年吧，它慢慢興起了一個，就是"
+  },
+  {
+   "start": 2053.2,
+   "end": 2059.26,
+   "speaker": "Mooly",
+   "text": "好像每個人都可以做一點自己的東西，每個人都可以講一點話。那當然有人稱這個是自媒體嘛，就是說，"
+  },
+  {
+   "start": 2059.7,
+   "end": 2063.42,
+   "speaker": "Mooly",
+   "text": "每個人都可以出來講你想講的事情，分享你想分享的，"
+  },
+  {
+   "start": 2063.42,
+   "end": 2070.68,
+   "speaker": "Mooly",
+   "text": "然後這個方式興起之後，感覺也蠻多人開始做了，像剛才講的，可能他自己的電子報或什麼的。"
+  },
+  {
+   "start": 2071.24,
+   "end": 2075.18,
+   "speaker": "Kalan",
+   "text": "好，我覺得這個可以當我們下一期的題目了，"
+  },
+  {
+   "start": 2075.18,
+   "end": 2076.82,
+   "speaker": "Kalan",
+   "text": "就電子報這一個。"
+  },
+  {
+   "start": 2078.7,
+   "end": 2083.82,
+   "speaker": "Kalan",
+   "text": "因為我覺得我應該有蠻多心得，然後 Moody 畢竟有經營過電子報，"
+  },
+  {
+   "start": 2084.48,
+   "end": 2086.8,
+   "speaker": "Kalan",
+   "text": "所以我們有一些心得可以分享。"
+  },
+  {
+   "start": 2087.72,
+   "end": 2090.82,
+   "speaker": "Kalan",
+   "text": "好，那回來語言，"
+  },
+  {
+   "start": 2090.82,
+   "end": 2092.76,
+   "speaker": "Kalan",
+   "text": "學習這個題目，就是"
+  },
+  {
+   "start": 2092.76,
+   "end": 2098.9,
+   "speaker": "Kalan",
+   "text": "想聽一下 Moody 這部分，對日文大概有怎樣的學習歷程？"
+  },
+  {
+   "start": 2099.36,
+   "end": 2100.78,
+   "speaker": "Mooly",
+   "text": "對日文的話，"
+  },
+  {
+   "start": 2103.04,
+   "end": 2104.24,
+   "speaker": "Mooly",
+   "text": "基本上沒有，"
+  },
+  {
+   "start": 2104.24,
+   "end": 2105.68,
+   "speaker": "Mooly",
+   "text": "基本上，"
+  },
+  {
+   "start": 2105.68,
+   "end": 2109.44,
+   "speaker": "Mooly",
+   "text": "算是有學過五十音，"
+  },
+  {
+   "start": 2110.22,
+   "end": 2112.5,
+   "speaker": "Mooly",
+   "text": "然後五十音那時候其實是去，"
+  },
+  {
+   "start": 2112.5,
+   "end": 2114.54,
+   "speaker": "Mooly",
+   "text": "算是去補習班上的吧。"
+  },
+  {
+   "start": 2114.54,
+   "end": 2117.12,
+   "speaker": "Mooly",
+   "text": "就剛好有朋友要報一個補習班，"
+  },
+  {
+   "start": 2117.12,
+   "end": 2120.96,
+   "speaker": "Mooly",
+   "text": "他在 Facebook 上徵人，說有沒有人要團報什麼的，他有位置，"
+  },
+  {
+   "start": 2120.96,
+   "end": 2121.84,
+   "speaker": "Mooly",
+   "text": "然後就說好，"
+  },
+  {
+   "start": 2121.84,
+   "end": 2123.62,
+   "speaker": "Mooly",
+   "text": "反正本來就也想學，就去報。"
+  },
+  {
+   "start": 2123.62,
+   "end": 2125.0,
+   "speaker": "Mooly",
+   "text": "就我還在台灣的時候，"
+  },
+  {
+   "start": 2125.52,
+   "end": 2129.66,
+   "speaker": "Mooly",
+   "text": "然後上了三四堂課吧，反正就教五十音，"
+  },
+  {
+   "start": 2129.66,
+   "end": 2130.96,
+   "speaker": "Mooly",
+   "text": "然後上完之後，"
+  },
+  {
+   "start": 2131.9,
+   "end": 2135.26,
+   "speaker": "Mooly",
+   "text": "上完之後也沒有買下一堂，"
+  },
+  {
+   "start": 2135.26,
+   "end": 2140.62,
+   "speaker": "Mooly",
+   "text": "然後我的日文補習班歷程就到那邊結束了，"
+  },
+  {
+   "start": 2140.62,
+   "end": 2142.0,
+   "speaker": "Mooly",
+   "text": "就只有三四堂課。"
+  },
+  {
+   "start": 2142.0,
+   "end": 2145.08,
+   "speaker": "Mooly",
+   "text": "然後之後的話就是"
+  },
+  {
+   "start": 2145.8,
+   "end": 2151.06,
+   "speaker": "Mooly",
+   "text": "斷斷續續，偶爾會買一些日文學習書籍，但沒有看，"
+  },
+  {
+   "start": 2151.06,
+   "end": 2155.02,
+   "speaker": "Mooly",
+   "text": "或是看一些 YouTube 影片教學等等之類的。"
+  },
+  {
+   "start": 2155.02,
+   "end": 2158.54,
+   "speaker": "Mooly",
+   "text": "反正我的日文學習歷程還在路上，"
+  },
+  {
+   "start": 2158.54,
+   "end": 2163.5,
+   "speaker": "Mooly",
+   "text": "所以我們可以先聊一下別的語言。"
+  },
+  {
+   "start": 2164.52,
+   "end": 2164.98,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 2166.42,
+   "end": 2171.7,
+   "speaker": "Kalan",
+   "text": "欸，Moody，那我想問一下，你那時候學三堂還四堂，學五十音，"
+  },
+  {
+   "start": 2171.7,
+   "end": 2174.88,
+   "speaker": "Kalan",
+   "text": "你覺得你有把它學起來嗎？就是五十音。"
+  },
+  {
+   "start": 2175.94,
+   "end": 2179.62,
+   "speaker": "Mooly",
+   "text": "我覺得那個時候有學起來七八成。"
+  },
+  {
+   "start": 2179.62,
+   "end": 2181.9,
+   "speaker": "Mooly",
+   "text": "七八成指的是？"
+  },
+  {
+   "start": 2181.9,
+   "end": 2186.06,
+   "speaker": "Mooly",
+   "text": "那些初學者很常搞混的那幾個單字，"
+  },
+  {
+   "start": 2186.06,
+   "end": 2188.88,
+   "speaker": "Mooly",
+   "text": "那幾個長得很像的平假名、片假名，"
+  },
+  {
+   "start": 2189.26,
+   "end": 2191.94,
+   "speaker": "Mooly",
+   "text": "到現在還是會搞混。"
+  },
+  {
+   "start": 2191.94,
+   "end": 2193.04,
+   "speaker": "Mooly",
+   "text": "會搞混。"
+  },
+  {
+   "start": 2193.04,
+   "end": 2193.88,
+   "speaker": "Kalan",
+   "text": "OK，OK。"
+  },
+  {
+   "start": 2195.22,
+   "end": 2195.74,
+   "speaker": "Kalan",
+   "text": "我覺得，"
+  },
+  {
+   "start": 2196.72,
+   "end": 2199.04,
+   "speaker": "Kalan",
+   "text": "講到這個，我就突然想到，"
+  },
+  {
+   "start": 2199.04,
+   "end": 2200.42,
+   "speaker": "Kalan",
+   "text": "其實有很多時候，"
+  },
+  {
+   "start": 2201.1,
+   "end": 2204.34,
+   "speaker": "Kalan",
+   "text": "靠自學是可以完成很多事情的。"
+  },
+  {
+   "start": 2204.34,
+   "end": 2206.7,
+   "speaker": "Kalan",
+   "text": "就是你今天去報名了這一個班，"
+  },
+  {
+   "start": 2206.7,
+   "end": 2208.78,
+   "speaker": "Kalan",
+   "text": "你可能不一定是真的"
+  },
+  {
+   "start": 2209.62,
+   "end": 2213.7,
+   "speaker": "Kalan",
+   "text": "不會，或者是找不到資源等等，"
+  },
+  {
+   "start": 2213.7,
+   "end": 2219.06,
+   "speaker": "Kalan",
+   "text": "而是報名課程比較像是一種強迫自己學習的手段。"
+  },
+  {
+   "start": 2219.06,
+   "end": 2220.62,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯，就是這樣子。"
+  },
+  {
+   "start": 2222.2,
+   "end": 2222.76,
+   "speaker": "Kalan",
+   "text": "好，"
+  },
+  {
+   "start": 2224.22,
+   "end": 2227.76,
+   "speaker": "Kalan",
+   "text": "然後我們來聊聊其他語言。"
+  },
+  {
+   "start": 2229.52,
+   "end": 2230.34,
+   "speaker": "Kalan",
+   "text": "韓文。"
+  },
+  {
+   "start": 2230.96,
+   "end": 2232.36,
+   "speaker": "Kalan",
+   "text": "韓文是"
+  },
+  {
+   "start": 2233.14,
+   "end": 2238.0,
+   "speaker": "Kalan",
+   "text": "我之前有一次，我們要去韓國出差，"
+  },
+  {
+   "start": 2238.8,
+   "end": 2239.4,
+   "speaker": "Kalan",
+   "text": "對。"
+  },
+  {
+   "start": 2239.4,
+   "end": 2242.82,
+   "speaker": "Kalan",
+   "text": "那是一個 global，就是會"
+  },
+  {
+   "start": 2243.48,
+   "end": 2245.82,
+   "speaker": "Kalan",
+   "text": "那一次是一個 global 的 workshop，"
+  },
+  {
+   "start": 2245.82,
+   "end": 2250.34,
+   "speaker": "Kalan",
+   "text": "那會邀請就是每個分部的人來這樣子，"
+  },
+  {
+   "start": 2252.32,
+   "end": 2254.32,
+   "speaker": "Kalan",
+   "text": "然後那個時候就是去韓國。"
+  },
+  {
+   "start": 2254.82,
+   "end": 2255.82,
+   "speaker": "Kalan",
+   "text": "然後就想說，欸，"
+  },
+  {
+   "start": 2255.82,
+   "end": 2257.62,
+   "speaker": "Kalan",
+   "text": "反正去都去了，就"
+  },
+  {
+   "start": 2258.6,
+   "end": 2260.04,
+   "speaker": "Kalan",
+   "text": "順便學一下。"
+  },
+  {
+   "start": 2260.84,
+   "end": 2264.26,
+   "speaker": "Kalan",
+   "text": "那那個時候是買了一本"
+  },
+  {
+   "start": 2264.7,
+   "end": 2266.54,
+   "speaker": "Kalan",
+   "text": "可以學 40 音的書，"
+  },
+  {
+   "start": 2266.54,
+   "end": 2270.36,
+   "speaker": "Kalan",
+   "text": "學四十音跟一些基本文法、單字的書，"
+  },
+  {
+   "start": 2271.04,
+   "end": 2273.16,
+   "speaker": "Kalan",
+   "text": "然後它是用日文寫的。"
+  },
+  {
+   "start": 2274.74,
+   "end": 2275.9,
+   "speaker": "Kalan",
+   "text": "我後來發現，"
+  },
+  {
+   "start": 2276.82,
+   "end": 2279.08,
+   "speaker": "Kalan",
+   "text": "韓文其實有蠻多東西，"
+  },
+  {
+   "start": 2279.08,
+   "end": 2280.22,
+   "speaker": "Kalan",
+   "text": "包含文法，"
+  },
+  {
+   "start": 2281.38,
+   "end": 2284.42,
+   "speaker": "Kalan",
+   "text": "它都跟日文蠻相近的。"
+  },
+  {
+   "start": 2285.84,
+   "end": 2286.84,
+   "speaker": "Kalan",
+   "text": "然後再來，"
+  },
+  {
+   "start": 2286.84,
+   "end": 2289.86,
+   "speaker": "Kalan",
+   "text": "我記得韓文好像是號稱"
+  },
+  {
+   "start": 2290.74,
+   "end": 2292.1,
+   "speaker": "Kalan",
+   "text": "這個識字率，"
+  },
+  {
+   "start": 2292.1,
+   "end": 2295.42,
+   "speaker": "Kalan",
+   "text": "韓國好像號稱是識字率最高的國家，"
+  },
+  {
+   "start": 2296.22,
+   "end": 2301.8,
+   "speaker": "Kalan",
+   "text": "那這一點好像跟他們當初的那個韓文的設計"
+  },
+  {
+   "start": 2301.8,
+   "end": 2302.76,
+   "speaker": "Mooly",
+   "text": "有關？什麼？"
+  },
+  {
+   "start": 2302.76,
+   "end": 2310.92,
+   "speaker": "Kalan",
+   "text": "對，是有關，他們好像是非常有意識地想要把韓文設計成一門非常容易上手的語言這樣子。"
+  },
+  {
+   "start": 2311.62,
+   "end": 2314.52,
+   "speaker": "Kalan",
+   "text": "那總之那個時候呢，我就學了 41 音，"
+  },
+  {
+   "start": 2315.14,
+   "end": 2315.74,
+   "speaker": "Kalan",
+   "text": "那其實"
+  },
+  {
+   "start": 2315.74,
+   "end": 2319.38,
+   "speaker": "Kalan",
+   "text": "基本上大原則學起來了，"
+  },
+  {
+   "start": 2319.78,
+   "end": 2321.7,
+   "speaker": "Kalan",
+   "text": "就算別人看是圈圈文，"
+  },
+  {
+   "start": 2321.7,
+   "end": 2323.24,
+   "speaker": "Kalan",
+   "text": "但是你可能看，"
+  },
+  {
+   "start": 2323.24,
+   "end": 2325.86,
+   "speaker": "Kalan",
+   "text": "其實蠻快就可以去理解了。"
+  },
+  {
+   "start": 2325.86,
+   "end": 2328.6,
+   "speaker": "Kalan",
+   "text": "只是我大概也只能看說"
+  },
+  {
+   "start": 2328.6,
+   "end": 2333.98,
+   "speaker": "Kalan",
+   "text": "這個音要怎麼發，但後面的意思我可能完全不知道，"
+  },
+  {
+   "start": 2333.98,
+   "end": 2336.0,
+   "speaker": "Kalan",
+   "text": "大概就屬在這樣的階段，"
+  },
+  {
+   "start": 2336.0,
+   "end": 2338.52,
+   "speaker": "Mooly",
+   "text": "就是看字可以唸得出來，"
+  },
+  {
+   "start": 2338.52,
+   "end": 2340.88,
+   "speaker": "Mooly",
+   "text": "就跟日文學完五十音差不多。"
+  },
+  {
+   "start": 2340.88,
+   "end": 2343.36,
+   "speaker": "Kalan",
+   "text": "對對對，看到字可以唸得出來，"
+  },
+  {
+   "start": 2343.36,
+   "end": 2345.86,
+   "speaker": "Kalan",
+   "text": "但不知道它是什麼意思這樣子。"
+  },
+  {
+   "start": 2348.52,
+   "end": 2349.58,
+   "speaker": "Kalan",
+   "text": "但我覺得，"
+  },
+  {
+   "start": 2350.68,
+   "end": 2353.02,
+   "speaker": "Kalan",
+   "text": "就我們在學語言的時候，"
+  },
+  {
+   "start": 2353.86,
+   "end": 2358.02,
+   "speaker": "Kalan",
+   "text": "或許可以換另外一種方式來下手。"
+  },
+  {
+   "start": 2358.41,
+   "end": 2363.86,
+   "speaker": "Kalan",
+   "text": "就我之前有看過一個我自己還蠻喜歡的 YouTuber，叫 John Harris，"
+  },
+  {
+   "start": 2363.86,
+   "end": 2367.1,
+   "speaker": "Kalan",
+   "text": "他有一部影片是在講說，"
+  },
+  {
+   "start": 2367.1,
+   "end": 2371.46,
+   "speaker": "Kalan",
+   "text": "欸，他是怎麼很快速地去 pick up 一門新的語言這樣子。"
+  },
+  {
+   "start": 2371.46,
+   "end": 2373.48,
+   "speaker": "Kalan",
+   "text": "那他的做法其實是，"
+  },
+  {
+   "start": 2373.95,
+   "end": 2379.16,
+   "speaker": "Kalan",
+   "text": "他去找生活裡面或日常裡面會出現的，"
+  },
+  {
+   "start": 2379.16,
+   "end": 2381.48,
+   "speaker": "Kalan",
+   "text": "比如說 1000 句句子，"
+  },
+  {
+   "start": 2382.22,
+   "end": 2383.16,
+   "speaker": "Kalan",
+   "text": "然後他"
+  },
+  {
+   "start": 2383.16,
+   "end": 2387.2,
+   "speaker": "Kalan",
+   "text": "就把這 1000 句句子給記起來，"
+  },
+  {
+   "start": 2388.56,
+   "end": 2391.1,
+   "speaker": "Kalan",
+   "text": "然後過了這一階段之後，"
+  },
+  {
+   "start": 2391.1,
+   "end": 2394.36,
+   "speaker": "Kalan",
+   "text": "才開始去學文法。"
+  },
+  {
+   "start": 2396.04,
+   "end": 2398.34,
+   "speaker": "Kalan",
+   "text": "那我覺得可能我"
+  },
+  {
+   "start": 2398.94,
+   "end": 2399.9,
+   "speaker": "Kalan",
+   "text": "韓文吧，"
+  },
+  {
+   "start": 2399.9,
+   "end": 2402.76,
+   "speaker": "Kalan",
+   "text": "韓文如果哪一天我又有動力去學的話呢，"
+  },
+  {
+   "start": 2402.76,
+   "end": 2404.88,
+   "speaker": "Kalan",
+   "text": "我可能也會想要用這樣的方式，就是"
+  },
+  {
+   "start": 2404.88,
+   "end": 2407.84,
+   "speaker": "Kalan",
+   "text": "欸，文法什麼的我剛開始就先不管了，"
+  },
+  {
+   "start": 2407.84,
+   "end": 2414.8,
+   "speaker": "Kalan",
+   "text": "我就去學那些日常中最常出現的那幾個文法，"
+  },
+  {
+   "start": 2415.42,
+   "end": 2418.26,
+   "speaker": "Kalan",
+   "text": "不是文法，是那幾個句型，"
+  },
+  {
+   "start": 2418.26,
+   "end": 2419.74,
+   "speaker": "Kalan",
+   "text": "然後把它背起來。"
+  },
+  {
+   "start": 2420.18,
+   "end": 2424.68,
+   "speaker": "Mooly",
+   "text": "對，我覺得語言學習其實有趣的地方是它有很多不同的方式。"
+  },
+  {
+   "start": 2424.68,
+   "end": 2427.78,
+   "speaker": "Mooly",
+   "text": "像比如說有一種就是最教科書的那種，"
+  },
+  {
+   "start": 2427.78,
+   "end": 2428.68,
+   "speaker": "Mooly",
+   "text": "你就從文法，"
+  },
+  {
+   "start": 2428.68,
+   "end": 2430.52,
+   "speaker": "Mooly",
+   "text": "從那個大家說日語開始，"
+  },
+  {
+   "start": 2430.52,
+   "end": 2432.94,
+   "speaker": "Mooly",
+   "text": "那當然也有很多不同的流派，"
+  },
+  {
+   "start": 2432.94,
+   "end": 2436.82,
+   "speaker": "Mooly",
+   "text": "包含像這種你可能先記 1000 個最常用的東西再開始，"
+  },
+  {
+   "start": 2436.82,
+   "end": 2437.76,
+   "speaker": "Mooly",
+   "text": "或是有些"
+  },
+  {
+   "start": 2438.28,
+   "end": 2442.14,
+   "speaker": "Mooly",
+   "text": "有些也是那種不學文法派的，強調那種自然"
+  },
+  {
+   "start": 2442.14,
+   "end": 2443.28,
+   "speaker": "Mooly",
+   "text": "算自然學習吧。"
+  },
+  {
+   "start": 2443.28,
+   "end": 2446.98,
+   "speaker": "Mooly",
+   "text": "但他當然背後還是要付出很多時間啦。"
+  },
+  {
+   "start": 2446.98,
+   "end": 2450.4,
+   "speaker": "Mooly",
+   "text": "但是他的那種不同方式是，"
+  },
+  {
+   "start": 2450.4,
+   "end": 2454.66,
+   "speaker": "Mooly",
+   "text": "像我自己就比較喜歡不是教科書的那種方式，"
+  },
+  {
+   "start": 2454.66,
+   "end": 2456.34,
+   "speaker": "Mooly",
+   "text": "我自己覺得比較有趣一點。"
+  },
+  {
+   "start": 2456.34,
+   "end": 2458.68,
+   "speaker": "Kalan",
+   "text": "你剛剛講到一個關鍵字就是，"
+  },
+  {
+   "start": 2458.68,
+   "end": 2465.6,
+   "speaker": "Kalan",
+   "text": "欸，這個人可能要學到這樣的程度，可能背後是需要花很多時間的，"
+  },
+  {
+   "start": 2465.6,
+   "end": 2468.24,
+   "speaker": "Kalan",
+   "text": "這件事情的確。"
+  },
+  {
+   "start": 2468.24,
+   "end": 2472.68,
+   "speaker": "Kalan",
+   "text": "就比如說你看到一個人，他的某個外語可能講得很好、"
+  },
+  {
+   "start": 2472.68,
+   "end": 2474.2,
+   "speaker": "Kalan",
+   "text": "很流利，"
+  },
+  {
+   "start": 2474.2,
+   "end": 2475.88,
+   "speaker": "Kalan",
+   "text": "那他可能背後所代表的就是，"
+  },
+  {
+   "start": 2475.88,
+   "end": 2479.62,
+   "speaker": "Kalan",
+   "text": "欸，這個人可能花了很多時間去練這樣子。"
+  },
+  {
+   "start": 2480.7,
+   "end": 2483.74,
+   "speaker": "Kalan",
+   "text": "又或者他很幸運，"
+  },
+  {
+   "start": 2483.74,
+   "end": 2486.32,
+   "speaker": "Kalan",
+   "text": "可能從小就是在這樣的環境下長大。"
+  },
+  {
+   "start": 2486.32,
+   "end": 2487.72,
+   "speaker": "Mooly",
+   "text": "對對對，這個也有可能。"
+  },
+  {
+   "start": 2489.82,
+   "end": 2493.5,
+   "speaker": "Mooly",
+   "text": "那接著來聊一下我自己學過的其他語言好了。"
+  },
+  {
+   "start": 2493.96,
+   "end": 2494.4,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 2494.4,
+   "end": 2499.78,
+   "speaker": "Mooly",
+   "text": "就我剛一開始有講嘛，我那時候進台大的時候，他英文自己幫我選了那堂課，"
+  },
+  {
+   "start": 2500.18,
+   "end": 2502.96,
+   "speaker": "Mooly",
+   "text": "但我不想上英文課，"
+  },
+  {
+   "start": 2502.96,
+   "end": 2505.38,
+   "speaker": "Mooly",
+   "text": "所以我就選了一個別的語言。"
+  },
+  {
+   "start": 2505.38,
+   "end": 2507.14,
+   "speaker": "Mooly",
+   "text": "我那時候選了德文。"
+  },
+  {
+   "start": 2507.62,
+   "end": 2508.4,
+   "speaker": "Kalan",
+   "text": "德文？"
+  },
+  {
+   "start": 2508.4,
+   "end": 2509.0,
+   "speaker": "Kalan",
+   "text": "哇。"
+  },
+  {
+   "start": 2509.9,
+   "end": 2513.0,
+   "speaker": "Mooly",
+   "text": "但是只有修了一個學期就沒有上了，"
+  },
+  {
+   "start": 2513.0,
+   "end": 2514.98,
+   "speaker": "Mooly",
+   "text": "所以我現在基本上也忘光了。"
+  },
+  {
+   "start": 2514.98,
+   "end": 2519.42,
+   "speaker": "Mooly",
+   "text": "反正就是有過這個半年學德文的這個經歷，"
+  },
+  {
+   "start": 2519.42,
+   "end": 2520.34,
+   "speaker": "Mooly",
+   "text": "蠻有趣的。"
+  },
+  {
+   "start": 2523.18,
+   "end": 2525.08,
+   "speaker": "Mooly",
+   "text": "的確是蠻有趣的。"
+  },
+  {
+   "start": 2526.42,
+   "end": 2532.1,
+   "speaker": "Kalan",
+   "text": "讓我插題一下，我突然想到我那個可愛的法國同事，"
+  },
+  {
+   "start": 2533.14,
+   "end": 2535.48,
+   "speaker": "Kalan",
+   "text": "就我們那時候有在聊那個，"
+  },
+  {
+   "start": 2535.48,
+   "end": 2537.8,
+   "speaker": "Kalan",
+   "text": "你有聽過《天氣之子》嗎？"
+  },
+  {
+   "start": 2537.8,
+   "end": 2538.36,
+   "speaker": "Kalan",
+   "text": "它是一部電"
+  },
+  {
+   "start": 2539.6,
+   "end": 2539.88,
+   "speaker": "Kalan",
+   "text": "就，"
+  },
+  {
+   "start": 2540.9,
+   "end": 2542.62,
+   "speaker": "Kalan",
+   "text": "他說在法文，"
+  },
+  {
+   "start": 2542.62,
+   "end": 2546.84,
+   "speaker": "Kalan",
+   "text": "好像天氣跟時間是一樣的單字，"
+  },
+  {
+   "start": 2547.68,
+   "end": 2548.78,
+   "speaker": "Kalan",
+   "text": "然後呢，"
+  },
+  {
+   "start": 2548.78,
+   "end": 2556.36,
+   "speaker": "Kalan",
+   "text": "他那時候第一次看到這個《天氣之子》這個電影的時候，他不知道是天氣之子還是時間之子，"
+  },
+  {
+   "start": 2557.38,
+   "end": 2558.4,
+   "speaker": "Mooly",
+   "text": "發音是一樣"
+  },
+  {
+   "start": 2558.4,
+   "end": 2561.52,
+   "speaker": "Kalan",
+   "text": "的。"
+  },
+  {
+   "start": 2563.12,
+   "end": 2565.42,
+   "speaker": "Kalan",
+   "text": "但我就有下一個疑問就是，"
+  },
+  {
+   "start": 2565.42,
+   "end": 2569.94,
+   "speaker": "Kalan",
+   "text": "為什麼天氣跟時間是一樣的，"
+  },
+  {
+   "start": 2569.94,
+   "end": 2572.0,
+   "speaker": "Kalan",
+   "text": "你要用同樣的單字來表達？"
+  },
+  {
+   "start": 2572.0,
+   "end": 2574.36,
+   "speaker": "Mooly",
+   "text": "你說它連單字都是一樣的是吧？"
+  },
+  {
+   "start": 2575.22,
+   "end": 2578.3,
+   "speaker": "Mooly",
+   "text": "這個可能就是語言有趣的部分了。"
+  },
+  {
+   "start": 2578.3,
+   "end": 2579.5,
+   "speaker": "Kalan",
+   "text": "語言有趣的部分。"
+  },
+  {
+   "start": 2579.5,
+   "end": 2583.1,
+   "speaker": "Mooly",
+   "text": "對，它應該是有那個背後的各種歷史典故，"
+  },
+  {
+   "start": 2583.1,
+   "end": 2583.84,
+   "speaker": "Mooly",
+   "text": "這個，"
+  },
+  {
+   "start": 2584.86,
+   "end": 2587.72,
+   "speaker": "Mooly",
+   "text": "我覺得算是學語言裡面很有趣的一部分。"
+  },
+  {
+   "start": 2588.12,
+   "end": 2588.92,
+   "speaker": "Mooly",
+   "text": "就像是，"
+  },
+  {
+   "start": 2588.92,
+   "end": 2591.9,
+   "speaker": "Mooly",
+   "text": "我其實還有第二個也學過半年的語言，"
+  },
+  {
+   "start": 2591.9,
+   "end": 2594.08,
+   "speaker": "Mooly",
+   "text": "是一個非常冷門的語言，"
+  },
+  {
+   "start": 2594.08,
+   "end": 2596.06,
+   "speaker": "Mooly",
+   "text": "叫做滿文。"
+  },
+  {
+   "start": 2596.06,
+   "end": 2597.2,
+   "speaker": "Kalan",
+   "text": "滿文喔？"
+  },
+  {
+   "start": 2597.2,
+   "end": 2597.44,
+   "speaker": "Mooly",
+   "text": "對。"
+  },
+  {
+   "start": 2597.44,
+   "end": 2600.12,
+   "speaker": "Mooly",
+   "text": "就是在那個清，"
+  },
+  {
+   "start": 2600.86,
+   "end": 2601.92,
+   "speaker": "Mooly",
+   "text": "清朝嗎？"
+  },
+  {
+   "start": 2601.92,
+   "end": 2603.06,
+   "speaker": "Mooly",
+   "text": "清朝。"
+  },
+  {
+   "start": 2603.54,
+   "end": 2607.46,
+   "speaker": "Mooly",
+   "text": "那個就比如說你去什麼紫禁城上面看到那個，"
+  },
+  {
+   "start": 2608.4,
+   "end": 2609.12,
+   "speaker": "Mooly",
+   "text": "匾額，"
+  },
+  {
+   "start": 2609.12,
+   "end": 2613.36,
+   "speaker": "Mooly",
+   "text": "牌匾上面除了漢字以外，他會寫一個東西，那個就是滿文。"
+  },
+  {
+   "start": 2615.96,
+   "end": 2619.62,
+   "speaker": "Mooly",
+   "text": "然後這個也是在大學學的，那個時候剛好有。"
+  },
+  {
+   "start": 2619.62,
+   "end": 2626.74,
+   "speaker": "Mooly",
+   "text": "就那個時段剛好我想要修課，然後就會找那個時段有什麼課是開的，就找到這個滿文。"
+  },
+  {
+   "start": 2627.26,
+   "end": 2631.1,
+   "speaker": "Mooly",
+   "text": "然後我覺得滿文有趣的地方在於，它"
+  },
+  {
+   "start": 2631.62,
+   "end": 2634.82,
+   "speaker": "Mooly",
+   "text": "第一個，它其實是一個快死掉的語言。"
+  },
+  {
+   "start": 2634.82,
+   "end": 2636.54,
+   "speaker": "Mooly",
+   "text": "它現在基本上沒有什麼人"
+  },
+  {
+   "start": 2637.5,
+   "end": 2637.98,
+   "speaker": "Mooly",
+   "text": "所以"
+  },
+  {
+   "start": 2638.54,
+   "end": 2643.18,
+   "speaker": "Mooly",
+   "text": "學的人比較多反而是那種跟歷史有關的，"
+  },
+  {
+   "start": 2643.18,
+   "end": 2646.8,
+   "speaker": "Mooly",
+   "text": "因為很多歷史文獻它可能是滿文。"
+  },
+  {
+   "start": 2646.8,
+   "end": 2652.28,
+   "speaker": "Mooly",
+   "text": "那時候上那個課，我印象最深的是它有些"
+  },
+  {
+   "start": 2653.1,
+   "end": 2662.5,
+   "speaker": "Mooly",
+   "text": "一樣是跟背後語言的一些知識滿有關的，就比如說以前學那個中國地理的時候，可能有一條江叫什麼鴨綠江嘛。"
+  },
+  {
+   "start": 2663.84,
+   "end": 2665.22,
+   "speaker": "Mooly",
+   "text": "然後鴨綠江"
+  },
+  {
+   "start": 2665.22,
+   "end": 2667.86,
+   "speaker": "Mooly",
+   "text": "之所以會叫鴨綠江，其實是因為那個"
+  },
+  {
+   "start": 2668.4,
+   "end": 2672.28,
+   "speaker": "Mooly",
+   "text": "鴨綠這個字在滿文裡面是邊界的意思，"
+  },
+  {
+   "start": 2672.76,
+   "end": 2674.94,
+   "speaker": "Mooly",
+   "text": "所以它其實就只是邊界的一條江，"
+  },
+  {
+   "start": 2674.94,
+   "end": 2681.0,
+   "speaker": "Mooly",
+   "text": "它跟鴨跟綠一點關係都沒有，它只是發音直接音譯的樣子。"
+  },
+  {
+   "start": 2682.28,
+   "end": 2688.3,
+   "speaker": "Mooly",
+   "text": "所以像這種小知識，就會讓你在學語言的時候覺得很有趣。"
+  },
+  {
+   "start": 2688.3,
+   "end": 2691.02,
+   "speaker": "Mooly",
+   "text": "尤其是滿文的書寫，它是"
+  },
+  {
+   "start": 2691.64,
+   "end": 2694.28,
+   "speaker": "Mooly",
+   "text": "它是有點像是那種"
+  },
+  {
+   "start": 2694.88,
+   "end": 2699.98,
+   "speaker": "Mooly",
+   "text": "比如說我記得好像阿拉伯文還有什麼也是，它就是一條，然後寫到底，"
+  },
+  {
+   "start": 2700.66,
+   "end": 2705.2,
+   "speaker": "Mooly",
+   "text": "就是它不是一個字一個字分開的，比如像滿文它是由上到下，"
+  },
+  {
+   "start": 2705.2,
+   "end": 2707.84,
+   "speaker": "Mooly",
+   "text": "然後它就是一長條，"
+  },
+  {
+   "start": 2707.84,
+   "end": 2716.4,
+   "speaker": "Mooly",
+   "text": "就是我們看起來它很像毛毛蟲那樣，就是有很多，比如說這邊左邊凸一根，那邊右邊凸一根，然後什麼什麼，它是這樣，"
+  },
+  {
+   "start": 2716.4,
+   "end": 2722.5,
+   "speaker": "Mooly",
+   "text": "一長條的文字，它書寫方式甚至是書寫方式也跟其他學過的是完全不一樣的。"
+  },
+  {
+   "start": 2722.92,
+   "end": 2723.28,
+   "speaker": "Kalan",
+   "text": "喔。"
+  },
+  {
+   "start": 2723.28,
+   "end": 2725.44,
+   "speaker": "Kalan",
+   "text": "你當初為什麼會想要去學？"
+  },
+  {
+   "start": 2726.04,
+   "end": 2731.12,
+   "speaker": "Mooly",
+   "text": "當初其實就是因為，只是因為看到滿文覺得這個好像很有趣。"
+  },
+  {
+   "start": 2731.12,
+   "end": 2731.92,
+   "speaker": "Mooly",
+   "text": "就我本來"
+  },
+  {
+   "start": 2732.56,
+   "end": 2733.28,
+   "speaker": "Mooly",
+   "text": "比如說"
+  },
+  {
+   "start": 2733.82,
+   "end": 2740.96,
+   "speaker": "Mooly",
+   "text": "因為剛好其實這種語言，如果你不是在大學，你還真的很難去學到，比如像是滿文、"
+  },
+  {
+   "start": 2740.96,
+   "end": 2741.58,
+   "speaker": "Mooly",
+   "text": "蒙文、"
+  },
+  {
+   "start": 2741.58,
+   "end": 2742.22,
+   "speaker": "Mooly",
+   "text": "藏文，"
+  },
+  {
+   "start": 2742.22,
+   "end": 2743.18,
+   "speaker": "Mooly",
+   "text": "這幾個其實"
+  },
+  {
+   "start": 2743.92,
+   "end": 2747.28,
+   "speaker": "Mooly",
+   "text": "其實如果你不在大學學的話，我也不知道你可以去哪裡特別學，"
+  },
+  {
+   "start": 2747.28,
+   "end": 2749.72,
+   "speaker": "Mooly",
+   "text": "就當然也不會有語言補習班這種東西。"
+  },
+  {
+   "start": 2751.56,
+   "end": 2752.0,
+   "speaker": "Mooly",
+   "text": "然後"
+  },
+  {
+   "start": 2752.0,
+   "end": 2753.62,
+   "speaker": "Mooly",
+   "text": "還有一個很有趣的是，"
+  },
+  {
+   "start": 2753.62,
+   "end": 2756.4,
+   "speaker": "Mooly",
+   "text": "那個時候我們上滿文課用的詞典，"
+  },
+  {
+   "start": 2756.84,
+   "end": 2759.2,
+   "speaker": "Mooly",
+   "text": "它不是滿文翻中文，"
+  },
+  {
+   "start": 2759.2,
+   "end": 2761.4,
+   "speaker": "Mooly",
+   "text": "它是叫做滿和詞典，"
+  },
+  {
+   "start": 2761.4,
+   "end": 2763.84,
+   "speaker": "Mooly",
+   "text": "那個和就是日文的意思，"
+  },
+  {
+   "start": 2763.84,
+   "end": 2767.3,
+   "speaker": "Mooly",
+   "text": "它是滿文翻日文的詞典。"
+  },
+  {
+   "start": 2767.3,
+   "end": 2773.7,
+   "speaker": "Mooly",
+   "text": "原因是因為在做這一塊研究的，好像很多人都是日本人比較多嗎？"
+  },
+  {
+   "start": 2773.7,
+   "end": 2774.08,
+   "speaker": "Mooly",
+   "text": "所以"
+  },
+  {
+   "start": 2774.76,
+   "end": 2777.54,
+   "speaker": "Mooly",
+   "text": "它最權威的一本，"
+  },
+  {
+   "start": 2778.84,
+   "end": 2780.6,
+   "speaker": "Mooly",
+   "text": "甚至是滿和詞典，"
+  },
+  {
+   "start": 2780.6,
+   "end": 2782.96,
+   "speaker": "Mooly",
+   "text": "而不是其他的語言。"
+  },
+  {
+   "start": 2782.96,
+   "end": 2783.56,
+   "speaker": "Kalan",
+   "text": "哦。"
+  },
+  {
+   "start": 2783.56,
+   "end": 2784.56,
+   "speaker": "Kalan",
+   "text": "了解。"
+  },
+  {
+   "start": 2785.32,
+   "end": 2788.48,
+   "speaker": "Mooly",
+   "text": "所以那時候基本上修課的同學很多都是"
+  },
+  {
+   "start": 2789.12,
+   "end": 2794.38,
+   "speaker": "Mooly",
+   "text": "歷史系或中文系，他們在做這方面的研究的，就會需要去學這個，或是"
+  },
+  {
+   "start": 2794.38,
+   "end": 2796.12,
+   "speaker": "Mooly",
+   "text": "像我記得好像也有些"
+  },
+  {
+   "start": 2796.78,
+   "end": 2801.78,
+   "speaker": "Mooly",
+   "text": "一樣是這種，比如說歷史、中文、哲學這些科系的人，可能會去學那個蒙文跟藏文，"
+  },
+  {
+   "start": 2801.78,
+   "end": 2802.8,
+   "speaker": "Mooly",
+   "text": "因為他們的那個"
+  },
+  {
+   "start": 2802.8,
+   "end": 2806.74,
+   "speaker": "Mooly",
+   "text": "某個經典可能就是用那個文字寫成的。"
+  },
+  {
+   "start": 2806.74,
+   "end": 2807.34,
+   "speaker": "Kalan",
+   "text": "哦，"
+  },
+  {
+   "start": 2807.96,
+   "end": 2808.62,
+   "speaker": "Kalan",
+   "text": "原來是這樣。"
+  },
+  {
+   "start": 2809.26,
+   "end": 2810.48,
+   "speaker": "Kalan",
+   "text": "蠻有趣的。"
+  },
+  {
+   "start": 2811.12,
+   "end": 2815.52,
+   "speaker": "Mooly",
+   "text": "對，我覺得語言學習是個蠻有趣的東西，"
+  },
+  {
+   "start": 2815.52,
+   "end": 2819.82,
+   "speaker": "Mooly",
+   "text": "但它需要花很多時間你才能"
+  },
+  {
+   "start": 2819.82,
+   "end": 2821.36,
+   "speaker": "Mooly",
+   "text": "就我覺得它的"
+  },
+  {
+   "start": 2824.54,
+   "end": 2830.96,
+   "speaker": "Mooly",
+   "text": "就是你需要學到某一個可以用的程度，它需要花的時間比較多嗎？"
+  },
+  {
+   "start": 2830.96,
+   "end": 2834.46,
+   "speaker": "Mooly",
+   "text": "就是它沒辦法，比如說像你今天學寫 code，你可能"
+  },
+  {
+   "start": 2835.26,
+   "end": 2838.18,
+   "speaker": "Mooly",
+   "text": "一個禮拜或三天，你就可以寫一個簡單的"
+  },
+  {
+   "start": 2838.18,
+   "end": 2839.32,
+   "speaker": "Mooly",
+   "text": "東西去做什麼。"
+  },
+  {
+   "start": 2839.32,
+   "end": 2843.28,
+   "speaker": "Mooly",
+   "text": "但是語言學習，你可能沒有學個一個月或什麼的話，"
+  },
+  {
+   "start": 2843.28,
+   "end": 2847.64,
+   "speaker": "Mooly",
+   "text": "你就只能講那一兩句嗎？"
+  },
+  {
+   "start": 2847.64,
+   "end": 2850.3,
+   "speaker": "Mooly",
+   "text": "或者說，它要深入溝通的時候就比較困難，"
+  },
+  {
+   "start": 2850.3,
+   "end": 2851.28,
+   "speaker": "Kalan",
+   "text": "的確。"
+  },
+  {
+   "start": 2852.26,
+   "end": 2856.52,
+   "speaker": "Kalan",
+   "text": "不過我自己覺得，可能也不算壞事。"
+  },
+  {
+   "start": 2857.48,
+   "end": 2858.84,
+   "speaker": "Mooly",
+   "text": "可能也不算壞事。"
+  },
+  {
+   "start": 2860.3,
+   "end": 2860.82,
+   "speaker": "Mooly",
+   "text": "沒錯。"
+  },
+  {
+   "start": 2861.56,
+   "end": 2862.16,
+   "speaker": "Kalan",
+   "text": "欸，那"
+  },
+  {
+   "start": 2862.64,
+   "end": 2865.92,
+   "speaker": "Kalan",
+   "text": "我有點蠻好奇的，就是"
+  },
+  {
+   "start": 2865.92,
+   "end": 2870.1,
+   "speaker": "Kalan",
+   "text": "因為之前我們在學習語言的時候，其實 AI 都還沒有出現，"
+  },
+  {
+   "start": 2870.1,
+   "end": 2875.8,
+   "speaker": "Kalan",
+   "text": "也不能說沒有出現，就是它可能還沒有發展到說"
+  },
+  {
+   "start": 2876.5,
+   "end": 2880.84,
+   "speaker": "Kalan",
+   "text": "像一般人也可以非常輕鬆去存取或者是操作的地步，"
+  },
+  {
+   "start": 2880.84,
+   "end": 2883.08,
+   "speaker": "Kalan",
+   "text": "以及精確度可能也還不夠。"
+  },
+  {
+   "start": 2883.08,
+   "end": 2887.28,
+   "speaker": "Kalan",
+   "text": "但現在的話，畢竟都已經發展到現在，你甚至可以"
+  },
+  {
+   "start": 2887.86,
+   "end": 2894.34,
+   "speaker": "Kalan",
+   "text": "像最近不是還有一些什麼 AI 跟 AI 對話之類的這種應用嗎？"
+  },
+  {
+   "start": 2894.34,
+   "end": 2895.68,
+   "speaker": "Kalan",
+   "text": "那我想說，"
+  },
+  {
+   "start": 2895.68,
+   "end": 2898.62,
+   "speaker": "Kalan",
+   "text": "如果是放到現在，"
+  },
+  {
+   "start": 2899.16,
+   "end": 2901.18,
+   "speaker": "Kalan",
+   "text": "語言學習這件事情，"
+  },
+  {
+   "start": 2902.5,
+   "end": 2904.88,
+   "speaker": "Kalan",
+   "text": "你覺得它會變得更簡單嗎？"
+  },
+  {
+   "start": 2904.88,
+   "end": 2908.24,
+   "speaker": "Kalan",
+   "text": "就是比如說我可能同樣要去 pick up 一個新的語言，"
+  },
+  {
+   "start": 2908.82,
+   "end": 2914.64,
+   "speaker": "Kalan",
+   "text": "那我搭配的這些 AI 工具，它會變得比較快嗎？還是會變得比較簡單嗎？"
+  },
+  {
+   "start": 2915.24,
+   "end": 2921.38,
+   "speaker": "Mooly",
+   "text": "我自己其實覺得會，但是程度沒有差這麼多。"
+  },
+  {
+   "start": 2921.38,
+   "end": 2922.28,
+   "speaker": "Mooly",
+   "text": "比如說好了，"
+  },
+  {
+   "start": 2922.28,
+   "end": 2924.48,
+   "speaker": "Mooly",
+   "text": "比如說我覺得最根本的差異在於說，"
+  },
+  {
+   "start": 2924.48,
+   "end": 2926.52,
+   "speaker": "Mooly",
+   "text": "比如說你讓 AI 寫 code 的話，"
+  },
+  {
+   "start": 2926.52,
+   "end": 2928.62,
+   "speaker": "Mooly",
+   "text": "你讓 AI 幫你寫程式的話，"
+  },
+  {
+   "start": 2928.62,
+   "end": 2931.94,
+   "speaker": "Mooly",
+   "text": "AI 是把你的那個結果直接給你，"
+  },
+  {
+   "start": 2932.5,
+   "end": 2935.58,
+   "speaker": "Mooly",
+   "text": "所以它可以省掉你去寫的那個時間。"
+  },
+  {
+   "start": 2936.36,
+   "end": 2938.36,
+   "speaker": "Mooly",
+   "text": "語言學習的話，它不能把結果給你，"
+  },
+  {
+   "start": 2938.36,
+   "end": 2940.86,
+   "speaker": "Mooly",
+   "text": "它只是幫助你去學習。"
+  },
+  {
+   "start": 2941.4,
+   "end": 2946.0,
+   "speaker": "Mooly",
+   "text": "語言學習本身，它可能已經是一個相對成熟的領域，"
+  },
+  {
+   "start": 2946.0,
+   "end": 2951.54,
+   "speaker": "Mooly",
+   "text": "就是說你真的要學習語言，其實有時候可能 AI 講出來那些東西，"
+  },
+  {
+   "start": 2951.54,
+   "end": 2954.12,
+   "speaker": "Mooly",
+   "text": "跟你自己去市面上買那些書的東西，"
+  },
+  {
+   "start": 2954.12,
+   "end": 2957.56,
+   "speaker": "Mooly",
+   "text": "它其實講的東西是差不多的，你其實本來就有，"
+  },
+  {
+   "start": 2957.56,
+   "end": 2962.04,
+   "speaker": "Mooly",
+   "text": "你只是現在用 AI，你可以用更方便的管道去存取它。"
+  },
+  {
+   "start": 2962.04,
+   "end": 2963.46,
+   "speaker": "Mooly",
+   "text": "那還有另外一點是，"
+  },
+  {
+   "start": 2963.46,
+   "end": 2965.5,
+   "speaker": "Mooly",
+   "text": "你剛剛講可能它比較客製化，"
+  },
+  {
+   "start": 2965.5,
+   "end": 2966.68,
+   "speaker": "Mooly",
+   "text": "你可以跟 AI 說，"
+  },
+  {
+   "start": 2966.68,
+   "end": 2970.24,
+   "speaker": "Mooly",
+   "text": "你可以跟 AI 直接練習對答什麼的，"
+  },
+  {
+   "start": 2970.24,
+   "end": 2979.14,
+   "speaker": "Mooly",
+   "text": "那它原本其實是比如說你要找真人老師，然後排課程，你才有辦法享受這個真人問答的服務。"
+  },
+  {
+   "start": 2979.14,
+   "end": 2980.68,
+   "speaker": "Mooly",
+   "text": "所以我說它會"
+  },
+  {
+   "start": 2981.22,
+   "end": 2983.14,
+   "speaker": "Mooly",
+   "text": "稍微降低一點，可能"
+  },
+  {
+   "start": 2983.82,
+   "end": 2986.28,
+   "speaker": "Mooly",
+   "text": "就是你可能本來有在學的人來說的話，"
+  },
+  {
+   "start": 2986.74,
+   "end": 2988.34,
+   "speaker": "Mooly",
+   "text": "你會需要"
+  },
+  {
+   "start": 2988.78,
+   "end": 2992.96,
+   "speaker": "Mooly",
+   "text": "你可能可以花更少時間去找到更適合、更客製化的資源，"
+  },
+  {
+   "start": 2993.96,
+   "end": 3001.28,
+   "speaker": "Mooly",
+   "text": "但是它沒有辦法像學控那樣，就是帶來革命性的差別。"
+  },
+  {
+   "start": 3001.28,
+   "end": 3005.06,
+   "speaker": "Kalan",
+   "text": "的確，因為畢竟語言學習這件事情是"
+  },
+  {
+   "start": 3005.5,
+   "end": 3008.44,
+   "speaker": "Kalan",
+   "text": "怎麼講，它是需要付出刻意練習"
+  },
+  {
+   "start": 3009.04,
+   "end": 3010.4,
+   "speaker": "Kalan",
+   "text": "這件事情來達成的。"
+  },
+  {
+   "start": 3010.4,
+   "end": 3014.48,
+   "speaker": "Kalan",
+   "text": "就如果你今天要真的把一門語言學好的話，"
+  },
+  {
+   "start": 3014.98,
+   "end": 3017.86,
+   "speaker": "Kalan",
+   "text": "它可能比較難是說，"
+  },
+  {
+   "start": 3017.86,
+   "end": 3020.82,
+   "speaker": "Kalan",
+   "text": "欸，我就把這篇文章丟進去，"
+  },
+  {
+   "start": 3022.22,
+   "end": 3025.04,
+   "speaker": "Kalan",
+   "text": "然後這個 AI 幫我看，"
+  },
+  {
+   "start": 3025.04,
+   "end": 3026.52,
+   "speaker": "Kalan",
+   "text": "然後幫我整理單字，"
+  },
+  {
+   "start": 3026.52,
+   "end": 3028.04,
+   "speaker": "Kalan",
+   "text": "那整理完單字之後，"
+  },
+  {
+   "start": 3028.88,
+   "end": 3030.6,
+   "speaker": "Kalan",
+   "text": "還是你自己這個人"
+  },
+  {
+   "start": 3030.6,
+   "end": 3034.02,
+   "speaker": "Kalan",
+   "text": "你要去學、要去背起來的感覺。"
+  },
+  {
+   "start": 3034.02,
+   "end": 3035.66,
+   "speaker": "Mooly",
+   "text": "沒錯沒錯沒錯。"
+  },
+  {
+   "start": 3037.12,
+   "end": 3039.66,
+   "speaker": "Kalan",
+   "text": "好，那我們今天，"
+  },
+  {
+   "start": 3039.66,
+   "end": 3041.04,
+   "speaker": "Kalan",
+   "text": "今天講了蠻多的，"
+  },
+  {
+   "start": 3041.04,
+   "end": 3043.62,
+   "speaker": "Kalan",
+   "text": "那不然我們今天就到這邊好了。"
+  },
+  {
+   "start": 3043.62,
+   "end": 3044.2,
+   "speaker": "Mooly",
+   "text": "好。"
+  },
+  {
+   "start": 3046.12,
+   "end": 3049.12,
+   "speaker": "Kalan",
+   "text": "那今天一樣非常感謝大家的收聽，"
+  },
+  {
+   "start": 3049.78,
+   "end": 3053.88,
+   "speaker": "Kalan",
+   "text": "然後就是在尾聲呢，"
+  },
+  {
+   "start": 3053.88,
+   "end": 3056.36,
+   "speaker": "Kalan",
+   "text": "想要跟大家講一下，就是我們的"
+  },
+  {
+   "start": 3056.98,
+   "end": 3059.62,
+   "speaker": "Kalan",
+   "text": "八百屋 Boys 官網上線啦！"
+  },
+  {
+   "start": 3059.62,
+   "end": 3061.54,
+   "speaker": "Mooly",
+   "text": "上線了上線了。"
+  },
+  {
+   "start": 3061.54,
+   "end": 3067.9,
+   "speaker": "Kalan",
+   "text": "那你可以到 yayaboys.com 去看我們的官網。"
+  },
+  {
+   "start": 3067.9,
+   "end": 3071.86,
+   "speaker": "Kalan",
+   "text": "那官網裡面主要是會放一些 show notes 這樣子，"
+  },
+  {
+   "start": 3073.18,
+   "end": 3078.98,
+   "speaker": "Kalan",
+   "text": "會放一些可能我們在節目上有稍微提到，"
+  },
+  {
+   "start": 3078.98,
+   "end": 3082.86,
+   "speaker": "Kalan",
+   "text": "但是沒辦法完全講完的一些連結或者是資源等等。"
+  },
+  {
+   "start": 3083.7,
+   "end": 3088.4,
+   "speaker": "Kalan",
+   "text": "所以如果你想要看更多的話，可以到我們的官網。"
+  },
+  {
+   "start": 3088.4,
+   "end": 3091.06,
+   "speaker": "Kalan",
+   "text": "那之後呢，預計啦，預計，"
+  },
+  {
+   "start": 3092.66,
+   "end": 3094.56,
+   "speaker": "Kalan",
+   "text": "如果有動力做的話，"
+  },
+  {
+   "start": 3094.56,
+   "end": 3096.22,
+   "speaker": "Kalan",
+   "text": "就是我想要把逐字稿"
+  },
+  {
+   "start": 3096.84,
+   "end": 3097.96,
+   "speaker": "Kalan",
+   "text": "也放上去，"
+  },
+  {
+   "start": 3097.96,
+   "end": 3101.94,
+   "speaker": "Kalan",
+   "text": "然後再加一些，比如說 AI 提取出來的大綱等等、"
+  },
+  {
+   "start": 3102.54,
+   "end": 3103.38,
+   "speaker": "Mooly",
+   "text": "摘要什麼的。"
+  },
+  {
+   "start": 3103.38,
+   "end": 3104.08,
+   "speaker": "Kalan",
+   "text": "對對對，這樣。"
+  },
+  {
+   "start": 3105.24,
+   "end": 3105.72,
+   "speaker": "Kalan",
+   "text": "Maybe，"
+  },
+  {
+   "start": 3106.24,
+   "end": 3109.1,
+   "speaker": "Kalan",
+   "text": "如果有一些讀者可能時間不夠的話，"
+  },
+  {
+   "start": 3109.1,
+   "end": 3111.6,
+   "speaker": "Kalan",
+   "text": "就可以先看一下這集的 show notes，"
+  },
+  {
+   "start": 3111.6,
+   "end": 3113.24,
+   "speaker": "Kalan",
+   "text": "然後再來決定要不要聽這樣子。"
+  },
+  {
+   "start": 3114.3,
+   "end": 3114.78,
+   "speaker": "Kalan",
+   "text": "好。"
+  },
+  {
+   "start": 3114.78,
+   "end": 3117.26,
+   "speaker": "Kalan",
+   "text": "那今天的節目就到這邊啦。"
+  },
+  {
+   "start": 3117.26,
+   "end": 3119.22,
+   "speaker": "Kalan",
+   "text": "喜歡的話歡迎訂閱跟分享"
+  },
+  {
+   "start": 3119.22,
+   "end": 3120.58,
+   "speaker": "Kalan",
+   "text": "給你身邊的好朋友知道喔。"
+  },
+  {
+   "start": 3120.58,
+   "end": 3121.68,
+   "speaker": "Kalan",
+   "text": "如果有任何回饋的話，"
+  },
+  {
+   "start": 3121.68,
+   "end": 3124.56,
+   "speaker": "Kalan",
+   "text": "可以透過說明欄的表單或寄信給我們。"
+  },
+  {
+   "start": 3124.56,
+   "end": 3125.18,
+   "speaker": "Kalan",
+   "text": "我是 Kalan。"
+  },
+  {
+   "start": 3125.18,
+   "end": 3126.28,
+   "speaker": "Mooly",
+   "text": "我是 Mooly。"
+  },
+  {
+   "start": 3126.28,
+   "end": 3127.9,
+   "speaker": "Kalan",
+   "text": "我們下次見。"
+  },
+  {
+   "start": 3127.9,
+   "end": 3128.52,
+   "speaker": "Kalan",
+   "text": "掰掰。"
+  }
+ ]
+}
